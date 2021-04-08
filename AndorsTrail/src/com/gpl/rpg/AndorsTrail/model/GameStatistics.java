@@ -15,7 +15,6 @@ import android.content.res.Resources;
 
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
-import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
@@ -23,9 +22,9 @@ import com.gpl.rpg.AndorsTrail.model.quest.Quest;
 
 public final class GameStatistics {
 	private int deaths = 0;
-	private final HashMap<String, Integer> killedMonsters = new HashMap<String, Integer>();
-	private final HashMap<String, Integer> usedItems = new HashMap<String, Integer>();
+	private final HashMap<String, Integer> killedMonstersByTypeID = new HashMap<String, Integer>();
 	private final HashMap<String, Integer> killedMonstersByName = new HashMap<String, Integer>();
+	private final HashMap<String, Integer> usedItems = new HashMap<String, Integer>();
 	private int spentGold = 0;
 	private boolean unlimitedSaves = true;
 	private int startLives = -1; // -1 --> unlimited
@@ -37,7 +36,7 @@ public final class GameStatistics {
 
 	public void addMonsterKill(MonsterType monsterType) {
 		// Track monster kills by type ID, for savegame file
-		killedMonsters.put(monsterType.id, killedMonsters.getOrDefault((monsterType.id), 0) + 1);
+		killedMonstersByTypeID.put(monsterType.id, killedMonstersByTypeID.getOrDefault((monsterType.id), 0) + 1);
 
 		// Also track by name, for statistics display (multiple IDs w/same name don't matter to player)
 		killedMonstersByName.put(monsterType.name, killedMonstersByName.getOrDefault(monsterType.name, 0) + 1);
@@ -74,7 +73,7 @@ public final class GameStatistics {
 	public boolean isDead() { return !hasUnlimitedLives() && getLivesLeft() < 1; }
 
 	public int getNumberOfKillsForMonsterType(String monsterTypeID) {
-		Integer v = killedMonsters.get(monsterTypeID);
+		Integer v = killedMonstersByTypeID.get(monsterTypeID);
 		if (v == null) return 0;
 		return v;
 	}
@@ -86,7 +85,7 @@ public final class GameStatistics {
 	}
 
 	public String getTop5MostCommonlyKilledMonsters(WorldContext world, Resources res) {
-		if (killedMonsters.isEmpty()) return null;
+		if (killedMonstersByTypeID.isEmpty()) return null;
 		List<Entry<String, Integer>> entries = new ArrayList<Entry<String, Integer>>(killedMonstersByName.entrySet());
 		Collections.sort(entries, descendingValueComparator);
 		StringBuilder sb = new StringBuilder(100);
@@ -99,9 +98,9 @@ public final class GameStatistics {
 	}
 
 	public String getMostPowerfulKilledMonster(WorldContext world) {
-		if (killedMonsters.isEmpty()) return null;
-		HashMap<String, Integer> expPerMonsterType = new HashMap<String, Integer>(killedMonsters.size());
-		for (String monsterTypeID : killedMonsters.keySet()) {
+		if (killedMonstersByTypeID.isEmpty()) return null;
+		HashMap<String, Integer> expPerMonsterType = new HashMap<String, Integer>(killedMonstersByTypeID.size());
+		for (String monsterTypeID : killedMonstersByTypeID.keySet()) {
 			MonsterType t = world.monsterTypes.getMonsterType(monsterTypeID);
 			expPerMonsterType.put(monsterTypeID, t != null ? t.exp : 0);
 		}
@@ -157,7 +156,7 @@ public final class GameStatistics {
 
 	public int getNumberOfKilledMonsters() {
 		int result = 0;
-		for (int v : killedMonsters.values()) result += v;
+		for (int v : killedMonstersByTypeID.values()) result += v;
 		return result;
 	}
 
@@ -182,7 +181,7 @@ public final class GameStatistics {
 				if (type == null) continue;
 				id = type.id;
 			}
-			this.killedMonsters.put(id, value);
+			this.killedMonstersByTypeID.put(id, value);
 
 			// Also track by name, for statistics display (multiple IDs w/same name don't matter to player)
 			MonsterType t = world.monsterTypes.getMonsterType(id);
@@ -208,7 +207,7 @@ public final class GameStatistics {
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
 		dest.writeInt(deaths);
-		Set<Entry<String, Integer> > set = killedMonsters.entrySet();
+		Set<Entry<String, Integer> > set = killedMonstersByTypeID.entrySet();
 		dest.writeInt(set.size());
 		for (Entry<String, Integer> e : set) {
 			dest.writeUTF(e.getKey());
