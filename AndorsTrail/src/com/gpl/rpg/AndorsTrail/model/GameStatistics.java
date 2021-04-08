@@ -78,12 +78,12 @@ public final class GameStatistics {
 		return v;
 	}
 
-	public int getNumberOfKillsForMonsterName(String monsterName) {
+	/*public int getNumberOfKillsForMonsterName(String monsterName) {
 		Integer v = killedMonstersByName.get(monsterName);
 		if (v == null) return 0;
 		return v;
 	}
-
+*/
 	public String getTop5MostCommonlyKilledMonsters(WorldContext world, Resources res) {
 		if (killedMonstersByTypeID.isEmpty()) return null;
 		List<Entry<String, Integer>> entries = new ArrayList<Entry<String, Integer>>(killedMonstersByName.entrySet());
