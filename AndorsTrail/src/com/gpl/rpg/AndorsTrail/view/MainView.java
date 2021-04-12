@@ -45,7 +45,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 public final class MainView extends SurfaceView
-		implements SurfaceHolder.Callback,
+	implements SurfaceHolder.Callback,
 		PlayerMovementListener,
 		CombatSelectionListener,
 		MonsterSpawnListener,
@@ -133,12 +133,14 @@ public final class MainView extends SurfaceView
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
-		return  inputController.onKeyboardAction(keyEvent, canAcceptInput()) ||  super.onKeyDown(keyCode, keyEvent);
+		return  !canAcceptInput() || inputController.onKeyboardAction(keyEvent) ||  super.onKeyDown(keyCode, keyEvent);
 	}
 
 	@Override
 	public boolean onKeyUp(int keyCode, KeyEvent keyEvent) {
-		return inputController.onKeyboardAction(keyEvent, canAcceptInput()) ||  super.onKeyUp(keyCode, keyEvent);
+		// Android provides artificial ACTION_UP events when focus changes; we process them to prevent "stuck key" effect after dialogs close
+		// (so don't check canAcceptInput() here)
+		return inputController.onKeyboardAction(keyEvent) ||  super.onKeyUp(keyCode, keyEvent);
 	}
 
 	@Override
@@ -154,7 +156,7 @@ public final class MainView extends SurfaceView
 		this.screenSizeTileCount = new Size(
 				(int) Math.floor(getWidth() / scaledTileSize)
 				,(int) Math.floor(getHeight() / scaledTileSize)
-		);
+			);
 
 		if (sh.getSurfaceFrame().right != surfaceSize.width || sh.getSurfaceFrame().bottom != surfaceSize.height) {
 			sh.setFixedSize(surfaceSize.width, surfaceSize.height);
@@ -183,18 +185,18 @@ public final class MainView extends SurfaceView
 		if (!canAcceptInput()) return true;
 
 		switch (event.getAction()) {
-			case MotionEvent.ACTION_DOWN:
-			case MotionEvent.ACTION_MOVE:
-				final int tile_x = (int) Math.floor(((int)event.getX() - screenOffset.x * scale) / scaledTileSize) + mapTopLeft.x;
-				final int tile_y = (int) Math.floor(((int)event.getY() - screenOffset.y * scale) / scaledTileSize) + mapTopLeft.y;
+		case MotionEvent.ACTION_DOWN:
+		case MotionEvent.ACTION_MOVE:
+			final int tile_x = (int) Math.floor(((int)event.getX() - screenOffset.x * scale) / scaledTileSize) + mapTopLeft.x;
+			final int tile_y = (int) Math.floor(((int)event.getY() - screenOffset.y * scale) / scaledTileSize) + mapTopLeft.y;
 //			touchedTile = new Coord(tile_x, tile_y);
-				if (inputController.onTouchedTile(tile_x, tile_y)) return true;
-				break;
-			case MotionEvent.ACTION_UP:
-			case MotionEvent.ACTION_CANCEL:
-			case MotionEvent.ACTION_OUTSIDE:
-				inputController.onTouchCancel();
-				break;
+			if (inputController.onTouchedTile(tile_x, tile_y)) return true;
+			break;
+		case MotionEvent.ACTION_UP:
+		case MotionEvent.ACTION_CANCEL:
+		case MotionEvent.ACTION_OUTSIDE:
+			inputController.onTouchCancel();
+			break;
 		}
 		return super.onTouchEvent(event);
 	}
@@ -484,7 +486,7 @@ public final class MainView extends SurfaceView
 		y -= mapViewArea.topLeft.y;
 //		if (	   (x >= 0 && x < mapViewArea.size.width)
 //				&& (y >= 0 && y < mapViewArea.size.height)) {
-		tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint);
+			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint);
 //		}
 	}
 
@@ -505,7 +507,7 @@ public final class MainView extends SurfaceView
 			Size visibleNumberOfTiles = new Size(
 					Math.min(screenSizeTileCount.width, currentMap.size.width)
 					,Math.min(screenSizeTileCount.height, currentMap.size.height)
-			);
+				);
 			mapViewArea = new CoordRect(mapTopLeft, visibleNumberOfTiles);
 			updateClip();
 
@@ -518,7 +520,7 @@ public final class MainView extends SurfaceView
 			screenOffset.set(
 					(surfaceSize.width - tileSize * visibleNumberOfTiles.width) / 2
 					,(surfaceSize.height - tileSize * visibleNumberOfTiles.height) / 2
-			);
+				);
 
 			useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
 		}

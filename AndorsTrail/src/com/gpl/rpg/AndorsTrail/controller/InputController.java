@@ -39,13 +39,10 @@ public final class InputController implements OnClickListener, OnLongClickListen
     be dangerous in tight spaces, modifiers are provided to "lock" the input until both keys are down.
     TODO: Use delay timer to enable chorded diagonals on first move?
  */
-	public boolean onKeyboardAction(KeyEvent event, boolean canAcceptInput) {
+	public boolean onKeyboardAction(KeyEvent event) {
 //		L.log("onKeyboardAction(): Processing action " + event.getAction() + " for keyCode " + event.getKeyCode());
 
 		if (event.getAction() != KeyEvent.ACTION_DOWN && event.getAction() != KeyEvent.ACTION_UP) return false; // don't handle other actions
-
-		// Android provides artificial ACTION_UP events when focus changes; we need them to prevent "stuck key" effect after dialogs close
-		if (!canAcceptInput && event.getAction() == KeyEvent.ACTION_DOWN) return false;
 
 		boolean keydown = (event.getAction() == KeyEvent.ACTION_DOWN);
 		boolean cancel = false; // used cancel final direction handling if already handled in switch()
