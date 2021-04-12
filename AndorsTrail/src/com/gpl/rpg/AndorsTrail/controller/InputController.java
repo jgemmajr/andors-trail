@@ -112,12 +112,10 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_BUTTON_A: // lock movement until released for precise directional move/attack
 			case KeyEvent.KEYCODE_SPACE:
 			case KeyEvent.KEYCODE_NUMPAD_5:
-				if (!keydown && keyState_attack) { // key released - execute attack
-					if(!world.model.uiSelections.isInCombat) {
-						controllers.movementController.stopMovement();
-					} else if (allowInputInterval()) {
-						controllers.combatController.executeMoveAttack(keyState_dx, keyState_dy);
-					}
+				if (keydown && !keyState_attack) { // key pressed - pause movement
+					if(!world.model.uiSelections.isInCombat) controllers.movementController.stopMovement();
+				} else if (!keydown && keyState_attack) { // key released - execute attack / move in direction
+					if (allowInputInterval()) controllers.combatController.executeMoveAttack(keyState_dx, keyState_dy);
 				}
 				keyState_attack = keydown; // prevents movement event below if pressed
 				cancel = false; //don't cancel, allow pending movement immediately on release via code below
