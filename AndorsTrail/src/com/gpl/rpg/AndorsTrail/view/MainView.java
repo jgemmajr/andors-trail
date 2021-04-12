@@ -63,7 +63,7 @@ public final class MainView extends SurfaceView
 	private final Coord mapTopLeft = new Coord(); // Map coords of visible map
 	private CoordRect mapViewArea; // Area in mapcoordinates containing the visible map. topleft == this.topleft
 	private Rect redrawClip = new Rect(); //Area in screen coordinates containing the visible map.
-
+	
 	private final ModelContainer model;
 	private final WorldContext world;
 	private final ControllerContext controllers;
@@ -74,7 +74,7 @@ public final class MainView extends SurfaceView
 	private final Paint mPaint = new Paint();
 	private final CoordRect p1x1 = new CoordRect(new Coord(), new Size(1,1));
 	private boolean hasSurface = false;
-
+	
 	//DEBUG
 //	private Coord touchedTile = null;
 //	private static Paint touchHighlight = new Paint();
@@ -88,15 +88,15 @@ public final class MainView extends SurfaceView
 //		redrawHighlight.setStrokeWidth(0f);
 //		redrawHighlight.setStyle(Style.STROKE);
 //	}
-
+	
 	private PredefinedMap currentMap;
 	private LayeredTileMap currentTileMap;
 	private TileCollection tiles;
-
+	
 	private final Coord playerPosition = new Coord();
 	private Size surfaceSize;
 	private boolean redrawNextTick = false;
-
+	
 	private boolean scrolling = false;
 	private Coord scrollVector;
 	private long scrollStartTime;
@@ -120,15 +120,15 @@ public final class MainView extends SurfaceView
 		this.preferences = app.getPreferences();
 
 		alternateColorFilterPaint.setStyle(Style.FILL);
-
+		
 		holder.addCallback(this);
 
 		setFocusable(true);
 		requestFocus();
 		setOnClickListener(this.inputController);
 		setOnLongClickListener(this.inputController);
-
-
+		
+		
 	}
 
 	@Override
@@ -147,7 +147,7 @@ public final class MainView extends SurfaceView
 	public void surfaceChanged(SurfaceHolder sh, int format, int w, int h) {
 		if (w <= 0 || h <= 0) return;
 
-
+		
 		this.scale = world.tileManager.scale;
 		this.mPaint.setFilterBitmap(scale != 1);
 		this.scaledTileSize = world.tileManager.viewTileSize;
@@ -157,11 +157,11 @@ public final class MainView extends SurfaceView
 				(int) Math.floor(getWidth() / scaledTileSize)
 				,(int) Math.floor(getHeight() / scaledTileSize)
 			);
-
+		
 		if (sh.getSurfaceFrame().right != surfaceSize.width || sh.getSurfaceFrame().bottom != surfaceSize.height) {
 			sh.setFixedSize(surfaceSize.width, surfaceSize.height);
 		}
-
+		
 		if (model.currentMaps.map != null) {
 			onPlayerEnteredNewMap(model.currentMaps.map, model.player.position);
 		} else {
@@ -200,7 +200,7 @@ public final class MainView extends SurfaceView
 		}
 		return super.onTouchEvent(event);
 	}
-
+	
 	private boolean canAcceptInput() {
 		if (!model.uiSelections.isMainActivityVisible) return false;
 		if (!hasSurface) return false;
@@ -236,14 +236,14 @@ public final class MainView extends SurfaceView
 	private void redrawArea_(CoordRect area, final VisualEffectAnimation effect, int tileID, int textYOffset) {
 		if (!hasSurface) return;
 
-
+		
 		if (!currentMap.intersects(area)) return;
 		if (!mapViewArea.intersects(area)) return;
 
 		if (shouldRedrawEverything()) {
 			area = mapViewArea;
 		}
-
+		
 		calculateRedrawRect(area);
 		redrawRect.intersect(redrawClip);
 		Canvas c = null;
@@ -259,7 +259,7 @@ public final class MainView extends SurfaceView
 			if (area == mapViewArea) {
 				area = adaptAreaToScrolling(area);
 			}
-
+			
 			synchronized (holder) { synchronized (tiles) {
 				int xScroll = 0;
 				int yScroll = 0;
@@ -297,7 +297,7 @@ public final class MainView extends SurfaceView
 			if (c != null) holder.unlockCanvasAndPost(c);
 		}
 	}
-
+	
 	private boolean isRedrawRectWholeScreen(Rect redrawRect) {
 //		if (redrawRect.width() < mapViewArea.size.width * scaledTileSize) return false;
 //		if (redrawRect.height() < mapViewArea.size.height * scaledTileSize) return false;
@@ -332,7 +332,7 @@ public final class MainView extends SurfaceView
 	}
 
 	private CoordRect adaptAreaToScrolling(final CoordRect area) {
-
+		
 		if (!scrolling || scrollVector == null) return area;
 
 		int x, y, w, h;
@@ -350,10 +350,10 @@ public final class MainView extends SurfaceView
 			y = area.topLeft.y;
 			h = area.size.height - scrollVector.y;
 		}
-		CoordRect result = new CoordRect(new Coord(x, y), new Size(w, h));
+		CoordRect result = new CoordRect(new Coord(x, y), new Size(w, h)); 
 		return result;
 	}
-
+	
 	private void calculateRedrawRect(final CoordRect area) {
 		worldCoordsToScreenCords(area, redrawRect);
 	}
@@ -363,13 +363,13 @@ public final class MainView extends SurfaceView
 //		destScreenRect.top = screenOffset.y + (worldArea.topLeft.y - mapViewArea.topLeft.y) * scaledTileSize;
 //		destScreenRect.right = destScreenRect.left + worldArea.size.width * scaledTileSize;
 //		destScreenRect.bottom = destScreenRect.top + worldArea.size.height * scaledTileSize;
-
+		
 		destScreenRect.left = screenOffset.x + (worldArea.topLeft.x - mapViewArea.topLeft.x) * tileSize;
 		destScreenRect.top = screenOffset.y + (worldArea.topLeft.y - mapViewArea.topLeft.y) * tileSize;
 		destScreenRect.right = destScreenRect.left + worldArea.size.width * tileSize;
 		destScreenRect.bottom = destScreenRect.top + worldArea.size.height * tileSize;
 	}
-
+	
 //	private void worldCoordsToBitmapCoords(final CoordRect worldArea, Rect dstBitmapArea) {
 //		dstBitmapArea.left = worldArea.topLeft.x * tileSize;
 //		dstBitmapArea.top = worldArea.topLeft.y * tileSize;
@@ -386,17 +386,17 @@ public final class MainView extends SurfaceView
 			applyAlternateFilter(canvas, area);
 		}
 	}
-
+	
 	private void doDrawRect_Ground(Canvas canvas, CoordRect area) {
 		drawMapLayer(canvas, area, currentTileMap.currentLayout.layerGround);
 		tryDrawMapLayer(canvas, area, currentTileMap.currentLayout.layerObjects);
 	}
-
+	
 	private void doDrawRect_Objects(Canvas canvas, CoordRect area) {
 //		if (!tryDrawMapBitmap(canvas, area, objectsBitmap)) {
 //			tryDrawMapLayer(canvas, area, currentTileMap.currentLayout.layerObjects);
 //		}
-
+		
 		for (BloodSplatter splatter : currentMap.splatters) {
 			drawFromMapPosition(canvas, area, splatter.position, splatter.iconID);
 		}
@@ -430,11 +430,11 @@ public final class MainView extends SurfaceView
 			}
 		}
 	}
-
+	
 	private void doDrawRect_Above(Canvas canvas, CoordRect area) {
 		tryDrawMapLayer(canvas, area, currentTileMap.currentLayout.layerAbove);
 		tryDrawMapLayer(canvas, area, currentTileMap.currentLayout.layerTop);
-
+		
 		if (model.uiSelections.selectedPosition != null) {
 			if (model.uiSelections.selectedMonster != null) {
 				drawFromMapPosition(canvas, area, model.uiSelections.selectedPosition, TileManager.iconID_attackselect);
@@ -466,13 +466,13 @@ public final class MainView extends SurfaceView
 			}
 		}
 	}
-
+	
 
 	private void applyAlternateFilter(Canvas canvas, CoordRect area) {
 		canvas.drawRect(canvas.getClipBounds(), alternateColorFilterPaint);
-
+		
 	}
-
+	
 	private void drawFromMapPosition(Canvas canvas, final CoordRect area, final Coord p, final int tile) {
 		if (!area.contains(p)) return;
 		_drawFromMapPosition(canvas, area, p.x, p.y, tile);
@@ -515,7 +515,7 @@ public final class MainView extends SurfaceView
 //					(surfaceSize.width - scaledTileSize * visibleNumberOfTiles.width) / 2
 //					,(surfaceSize.height - scaledTileSize * visibleNumberOfTiles.height) / 2
 //				);
-
+			
 
 			screenOffset.set(
 					(surfaceSize.width - tileSize * visibleNumberOfTiles.width) / 2
@@ -526,7 +526,7 @@ public final class MainView extends SurfaceView
 		}
 
 //		touchedTile = null;
-
+		
 		clearCanvas();
 
 		recalculateMapTopLeft(model.player.position, false);
@@ -559,22 +559,22 @@ public final class MainView extends SurfaceView
 			}
 		}
 	}
-
+	
 	private void updateClip() {
 		worldCoordsToScreenCords(mapViewArea, redrawClip);
 	}
-
+	
 
 	public static final class ScrollAnimationHandler extends Handler implements Runnable {
 
 		private static final int FRAME_DURATION = 40;
 
 		private final WeakReference<MainView> view;
-
+		
 		public ScrollAnimationHandler(MainView view) {
 			this.view = new WeakReference<MainView>(view);
 		}
-
+		
 		@Override
 		public void run() {
 			MainView v = view.get();
@@ -608,18 +608,18 @@ public final class MainView extends SurfaceView
 			postDelayed(this, 0);
 		}
 	}
-
-
+	
+	
 	public static final class SpriteMoveAnimationHandler extends Handler implements Runnable {
 
 		private static final int FRAME_DURATION = 40;
 		private final WeakReference<MainView> view;
 		private boolean stop = true;
-
+		
 		public SpriteMoveAnimationHandler(MainView view) {
 			this.view = new WeakReference<MainView>(view);
 		}
-
+		
 		@Override
 		public void run() {
 			if (!stop) postDelayed(this, FRAME_DURATION);
@@ -651,14 +651,14 @@ public final class MainView extends SurfaceView
 				if (v.controllers.preferences.enableUiAnimations) postDelayed(this, 0);
 			}
 		}
-
+		
 		public void stop() {
 			stop = true;
 		}
 	}
-
-
-
+	
+	
+	
 	@Override
 	public void onPlayerMoved(PredefinedMap map, Coord newPosition, Coord previousPosition) {
 		if (map != currentMap) return;
@@ -789,19 +789,19 @@ public final class MainView extends SurfaceView
 			movingSpritesRedrawTick.start();
 		}
 	}
-
+	
 	@Override
 	public void onNewSpriteMoveFrame(SpriteMoveAnimation animation) {
 		//redrawMoveArea_(CoordRect.getBoundingRect(animation.origin, animation.destination, animation.actor.tileSize), animation);
 	}
-
+	
 	@Override
 	public void onSpriteMoveCompleted(SpriteMoveAnimation animation) {
 		if (animation.map != currentMap) return;
 		movingSprites--;
 		redrawArea(CoordRect.getBoundingRect(animation.origin, animation.destination, animation.actor.tileSize), RedrawAreaDebugReason.EffectCompleted);
 	}
-
+	
 	@Override
 	public void onAsyncAreaUpdate(CoordRect area) {
 		redrawArea(area, RedrawAreaDebugReason.AsyncRequest);
