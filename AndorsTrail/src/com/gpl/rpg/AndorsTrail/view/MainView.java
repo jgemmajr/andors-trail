@@ -4,6 +4,8 @@ import java.lang.ref.WeakReference;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.AndorsTrailPreferences;
+import com.gpl.rpg.AndorsTrail.R;
+import com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
@@ -32,17 +34,20 @@ import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
+import android.os.Build;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.widget.ImageButton;
 
 public final class MainView extends SurfaceView
 	implements SurfaceHolder.Callback,
@@ -133,14 +138,18 @@ public final class MainView extends SurfaceView
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
-		return  !canAcceptInput() || inputController.onKeyboardAction(keyEvent) ||  super.onKeyDown(keyCode, keyEvent);
+		if (!canAcceptInput()) return false;
+		
+		// onKeyboardAction needs context to start new activities.
+		return inputController.onKeyboardAction(getContext(), keyEvent) ||  super.onKeyDown(keyCode, keyEvent);
+			
 	}
 
 	@Override
 	public boolean onKeyUp(int keyCode, KeyEvent keyEvent) {
 		// Android provides artificial ACTION_UP events when focus changes; we process them to prevent "stuck key" effect after dialogs close
 		// (so don't check canAcceptInput() here)
-		return inputController.onKeyboardAction(keyEvent) ||  super.onKeyUp(keyCode, keyEvent);
+		return inputController.onKeyboardAction(getContext(), keyEvent) ||  super.onKeyUp(keyCode, keyEvent);
 	}
 
 	@Override
@@ -651,14 +660,14 @@ public final class MainView extends SurfaceView
 				if (v.controllers.preferences.enableUiAnimations) postDelayed(this, 0);
 			}
 		}
-		
+
 		public void stop() {
 			stop = true;
 		}
 	}
-	
-	
-	
+
+
+
 	@Override
 	public void onPlayerMoved(PredefinedMap map, Coord newPosition, Coord previousPosition) {
 		if (map != currentMap) return;
@@ -789,19 +798,19 @@ public final class MainView extends SurfaceView
 			movingSpritesRedrawTick.start();
 		}
 	}
-	
+
 	@Override
 	public void onNewSpriteMoveFrame(SpriteMoveAnimation animation) {
 		//redrawMoveArea_(CoordRect.getBoundingRect(animation.origin, animation.destination, animation.actor.tileSize), animation);
 	}
-	
+
 	@Override
 	public void onSpriteMoveCompleted(SpriteMoveAnimation animation) {
 		if (animation.map != currentMap) return;
 		movingSprites--;
 		redrawArea(CoordRect.getBoundingRect(animation.origin, animation.destination, animation.actor.tileSize), RedrawAreaDebugReason.EffectCompleted);
 	}
-	
+
 	@Override
 	public void onAsyncAreaUpdate(CoordRect area) {
 		redrawArea(area, RedrawAreaDebugReason.AsyncRequest);

@@ -1,10 +1,13 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 
+import com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -39,15 +42,17 @@ public final class InputController implements OnClickListener, OnLongClickListen
     be dangerous in tight spaces, modifiers are provided to "lock" the input until both keys are down.
     TODO: Use delay timer to enable chorded diagonals on first move?
  */
-	public boolean onKeyboardAction(KeyEvent event) {
+	public boolean onKeyboardAction(Context context, KeyEvent event) {
 //		L.log("onKeyboardAction(): Processing action " + event.getAction() + " for keyCode " + event.getKeyCode());
 
 		if (event.getAction() != KeyEvent.ACTION_DOWN && event.getAction() != KeyEvent.ACTION_UP) return false; // don't handle other actions
 
 		boolean keydown = (event.getAction() == KeyEvent.ACTION_DOWN);
-		boolean cancel = false; // used cancel final direction handling if already handled in switch()
+		boolean inihbit =  (keyState_attack || keyState_endturn || keyState_flee); // used to inhibit movement if an action key is held down
 
 		switch (event.getKeyCode()) {
+			// Basic movement handled first
+
 			// Ordinal directional keys - only modify one direction register, can be combined when
 			// used simultaneously to create synthetic diagonals
 			case KeyEvent.KEYCODE_DPAD_UP:
@@ -55,24 +60,28 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_8:
 			case KeyEvent.KEYCODE_W:
 				keyState_dy = keydown ? -1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_DOWN:
 			case KeyEvent.KEYCODE_NUMPAD_2:
 			case KeyEvent.KEYCODE_2:
 			case KeyEvent.KEYCODE_S:
 				keyState_dy = keydown ? 1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_LEFT:
 			case KeyEvent.KEYCODE_NUMPAD_4:
 			case KeyEvent.KEYCODE_4:
 			case KeyEvent.KEYCODE_A:
 				keyState_dx = keydown ? -1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_RIGHT:
 			case KeyEvent.KEYCODE_NUMPAD_6:
 			case KeyEvent.KEYCODE_6:
 			case KeyEvent.KEYCODE_D:
 				keyState_dx = keydown ? 1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 
 			// Diagonal directional keys.  Modify both direction registers, can't be combined
@@ -83,6 +92,7 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_MOVE_HOME:
 				keyState_dx = keydown ? -1 : 0;
 				keyState_dy = keydown ? -1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_UP_RIGHT:
 			case KeyEvent.KEYCODE_NUMPAD_9:
@@ -90,6 +100,7 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_PAGE_UP:
 				keyState_dx = keydown ? 1 : 0;
 				keyState_dy = keydown ? -1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_DOWN_LEFT:
 			case KeyEvent.KEYCODE_NUMPAD_1:
@@ -97,6 +108,7 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_MOVE_END:
 				keyState_dx = keydown ? -1 : 0;
 				keyState_dy = keydown ? 1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 			case KeyEvent.KEYCODE_DPAD_DOWN_RIGHT:
 			case KeyEvent.KEYCODE_NUMPAD_3:
@@ -104,8 +116,12 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_PAGE_DOWN:
 				keyState_dx = keydown ? 1 : 0;
 				keyState_dy = keydown ? 1 : 0;
+				if (!inihbit) onRelativeMovement(keyState_dx, keyState_dy);
 				break;
 
+			// Special key handling below - some combat/movement stuff done here because it's too 
+			// specific for logic in onRelativeMovement
+			
 			// "Attack" shortcut - freeze movement to allow chorded direction when key is released.
 			// if in combat, executes an attack on key release
 			case KeyEvent.KEYCODE_DPAD_CENTER: // Not sure if this is needed
@@ -115,10 +131,9 @@ public final class InputController implements OnClickListener, OnLongClickListen
 				if (keydown && !keyState_attack) { // key pressed - pause movement
 					if(!world.model.uiSelections.isInCombat) controllers.movementController.stopMovement();
 				} else if (!keydown && keyState_attack) { // key released - execute attack / move in direction
-					if (allowInputInterval()) controllers.combatController.executeMoveAttack(keyState_dx, keyState_dy);
+					onRelativeMovement(keyState_dx, keyState_dy);
 				}
-				keyState_attack = keydown; // prevents movement event below if pressed
-				cancel = false; //don't cancel, allow pending movement immediately on release via code below
+				keyState_attack = keydown;
 				break;
 
 			// "Flee" shortcut.  Intitiates flee when pressed.  If a direction is held, moves in chosen direction when released
@@ -127,20 +142,19 @@ public final class InputController implements OnClickListener, OnLongClickListen
 			case KeyEvent.KEYCODE_NUMPAD_ENTER:
 			case KeyEvent.KEYCODE_ENTER:
 				if (world.model.uiSelections.isInCombat) {
-					if (keydown && !keyState_flee) { // button pressed
+					if (keydown && !keyState_flee) { // button pressed - set flee; movement locked while pressed
 						controllers.combatController.startFlee();
 					} else if (!keydown && keyState_flee) { // button released - move flee direction, if chosen
-						// if no movement, executeMoveAttack() will just attack again, so we have to check and do it here
+						// if no movement, executeMoveAttack() in will just attack again, so we have to check and do it here
 						if ((keyState_dx != 0 || keyState_dy != 0) && allowInputInterval()) {
 							controllers.combatController.executeMoveAttack(keyState_dx, keyState_dy);
 						}
-						cancel = true;
 					}
 				}
 				keyState_flee = keydown;
 				break;
 
-			// "End Turn" shortcut.  Prevents repeated end turn if key is held down.
+			// "End Turn" shortcut.  Flag prevents repeated end turn if key is held down.
 			case KeyEvent.KEYCODE_BUTTON_Y:
 			case KeyEvent.KEYCODE_E:
 			case KeyEvent.KEYCODE_FORWARD_DEL:
@@ -149,25 +163,17 @@ public final class InputController implements OnClickListener, OnLongClickListen
 					if (world.model.uiSelections.isInCombat) controllers.combatController.endPlayerTurn();
 				}
 				keyState_endturn = keydown;
-				cancel = true;
+				break;
+			
+			// "Hero Info" screen shortcut.  New activity takes focus, so we don't need to worry about repeats.
+			case KeyEvent.KEYCODE_BUTTON_SELECT:
+			case KeyEvent.KEYCODE_C:
+				if (keydown) context.startActivity(new Intent(context, HeroinfoActivity.class));
 				break;
 			default: // unhandled key
 				return false;
 		}
 
-		/* process movement if not already handled above and action modifier button is not down.
-		   Modifiers allow input from 4-way controller or keyboard to settle (e.g., combined keys
-		   for diagonals) before action is taken.
-		 */
-		if (!cancel && !keyState_attack && !keyState_endturn && !keyState_flee) {
-			if (world.model.uiSelections.isInCombat) {
-				if (keydown && allowInputInterval()) controllers.combatController.executeMoveAttack(keyState_dx, keyState_dy);
-			} else if (keyState_dx == 0 && keyState_dy == 0) {
-				controllers.movementController.stopMovement();
-			} else {
-				controllers.movementController.startMovement(keyState_dx, keyState_dy, null);
-			}
-		}
 		return true;
 	}
 
@@ -175,6 +181,8 @@ public final class InputController implements OnClickListener, OnLongClickListen
 		if (world.model.uiSelections.isInCombat) {
 			if (!allowInputInterval()) return;
 			controllers.combatController.executeMoveAttack(dx, dy);
+		} else if (keyState_dx == 0 && keyState_dy == 0) {
+			controllers.movementController.stopMovement();
 		} else {
 			controllers.movementController.startMovement(dx, dy, null);
 		}
