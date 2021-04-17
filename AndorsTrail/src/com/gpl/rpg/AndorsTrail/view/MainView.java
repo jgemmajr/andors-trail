@@ -133,18 +133,16 @@ public final class MainView extends SurfaceView
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
-		if (!canAcceptInput()) return false;
-		
 		// onKeyboardAction needs context to start new activities.
-		return inputController.onKeyboardAction(getContext(), keyEvent) ||  super.onKeyDown(keyCode, keyEvent);
+		// canAcceptInput() checks done in handler so it can preserve keystate even if it does not have focus.
+		return inputController.onKeyboardAction(getContext(), keyEvent, canAcceptInput()) ||  super.onKeyDown(keyCode, keyEvent);
 			
 	}
 
 	@Override
 	public boolean onKeyUp(int keyCode, KeyEvent keyEvent) {
 		// Android provides artificial ACTION_UP events when focus changes; we process them to prevent "stuck key" effect after dialogs close
-		// (so don't check canAcceptInput() here)
-		return inputController.onKeyboardAction(getContext(), keyEvent) ||  super.onKeyUp(keyCode, keyEvent);
+		return inputController.onKeyboardAction(getContext(), keyEvent, canAcceptInput()) ||  super.onKeyUp(keyCode, keyEvent);
 	}
 
 	@Override
@@ -175,6 +173,7 @@ public final class MainView extends SurfaceView
 
 	@Override
 	public void surfaceCreated(SurfaceHolder sh) {
+		
 		hasSurface = true;
 	}
 
