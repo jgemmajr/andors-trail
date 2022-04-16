@@ -1,4 +1,66 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="localize_resources_from_mo_filename">gl.mo</string>
+    <string name="combat_flee">Fuxida</string>
+    <string name="status_hp">HP:</string>
+    <string name="exit_to_menu">Saír ao menú</string>
+    <string name="status_exp">EXP:</string>
+    <string name="loadsave_title_save">Gardar xogo</string>
+    <string name="menu_settings">Preferenzas</string>
+    <string name="combat_attack">Ataque ( %1$d AP)</string>
+    <string name="menu_save_failed">Non se puido garda-la partida . Está a tarxeta SD inserida e habilitada para escritura\?</string>
+    <string name="dialog_loading_message">Cargando recursos…</string>
+    <string name="dialog_loading_failed_message">Andor\'s Trail foi incapaz de cargar o ficheiro do xogo gardado.
+\n
+\n:(
+\n
+\nO ficheiro podería estar danado ou incompleto.</string>
+    <string name="dialog_close">Pechar</string>
+    <string name="dialog_monsterencounter_conditions">Condicións</string>
+    <string name="heroinfo_char">Resumo</string>
+    <string name="heroinfo_skill_categories">Categoría</string>
+    <string name="heroinfo_totalexperience">Experiencia Total</string>
+    <string name="heroinfo_wornequipment">Equipamento que se leva</string>
+    <string name="heroinfo_inventory_sort">Ordenar Por</string>
+    <string name="combat_endturn">Finalizar turno</string>
+    <string name="dialog_loading_failed_cheat">Andor\'s Trail non foi quen de cargar o ficheiro do xogo gardado. Este ficheiro de xogo gardado xa está sendo continuado.</string>
+    <string name="dialog_recenter">Recentrar</string>
+    <string name="dialog_game_over_title">Rematou o xogo</string>
+    <string name="dialog_game_over_text">Das o teu derradeiro alento e morres.</string>
+    <string name="dialog_monsterencounter_message">Queres atacar\?
+\nDificultade: %1$s</string>
+    <string name="heroinfo_gold">Ouro: %1$d</string>
+    <string name="heroinfo_healthpoints">Puntos de Saúde(HP):</string>
+    <string name="heroinfo_experiencepoints">Puntos de eXperiencia (XP):</string>
+    <string name="heroinfo_actionpoints">Puntos de Acción (AP):</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Standard
+\n(Vidas e gardados ilimitados)</string>
+    <string name="heroinfo_unlimited_lives">Vidas ilimitadas, 1 gardado</string>
+    <string name="heroinfo_one_life">Permamorte (1 vida)</string>
+    <string name="combat_flee_failed">Fallaches na escapada!</string>
+    <string name="menu_save">Gardar</string>
+    <string name="rip_startscreen">(QEPD)</string>
+    <string name="heroinfo_limited_lives">Vidas limitadas (Quedan %1$d/%2$d)</string>
+    <string name="heroinfo_mode">Modo</string>
+    <string name="heroinfo_inventory_categories">Categoría</string>
+    <string name="dialog_more">Máis</string>
+    <string name="combat_monsterhealth">HP:</string>
+    <string name="combat_monsteraction">%1$s está atacando.</string>
+    <string name="combat_status_ap">AP: %1$d</string>
+    <string name="combat_begin_flee">Agora podes fuxir do combate clicando na dirección que te queres mover.</string>
+    <string name="combat_use">Usar obxecto</string>
+    <string name="combat_move">Mover (%1$d AP)</string>
+    <string name="heroinfo_quests">Misións</string>
+    <string name="heroinfo_inventory">Inventario</string>
+    <string name="heroinfo_level">Nivel</string>
+    <string name="heroinfo_skill">Habilidades</string>
+    <string name="heroinfo_inv">Cousas</string>
+    <string name="dialog_monsterencounter_info">Info</string>
+    <string name="dialog_monsterencounter_title">Encontro</string>
+    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail non foi capaz de cargar o arquivo da partida gardada. O arquivo da partida gardada fíxose cunha versión máis nova da que se está a usar neste intre.</string>
+    <string name="loadsave_selectslot">Seleccionar ranura</string>
+    <string name="savegame_currenthero_displayinfo">nivel %1$d, %2$d exp, %3$d ouro</string>
+    <string name="loadsave_title_load">Cargar xogo gardado</string>
+    <string name="menu_save_gamesaved">O xogo gardouse na ranura %1$d</string>
+    <string name="app_description">RPG fantástico guiado por misións</string>
 </resources>
