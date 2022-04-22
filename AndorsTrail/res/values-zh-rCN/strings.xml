@@ -6,7 +6,7 @@
     <string name="menu_settings">设定</string>
     <string name="menu_save">保存</string>
     <string name="menu_save_gamesaved">游戏已经保存至存档%1$d</string>
-    <string name="menu_save_failed">游戏保存失败！确认SD卡安装正确并且可以写入？</string>
+    <string name="menu_save_failed">游戏保存失败！确认SD卡已挂载并且可以写入？</string>
     <string name="loadsave_title_save">保存游戏</string>
     <string name="loadsave_title_load">载入存档</string>
     <string name="loadsave_selectslot">选择存档</string>
@@ -18,24 +18,24 @@
 \n:(
 \n
 \n此存档可能已损坏或不完整。</string>
-    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 无法载入游戏存档。游戏存档是由一个比现运行新的版本创建的。</string>
-    <string name="dialog_recenter">现在位置</string>
+    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 无法载入游戏存档。游戏存档是由一个更新的版本创建的。</string>
+    <string name="dialog_recenter">回到中央</string>
     <string name="dialog_close">关闭</string>
     <string name="dialog_more">更多</string>
-    <string name="app_name">安道尔的踪迹</string>
-    <string name="status_hp">HP：</string>
+    <string name="app_name">安道尔的足迹</string>
+    <string name="status_hp">体力：</string>
     <string name="heroinfo_char">总览</string>
     <string name="heroinfo_skill">技能</string>
     <string name="heroinfo_levelup">升级</string>
     <string name="heroinfo_level">等级</string>
-    <string name="heroinfo_totalexperience">总计经验</string>
+    <string name="heroinfo_totalexperience">总经验值</string>
     <string name="dialog_monsterencounter_title">遭遇</string>
     <string name="dialog_monsterencounter_message">你想要攻击吗？
 \n难度：%1$s</string>
     <string name="dialog_monsterencounter_info">信息</string>
     <string name="dialog_monsterencounter_conditions">状态</string>
-    <string name="status_ap">AP：</string>
-    <string name="status_exp">XP：</string>
+    <string name="status_ap">行动点：</string>
+    <string name="status_exp">经验：</string>
     <string name="heroinfo_inv">物品</string>
     <string name="heroinfo_skill_categories">类别</string>
     <string name="heroinfo_skill_sort">排序</string>
@@ -55,18 +55,18 @@
     <string name="combat_flee">逃跑</string>
     <string name="combat_begin_flee">请点击你想要逃跑的方向。</string>
     <string name="combat_flee_failed">逃跑失败！</string>
-    <string name="combat_status_ap">AP：%1$d</string>
+    <string name="combat_status_ap">行动点：%1$d</string>
     <string name="combat_monsterhealth">生命值：</string>
     <string name="combat_monsteraction">%1$s正在攻击。</string>
     <string name="combat_result_monstermiss">%1$s未命中！</string>
-    <string name="combat_result_monsterhit">%1$s命中了你，你损失%2$d点生命值！</string>
-    <string name="combat_result_monsterhitcritical">%1$s暴击！你损失了%2$d点生命值！</string>
+    <string name="combat_result_monsterhit">%1$s命中了你，你失去%2$d点生命值！</string>
+    <string name="combat_result_monsterhitcritical">%1$s暴击！你失去了%2$d点生命值！</string>
     <string name="combat_result_heromiss">你的攻击未命中。</string>
     <string name="combat_result_herohit">%1$s失去%2$d点生命值！</string>
     <string name="combat_result_herohitcritical">暴击！%1$s失去%2$d点生命值！</string>
     <string name="combat_result_herokillsmonster">%1$s被击败！</string>
-    <string name="combat_not_enough_ap">剩余AP值不足。</string>
-    <string name="combat_hero_dies">你昏迷不醒，但幸运的是还活着。你茫然无措，疲惫不堪。失去了%1$d经验值。</string>
+    <string name="combat_not_enough_ap">剩余行动值不足。</string>
+    <string name="combat_hero_dies">你昏迷了，但幸运的是活着醒来。你茫然无措，疲惫不堪。失去了%1$d经验值。</string>
     <string name="combat_miss_animation_message">未命中</string>
     <string name="combat_taunt_monster">你嘲讽了%1$s！</string>
     <string name="combat_condition_player_apply">你受到了%1$s的影响。</string>
@@ -111,10 +111,10 @@
     <string name="heroinfo_unlimited_lives_and_saves">标准
 \n（无限复活 无限存档）</string>
     <string name="heroinfo_mode">模式</string>
-    <string name="rip_startscreen">（RIP）</string>
-    <string name="dialog_game_over_text">你咽下最后一口气，然后死去。</string>
+    <string name="rip_startscreen">（安息）</string>
+    <string name="dialog_game_over_text">你咽下了最后一口气。</string>
     <string name="dialog_game_over_title">游戏结束</string>
-    <string name="dialog_loading_failed_cheat">Andor\'s Trail无法加载此存档。此存档已经加载过了。</string>
+    <string name="dialog_loading_failed_cheat">Andor\'s Trail无法加载此存档。此存档已在使用。</string>
     <string name="traitsinfo_attack_cost">攻击消耗（AP）：</string>
     <string name="actorinfo_currenttraits">战斗状态（当前）</string>
     <string name="actorinfo_movecost">移动消耗（AP）：</string>
@@ -604,7 +604,7 @@
     <string name="inventory_category_potion">药剂</string>
     <string name="inventory_category_jewelry">饰品</string>
     <string name="combat_log_item_plural">你找到了%1$d个物品：</string>
-    <string name="combat_log_item_single">你找到了一个物品：</string>
+    <string name="combat_log_item_single">你找到了一个东西：</string>
     <string name="startscreen_migration_title">数据转移</string>
     <string name="startscreen_migration_text">转移savegame数据.</string>
     <string name="startscreen_migration_failure">转移savegame数据失败.</string>
