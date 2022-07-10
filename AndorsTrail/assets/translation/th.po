@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2022-07-08 16:18+0000\n"
+"PO-Revision-Date: 2022-07-11 09:18+0000\n"
 "Last-Translator: โกศัลย์ รําประโคน <kosalyraprakhon4@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/th/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -557,22 +557,28 @@ msgstr "โอเค ฉันจะไปดูที่สวนของเ�
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
 msgstr ""
+"ถ้าคุณได้รับบาดเจ็บจากหนู ให้กลับมาที่นี่และพักผ่อนบนเตียงของคุณ "
+"ด้วยวิธีนี้คุณสามารถฟื้นพลังของคุณได้"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
 msgstr ""
+"อย่าลืมตรวจสอบสินค้าคงคลังของคุณ คุณคงยังมีแหวนเก่าที่ฉันให้คุณ "
+"ให้แน่ใจว่าคุณสวมใส่มัน"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr ""
+"โอเคฉันเข้าใจแล้ว. ฉันสามารถพักที่นี่ได้หากได้รับบาดเจ็บ "
+"และควรตรวจสอบรายการที่มีประโยชน์ในคลังของฉัน"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr ""
+msgstr "คุณฆ่าหนูสองตัวนั้นในสวนของเราหรือไม่?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
-msgstr ""
+msgstr "ใช่ ฉันได้จัดการกับหนูแล้ว"
 
 #: conversationlist_mikhail.json:mikhail_rats_complete
 msgid ""
@@ -580,6 +586,10 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"โอ้คุณทำ? ว้าว ขอบคุณมากสำหรับความช่วยเหลือของคุณ! "
+"โปรดใช้เกราะป้องกันการฝึกของอันดอร์ - คุณจะต้องการมัน\n"
+"\n"
+"หากคุณได้รับบาดเจ็บ ให้ใช้เตียงตรงนั้นเพื่อพักผ่อนและฟื้นกำลัง"
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -587,47 +597,58 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"ขอบคุณสำหรับความช่วยเหลือของคุณกับหนูก่อนหน้านี้\n"
+"\n"
+"หากคุณได้รับบาดเจ็บ ให้ใช้เตียงตรงนั้นเพื่อพักผ่อนและฟื้นกำลัง"
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
 msgstr ""
+"เช่นเดียวกับที่พ่อของฉันเคยทำ "
+"ฉันต้องการมอบหนังสือที่จะนำติดตัวไปด้วยระหว่างทาง."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
 msgstr ""
+"หนังสือเล่มนี้เป็นไดอารี่ประเภทหนึ่งซึ่งคุณสามารถบันทึกประสบการณ์และความสำเร็"
+"จที่ไม่ธรรมดาที่คุณอาจมีระหว่างทาง."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr ""
+msgstr "คุณต้องการที่จะมีมัน?"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
-msgstr ""
+msgstr "ใช่ฟังดูดีมาก"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:1
 msgid "No, thanks."
-msgstr ""
+msgstr "ไม่เป็นไรขอบคุณ."
 
 #: conversationlist_mikhail.json:mikhail_achievements_40
 msgid "No problem. I won't bother you with it again."
-msgstr ""
+msgstr "ไม่มีปัญหา. ฉันจะไม่รบกวนคุณอีก"
 
 #: conversationlist_mikhail.json:mikhail_achievements_50
 #: conversationlist_stoutford_combined.json:stn_colonel_34
 msgid "Here you are."
-msgstr ""
+msgstr "อยู่นี้ไง."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
 msgstr ""
+"อีกวิธีในการฟื้นพลังคือการกินอาหาร คุณสามารถซื้อได้เองจากมารที่ศาลากลาง "
+"แต่ระวัง - ฉันได้ยินมาว่าบางครั้งเนื้อดิบอาจทำให้คุณเป็นโรคอาหารเป็นพิษได้"
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"ถ้าเป็นเช่นนั้น บางทีนักบวชประจำเมืองสามารถช่วยคุณได้  "
+"มิฉะนั้นให้พักผ่อนจนกว่าคุณจะรู้สึกดีขึ้น"
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
+msgstr "ฉัน ฉันไม่สามารถซื้อเนื้อได้จริงๆ ฉันเลยยึดขนมปังของฉันไว้!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -635,10 +656,13 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
+"ยินดีต้อนรับสู่ร้านค้าของฉัน!\n"
+"\n"
+"โปรดเลือกดูของดีที่ฉันเลือก"
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr ""
+msgstr "กรุณาแสดงสินค้าของคุณให้ฉันดู"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -646,6 +670,9 @@ msgid ""
 "\n"
 "Someone should do something about them."
 msgstr ""
+"โอ้ ฉันจะได้นอนกับพวกขี้เมาที่ร้องเพลงแบบนั้นไหม?\n"
+"\n"
+"ใครบางคนควรทำอะไรบางอย่างเกี่ยวกับพวกเขา"
 
 #: conversationlist_crossglen.json:arambold1:0
 #: conversationlist_lodar.json:lodar_d1:9
@@ -653,7 +680,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_h2:0
 #: conversationlist_maevalia.json:maevalia_d1:0
 msgid "Can I rest here?"
-msgstr ""
+msgstr "ฉันขอพักผ่อนที่นี่ได้ไหม?"
 
 #: conversationlist_crossglen.json:arambold1:1
 #: conversationlist_crossglen.json:mara_default:0
@@ -687,7 +714,7 @@ msgstr ""
 #: conversationlist_omi2.json:ehrenfest_31b:1
 #: conversationlist_omi2.json:ortholion_guard3_5:2
 msgid "Do you have anything to trade?"
-msgstr ""
+msgstr "คุณมีอะไรที่จะแลกเปลี่ยนหรือไม่?"
 
 #: conversationlist_crossglen.json:arambold2
 msgid ""
@@ -695,6 +722,9 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
+"ได้สิ เจ้าหนู เจ้าพักผ่อนได้ที่นี่นะ\n"
+"\n"
+"เลือกเตียงที่คุณต้องการ"
 
 #: conversationlist_crossglen.json:arambold2:0
 #: conversationlist_crossglen_gruil.json:gruil_andor3:0
@@ -706,7 +736,7 @@ msgstr ""
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend_1:0
 #: conversationlist_omi2.json:arghest_15:0
 msgid "Thanks, bye."
-msgstr ""
+msgstr "ขอบคุณลาก่อน."
 
 #: conversationlist_crossglen.json:drunk1
 msgid ""
@@ -715,6 +745,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"ดื่มๆอีกหน่อย\n"
+"ดื่ม ๆ จนกว่าคุณจะอยู่บนพื้น\n"
+"\n"
+"เฮ้ เด็กน้อย อยากเข้าร่วมเกมดื่มเหล้ากับพวกเราไหม?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
