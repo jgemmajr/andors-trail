@@ -1,0 +1,22 @@
+# Android ignores
+app/src/main/res
+gen/
+bin/
+target/
+local.properties
+app/build/intermediates/
+build/
+debug/
+release/
+.gradle/
+
+#IntelliJ
+.idea/
+out/production/
+out/test/
+*.iws
+*.ipr
+
+# Other
+.metadata
+.svn/
