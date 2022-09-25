@@ -29,7 +29,7 @@
     <string name="status_exp">Рівень:</string>
     <string name="heroinfo_char">Огляд</string>
     <string name="heroinfo_inv">Предмети</string>
-    <string name="heroinfo_skill">Навики</string>
+    <string name="heroinfo_skill">Навички</string>
     <string name="heroinfo_levelup">Новий рівень</string>
     <string name="heroinfo_level">Рівень</string>
     <string name="heroinfo_totalexperience">Загальний досвід</string>
@@ -98,7 +98,7 @@
     <string name="traitsinfo_attack_cost">Вартість атаки (ОД):</string>
     <string name="traitsinfo_attack_chance">Шанс атаки:</string>
     <string name="traitsinfo_attack_damage">Пошкодження:</string>
-    <string name="traitsinfo_criticalhit_skill">Навик критичного удару:</string>
+    <string name="traitsinfo_criticalhit_skill">Навичка критичного удару:</string>
     <string name="traitsinfo_criticalhit_multiplier">Критичний множник:</string>
     <string name="traitsinfo_defense_chance">Шанс блоку:</string>
     <string name="traitsinfo_defense_damageresist">Опір пошкодженням:</string>
@@ -248,7 +248,7 @@
     <string name="skill_shortdescription_barter">Кращі ціни в магазинах</string>
     <string name="skill_shortdescription_dodge">Збільшений шанс блоку</string>
     <string name="skill_shortdescription_barkskin">Стійкість до пошкоджень</string>
-    <string name="skill_shortdescription_more_criticals">Збільшений навик критичного удару</string>
+    <string name="skill_shortdescription_more_criticals">Збільшена навичка критичного удару</string>
     <string name="skill_shortdescription_better_criticals">Збільшене критичне пошкодження</string>
     <string name="skill_shortdescription_speed">Збільшений максимум одиниць дії</string>
     <string name="skill_shortdescription_coinfinder">Вищий шанс знаходження золота</string>
@@ -263,35 +263,35 @@
     <string name="skill_shortdescription_resistance_mental">Опір психічним впливам</string>
     <string name="skill_shortdescription_resistance_physical_capacity">Опір фізичним впливам</string>
     <string name="skill_shortdescription_resistance_blood_disorder">Опір захворюванням крові</string>
-    <string name="skill_longdescription_weapon_chance">Збільшує шанс атаки на %1$d відсоткових одиниць для кожного рівня навику.</string>
-    <string name="skill_longdescription_weapon_dmg">Збільшує максимальне пошкодження на %1$d для кожного рівня навику.</string>
-    <string name="skill_longdescription_barter">Зменшує різницю між ціною купівлі і продажу на %1$d відсоткових одиниць для кожного рівня навику.</string>
-    <string name="skill_longdescription_dodge">Збільшує шанс блоку на %1$d відсоткових одиниць для кожного рівня навику.</string>
-    <string name="skill_longdescription_barkskin">Збільшує опір пошкодженням на %1$d для кожного рівня навику.</string>
-    <string name="skill_longdescription_more_criticals">Збільшує будь-який існуючий критичний навик, наданий обладнанням, на %1$d %% для кожного рівня навику.</string>
-    <string name="skill_longdescription_better_criticals">Збільшує будь-який існуючий критичний множник, наданий обладнанням, на %1$d %% для кожного рівня навику.</string>
-    <string name="skill_longdescription_speed">Збільшує максимальну кількість одиниць дій (ОД) на %1$d для кожного рівня навику.</string>
-    <string name="skill_longdescription_coinfinder">Збільшує шанс знайти золото в рештках монстра на %1$d %% і збільшує кількість золота в рештках на %2$d %% для кожного рівня навику (аж до максимальної кількості, яка може випасти з монстра).</string>
-    <string name="skill_longdescription_more_exp">Збільшує кількість досвіду, що дається за перемогу над монстрами, на %1$d %% для кожного рівня навику.</string>
-    <string name="skill_longdescription_cleave">Дає +%1$d одиниць дій (ОД) за кожне вбивство на кожний рівень навику.</string>
-    <string name="skill_longdescription_eater">Дає +%1$d одиниць здоров\'я (ОЗ) за кожне вбивство на кожний рівень навику.</string>
-    <string name="skill_longdescription_fortitude">При кожному наступному підвищенні рівня максимальна кількість одиниць здоров\'я (ОЗ) буде збільшена на %1$d на кожний рівень навику. Це не застосовується заднім числом, збільшення буде застосовуватися тільки до нових підвищень рівня.</string>
-    <string name="skill_longdescription_evasion">Знижує шанс невдачі при спробі втекти на %1$d %% і знижує шанс, що сусідній монстр атакуватиме, на %2$d %% за кожний рівень навику.</string>
-    <string name="skill_longdescription_regeneration">Дає +%1$d одиниць здоров\'я (ОЗ) за кожний раунд на кожний рівень навику, якщо поряд немає монстрів.</string>
-    <string name="skill_longdescription_lower_exploss">Зменшує кількість досвіду, що втрачається через смерть, на %1$d %% (відсотки величини втрати існуючого досвіду, а не відсоткові пункти) для кожного рівня навику. Після %2$d рівня зникають всі втрати досвіду, спричинені смертю.</string>
-    <string name="skill_longdescription_magicfinder">Збільшує шанс знайти незвичайні предмети на %1$d %% для кожного рівня навику.</string>
-    <string name="skill_longdescription_resistance_mental">Зменшує шанс бути ураженим психічними впливами на %1$d %% для кожного рівня навику до максимума %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як Приголомшення або Кволість Рук.</string>
-    <string name="skill_longdescription_resistance_physical_capacity">Зменшує шанс бути ураженим фізичними впливами на %1$d %% для кожного рівня навику до максимума %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як Втома.</string>
-    <string name="skill_longdescription_resistance_blood_disorder">Зменшує шанс бути ураженим захворюваннями крові на %1$d %% для кожного рівня навику до максимума %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як отруєння або кровотеча.</string>
+    <string name="skill_longdescription_weapon_chance">Збільшує шанс атаки на %1$d відсоткових одиниць для кожного рівня навичок.</string>
+    <string name="skill_longdescription_weapon_dmg">Збільшує максимальне пошкодження на %1$d для кожного рівня навичок.</string>
+    <string name="skill_longdescription_barter">Зменшує різницю між ціною купівлі і продажу на %1$d відсоткових одиниць для кожного рівня навичок.</string>
+    <string name="skill_longdescription_dodge">Збільшує шанс блокування на %1$d відсоткових одиниць для кожного рівня навичок.</string>
+    <string name="skill_longdescription_barkskin">Збільшує опір пошкодженням на %1$d для кожного рівня навичок.</string>
+    <string name="skill_longdescription_more_criticals">Збільшує будь-яку наявну критичну навичку, надану обладнанням, на %1$d %% для кожного рівня навичок.</string>
+    <string name="skill_longdescription_better_criticals">Збільшує будь-який наявний критичний множник, наданий обладнанням, на %1$d %% для кожного рівня навичок.</string>
+    <string name="skill_longdescription_speed">Збільшує максимальну кількість одиниць дій (ОД) на %1$d для кожного рівня навичок.</string>
+    <string name="skill_longdescription_coinfinder">Збільшує шанс знайти золото в рештках монстра на %1$d %% і збільшує кількість золота в рештках на %2$d %% для кожного рівня навичок (аж до максимальної кількості, яка може випасти з монстра).</string>
+    <string name="skill_longdescription_more_exp">Збільшує кількість досвіду, що дається за перемогу над монстрами, на %1$d %% для кожного рівня навичок.</string>
+    <string name="skill_longdescription_cleave">Дає +%1$d одиниць дій (ОД) за кожне вбивство на кожний рівень навичок.</string>
+    <string name="skill_longdescription_eater">Дає +%1$d одиниць здоров\'я (ОЗ) за кожне вбивство на кожний рівень навичок.</string>
+    <string name="skill_longdescription_fortitude">При кожному наступному підвищенні рівня максимальна кількість одиниць здоров\'я (ОЗ) буде збільшена на %1$d за кожний рівень навички. Це не застосовується заднім числом, збільшення буде застосовуватися тільки до нових підвищень рівня.</string>
+    <string name="skill_longdescription_evasion">Знижує шанс невдачі при спробі втекти на %1$d %% і знижує шанс, що сусідній монстр атакуватиме, на %2$d %% за кожний рівень навичок.</string>
+    <string name="skill_longdescription_regeneration">Дає +%1$d одиниць здоров\'я (ОЗ) за кожний раунд на кожний рівень навичок, якщо поряд немає монстрів.</string>
+    <string name="skill_longdescription_lower_exploss">Зменшує кількість досвіду, що втрачається через смерть, на %1$d %% (відсотки величини втрати наявного досвіду, а не відсоткові пункти) для кожного рівня навичок. Після %2$d рівня зникають всі втрати досвіду, спричинені смертю.</string>
+    <string name="skill_longdescription_magicfinder">Збільшує шанс знайти незвичайні предмети на %1$d %% для кожного рівня навичок.</string>
+    <string name="skill_longdescription_resistance_mental">Зменшує шанс бути ураженим психічними впливами на %1$d %% для кожного рівня навичок до максимуму %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як Приголомшення або Кволість Рук.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Зменшує шанс бути ураженим фізичними впливами на %1$d %% для кожного рівня навичок до максимуму %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як Втома.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Зменшує шанс бути ураженим захворюваннями крові на %1$d %% для кожного рівня навичок до максимуму %2$d %%. До них належать впливи, спричинені атаками монстрів, такі як отруєння або кровотеча.</string>
     <string name="skillinfo_action_levelup">Новий рівень</string>
     <string name="skill_current_level">Поточний рівень: %1$d</string>
     <string name="skill_current_level_with_maximum">Поточний рівень: %1$d / %2$d</string>
-    <string name="skill_prerequisite_other_skill">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d рівень навику %2$s.</string>
-    <string name="skill_prerequisite_level">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d рівень досвіду.</string>
-    <string name="skill_prerequisite_stat">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d %2$s (базова характеристика).</string>
-    <string name="skill_number_of_increases_one">Ви можете обрати один навик для покращення.</string>
-    <string name="skill_number_of_increases_several">Ви можете обрати %1$d навиків для покращення.</string>
-    <string name="levelup_adds_new_skillpoint">Цей рівень також дає вам нову одиницю навику для їх покращення!</string>
+    <string name="skill_prerequisite_other_skill">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d рівень навичок %2$s.</string>
+    <string name="skill_prerequisite_level">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d рівень досвіду.</string>
+    <string name="skill_prerequisite_stat">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d %2$s (базова характеристика).</string>
+    <string name="skill_number_of_increases_one">Ви можете обрати одну навичку для покращення.</string>
+    <string name="skill_number_of_increases_several">Ви можете обрати %1$d навичок для покращення.</string>
+    <string name="levelup_adds_new_skillpoint">Цей рівень також дає вам нову одиницю навичок для їх покращення!</string>
     <string name="loadsave_save_to_new_slot">Створити новий слот для збереження гри</string>
     <string name="loadsave_save_overwrite_confirmation_title">Перезаписати збережену гру\?</string>
     <string name="loadsave_save_overwrite_confirmation">Ім\'я гравця у цій збереженій грі (%1$s) відрізняється від імені поточного гравця (%2$s). Ви впевнені, що хочете перезаписати цю збережену гру\?</string>
@@ -347,8 +347,8 @@
     <string name="iteminfo_effect_increase_attack_damage_minmax">Збільшує пошкодження від атаки на %1$d-%2$d</string>
     <string name="iteminfo_effect_decrease_attack_damage">Зменшує пошкодження від атаки на %1$d</string>
     <string name="iteminfo_effect_decrease_attack_damage_minmax">Зменшує пошкодження від атаки на %1$d-%2$d</string>
-    <string name="iteminfo_effect_increase_critical_skill">Збільшує навик критичного удару на %1$d</string>
-    <string name="iteminfo_effect_decrease_critical_skill">Зменшує навик критичного удару на %1$d</string>
+    <string name="iteminfo_effect_increase_critical_skill">Збільшує навичку критичного удару на %1$d</string>
+    <string name="iteminfo_effect_decrease_critical_skill">Зменшує навичку критичного удару на %1$d</string>
     <string name="iteminfo_effect_critical_multiplier">Вмикає критичні удари з множником x%1$.1f</string>
     <string name="iteminfo_effect_increase_block_chance">Збільшує шанс блоку на %1$d</string>
     <string name="iteminfo_effect_decrease_block_chance">Зменшує шанс блоку на %1$d</string>
@@ -403,13 +403,13 @@
     <string name="skill_shortdescription_specialization_dualwield">Експерт з володіння подвійною зброєю</string>
     <string name="skill_shortdescription_specialization_2hand">Експерт з дворучної зброї</string>
     <string name="skill_shortdescription_specialization_weapon_shield">Експерт з бою зі зброєю і щитом</string>
-    <string name="skill_longdescription_weapon_prof_dagger">Кожний рівень навику збільшує шанс атаки при використанні кинджалів і коротких мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навик критичного удару на %3$d %% базового критичного удару предмету.</string>
-    <string name="skill_longdescription_weapon_prof_1hsword">Кожний рівень навику збільшує шанс атаки при використанні рапір, довгих мечів і широких мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навик критичного удару на %3$d %% базового критичного удару предмету.</string>
-    <string name="skill_longdescription_weapon_prof_2hsword">Кожний рівень навику збільшує шанс атаки при використанні дворучних мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навик критичного удару на %3$d %% базового критичного удару предмету.</string>
-    <string name="skill_longdescription_weapon_prof_axe">Кожний рівень навику збільшує шанс атаки при використанні сокир і великих сокир на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навик критичного удару на %3$d %% базового критичного удару предмету.</string>
+    <string name="skill_longdescription_weapon_prof_dagger">Кожний рівень навичок збільшує шанс атаки при використанні кинджалів і коротких мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навичку критичного удару на %3$d %% базового критичного удару предмету.</string>
+    <string name="skill_longdescription_weapon_prof_1hsword">Кожний рівень навичок збільшує шанс атаки при використанні рапір, довгих мечів і широких мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навичку критичного удару на %3$d %% базового критичного удару предмету.</string>
+    <string name="skill_longdescription_weapon_prof_2hsword">Кожний рівень навичок збільшує шанс атаки при використанні дворучних мечів на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навичку критичного удару на %3$d %% базового критичного удару предмету.</string>
+    <string name="skill_longdescription_weapon_prof_axe">Кожний рівень навичок збільшує шанс атаки при використанні сокир і великих сокир на %1$d %% базового шансу атаки предмету, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує навичку критичного удару на %3$d %% базового критичного удару предмету.</string>
     <string name="skill_longdescription_weapon_prof_blunt">Кожний рівень уміння збільшує шанс атаки при використанні зброї дробильної дії на %1$d %% базового шансу атаки речі, збільшує шанс блоку на %2$d %% базового шансу блоку предмету і збільшує уміння критичного удару на %3$d %% базового критичного удару речі. Це стосується бойових палиць, кийків з металевим наконечником, булав, скіпетрів, бойових молотів та гігантських молотів.</string>
-    <string name="skill_longdescription_weapon_prof_unarmed">При боротьбі без зброї і щита герой отримує %1$d до шансу атаки, %2$d до шансу нанесення пошкодження і %3$d до шансу блоку на кожний рівень навику.</string>
-    <string name="skill_longdescription_armor_prof_shield">Опір пошкодженням збільшується на %1$d на кожний рівень навику, якщо маєте щит або зброю для парирування.</string>
+    <string name="skill_longdescription_weapon_prof_unarmed">При боротьбі без зброї і щита герой отримує %1$d до шансу атаки, %2$d до шансу нанесення пошкодження і %3$d до шансу блоку на кожний рівень навичок.</string>
+    <string name="skill_longdescription_armor_prof_shield">Опір пошкодженням збільшується на %1$d за кожний рівень навички, якщо маєте щит або зброю для парирування.</string>
     <string name="dialog_recenter">Відцентрувати</string>
     <string name="dialog_more">Більше</string>
     <string name="dialog_monsterencounter_conditions">Впливи</string>
@@ -440,7 +440,7 @@
     <string name="about_contents3">Ця програма є вільним програмним забезпеченням; ви можете розповсюджувати його та/або змінювати його відповідно до умов загальної публічної ліцензії GNU, опублікованих Фондом вільного програмного забезпечення; або версії 2 цієї ліцензії, або (за вашим бажанням) будь-якої пізнішої версії. &lt;br /&gt; &lt;br /&gt; Ця програма поширюється з надією, що вона стане корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ; навіть не маючи на увазі гарантії ТОРГОВОЇ ПРИДАТНОСТІ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Детальнішу інформацію див. у загальній публічній ліцензії GNU. &lt;br /&gt; &lt;br /&gt; Ви повинні були отримати копію загальної публічної ліцензії GNU разом із цією програмою; якщо ні, див. &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Для вихідного коду та запитів про нові можливості, відвідайте сторінку проєкту за адресою &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt; &lt;br /&gt;</string>
     <string name="dialog_newversion_message">Дякуємо за завантаження Andor\'s Trail!
 \n
-\nБудь ласка, зверніть увагу, що розробка Andor\'s Trail ЩЕ ТРИВАЄ, що означає, що ще не всі мапи завершено.
+\nБудь ласка, завбачте, що розробка Andor\'s Trail ЩЕ ТРИВАЄ, що означає, що ще не всі мапи завершено.
 \nБудь ласка, відвідайте форуми проєкту для обговорення гри з іншими гравцями або щоб допомогти зробити гру ще кращою (дивіться Про гру).
 \n
 \nДякуємо за ваші відгуки!</string>
@@ -461,9 +461,9 @@
     <string name="inventory_movebottom">Перемістити донизу</string>
     <string name="skill_title_taunt">Насмішка</string>
     <string name="inventory_equip_offhand">Надягнути (нашвидкуруч)</string>
-    <string name="skill_longdescription_armor_prof_unarmored">При боротьбі без жодного обладунку на тілі додається %1$d до шансу блоку на кожний рівень навику. Предмети з тканини обладунками не вважаються.</string>
-    <string name="skill_longdescription_armor_prof_light">Кожен рівень навику збільшує шанс блоку кожного із вдягнутих легких обладунків на %1$d %% від їхніх базових шансів блоку. До легких обладунків належать шкіряні, легкі металеві обладунки та обладунки схову.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Кожен рівень навику збільшує шанс блоку кожного із вдягнутих важких обладунків на %1$d %% від їхніх базових шансів блоку. Штраф на рух у важких обладунках зменшується на %2$d %% на кожен рівень навику, на швидкість атаки - на %3$d %% на кожен рівень навику. До важких обладунків належать металеві обладунки, кольчуги і лати.</string>
+    <string name="skill_longdescription_armor_prof_unarmored">При боротьбі без жодного обладунку на тілі додається %1$d до шансу блоку на кожний рівень навичок. Предмети з тканини обладунками не вважаються.</string>
+    <string name="skill_longdescription_armor_prof_light">Кожен рівень навичок збільшує шанс блокування кожного із вдягнутих легких обладунків на %1$d %% від їхніх базових шансів блокування. До легких обладунків належать шкіряні, легкі металеві обладунки та обладунки схову.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Кожен рівень навички збільшує шанс блокування кожного із вдягнутих важких обладунків на %1$d %% від їхніх базових шансів блокування. Штраф на рух у важких обладунках зменшується на %2$d %% за кожен рівень навички, на швидкість атаки - на %3$d %% за кожен рівень навички. До важких обладунків належать металеві обладунки, кольчуги і лати.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Дає переваги під час бою двома предметами зброї одночасно в обох руках.
 \n
 \nБез цього уміння може бути використано лише %1$d %% якостей зброї у лівій руці. Сюди входять шанс атаки, уміння критичного удару, потенціал пошкодження і шанс блоку. Без цього уміння швидкість атаки (вартість у ОД) визначається як сума швидкостей атаки обидвох предметів зброї.
@@ -473,10 +473,10 @@
 \nНа другому рівні цього уміння може бути використано %4$d %% якостей зброї у лівій руці, а швидкість атаки дорівнює найвищій зі швидкостей атак обох предметів зброї.</string>
     <string name="skill_longdescription_fightstyle_2hand">Дає переваги під час використання дворучної зброї: дворучних мечів, великих сокир або гігантських молотів.
 \n
-\nКожен рівень навику збільшує урон від пошкоджень дворучною зброєю на %1$d %% від базового.</string>
-    <string name="skill_longdescription_fightstyle_weapon_shield">Дає переваги під час бою зі зброєю у правій руці і щитом або відбивальною зброєю у лівій. 
-\n 
-\nКожен рівень навику збільшує шанс атаки зброї на %1$d %% від базового, а шанс блоку щитів - на %2$d %% від базового.</string>
+\nКожен рівень навичок збільшує можливі пошкодження дворучною зброєю на %1$d %% від базового.</string>
+    <string name="skill_longdescription_fightstyle_weapon_shield">Дає переваги під час бою зі зброєю у правій руці і щитом або відбивальною зброєю у лівій.
+\n
+\nКожен рівень навичок збільшує шанс атаки зброї на %1$d %% від базового, а шанс блокування щитів - на %2$d %% від базового.</string>
     <string name="skill_longdescription_specialization_dualwield">Збільшує шанс атаки зброї в обох руках на додаткові %1$d %% від базового. Шанс блоку зброї в обох руках також збільшується на %2$d %% від базового.</string>
     <string name="skill_longdescription_specialization_2hand">Збільшує урон від пошкоджень дворучної зброї на додаткові %1$d %% від базового. Шанс атаки дворучною зброєю також збільшується на %2$d %% від базового.</string>
     <string name="skill_longdescription_specialization_weapon_shield">Збільшує шанс атаки і можливі пошкодження від зброї в головній руці. Шанс атаки збільшується на %1$d %% від базового, а можливі пошкодження збільшуються на %2$d %% від базового.</string>
@@ -568,10 +568,10 @@
 \n(Бізліміт життів та збережень)</string>
     <string name="menu_save_switch_character_title">Перемикання персонажу</string>
     <string name="skill_title_fightstyle_unarmed_unarmored">Бойовий стиль: Шлях ченця</string>
-    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Під час бою, не маючи жодної броні, не використовуючи зброю чи щит, підвищуються шанс нападу на %1$d, шанс блоку на %2$d, стійкість пошкодженням на %3$d та збільшується максимальне пошкодження на %4$d за кожен рівень вміння. Навик також дає критичний множник 1 плюс 0.%5$d за рівень.
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Під час бою, не маючи жодної броні, не використовуючи зброю чи щит, підвищуються шанс нападу на %1$d, шанс блокування на %2$d, стійкість пошкодженням на %3$d та збільшується максимальне пошкодження на %4$d за кожен рівень вміння. Навичка також дає критичний множник 1 плюс 0.%5$d за рівень.
 \n
 \nПредмети з тканини не вважаються обладунками.</string>
-    <string name="skill_longdescription_weapon_prof_pole">Для кожного рівня навичок збільшується шанс нападу при використанні древкової зброї на %1$d %% від базового шансу атаки предмету, збільшується шанс блокування на %2$d %% від базового шансу базового блоку і підвищується критичний навик на %3$d %% базової критичної новику предмету.</string>
+    <string name="skill_longdescription_weapon_prof_pole">Для кожного рівня навичок збільшується шанс нападу при використанні древкової зброї на %1$d %% від базового шансу атаки предмету, збільшується шанс блокування на %2$d %% від базового та підвищується критична навичка на %3$d %% базової критичної навички предмету.</string>
     <string name="skill_shortdescription_weapon_prof_pole">Краще в битві з древковою зброєю</string>
     <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Краще в битві без озброєння та броні</string>
     <string name="skill_title_weapon_prof_pole">Знання древкової зброї</string>
@@ -589,7 +589,7 @@
 \nЗ метою збереження та завантаження ваших ігор (і лише для цієї мети) Andor\'s Trail запитає у вас дозволу на доступ до вашого сховища."</string>
     <string name="preferences_language_default">Мова системи</string>
     <string name="preferences_display_scaling_factor_50_percent">Половина</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Налаштування гри&lt;/b&gt; можна знайти, натиснувши кнопку Меню пристрою.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Піктограми інтерфейсу&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Скриня&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Слоти швидкого доступу [Довге натискання на мішечки всередині для призначення предметів для миттєвого використання]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Герой&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Меню [Огляд, Квести, Навики і Інвентар *]&lt;/p&gt; &lt;p&gt;* (В меню Інвентаря натискання на предмет відобразить інформацію про нього, довге натискання - додаткові опції)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ворог&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Інформація [з\'являється під час бою]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Бій&lt;/h1&gt; &lt;p&gt;Кожна дія під час бою коштує ОК...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Напад&lt;/b&gt; - [3 ОК] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Одягання спорядження, використання предметів може змінювати ОК і вартість використання)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Використання предметів&lt;/b&gt; - [5 ОК]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Втеча&lt;/b&gt; - [6 ОК]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Додаткові можливості в бою&lt;/h1&gt; &lt;div&gt;Під час бою виконайте довге натискання на клітинку поряд з Героєм...&lt;/div&gt; &lt;div&gt;&lt;b&gt;... щоб втекти&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(обрана клітинка підсвічується, Кнопка Атаки змінюється на Рух)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[активовано режим втечі, довге натискання на ворога поверне Героя до бою]&lt;/p&gt; &lt;div&gt;&lt;b&gt;... щоб змінити цілі&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(червоне підсвічування цілі переміщується з одного ворога на іншого)&lt;/p&gt; &lt;p&gt;[ціль було змінено]&lt;/p&gt;</string>
+    <string name="about_interface">&lt;div&gt;&lt;b&gt;Налаштування гри&lt;/b&gt; можна знайти, натиснувши кнопку Меню пристрою.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Піктограми інтерфейсу&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Скриня&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Слоти швидкого доступу [Довге натискання на мішечки всередині для призначення предметів для миттєвого використання]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Герой&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Меню [Огляд, Квести, Навички і Інвентар *]&lt;/p&gt; &lt;p&gt;* (В меню Інвентаря натискання на предмет відобразить інформацію про нього, довге натискання - додаткові опції)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ворог&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Інформація [з\'являється під час бою]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Бій&lt;/h1&gt; &lt;p&gt;Кожна дія під час бою коштує ОК...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Напад&lt;/b&gt; - [3 ОК] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Одягання спорядження, використання предметів може змінювати ОК і вартість використання)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Використання предметів&lt;/b&gt; - [5 ОК]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Втеча&lt;/b&gt; - [6 ОК]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Додаткові можливості в бою&lt;/h1&gt; &lt;div&gt;Під час бою виконайте довге натискання на клітинку поряд з Героєм...&lt;/div&gt; &lt;div&gt;&lt;b&gt;... щоб втекти&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(обрана клітинка підсвічується, Кнопка Атаки змінюється на Рух)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[активовано режим втечі, довге натискання на ворога поверне Героя до бою]&lt;/p&gt; &lt;div&gt;&lt;b&gt;... щоб змінити цілі&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(червоне підсвічування цілі переміщується з одного ворога на іншого)&lt;/p&gt; &lt;p&gt;[ціль було змінено]&lt;/p&gt;</string>
     <string name="preferences_movement_dpad_transparency_70_pct">70%</string>
     <string name="preferences_movement_dpad_transparency_60_pct">60%</string>
     <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
@@ -605,4 +605,7 @@
     <string name="inventory_category_jewelry">Ювелірні вироби</string>
     <string name="combat_log_item_plural">Ви знайшли %1$d речей:</string>
     <string name="combat_log_item_single">Ви знайшли річ:</string>
+    <string name="startscreen_migration_title">Міграція даних</string>
+    <string name="startscreen_migration_text">Міграція даних збереженої гри.</string>
+    <string name="startscreen_migration_failure">Не вдалося перенести дані збереженої гри.</string>
 </resources>

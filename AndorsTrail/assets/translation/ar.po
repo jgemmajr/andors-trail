@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2022-02-18 21:31+0000\n"
+"PO-Revision-Date: 2022-06-04 18:27+0000\n"
 "Last-Translator: عادل نصري <nsrya06@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ar/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -414,7 +414,7 @@ msgstr "ما نوع الكتاب الذي في يدك؟"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
-msgstr ""
+msgstr "أجل، أنا هنا لتسليم الطلبية'وسادة قطنية'. لكن لماذا ؟"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -1701,7 +1701,7 @@ msgstr "يبدو أنك تحب كتبك حقًا."
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:2
 msgid "And I'm your delivery kid. Did you order a 'Dusty old book'?"
-msgstr ""
+msgstr "وأنا فتى التوصيل الخاص بك. هل طلبت \"كتاب قديم مترب\"؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse
 msgid "Anything else you wanted to ask?"
@@ -5848,96 +5848,107 @@ msgstr "أوف. هذا يثبت ما سمعته عنكم الهمجيون الذ
 
 #: conversationlist_ambelie.json:ambelie_5
 msgid "I, Ambelie, of the house of Laumwill in Feygard, am on an excursion to the southern Nor City."
-msgstr ""
+msgstr "أنا، أمبلياي من عائلة لومويل من فايغارد، أنا في رحلة جنوب مدينة نور."
 
 #: conversationlist_ambelie.json:ambelie_6
 msgid "An excursion to see if Nor City really is all that I have heard about it. If it really can compare itself to the glamour of the great city of Feygard."
 msgstr ""
+"رحلة لأرى إن كانت مدينة نور كما سمعت عنها. إن كانت تستحق أن تقارن بمدينة "
+"فايغارد العظيمة."
 
 #: conversationlist_ambelie.json:ambelie_6:0
 #: conversationlist_ambelie.json:ambelie_9:0
 msgid "Nor City, where is that?"
-msgstr ""
+msgstr "مدينة نور، أين تقع؟"
 
 #: conversationlist_ambelie.json:ambelie_6:1
 msgid "If you like it so much in Feygard, why would you even leave?"
-msgstr ""
+msgstr "إذا كنتي تحبين فايغارد كثيرا، فلماذا أصلا تغادرين؟"
 
 #: conversationlist_ambelie.json:ambelie_6:2
 msgid "Ehh ... I'm here to ... escort you safely to Nor City."
-msgstr ""
+msgstr "إيه ... أنا هنا ل ... أرافقك بأمان إلى مدينة نور."
 
 #: conversationlist_ambelie.json:ambelie_7
 msgid "Don't you know of Nor City? I will take note that the savages here haven't even heard of the city."
 msgstr ""
+"ألم تسمع عن مدينة نور؟ سأسجل ملاحظة أن الهمجيين هنا لم يسمعوا أصلا عن "
+"المدينة."
 
 #: conversationlist_ambelie.json:ambelie_8
 msgid "I am beginning to be even more certain that Nor City will never, even in my wildest dreams, be comparable to the great city of Feygard."
 msgstr ""
+"لقد بدأت في أن أكون أكثر يقينًا من أن مدينة نور لن تكون قابلة للمقارنة أبدًا "
+"، حتى في أكثر أحلامي جموحًا ، بمدينة فايغارد العظيمة."
 
 #: conversationlist_ambelie.json:ambelie_8:0
 #: conversationlist_ambelie.json:ambelie_9:1
 msgid "Good luck on your excursion."
-msgstr ""
+msgstr "حظا سعيدا في رحلتك."
 
 #: conversationlist_ambelie.json:ambelie_9
 msgid "All the noblewomen in Feygard keep talking about the mysterious Shadow in Nor City. I just have to see it myself."
 msgstr ""
+"تواصل جميع النساء النبيلة في فايغارد الحديث عن الظل الغامض في مدينة نور. أنا "
+"فقط يجب أن أراه بنفسي."
 
 #: conversationlist_ambelie.json:ambelie_10
 msgid "Thank you. Now please leave before someone sees me talking to a commoner like you."
 msgstr ""
+"شكرًا لك. الآن من فضلك غادر قبل أن يراني شخص ما أتحدث إلى عامة الناس مثلك."
 
 #: conversationlist_ambelie.json:ambelie_10:0
 msgid "Commoner? Are you trying to insult me? Goodbye."
-msgstr ""
+msgstr "عامة؟ هل تحاول إهانتي؟ وداعا."
 
 #: conversationlist_ambelie.json:ambelie_10:1
 msgid "Whatever, you probably wouldn't even survive a forest wasp."
-msgstr ""
+msgstr "أيا كان ، ربما لن تنجو حتى من دبور الغابة."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_1
 msgid "Ha ha, you tell him Garl! *burp*"
-msgstr ""
+msgstr "ها ها، أخبره غارل! *تجشؤ*"
 
 #: conversationlist_foamingflask_guards.json:ff_guard_2
 msgid "Sing, drink, fight! All who oppose Feygard will fall!"
-msgstr ""
+msgstr "غني ، اشرب ، قاتل! كل من يعارض فيجارد سوف يسقط!"
 
 #: conversationlist_foamingflask_guards.json:ff_guard_3
 msgid "We will stand tall. Feygard, city of peace!"
-msgstr ""
+msgstr "سوف نظل صامدين. فايغارد، مدينة السلام!"
 
 #: conversationlist_foamingflask_guards.json:ff_guard_3:0
 msgid "I had better be going."
-msgstr ""
+msgstr "من الأفضل أن أذهب."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_3:1
 #: conversationlist_foamingflask_guards.json:ff_captain_2:0
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_2:0
 msgid "Feygard, where is that?"
-msgstr ""
+msgstr "فايغارد، أين تقغ؟"
 
 #: conversationlist_foamingflask_guards.json:ff_guard_4
 msgid "What, you haven't heard of Feygard, kid? Just follow the road northwest and you will see the great city of Feygard rise above the treetops."
 msgstr ""
+"ماذا ، لم تسمع عن فايغارد، يا فتى؟ ما عليك سوى اتباع الطريق الشمالي الغربي و "
+"سترى مدينة فايغارد العظيمة ترتفع فوق قمم الأشجار."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_4:0
 msgid "Thanks. Bye."
-msgstr ""
+msgstr "شكرا، وداعا."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_rincel_1
 msgid "A boy?! Apart from you, there have been no children in here that I have seen."
-msgstr ""
+msgstr "صبي؟! بصرف النظر عنك، لم أرى أي أطفال هنا."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_rincel_2
 msgid "Check with the captain over there. He has been around here for longer than us."
-msgstr ""
+msgstr "إسأل القائد هناك. إنه هنا قبلنا."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_rincel_2:0
 #: conversationlist_foamingflask_guards.json:ff_captain_4:1
 msgid "Thank you, Goodbye."
-msgstr ""
+msgstr "شكرا، وداعا."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_rincel_2:1
 #: conversationlist_foamingflask_guards.json:ff_captain_4:0
@@ -5946,56 +5957,61 @@ msgstr ""
 #: conversationlist_omi2.json:prim_commoner3_3:1
 #: conversationlist_omi2.json:prim_commoner3_5:0
 msgid "Thank you. Shadow be with you."
-msgstr ""
+msgstr "شكرا، ليكن الظل معك."
 
 #: conversationlist_foamingflask_guards.json:ff_guard_shadow_1
 msgid "Don't bring that cursed Shadow in here son. We want none of that. Now leave."
-msgstr ""
+msgstr "لا تحضر ذلك الظل الملعون هنا يا بني. لا نريد أيًا من ذلك. الآن غادر."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_1
 msgid "Are you lost, son? This is no place for a kid like you."
-msgstr ""
+msgstr "هل أنت تائه يا بني؟ هذا ليس مكان لطفل مثلك."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_1:0
 #: conversationlist_foamingflask_guards.json:ff_captain_1:1
 msgid "I have a shipment of iron swords from Gandoren for you."
-msgstr ""
+msgstr "لدي شحنة من السيوف الحديدية من غاندورين لك."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_1:4
 msgid "Hi! I have been sent by Herg ... Hertzsen Laumwill, patriarch of the Laumwill family, to bring back his daughter!"
 msgstr ""
+"مرحبا! لقد تم إرسالي من قبل هيرج ... هيرتزين لومويل ، بطريارك عائلة لامويل ، "
+"لإعادة ابنته!"
 
 #: conversationlist_foamingflask_guards.json:ff_captain_2
 msgid "I am the guard captain of this patrol. We hail from the great city of Feygard."
-msgstr ""
+msgstr "أنا قائد حرس هذه الدورية. نحن من مدينة فايغارد العظيمة."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_3
 msgid "We are travelling the main road to make sure the merchants and travelers are safe. We keep the peace around here."
 msgstr ""
+"نحن نسير على الطريق الرئيسي للتأكد من سلامة التجار و المسافرين. نحافظ على "
+"السلام هنا."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_3:0
 msgid "You mentioned Feygard. Where is that?"
-msgstr ""
+msgstr "لقد ذكرت فايغارد. أين تقع؟"
 
 #: conversationlist_foamingflask_guards.json:ff_captain_4
 msgid "The great city of Feygard is the greatest sight you will ever see. Follow the road northwest."
 msgstr ""
+"مدينة فايغارد العظيمة هي أعظم مشهد تراه على الإطلاق. اتبع طريق الشمال الغربي."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_rincel_1
 msgid "There was a kid running around in here a while ago."
-msgstr ""
+msgstr "كان هناك طفل يتجول هنا منذ فترة."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_rincel_2
 msgid "I never talked to him though, so I don't know if he is the one you are looking for."
-msgstr ""
+msgstr "لم أتحدث معه أبدًا ، لذلك لا أعرف ما إذا كان هو الشخص الذي تبحث عنه."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_rincel_2:0
 msgid "OK, that might be something worth checking anyway."
-msgstr ""
+msgstr "حسنًا ، قد يكون هذا شيئًا يستحق التحقق منه على أي حال."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_rincel_3
 msgid "I noticed he left to the west heading out of the Foaming Flask tavern."
-msgstr ""
+msgstr "لقد لاحظت أنه غادر إلى الغرب متجهًا من حانة قوارير الرغوة."
 
 #: conversationlist_foamingflask_guards.json:ff_captain_rincel_3:0
 msgid "West. Got it. Thanks for the information."
@@ -59000,4 +59016,3 @@ msgstr "قصر غوينمارت"
 #: worldmap.xml:world1:brimhaven_area
 msgid "Brimhaven"
 msgstr "بريم هافن"
-
