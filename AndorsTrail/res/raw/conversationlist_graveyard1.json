@@ -2252,6 +2252,17 @@
             {
                 "text":"What do you do here?",
                 "nextPhraseID":"throthaus_2"
+            },
+            {
+                "text":"I need a pitchfork.",
+                "nextPhraseID":"throthaus_4",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":20
+                    }
+                ]
             }
         ]
     },
@@ -2286,6 +2297,17 @@
             {
                 "text":"OK. Thanks. I need to get going.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"How about a pitchfork?",
+                "nextPhraseID":"throthaus_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":20
+                    }
+                ]
             }
         ]
     },

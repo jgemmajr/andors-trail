@@ -11,6 +11,40 @@
             {
                 "text":"What can you tell me about yourself?",
                 "nextPhraseID":"dunla_1"
+            },
+            {
+                "text":"I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.",
+                "nextPhraseID":"dunla_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.",
+                "nextPhraseID":"dunla_beer_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },
@@ -72,6 +106,34 @@
             {
                 "text":"Show me what food you have available.",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'.",
+                "nextPhraseID":"tharwyn_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Let's get back to discussing your 'business agreement' with the 'distributors'.",
+                "nextPhraseID":"tharwyn_beer_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":32
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
