@@ -44,17 +44,6 @@
             {
                 "text":"Any recent events happening?",
                 "nextPhraseID":"farrik_5"
-            },
-            {
-                "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
-                "nextPhraseID":"farrik_beer",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"beer_bootlegging",
-                        "value":40
-                    }
-                ]
             }
         ]
     },
@@ -464,24 +453,7 @@
     },
     {
         "id":"farrik_return_2",
-        "message":"Thank you for your help with the guard captain earlier.",
-        "replies":[
-            {
-                "text":"Sure.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
-                "nextPhraseID":"farrik_beer",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"beer_bootlegging",
-                        "value":40
-                    }
-                ]
-            }
-        ]
+        "message":"Thank you for your help with the guard captain earlier."
     },
     {
         "id":"farrik_26",

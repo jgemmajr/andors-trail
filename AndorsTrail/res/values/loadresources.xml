@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?><resources>
     <array name="loadresource_itemcategories">
         <item>@raw/itemcategories_1</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
@@ -91,8 +91,6 @@
         <item>@raw/itemlist_omi2</item>
         <!--Added by ATCS v0.6.17 for project Delivery-->
         <item>@raw/itemlist_delivery</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@raw/itemlist_sullengard</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -141,8 +139,6 @@
         <item>@raw/droplists_omi2</item>
         <!--Added by ATCS v0.6.16 for project v0715-->
         <item>@raw/droplists_v0715</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@raw/droplists_sullengard</item>
     </array>
         
     <array name="loadresource_quests">
@@ -161,8 +157,7 @@
         <item>@raw/questlist_shortcut_lodar</item>
         <item>@raw/questlist_pathway_fallhaven</item>
         <item>@raw/questlist_halvor_surprise</item>
-                                                                                                                -		
-        
+                                                                                                        -		
         
         
         
@@ -200,9 +195,6 @@
         <item>@raw/questlist_omi2</item>
         <!--Added by ATCS v0.6.17 for project Delivery-->
         <item>@raw/questlist_delivery</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@raw/questlist_factions</item>
-        <item>@raw/questlist_sullengard</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -398,9 +390,6 @@
         <item>@raw/conversationlist_omi2</item>
         <!--Added by ATCS v0.6.17 for project Delivery-->
         <item>@raw/conversationlist_delivery</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@raw/conversationlist_factions</item>
-        <item>@raw/conversationlist_sullengard</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -455,9 +444,6 @@
         <!--Added by ATCS v0.6.16 for project ATOmiRep-->
         <item>@raw/monsterlist_gorwath</item>
         <item>@raw/monsterlist_omi2</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@raw/monsterlist_hilltown</item>
-        <item>@raw/monsterlist_sullengard</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1086,79 +1072,6 @@
         <item>@xml/elm_mine3</item>
         <item>@xml/elm_mine4</item>
         <item>@xml/elm_mine5</item>
-        <!--Added by ATCS v0.6.18 for project sullengard-->
-        <item>@xml/cabin_norcity_road1</item>
-        <item>@xml/cabin_norcity_road2</item>
-        <item>@xml/cabin_norcity_road3</item>
-        <item>@xml/cabin_norcity_road4</item>
-        <item>@xml/deebo_orchard_house</item>
-        <item>@xml/sullengard1</item>
-        <item>@xml/sullengard10</item>
-        <item>@xml/sullengard1_aunts_house</item>
-        <item>@xml/sullengard1_northeast_house</item>
-        <item>@xml/sullengard1_southeast_house</item>
-        <item>@xml/sullengard1_southwest_house</item>
-        <item>@xml/sullengard1_townhall</item>
-        <item>@xml/sullengard2</item>
-        <item>@xml/sullengard2_armory</item>
-        <item>@xml/sullengard2_garden_house</item>
-        <item>@xml/sullengard2_northeast_house</item>
-        <item>@xml/sullengard2_northwest_house</item>
-        <item>@xml/sullengard3</item>
-        <item>@xml/sullengard4</item>
-        <item>@xml/sullengard5</item>
-        <item>@xml/sullengard6</item>
-        <item>@xml/sullengard7</item>
-        <item>@xml/sullengard8</item>
-        <item>@xml/sullengard9</item>
-        <item>@xml/sullengard_apple_farm_east</item>
-        <item>@xml/sullengard_apple_farm_south</item>
-        <item>@xml/sullengard_apple_farm_west</item>
-        <item>@xml/sullengard_church</item>
-        <item>@xml/sullengard_inn</item>
-        <item>@xml/sullengard_pond</item>
-        <item>@xml/sullengard_pond_east</item>
-        <item>@xml/sullengard_ravine2</item>
-        <item>@xml/sullengard_ravine_cabin</item>
-        <item>@xml/sullengard_tavern</item>
-        <item>@xml/sullengard_tavern_basement</item>
-        <item>@xml/sullengard_weapon_shop</item>
-        <item>@xml/sullengard_west_ravine</item>
-        <item>@xml/sullengard_woods1</item>
-        <item>@xml/sullengard_woods10</item>
-        <item>@xml/sullengard_woods11</item>
-        <item>@xml/sullengard_woods12</item>
-        <item>@xml/sullengard_woods13</item>
-        <item>@xml/sullengard_woods14</item>
-        <item>@xml/sullengard_woods2</item>
-        <item>@xml/sullengard_woods3</item>
-        <item>@xml/sullengard_woods4</item>
-        <item>@xml/sullengard_woods5</item>
-        <item>@xml/sullengard_woods6</item>
-        <item>@xml/sullengard_woods7</item>
-        <item>@xml/sullengard_woods8</item>
-        <item>@xml/sullengard_woods9</item>
-        <item>@xml/sullengard_woods_gj1</item>
-        <item>@xml/vilegard_sullengard_filler1</item>
-        <item>@xml/way_to_sullengard_east1</item>
-        <item>@xml/way_to_sullengard_east10</item>
-        <item>@xml/way_to_sullengard_east11</item>
-        <item>@xml/way_to_sullengard_east2</item>
-        <item>@xml/way_to_sullengard_east2a</item>
-        <item>@xml/way_to_sullengard_east4</item>
-        <item>@xml/way_to_sullengard_east4_bridge</item>
-        <item>@xml/way_to_sullengard_east5</item>
-        <item>@xml/way_to_sullengard_east5_filler</item>
-        <item>@xml/way_to_sullengard_east6</item>
-        <item>@xml/way_to_sullengard_east7</item>
-        <item>@xml/way_to_sullengard_east7a</item>
-        <item>@xml/way_to_sullengard_east8</item>
-        <item>@xml/way_to_sullengard_east9</item>
-        <item>@xml/way_to_sullengard_east9a</item>
-        <item>@xml/way_to_sullengard_east_ravine</item>
-        <item>@xml/way_to_sullengard_east_ravine_cabin</item>
-        <item>@xml/way_to_sullengard_east_ravine_north</item>
-        <item>@xml/way_to_sullengard_pond_road</item>
     </array>
         
 </resources>
