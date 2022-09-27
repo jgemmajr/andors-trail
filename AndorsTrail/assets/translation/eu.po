@@ -389,6 +389,7 @@ msgstr ""
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
+#: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
 msgstr ""
 
@@ -517,6 +518,8 @@ msgstr ""
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots30_2:0
 #: conversationlist_brimhaven_2.json:oromir_basement_help_10:1
 #: conversationlist_delivery.json:brv_wh_delivery_arghes:0
+#: conversationlist_sullengard.json:sullengard_nanette_12:0
+#: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
 msgstr ""
 
@@ -1120,7 +1123,7 @@ msgstr ""
 
 #: conversationlist_crossglen_leta.json:oromir1:0
 #: conversationlist_fallhaven_vacor.json:vacor_begin
-#: conversationlist_umar.json:umar_return_1:19
+#: conversationlist_umar.json:umar_return_1:27
 #: conversationlist_remgard_villagers1.json:remgard_villager8
 #: conversationlist_stoutford.json:kayla_1
 #: conversationlist_stoutford.json:glasforn_initial_0
@@ -1277,6 +1280,8 @@ msgstr ""
 #: conversationlist_brimhaven_2.json:brv_guard_deputy_asd_30:0
 #: conversationlist_gison.json:gison_p1_20_warmup_1:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_reward:0
+#: conversationlist_sullengard.json:ravynne_20:0
+#: conversationlist_sullengard.json:sullengard_drinking_brother_30:0
 msgid "Thanks."
 msgstr ""
 
@@ -1355,6 +1360,7 @@ msgstr ""
 #: conversationlist_ogam.json:ogam_2:1
 #: conversationlist_brimhaven_2.json:arlish_asd_40:0
 #: conversationlist_omi2.json:ehrenfest_14:0
+#: conversationlist_sullengard.json:sullengard_mayor_beer_90:0
 msgid "Please go on."
 msgstr ""
 
@@ -2299,6 +2305,11 @@ msgstr ""
 msgid "Are there any rooms available?"
 msgstr ""
 
+#: conversationlist_fallhaven_tavern.json:bela:2
+#: conversationlist_vilegard_tavern.json:tharwyn_2:1
+msgid "Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'."
+msgstr ""
+
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
 msgstr ""
@@ -2856,6 +2867,7 @@ msgid "Hah, I will enjoy killing you!"
 msgstr ""
 
 #: conversationlist_fallhaven_unzel.json:unzel_4:1
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_1:0
 msgid "I will listen to your story."
 msgstr ""
 
@@ -2993,6 +3005,7 @@ msgstr ""
 #: conversationlist_delivery.json:brv_wh_delivery_tjure:0
 #: conversationlist_delivery.json:brv_wh_delivery_servant:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_scrooge:0
+#: conversationlist_sullengard.json:farrik_beer_town_10:2
 msgid "Thank you."
 msgstr ""
 
@@ -3816,6 +3829,7 @@ msgstr ""
 #: conversationlist_lethenlor.json:lethenlor0:1
 #: conversationlist_lethenlor.json:lethenlor4:1
 #: conversationlist_stoutford.json:stoutford_gateguard_0:0
+#: conversationlist_sullengard.json:sullengard_gaelian_0:1
 msgid "What is this place?"
 msgstr ""
 
@@ -3966,6 +3980,7 @@ msgstr ""
 #: conversationlist_brimhaven_2.json:zorvan_0:0
 #: conversationlist_fungi_panic.json:zuul_khan_20:0
 #: conversationlist_fungi_panic.json:fungi_rescued:0
+#: conversationlist_sullengard.json:deebo_orchard_howkin_10:2
 msgid "Who are you?"
 msgstr ""
 
@@ -3976,6 +3991,9 @@ msgstr ""
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_2:0
 #: conversationlist_arulir_mountain.json:tjure_0_12:1
 #: conversationlist_omi2.json:ehrenfest_2a:0
+#: conversationlist_sullengard.json:sullengard_nanette_1:0
+#: conversationlist_sullengard.json:sullengard_zaccheria_50:0
+#: conversationlist_sullengard.json:deebo_orchard_howkin_10:1
 msgid "Why is that?"
 msgstr ""
 
@@ -4113,6 +4131,12 @@ msgstr ""
 #: conversationlist_gandoren.json:gandoren_2:0
 #: conversationlist_gandoren.json:gandoren_dr_1:0
 msgid "Any recent events happening?"
+msgstr ""
+
+#: conversationlist_farrik.json:farrik_4:1
+#: conversationlist_farrik.json:farrik_return_2:1
+#: conversationlist_sullengard.json:farrik_inquery:1
+msgid "I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you."
 msgstr ""
 
 #: conversationlist_farrik.json:farrik_5
@@ -4286,6 +4310,24 @@ msgstr ""
 
 #: conversationlist_farrik.json:farrik_return_2
 msgid "Thank you for your help with the guard captain earlier."
+msgstr ""
+
+#: conversationlist_farrik.json:farrik_return_2:0
+#: conversationlist_bwm_agent_3.json:bwm_agent_3_6:0
+#: conversationlist_prim_guthbered.json:guthbered_21:0
+#: conversationlist_algangror.json:algangror_return_c4:1
+#: conversationlist_kaverin.json:kaverin_9:1
+#: conversationlist_stoutford.json:stoutford_thief_initial_1:0
+#: conversationlist_stoutford.json:glasforn_rumblings20_4
+#: conversationlist_stoutford.json:kayla_4:0
+#: conversationlist_stoutford_combined.json:blornvale_shop1_8:0
+#: conversationlist_stoutford_combined.json:stn_colonel_120:0
+#: conversationlist_burhczyd.json:burhczydx_4a_11:0
+#: conversationlist_burhczyd.json:burhczydx_11a_11
+#: conversationlist_brimhaven2.json:brv_wh_boss_10:2
+#: conversationlist_brimhaven2.json:golin_100:0
+#: conversationlist_gison.json:gael_1:0
+msgid "Sure."
 msgstr ""
 
 #: conversationlist_farrik.json:farrik_26
@@ -4544,66 +4586,94 @@ msgid "Hello again, my friend."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:1
-msgid "Are you going to tell me about the key?"
+msgid "I have given them our promised share."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:2
-msgid "Crackshot is dead."
+msgid "What are we gonna do about Sullengard?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:3
-msgid "What am I supposed to do again?"
+msgid "What are your plans for the new traitors?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:4
-msgid "What are your plans for the traitors?"
+msgid "Matpat told me that Defy and his men left Sullengard."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:5
-msgid "Can you continue with what you were telling me about the traitors?"
+msgid "Defy and his men have left Sullengard."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:6
-msgid "We are supposed to talk about something."
+msgid "Defy told me that the time to share will be delayed for no stated reason."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:7
-#: conversationlist_umar.json:umar_return_1:8
-msgid "We were supposed to talk about something, right?"
+msgid "What am I supposed to do in Sullengard again?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:9
-msgid "I've finally finished the job."
+msgid "Are you going to tell me about the key?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:10
-msgid "What am I suppossed to do again?"
+msgid "Crackshot is dead."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:11
+msgid "What am I supposed to do again?"
+msgstr ""
+
 #: conversationlist_umar.json:umar_return_1:12
-msgid "What am I supposed to do with the noblewoman?"
+msgid "What are your plans for the traitors?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:13
-msgid "I have to talk to you about the noblewoman."
+msgid "Can you continue with what you were telling me about the traitors?"
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:14
-msgid "I have brought the hostage."
+msgid "We are supposed to talk about something."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:15
 #: conversationlist_umar.json:umar_return_1:16
+msgid "We were supposed to talk about something, right?"
+msgstr ""
+
 #: conversationlist_umar.json:umar_return_1:17
-msgid "Anything more about my new task?"
+msgid "I've finally finished the job."
 msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:18
+msgid "What am I suppossed to do again?"
+msgstr ""
+
+#: conversationlist_umar.json:umar_return_1:19
+#: conversationlist_umar.json:umar_return_1:20
+msgid "What am I supposed to do with the noblewoman?"
+msgstr ""
+
+#: conversationlist_umar.json:umar_return_1:21
+msgid "I have to talk to you about the noblewoman."
+msgstr ""
+
+#: conversationlist_umar.json:umar_return_1:22
+msgid "I have brought the hostage."
+msgstr ""
+
+#: conversationlist_umar.json:umar_return_1:23
+#: conversationlist_umar.json:umar_return_1:24
+#: conversationlist_umar.json:umar_return_1:25
+msgid "Anything more about my new task?"
+msgstr ""
+
+#: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
 msgstr ""
 
-#: conversationlist_umar.json:umar_return_1:20
+#: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
 msgid "Nice to meet you. Goodbye."
 msgstr ""
@@ -5084,6 +5154,11 @@ msgstr ""
 msgid "What can you tell me about yourself?"
 msgstr ""
 
+#: conversationlist_vilegard_tavern.json:dunla_default:2
+#: conversationlist_vilegard_tavern.json:dunla_default:3
+msgid "I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you."
+msgstr ""
+
 #: conversationlist_vilegard_tavern.json:dunla_1
 msgid "Me? I am no one. You didn't even see me. You certainly did not talk to me."
 msgstr ""
@@ -5102,6 +5177,10 @@ msgstr ""
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2:0
 msgid "Show me what food you have available."
+msgstr ""
+
+#: conversationlist_vilegard_tavern.json:tharwyn_2:2
+msgid "Let's get back to discussing your 'business agreement' with the 'distributors'."
 msgstr ""
 
 #: conversationlist_vilegard_tavern.json:vilegard_tavern_drunk_1
@@ -5396,7 +5475,7 @@ msgid "Mostly, I trade with travelers on the main road on the way to Nor City."
 msgstr ""
 
 #: conversationlist_alynndir.json:alynndir_3
-msgid "Oh, there is not much around here. Vilegard to the west and Brightport to the east."
+msgid "Oh, there is not much around here. Vilegard to the west, Brightport to the east and Sullengard to the south."
 msgstr ""
 
 #: conversationlist_alynndir.json:alynndir_4
@@ -5409,6 +5488,10 @@ msgstr ""
 
 #: conversationlist_alynndir.json:alynndir_6
 msgid "I really wonder what is up there."
+msgstr ""
+
+#: conversationlist_alynndir.json:alynndir_6:1
+msgid "You mentioned Sullengard. What can you tell me about it?"
 msgstr ""
 
 #: conversationlist_vilegard_shops.json:vilegard_armorer_1
@@ -5565,6 +5648,7 @@ msgid "Turning. Twisting. Clear form."
 msgstr ""
 
 #: conversationlist_ogam.json:ogam_lodar_4:0
+#: conversationlist_sullengard.json:torilo_beer_pay:0
 msgid "What does that mean?"
 msgstr ""
 
@@ -5613,6 +5697,10 @@ msgstr ""
 #: conversationlist_foamingflask_guards.json:ff_guard_3:2
 #: conversationlist_foamingflask_guards.json:ff_captain_1:3
 msgid "Have you seen a boy called Rincel around here recently?"
+msgstr ""
+
+#: conversationlist_foamingflask.json:torilo_1:2
+msgid "Hey, I noticted all of those beer barrels outside and all those drunk guards over there."
 msgstr ""
 
 #: conversationlist_foamingflask.json:torilo_2
@@ -5854,6 +5942,10 @@ msgstr ""
 msgid "Hi! I have been sent by Herg ... Hertzsen Laumwill, patriarch of the Laumwill family, to bring back his daughter!"
 msgstr ""
 
+#: conversationlist_foamingflask_guards.json:ff_captain_1:5
+msgid "Let's talk about the beer investigation."
+msgstr ""
+
 #: conversationlist_foamingflask_guards.json:ff_captain_2
 msgid "I am the guard captain of this patrol. We hail from the great city of Feygard."
 msgstr ""
@@ -5864,6 +5956,10 @@ msgstr ""
 
 #: conversationlist_foamingflask_guards.json:ff_captain_3:0
 msgid "You mentioned Feygard. Where is that?"
+msgstr ""
+
+#: conversationlist_foamingflask_guards.json:ff_captain_3:1
+msgid "So when you say \"peace\", you really mean \"law enforement\"?"
 msgstr ""
 
 #: conversationlist_foamingflask_guards.json:ff_captain_4
@@ -6366,6 +6462,7 @@ msgstr ""
 #: conversationlist_halvor_surprise.json:halvor_crossglen_11
 #: conversationlist_halvor_surprise.json:halvor_bwmine_14
 #: conversationlist_guynmart_npc.json:guynmart_wizard_50:0
+#: conversationlist_omicronrg9.json:guild04_defy_4:0
 #: conversationlist_brimhaven_2.json:kizzo_asd_50:0
 #: conversationlist_gison.json:gael_20_6
 msgid "Really?"
@@ -6894,22 +6991,6 @@ msgstr ""
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_6
 msgid "I will not talk of them now. Follow me up to the Blackwater mountain settlement and we will talk more there."
-msgstr ""
-
-#: conversationlist_bwm_agent_3.json:bwm_agent_3_6:0
-#: conversationlist_prim_guthbered.json:guthbered_21:0
-#: conversationlist_algangror.json:algangror_return_c4:1
-#: conversationlist_kaverin.json:kaverin_9:1
-#: conversationlist_stoutford.json:stoutford_thief_initial_1:0
-#: conversationlist_stoutford.json:glasforn_rumblings20_4
-#: conversationlist_stoutford.json:kayla_4:0
-#: conversationlist_stoutford_combined.json:blornvale_shop1_8:0
-#: conversationlist_stoutford_combined.json:stn_colonel_120:0
-#: conversationlist_burhczyd.json:burhczydx_4a_11:0
-#: conversationlist_brimhaven2.json:brv_wh_boss_10:2
-#: conversationlist_brimhaven2.json:golin_100:0
-#: conversationlist_gison.json:gael_1:0
-msgid "Sure."
 msgstr ""
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_6:1
@@ -9095,6 +9176,7 @@ msgstr ""
 #: conversationlist_prim_bjorgur.json:bjorgur_1:1
 #: conversationlist_lodarfg.json:lodar_fg1_15:0
 #: conversationlist_brimhaven_2.json:arlish_asd_100
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_10
 msgid "What about it?"
 msgstr ""
 
@@ -9601,6 +9683,7 @@ msgid "This vial is a vial of purifying spirit. It should delay the process well
 msgstr ""
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11:0
+#: conversationlist_sullengard.json:ff_captain_beer_100:1
 msgid "Sounds easy. I'll do it."
 msgstr ""
 
@@ -9750,6 +9833,7 @@ msgstr ""
 #: conversationlist_loneford_2.json:loneford_villager3:0
 #: conversationlist_taevinn.json:taevinn:1
 #: conversationlist_omi2.json:ortholion_guard8_1:0
+#: conversationlist_sullengard.json:crossglen_valentina_selector:2
 msgid "What's wrong?"
 msgstr ""
 
@@ -10779,6 +10863,7 @@ msgstr ""
 #: conversationlist_arulir_mountain.json:bernhar_80:1
 #: conversationlist_omi2.json:prim_tavern_guest4_36c:2
 #: conversationlist_omi2.json:ortholion_guard3_2:2
+#: conversationlist_sullengard.json:alynndir_16:1
 msgid "I can handle myself."
 msgstr ""
 
@@ -11401,6 +11486,8 @@ msgstr ""
 #: conversationlist_brimhaven.json:mikhail_news_20:2
 #: conversationlist_gison.json:gison_p2_50:2
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10:1
+#: conversationlist_sullengard.json:sullengard_nanette_7:0
+#: conversationlist_sullengard.json:ff_captain_selector:0
 msgid "Not yet."
 msgstr ""
 
@@ -11458,6 +11545,7 @@ msgstr ""
 
 #: conversationlist_crossroads_2.json:gallain_1
 #: conversationlist_ingus.json:ingus_speak1
+#: conversationlist_sullengard.json:sullengard_hadena_1:0
 msgid "How may I help you?"
 msgstr ""
 
@@ -12032,6 +12120,7 @@ msgid "Now, tell me. Would you support those men by agreeing to their terms?"
 msgstr ""
 
 #: conversationlist_buceth.json:buceth_14:2
+#: conversationlist_omicronrg9.json:umar_guild04_15:0
 #: conversationlist_fungi_panic.json:bogsten_granny_30:2
 msgid "I don't know."
 msgstr ""
@@ -14729,6 +14818,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:umar_guild_5a:1
 #: conversationlist_omicronrg9.json:troublemaker_guild_8a:0
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_4:0
+#: conversationlist_sullengard.json:farrik_beer_20:0
 msgid "Anything else?"
 msgstr ""
 
@@ -16401,6 +16491,7 @@ msgid "About that, Jhaeld sent me to ask about the missing people."
 msgstr ""
 
 #: conversationlist_elythom_1.json:krell_knights_6:1
+#: conversationlist_sullengard.json:sullengard_valhorn_10:0
 msgid "Good luck with that."
 msgstr ""
 
@@ -21827,6 +21918,9 @@ msgstr ""
 #: conversationlist_fungi_panic.json:bogsten_tomb_pw:0
 #: conversationlist_gison.json:gison_p2_10_7:0
 #: conversationlist_omi2.json:capvjern_18b:0
+#: conversationlist_sullengard.json:ravynne_0:0
+#: conversationlist_sullengard.json:farrik_beer_10
+#: conversationlist_sullengard.json:sullengard_citizen_0:0
 msgid "Yes."
 msgstr ""
 
@@ -21895,6 +21989,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_54:0
 #: conversationlist_arulir_mountain.json:tjure_30_90:1
+#: conversationlist_sullengard.json:torilo_beer_30:0
 msgid "Forget it."
 msgstr ""
 
@@ -21920,6 +22015,7 @@ msgid "And here's the cure."
 msgstr ""
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_100
+#: conversationlist_omicronrg9.json:umar_guild04_28b:0
 msgid "Oh. Thank you."
 msgstr ""
 
@@ -22026,7 +22122,7 @@ msgid "So what. I can help!"
 msgstr ""
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_4
-msgid "OK, maybe you can be of use. Talk to the guard captainn. Maybe you can convince him to pay the woodcutter first. But I have to warn you, he is a stubborn beast."
+msgid "OK, maybe you can be of use. Talk to the guard captain. Maybe you can convince him to pay the woodcutter first. But I have to warn you, he is a stubborn beast."
 msgstr ""
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_4:0
@@ -23029,6 +23125,7 @@ msgstr ""
 #: conversationlist_stoutford.json:glasforn_rumblings20_2:0
 #: conversationlist_fungi_panic.json:zuul_khan4:0
 #: conversationlist_omi2.json:ortholion_guard9_1:1
+#: conversationlist_sullengard.json:sullengard_matpat_2:0
 msgid "Why?"
 msgstr ""
 
@@ -24078,6 +24175,10 @@ msgstr ""
 msgid "Is there something I can help you with?"
 msgstr ""
 
+#: conversationlist_graveyard1.json:throthaus_0:2
+msgid "I need a pitchfork."
+msgstr ""
+
 #: conversationlist_graveyard1.json:throthaus_1
 msgid "No. Is there anything else?"
 msgstr ""
@@ -24097,6 +24198,10 @@ msgstr ""
 
 #: conversationlist_graveyard1.json:throthaus_3
 msgid "I'm a farmer, not a shopkeeper. So yes, if you want to buy a cartload, no otherwise."
+msgstr ""
+
+#: conversationlist_graveyard1.json:throthaus_3:1
+msgid "How about a pitchfork?"
 msgstr ""
 
 #: conversationlist_graveyard1.json:waterwaycaveloot
@@ -25090,6 +25195,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_hannah2_12
 #: conversationlist_guynmart_npc.json:guynmart_steward5_12
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_12
+#: conversationlist_sullengard.json:sullengard_valeria_15
 msgid "Hello $playername."
 msgstr ""
 
@@ -25186,6 +25292,8 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_s_hannah_63_3:0
 #: conversationlist_brimhaven_2b.json:hettar_10:0
 #: conversationlist_gison.json:gison_p1_10_0
+#: conversationlist_sullengard.json:sullengard_zaccheria_0
+#: conversationlist_sullengard.json:sullengard_lamberta_0
 msgid "How can I help you?"
 msgstr ""
 
@@ -26798,6 +26906,8 @@ msgid "I am tired and hungry. Do you have a place to rest, please?"
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_20:2
+#: conversationlist_sullengard.json:sullengard_arantxa_10:0
+#: conversationlist_sullengard.json:winona_10:3
 msgid "None of your business."
 msgstr ""
 
@@ -31255,6 +31365,8 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_teacher_104a_20:0
 #: conversationlist_brimhaven2.json:brv_teacher_124_20:0
 #: conversationlist_brimhaven2.json:brv_teacher_152_90:0
+#: conversationlist_sullengard.json:sullengard_kealwea_sell:0
+#: conversationlist_sullengard.json:sullengard_lamberta_sell:0
 msgid "Thank you!"
 msgstr ""
 
@@ -32039,6 +32151,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_24a:0
 #: conversationlist_omicronrg9.json:umar_guild03_19d
+#: conversationlist_omicronrg9.json:umar_guild04_14:0
 #: conversationlist_omi2.json:ehrenfest_33a:1
 msgid "Fine."
 msgstr ""
@@ -32146,6 +32259,7 @@ msgid "Indeed I am!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_1:1
+#: conversationlist_burhczyd.json:burhczydx_11a_10
 msgid "Yes ..."
 msgstr ""
 
@@ -32972,18 +33086,22 @@ msgid "All is under control. Bye."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_1b
+#: conversationlist_omicronrg9.json:umar_guild05_1b
 msgid "No jobs today my young friend. Maybe some other day."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_1b:0
+#: conversationlist_omicronrg9.json:umar_guild05_1b:0
 msgid "I see. Bye."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_1b:1
+#: conversationlist_omicronrg9.json:umar_guild05_1b:1
 msgid "That's a shame. Find more time for my skills then."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_1a
+#: conversationlist_omicronrg9.json:umar_guild05_1a
 msgid "[Here, the story continues]"
 msgstr ""
 
@@ -33147,6 +33265,341 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_27d:1
 msgid "I'll do that."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_1
+msgid "Yes, I do have a new task for you. So, listen to me carefully."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_1:0
+msgid "I'm listening."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_2
+msgid "Here in the guild, as you know, income sources come in different classes from poor to wealthy. The lower-middle class and poor class are usually associated with us."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_3
+msgid "Wealthy class is our highest target. This is why I didn't doubt to give you the first mission to kidnap Ambelie for ransom."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_3:0
+msgid "My bad."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_3:1
+msgid "That is not my kind of work though."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_4
+msgid "Don't worry, we already made a promise."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_5
+msgid "Anyway, the rest of the class are either with us or against us."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_6
+msgid "Most of the time we made deals and negotiations with them in exchange of peace or protection."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_7
+msgid "One of them is the popular brewery town called 'Sullengard' located far to the south of Vilegard."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_7:0
+msgid "What makes the place interesting for us?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_8
+msgid "They have a massive bootleg brewery operation because Feygard is unfairly taxing them."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_9
+msgid "As a result, they asked us to help them. We even have 80/20 share of their business."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_9:0
+msgid "Interesting."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_9:1
+msgid "80 for us and 20 for them?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_10b
+msgid "No. 80 for them and 20 for us."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_10a
+msgid "Their 20th anniversary beer festival will be celebrated in the next few weeks. "
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_10a:0
+msgid "I didn't know that I was invited."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_10a:1
+msgid "But I'm not interested in beer."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_11
+msgid "Don't worry. Even your brother was a helping hand in Sullengard. I'm sure you can do the same as well."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_11:0
+msgid "He didn't even invite me either."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_11:1
+msgid "So you want me to go there?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_12
+msgid "I want you to go to Sullengard and find one of my appointed veterans named Defy."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_13
+msgid "Tell him that it is time to give the bootleg brewers their share to aid in their livelihoods. Especially in paying their taxes."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_13:0
+msgid "You can count on me."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_13:1
+msgid "But I need an invitation letter first."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_13:2
+msgid "I'll just wait for my brother to do that because it's very far."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_14
+msgid "Hurry now. There's no time to waste."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_14:1
+#: conversationlist_delivery.json:brv_wh_delivery_boss_40:0
+msgid "I'm going now."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_15
+msgid "Not again. What's on his mind?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_15:1
+msgid "I'll ask him again once his head is cool."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_16
+msgid "Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_16:0
+msgid "I'm going to visit him again. Bye."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_16:1
+msgid "That's what I just said."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_17
+msgid "He can't be gone without our share from the bootleg brewers."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_17:0
+msgid "I thought he's here."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_17:1
+msgid "You're right."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_18
+msgid "Go back to Sullengard and ask the townspeople if they know of his whereabouts."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_18:0
+msgid "I'm on my way back to Sullengard now. Bye."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_19
+msgid "This is madness! He betrayed us just like Crackshot did."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_19:0
+msgid "We better find and kill him and his men and retrieve the share to help the people of Sullengard."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_20
+msgid "Yes. We must find and kill them and retrieve the share for the sake of Sullengard's living."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_21
+msgid "Fortunately, one of my men found one of his drunk men and had a short talk with him before he bleed to death."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_21:0
+#: conversationlist_omi2.json:kamelio_2a:1
+msgid "What did he say?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_21:1
+msgid "Sweet justice with small information?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_22
+msgid "He said that they will no longer be a part of the thieves guild. They are now referring to themselves as 'Aidem'."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_22:0
+msgid "What a weird name. For what reason?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_22:1
+msgid "But why?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_23
+msgid "They prefer riches over honor."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_24
+msgid "Such a dishonorable act for they stole 50000 gold coins including the treasures of Sullengard."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_24:0
+msgid "Their dishonorable act will be their undoing."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_24:1
+msgid "Justice shall serve!"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_25
+msgid "We still don't know where they are."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_26
+msgid "Sullengard is our friend. Find a way to earn gold."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_26:0
+msgid "How can we earn that large amount of gold?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_26:1
+msgid "This requires so much gold, how can we earn it?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_27
+msgid "I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_27:0
+msgid "What? How?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_27:1
+msgid "Yes. I'm on it."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_28b
+msgid "Here's 1000 gold coins as my financial contribution."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_28b:1
+msgid "Wow! It motivated me. Thanks."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_28a
+msgid "Immediately report back to me once you are done."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_28a:0
+msgid "I better start looking for gold now."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_28a:1
+#: conversationlist_delivery.json:brv_wh_delivery_boss_30:0
+msgid "It will be done."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_29
+msgid "Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_29:0
+msgid "Thank you, sir. You can count me in as well to kill Defy."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_29:1
+msgid "Thank you sir, but what about Defy and his men?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_30
+msgid "Like I said, we are still looking for him. You should rest for now from your long haul."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_30:0
+msgid "You're right. My legs are so tired from having to walk back and forth from here to Sullengard so many times."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:umar_guild04_30:1
+msgid "Yes, I should rest from my long travel."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_1
+msgid "Andor, is that you? You grew weak and small. How was your visit to Nor City?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_1:0
+msgid "I'm $playername. Andor is my brother and I'm not weak."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_2
+msgid "Oh, yeah, but you do look a lot like him. I'm Defy."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_2:0
+msgid "So you know my brother as well?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_3
+msgid "Indeed. He always asks questions like a curious kid does. Tell me, what brings you here, $playername?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_3:0
+msgid "Umar told me that it is time to give their share to the bootleg brewers."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_3:1
+msgid "Umar sent me for our business."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_4
+msgid "The time of sharing? If that's so, then tell him that there will be a delay."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_4:1
+msgid "A delay of what?"
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_5
+msgid "Just mind your own business, kid. Now, get out of here or I'll kick you out."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_5:0
+msgid "You will be the one who's kicked out of here."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_5:1
+msgid "You will be the one to blame here."
+msgstr ""
+
+#: conversationlist_omicronrg9.json:guild04_defy_gone_script_grant
+msgid "[Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?]"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulirmountain_entrance
@@ -34417,16 +34870,165 @@ msgid "We'd better not be seen together anymore."
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_11a
+msgid "[Softly humming] La la la ..."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a:0
+msgid "Burhczyd? You - in civilian clothes?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_2
+msgid "Hm ... what?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_2:0
+msgid "When we last met you were dressed like a knight of the Elythom."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_3
+msgid "Eh ... yes, right."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_3:0
+msgid "I'm very curious about the story now. Tell me how have you been since we last met? What about the Elythom?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_4
+msgid "Oh that. I got bored playing Elythom. I then spread the word that I was walking around disguised as Elythom."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_5
+msgid "They are still searching and now suspect each other! Extremely amusing!"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_5:0
+msgid "No really! You are impossible"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_6
+msgid "And now I will lead a serious and decent life. I owe that to my bride-to-be."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_6:0
+msgid "You will marry?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_7
+msgid "Oh yes! She is the prettiest girl in the whole world!"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_7:0
+msgid "I'm delighted for you! When will the wedding take place?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_8
+msgid "Already next month! I think."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_8:0
+msgid "You think?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_9
+msgid "Well, her parents haven't given me their consent yet."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_9:0
+msgid "Hm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_10:0
+msgid "Burhczyd - she really wants to marry you, doesn't she?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_11:0
+msgid "Did she say so?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_12
+msgid "Well, not directly."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_12:0
+msgid "Now tell me - what exactly did she say?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_13
+msgid "Nothing."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_13:0
+msgid "Nothing?! And what did you all talk about?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_14
+msgid "I haven't even spoken to her yet. I feared that she might laugh at me."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_14:0
+msgid "But you want her to marry you next month. How does that work?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_15
+msgid "That might actually be difficult, yes."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_15:0
+msgid "You will go and talk to her. Repeat!"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_16
+msgid "I will go and talk to her."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_16:0
+msgid "Good. Do it tomorrow."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_17
+msgid "Tomorrow? Are you serious?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_17:0
+msgid "You are right. Better today."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_18
+msgid "Today!!?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_18:0
+msgid "Sure. When, if not now?"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_19
+msgid "If you say so. Wish me luck!"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_19:0
+msgid "You will make it ..."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_20
+msgid "I will!"
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11a_20:0
+msgid "[mumbling] ... end in desaster again. Oh dear."
+msgstr ""
+
+#: conversationlist_burhczyd.json:burhczydx_11e
+msgid "I'm preparing a little love poem for my girl. As soon as I have the words I will go."
+msgstr ""
+
 #: conversationlist_burhczyd.json:burhczydx_12a
 msgid "Sorry, I have to leave."
 msgstr ""
 
-#: conversationlist_burhczyd.json:burhczydx_11a:0
 #: conversationlist_burhczyd.json:burhczydx_12a:0
 msgid "Burhczyd, is it really you? Wait, don't run away ..."
 msgstr ""
 
-#: conversationlist_burhczyd.json:burhczydx_11e
 #: conversationlist_burhczyd.json:burhczydx_12e
 msgid "As soon as ...todo..., I will go."
 msgstr ""
@@ -35752,10 +36354,12 @@ msgid "I only know a goblin that looks like you. [Laughs]"
 msgstr ""
 
 #: conversationlist_brimhaven.json:melona_0a
+#: conversationlist_sullengard.json:sullengard_godrey_10
 msgid "What can I help you with?"
 msgstr ""
 
 #: conversationlist_brimhaven.json:melona_0a:0
+#: conversationlist_sullengard.json:sullengard_godrey_10:1
 msgid "I'm hungry. Do you have any food to sell?"
 msgstr ""
 
@@ -35764,6 +36368,7 @@ msgid "I need somewhere to sleep. Do you have a bed available?"
 msgstr ""
 
 #: conversationlist_brimhaven.json:melona_1
+#: conversationlist_sullengard.json:sullengard_godrey_sell
 msgid "Certainly. Please take a look at what I can offer."
 msgstr ""
 
@@ -35772,6 +36377,7 @@ msgid "Yes. It's 90 gold. That may seem like a lot, but it's a one-time payment.
 msgstr ""
 
 #: conversationlist_brimhaven.json:melona_2:0
+#: conversationlist_sullengard.json:sullengard_godrey_30:0
 msgid "That's too expensive. Let's talk about something else."
 msgstr ""
 
@@ -37793,6 +38399,9 @@ msgid "Old scrooge."
 msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_wh_boss_10_92:0
+#: conversationlist_sullengard.json:sullengard_inn_traveler_30
+#: conversationlist_sullengard.json:sullengard_zaccheria_100:0
+#: conversationlist_sullengard.json:sullengard_citizen_andor_20:0
 msgid "Thank you so much."
 msgstr ""
 
@@ -40643,7 +41252,7 @@ msgid "This must be the great Duleian Road! I have heard so much of it - and now
 msgstr ""
 
 #: conversationlist_fungi_panic.json:chk_wild_berry_50
-msgid "I should better wear my gloves again."
+msgid "I should wear my gloves again."
 msgstr ""
 
 #: conversationlist_fungi_panic.json:bogsten_tomb_key
@@ -41238,6 +41847,7 @@ msgstr ""
 #: conversationlist_omi2.json:elm2_chest_hit:0
 #: conversationlist_omi2.json:elm5_ore_fail:2
 #: conversationlist_omi2.json:elm2f2_chest_2:1
+#: conversationlist_sullengard.json:loneford13_pitchfork_fail:0
 msgid "Try again."
 msgstr ""
 
@@ -41953,6 +42563,14 @@ msgstr ""
 #: conversationlist_gison.json:nimael_busy:1
 #: conversationlist_gorwath.json:gorwath_exit:0
 msgid "OK. Bye."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_busy:2
+msgid "While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_busy:3
+msgid "Is the Gloriosa soup ready?"
 msgstr ""
 
 #: conversationlist_gison.json:nimael_4
@@ -43575,7 +44193,7 @@ msgid "I fell off a cliff on a narrow path on the mountain side and ended up at 
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_23
-msgid "Lorn lay next to me, just a few meters away. His armor was entirely covered in blood, flowing slowly to the ground out of his body."
+msgid "Lorn lay next to me, just a few steps away. His armor was entirely covered in blood, flowing slowly to the ground out of his body."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_23:0
@@ -43768,7 +44386,7 @@ msgid "I'm afraid not."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_32b:0
-msgid "Ok, we'll talk later."
+msgid "OK, we'll talk later."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_31a
@@ -44105,6 +44723,7 @@ msgid "You seem tired. We'll talk later."
 msgstr ""
 
 #: conversationlist_omi2.json:prim_tavern_guest4_13:1
+#: conversationlist_sullengard.json:sullengard_nanette_0:0
 msgid "Are you OK?"
 msgstr ""
 
@@ -44574,7 +45193,7 @@ msgid "I'll think about it. See you soon."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_38a:2
-msgid "Ok, I will help you. Let's solve this once for all."
+msgid "OK, I will help you. Let's solve this once for all."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_39a
@@ -45154,7 +45773,7 @@ msgid "Step aside, lowly minion. I have business with your boss."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_subdued_2
-msgid "The scout stares at you with an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm."
+msgid "The scout stares at you with an immeasurable anger. Before you can react, she swings her dagger, opening a wound in your arm."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_subdued_2:0
@@ -45638,7 +46257,7 @@ msgid "After a few seconds, you feel a little dumb talking to a corpse and leave
 msgstr ""
 
 #: conversationlist_omi2.json:elm3_corpse_3a
-msgid "Everything seems too old and stinky to be worth a penny, but after half a minute of searching you see a strange pendant behind the miner's shirt."
+msgid "Everything seems too old and stinky to be worth anything much, but after half a minute of searching you see a strange pendant behind the miner's shirt."
 msgstr ""
 
 #: conversationlist_omi2.json:elm3_corpse_3a:0
@@ -45871,6 +46490,7 @@ msgid "Use your hand"
 msgstr ""
 
 #: conversationlist_omi2.json:elm5_ore_fail:1
+#: conversationlist_sullengard.json:loneford13_pitchfork_fail:1
 msgid "Take a break."
 msgstr ""
 
@@ -46084,6 +46704,7 @@ msgid "That cannot be... Damn it! I knew those screams were not from these creat
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard9_6b:0
+#: conversationlist_sullengard.json:sullengard_beltina_20:0
 msgid "I'm sorry."
 msgstr ""
 
@@ -46353,10 +46974,6 @@ msgstr ""
 #: conversationlist_omi2.json:kamelio_2a:0
 #: conversationlist_omi2.json:kamelio_3c:0
 msgid "Who tortured you?"
-msgstr ""
-
-#: conversationlist_omi2.json:kamelio_2a:1
-msgid "What did he say?"
 msgstr ""
 
 #: conversationlist_omi2.json:kamelio_3a
@@ -46650,7 +47267,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_16a
 msgid ""
-"A reward? This does not work that way...What would Feygard would think of my assassination? Who would be blamed for that?\n"
+"A reward? This does not work that way...What would Feygard think of my assassination? Who would be blamed for that?\n"
 "\n"
 "The reward is I'm alive and no army will chase you."
 msgstr ""
@@ -46906,20 +47523,12 @@ msgstr ""
 msgid "Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers."
 msgstr ""
 
-#: conversationlist_delivery.json:brv_wh_delivery_boss_30:0
-msgid "It will be done."
-msgstr ""
-
 #: conversationlist_delivery.json:brv_wh_delivery_boss_30:1
 msgid "You want me to deliver these items to your customers?"
 msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_40
 msgid "Yes yes, hurry now. I have work to do here."
-msgstr ""
-
-#: conversationlist_delivery.json:brv_wh_delivery_boss_40:0
-msgid "I'm going now."
 msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_40:1
@@ -47092,6 +47701,3051 @@ msgstr ""
 
 #: conversationlist_delivery.json:tjure_wh_delivery_90:0
 msgid "Not until I have delivered this to you. Are you the one who ordered a 'Mysterious green something'?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sign_cabin_norcity_road4
+msgid ""
+"South: Sullengard\n"
+"West: Vilegard\n"
+"East: Nor City"
+msgstr ""
+
+#: conversationlist_sullengard.json:sign_way_to_sullengard_east_park
+msgid "Please respect the park as you enjoy the scenery."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation
+msgid ""
+"[As you approach the ravine, you notice how quickly the wind has picked-up and it causes you to ponder:] \n"
+"\n"
+"Should I proceed or turn around?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation:0
+msgid "Proceed! What's the worst that can happen? I fall?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation:1
+msgid "No way, I'm afraid of heights."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork_picked_up
+msgid "You have already picked up the new pitchfork here."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork
+msgid "A new pitchfork pinned in this haystack."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork:0
+msgid "Time to prove that I'm a son of farmer!"
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork:1
+msgid "What do I need this for? I'll leave it here for now."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork_fail
+msgid "You get fatigued after a few pulls; the pitchfork is still there."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork_success
+msgid "After several minutes of intense pulling you finally pull out the new pitchfork from the haystack."
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork_success:0
+msgid "I'm the son of a farmer!"
+msgstr ""
+
+#: conversationlist_sullengard.json:loneford13_pitchfork_success:1
+msgid "Ugh..I'm so tired now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation_2
+msgid ""
+"[As you reach this outer most point of the ledge, a big gust of wind blows you off balance and almost down to your death.]\n"
+"\n"
+"Should I proceed or turn around?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation_2:0
+msgid "What's the worse that can happen? I fall?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_confirmation_2:1
+msgid "No way, that last gust of wind was enough for me! I'm heading back."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge
+msgid ""
+"[Now that you can't proceed any further, you stop and admire the scenery and this is when you think:]\n"
+"\n"
+"Do I lean over and take a look at the ravine's bottom?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge:0
+msgid "Absolutely! What's the worse that can happen? I fall?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge:1
+msgid "I've already admired this view. It's time to go back and get some work done."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge_10
+msgid ""
+"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n"
+"\n"
+"Did this person plunge to their death, or is there a safe way to get to the bottom?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge_10:0
+msgid "I should head back now before I suffer a similar fate."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_farmer_0
+msgid "Apple farming is tough and Deebo overworks us, but please don't tell him I said so."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_news_post
+msgid "Welcome to Sullengard, the home of the best beer in Dhayavar. Please enjoy our upcoming 20th anniversary beer festival."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_townhall_sign
+msgid "Welcome to the Sullengard townhall. Please come on in."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat
+msgid "Hello there, kid. Happy 20th beer celebration."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat:0
+#: conversationlist_sullengard.json:sullengard_stephanie:0
+#: conversationlist_sullengard.json:sullengard_mayor_1:0
+msgid "Cheers!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat:1
+#: conversationlist_sullengard.json:sullengard_stephanie:1
+#: conversationlist_sullengard.json:sullengard_mayor_1:1
+msgid "Do you know where Defy is?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat:2
+msgid "I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it? "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_2
+msgid "Defy has left Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_2:1
+msgid "Where is he going?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_3
+msgid "I don't know, kid. Others are also looking for him and his crew. I'm still busy taking care of my firstborn child."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_3:0
+msgid "This is bad."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_3:1
+msgid "I'll find him."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_4
+msgid "We should find him or else what shall we do?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_5
+msgid "More importantly, how could I raise my firstborn child without the share to buy expensive foods and pay high rents here?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_5:0
+msgid "Calm down. I will find a way to help you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_6
+msgid "Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves Guild about this."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_matpat_6:0
+msgid "I'm going now. Stay strong."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_stephanie
+msgid "Happy 20th beer celebration, kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_stephanie:2
+msgid "Do you know anything or have you seen anything related to the armory break-in and robbery?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_stephanie_2
+msgid "Go talk to my husband, I'm exhausted and depressed."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ollie
+msgid "Coocoo."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ollie:0
+msgid "[Tickle Ollie's tummy]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ollie:1
+msgid "[Pat Ollie's tummy]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ollie_giggle
+msgid "[Giggles cutely]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_1
+msgid "Welcome to Sullengard, kid. Happy 20th beer celebration!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_1:2
+msgid "We want to contribute gold coins for your financial loss."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_2
+msgid "No. We still don't know where that traitor is. How can we ever sleep peacefully and live sufficiently with this tragic situation?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_3
+msgid "But please talk to my fellow bootleg brewers. Maybe they know something."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_3:0
+msgid "I will. Stay strong."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_3:1
+msgid "Bah! Useless mayor."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4
+msgid "Finally, at least we can survive for a day with a beer and some bread."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4:0
+msgid "Here's 50000 gold coins."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4:1
+msgid "Here's 20000 gold coins."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4:2
+msgid "Here's 10000 gold coins."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4:3
+msgid "Here's 5000 gold coins."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4:4
+msgid "I noticed that I'm running out of money. I'll be back."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4a
+msgid "I have no words to express my gratitude."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4a:0
+#: conversationlist_sullengard.json:sullengard_mayor_4b:0
+#: conversationlist_sullengard.json:sullengard_mayor_4c:0
+#: conversationlist_sullengard.json:sullengard_mayor_4d:0
+msgid "Oh wait. There's more."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4a:1
+msgid "That's all of the coins we owe you and your people, Mayor Ale."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4b
+msgid "Oh my, thank you kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4b:1
+#: conversationlist_sullengard.json:sullengard_mayor_4c:1
+#: conversationlist_sullengard.json:sullengard_mayor_4d:1
+msgid "That's all, mayor Ale."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4c
+msgid "We appreciate it. Thank you, kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_4d
+msgid "Small successes cometh before big ones."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_5
+msgid "Thank you so much again, kid. You are just like your brother Andor."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_5:0
+msgid "Of course, he is my brother."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_5:1
+#: conversationlist_sullengard.json:sullengard_mayor_letter_delivered:0
+msgid "How did you know?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_6
+msgid "He is taller than you, of course, but you guys have a very similiar looking face. He is one of the most active members in your guild."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_6:0
+msgid "Oh, is he?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_7
+msgid "He was considered as the helping hand of Sullengard during rough days. Not unlike this scenario."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_7:0
+msgid "I'm glad to help."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_7:1
+msgid "That's our job."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_bed
+msgid "You must rent the bed! Go talk to the innkeeper."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_0
+msgid "Hello. I'm Godfrey, and I own this place, but I'm forced to work today because somebody quit on me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_10:0
+msgid "I need somewhere to relax and refresh. Do you have a bed available?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_20
+msgid "Yes, I do, but it's going to cost you more than you may be expecting."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_20:0
+msgid "How much will it cost me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_30
+msgid "Well, it will cost you 700 gold! Beds are always in high demand before and during the Beer Festival."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_30:1
+msgid "I'll take it, but I have to say that you really should join the thieves guild with that attitude!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_40
+msgid "Thank you! It pays to be the owner. You can use any available bed."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_godrey_sell:0
+msgid "Great! Let's take a look."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_0
+msgid "Hey, young fellow. I am Kealwea. How can I help you my child?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_0:0
+msgid "I am in need of supplies. Can you help?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_0:1
+msgid "Nanette told me to see you about her pond."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_0:2
+msgid "Mayor Ale has asked me to give this letter to you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_sell
+msgid "Of course my child. Here, let's take a look at what I have."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_1
+msgid "[Sigh]. Yes, she told me about her pond as well, but she won't listen to my story."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_1:1
+msgid "That will be a long story."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_2
+msgid "I used to go there when I was a young disciple."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_3
+msgid "One time, I was sitting on the bench thinking about how the Feygard soldiers can sleep at night with all of their unlawful taxes placed on the citizens of Sullengard causing all this financial trouble on the people."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_4
+msgid "My anger arose to the point that I lifted up a large rock and threw it in the pond."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_5
+msgid "After that, I saw some snappers emerge from the pond and attack me before I even realized what had happened. Good thing they are too slow to catch me as I quickly composed myself and limped home."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6
+msgid "The moral of my story is to never again to throw rocks there, be it small or large. Thank you for listening. Please talk to Nanette about this."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6:0
+msgid "Oh, I understand now. I have to tell her about this one. Bye"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6:1
+msgid "Oh, good thing it's not a long story. I'm about to start snoring here. Bye."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman
+msgid "I've been looking for someone who fits your description."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman:0
+msgid "You have? Why?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_2a
+#: conversationlist_sullengard.json:sullengard_highwayman_2b
+msgid "Yes! You are the one that has killed my fellow \"road travellers\" and now you must pay!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_2a:0
+#: conversationlist_sullengard.json:sullengard_highwayman_2b:0
+#: conversationlist_sullengard.json:sullengard_highwayman_4:1
+msgid "Bring it on!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_3
+msgid "Yes, you do look like him. He is the one who helped Sullengard financially on many occasions."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_3:0
+msgid "Hey, it must be my brother Andor! Tell me more about him. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_4
+msgid "Pay me 750 gold coins first or I'll rob you and then the Sullengard for my living!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_4:0
+msgid "Fine. Here's 750 gold coins. Now, tell me about him. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_highwayman_5
+msgid "He is taller and stronger than you. Have a good time!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_0
+msgid "Hello. Isn't Sullengard a beautiful town?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_0:0
+msgid "Yes, but not as beautiful as you are."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_0:1
+msgid "It's probably one of the nicest towns that I have visited."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_0
+msgid "Hey there."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_0:0
+msgid "You look worried."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_0:1
+msgid "We need to talk."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_0:2
+msgid "Sorry, but I have to be on my way."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_10
+msgid "That's a keen eye you have. Yes, I am worried."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_10:0
+msgid "Why, what is the problem?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_20
+msgid "At this point, just the fact that I am lost a little bit. You see, I am travelling to Nor City from the west and I got lost."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_20:0
+msgid "Well, rest up tonight and head east from here. Follow the road and you'll find the Duleian road and go east from there."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_0
+msgid "Hey, pal, I can hear you just fine. There's no reason to shout. What can I do for you?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bruyere_family_sign
+msgid "Welcome to the Bruyere family home, five-time winners of the 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_briwerra_family_sign
+msgid "Welcome to the Briwerra family home, three-time winners of the 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_brueria_family_sign
+msgid "Welcome to the Brueria family home, four-time winners of the 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_brewere_family_sign
+msgid "Welcome to the Brewere family home, five-time winners of the 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_biermann_family_sign
+msgid "Welcome to the Biermann family home, two-time winners of the 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bierington_family_sign
+msgid "Welcome to the Bierington family home."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_0
+msgid "Hey there kid. Us three here are brothers from Stoutford, but we travel all the way here for the vast greatness of brews! [burp]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_0:0
+msgid "Stoutford? Where's that?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_0:1
+msgid "I'm looking for my my brother Andor. He looks a lot like me, but he is older. Have you seen him?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_0:2
+#: conversationlist_sullengard.json:ravynne_0:2
+#: conversationlist_sullengard.json:sullengard_lamberta_0:0
+#: conversationlist_sullengard.json:sullengard_lamberta_0:1
+msgid "I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_10
+msgid "Oh, you know nothing. I feel sorry for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_20
+msgid "Nope. Sorry kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_10
+msgid "While raising your arm and waving your hand, you yell out: \"Yo bar keep! Over here.\""
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_10:0
+msgid "I would like to see what you have for sale."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_10:1
+msgid "I have seen your choices of brews before and I am not interested in those. So I am wondering if I can I drink my Brimhaven brew here instead?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_20
+msgid "Certainly. I have a menu of the best beers found in not just Sullengard, but in all of Dhayavar."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_20:0
+msgid "This should be interesting. Let's take a look."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_30
+msgid "No, you can not."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_30:0
+msgid "OK!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_30:1
+msgid "Oh, but I will."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_40
+msgid "I think you should leave."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_50
+msgid "Get out of here now. Do not come back until you learn some respect."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_0
+msgid "What a lovely day for some good quality hard work outside."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_0:0
+msgid "It sounds like you love being outside."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_0:1
+msgid "Your horses are magnificent."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_0:2
+msgid "I will let you get back to your business. Have a great time enjoying the nice weather."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_0:3
+msgid "Can I see what you have to trade?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_10
+msgid "I do indeed. But I'll tell you what I really don't enjoy: fixing the property damage done to my farm and losing livestock because of some wild predator!"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_10:0
+msgid "A \"predator\"? What kind of a predator?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_10:1
+msgid "I have killed the Golden jackal and I have the requested proof."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_10:2
+msgid "I have killed the Golden jackal, but I can not prove it."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_20
+msgid "Have you seen that Golden jackal around here?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_20:0
+msgid "What is a Golden jackal?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_20:1
+msgid "No, sir, I have not. Well, at least I don't think I have."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_20:2
+msgid "I want to hunt down and kill that Golden jackal for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_30
+msgid "Well, it is a four-legged nightmare of a canine that has destroyed my property and killed my pig. I fear that one of my horses will be next."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_30:0
+msgid "That's terrible news. What are you going to do about it. Besides complaining, that is?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_40
+msgid "Funny kid you are. I am looking for someone to hunt it down and kill it."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_40:0
+msgid "Really! I am more than willing and able to do this job for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_50
+msgid "That's great to hear! When can you start?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_50:0
+msgid "Not right now. Can I pick some apples first?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_50:1
+msgid "Right now. Let's get it!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_get_out
+msgid "You need to leave until you learn some respect."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_0
+msgid "[You see the mouth open widely.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_0:0
+msgid "Do you want a hug?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_0:1
+msgid "Do you want some food?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_0:2
+msgid "I better stay away."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_1
+msgid "[Snap]."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_1:0
+msgid "Ouch! Why did you bite me? Bad turtle!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_snapper_1:1
+msgid "Ouch. Why are you mad at me? Angry turtle!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_0
+msgid "[Sigh]. Oh...hello there, kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_0:1
+msgid "Is everything all right?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_1
+msgid "[Sigh]. I'm longing for my pond which I used to enjoy going to. But now it is dangerous to go near my pond, nevermind in it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_1:1
+msgid "And then?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_1:2
+msgid "Well I used to enjoy playing hide-and-seek with my brother but not anymore. Bye."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_2
+msgid "[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious creatures emerging from it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_3
+msgid "Before I could get away, one of them bit my leg. So I ran home in tremendous pain."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_4
+msgid "[Sigh]. Please help me. For I'm longing to enjoy my pond again."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_4:0
+msgid "Fine. I'm going now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_4:1
+msgid "Where is your pond again?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_4:2
+msgid "What's the cause of it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_5
+msgid "Remember. It is just southeast from here."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_6
+msgid "[Sigh] I will tell you once you help me enjoy my pond again."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_6:0
+msgid "Fine. I'll do it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_6:1
+msgid "If that's so, then I will not help you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_7
+msgid "[Sigh]. Oh hello there, kid. Is my pond safe again?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_7:1
+msgid "Yes, your pond is safe again. May I know the cause of it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_8
+msgid "I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_8:0
+msgid "I'm going to visit him now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_8:1
+msgid "What the? But it just happened yesterday."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_9
+msgid "Oh hello there, kid. Have you talked to Kaelwea the priest yet?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_9:0
+msgid "There must be a reason why it happened. But what is it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_9:1
+msgid "Not yet"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_9:2
+msgid "Yes. He told me to tell you a story."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_10
+msgid "[Sigh]. I'm to old for a story. Just tell me the moral of it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_10:0
+msgid "Don't throw pebbles in the pond. You might disturb whatever lies beneath the surface."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_11
+msgid "Oh. I remember now. I kept throwing pebbles on the pond to relieve my anger issues caused by the unfair taxes of Feygard."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_12
+msgid "Thank you so much again, kid. I can now enjoy my pond again. I'll never throw pebbles in the pond again, I promise."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_12:1
+msgid "You promise? I won't clean up your mess again."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_nanette_13
+msgid "Promise."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_pc_asks_to_pick_apples
+msgid "Absolutly not."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_pc_asks_to_pick_apples:0
+msgid "Sorry for asking."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_60
+msgid "First, I have to warn you, this is no ordinary forest animal. This thing is capable of dragging away full-sized adult pigs. Be warned now."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_60:0
+msgid "I am ready! No more talking."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_60:1
+msgid "I am not so sure I am capable, but I will give it a try."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_60:2
+msgid "I need time to think about the risks."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_70
+msgid "OK, I have faith in you."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_80
+#: conversationlist_sullengard.json:deebo_orchard_deebo_81
+msgid " The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_90
+msgid ""
+"Wonderful. Let me have it. [You hand over the Golden jackal's fur]\n"
+"Ah yes, this is indeed proof it is dead."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_85
+msgid "Return to me once you have the proof that it is dead."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_100
+msgid "As far your reward is concerned, I am now willing to sell and trade with you. Please take a look."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_100:0
+msgid "Sounds good."
+msgstr ""
+
+#: conversationlist_sullengard.json:script_sullengard_woods14_10
+msgid "Pick the poisonous mushroom?"
+msgstr ""
+
+#: conversationlist_sullengard.json:script_sullengard_woods14_10:0
+msgid "Sure, why not? What could go wrong?"
+msgstr ""
+
+#: conversationlist_sullengard.json:script_sullengard_woods14_10:1
+msgid "I better not!"
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_4
+msgid "Are you a farmer?"
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_4:0
+msgid "No. But I'm a son of an ordinary farmer in a small settlement called Crossglen."
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_4:1
+msgid "Yes. I'm a son of an ordinary farmer in a small settlement called Crossglen."
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_5
+msgid "If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here."
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_6
+msgid "If you are able to pull it out from the haystack, then it will be yours."
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_7
+msgid "Don't worry about me. I still have one. I bought them from buy-one take-one shop in Nor City. It's a limited shop though."
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_7:0
+msgid "I'll prove it to you that I'm a son of a farmer!"
+msgstr ""
+
+#: conversationlist_sullengard.json:throthaus_7:1
+msgid "You'll see that you are wrong about me. I'm a son of a farmer!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_0
+msgid "Andor, good timing! Your arrival is much appreciated because I need your help to get my husband home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_0:0
+msgid "So, my brother Andor was here as well? I'm $playername and you are?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_0:1
+msgid "You must be mistaken. I'm $playername and Andor is my brother, and you are?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_0:2
+msgid "I'm sorry because I was only half listening to you earlier, so I am a little fuzzy on the details. But can you explain to me again what you need from me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_1
+msgid ""
+"Oh, I'm sorry. My name is Hadena. Andor used to visit here but I don't know why he doesn't anymore.\n"
+"\n"
+"Anyways, I really need your help...please."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_1:1
+msgid "I'm sorry I can't help you right now. I'm busy."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_2
+msgid "As I already said, I need your help to get my husband Ainsley home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_4
+msgid "He is working at Deebo's Orchard located southwest of here. Please go there and help him."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_4:0
+msgid "I'll go now to help get him home on time."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_6
+msgid "I'm waiting for my husband's arrival. Please, I want him home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_6:0
+msgid "What do yo want me to do again with your husband?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_6:1
+msgid "I'm not done yet."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_6:2
+msgid "It is done. Ainsley will be home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_7
+msgid "Thank you so much for helping us. You are just like your brother."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_7:0
+msgid "Of course. He is my brother."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_7:1
+msgid "Your welcome."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_0
+msgid "Yikes! You surprised me, kid. I'm Ainsley and I have a lot of work to do here so talk to me later."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_0:0
+msgid "OK. I'm going now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_0:1
+#: conversationlist_sullengard.json:sullengard_ainsley_1a:1
+msgid "OK. I'll leave now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_0:2
+msgid "Just a quick question. Have you seen my brother Andor?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_0:3
+msgid "The husband of Hadena?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1a
+msgid "Uhhh...yes. No. Maybe. Argh. Sorry kid, I'm so busy right now. I can't even work properly with this old pitchfork."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1a:0
+msgid "OK. I'll won't disturb you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1a:2
+msgid "I have a new pitchfork here."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1a:3
+msgid "Oops...I don't have a new pitchfork. I'll be right back."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1b
+msgid "Hadena? Ah yes. She's my wife. Why do you ask?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1b:0
+msgid "She asked me to ensure that you get home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_1b:1
+msgid "Just asking. I thought you are busy?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_2
+msgid "Yes. I'm inexperienced farmer so I always make a lot of mistakes here and there and everywhere. But experience is the best teacher as they say."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_2:0
+msgid "Correct. Here's the new pitchfork."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_2:1
+msgid "Correct. Oops...I don't have the new pitchfork. Be right back."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ainsley_3
+msgid "Thank you so much, kid. Tell my wife Ainsley I can come home on time today."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard7_road_sign
+msgid ""
+"Welcome to Sullengard.\n"
+"West: Mt. Galmore "
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_10
+msgid "I tried to do what Hadena said, but I just can't do it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_10:0
+msgid "Do what?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_10:1
+msgid "Who is Hadena?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_20
+msgid "To cross the bridge of course."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_20:0
+msgid "Why? It seems easy enough and from here, the bridge looks safe. What's the problem?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_30
+msgid "The wind! It is very scary when the entire bridge sways back and forth while you are crossing over it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_30:0
+msgid "I'll tell you what, let's cross it together."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_40
+msgid "How? It's not wide enough for both of us."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_40:0
+msgid "I will go first and you can follow close behind. Sound OK with you?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_50
+msgid "Yes. Thank you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_50:0
+msgid "No problem. Let's go now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_15
+msgid "Oh, she is a lady who lives in that cabin that you just walked past."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_15:0
+msgid "Oh, I see. Now what is it that you are trying to do?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_60
+msgid "Thank you so much. I can now continue onto my destination."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_60:0
+msgid "Where were you coming from anyway?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_70
+msgid "I have been traveling from Nor City to Sullengard to visit my aunt and uncle and to help them prepare for the Sullengard beer festival next month. I hope to see you soon."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_70:0
+msgid "Yeah, about seeing you soon. Where is Sullengard?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_70:1
+msgid "I'm looking forward to it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_80
+msgid "Oh, you've never been there? It is southwest of here."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_90
+msgid "I have to go now. See you there."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_grazia_0
+msgid "Thank you again for helping me cross that scary bridge."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_grazia_0:0
+msgid "Oh, that? It was my pleasure."
+msgstr ""
+
+#: conversationlist_sullengard.json:alynndir_16
+msgid "Well, I would too, but it is a very dangerous route to Sullengard. I'd think twice if I were you before making that trip."
+msgstr ""
+
+#: conversationlist_sullengard.json:alynndir_16:0
+msgid "I sure will. Thanks for the warning."
+msgstr ""
+
+#: conversationlist_sullengard.json:alynndir_10
+msgid "It is home of the best beer in all of Dhayavar! Every year they hold a beer festival. Matter of fact, that event is coming very soon."
+msgstr ""
+
+#: conversationlist_sullengard.json:alynndir_10:0
+msgid "I think I would like to go there now."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_0
+msgid "Sure, kid, let me take a look."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_0:0
+msgid "[Hand it over to Nimael]"
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_0:1
+msgid "Never mind. I have to go now."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_10
+msgid ""
+"Ah, what you have here is called the Diervilla Cobaea, or more commonly known as the Gloriosa, it is an extremely rare, but highly poisonous fungus most commonly found in dark, shadowy places like forests.\n"
+"It's a defense mechanism as it is poisonous for most creatures, including humans, when ingested."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_10:0
+msgid "So it is useless?"
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_20
+msgid "Actually, quite the opposite in fact. You see, Gison and I have perfected the process of removing the poison and using it in our soups. I can do this for you if you like."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_20:0
+msgid "No, thank you. I think I will hang onto it for a little bit and see if I can find a better use for it."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_20:1
+msgid "Thanks. That would be great."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_30
+msgid "I just need a little bit of time.Please come back soon and I will have your soup ready."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_25
+msgid "Well, if you change your mind, you know where to find me."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_50
+msgid "Yes. Please enjoy while it's hot."
+msgstr ""
+
+#: conversationlist_sullengard.json:nimael_pm_45
+msgid "No, not yet. You must have patience Making the Gloriosa soup safe to eat takes time."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_0:0
+msgid "I would like to see your wares."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_10
+msgid "I would like to show you, but my inventory has been stolen."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_10:0
+msgid "Stolen? How? That is extremely unfortunate for you as I have lots of gold to spend."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_20
+msgid "[With a smirk] Gee, how fortunate for you that I have job for you if you want it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_20:0
+msgid "Great! Let's hear it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_30
+msgid "I need you to ask around town to see if anyone knows where my supply is or if they have seen anything."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_30:0
+msgid "I'll take it, but can you give me some more details?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_40
+msgid "Sure. You see, I was at the tavern last night enjoying a couple \"Southernhaze\" beers like I almost always do after work, when someone or some people broke into my shop and stole my entire inventory."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_40:0
+msgid "I see. Anything else? Is there anyone in town that you can think of that would want to hurt you?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_50
+msgid "Well, let me think...ah yes. Gaelian from the Briwerra family. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_60
+msgid "Oh, it's not a big deal. Well, not from my side anyway, but he is mad about what he perceives as bad service on some repair work that I had recently done for him. He asked for his gold back, I refused."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_70
+msgid "Anyways, I think you should start there, but I suspect others too."
+msgstr ""
+
+#: conversationlist_sullengard.json:ravynne_0
+msgid "I've never seen you before. Are you here for the 'beer festival'?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ravynne_0:1
+msgid "Actually, I am looking for Gaelian."
+msgstr ""
+
+#: conversationlist_sullengard.json:ravynne_10
+msgid "Well, you are a few weeks early."
+msgstr ""
+
+#: conversationlist_sullengard.json:ravynne_20
+msgid "Well, he is in the tavern basement working. But beware, he doesn't like to be interrupted while working."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_recover_items_generic_response
+msgid "I'm sorry, I have not. In fact, this is the first that I am hearing about it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_0
+msgid "This is no place for a kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_0:0
+#: conversationlist_sullengard.json:sullengard_arantxa_10:1
+msgid "I'm looking into the armory break-in and robbery."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_20
+msgid "This is the heart and soul of Sullengard. This is our brewery. The place where the magic happens."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_20:0
+msgid "I can see that. Thank you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_20:1
+msgid "I feel smarter now after having been told this. Thank you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_30
+msgid "[Laughing] Zaccheria deserves it for his lack of customer respect and shady business practices."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_30:0
+msgid "I was told that maybe you know some information about these crimes."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_30:1
+msgid "Can you tell me again what you know about this crime?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_40
+#: conversationlist_sullengard.json:sullengard_gaelian_41
+msgid "I know nothing except that Zaccheria deserved it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gaelian_40:0
+#: conversationlist_sullengard.json:sullengard_gaelian_41:0
+msgid "OK, but you are on my list."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_0:2
+msgid "Can I see what you have for sale?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_10
+msgid "No, I'm sorry, I don't. All I know is that I really hope it doesn't happen to me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_10:0
+msgid "Thank you anyway."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_10
+msgid "What's on your mind? I can see it in your eyes. You have questions."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_10:0
+msgid "I'm looking into the break-in and robbery at Zaccheria's shop and I am wondering if you saw or know anything about it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_20
+msgid "I heard you are helping Zaccheria in tracking down who stole his inventory."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_20:0
+msgid "Yes. Hence my reason for asking you about it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_30
+msgid "I wish I knew more, but I don't. Maybe ask around near the tavern?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_drinking_brother_30
+msgid "Are you kidding? We are always in here enjoying ourselves. So unless the crime happened in here, I've not seen it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_10
+msgid "I saw you talking with Gaelian and many other people in town. May I ask about what?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_sell
+msgid "Do you want to take a look at any of 'my stuff'? It's all for sale at the right price."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_sell:0
+msgid "Yes. I could use some item upgrades."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_sell:1
+msgid "No, I'm good for now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_20
+msgid "Are you sure that you want to involve yourself in such affairs?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_20:0
+msgid "Why, what's this about?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_30
+msgid "Well I don't know much. All I know is 'the lost traveler', whom I've never seen before, approached me recently with a couple of items that he wanted me to buy."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_40
+msgid "Since I recognized a couple of them as being Zaccheria's, I refused to buy them."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_40:0
+msgid "Really? That's honestly the only reason why you didn't buy them?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_50
+msgid "What is that supposed to mean?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_50:0
+msgid "Well, let's be honest. You are a thief after all."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_60
+msgid "You see kid, here in Sullengard, we have a working agreement with the townspeople. They pay us for our services and we do not steal from them."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_60:0
+msgid "That makes good business sense."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_70
+msgid "Now if I were you, I would approach 'the lost traveler' very carefully. He is desperate and desperate people have been known to be unpredictable."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_arantxa_70:0
+msgid "Thank you, friend and I will be careful."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_40
+msgid "It's nice to see you again, fellow traveler."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_40:0
+msgid "You won't be thinking that after I tell you what I know! I am here to serve you justice."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_50
+msgid "What are you talking about? What do you think you know?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_50:0
+msgid "What did you do with the items you stole from the armory?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_60
+msgid "Me? You have the wrong guy, friend."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_60:0
+msgid "Stop right there! I know you tried to sell them to the thief. Start talking now!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_70
+msgid "What proof do you have?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_70:0
+msgid "I know that you tried to sell the stolen items from the armory to Prowling Arantxa. I just don't know for sure that you were the one that broke into the shop."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_80
+msgid "Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplies, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_90
+msgid "After watching Zaccheria's routine for a couple of days, I noticed he goes to the tavern every night at the same time and stays there for the same amount of time every time. So I took my opportunity."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_90:0
+msgid "Where is Zaccheria's inventory? He wants it back and I am here to see to it that he does get it back."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_100
+msgid "I bet you'd like to know. But you will not get that information for free. I expect to get paid."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_100:0
+msgid "Paid?! Are you serious? You want me to pay you for crimes that you committed?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_110
+msgid "Well, if you want to know the location of those items, then you will pay me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_110:0
+msgid "How much?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_120
+msgid "10000 gold! And not a piece less or no stolen property for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_120:0
+msgid "No way."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_120:1
+msgid "Whatever. I can spare it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_inn_traveler_130
+msgid ""
+"Excellent. Nice doing 'business' with you. I hid them somewhere east of town. Close by, but I doubt you can find it easily.\n"
+"\n"
+"['the lost traveler' then runs off]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_80
+msgid "Are you carrying what I think you are carrying?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_80:0
+msgid "Yes. I tracked them down to this lost traveler who recently came into town. He was desperate for gold and a place to rest."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_sell_0
+msgid "How can I be of service?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_sell_0:0
+msgid "Can I see your wares?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_sell_10
+msgid "Absolutetly."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_85
+msgid "Have you found my stuff yet?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_85:0
+msgid "Nope. Sorry, I am still looking."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_90
+msgid "And where is this person now?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_90:0
+msgid "I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_zaccheria_100
+msgid ""
+"Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very grateful for that. So grateful in fact, here is 15000 gold for your hard work.\n"
+"Also, I am now able to trade with you if you like."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_0
+msgid "[Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_0:0
+msgid "Yes. Let's play in the dirt like Andor and I did when we were younger."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_0:1
+msgid "Nah, maybe some other time."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_10
+msgid "[Upon examination, it looks like some kind of sack has been stuffed down inside. Reach in and grab it out?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_10:0
+msgid "Oh yeah! I've come this far already. There's no reason to stop."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_10:1
+msgid "No way! I've put my hands in crates and cracks in walls before and have been hurt doing so."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_20
+msgid "[You have successfully removed an extreamly heavy sack. This must be Zaccheria stolen inventory.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_taken
+msgid "[You have already examined this hole and looted all of it's contents.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_taken:0
+msgid "Oh, yeah. What a dummy I am."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_10
+msgid "Oh, aren't you the sweetest thing in all of Dhayavar."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_10:0
+msgid "[Now blushing, you are nervous and desperate for this feeling to go away.] Well, I try to be when in the presence of elegance."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_20
+msgid "What can I do for you, cutie."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_20:0
+msgid "Umm...I forget know..umm....oh, yeah, I am wondering if you know about or seen anything related to the armory break-in and robbery?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mariora_20:1
+msgid "Umm...I think I should leave now."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_herding_dog_0
+msgid "Woof."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_goat_0
+msgid "Baa."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_goat_herder_0
+msgid "Hello child. Please leave me be."
+msgstr ""
+
+#: conversationlist_sullengard.json:stop_grazia_0
+msgid "Grazia, please wait over there for a minute. I want to check this out before going across the bridge."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gs_1
+msgid "Diramisk was right, the drink didn't kill him...it was the fall."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gs_2
+msgid "[This gravestone has been heavily scratched. It appears someone really wanted to obscure the inscription.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gs_3
+msgid ""
+"Erlumvu: A beloved wife and loyal drinking companion.\n"
+""
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gs_4
+msgid "Bosworth's last words: \"The last one is on me boys!\""
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_gs_5
+msgid "Here lies Stout. Faster than the wind, dumber than a stump."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valentina_0
+msgid "$playername, what are you doing here?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valentina_0:0
+msgid "Mom, I could ask you the same question."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_10
+msgid "I'm your mother, answer my question."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_10:0
+msgid "Father sent me to look for Andor as he left shortly after you did and hasn't returned."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_20
+msgid "What?! Where is he? Why is your father not with you?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_20:0
+msgid "I guess because he needed to stay home and watch over the house. Or maybe he thinks I'm ready for the challenge?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_30
+msgid "Typical Mikhail! So lazy and irresponsible."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_30:0
+msgid "I guess, but I can handle myself and have learned a lot about Andor."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_30:1
+msgid "I totally agree with you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_35
+msgid "Don't you dare talk ill of your father. He may be lazy, but he is still your father."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_35:0
+msgid "Sorry, mother. You are right, but you have still not answered my question. What are you doing here?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_33
+msgid "You've grown up so fast. Stop doing that. You are making me feel old."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_33:0
+msgid "Sorry, mother. You have still not answered my question though. What are you doing here?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_40
+msgid "I'm visiting my sister, your aunt Valeria."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_40:0
+msgid "Your sister? My aunt? What are you talking about?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_50
+msgid "Yes, $playername. This is your aunt Valeria. Please say \"hi\"."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_50:0
+msgid "Um...it's nice to meet you aunt Valeria."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_0
+msgid "Hello $playername, it's so wonderful to finally meet you after all of these years."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_0:0
+msgid "But, I don't have an aunt?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_0:1
+msgid "How come mother never spoke of you or told me that she had a sister?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_60
+msgid "$playername, I will explain this to you later."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_60:0
+msgid "OK, you promise?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_70
+msgid "Yes, but in the meantime, I'm going home and I expect you there shortly after me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_70:0
+msgid "But what about my search for Andor? Father expects me to find him before I come home again."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_80
+msgid "Just follow me home and we can talk there. I may have something to aid you in your search for Andor. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_10
+msgid "That is not for me to tell you. Maybe back at home, she will explain it to you."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_10
+msgid ""
+"[You walk into the house just in time to hear the argument between Mikhail and Valentina]\n"
+""
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_10:0
+msgid "[You think to yourself: 'Stay brave my father']"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_20
+msgid "Hey Valentina, how was your visit at your sister's house?"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_30
+msgid "Well, it was going great until $playername walked in."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_40
+msgid "Oh, yes. Andor is missing. I sent $playername to find him"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_50
+msgid "What?! Why would you do that?"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_60
+msgid "And where is Andor?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_70
+msgid "With you off visiting your sister, I had to do all the work around here and watch the house against thieves. So I sent $playername to find Andor."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_70:0
+msgid "[You decide to chime in] And buy bread. And clear the rats out of the yard ..."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_80
+msgid "I paid you for those!"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_90
+msgid "Well, $playername learned something I suppose. Monsters everywhere on the way back! $playername just cleared them away like they were ants!"
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_90:0
+msgid "Some of them were ants.."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_100
+msgid "$playername, I'm not laughing."
+msgstr ""
+
+#: conversationlist_sullengard.json:parents_argue_100:0
+msgid "You two can discuss this. I think I'll go back to the inn and take a nap. Then come back and talk to mother when she is calm. [Slips quickly out of the door]."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_selector:0
+msgid "Can we talk about Andor?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_selector:1
+msgid "I would like to learn more about Aunt Valeria."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10
+msgid "I should be able to help you, but first you have to tell me where have you been?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:0
+msgid "I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:1
+msgid "I've been around a lot of Dhayavar and have spoken to a lot of people about Andor."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:2
+msgid "I've talked with a potion maker."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:3
+msgid "I've been to Remgard looking for Andor"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:4
+msgid "I've been to this really cool place called Blackwater settlement."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:5
+msgid "I've not gone much past Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_10:6
+msgid "I've been running around a lot, but I've not learned much."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_valeria_10
+msgid "Right now? No. I am not ready to discuss this with you."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_valeria_10:0
+msgid "Well, I look forward to a time where you will be ready."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_10
+msgid "Do you really need to ask me that? Please leave my house and come back when I have calmed down."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_10:0
+msgid "OK mother."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_20
+msgid "I see my child. I can also see that your confidence and skills have grown tremendously, but tell me, with all this adventuring, have you been to Brightport yet?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_20:0
+#: conversationlist_sullengard.json:crossglen_valentina_andor_21:1
+msgid "[While holding back a smirk, you lie] Yes, why?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_20:1
+#: conversationlist_sullengard.json:crossglen_valentina_andor_21:0
+msgid "No. Should I have?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_21
+msgid "I see my child. Tell me, with your limited adventuring, have you made it to Brightport yet?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_30
+msgid "What? Why not? Don't you remember who lives there?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_30:0
+msgid "Umm...no, no I don't."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_40
+msgid "Andor's best friend from school, Stanwick. If you remember, they are very close friends. Maybe Stanwick has seen Andor?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_40:0
+msgid "Oh, Stanwick, of course."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_40:1
+msgid "Stanwick? I never liked that kid. He's really annoying and always picked on me. I really don't want to talk to him."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_40:2
+msgid "Are you sure that this is worth it? All the information that I have is pointing me to Nor City."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_50
+msgid "Yes, I think you should go to Brightport and seek him out. Maybe, just maybe, he could be helpful to us for once."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_50:0
+msgid "Thanks, mother. I will go to Brightport next."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_55
+msgid "Nor City?! What do you know about Nor City?"
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_55:0
+msgid "Well, I know there is a lady named 'Lydalon' there."
+msgstr ""
+
+#: conversationlist_sullengard.json:crossglen_valentina_andor_60
+msgid ""
+"Oh, OK. Just be careful there.\n"
+"Anyways..."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_not_helping_grazia_1
+msgid "HURRY, PLEASE! Keep moving!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_not_helping_grazia_1:0
+msgid "Why are you following me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_not_helping_grazia_1:1
+msgid "Um...OK"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_62
+msgid "I was to scared too cross that bridge by myself because of the wind."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_62:0
+msgid "But you just did it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_63
+msgid "Yeah, but only after I saw you doing it."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_10
+msgid "You got it, kid, we watch out for lawbreakers!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_10:0
+msgid "I knew it! Do you have your eye on anyone right now?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_10:1
+msgid "There's nothing to look at here. [You slowly back up and end the conversation.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_20
+msgid "You bet I have. I suspect we are witnessing one right now."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_20:0
+msgid "Really?! Who is it? Can I help?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_30
+msgid "Hey, kid, not so loud!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_30:0
+msgid "Oh, sorry, but this sounds exciting."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_
+#: 40
+msgid "Well, if you look around this tavern, both inside and outside, do you notice anything?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_
+#: 40:0
+msgid "Um...no. Should I?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_50
+msgid "YES!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_50:0
+msgid "Please enlighten me."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_50:1
+msgid "Now you are the one that needs to lower his voice."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_60
+msgid "There is a large amount of beer here. There are a number of beer barrels outside. Both full and empty ones. There is a lot inside as well. Too much in fact!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_60:0
+msgid "OK...Why does this equal a law being broken?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_70
+msgid "Well, for starters, Feygard taxes all beer sales. It is one of the best sources of gold used by Feygard to provide protection for the cities and towns."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_70:0
+msgid "Understood, but I am still not seeing how this means that a law has been broken."
+msgstr ""
+
+#: conversationlist_sullengard.json:
+#: ff_captain_beer_80
+msgid "Well, you see kid, I used to work in the 'tax collection' division of the Feygard patrol and I don't ever remember seeing the kind of collected taxes that would reflect this kind of volume of beer."
+msgstr ""
+
+#: conversationlist_sullengard.json:
+#: ff_captain_beer_80:0
+msgid "Um...I think I might be catching up to what you are thinking. Please, continue"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_90
+msgid "That's pretty much it kid, but I need your help."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_90:0
+msgid "Anything for the glorious Feygard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_90:1
+msgid "OK, but only if there is something in it for me."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_90:2
+msgid "No, thanks. I'm out of here."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_100
+msgid "Great to hear. I need you to talk with the tavern owner and find out anything you can about the beer."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_100:0
+msgid "Why me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_110
+msgid "Well, because I am a Feygard captain and as such, the tavern keep will never give me information."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_
+#: 111
+msgid "Great. Report back to me when you have learnt something usefull."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector
+msgid "Have you learned anything about the beer?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:1
+msgid "A little bit, but I need to go find out more."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:2
+msgid "I've talked to a couple of tavern owners, learned a few things, but I need to talk to some more people"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:3
+msgid "I've learned a lot, but I am still not ready to give you my report."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:4
+msgid "All the information I have obtained points me to Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:5
+#: conversationlist_sullengard.json:ff_captain_selector:6
+msgid "I still have some investigation to conduct in Sullengard. I will return to you afterwards."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:7
+msgid "I've learned everything that you will care to know about the beer bootlegging operation."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:8
+msgid "I know who is distributing the beer, but not the source of the beer."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:9
+msgid "I know where the beer is coming from, but I do not know who is distributing it."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_selector:10
+msgid "I am sorry, but I have learned nothing that I am willing to share or feel confident in sharing with you."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_hurry_up
+msgid "Then why are you wasting your and my time by coming back here? Get going."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_hurry_up:0
+msgid "Yes, sir! I'm on it."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_120
+msgid "Sullengard? Of course! Get down there now kid and get me more information."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_120:0
+msgid "Yes, sir. Anything for the glorious Feygard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_120:1
+msgid "I'll go to Sullengard when I feel like it. You don't own me."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_120:2
+msgid "Watch it captain! I am not one of your soldiers."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_10
+msgid "I knew that I could count on you kid. Please enlighten me and I will reward you handsomely."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_10:0
+msgid "What would you like to know first?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_20
+msgid "Where is it coming from?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_20:0
+msgid "It is coming from a town south of here called Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull
+msgid "That is disappointing, but at least you know something. Tell me."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull:0
+msgid "It is the Theives guild."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves
+msgid "That is disappointing, but at least you know something. Please tell me."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves:0
+msgid "The brewers are the families of Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_30
+msgid "Sullengard?! Of course it would be coming from Sullengard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_40
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11
+msgid "Well done kid. Here, take some gold."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_40:0
+msgid "All that work, and the reward is just gold?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_50
+msgid "Hey, what do you want from me? I'm stuck here babysitting a bunch of drunk guards."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60
+msgid "Anyways, I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60:0
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20:0
+msgid "Glory to Feygard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33
+msgid "The thieves guild? Are you sure?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10:0
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33:0
+msgid "Oh yeah. I heard it directly from them."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:0
+msgid "Thanks and Shadow be with you."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:1
+msgid "Thanks and glory to Feygard."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_sull_30
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20
+msgid "I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_10
+msgid "Sullengard?! Of course it would be coming from Sullengard. I should have known it is coming from them."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11:0
+msgid "Thanks!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell
+msgid "WHAT?! Tell me what you know, now!"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell:0
+msgid "That's the thing, I don't 'know' anything that I could prove."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_10
+msgid "I knew that you would be a waste of my time. I'll reward you with nothing."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_10:0
+msgid "I should get going. Sorry that I could not be more helpful."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer
+msgid "OK, and this is your business why?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer:0
+msgid "Well, of course it is not my business, but I am just wondering..."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_10
+msgid "Wondering what?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_10:0
+msgid "Why you have so much beer for such a small-sized tavern and where you got it? I would like some to bring home to father."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_10:1
+msgid "Why you're such a jerk?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_jerk
+msgid "Well, it's because of little snot-nosed kids like you"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_20
+msgid "Well, for as why I have so much, that is none of your business. As for where I got it, that information will cost you."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_20:0
+msgid "What? Are you asking me to buy information from you? Why would I want to do that?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_30
+msgid "Well, for the same reason why my bed is so expensive to rent...It's valuable."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_30:1
+msgid "Funny, I thought it was because you are a jerk."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_30:2
+msgid "Oh, fine! What do you want? Gold? How much?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_40
+msgid "Hmm...let me think...how does 10000 gold sound?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_40:0
+#: conversationlist_sullengard.json:torilo_beer_bribe7500:0
+msgid "That sounds fair. Take it. Now the information please!"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_40:1
+msgid "That sounds ridiculous! I won't pay that."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_40:2
+#: conversationlist_sullengard.json:torilo_beer_bribe7500:2
+#: conversationlist_sullengard.json:torilo_beer_bribe6000:2
+#: conversationlist_sullengard.json:tharwyn_beer_40:2
+msgid "I can't afford that."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_pay
+msgid "Oh, I love the sound of clanking coins. Anyways...myself and other tavern owners have a 'business agreement' with a group of 'distributors'."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe7500
+msgid "OK. How does 7500 gold sound?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe7500:1
+msgid "That still sounds ridiculous and I won't pay it."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe6000
+msgid "OK. How does 6000 gold sound?"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe6000:0
+msgid "That sounds ridiculous too, but I've had enough negotiating with you. [You reach into your bag, grab the coins and slam them on the ground] Take it. Now the information please!"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe6000:1
+msgid "That sounds ridiculous! I won't pay that"
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_bribe6000_10
+#: conversationlist_sullengard.json:tharwyn_beer_51
+msgid "That's fine with me, but no information for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:torilo_beer_pay_10
+msgid "It means that that is all I will tell you and I suggest you talk to another tavern owner."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer
+msgid "What? I don't know anything about what you speak of."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer:0
+msgid "I am sure you do. What do I have to do to hear what you know?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_10
+msgid "Well, if I read you correctly, I feel like you are prepared to offer me a bribe?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_10:0
+msgid "Oh great, not another tavern owner hungry for more gold."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_20
+msgid "Well, am I correct?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_20:0
+msgid "If that's what it it takes to get you to talk, then yes."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_30
+msgid "Wow! This is my lucky day. I just found out today that my daughter needs 5000 gold in order to enroll at this special school in Nor City and now here you are offering me a bribe."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_31
+msgid "That will be 5000 gold please."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_31:0
+msgid "What? You guys are killing me."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_40
+msgid "Is that a 'yes' or a 'no'?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_40:0
+msgid "That sounds ridiculous, but here, take it."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_40:1
+msgid "That sounds ridiculous! I won't pay that much."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_50
+msgid "I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_50:0
+msgid "Great. Start talking."
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_60
+msgid "Do you see that suspicious looking fellow over there in the corner?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_60:0
+msgid "The thief?"
+msgstr ""
+
+#: conversationlist_sullengard.json:tharwyn_beer_70
+msgid "That is Dunla. He gets me my beer. Go talk to him."
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer
+msgid "Who is Torilo?"
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer:0
+msgid "Come on. You know who Torilo is."
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer_10
+msgid "No, really, I don't know anyone by that name."
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer_10:0
+msgid "Sure you do. He is the owner of the Foaming flask."
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer_20
+msgid "the 'Foaming flask', what is that? Is that a tavern?"
+msgstr ""
+
+#: conversationlist_sullengard.json:bela_beer_20:0
+msgid "I've had enough of you. If you want to play dumb, then I don't have time for you."
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer
+msgid "She did, did she? Well, that is an insider topic, and you are not an \"insider\". Come back when you are."
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer_10
+msgid "She did, did she? What do you want to know?"
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer_10:0
+msgid "What is this 'business agreement' that the taven owners have?"
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer_20
+msgid "That is not for me to say."
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer_20:0
+msgid "Is the Thieves guild the 'distributors'?"
+msgstr ""
+
+#: conversationlist_sullengard.json:dunla_beer_30
+msgid "Yes, yes we are, but if you want to learn more, go talk to Farrik back at our guild house."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_kealwea_letter
+msgid "Oh, I've been expecting this. Thank you."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_inquery
+msgid "What's on your mind, kid?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_inquery:0
+msgid "Not much. I should go."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer
+msgid "Well, kid, all you really need to know is that there is a beer-making town that has been selling their beer to other towns and they are getting unfairly taxed on those sales.		 "
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer:0
+msgid "By Feygard?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer:1
+msgid "What is the name of this town?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_10:0
+msgid "Why is the Thieves guild helping this town?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_town
+msgid "Oh, how silly of me to leave out that detail."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_town:0
+msgid "Yes, it was 'silly' of you to do that."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_20
+msgid "Well, the gold of course."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_30
+msgid "Nope. You do not need to know any other details"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_30:0
+msgid "Well, could you at least tell what town it is that is making the beer?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_town_10
+msgid "It is Sullengard, of course."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_town_10:0
+msgid "Sullengard? I've never been there. Where is it located?"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_town_10:1
+msgid "Oh Sullengard? I know where that is...[I think]"
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_sull_unknown
+msgid "South of Vilegard, but beware, the travel to it is not for the faint of heart."
+msgstr ""
+
+#: conversationlist_sullengard.json:farrik_beer_sull_unknown:0
+msgid "I guess it's on to Sullengard for me. Bye."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hadena_completed
+msgid "Thank you for helping Ainsley and I."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer
+msgid "What? I am afraid that I have no idea what you are asking."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer:0
+msgid "Oh, but I am sure you do. [You lean in closer to the mayor] Just between us, we both know that you do know."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer:1
+msgid "Sorry. I'll leave you now"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_10
+msgid "What do you know?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_10:0
+msgid "Farrik told me a little bit about your operation."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_10:1
+msgid "Well, I know that the Thieves guild is your 'distributor'."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_15
+msgid "I don't know any 'Farrik'."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_20
+msgid "Then that must mean that you are someone that they trust?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_20:0
+msgid "I guess you could say that."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_30
+msgid "Maybe, just maybe."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_35
+msgid "But how can you prove it to me?...Uh, I know. You can deliver this letter for me. Here, take it to Kealwea and return to me afterwards."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_35:0
+msgid "Um, OK, I guess. "
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_50
+msgid "I had one of my people follow you. After all, I wasn't sure that you could be trusted."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_50:0
+msgid "Oh, I see. Now do you trust me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_50:1
+msgid "Now can you trust me to let me know more about the 'business agreement'"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_60
+msgid "Yes. You have proven yourself to me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_60:0
+msgid "Finally! Now start talking. I'm getting annoyed."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_60:1
+msgid "Great. Let's hear it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_70
+msgid "Pull-up a chair kid and listen to the facts."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_70:0
+msgid "Oh, no! Another long-winded story. OK, let's get this over with."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_80
+msgid "You see, this all started many years ago before Lord Geomyr grew into power. The Sullengard brewers have been perfecting their beer brewing for many years and selling it outside of town for almost as long."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_80:0
+msgid "Sounds like they are experts."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_90
+msgid ""
+"Well, yes they are when it comes to brewing the beer, but not so much when it comes to selling it.\n"
+"Even before Lord Geomyr grew into power, the citizens of Sullengard always had a hard time selling their beer."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_100
+msgid "Not so much selling it because that was easy. After all, we have the best product in Dhayavar. But the problem was getting to the other towns safely and with a fresh batch."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_105
+msgid "Then after Lord Geomyr came to power and more specifically, after he decided to lay down such an unjust tax upon our beer sales, we desperately needed a 'distributor'."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_105:0
+msgid "Oh, that makes sense to me. But why the Thieves guild?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_110
+msgid "The decision was easy. We had done plenty of business with them in the past and they never did us wrong. Plus, they have the skills and resources to discreetly distribute our beer without Feygard interference."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_110:0
+msgid "I can't argue with that logic."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_110:1
+msgid "But you are breaking the laws of Feygard. Aren't you afraid you will get caught?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_115
+msgid "Please keep this information to yourself."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_120
+msgid "Not as much as we fear not being able to make a living selling our beer. Plus, we have the support of the people of Nor City"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_letter_not_delivered_10
+msgid "I have my ways of knowing. After all, I am the mayor."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_letter_not_delivered_10:0
+msgid "I guess you do."
+msgstr ""
+
+#: conversationlist_sullengard.json:notice_large_sullengard_trees_10
+msgid "[Looking around you, you can't help to be amazed at the giant trees that surround you.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_10
+msgid "Hey, traveler. Where are you traveling from?"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_10:0
+msgid "Nowhere in particular."
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_10:1
+msgid "I found my way here from the Duleian road."
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_10:2
+msgid "North of here."
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_20
+msgid "Are you familiar with the Sullengard forest?"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_20:0
+msgid "Yes, and I have traveled through it. Why do you ask?"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_20:1
+msgid "Yes, I have been in that forest. Why?"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_20:2
+msgid "No. What is so special about it?"
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_30
+msgid "I just love walking in there as nature is so beautiful there."
+msgstr ""
+
+#: conversationlist_sullengard.json:winona_40
+msgid "There are lots of magnificently tall trees in that forest. The tallest in all of Dhayavar in fact."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_dantran_10
+msgid "Hey, are you supposed to be down here?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_dantran_10:0
+msgid "Well, I am, so I guess I am."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_beltina_10
+msgid "Oh, are you here to help my husband, Valhorn to finally win the 'Best beer in festival' competition?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_beltina_10:0
+msgid "I'm sorry, but I am not."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_beltina_10:1
+msgid "\"Finally\"? How long has it been?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_beltina_20
+msgid "He and his family have never won the competition. Wow! It hurts to say this out loud. The man is a failure. This is why we live in this tiny house."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valhorn_10
+msgid "Please leave me be so that I can concentrate. I need to win this year's 'Best beer in festival' competition so that my wife will respect me again."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ingeram_10
+msgid "Now that Grazia has arrived, I need to go finalize my final batch of ale for this year's celebrations and 'Best beer in festival' competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ingeram_10:0
+msgid "I see. Good luck in the competition."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin
+msgid "Hey there. What are you here for? A job, maybe?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_10
+msgid "We could always use the help. Considering we have workers coming and going all the time."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_10:0
+msgid "That's nice. But I don't care. See you later."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_20
+msgid "Well, I guess it's because by father works the farmers too much and I don't pay them enough for their labor."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_20:0
+msgid "You guys need to treat your farmers with more respect."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_30
+msgid "My name is Howkin and I am Deebo's son. I run the business side of the orchard while father runs the farming aspects."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_30:0
+msgid "Oh, I understand."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_howkin_30:1
+msgid "Oh, I understand...that you don't like to get your hands dirty."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_1
+msgid "[As soon as you walk in, you hear a very familiar voice...]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_find_mother_1:0
+msgid "Mother?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_20
+msgid "I'm sorry $playername, but I am in no position to answer that question for you. Please do as your mother has requested of you and go home. There you will find your answer."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_20:0
+msgid "OK. I will do that."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_20:1
+msgid "But, I've already done that and she didn't answer my question."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_30
+msgid "I'm sorry $playername, but I am in no position to answer that question for you. When your mother is ready, she will explain why."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_30:0
+msgid "OK...I guess I'll have to wait."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_wait
+msgid "Wait for me!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_1
+msgid "Please, please, you have to help me! I tried to, but I am too scared."
+msgstr ""
+
+#: conversationlist_sullengard.json:sull_ravine_grazia_1:0
+msgid "Tried to do what?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_0
+msgid "Well, in order to do that, then I will need some help."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_0:0
+msgid "Help? What kind of help?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_10
+msgid "You see, because I am the least experienced of Deebo's farmers, I get assigned the extra work that the other farmers don't want to do. On top of my already heavy responsibilities."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_10:0
+msgid "Extra work? Like what?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_20
+msgid "Well, for example, we need a new pitchfork here on the orchard and the closest place to get one is in Loneford. So guess who has to go get it? Me! I do."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_30
+msgid "This is not an easy trip. Not only the distance, but with all of those monsters between here and there, it is very dangerous."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_30:0
+msgid "Especially for a farmer. Trust me, I know."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_30:1
+msgid "I agree with you as you don't look strong enough to handle that trip."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_40
+msgid "Anyways, I would really appreciate it if you would go to Loneford and get the pitchfork."
+msgstr ""
+
+#: conversationlist_sullengard.json:ainsley_goto_loneford_40:0
+msgid "Sure. I will go to Loneford and get your new pitchfork."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_10
+msgid "Oh, thank you so much. I am so proud of them."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_10:0
+msgid "You should be. Can I ride one?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_20
+msgid "WHAT?! No way that's going to happen."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_20:0
+msgid "Please."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_20:1
+msgid "Fine. But can we talk about your barn instead?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_30
+msgid "No way. Is there anything else that you want to talk about?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_30:0
+msgid "Well, I was also wondering about your barn."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_10:0
+msgid "Well, it is one of the biggest buildings that I've ever seen. What's in there?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_20
+msgid "Supplies for my orchard and for my horses."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_20:0
+msgid "Can I see for myself? I would like to climb up into the loft for some much needed fun."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_30
+msgid "No way! You are annoying me. Go away kid."
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_barn_talk_30:0
+msgid "OK. I will leave you be."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_sell
+msgid "Absolutely."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_11
+msgid "What wrong with you, kid? I already told you that all I know is that I really hope it doesn't happen to me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_11:0
+msgid "Oh, yeah. Sorry about that."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_lamberta_11:1
+msgid "Why do you have to be so mean about it? I simply forgot that I already asked you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_valeria_15:0
+msgid "So, you are my Aunt Valeria, whom I only just learned even exists. Why am I just meeting you now?"
+msgstr ""
+
+#: conversationlist_sullengard.json:jackal_defeted_script_20
+msgid "[The Golden jackal has perished.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_0
+msgid "How can I be of service to you my friend?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_beer_0:0
+msgid "Can you tell me about your 'business agreement' with your beer 'distributors'?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered
+msgid "Why have you not delivered my letter to Kealwea yet?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered:0
+msgid "How did you know that?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_mayor_letter_delivered
+msgid "Than you for delivering my letter to Kealwea."
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32
+msgid "What else can you tell me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32:0
+msgid "I know that the thieves guild are the ones helping the people of Sullengard distribute their beer."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_hidden_inventory_generic
+msgid "[Under your feet you notice a freshly dug hole, but you resist the urge and say to yourself: \"What am I doing? I am too old to play in the dirt. I need to focus on finding Andor.\"]"
+msgstr ""
+
+#: conversationlist_sullengard.json:hamerick_0
+msgid "Hey there. Not to be rude, but can you please move along? I have lots to do before the beer festival begins."
+msgstr ""
+
+#: conversationlist_sullengard.json:hamerick_0:0
+msgid "Oh, I'm sorry to bother you."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_courtyard_girl
+msgid "Hello. We are just playing, but mother doesn't like us to play in the courtyard."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_courtyard_girl:0
+msgid "Maybe you should listen to her?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_courtyard_kids
+msgid "Maybe you should mind your own business and let us play?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_courtyard_boy_0
+msgid "Hello. We are just playing here in the courtyard. We like to jump over and off of the benches."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_courtyard_boy_0:0
+msgid "Well, maybe you shouldn't do that? It's not safe."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_0
+msgid "Roar!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_0:0
+msgid "\"Roar\"? How big do you think you are?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_0
+msgid "Hey there. You haven't seen my cat by any chance have you?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_0:0
+msgid "What does your cat look like?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_10
+msgid "He is entirely white. He looks look a freash coat of snow."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_10:0
+msgid "Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_10:1
+msgid "[Lie] No, I have not."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_10:2
+msgid "No, I have not. Sorry."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_cat_seeker_20
+msgid "Oh, thank you so much!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_0
+msgid "Are you here for the beer festival?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_0:1
+msgid "Actually, I'm here looking for someone...my brother."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_festival
+msgid "Well in that case, you are a couple of weeks early."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor
+msgid "Your brother you say? Maybe I can help. Tell me about him."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor:0
+msgid "Well there's not much to say really except his name is Andor and he looks sort of like me."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor_10
+msgid "\"Andor\" you say? Why do I know that name...hmm..."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor_10:0
+msgid "You've heard of him?!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor_20
+msgid "Maybe, but I'm not really sure. I think you should ask Mayor Ale."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_citizen_andor_20:1
+msgid "Well you were nothing but a tease. Thanks a lot!"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_church_guard
+msgid "Walk with the Shadow, child"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_church_guard:0
+msgid "Yes, I am walking with the Shadow and I'm loving it."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_church_guard:1
+msgid "The Shadow? What's it ever done for me?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_town_clerk_0
+msgid "Hello. I am Maddalena, the the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_town_clerk_10
+msgid "If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -50573,6 +54227,262 @@ msgstr ""
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
 msgstr ""
 
+#: itemlist_sullengard.json:golden_jackal_fur
+msgid "Golden jackal fur"
+msgstr ""
+
+#: itemlist_sullengard.json:golden_jackal_fur:description
+msgid "A beautiful gold color from a not so beautiful creature."
+msgstr ""
+
+#: itemlist_sullengard.json:farmer_pitchfork
+msgid "Farmer's pitchfork"
+msgstr ""
+
+#: itemlist_sullengard.json:farmer_pitchfork:description
+msgid "A must have tool for every farmer."
+msgstr ""
+
+#: itemlist_sullengard.json:deebo_apples
+msgid "Orchard apples"
+msgstr ""
+
+#: itemlist_sullengard.json:deebo_apples:description
+msgid "A sweet, deliciously tasting snack for those on the move."
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_juice
+msgid "Deebo's apple juice"
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_juice:description
+msgid "A desireable choice of many Sullengard residence."
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_cider
+msgid "Deebo's apple cider"
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_cider:description
+msgid "A nice seasonal drink for those slightly colder nights."
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_pie
+msgid "Deebo's apple pie"
+msgstr ""
+
+#: itemlist_sullengard.json:apple_orchard_pie:description
+msgid "A slice of Deebo's famous apple pie"
+msgstr ""
+
+#: itemlist_sullengard.json:watermelon_slice
+msgid "Watermelon slice"
+msgstr ""
+
+#: itemlist_sullengard.json:watermelon_slice:description
+msgid "Sticky, but delicious. It's like a snack and a drink in one."
+msgstr ""
+
+#: itemlist_sullengard.json:hat_of_protector
+msgid "Hat of the protector"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_bandit_brew
+msgid "Bandit's Brew"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_bandit_brew:description
+msgid "A Thieve's guild original, produced by the Brueria family. It was named in their honor for years of reliable service to Sullengard."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_finest
+msgid "Sullengard's Finest"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_finest:description
+msgid "A three time winner of the 'Best beer in festival' competition created by the Briwerra family. It as a full-body teast."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_southernhaze
+msgid "Southernhaze"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengrad_southernhaze:description
+msgid "The reigning champion of the 'Best beer in festival' competition. Product of the Bruyere family"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_forest_ale
+msgid "Forest Ale"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_forest_ale:description
+msgid "A medium colored brew with all the taste and no bitter aftertaste. Brewed by the Briwerra family."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_dark_beer_sour
+msgid "Dark Beer Sour"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_dark_beer_sour:description
+msgid "Not for the faint of heart, but the Bruyere family takes pride in it."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_mtn_tj
+msgid "Mountain Top Juice"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_mtn_tj:description
+msgid "A ltttle and sweet brew. Similiar to mead but not as heavy. This was the first brew ever sold by the Bruyere family."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_spring_squeeze
+msgid "Spring Squeeze"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_spring_squeeze:description
+msgid "A little bit of spring in ever sip. Brewed by the Brewere family."
+msgstr ""
+
+#: itemlist_sullengard.json:pig_bone
+msgid "Pig's bone"
+msgstr ""
+
+#: itemlist_sullengard.json:pig_bone:description
+msgid "All that remails of the poor pig."
+msgstr ""
+
+#: itemlist_sullengard.json:gloriosa_mushroom
+msgid "Gloriosa mushroom"
+msgstr ""
+
+#: itemlist_sullengard.json:gloriosa_mushroom:description
+msgid "A very poisonous mushroom to humans and most animals."
+msgstr ""
+
+#: itemlist_sullengard.json:gloriosa_mushroom_soup
+msgid "Gloriosa mushroom soup"
+msgstr ""
+
+#: itemlist_sullengard.json:gloriosa_mushroom_soup:description
+msgid "[TODO]"
+msgstr ""
+
+#: itemlist_sullengard.json:zaccheria_inventory
+msgid "Zaccheria's shop inventory"
+msgstr ""
+
+#: itemlist_sullengard.json:zaccheria_inventory:description
+msgid "A sack of the armory shop owner, Zaccheria's stolen inventory."
+msgstr ""
+
+#: itemlist_sullengard.json:war_axe_shadow
+msgid "War Axe of the Shadow"
+msgstr ""
+
+#: itemlist_sullengard.json:great_axe_of_bp
+msgid "Greataxe of broken promises"
+msgstr ""
+
+#: itemlist_sullengard.json:great_axe_of_bp:description
+msgid "It promised to saves lives, but instead it takes them."
+msgstr ""
+
+#: itemlist_sullengard.json:dark_heart_sword
+msgid "Darkheart broadsword"
+msgstr ""
+
+#: itemlist_sullengard.json:thunderguard_2h_sword
+msgid "Thunderguard Copper sword"
+msgstr ""
+
+#: itemlist_sullengard.json:branch_of_twilight
+msgid "Branch of twilight"
+msgstr ""
+
+#: itemlist_sullengard.json:soul_rapier
+msgid "Soul rapier"
+msgstr ""
+
+#: itemlist_sullengard.json:thieve_clock_whispers
+msgid "Thieve's cloak of whispers"
+msgstr ""
+
+#: itemlist_sullengard.json:thieve_clock_whispers:description
+msgid "A thief's right of passage."
+msgstr ""
+
+#: itemlist_sullengard.json:shoe_dark_glory
+msgid "Treads of dark glory"
+msgstr ""
+
+#: itemlist_sullengard.json:old_lady_ring
+msgid "Garnet whisper ring"
+msgstr ""
+
+#: itemlist_sullengard.json:warrior_gloves
+msgid "Grips of the warrior"
+msgstr ""
+
+#: itemlist_sullengard.json:bronzed_gloves
+msgid "Bronzed grasps"
+msgstr ""
+
+#: itemlist_sullengard.json:brutality_boots
+msgid "Brutality boots"
+msgstr ""
+
+#: itemlist_sullengard.json:bronze_helmet
+msgid "Bronze helmet"
+msgstr ""
+
+#: itemlist_sullengard.json:insect_stinger
+msgid "Insect stinger"
+msgstr ""
+
+#: itemlist_sullengard.json:small_tree_branch
+msgid "Small tree branch"
+msgstr ""
+
+#: itemlist_sullengard.json:rotten_apple
+msgid "Rotten apple"
+msgstr ""
+
+#: itemlist_sullengard.json:rotten_apple:description
+msgid "You most certainly would never want to eat this, but maybe you'd want to feed it to your enemies?"
+msgstr ""
+
+#: itemlist_sullengard.json:snake_meat
+msgid "Snake meat"
+msgstr ""
+
+#: itemlist_sullengard.json:snake_meat:description
+msgid "There's just something about meat from a snake that makes it just a little bit better."
+msgstr ""
+
+#: itemlist_sullengard.json:poisonous_spores
+msgid "Poisonous spores"
+msgstr ""
+
+#: itemlist_sullengard.json:poisonous_spores:description
+msgid "Probably not something that you want to be carrying around with you."
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_mayor_letter
+msgid "Mayor Ale's letter"
+msgstr ""
+
+#: itemlist_sullengard.json:sullengard_mayor_letter:description
+msgid "A letter to Kealwea, from Mayor Ale."
+msgstr ""
+
+#: itemlist_sullengard.json:blade_protector
+msgid "Blade of the protector"
+msgstr ""
+
+#: itemlist_sullengard.json:blade_protector:description
+msgid "This blade has been wielded by one that went before you."
+msgstr ""
+
 #: monsterlist_crossglen_animals.json:tiny_rat
 msgid "Tiny rat"
 msgstr ""
@@ -51085,6 +54995,7 @@ msgstr ""
 
 #: monsterlist_wilderness.json:highwayman
 #: monsterlist_v070_npcs.json:highwayman1
+#: monsterlist_sullengard.json:sullengard_highwayman
 msgid "Highwayman"
 msgstr ""
 
@@ -51744,6 +55655,7 @@ msgid "Landa"
 msgstr ""
 
 #: monsterlist_v0610_npcs1.json:loneford_chapelguard
+#: monsterlist_sullengard.json:sullengard_church_guard
 msgid "Chapel guard"
 msgstr ""
 
@@ -53071,6 +56983,7 @@ msgid "Blornvale"
 msgstr ""
 
 #: monsterlist_stoutford.json:goat_1
+#: monsterlist_sullengard.json:sullengard_goat_standing
 msgid "Goat"
 msgstr ""
 
@@ -54363,6 +58276,276 @@ msgstr ""
 msgid "Drunken Feygard patrol"
 msgstr ""
 
+#: monsterlist_hilltown.json:deathcob
+msgid "Death cob"
+msgstr ""
+
+#: monsterlist_hilltown.json:deathcobboss
+msgid "Ancient death cob"
+msgstr ""
+
+#: monsterlist_sullengard.json:farm_horse
+#: monsterlist_sullengard.json:farm_horse_right
+msgid "Farm horse"
+msgstr ""
+
+#: monsterlist_sullengard.json:graze_horse_left
+#: monsterlist_sullengard.json:grazing_horse_right
+msgid "Grazing horse"
+msgstr ""
+
+#: monsterlist_sullengard.json:pond_fish
+msgid "Pond fish"
+msgstr ""
+
+#: monsterlist_sullengard.json:golden_jackal
+msgid "Golden jackal"
+msgstr ""
+
+#: monsterlist_sullengard.json:deebo_orchard_farmer
+msgid "Overworked farmer"
+msgstr ""
+
+#: monsterlist_sullengard.json:deebo_orchard_farmer_ainsley
+msgid "Ainsley"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_cabin_wife
+msgid "Hadena"
+msgstr ""
+
+#: monsterlist_sullengard.json:deebo_orchard_deebo
+msgid "Deebo"
+msgstr ""
+
+#: monsterlist_sullengard.json:deebo_orchard_deebo_son
+msgid "Howkin"
+msgstr ""
+
+#: monsterlist_sullengard.json:g04_defy
+msgid "Defy"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_matpat
+msgid "Matpat"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_stephanie
+msgid "Stephanie"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_mayor
+msgid "Mayor Ale"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_newborn_baby
+msgid "Ollie"
+msgstr ""
+
+#: monsterlist_sullengard.json:guild04_rebcomrade_1
+msgid "Greedy comrade"
+msgstr ""
+
+#: monsterlist_sullengard.json:guild04_rebcomrade_2
+msgid "Grabby comrade"
+msgstr ""
+
+#: monsterlist_sullengard.json:guild04_rebcomrade_3
+msgid "Zachlanny"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_nanette
+msgid "Nanette"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_ingeram
+msgid "Ingeram"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_innkeeper
+msgid "Godfrey"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_priest
+msgid "Kealwea"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_mariora
+msgid "Mariora"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_inn_traveler
+msgid "Lost traveler"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_bartender
+msgid "Oakleigh"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_snapper
+msgid "Sullengard snapper"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_drinking_brother
+#: monsterlist_sullengard.json:sullengard_drinking_brother2
+#: monsterlist_sullengard.json:sullengard_drinking_brother3
+msgid "Drinking brother"
+msgstr ""
+
+#: monsterlist_sullengard.json:sull_ravine_grazia
+#: monsterlist_sullengard.json:sullengard_grazia
+msgid "Grazia"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_ravynne
+msgid "Ravynne"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_briwerra_cat
+msgid "Briwerra's family cat"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_gaelian
+msgid "Gaelian"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_arantxa
+msgid "Prowling Arantxa"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_zaccheria
+msgid "Zaccheria"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_lamberta
+msgid "Lamberta"
+msgstr ""
+
+#: monsterlist_sullengard.json:flying_tree_ant
+msgid "Flying tree ant"
+msgstr ""
+
+#: monsterlist_sullengard.json:sull_forest_tree_fungus
+msgid "Pixie Cort"
+msgstr ""
+
+#: monsterlist_sullengard.json:huckleber_reaper
+msgid "Huckleberreaper"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_venom_snake
+msgid "Sullengard forest snake"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_venom_snake_queen
+msgid "Queen Sullengard forest snake"
+msgstr ""
+
+#: monsterlist_sullengard.json:sull_red_forest_snake
+msgid "Sullengard red forest snake"
+msgstr ""
+
+#: monsterlist_sullengard.json:plague_groundberry
+msgid "Plague groundberry"
+msgstr ""
+
+#: monsterlist_sullengard.json:broxwood
+msgid "Broxwood"
+msgstr ""
+
+#: monsterlist_sullengard.json:preabola_fly
+msgid "Preabola fly"
+msgstr ""
+
+#: monsterlist_sullengard.json:yellow_tooth
+msgid "Yellow tooth slitherer"
+msgstr ""
+
+#: monsterlist_sullengard.json:yellow_tooth_king
+msgid "King yellow tooth slitherer"
+msgstr ""
+
+#: monsterlist_sullengard.json:duleian_mountain_cat
+msgid "Duleian mountain cat"
+msgstr ""
+
+#: monsterlist_sullengard.json:duleian_hornet
+msgid "Duleian buzzer"
+msgstr ""
+
+#: monsterlist_sullengard.json:poisonous_jitterfly
+msgid "Poisonous jitterfly"
+msgstr ""
+
+#: monsterlist_sullengard.json:sull_herding_dog
+msgid "Young herding dog"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_goat_feeding
+msgid "Feeding goat"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_goat_herder
+msgid "Goat herder"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_winona
+msgid "Winona"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_dantran
+msgid "Dantran"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_beltina
+msgid "Beltina"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_valhorn
+msgid "Valhorn"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_valentina
+#: monsterlist_sullengard.json:crossglen_valentina
+msgid "Valentina"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_valeria
+msgid "Valeria"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_hamerick
+msgid "Hamerick"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_courtyard_girl
+msgid "Gwinnett"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_courtyard_boy
+msgid "Curwen"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_cat
+msgid "Frosty"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_cat_seeker
+msgid "Lindauer"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_citizen
+msgid "Local citizen"
+msgstr ""
+
+#: monsterlist_sullengard.json:lava_entity
+msgid "Lava entity"
+msgstr ""
+
+#: monsterlist_sullengard.json:sullengard_town_clerk
+msgid "Maddalena"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr ""
@@ -54441,6 +58624,14 @@ msgstr ""
 
 #: questlist.json:andor:92
 msgid "Unkorh gave me the bonemeal potion box that Andor had given him for safekeeping."
+msgstr ""
+
+#: questlist.json:andor:100
+msgid "While exploring the town of Sullengard, I so happened to stumble upon my mother and my aunt to whom I have never met. Mother has insisted that I go home so we can talk."
+msgstr ""
+
+#: questlist.json:andor:110
+msgid "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do."
 msgstr ""
 
 #: questlist.json:mikhail_bread
@@ -57697,7 +61888,7 @@ msgid "You've talked with a Knight of Elythom who happened to be an old acquaint
 msgstr ""
 
 #: questlist_burhczyd.json:quest_burhczyd:110
-msgid "You've met Burhczyd"
+msgid "Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet..."
 msgstr ""
 
 #: questlist_burhczyd.json:quest_burhczyd:120
@@ -58468,6 +62659,14 @@ msgstr ""
 msgid "Swimming lessons: I swam along a raging river - and lived!"
 msgstr ""
 
+#: questlist_fungi_panic.json:achievements:110
+msgid "I braved the elements and my fear of heights and walked out onto the very edge of the Sullengard ravine and looked straight down to the ravine's bottom."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:120
+msgid "Thrown out of my first tavern. I was told to leave the Sullengard tavern and at such a young age too. Am I starting down the wrong path?"
+msgstr ""
+
 #: questlist_gison.json:gison_soup
 msgid "Delicious soup"
 msgstr ""
@@ -58607,6 +62806,46 @@ msgstr ""
 msgid "I told Gorwath that I gave the letter to Arensia. He's happy too."
 msgstr ""
 
+#: questlist_omi2.json:Thieves04
+msgid "Another ruthless Crackshot"
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:10
+msgid "Umar told me to visit Defy in Sullengard to instruct him to give the villagers their share."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:20
+msgid "Defy told me that there will be a delay in giving the villagers of Sullengard their fair share for some unknown reason. I must report this to Umar at once."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:30
+msgid "Umar instructed me to talk to Defy once more."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:35
+msgid "Defy and his friends have vanished! Back to Umar ..."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:40
+msgid "I told Umar about the disappearance of Defy and his men. But Umar didn't believe me and he even sent me back to find them. I better ask the villagers there."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:50
+msgid "There was a distressed man, whom just had his first child, who hinted to me of wherabouts of Defy and his men. I must report this to Umar once more."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:60
+msgid "With Sullengard running into financial trouble, Umar is enraged by Defy's traitorous way."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:70
+msgid "Umar gave me a task to give the mayor at least 50000 gold coins as the promised share for their living. After that, I'm instructed to report back immediately."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:80
+msgid "At last, Sullengard can now sleep calmly and eat sufficiently with their finances restored."
+msgstr ""
+
 #: questlist_omi2.json:Omi2_bwm1
 msgid "Climbing up is forbidden"
 msgstr ""
@@ -58708,7 +62947,7 @@ msgid "One of the general's henchmen attacked me without provocation. There was 
 msgstr ""
 
 #: questlist_omi2.json:Omi2_bwm1:45
-msgid "Ehrenfest revealed his true intentions, but fled before getting surrounded. According with his own words, he will be waiting for General Ortholion in the Elm mine."
+msgid "Ehrenfest revealed his true intentions, but fled before getting surrounded. He told me he will be waiting for General Ortholion in the Elm mine."
 msgstr ""
 
 #: questlist_omi2.json:Omi2_bwm1:46
@@ -58831,6 +63070,265 @@ msgstr ""
 msgid "I reported back to Facutloni. He is very happy."
 msgstr ""
 
+#: questlist_factions.json:faction_count_shadow
+msgid "faction_count_shadow"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:0
+msgid "Ranges  30:max | 18:very high | 6:high | -5:low | -14:very low | -23:even lower"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:10
+msgid " 4   vacor:61   Killed Vacor"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:20
+msgid " 4-  vacor:60   Killed Unzel"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:30
+msgid " 4-  kaverin:21   Declined to help Kaverin"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:40
+msgid " 4   feygard_shipment:82   Reported back to Ailshara"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:50
+msgid " 1   thieves_hidden:80   Talked about thieves to Thoronir"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:60
+msgid " 4   stoutford_castle:50   Yolgen examined the ring"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:70
+msgid " 4-  stoutford_castle:60   Kept the ring for myself, which upset Yolgen"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:80
+msgid " 4-  stoutford_castle:70   Kept the ring for myself and didn't tell Yolgen"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:90
+#: questlist_factions.json:faction_count_shadow:210
+#: questlist_factions.json:faction_count_shadow:220
+#: questlist_factions.json:faction_count_shadow:230
+#: questlist_factions.json:faction_count_shadow:240
+#: questlist_factions.json:faction_count_shadow:250
+#: questlist_factions.json:faction_count_shadow:260
+#: questlist_factions.json:faction_count_shadow:270
+#: questlist_factions.json:faction_count_shadow:280
+#: questlist_factions.json:faction_count_shadow:290
+msgid " "
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:100
+msgid " 4   kaverin:100   Found Vacor's old hideout"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:110
+msgid " 4   Thieves03:32   The patrol sergeant has left to call for backup"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:120
+msgid " 4-  darkprotector:70   Restored the helmet"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:130
+msgid " 5   darkprotector:40   Ulirfendor has given me the dark blessing of the Shadow"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:140
+msgid " 4   darkprotector:41   Ulirfendor wanted to give me the dark blessing of the Shadow, but I declined"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:150
+msgid " 4   xulviir:30   Destroyed the Xul'viir"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:160
+msgid " 4-  xulviir:20   Restored the Xul'viir"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:170
+msgid " 3-  rogorn:50   Killed Rogorn"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:180
+msgid " 3   rogorn:55   Lie about Rogorn killed"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:190
+msgid " 1-  loneford:55   Talked to Kuldan about the illness"
+msgstr ""
+
+#: questlist_factions.json:faction_count_shadow:200
+msgid " 1   loneford:60   Didn't tell Kuldan about the illness"
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_hth
+msgid "Hunting the hunter"
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_hth:0
+msgid "Deebo, the apple orchard farmer northeast of Sullengard informed me of a Golden jackal that is wreaking havoc in his orchard."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_hth:10
+msgid "I accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_hth:40
+msgid "I killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as proof that I've killed it."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_hth:50
+msgid "I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght
+msgid "Getting home on time"
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:10
+msgid "Hadena needed my help to get her husband Ainsley home on time."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:20
+msgid "I agreed to help Hadena with getting her husband Ainsley home on time. He was working at Deebo's Orchard located southwest of their cabin."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:25
+msgid "Due to the vast distance to Loneford and the monsters that he would encounter along the way, Ainsley has asked me to go to Loneford and get him a new pitchfork."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:30
+msgid "Throthaus wanted me to pull out his pitchfork from the haystack to prove that I'm a son of a farmer."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:40
+msgid "I successfully pulled out the pitchfork. It's time to visit Ainsley again working in Deebo's Orchard in Sullengard."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:50
+msgid "I gave Ainsley the new pitchfork. I should tell Hadena about this."
+msgstr ""
+
+#: questlist_sullengard.json:deebo_orchard_ght:60
+msgid "Hadena was so grateful to me for helping them."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety
+msgid "Pond safety"
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety:10
+msgid "Nanette was troubled that her pond is unsafe because of the monsters that emerged in the pond. "
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety:20
+msgid "I accepted her request to clear out the monsters in her pond area so that she could enjoy the pond again."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety:30
+msgid "I have now cleared the pond area. Nanette told me that I should talk to Kaelwea, the priest of Sullengard, to see if he has some information about the cause of the monster's appearance in the pond area."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety:40
+msgid "The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I should better tell her the moral of the story."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_pond_safety:50
+msgid "I told Nanette the moral of the story. She had already learned from her mistake and she promised never to do it again just to release her anger issue against the unfair taxes of Feygard."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items
+msgid "Recovering stolen property"
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:10
+msgid "I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:20
+msgid "Zaccheria suggested that I should start my investigation by speaking with Gaelian from the Briwerra family."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:30
+msgid "I spoke with Gaelian from the Briwerra family and I suspect that he had nothing to do with this crime."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:40
+msgid ""
+"I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria.\n"
+"I should speak with the 'lost traveler'."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:50
+msgid "I had paid the 'lost traveler' in exchange for the location of Zaccheria's stolen items. He told me that he had hidden them on the eastern boundaries of town."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:60
+msgid "I found the stolen items and should return to Zaccheria with them."
+msgstr ""
+
+#: questlist_sullengard.json:sullengard_recover_items:70
+msgid "Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging
+msgid "Beer Bootlegging"
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:10
+msgid "I've agreed to help the Feygard patrol captain investigate why there is so much beer on the Foaming flask tavern property."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:20
+msgid "After bribing Torilo, the owner of the Floaming flask, he stated that he and other tavern owners had a 'business agreement' with a group of 'distributors'. He suggested that I ask other tavern owners for more information."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:30
+msgid "After bribing Tharwyn, the owner of the Vilegard tavern, he stated as part of his 'business agreement', Dunla, the local thief, is one of his 'distributors'. He suggested that I talk to him."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:40
+msgid "Dunla, the thief in Vilegard instructed me to speak with Farrick if I want to learn more about the tavern owner's 'business agreement' with their 'distributors'."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:50
+msgid "Farrik told me that the beer is coming from Sullengard. I really should go there next."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:60
+msgid "To earn his trust, Mayor Ale has asked that I deliver his letter to Kealwea, the Sullengard priest."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:70
+msgid "I have done what Mayor Ale has asked of me as I have delivered his letter. I should now return to him."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:80
+msgid "Mayor Ale has explained everything to me about the 'business agreement' with the Thieves guild. I should head back to the Floaming flask tavern and speak with the captain."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:90
+msgid "I informed the guard captain at the Floaming flask tavern all about the beer bootlegging operation."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:100
+msgid "I informed the guard captain at the Floaming flask tavern that the beer was being distributed by the Thieves guild."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:110
+msgid "I informed the guard captain at the Floaming flask tavern that Sullengard was responsible for brewing the beer."
+msgstr ""
+
+#: questlist_sullengard.json:beer_bootlegging:120
+msgid "I lied to the guard captain at the Floaming flask tavern and told him nothing about the beer bootlegging operation."
+msgstr ""
+
 #: worldmap.xml:world1:crossglen
 msgid "Crossglen"
 msgstr ""
@@ -58881,5 +63379,13 @@ msgstr ""
 
 #: worldmap.xml:world1:brimhaven_area
 msgid "Brimhaven"
+msgstr ""
+
+#: worldmap.xml:world1:sullengard
+msgid "Sullengard"
+msgstr ""
+
+#: worldmap.xml:world1:deebo_orchard
+msgid "Deebo's Orchard"
 msgstr ""
 
