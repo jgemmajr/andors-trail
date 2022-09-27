@@ -23,12 +23,118 @@
         "replies":[
             {
                 "text":"Do you have any tasks for me?",
+                "nextPhraseID":"umar_guild05_0",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ThievesGuild",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"I have given them our promised share.",
+                "nextPhraseID":"umar_guild04_29",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"What are we gonna do about Sullengard?",
+                "nextPhraseID":"umar_guild04_26",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What are your plans for the new traitors?",
+                "nextPhraseID":"umar_guild04_21",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Matpat told me that Defy and his men left Sullengard.",
+                "nextPhraseID":"umar_guild04_19",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Defy and his men have left Sullengard.",
+                "nextPhraseID":"umar_guild04_17",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"Defy told me that the time to share will be delayed for no stated reason.",
+                "nextPhraseID":"umar_guild04_15",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"What am I supposed to do in Sullengard again?",
+                "nextPhraseID":"umar_guild04_12",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Do you have any tasks for me?",
                 "nextPhraseID":"umar_guild04_0",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"ThievesGuild",
-                        "value":20
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             },

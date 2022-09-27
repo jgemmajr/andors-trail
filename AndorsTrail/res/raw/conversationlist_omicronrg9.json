@@ -4277,32 +4277,7 @@
         "id":"umar_guild04_0",
         "replies":[
             {
-                "nextPhraseID":"umar_guild04_1a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":72
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"charwood2",
-                        "value":50
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"flagstone",
-                        "value":100
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":50
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"umar_guild04_1b"
+                "nextPhraseID":"umar_guild04_1"
             }
         ]
     },
@@ -4802,6 +4777,680 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"umar_guild05_0",
+        "replies":[
+            {
+                "nextPhraseID":"umar_guild05_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"umar_guild05_1b"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild05_1b",
+        "message":"No jobs today my young friend. Maybe some other day.",
+        "replies":[
+            {
+                "text":"I see. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's a shame. Find more time for my skills then.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild05_1a",
+        "message":"[Here, the story continues]"
+    },
+    {
+        "id":"umar_guild04_1",
+        "message":"Yes, I do have a new task for you. So, listen to me carefully.",
+        "replies":[
+            {
+                "text":"I'm listening.",
+                "nextPhraseID":"umar_guild04_2"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_2",
+        "message":"Here in the guild, as you know, income sources come in different classes from poor to wealthy. The lower-middle class and poor class are usually associated with us.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_3"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_3",
+        "message":"Wealthy class is our highest target. This is why I didn't doubt to give you the first mission to kidnap Ambelie for ransom.",
+        "replies":[
+            {
+                "text":"My bad.",
+                "nextPhraseID":"umar_guild04_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":76
+                    }
+                ]
+            },
+            {
+                "text":"That is not my kind of work though.",
+                "nextPhraseID":"umar_guild04_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":75
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_4",
+        "message":"Don't worry, we already made a promise.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_5"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_5",
+        "message":"Anyway, the rest of the class are either with us or against us.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_6"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_6",
+        "message":"Most of the time we made deals and negotiations with them in exchange of peace or protection.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_7"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_7",
+        "message":"One of them is the popular brewery town called 'Sullengard' located far to the south of Vilegard.",
+        "replies":[
+            {
+                "text":"What makes the place interesting for us?",
+                "nextPhraseID":"umar_guild04_8"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_8",
+        "message":"They have a massive bootleg brewery operation because Feygard is unfairly taxing them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_9"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_9",
+        "message":"As a result, they asked us to help them. We even have 80/20 share of their business.",
+        "replies":[
+            {
+                "text":"Interesting.",
+                "nextPhraseID":"umar_guild04_10a"
+            },
+            {
+                "text":"80 for us and 20 for them?",
+                "nextPhraseID":"umar_guild04_10b"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_10b",
+        "message":"No. 80 for them and 20 for us.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_10a"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_10a",
+        "message":"Their 20th anniversary beer festival will be celebrated in the next few weeks. ",
+        "replies":[
+            {
+                "text":"I didn't know that I was invited.",
+                "nextPhraseID":"umar_guild04_11"
+            },
+            {
+                "text":"But I'm not interested in beer.",
+                "nextPhraseID":"umar_guild04_11"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_11",
+        "message":"Don't worry. Even your brother was a helping hand in Sullengard. I'm sure you can do the same as well.",
+        "replies":[
+            {
+                "text":"He didn't even invite me either.",
+                "nextPhraseID":"umar_guild04_12"
+            },
+            {
+                "text":"So you want me to go there?",
+                "nextPhraseID":"umar_guild04_12"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_12",
+        "message":"I want you to go to Sullengard and find one of my appointed veterans named Defy.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_13"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_13",
+        "message":"Tell him that it is time to give the bootleg brewers their share to aid in their livelihoods. Especially in paying their taxes.",
+        "replies":[
+            {
+                "text":"You can count on me.",
+                "nextPhraseID":"umar_guild04_14"
+            },
+            {
+                "text":"But I need an invitation letter first.",
+                "nextPhraseID":"umar_guild04_14"
+            },
+            {
+                "text":"I'll just wait for my brother to do that because it's very far.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_14",
+        "message":"Hurry now. There's no time to waste.",
+        "replies":[
+            {
+                "text":"Fine.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm going now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_15",
+        "message":"Not again. What's on his mind?",
+        "replies":[
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"umar_guild04_16"
+            },
+            {
+                "text":"I'll ask him again once his head is cool.",
+                "nextPhraseID":"umar_guild04_16"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_16",
+        "message":"Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.",
+        "replies":[
+            {
+                "text":"I'm going to visit him again. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's what I just said.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"g04_defy",
+                "mapName":"sullengard_tavern_basement"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guild04_comrade_1",
+                "mapName":"sullengard_tavern_basement"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guild04_comrade_2",
+                "mapName":"sullengard_tavern_basement"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guild04_comrade_3",
+                "mapName":"sullengard_tavern_basement"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_17",
+        "message":"He can't be gone without our share from the bootleg brewers.",
+        "replies":[
+            {
+                "text":"I thought he's here.",
+                "nextPhraseID":"umar_guild04_18"
+            },
+            {
+                "text":"You're right.",
+                "nextPhraseID":"umar_guild04_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_18",
+        "message":"Go back to Sullengard and ask the townspeople if they know of his whereabouts.",
+        "replies":[
+            {
+                "text":"I'm on my way back to Sullengard now. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_19",
+        "message":"This is madness! He betrayed us just like Crackshot did.",
+        "replies":[
+            {
+                "text":"We better find and kill him and his men and retrieve the share to help the people of Sullengard.",
+                "nextPhraseID":"umar_guild04_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_20",
+        "message":"Yes. We must find and kill them and retrieve the share for the sake of Sullengard's living.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_21"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_21",
+        "message":"Fortunately, one of my men found one of his drunk men and had a short talk with him before he bleed to death.",
+        "replies":[
+            {
+                "text":"What did he say?",
+                "nextPhraseID":"umar_guild04_22"
+            },
+            {
+                "text":"Sweet justice with small information?",
+                "nextPhraseID":"umar_guild04_22"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_22",
+        "message":"He said that they will no longer be a part of the thieves guild. They are now referring to themselves as 'Aidem'.",
+        "replies":[
+            {
+                "text":"What a weird name. For what reason?",
+                "nextPhraseID":"umar_guild04_23"
+            },
+            {
+                "text":"But why?",
+                "nextPhraseID":"umar_guild04_23"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_23",
+        "message":"They prefer riches over honor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_24"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_24",
+        "message":"Such a dishonorable act for they stole 50000 gold coins including the treasures of Sullengard.",
+        "replies":[
+            {
+                "text":"Their dishonorable act will be their undoing.",
+                "nextPhraseID":"umar_guild04_25"
+            },
+            {
+                "text":"Justice shall serve!",
+                "nextPhraseID":"umar_guild04_25"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_25",
+        "message":"We still don't know where they are.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild04_26"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_26",
+        "message":"Sullengard is our friend. Find a way to earn gold.",
+        "replies":[
+            {
+                "text":"How can we earn that large amount of gold?",
+                "nextPhraseID":"umar_guild04_27"
+            },
+            {
+                "text":"This requires so much gold, how can we earn it?",
+                "nextPhraseID":"umar_guild04_27"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_27",
+        "message":"I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.",
+        "replies":[
+            {
+                "text":"What? How?",
+                "nextPhraseID":"umar_guild04_28b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":28,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes. I'm on it.",
+                "nextPhraseID":"umar_guild04_28a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_28b",
+        "message":"Here's 1000 gold coins as my financial contribution.",
+        "replies":[
+            {
+                "text":"Oh. Thank you.",
+                "nextPhraseID":"umar_guild04_28a"
+            },
+            {
+                "text":"Wow! It motivated me. Thanks.",
+                "nextPhraseID":"umar_guild04_28a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":28
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_28a",
+        "message":"Immediately report back to me once you are done.",
+        "replies":[
+            {
+                "text":"I better start looking for gold now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It will be done.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_29",
+        "message":"Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.",
+        "replies":[
+            {
+                "text":"Thank you, sir. You can count me in as well to kill Defy.",
+                "nextPhraseID":"umar_guild04_30"
+            },
+            {
+                "text":"Thank you sir, but what about Defy and his men?",
+                "nextPhraseID":"umar_guild04_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":80
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"ThievesGuild",
+                "value":10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"blade_protector",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"umar_guild04_30",
+        "message":"Like I said, we are still looking for him. You should rest for now from your long haul.",
+        "replies":[
+            {
+                "text":"You're right. My legs are so tired from having to walk back and forth from here to Sullengard so many times.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, I should rest from my long travel.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy",
+        "replies":[
+            {
+                "nextPhraseID":"guild04_defy_1",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guild04_defy_5"
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_1",
+        "message":"Andor, is that you? You grew weak and small. How was your visit to Nor City?",
+        "replies":[
+            {
+                "text":"I'm $playername. Andor is my brother and I'm not weak.",
+                "nextPhraseID":"guild04_defy_2"
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_2",
+        "message":"Oh, yeah, but you do look a lot like him. I'm Defy.",
+        "replies":[
+            {
+                "text":"So you know my brother as well?",
+                "nextPhraseID":"guild04_defy_3"
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_3",
+        "message":"Indeed. He always asks questions like a curious kid does. Tell me, what brings you here, $playername?",
+        "replies":[
+            {
+                "text":"Umar told me that it is time to give their share to the bootleg brewers.",
+                "nextPhraseID":"guild04_defy_4"
+            },
+            {
+                "text":"Umar sent me for our business.",
+                "nextPhraseID":"guild04_defy_4"
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_4",
+        "message":"The time of sharing? If that's so, then tell him that there will be a delay.",
+        "replies":[
+            {
+                "text":"Really?",
+                "nextPhraseID":"guild04_defy_5"
+            },
+            {
+                "text":"A delay of what?",
+                "nextPhraseID":"guild04_defy_5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_5",
+        "message":"Just mind your own business, kid. Now, get out of here or I'll kick you out.",
+        "replies":[
+            {
+                "text":"You will be the one who's kicked out of here.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You will be the one to blame here.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_gone_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guild04_defy_gone_script_grant",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_gone_script_grant",
+        "message":"[Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":35
             }
         ]
     }

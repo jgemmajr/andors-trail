@@ -53,6 +53,17 @@
                         "value":41
                     }
                 ]
+            },
+            {
+                "text":"Hey, I noticted all of those beer barrels outside and all those drunk guards over there.",
+                "nextPhraseID":"torilo_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10
+                    }
+                ]
             }
         ]
     },

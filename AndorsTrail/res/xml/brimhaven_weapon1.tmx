@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="7" height="8" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -194,6 +194,11 @@
  <layer name="Above" width="7" height="8">
   <data encoding="base64" compression="zlib">
    eJxjYKA/uM7HwDCZn4HhGh/t7QIA/DECbA==
+  </data>
+ </layer>
+ <layer name="Top" width="7" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPDosNHrlLeORwAQBwAgUm
   </data>
  </layer>
  <layer name="Walkable" width="7" height="8" visible="0">

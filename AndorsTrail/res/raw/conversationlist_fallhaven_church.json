@@ -7,24 +7,7 @@
         "id":"thoronir_default",
         "replies":[
             {
-                "nextPhraseID":"thoronir_factions_vacor_61_reward",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"vacor",
-                        "value":61
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"thoronir_factions_vacor_60_check"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"factionCountShadow",
-                "value":0
+                "nextPhraseID":"thoronir_start_select"
             }
         ]
     },

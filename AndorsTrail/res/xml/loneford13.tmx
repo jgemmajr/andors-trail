@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="27" height="12" tilewidth="32" tileheight="32" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="27" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -201,27 +201,32 @@
  <tileset firstgid="8217" name="map_sign_ladder_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="27" height="12">
+ <layer id="1" name="Ground" width="27" height="12">
   <data encoding="base64" compression="zlib">
    eJybKcvAMJMAZhSBYCYkGln+ozAEf4JiQubhw9ulMDEut6C7g1R8XAoT43MLJXYh49lQjM0tIIDujoHCbHIMDKwkYmQ/ovuZVnbR01+D2S5ROtpFbrqn1Axa+wsAYYS4kA==
   </data>
  </layer>
- <layer name="Objects" width="27" height="12">
+ <layer id="2" name="Objects" width="27" height="12">
   <data encoding="base64" compression="zlib">
    eJzbL8fA8FGegeGBPIIGYRCQl2MgGyQLINiTgewpQLwfaF4G0Gw9eYScIZJdMPGZMhD6MxuEPgmUewnEp7G4ByR3C4hvAvFtqBqQ++cD6ZOSDAw2ChB1kUD7owQw/bUKahczO6p7YADkFpg70IEeNMzk5HDj2bL45ZWB+LM8wi0wd2BzSxDQ/fPkSMOgcAD5dz+URjYTFg4f5THDKAlIx8pjYkcgzsaDYXYZofnTGM3PD5Dc8QCLPbEE7EG2C0TPxeN3ECgF+qdMAEITskuQCbddhlDzlAQZGFQFITQIw9yB7K+nFPoLng7kIG4yhNq/H8lfsDzzlUK70NMazFxku5DDEV+axoWdoHapCKKGnwoUY0s3cmjxmSUPwblQDAoXRyidiySOHF+w8IOFIYiGlUVvgGXEW0mE/wCJ/3/m
   </data>
  </layer>
- <layer name="Above" width="27" height="12">
+ <layer id="3" name="Above" width="27" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYEAFlgIMDFYCCD4jBwNWwAQVf8iOKfcIixgM7JREsD2B9ngJ4FYLA9pyuN3ChMN95AIrOcLuQA8jWgCYO4gNo6EIUoH+ShOA0MggnYB/M6gYHuXDIGxToOE4XMAdYBlxVxJB0wO8AdrzDogBpR0QOg==
   </data>
  </layer>
- <layer name="Walkable" width="27" height="12">
+ <layer id="4" name="Walkable" width="27" height="12">
   <data encoding="base64" compression="zlib">
    eJyTlGNgkMSCkQE2eUowPkAruwj5C8bH5xZc7qUUEHIHLveQEgb43Imshhg3EOMfUtSQGobY9BIb/9jiGJ/5+OwlFM6UpA187iTFzeTYRcgdlNpFatmAT55YOWIxAJIiHhU=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <layer id="5" name="Above_replace" width="27" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGWQKjDQLhg+AACcvAB2
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="160" width="32" height="192">
    <properties>
     <property name="map" value="loneford1"/>
@@ -273,9 +278,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys">
   <object id="11" name="gqtombstone_2" type="sign" x="608" y="256" width="32" height="32"/>
+  <object id="12" name="loneford13_pitchfork" type="key" x="800" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="loneford13_pitchfork_selector"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="500"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Replace"/>
+ <objectgroup id="9" name="Replace">
+  <object id="13" name="loneford13_pitchfork" type="replace" x="800" y="256" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_replace"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

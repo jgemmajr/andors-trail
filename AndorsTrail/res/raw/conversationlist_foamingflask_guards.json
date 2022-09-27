@@ -150,6 +150,41 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Let's talk about the beer investigation.",
+                "nextPhraseID":"ff_captain_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":110,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -174,6 +209,18 @@
             {
                 "text":"You mentioned Feygard. Where is that?",
                 "nextPhraseID":"ff_captain_4"
+            },
+            {
+                "text":"So when you say \"peace\", you really mean \"law enforement\"?",
+                "nextPhraseID":"ff_captain_beer_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

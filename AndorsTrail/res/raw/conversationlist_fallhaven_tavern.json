@@ -10,6 +10,17 @@
             {
                 "text":"Are there any rooms available?",
                 "nextPhraseID":"bela_room_select"
+            },
+            {
+                "text":"Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'.",
+                "nextPhraseID":"bela_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":20
+                    }
+                ]
             }
         ]
     },

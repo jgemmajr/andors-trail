@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,47 +183,47 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="25" height="25">
+ <layer id="1" name="Ground" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJy7J8nA8A6IN3Ki4s1QjCwGUncPSe09SYQYMo0sj6yPWHvAWJhEjMV9hOw4KEwaRg4HDPfisMdEmoHBFIjNpAn7AaQWPWyJscMZqM8FiF2lCfvBWRoz7oj1C7qfsGEzJD/gi3dCdsD8xMwOoZExyJ9BrLjTJSn2UAsPFzvIsQdfHFPDHkJplVh7iLGPHH/gsode6WEo24WvjKOWXfQoGyhJN6N4FFOCAVqdySY=
   </data>
  </layer>
- <layer name="Objects" width="25" height="25">
+ <layer id="2" name="Objects" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJyNVb1Ow0AMtioVdUIk0EiV4BEYgQkeBmZ2FjaQeAB4FdIdFCidClX6k4mlIqVdQEJMiHMb93yur40li9xx/j5/tu8K4FovAHiK7HpsvnPjk4bdmzagtPnO/hjMjPE8F9/Iw2P+tsvxyPySYP6taXkP3djNnXIcaeDyDAsOnxbK4WEX4HF3PT6eg1D/XxLpWm6q8/Wbie2W4MBzsie0bkWuFtRHWq4Mz7XxW+PnFYCXOsD3htXGNZ5W3TpxDWi5Z8bI7kz8ZcWukQ+1aRpl32OG4+tL1+TeYfuY1/7esk6yUeDOZRzZdafuakGO1Pi98HZk54HsbAvgorp8Fr3Jvgee3vcEHtpxDeBE8ZnOwNZMu5eyXsTTFjwUPxT7X57Z5THYe43no3DkGym6yHKD8dlw12O2Tlms5JF8NHOU20Tgcp6xJ6dE0bOKi/go50zwaJq4nt/C1+nCvNAJS2Ly2eH1xruAM835VnEhJsW/hrYmqyxmdZfafHWkOmVKbUgbn9OWwJmu4co9+L5e0Jwl4rexL94KzoU15/0m7H6B5ZuxuIjluPyNGUSWi/dbzhU3rgv7Rz3B+5kyzJlGMSuLOoe6Hu1dQmuKfDWjGvB+8L5os8X3YgU7E1icK/PUS5s3ym1RK3FGy5nj9pX7SH8PzBt9WPhRbc5Be3IGZew/6e4jDQ==
+   eJyNVb1Ow0AMtioVdUIk0EiVyiMwAhM8DMzsLGwg8QDwKoQdFCidClX6k4mlIqVdQEJMiHMb93yur40li9xx/j5/tu8K4FovAHiK7HpsvnPjk4bdmzagtPnO/hjMjPE8F9/Iw2P+tsvxyPySYP6taXkP3djNnXIcaeDyDAsOnxbK4aEJ8Nhcj4/nINT/l0S6luvqfP1mYrslOPCc7AmtW5GrBfWRlkvDc2X8xvhZBeClDvC9YbVxjSdVt05cA1rumTGyWxN/UbFr5ENtmkbZ95jh+PrSNbl32D7mtbe7rJNsFLhzGUd23am7WpAjNX4nvB3ZeSA73QI4ry6fRb9n3wNP73sCD+2oBnCs+ExnYGum3UtZL+JpCx6KH4r9L8/s8hjsvcbzUTjyjRRdZLnB+Gy46zFbpyxW8kg+mjnKbSJwOc/Yk1Oi6FnFRXyUcyZ4NE1cz2/h63RhXuiEJTH57PB6413AmeZ8q7gQk+JfQ1uTVRazukttvjpSnTKlNqSNz2lL4EzXcOUefF8vaM4S8dvYF28F58Ka834Tdr/A8s1YXMRyXP7GDCLLxfst54ob14X9o57g/UwZ5kyjmJVFnUNdj/YukQ6JLY1qwPvB+6LNFt+LFexMYHGuzFMvbd4ot0WtxBktZ47bV+4j/d03b/RB4Ye1OQftyRmUsf8TJSMs
   </data>
  </layer>
- <layer name="Above" width="25" height="25">
+ <layer id="3" name="Above" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJzFVVsKwkAMXIXS/guC4D28mJ7QG+jXSlvQk9ilBsJ2s500Aeenj3RnMpNAQ5gxnIIK/fT9eCjXElcv8CE671bXyxbsOtt5bV6Ip0+7zA7RuTYh3BrM076TZ+OF+3H5TpsXx/M8X8lnwqOgQUj+LHr/hLX3/DzCZ9HkuxSn+1fl2crPYeWtgXPnOh6eOJek4wELp2YnKJNSNkheazpRqCPc+f6gvrbMWeOjxu25Y8Tjvbc071zHwoVyIGdKPfJe40rNG5bsL7//uuT7C6IoWX0=
   </data>
  </layer>
- <layer name="Above_replace" width="25" height="25" visible="0">
+ <layer id="4" name="Above_replace" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDAbQIjD07bglSR9/jIJRMApGwShgYAAAUygCsA==
   </data>
  </layer>
- <layer name="Walkable" width="25" height="25">
+ <layer id="5" name="Walkable" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJzdlN0NACEIg53C/Vdgw3MAfgqtl8s14cEY+gmitteyE5Vsa+IrHJaF6i/9euM+PFbG9vamqvyq9ZTJekSeWV8mM5zlI/1nas3qUd4DO7cMz9u/zVFI8c67jKhfkRfCYeYLzYn+LlRMHRMvlDGtp8tQnTdjVDnIGRXR8X8A6PbPjg==
   </data>
  </layer>
- <layer name="Walkable_replace" width="25" height="25" visible="0">
+ <layer id="6" name="Walkable_replace" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDAawUWzo2wEynx7+GAWjYBSMglHAwAAA3vsDHQ==
   </data>
  </layer>
- <layer name="Above_replace2" width="25" height="25">
+ <layer id="7" name="Above_replace2" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjALqgFuSA+2CUTAKRsEoGDkAADcSAPQ=
   </data>
  </layer>
- <layer name="Walkable_replace2" width="25" height="25" visible="0">
+ <layer id="8" name="Walkable_replace2" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="9" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="224" width="32" height="128">
    <properties>
     <property name="map" value="wild15"/>
@@ -262,28 +262,28 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="19" name="achieve_road" type="script" x="128" y="224" width="32" height="256"/>
+  <object id="10" name="achieve_road" type="script" x="128" y="224" width="32" height="256"/>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="10" name="ff_outsideguard" type="spawn" x="640" y="224" width="32" height="32">
+ <objectgroup id="10" name="Spawn" visible="0">
+  <object id="11" name="ff_outsideguard" type="spawn" x="640" y="224" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="ff_outsideguard"/>
    </properties>
   </object>
-  <object id="11" name="forestserpent2" type="spawn" x="128" y="544" width="224" height="224">
+  <object id="12" name="forestserpent2" type="spawn" x="128" y="544" width="224" height="224">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="forestserpent2"/>
    </properties>
   </object>
-  <object id="12" name="beetle2" type="spawn" x="544" y="608" width="192" height="128">
+  <object id="13" name="beetle2" type="spawn" x="544" y="608" width="192" height="128">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="beetle2"/>
    </properties>
   </object>
-  <object id="13" name="beetle2_1" type="spawn" x="64" y="352" width="224" height="352">
+  <object id="14" name="beetle2_1" type="spawn" x="64" y="352" width="224" height="352">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="2"/>
@@ -291,8 +291,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
-  <object id="14" name="stop_hero" type="key" x="160" y="192" width="608" height="512">
+ <objectgroup id="11" name="Keys" visible="0">
+  <object id="15" name="stop_hero" type="key" x="160" y="192" width="608" height="512">
    <properties>
     <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>
@@ -302,14 +302,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
-  <object id="15" name="thieves_hidden:20" type="replace" x="32" y="288" width="64" height="96">
+ <objectgroup id="12" name="Replace">
+  <object id="16" name="thieves_hidden:20" type="replace" x="32" y="288" width="64" height="96">
    <properties>
     <property name="Above" value="Above_replace"/>
     <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object id="16" name="thieves_hidden:30" type="replace" x="32" y="288" width="64" height="96">
+  <object id="17" name="thieves_hidden:30" type="replace" x="32" y="288" width="64" height="96">
    <properties>
     <property name="Above" value="Above_replace2"/>
     <property name="Walkable" value="Walkable_replace2"/>
@@ -319,16 +319,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn_guild">
-  <object id="17" name="Feygard_BG" type="spawn" x="96" y="288" width="192" height="32">
+ <objectgroup id="13" name="Spawn_guild">
+  <object id="18" name="Feygard_BG" type="spawn" x="96" y="288" width="192" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="Feygard_BG"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn_knights">
-  <object id="18" name="knights" type="spawn" x="160" y="192" width="608" height="512">
+ <objectgroup id="14" name="Spawn_knights" visible="0">
+  <object id="19" name="knights" type="spawn" x="160" y="192" width="608" height="512">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>

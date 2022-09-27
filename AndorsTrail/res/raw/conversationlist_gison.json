@@ -1426,6 +1426,39 @@
             {
                 "text":"OK. Bye.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.",
+                "nextPhraseID":"nimael_pm_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gloriosa_mushroom",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"Is the Gloriosa soup ready?",
+                "nextPhraseID":"nimael_pm_40",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":20,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },
