@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNll0SgiAQgOEQOqN38SqlvOgFulgP5bP2c4vOkozsRATLrmL18E0GC5+Iy1oJIWomlWFpjG7fTzRElPltzbhChsFioE8xgXGlDIPFQF/PBMYNCFhMCu9l4uq53tr7q/X+w3P+hlfn4M4Dx4s9r9C4OoA7dyZnoP0kl3ux88KNcb090zta16U1X+acCXaMJjdA+3HFejW5Z87Y/WrOK71LuE3czXvg84beY+5+aA7ynYecawvXm8lPsPsAn92mRDgPuYT2y+cdRLx+U4A6zvHG6jcF7P3EvFj9psDxwvdPijzyeaENvK3l3NLbmf0Db+G4U3pHx1ta3nJDr7veUP3EvPo86Kz/WO765knlrSNQvBCLeXPjhT2j5HHM2xhi+2uvl5LHMa8Sr7OZ6uXi81K+z9aCzav7nrOp5rQ=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVjtOAzEQtY3YjgukRgKBhEiggA56OEJAAkKBxCGQOAMoRSquQAHiAvz/vxByFBCzslc7zPoz2Zik4UlP8zz2znjH2XiEGB5m1WCfo6gqvx4d6T3msvw9XkBxK8BNmK+psK6QuGdSk+oMn4hdY3HeltDxs3GWSxjdEvacId0UYdRUUSfET/O+g21bNMaS1PXNiEHju3Riye2rc4o98C2qnBRp/ARpW16a06YLcWFuXuYW4whiz6mw5oBzpoPCgaUedZXXqZ+9fnjmDtMzJr415T6fWDWz5V335OWAxuOiTvKOg54AThpOSe3rBZw60TpvgN5C423QDU/esmeB6zwW6Y75RxE7Ut/hN6DvgA9C69T3BfxW7vldcu6cs9439tzYW+A98NFoitA8N9+wcSH0t++yoTUu4P7L1ovh+5PaJmNNWfzV+6ZoeHrBy/Jb7gtXwGuRv9tMpP+sDorZYax/Ar4Q35tw/05c/fuJ8bu+6RXy3DPwlbE/F7j3xKrKe65j4KlhLOAedDpi3DL4AVpwars=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdVsFOwzAMTdL/4AM4Ma0SB8QPcOgJ7cS48xvwDwhxqbjzITuioV0HdAMKX4GjNqqxEpOEpJP2JCsvtZ1nO1M7IXaHq0KIw6LjR+o3LxG35T1JIZay82OOY8yenqF9j/2zEvEbsJNe19Ri6jB5Pj1tYX0H+wD7Ir4QHqrr4wvVncFcL8Ek8HNYz1THXXnHyu6L7bdWdm5iGnj2Ces6sa4LOmYCc5jKYU2hO+9ny+n6+FzzqpmzOfjq/hf0rJS6L/2K3wOGm7P0/lUMc7pF9xqryyHkPqjuHdR2j+rT/MFSbyhasG9G99qicSrTziWn7puD59ZtHHxfQOcROudUun/NmdNtVWec3+ccG3L16xt/QfpaIE59BhXTr96P8V2w6XLvTRpfMbGuvl26HLR/jfYHib61Gwf3qSvkDmL6xXgGW42kS/9z+eZi0N9QaL+xuilzc+EHEZRU6g==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk90KwCAIhYO9Su//jGN3IzzHn7SNNkGyQj+17Edr/dcleonVHs+QWLn3uMz25CjltpJbUS+Saq7WzwquFgv1xNIv5mfhormJsL/GHf1ncpbu0D4qrD+VXImvMdgssvjIztRozbtw39Ln2dlF8dgZyxWt7M47izvXi/LT/qL3D0a4iDHD9b5vFtdS71NcSyyPMF8PP1tPukJNjA==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="896" y="896" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain38"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="896" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain44"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="512" width="32" height="64">
+   <properties>
+    <property name="map" value="blackwater_mountain52"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="omi2_fix_ortholion_bwm43" type="script" x="640" y="352" width="64" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="blackwater_guest1" type="spawn" x="480" y="96" width="192" height="160">
+   <properties>
+    <property name="spawngroup" value="blackwater_guest1"/>
+   </properties>
+  </object>
+  <object name="blackwater_guest2" type="spawn" x="512" y="96" width="224" height="192">
+   <properties>
+    <property name="spawngroup" value="blackwater_guest2"/>
+   </properties>
+  </object>
+  <object name="blackwater_cook" type="spawn" x="832" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_cook"/>
+   </properties>
+  </object>
+  <object name="mazeg" type="spawn" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mazeg"/>
+   </properties>
+  </object>
+  <object name="keneg" type="spawn" x="384" y="384" width="320" height="256">
+   <properties>
+    <property name="spawngroup" value="keneg"/>
+   </properties>
+  </object>
+  <object name="waeges" type="spawn" x="224" y="448" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="waeges"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter" type="spawn" x="160" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter_1" type="spawn" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil" type="spawn" x="160" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="ungorm" type="spawn" x="128" y="640" width="320" height="32">
+   <properties>
+    <property name="spawngroup" value="ungorm"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil_1" type="spawn" x="384" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil_2" type="spawn" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter_2" type="spawn" x="64" y="320" width="96" height="192">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_entranceguard" type="spawn" x="704" y="736" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_entranceguard"/>
+   </properties>
+  </object>
+  <object name="burhczyd6" type="spawn" x="480" y="128" width="32" height="64">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd6"/>
+   </properties>
+  </object>
+  <object name="burhczyd6e" type="spawn" x="480" y="128" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd6e"/>
+   </properties>
+  </object>
+  <object name="ortholion" type="spawn" x="640" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ortholion"/>
+   </properties>
+  </object>
+  <object name="ehrenfest" type="spawn" x="640" y="224" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ehrenfest"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="bwm43_dummy" type="key" x="640" y="192" width="32" height="64">
+   <properties>
+    <property name="phrase" value="bwm72_corpse1_3"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

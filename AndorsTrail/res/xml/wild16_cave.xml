@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzNk0EOgCAMBPsxngIqQfkiz5NDm6xNETWEeJhLtwyFgCMip1iBVt3KLU+qbMDO2aLqmFte8RyVCHhek1Qdc9xX9hZPMfCcW1kBbwZfq/cNM31yZ6N8vTubcV430Jfp+v5Coy8w0tebTfOkJyju/pycXc//lb/5Tkw8jkM=
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfOMyEKebCzMBwgpl0s/YDzTqCZl4FMyrmIGBGLSMDwxogvRuIWaBmbYPK6QL1V0LxHSh9gAUiH4fFvW+AeCkjdntAekD2lAP1WWKRz2NG2AsDbxlQ1bYA8Qwc/rAGuouLEULDwFUWTHV3oO5jRwo3fkaI20G4kYR4UIaaxQbEh5D8zccIcTsINzFD+EEsEL8YQe1NwpIOVBhR/QsLMxjYANSTyYSqJhRqTjITJHyQQRkSuwmL+9HDUwxLeKEDmHpPJoQZuNSIQ/3MjsVt6Oq9CaghFXhjCd/hYh4AlZkoWw==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9OMhCmjghc+KZsMuvZGRgkGeFsPcQMBtkFi5zYICQPLrd1AT0Mg89DviB6gKJiBdc5iGHGQdxTsNrHrmA2uYNJUBqviIEBlPcAACCYw1u
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJx7wsLA8GQUwwE1zEAHhNQQYx4xdpBiL6X+IDXMsLmRFP+S6jZ8anGZT8g8UtSQEj7EqCE1HQ5X8wCFPcvp
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="160" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="wild16"/>
+    <property name="place" value="cave"/>
+   </properties>
+  </object>
+  <object name="rest" type="rest" x="544" y="256" width="32" height="32"/>
+  <object name="wild16_cave1" type="container" x="160" y="192" width="32" height="32"/>
+  <object name="wild16_cave2" type="container" x="512" y="320" width="32" height="32"/>
+  <object name="wild16_cave3" type="container" x="576" y="160" width="32" height="32"/>
+  <object name="sign_wild16" type="sign" x="160" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys"/>
+</map>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyNkMsJACEMRNNYSll/rNpiytscZkGGKB4eMs8MhKiIqFPw6pLZvU51JnJGZjecRq4FzkDk+uXcA8/dgn2N+tyt2Pc0Z9jdgjkNPLPeMG34/z+Oay5O
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcKKLxf2JRk8XIwKCEJrYGiLnRxNiAWJlIe2di0YtNrASIt6GJl2AxzwLoxn1ofAaoXpD71yDpY0NS9xLJzJlo8i24nY8VAAAYIQtb
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANvCTABwFHRgYGeUbC6gaTGLp7canDBmYQqY4YAAACDwse
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxLYWRgSKETBgFCYjAw2MXwieNSQwwGALyLHM4=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="down" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain18"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="up" type="mapchange" x="224" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain20"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="gornaud_3" type="spawn" x="96" y="256" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="gornaud_3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

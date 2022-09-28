@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxTZ2BgUMeBw9AwTDwcDcPUaqDhMKg8ujhIbD0ODAB7Agrv
+  </data>
+ </layer>
+ <layer name="Objects" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANbqNhGLiDhmFAlpGBQRuJDQPyONjYAADDegeE
+  </data>
+ </layer>
+ <layer name="Above" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANMhnJF3+KxJ6PQz02AADAowLF
+  </data>
+ </layer>
+ <layer name="Walkable" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxTYWJgUKEihgFixdExAG4fBME=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="down" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="houseatcrossroads3"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="minarra" type="spawn" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="minarra"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

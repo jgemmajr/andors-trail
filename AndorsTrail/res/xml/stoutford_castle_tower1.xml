@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_47" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_47.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_44" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_44.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_36" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_36.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJzTYWBg0MGDo7BgmFw0FgyTe4SEH0NpmHmPsOAoqH5sciDx9Uj4ERofALO9GWs=
+  </data>
+ </layer>
+ <layer name="Objects" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPpBlx82WA7I1AHANkv2KE8JHBJiR+PRK7mhGCYaABid0HZOujmUMIAABEJQXX
+  </data>
+ </layer>
+ <layer name="Above" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPNJmoI7eREbfcJjxyxAAAyCQCPQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJx7wsjA8IQGGARgNIyNLIcMsOklJI/MBwBjVSEa
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="exit" type="mapchange" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="waytogalmore1"/>
+    <property name="place" value="entrance6"/>
+   </properties>
+  </object>
+  <object name="exit" type="mapchange" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="waytogalmore1"/>
+    <property name="place" value="entrance7"/>
+   </properties>
+  </object>
+  <object name="stn_gyra_m17_1" type="script" x="64" y="160" width="96" height="32"/>
+  <object name="stn_gyra_hlm3a" type="script" x="32" y="128" width="128" height="32"/>
+  <object name="stn_gyra_hlm3b" type="script" x="128" y="96" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="stn_gyra1" type="spawn" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

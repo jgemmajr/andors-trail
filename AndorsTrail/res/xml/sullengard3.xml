@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="11" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_47" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_47.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="11" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRjBMDALGOClE=
+  </data>
+ </layer>
+ <layer name="Objects" width="11" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyFVEEKwjAQ3AbvvbXgY+w/+oeCePBaUPET/YFP8KjgZ/QRZtsMnWy3OhDShMlkdpJUROQe262QEf3UyVZyHFPP3LYQF6Xh1mnchVlf1+7j+Bpy7lFyKP8SOYcwj9kDwJxd7Bujizl4Bv8U2zksdftcfvQKfdblDGrSRW1rfj3frNsFn+9lxl55f08X6B2+1a2cHNb8MnDeQ+JbXQXOuTX+S/Ezsz68M25MZl6G/3S9HNofuXm61XLbLIdHbO/I/ZAu16PAG3qu8OEFuvq9KSa+vRfsf0jrdE759o16OUCHaxxMDvDrcQHdk3MAH9wXeUaP+4D/kXfn4QO6qNd6YA77ZQ9rul82f2I9
+  </data>
+ </layer>
+ <layer name="Above" width="11" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMsDOj8luZGBg6mQjrayVSDcysg0D6EJoebGLE2E2qemS3kmo+MkAPK2LdAQsHYsKMFHMpAbQwFz0+scUvrjC0IyL8CAFqhy829xMDiHUvrcylZjgcZyTdLGR3EHIvOWFFjh4AAJIZZw==
+  </data>
+ </layer>
+ <layer name="Walkable" width="11" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWYgCqQwQzAlatHFYOqQxXHpw6YWl524zMXGJ2QuKW6gprmE/EmMPD3dS6paYuKRWLNx6cMX/8SaS4w6Us3Fl8ZJNX+g0jG2vEapueTmfWLci6yGHHMBzIs16w==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="96" y="928" width="192" height="32">
+   <properties>
+    <property name="map" value="sullengard4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="32" y="0" width="288" height="32">
+   <properties>
+    <property name="map" value="sullengard10"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="deathcob1" type="spawn" x="64" y="160" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
+  <object name="deathcob2" type="spawn" x="128" y="640" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

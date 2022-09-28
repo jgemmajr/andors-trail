@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Base" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQx3YDLQDyADVA+2AUTAkAQDE9wC4
+  </data>
+ </layer>
+ <layer name="Ground" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyFlNsNwjAMRZMfhARs0FE6DVukTyT24bVBGYHHH5+IAToBjmRLt8amH0d1q5zGvWmSQgjJ4aKQ5zfiQVTElWmN8ZZ7J57sNkw94+p3VHzt1fxWz56bYP6Oe7BIjlsy2IOmc3Itgcahd/zSYBun95KNdivH1y6yiPPukTjDGljzjlxLrvs4zRddXDPJfPcn385wa3ayPzj5tkbO8k8PXBfU55uuK+bDz6RfeY+4DdTZ2/D4zJJ9/FbcNyfOMbtr8ISDGo815m25RZzmg65kLPcvxRh+19Rz9R70zha9n6wzR583uf4CkK2YRg==
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyFVEtOAkEQraEnHoIFibCarW69gngHw0ZIXBE3XscjgMhnZ8QNZ5C9iQtAxo0xVqWr0m+aHnjJS3dX96uZel0zRPVYMm8zz15W3ZudOP/D83tmn3mVHZ4d6djR8ZV5pxRNST5HSYfPXzC3iZxxnpauW7C/0PEtLT+KMcylVnmnfiPEzl2YDyFuKDQ2IF8X1tQG7WNCa5B6zB/zuuOq9yS1bfT8hPlCwe8B5GqybuL8PZlfG9ifMs8oeIbeoscpSH/MqeqZ4Elr+3XV+J+un13wtg4XOVE3T+/F9x3jknU3NVrxahTF3vWdH5zndR56B3tI6h2DxvAJWkEBzzZ9qt41c8exPXPJOVbQE3je5gXsfzC/OVYqv7Jwr+iP9AJ+m6d8F6TyxGv7D2Au7KtjsB6zXLHuH7lHUls=
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF7Azkg/1QmglKmwCxGZqaZSzEmWUKxObIZgP1LSVSLwwwIbG/MzIw/GQkTT8M/ADq+0Wm3s9AfV+hei+gyR2F0irM2PV+Aer7hmYvuhnSOPQiA1YsYv/w6CMUVs1AOXkc+qkVVqQCbGFFDMhiIqwGFh4g/ArJjjdEpEdYeIDwaxzuqwTiKiDWRHPLQygNCpM3OPRugmLkdAEy5wESXwfozo+EnTokAAAg7ijV
+  </data>
+ </layer>
+ <layer name="Top" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMaDKN6gWBa8ykm/WGhXx3kAscoe4/zUi6Xpjfj5ARfgMZX44k6ofZd5+FsN3o8Y6snh5+PgbEKWhxeQGI1UlMW6SGETKgZ9wCAPgHCrc=
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyVktEJADEIQ0tndf8Z7uugiMmLghSrUaPWPaceTaSu1t+/xaq4yX5f1/eEn7DE2/GivP1/iyWuqifHg2KoTrozqrXBunnSrBJs74P8PTbZOdluHnQ/ikO6zySv6iuR9HYJ9wFgcTfJ
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="96" y="608" width="256" height="32">
+   <properties>
+    <property name="map" value="elm_4f_2"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="160" y="0" width="256" height="32">
+   <properties>
+    <property name="map" value="elm_4f_4"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="elm_4f_5"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="elm_mushroom" type="container" x="32" y="96" width="32" height="32"/>
+  <object name="gold_bar" type="container" x="128" y="64" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="elm4f3_monster1" type="spawn" x="352" y="384" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="elm_mine5"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster2" type="spawn" x="320" y="448" width="128" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine4"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster3" type="spawn" x="64" y="480" width="128" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine4"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster4" type="spawn" x="128" y="384" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="elm_mine5"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster5" type="spawn" x="128" y="224" width="96" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine4"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster6" type="spawn" x="256" y="224" width="128" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine4"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster7" type="spawn" x="32" y="160" width="128" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="elm_mine1"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster8" type="spawn" x="288" y="256" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="elm_mine2"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster9" type="spawn" x="128" y="64" width="288" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine3"/>
+   </properties>
+  </object>
+  <object name="elm4f3_monster10" type="spawn" x="192" y="64" width="160" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="elm_mine2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="elm_4f3_cage" type="key" x="224" y="416" width="64" height="32">
+   <properties>
+    <property name="phrase" value="elm4f3_cage"/>
+    <property name="requireId" value="elm4f3_key"/>
+    <property name="requireType" value="inventoryKeep"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

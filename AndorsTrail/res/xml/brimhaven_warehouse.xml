@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="27" height="14" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <layer name="Ground" width="27" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOmFAJxwMxHyNtaZhdCUB8k8Y0zK47QHyLxjSyXdTE/IyYYrjsAoUxIUyqWnx2EYpvUtXisouY+CZVLS67iI3vwZA2sGF62xVPoRnY0jc2HA+NP3r4C2TPdipimLm45AFLYOfv
+  </data>
+ </layer>
+ <layer name="Objects" width="27" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvEGCE0MJQ2pQBlQ+jNZixq0MXxyUPAoJQOREobQbE05gQfBitw4ypDiaOTT3MHB0ku4QYsfv3OxN2cWygA4taUvSjg6nka8UAv4H+y6HALcQAX6QwzILaRSg9ZAHF9zNgl0PXgwtkQ+1CTg/I8Q6Lb2QAktvIjJkWRLDY5UvAfnSALR3gA79JNJ8Y8BaHmX+QxNdA2XpI7sWlL4sZuzg+cA2LHgMCYXOYCHO7gFgUzZ3XkezShWJDqF3NUPF1jBB93kAcCMRHgGK7ibAPBGB58RMQfyFSDzUBAMMQIGg=
+  </data>
+ </layer>
+ <layer name="Above" width="27" height="14">
+  <data encoding="base64" compression="zlib">
+   eJwzYWBgMCECUwv8ZaaiYaOA5sCHkXQ9YowQTKzagQDD1V/DFehAMTcTdvlkYHinkBnmH4H4MxJ//jAsowCZVgfh
+  </data>
+ </layer>
+ <layer name="Top" width="27" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAveMkIocVpTCPbRWsamT2fmbY0ur20BuTY5chMWA02tdjsIhTPyHpIUYvNLnLiG52G+YeQXaTE91BIG+I0thdklzoLhJ3PQlu7kIEEHcOTlgAA3BcwfA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="27" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOpDAPXQxzP61oettFD4DLLmLDmxS15OrFFQfEqMXlV0I0MWrw+YsU/eTYRQ+ALa5oaQ8pdpHrFkJpGdlsfGrItYdSTMh8AIySTag=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="608" y="416" width="64" height="32">
+   <properties>
+    <property name="map" value="brimhaven4"/>
+    <property name="place" value="brimhaven_warehouse"/>
+   </properties>
+  </object>
+  <object name="brv_wh_sign" type="script" x="640" y="352" width="32" height="32"/>
+  <object name="brv_wh_enforce_spawn" type="script" x="224" y="320" width="320" height="96">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="brv_wh_boss" type="spawn" x="32" y="288" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_wh_boss"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_00" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_00"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_01" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_01"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_02" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_02"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_03" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_03"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_04" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_04"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_05" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_05"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_06" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_06"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_07" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_07"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_08" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_08"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_09" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_09"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_20" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_20"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_21" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_21"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_22" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_22"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_23" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_23"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_24" type="spawn" x="32" y="64" width="800" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_24"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_25" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_25"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_26" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_26"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_27" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_27"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_28" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_28"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_29" type="spawn" x="96" y="64" width="736" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_29"/>
+   </properties>
+  </object>
+  <object name="brv_wh_worker" type="spawn" x="96" y="256" width="736" height="96">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_wh_worker"/>
+   </properties>
+  </object>
+  <object name="brv_wh_worker2" type="spawn" x="96" y="96" width="736" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_wh_worker2"/>
+   </properties>
+  </object>
+  <object name="brv_wh_worker3" type="spawn" x="416" y="96" width="128" height="320">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_wh_worker3"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_40" type="spawn" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_40"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_41" type="spawn" x="32" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_41"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_42" type="spawn" x="64" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_42"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_43" type="spawn" x="96" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_43"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_44" type="spawn" x="128" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_44"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_45" type="spawn" x="160" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_45"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_46" type="spawn" x="192" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_46"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_47" type="spawn" x="224" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_47"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_48" type="spawn" x="256" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_48"/>
+   </properties>
+  </object>
+  <object name="brv_wh_item_49" type="spawn" x="288" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_wh_item_49"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="andor1_1" type="key" x="32" y="96" width="800" height="128">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="andor1_3" type="key" x="32" y="224" width="128" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="andor1_4" type="key" x="448" y="224" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="andor1_5" type="key" x="800" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="brv_wh:10" type="key" x="64" y="256" width="768" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="brv_wh"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

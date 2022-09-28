@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="13" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsEXCCUjYlggcD8SJSDgVjxkwfgoQJyHhWCxmoJudBsQ70DC6GelQPTAxdPXYMEwPMWqR9diSqAc5HOKIwDC1iWTgJDLwdjIwAHf7Qxg=
+  </data>
+ </layer>
+ <layer name="Objects" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYwAHER6E0PnAQiHdC2buBWApKb4Pq/QI1BxloMjIw7ALSa/CYKwU1A1kPMWAPGXpaiFM25AAAqrcKSw==
+  </data>
+ </layer>
+ <layer name="Above" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcHCRDjyYj6XriydBDSzBjoB0wwAAA9ngB5A==
+  </data>
+ </layer>
+ <layer name="Walkable" width="13" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GQIYQYS1eED6OqJBaTqG+gwoxUGABq6ZYk=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven7"/>
+    <property name="place" value="basiliskcave"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="352" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="basiliskcave1_1_1"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="cavesnake2" type="spawn" x="128" y="128" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavesnake2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

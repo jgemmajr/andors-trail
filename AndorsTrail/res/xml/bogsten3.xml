@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <layer name="Ground" width="25" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy1lEEOgyAURFmhTfSYdeUS1vUMhAt5s9rkTzKZfpS26WIW8OG/kQFjCCGa7ofKoUxzo6Mouqpz/8UYq3FeczdHWfZ5dWVx/0IcneNabuxDnb0MJ71YVQQPOl+FNRvjqn+L5Y1VV4zUyTnTbOfl1ZBlPmElh6te8B2L7OG8kd+D9k7iQRm4C8yo1IvzZ18bMffwfs+Tie+aMnrOFtplDH+eR2X0cKoxej0xoydDrBm+YBTLFBnqm8I5r7JG2RB7ZAZnqhnqOWMNxvDH/yvsH4mh/wkvQ80Ztc2pMdNjfHLHet6+vvNfOC3h/z79UU/b17td
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy9VDtuwzAMlTRk6OzFo4EOWbr4DD6Dj2IDTRCgV8gdPHRu0e5pr6D7RIT1oGeGqrc+wNCHIh9/ZuvdBi2dF3X+b4x+n1/ki7qb83qiuyfj09iTs/0hrPurX3lmkr8k2TF9X8qHD7feyXrMb04Gl9iKlbjBK1gyF3hErwvrnaxXsjH64sviimykN+csm9T9EEpMHfEzouISXNSbV0NvUudz1p+yL8+J7+CL7JLvGG/hkc+qH/i5p4SnT/pNWO0DPXFwbQXIda1+NR+Yd1Yc0Rdbmk8gNbgRP2z8uG2PsX30h0Byir6TGuo+0kCOG3oL/ywfEVtHeURtuYaIhXuhqfSUAH0VlT7nsk3n77R+5r0FcEjfwz/EPRk+AlxDK0+6/rrn/4LY6ym3FjfyHP32DfJRm1e/tNfziGuoYxrCdp7d3PbfZ335pA7vrswTPSd4Bsl+rMw17Qfi25v/Vk0YFp9l8w4NikTj
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy1VDEOwjAMNKnE1jfkA2wM/KxIiCXPgblbNyTexAoeThjXdgM0t0T1nX1pLi3RJy7UFiXNPfh5THFf7b4wP6t5XJtE7ap49D1e675713eOTs8npyZxrNBgrzU6C7V9rXOOPNb05jxONM9Te5QFXmulHlrcBXA4a3jLmdY911w2PAAvR93j6bxv4FvonoP4NizvNTxq9VgHwZ2VdjSy+cXD4znLKcjAwlbwN4ozJIcv4r26DdFd8X2wB9YD0f8iJ1uDM4XHQO3QL0v+BufxBOVLLD4=
+  </data>
+ </layer>
+ <layer name="Top" width="25" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AIrB9oBdAZ1A+2AUTAKoKBsoB0wCgY1AAAC1QGe
+  </data>
+ </layer>
+ <layer name="Above_1" width="25" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGLgAABwgAAQ==
+  </data>
+ </layer>
+ <layer name="Above_0" width="25" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQC/ARgc7eEftIBqA4gMAL6wANA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzdUkEOwCAMMv7/GX2o8dYsUKFzl5H0oi0gNeYYkWoj5rf1B40MdPa8Yz0KvwJl7sT/Rl/hcbKssqq4Ov+Babucri81k+zP0US5OTjtD90hf4zb9VW9mXlUexSNG3vt9qHMnFn2diXnar77t1R0d+DWAupuuXU=
+  </data>
+ </layer>
+ <layer name="Walkable_1" width="25" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQC+whGnUjsEEQP4AAFkWApk=
+  </data>
+ </layer>
+ <layer name="Walkable_0" width="25" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQC+whGnUjsFmBwCchAM/
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="north" type="mapchange" x="128" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="768" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="bogsten_check_necklace" type="script" x="672" y="512" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="lombric_ball_1" type="spawn" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_2" type="spawn" x="480" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_3" type="spawn" x="736" y="224" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_4" type="spawn" x="608" y="352" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_5" type="spawn" x="352" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_6" type="spawn" x="32" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball:7" type="spawn" x="192" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_1" type="spawn" x="448" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_2" type="spawn" x="512" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_3" type="spawn" x="544" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="weak_fungi_1" type="spawn" x="32" y="96" width="192" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="weak_fungi"/>
+   </properties>
+  </object>
+  <object name="weak_fungi_2" type="spawn" x="320" y="64" width="160" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="weak_fungi"/>
+   </properties>
+  </object>
+  <object name="weak_fungi_3" type="spawn" x="64" y="256" width="288" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="weak_fungi"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_1" type="spawn" x="256" y="96" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_2" type="spawn" x="512" y="96" width="160" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_3" type="spawn" x="448" y="320" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_4" type="spawn" x="224" y="448" width="192" height="96">
+   <properties>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_1" type="spawn" x="32" y="416" width="160" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_2" type="spawn" x="640" y="256" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_3" type="spawn" x="448" y="288" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_4" type="spawn" x="256" y="416" width="192" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_5" type="spawn" x="576" y="480" width="160" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace">
+  <object name="fungi_panic_nondisplayed:60" type="replace" x="768" y="416" width="32" height="160">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+  <object name="fungi_panic_nondisplayed:60" type="replace" x="768" y="416" width="32" height="160">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

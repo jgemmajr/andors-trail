@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="19" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_45" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_45.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="19" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzTYWBg0KEiNoBiQzS+ARY+LgwzyxAJE+LjwjCzFiJhQnxcmFSzHgPxUyqZRaq7DAjw8ZmFrtaQAB8XNiBBLSEMMieaBLyQgDwA6LRPqg==
+  </data>
+ </layer>
+ <layer name="Objects" width="19" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+UGHCz4eBLwT4IKDKhJ8PA1+R2CZMEL4JklolRgjtw4SdDwOMTBAMA8ZMqDQIxDOi6kHng8AOJPXdUPYbBlSaWAAy6xDQjiOMCLOwuWslmjvQ+TBwmAmCYQCbu/6A9ALVsDNh5xMCxkSqIwaQGl7EAAAXFRUq
+  </data>
+ </layer>
+ <layer name="Above" width="19" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuWMmIyTfAI0+qWfj4tDKrkZk8s5SB+ryQ9JowQeRANDXcJY8m9xvI/w/EbEzY+YTCC5+70O1C5+MDpKilFwAANE0SRg==
+  </data>
+ </layer>
+ <layer name="Top" width="19" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9UGGigyWjYBSQAABk7gAn
+  </data>
+ </layer>
+ <layer name="Walkable" width="19" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxbwszAsGQEYBggxEcHMDlsZiHLY+Njs2swmIUOsJlFbHjiM5NYtaSYRYr78MkDAOv0TaI=
+  </data>
+ </layer>
+ <layer name="Walkable1" width="19" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAQAC+AAB
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="352" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard4"/>
+    <property name="place" value="remgard_prison"/>
+   </properties>
+  </object>
+  <object name="exit" type="mapchange" x="192" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard4"/>
+    <property name="place" value="remgard_prison_exit"/>
+   </properties>
+  </object>
+  <object name="cell" type="mapchange" x="192" y="160" width="32" height="32"/>
+  <object name="remgard_prison_step" type="script" x="160" y="192" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="janach" type="spawn" x="288" y="96" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="janach"/>
+   </properties>
+  </object>
+  <object name="remgard_prison_guard" type="spawn" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_prison_guard"/>
+   </properties>
+  </object>
+  <object name="remgard_prison_guard_1" type="spawn" x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_prison_guard"/>
+   </properties>
+  </object>
+  <object name="remgard_prison_guard_2" type="spawn" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_prison_guard"/>
+   </properties>
+  </object>
+  <object name="remgard_prison_thief" type="spawn" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="remgard_prison_thief"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="remgard_prison_exit" type="replace" x="192" y="32" width="32" height="64">
+   <properties>
+    <property name="Walkable" value="Walkable1"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="139"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

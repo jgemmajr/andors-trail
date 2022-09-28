@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzF1NEKgCAMBdA9+tN9iqCC+JsROJDhSptXg/vU4DCv5YjIKbmA0cxTbgbbmuvBtuaWap9wr7pzmIjV5ffPznEwZHSLmEmDsbrZ2N1fl+/yTF8rv6MI3P3tf5WqL/tGu23foRO0y2cuY+lgxOUzl/Fgt53d1a+c3eH25lbf66/ws9tdfc43d3/wfA==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJylVrtOAzEQXEeAFCo6hKho4A+oSMt/BAoaGj7gCqR0fEOiu0jIUcorUiHxPXQoVUps4ZHn9ux7KCON7JzvPN7Z9Sp7Efl13NM4NSJWjsc9zQ+muaY1/XiW0X2bjNO9crzOrLHWiYnxehSOF47nie/0+ceCvT018QxAEcbHjj20Dwv3/Uq6qT3GGeqwB/udix2AB58965LQ5Hjr1pfDsJT+utT59eNiRO7mNK/kP9aadHOe6/xOSfNg+mN+ovlaYqw2aPr6YMLrnMc56Pp6pjMKxQrmkKopRqqWuu4xcgTdXebMqXoeWk+IkXMIjI0XXqe0c/3H11IZ5ogJukXifUloaq+HxO5rqZJmDUPbe6JztUtoDqmtufrtz7aWWMOIGT6AQGnamsC32pfBd8eqOfcq+ADymtb8crxUOg+ufmeTmCvcHX8ePIO3S9ofPoBYK6XZpxiIF5ovQRd3yIb3bx3vlFauT2Ktomc3ifegKRL7DYC9UeOsxX0S+KC+4mN/NXnOqD+w7sq099Y9WWPj+D7yfwNrM6xas4nnwNbxh3T/AJtFqM4=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAO5jHikCABqAGxOpl6RYFYlki189Hc6kamnaSCBVQII2yAFL8PJNgDpX/QKBxGAeWA3LRErzxEDcCJI/1RUv4MBKBlvo9kIl4tenlKCYgiwV5sgI0GZYs9M3XtbGEkrgxUJWAvPcEewkowACltAkLhAbKfUDoD2bebeCvBgJg8hKve3gO1E2YvtjJwGw4zBYCYC4s4AJDBEoM=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1kzEOACAIA43/f4YPdXITaAslYcMeYDl7rROkM5zMTCvivnqmD6bfjKvOXWki+dNzchnONBfRQGuQ3pjeqxp2J2qgGtN//HvPcrv+VeeNPObkVqyOBrpb5XbYG0L2yHDRWVTvsmyFpzLVe3EwEe40T/VfJy8cRNst
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="160" y="608" width="64" height="32">
+   <properties>
+    <property name="map" value="waytolake8"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="224" y="0" width="704" height="32">
+   <properties>
+    <property name="map" value="waytolake10"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="192" width="32" height="320">
+   <properties>
+    <property name="map" value="waytolake6"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east1" type="mapchange" x="928" y="0" width="32" height="96">
+   <properties>
+    <property name="map" value="waytolake12"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="plaguespider_2" type="spawn" x="736" y="192" width="160" height="256">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="plaguespider_2"/>
+   </properties>
+  </object>
+  <object name="plaguespider_1" type="spawn" x="96" y="384" width="192" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="plaguespider_1"/>
+   </properties>
+  </object>
+  <object name="plaguespider_3" type="spawn" x="256" y="480" width="224" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="plaguespider_1"/>
+   </properties>
+  </object>
+  <object name="mwolf_1" type="spawn" x="256" y="256" width="384" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="mwolf_1"/>
+   </properties>
+  </object>
+  <object name="mwolf_2" type="spawn" x="160" y="192" width="352" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mwolf_2"/>
+   </properties>
+  </object>
+  <object name="maonit_1" type="spawn" x="256" y="64" width="640" height="128">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="maonit_1"/>
+   </properties>
+  </object>
+  <object name="mwolf_2_1" type="spawn" x="256" y="96" width="416" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mwolf_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

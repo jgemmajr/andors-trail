@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_42" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_42.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_44" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_44.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_43" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_43.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="1345" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <layer name="Ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyNlE1uwkAMhZ1Ar9ELVOqiey7BngQQQ3oS+qOq90ANXXTRBVB1wa1KFx0LP+XFTEIXnwIz8Xu2x5ORiIw6WGUNjz10xaeYGt7jIfLUQ/infhmZGcH5qMdzDxOLmTpSHnNDYyrn8drDjfnMHFXCY5w1BMrFe7wY+J9bzFzaXPKYUC4r0uVeLCL7yDHy7bjqOCfob6XJKzhN7sXSPNbGL/3Os3bPRxa/dLVwPdDkXug+e4D3SG2/qwv6Y9dnv76La2+mCQoHzmFpnjursbL1bUJX14ZZuwbW67oX0P8xD+wVcq6vz3vqk58dvs/swfr+PmkfN6aJ2i55YDYCeXxFMppzf84b8j1kJw3Uxh7ICbOBuSpt/vaUrz/njZz7eo/S7UHLe9QUOyC0xrWk5wv1LWzvWr9h8fkp7RzE3itcDgcDM69eR+cxcfkX+enMEIsaRZrvRinnvQnSzOfaeaC+O9P+cLHQRA8CzRH3BrOW+q7VNmu3edMnPk94qPfQ6sYc6ZqexZB6UpHHVtr3Ge9qPYgd0Hn4+98F15G6F10xfyTwx3E=
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyVVL1KA0EQ3ruNuSJ1QNMoFmphq4UKQUstJIX6BBYSBP+ihaTLC2ifB1DBRuzEIpjSN/AJxEYQfwiC33g73Nzc3mkGhv2Z329mdo3JpwZ4N0g4j+ZKBU4UaT+RNWbN+GN0w2JbfVeUY8OtM9CZUnobQ+TPZJH3aQ6WexufF+B3UfHBH34lhnPg79i0DckZC9VnCbxuYp539ZoNEpsy9m9h2l7H+dVTeRAW9kv9ZR+EaRy2E+Br3F2AL8E1yD6tH8uOiEV5RTl4ByLPjvN15+RXTvbh6TevlMOms9uyWT3eVyFrYX+I/TH4HZgmR+Ab6yrWXpDt02MY2xCVYD9qEzx9lxvJb7G/cecz+DuCr5MgsdMkc2u5/Gvivm4TbJIqwhf51Rj1e6J9KzmaaZvWYTzfzndZ5DDmZMvgPVP8H7TV+VnNXjOIYxD1PD5WwPsqRtnT87qo/4unrqzL+ttB3Bt5TzPN8qpnXmjWiNsmPQ9cx9ecuNLHQMxGXbxlktP7rdiktzy7sras3w/T/ZPEMnoz8i+T74OYeyx7z3eEk/LohllbIs5R2vpmLO+PlvFofbDxXDE+H7ZI2H6FWV9k+6TmqygHSbKu0oZnsmnScyf/BKlfsll8OmbNZGv2Xx7W9gdGaW9G
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8IJOR9uaM2kG5OQeZSFOvyIxfPpcR0x2kugvkJkLuQjfzPgF3oZsP0g/Tk4vDfaSYic98ZHFsAJf9+AA284lxF6l2EDKPhRnVbEJ6SE0b2OTx6YGFPSl2YAtHfPZiC3uQGLHxaEmEvdjkDiOZT06aQbdDHYsdiWh8fGkGnxvQ3Q8yNx3NfnT34ALEpltLJDY10hm1Aal2AACdSiVV
+  </data>
+ </layer>
+ <layer name="Top" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBxBLiPt7cikoR0w99PSjuEEAH4yAbE=
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztklEKQCEIBKP7H7ODvP9FfeMS0UeCUBlOa7vmGOvl1qzC6dOpdTnO2xx9JxmU5TKi9a6/17tVr05f6ild38j4m2l0fgNDa6o/iu5stZ4xiWfpPAgj00287zKqyPwY7anuik19RxlZfr0LQM4=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="down" type="mapchange" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="mywildcave4"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="416" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="mywildcave2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="gison_bottle_4" type="script" x="384" y="352" width="32" height="32"/>
+  <object name="gison_bottle_5" type="script" x="704" y="416" width="32" height="32"/>
+  <object name="gison_bottle_6" type="script" x="256" y="576" width="32" height="32"/>
+  <object name="gison_bottle_7" type="script" x="64" y="576" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="stoneworm1" type="spawn" x="608" y="416" width="128" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="stoneworm1"/>
+   </properties>
+  </object>
+  <object name="stoneworm2" type="spawn" x="32" y="160" width="544" height="416">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="stoneworm2"/>
+   </properties>
+  </object>
+  <object name="stoneworm3" type="spawn" x="512" y="128" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm3"/>
+   </properties>
+  </object>
+  <object name="stoneworm31" type="spawn" x="704" y="224" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="angry_stoneworm"/>
+   </properties>
+  </object>
+  <object name="stoneworm32" type="spawn" x="736" y="512" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="angry_stoneworm"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="trap32" type="key" x="736" y="544" width="32" height="32">
+   <properties>
+    <property name="phrase" value="mywildcave_trap32"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object name="trap31" type="key" x="704" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="mywildcave_trap31"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

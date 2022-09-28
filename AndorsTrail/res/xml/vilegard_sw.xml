@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBgCEfDHDhwBBrGpW4+GsalbgEUR0NpXOpGEgYAJMkKFA==
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTZcAOdjBCaAEg5oJiEPiCpEYUiPmgcm5A9UJIcuJAPhsTA0M9khnfGCHqeaEYBDyg9qQi6YWpF0AyfyVUnQQQc0OxMMxNjAjzYHpTmBB+AAEhJPN4oW7xA9KBaPbyQv3Oi2Q3srkMULNh5sBoBmgYIAN0NTBaFIccyHwA9+EM4g==
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzLZcAEHEwMDKJAWhbKVwXiPCzqOJkQbJh6WSzqVjIh1CADdLXzGbFoRjMfHagimQuTDwbiEAJ6ZYmQw+cWdIBuHjY1xJgPAFKgBXg=
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GSAMQMSzUBAHS5ASC0h+wnZS0gtMW4iBgMAughDsQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="east" type="mapchange" x="288" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="vilegard_s"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="ogam" type="mapchange" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="vilegard_ogam"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Keys" visible="0"/>
+</map>

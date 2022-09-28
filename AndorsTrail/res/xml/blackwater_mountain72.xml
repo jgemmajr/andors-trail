@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="12" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <layer name="Base" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytk1EOgCAIQLmIms7ylNzLg3SgaIONNVRafbwP9YmAmgHgIHBBIDJR1Nw2AdkXt/J4xK7cxDmVCXc+TfndgZxRnX5QuXj8/iKXP/3TmIuMJ7700dtL6WNz+nJXXr9/8JHrHnn6Ta/qbhMfF7Ej2P8oPtYsLw32Wlzx8Xct
+  </data>
+ </layer>
+ <layer name="Ground" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdrCFCjREB+VWMEHoLkH6LR10rVF0OlN7NSNhNSmhqnmJxz2cgzgCq+wako6Fi7/G44wsQRwLVf4fy7aA0SK81E4QNswNb+LxnxLQX2X0ws3yA2BOIeRkhalMYUe1FB/5AHA/E66BuBKlrwaIO5t5wIPYC4vVodjNg0RfNQDz4yoDwGwx/w6EWFj+wMI1E8yOutDMVS9x/xKF2BpQOAeopYoTEEbZwkUNSC3MTyB1PsaiFmSsPZb8E4m9As5UZUc1Gt2cGVC06wOYeGJBH4+NSCwAxcTJB
+  </data>
+ </layer>
+ <layer name="Objects" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFMPCFEb+8Gx3csASNr0LATeSAVUwMDMuobCYs7KKZEJgegFCcDXcAAErBBlg=
+  </data>
+ </layer>
+ <layer name="Above" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAeEYGmoNGEuwAqSXFTS+R2ClEqlfFYj42veS6BZc7lNDMeoldGUHzqeUeaplPjno1YFioA7EGEE/FEcbo5lsyQTAM4NIHAj+B6l4Q6S5S0+cMBlR34AMziDcabj4x7gEAN6MVCg==
+  </data>
+ </layer>
+ <layer name="Top" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DggD4ThBZkJk49GxA/p5lrhh4AAFGeATM=
+  </data>
+ </layer>
+ <layer name="Walkable" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxbwsjAsGSYYBhAZiOLoatFp/HpwSaHrhefemx68bGJ0YtLDJ9fcZlJbDjiU0+s+bjCDNmtlLgHm1n41OGLY1LS3EBgAIvEY0M=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="east" type="mapchange" x="352" y="224" width="32" height="64">
+   <properties>
+    <property name="map" value="blackwater_mountain71"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="bwm72_corpse_n" type="script" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm72_corpse_w" type="script" x="64" y="384" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm72_corpse_s" type="script" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm72_torture_selector" type="script" x="128" y="512" width="64" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="bwm_dead" type="spawn" x="64" y="128" width="160" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="bwm_dead"/>
+   </properties>
+  </object>
+  <object name="bwm_grave_spawn" type="spawn" x="64" y="128" width="224" height="416">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="bwm_grave_spawn"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

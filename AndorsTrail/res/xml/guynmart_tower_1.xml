@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="black40"/>
+ </properties>
+ <tileset firstgid="1" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwzY2BgMCOAE5CwGRobhBORsBkaG4Q/IeEEJDY2+UQ0+QQ0eXSzEvHIg+TmY8GfkNgAt5Yj7A==
+  </data>
+ </layer>
+ <layer name="Objects" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeMDJC6CWMCDY2sBSPXBwOOXs8emgJAEq1Ae8=
+  </data>
+ </layer>
+ <layer name="Above" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMDjLi52syUZcvT8B8dICunhQAAOnHAsc=
+  </data>
+ </layer>
+ <layer name="Walkable" width="8" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsjA8IREDAKkyCMDZD458uhqiZHH5z4AZoEi5A==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="up" type="mapchange" x="160" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart_tower_2"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart_tower_0"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="entrance" type="mapchange" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart"/>
+    <property name="place" value="tower"/>
+   </properties>
+  </object>
+  <object name="guynmart_s_main0_down" type="script" x="32" y="96" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys">
+  <object name="guynmart:170" type="key" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guynmart_key_tower_entrance"/>
+    <property name="requireId" value="guynmart"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="170"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

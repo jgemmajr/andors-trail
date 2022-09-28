@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="12" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_44" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_44.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkCMRKxGJYeqVicQw9So4sCoUw9gw9apEYpBaeRLMVwNiBRLMVwdiRTSsikUMGQMAjhcM4Q==
+  </data>
+ </layer>
+ <layer name="Objects" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMLCBS3Q8S1McA8U8gDmRkYFgIpHcC6W4o/RyIXzIS774XQLWv0NSvAWIbEsyA6cEF3kLdRg4AAPBmDWI=
+  </data>
+ </layer>
+ <layer name="Above" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF8xkIA20mBoZFQFoLTbwCKlaKJu4IVC/DDNSHJNYFMwuL+SuZCLsBWQ0x6u+TqB6XXmoDAJmGCGA=
+  </data>
+ </layer>
+ <layer name="Top" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdrGSirfqRBACdAwFX
+  </data>
+ </layer>
+ <layer name="Walkable" width="12" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWZgSBnkGASQaWxsXACXekL6iDUfm9uwuR0XBgBJlxqP
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="door" type="mapchange" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard2"/>
+    <property name="place" value="sullengard2_northeast_house_outside"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="sullengard_beltina_spawn" type="spawn" x="160" y="96" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="sullengard_beltina"/>
+   </properties>
+  </object>
+  <object name="sullengard_valhorn_spawn" type="spawn" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_valhorn"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

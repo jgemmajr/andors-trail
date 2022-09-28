@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJylkNEJwCAMRF3MXbSUzhcyRceqhQhy5GJKP97P+S4aaymlJjkH1+A2dn4zsKcJvxtrb9IA9A/jdQW6HUCfIYsXzWfoj0xI/sWL+rPHdsFcYK53HuXRXHU8dg+bg/tGvei/Mu/wvN1/Ig+dbpFj
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJydUcENgCAMBGN4uYhrOAkD+GYtXcO/iU/X8Ck1IJfahsh9CqV3vRZj/uO0DaSIOfL6Bi7x9hiD+cefU61L0QN3gfPYlfqQctSHeE7QXe1X3yu+sg6BZphsyUu1HFz3An7WHQTeZUsN6h6yzRfoNSj5fEddp8wv7dDDnum95on3wdmlvLRHzd/zxryJfMVHDbnvxnzj/9wNlhJY
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyVkksKACEMQ6PgYo7iqTy6VxlcFErotxupNIk+BXq1J7AG8I2+7jY0b15K5x3HQ89LzqJZ7tnf8xYd39nys9gcR1/Z0xkR88oc+74+Y+IxzFhl56u8TeWPWTrN28rhfekr3KKKeHK2Xn/P9QXl
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSBkBGATIUQsDxJiFDeBSg00PPjFS1BKymxg3khOGxPqZ1vqICWtCfiHFHkr1AwCQ8EQj
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="224" y="448" width="64" height="32">
+   <properties>
+    <property name="map" value="road4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="gargoylecave" type="mapchange" x="64" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="gargoylecave1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="shadowgarg1" type="spawn" x="256" y="384" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="shadowgarg1"/>
+   </properties>
+  </object>
+  <object name="cavesnake2_boss" type="spawn" x="352" y="320" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="cavesnake2_boss"/>
+   </properties>
+  </object>
+  <object name="shadowgarg1_1" type="spawn" x="384" y="192" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="shadowgarg1"/>
+   </properties>
+  </object>
+  <object name="shadowgarg1_2" type="spawn" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="shadowgarg1"/>
+   </properties>
+  </object>
+  <object name="shadowgarg1_3" type="spawn" x="224" y="192" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="shadowgarg1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

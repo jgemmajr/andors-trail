@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4ADiTVAahDcgsTdB+ZsIiCPr58Ajh80sdDOR+fjsw2YGNjOx+QubfcRicvVhcxM+MUowzH1BVDY3CAumtnmEMD3soMRv1DZvFI9iamEARgkvgQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="19">
+  <data encoding="base64" compression="zlib">
+   eJyVU0EKg0AMjD0KFRGhtJdei9Bv9A+9eegTir/xG32BeOqjauhGxjFbt4Gwmkwyk7iKiAyytvHPOOZTDbEDxe29TuAboFcfzlOkTnFVhE/P94ZmrjuE50e21JFUn61jlynWEaZyevDuPF6LXbNvX/MOapqAaTNfb8pc3J9d+WrAn50ed4ffi23xHclvkR6p9qD6p6w5fvHFZtB7Ojq5aifygp1v8aHZv8Lfqpw8Jz12p1hDLstvNevyx5itoXedw6yYfO9owd16uyihDmM55FhrAf2xvqeYabJ7rzsvKGencSjG+FE74r0eqJfzbIyP1eh+Y3o9fBvm+wDUoTgd
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztU0kKwCAMtI/w6LHv6mt7yK9qwdI4ZCNCTx0IgpntoFReUJ+z5EHjlDyy3rduTzdayy5DRy5rBvaVPCRPKwc9js3m/vgWmXei6WqfBnfaH0Cex4+A50tdIjp+90DyiWQ1tsN3z3cVhUYu5mtazJD0K9D6W//b62vxL/D/F1o=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="19" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSBlADAPUNIsSMwkBfOqJMQOfPlx6CdlDjluwmUGKm0kFlOofSYCU9EiMPlxi+MzAJk4OQHcTKf4ilFcI+ZVY/cSWC4TsHKgyixQMAHtYQ70=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="west" type="mapchange" x="0" y="128" width="32" height="288">
+   <properties>
+    <property name="map" value="road1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="608" y="192" width="32" height="288">
+   <properties>
+    <property name="map" value="road3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="sign_road2" type="sign" x="544" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="forestserpent2" type="spawn" x="192" y="384" width="352" height="192">
+   <properties>
+    <property name="spawngroup" value="forestserpent2"/>
+   </properties>
+  </object>
+  <object name="forestwolf1" type="spawn" x="192" y="96" width="352" height="128">
+   <properties>
+    <property name="spawngroup" value="forestwolf1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

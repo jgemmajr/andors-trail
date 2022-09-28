@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwzZGBgMCSAE3BgmHwiDgyTv40DEyOfgEc+AWoPLnmQ3HYkfBuND8IAgtIjfQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANPCJSnQQjfnlJJPkXQPwGiD8gySchyb8E4rdA/BGHWZ+wiDURsB8GAIxxCHk=
+  </data>
+ </layer>
+ <layer name="Above" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMpBgZGGSAWI4Ru/xLHOLEyksD5WWB+DOZ+uWZ8MvjAwBqbARk
+  </data>
+ </layer>
+ <layer name="Top" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMXjISoYgCQGvz8QEAO30B1Q==
+  </data>
+ </layer>
+ <layer name="Walkable" width="8" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSKExxgYIqSXGLHx24NKLLgYAwzQThw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="96" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven4"/>
+    <property name="place" value="brimhaven_armor1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="thelry" type="spawn" x="32" y="96" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="thelry"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_46" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_46.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_44" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_44.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_43" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_43.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJydlUGSgkAMRZvTzAmAwZ14AVyI96JYeAgP4iXUGb2I6SK/+BXTDbr4RZckr5L8NJYhhHKFfklr4nPqRQfRuZie7Rdc1BJZR9FOVNEZ3LWMgyrmj6KN8kZVo9zNQk9gNKpxQR6vMoxBtcTK8QZHnIdZWZ7nTb+CF2fVFfM8t8X8O3uOXmP+VfQjcf+JfvfFfO7o3BCXe73r80G8OjE3ZjO3JN5N9Cd6mh47JzflV0lM732jtZzCpHbBf/Y4txfg7dSLyLs4dbPPOQ4EL7hG7IjlMbN1ONaLQeNwx73d5n2rHNZItSDuSDXYvbb3wfI436oO73fYuw9nmvvW8cC7d9hrOyfsPbi9iYEviPO+Cd4OMteyBorj+aW+Bcz1aqvN7Fh4l9tt5n3yH1Jn+Kl6vuHnYl6i9cB5
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzFlL1KA0EQgDezp/EHsfAPW18jNhoQUtgkJgqJp7bWdnkMKx8gxdlGklJLHyBgfrAQUlhEhVQWEZxhZ9m59WIMCg4MuzfMfjczOztK/Y8UU2Y9Sv0NLyP2+UCplSm5t9rtQxXf51F7P+Dtg1IR+9W0O19L8D0Fw/1OKuhznTKMPeQN8buO+4bwyaPtHvUMtajHgDiOS/R5B2cj3g2uTeEXobbRfjgh3034ahsm2KTMYXyLqLkx7BzEV8u7U65Wu+LsvDb2LNoG6NsJjF3eX5lr0geX5zavJWZRTen8AvouoS4zt8u8KCHGvsj1HPddVqrbExi2vKcR2sqB+6YYOuC0yTmWOBd7xvrS/b9AnFkRPJJAx/tjFb/XtMuTeJb9yDaqcUbURArlbfuD8iJWSH2rXWwtUQeyyR7YmdAPJCfoU0BelrXFNZzF9TiYfN6KfP/ryCng+Vdw8VEeHd5TDUIfIORK7KkGG8g7wDNv3rugd013Fnr/l9Lwvu3cewajSrlY6p7dF/KzPSBnRxUclyTNfUB9SO/Uzp+KNx9mtOldy6Q+kdwLjgP4XuzsiAJzz/6MoFoN2G/I/91C3weeW1VRd+KNYHzdfKEe/OD42wlzqzUFK0mo/9PM/w1nWvkEVsVreA==
+  </data>
+ </layer>
+ <layer name="Objects_replace" width="20" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C24DoTcer+MKHSuMANIs0DgXhm4tUSAwi5bRSMguEObFgH2gUIsBSIr7EMtCvIBwC8WQbQ
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj6wJEJO5sUsBKJfZ8JuzgxZuzBYgYIWAGxGZp5Icy4zQL5A90MQuYRchs60MYiFsFIvHkeUPfBaA0s6kD+gMUJjL7FiKkG5tcUPGECsxemFsTmAarng+oJY0aIw4AHUhiGYvEbMXFtg99JYIAt3eGLPxBgxuNXkFucCYQFMW6IBYoFMkPccovEfILN38+B+u4gmRWE5F4QsEZSi8yGAXMkc0H0T6A5f6FmheGJC1zutQDpw6MOFufo5uGKG0sgjkPi48oPhOIW5pYlDBCMDpDNJbbMwpY+semlpEzA5i9sYkGYQnjzCTb1pABi8uBQBAArZC06
+  </data>
+ </layer>
+ <layer name="Above_replace" width="20" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb0BAAeAAAE=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSBnFNMXIgBy96GZgA6S6A59+Yswj1w2E/EmKG4hxHzqbGLupZR4hc0kJP1LVUStNkmIeqfEylNWRk26oESfkxC8u9cSoIVUtLkBueiE2nCgxbyAxAKm4mc0=
+  </data>
+ </layer>
+ <layer name="Walkable_replace" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb0BAAeAAAE=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="tp1" type="mapchange" x="544" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="shortcut_lodar3"/>
+    <property name="place" value="tp1"/>
+   </properties>
+  </object>
+  <object name="up" type="mapchange" x="128" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="lodar1cave0"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="sign_lodar_shortcut_2" type="sign" x="352" y="672" width="32" height="32"/>
+  <object name="sign_lodar_shortcut_2" type="sign" x="416" y="192" width="32" height="32"/>
+  <object name="sign_lodar_shortcut_5" type="script" x="512" y="576" width="64" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="mudfiend" type="spawn" x="128" y="384" width="64" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mudfiend"/>
+   </properties>
+  </object>
+  <object name="cavebat1" type="spawn" x="96" y="576" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="cavebat1"/>
+   </properties>
+  </object>
+  <object name="mudfiend_1" type="spawn" x="448" y="544" width="128" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mudfiend"/>
+   </properties>
+  </object>
+  <object name="cavebat1_1" type="spawn" x="416" y="320" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat1"/>
+   </properties>
+  </object>
+  <object name="mudfiend_2" type="spawn" x="192" y="64" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="mudfiend"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="lodar2:50" type="key" x="64" y="224" width="160" height="160">
+   <properties>
+    <property name="phrase" value="sign_lodar_shortcut_1"/>
+    <property name="requireId" value="lodar2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="50"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="lodar2:50" type="replace" x="96" y="224" width="96" height="128">
+   <properties>
+    <property name="Above" value="Above_replace"/>
+    <property name="Objects" value="Objects_replace"/>
+   </properties>
+  </object>
+  <object name="lodar2:50" type="replace" x="384" y="672" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Objects_replace"/>
+    <property name="Walkable" value="Walkable_replace"/>
+   </properties>
+  </object>
+  <object name="lodar2:50" type="replace" x="416" y="224" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_replace"/>
+    <property name="Walkable" value="Walkable_replace"/>
+   </properties>
+  </object>
+  <object name="shortcut_lodar:40" type="replace" x="544" y="608" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_replace"/>
+   </properties>
+  </object>
+  <object name="shortcut_lodar:30" type="key" x="480" y="544" width="64" height="96">
+   <properties>
+    <property name="phrase" value="sign_lodar_shortcut_4b"/>
+    <property name="requireId" value="shortcut_lodar"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="30"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

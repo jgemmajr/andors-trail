@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="27" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztVssOgCAM48jnGv//IBeTBdfSzXkw4dCQAHt0nbLeWjsGzoFucO95q73n7c1n3opsVzZzfl5c5qc7MVWgGnyNbA0y/FBsVfMKXqv6ZzRTeFVq/rZG0dpU9YTCV+0TxS7CV+G18pHJXdGR+UA5VfBl91BOGb7o/1PZg+wNUu0z3xx7gzL2kb6L5vpHWO5II6a1Oouw+iozDuonNotUv8EbGxtPXCPBVMU=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJytVtGtgzAMNBLLULFDP980SIgZWqTOwDbs8DZgkNYCq4d1dsLTOwmlTWzHvnMCk3wxfp758/SSQ22WRuTh5lbZ52Y5rzGMzret8FHckrV7s49ZnAn2RGDebPSYYb+rcZbmnK+B1VbDCaI7xvb43bv5ErAur280t0Ad5jsK502xSV6X9YL5Z5p7fabI0PkYzHeo8POaG7fa9yOss/jIqedlc/EibjYyF3HsEXHIejiKvQZ2rF60Xck67s/q9XqYDXLg+yTKza/Pbj3KLYJyiTVFMdrKeCyuxbT/TKfsHPmcfpMzbai9IxDW81FvmI6d5FqV7jm8f1jeNToqXxGf2btD10rc2DsMY/kzF/VdB3PRO0dzNy5XYoPnAnsI82J7G7J7gCHSO4J9M+B/BTsj/s4sxUVtmI7+eya76zXHXsr9mMF411io51P298RExteRe2YTjQiNMci5Bx8F/1eFDRux/+7Nl2fV9Ad4/O+90UehvWj9b9rW8Hh1b6+h4XnEivZk34HDhb1ZnlLJ7ebyy/Is1TtW+pd6/S/1vgHt4bFq
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzlVtEOgCAItK/ry3jor1tbbI4OEcFy617aROSAwyzlCQJrK+C4vwTWZqNVE0rm0TrPWwOLG9ujPe+No4Ft+6b7y73WWVGdrDIHGnfJL6oJlK/sR29NZAzE1dK4F1b+I/3MmAvGxYnrOapNrW5Z9w/KF3HV6pJ1N8+aPUuXEiiHeiZ6eK5yj9S5HwVriRy21t7aRwOaBY8/4iYh11r69ehV/jMtnczEW28ghOy3jxfR2JEefZn333AC9c82rQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="27" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzllDsOwCAMQ1HPwv3PWHWolCHCzymfoZYytCSxDYF+tdYnxYOVtW9OzM3gcNKaLKfCHT0QEM2q3uUacVM/SpvaS+o300xryJmo/c94qmfmzFmmQfUnoDPu1oy0OfdT9ax+O36VfqVR/VdrTu/qG0Z4KDfx5NxTh5PAnQeiXeVQv0pnRdeX96EC536TNTrDqkblOD0c7tnhel/Fvdt35D/FfYL3j3EDxQ1G9Q==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="288" width="32" height="288">
+   <properties>
+    <property name="map" value="waytobrimhaven0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="96" width="32" height="160">
+   <properties>
+    <property name="map" value="waytobrimhaven2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="608" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="waterwayb1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="928" y="704" width="32" height="64">
+   <properties>
+    <property name="map" value="waytobrimhaven4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="brv_ctrl_flood" type="script" x="896" y="96" width="32" height="192"/>
+  <object name="brv_crime_scene" type="script" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="erumen_1" type="spawn" x="736" y="96" width="160" height="480">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="erumen_1"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_1" type="spawn" x="64" y="64" width="128" height="544">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="fieldcritter_1"/>
+   </properties>
+  </object>
+  <object name="forestwolf2" type="spawn" x="224" y="96" width="512" height="512">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="forestwolf2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="9" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="9" height="8">
+  <data encoding="base64" compression="zlib">
+   eJyTYGBgkCACS+LBMDVSeDBMjSwQhyPhbVAsi0ONBBY1klA2DGPjS6GJYeNL48CySGwAJVIK/w==
+  </data>
+ </layer>
+ <layer name="Objects" width="9" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYECAeAbcIAWIM4A4AYmfgqYmFUonIvFT0dSkATE7I4SdBcTZUPwPSU06mh6YGnygBmhmAxC7I4n9AeLfQJxJQC8+AADB+wty
+  </data>
+ </layer>
+ <layer name="Walkable" width="9" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxbwsjAsGQAMAgQksenBhkQaw85egARbydS
+  </data>
+ </layer>
+ <layer name="Above" width="9" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOvGQcODXVQH49ELvhUYPNXHkm/HxiAAAdYAcB
+  </data>
+ </layer>
+ <objectgroup name="mapevents">
+  <object name="south" type="mapchange" x="192" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain11"/>
+    <property name="place" value="house7"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="keys"/>
+ <objectgroup name="spawn">
+  <object name="prim_prisoner" type="spawn" x="32" y="96" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="prim_prisoner"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

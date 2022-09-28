@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="29" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <layer name="Ground" width="29" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9ldEOgyAMRfkIHvZJ+0nMZEOf/EQSIWmTpmnZdSM+nJgoeEqFawwhRIDnn+yNSiC+Gc56k3Mh2LUbTh7rORfBN19pvAjLqcdbTvk9mCX4daTGShQaz3WgzmI4q1hL50PzD7pmIlHNXAfqTKpf7FgFG409Bn3KjnPk1Y4siAOn7NMVZ3QcGsuZhNfbd+gZQp3s3W92co9nO+W+9daK5MkVHzLvap6hzveAX3IUeZdXF5KbyHrRXvD5RP4LVq5qp/eM11Ydp3yvla1evsv7PQ8fAiunUQdC923KmRzvTJ/l1N4TQ0vdpg==
+  </data>
+ </layer>
+ <layer name="Objects" width="29" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1lT1qA0EMhTU5gxuXC1uYQJrYZH2GgI0xpEi6FGlM7pB7pPQRQrp1F7PkCOl2Cx8kGiyxD41m1ynyQMyOPNan0fwRjWsSiG7Zdvy9YVuxraXdh/OYtfFHPUv/HmJ9XsBDpmojcbBVnvXH9hh83pxtFs52l2EugbuV7078Gl/9x0CuamAVbCVbY+bkzTPqh/ungbhRS/N7A/Eia8pWZeJPoH8Afxv6OJoH9h+v/JyUsZfxY0zMvwtpHrPQt0/M/HJqYRmxf2PW1DKHVMrYaeitEd+HYcbc4/ovKF1T9aHenDxKWR9U6+RcmPiv5NdXud/cXnPNXmAfqCGvhW/LxLFbM3eb74J8RkvDwjrV4N8pN/hML7bt67kjSs+5XR97jnQf5e4IT5GnZ5wof86j9N7AexJr2FzI13NeQT+3J5CH3JOc1xwf2TpHfQfmIzXx7udVZqzyc6oM3+pd2gczPwJ+F9I3IgrrhjXtQlpjon5v6X3lvUv4/tj95TFxToXwWrHc+0KZ31rHh3f4If35T/Lm493htRnj/S+nZnzIv+kXHh5Z9g==
+  </data>
+ </layer>
+ <layer name="Above" width="29" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMxAJxKAniRxgptBAI7pNgBrn2pZKnDSdIBuIUHHLUCJPhBBiZIPQ3EsJlD4l2aKLx5RlR7SbVfmSAS588kvgbJDa6W3ABQmkS3d43eNxPrJ3UBOh2khu+pAB5LHag2wsqp2Jp7xQU+2CA1vaC/IqrfB4IALL3PiMizIkJe+TyfhIQz0LD2MpPXPUPOsBm3hQCeigtr2+g6Uc2DyR3nzLjyQLI5R697KNnGQSzj5CdAE+LIrs=
+  </data>
+ </layer>
+ <layer name="Walkable" width="29" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxTYWJgUCECwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHlxnY7KRGOiHVTmqHOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAEfBCWw==
+  </data>
+ </layer>
+ <layer name="Walkable_replace" width="29" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="288" width="32" height="160">
+   <properties>
+    <property name="map" value="mountainlake4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="832" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="mountainlake6"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="320" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="mountainlake6"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="896" y="224" width="32" height="64">
+   <properties>
+    <property name="map" value="arulirmountain1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="896" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="arulirmountain1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="trapexit" type="mapchange" x="736" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="arulir_1" type="spawn" x="672" y="192" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1_1" type="spawn" x="672" y="256" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1_2" type="spawn" x="448" y="448" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1_3" type="spawn" x="512" y="448" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1_4" type="spawn" x="608" y="352" width="128" height="160">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="maonit_3" type="spawn" x="576" y="96" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object name="arulir_1_5" type="spawn" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="maonit_3_1" type="spawn" x="32" y="96" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object name="maonit_2" type="spawn" x="64" y="128" width="384" height="384">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object name="maonit_2_1" type="spawn" x="416" y="64" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object name="arulir_1a" type="spawn" x="800" y="416" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1b" type="spawn" x="832" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1c" type="spawn" x="832" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="arulirmountain_needskin" type="key" x="768" y="416" width="32" height="32">
+   <properties>
+    <property name="phrase" value="arulirmountain_entrance"/>
+    <property name="requireId" value="arulir_skin"/>
+    <property name="requireType" value="inventoryKeep"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="arulircave_trap:10" type="replace" x="704" y="352" width="64" height="32">
+   <properties>
+    <property name="Walkable" value="Walkable_replace"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

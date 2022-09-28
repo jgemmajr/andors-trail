@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJylk8ERgCAMBGlKUZ5Sg9iXFasPZzI3F7nIY1/ABkJuSilNDgvg7evxnG03O7AFa1jPcbMC1anBXOg5HViNAq5Z8HzBfGxfFn34ZuYrnVqWCs426HudxfQO1+39I338eqslC/3s9c4jE5S/+Av7f8xVJMd4R5araI57uYrmWJ0zNcdRn5LjUZ86W94cs/mLoJy/AAY4jrY=
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9lDsOwjAMht0GNm7EU+IGSAwsPQDiAAxMHAWpAwNnKBM3YOEIzGx0IFb8q06U0ipCfJIVJ3Ht2IlL9D92mT+m8s7dOLXyEv2Z+3GqrLFro1LnOFrbu5WbWlupGKVdX3b4Y5uj2OzFT2nlJPubYA8xYhTwaWVoiMYyn5B/RlBbWRtn3wa+y1ryKAO7LgZ5k5MG+Y0y3xa+YznXMl6pyRWclX4hF/Mgvmeyrn0WyvZbPZiJ0nXe4RmQS9/adME1itUuBdTn8KOzaXAv6CnoDM/rnjnwGZEv39VSegr9hbmG+3dO7f+Lm+ox5kquhxmuL9YRj1nQ9z7mGobvV9/5Q+lbtR9707gX+DHGjdynqAXHu5D/v2DC99cF3nHq96l8AL4pO0I=
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfOMhEHXNWotHkAph7YObEM1JmFkw/JebAAKV+I8U8cuIFn3mkuh2kHl+Y2ZBhHjXBYDeP1PAhBlArr8LAUHDjUIiXwQYAx9IO7w==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztkjEOACAMAhv//8w+xEnjUsAGN0k6ekVKjoj8s+eUg8HU8VJxEBPt7Xh089Y7NVN2K2Ufy1P5q6Mfrt6yDDseHaxXzCpHdkslw1spHpUeM56ah/NuaCZMJf8p
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="up north" type="mapchange" x="512" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="roadbeforecrossroads1"/>
+    <property name="place" value="down south"/>
+   </properties>
+  </object>
+  <object name="down north" type="mapchange" x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="roadcave1"/>
+    <property name="place" value="up north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="jelly1" type="spawn" x="224" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="jelly1"/>
+   </properties>
+  </object>
+  <object name="jelly1_1" type="spawn" x="64" y="224" width="96" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="jelly1"/>
+   </properties>
+  </object>
+  <object name="jelly2" type="spawn" x="32" y="288" width="128" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="jelly2"/>
+   </properties>
+  </object>
+  <object name="jelly1_2" type="spawn" x="288" y="480" width="192" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="jelly1"/>
+   </properties>
+  </object>
+  <object name="jelly2_1" type="spawn" x="96" y="480" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="jelly2"/>
+   </properties>
+  </object>
+  <object name="jelly1_3" type="spawn" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="jelly1"/>
+   </properties>
+  </object>
+  <object name="jelly1_4" type="spawn" x="256" y="96" width="288" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="jelly1"/>
+   </properties>
+  </object>
+  <object name="jelly2_2" type="spawn" x="288" y="192" width="192" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="jelly2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

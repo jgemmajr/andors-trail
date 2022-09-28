@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="9" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BhEuGCQmTOK8WMAXVoFUQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxrYWBgaANiHSBuQWL/Z4AAkNg3KLsHiKUYMAFIXhKIpaH6QOp0oXIFQFyERPeg6UWXZ4C6ARkUYVGnCMRiFJoDAiqMEBrmZ1gYwOj/SPq1oDSyvf/RxJDVIwOQWQpQu1jw+AsEkMMYXR5GcwKxINSd2OQLoHaCzGrFIw8CnTjMAcnnIoUFNnMAEGAuFQ==
+  </data>
+ </layer>
+ <layer name="Above" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM1IBYHYt4KxB3ItHY5NFBJwF5dNCCQ5wa5rQRoY8YAHKLPCOqezqx0ITcAzML2Rx8dlIK3BmJCzt8AACIfg1U
+  </data>
+ </layer>
+ <layer name="Walkable" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxbwsjAsAQLhgF0PjaATR82OWLkcdmPTw0l5iDLE+NecgGp7iHG/4MBAwAvHzvy
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="192" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="waterway1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="256" y="256" width="32" height="64">
+   <properties>
+    <property name="map" value="waterwaya2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="256" width="32" height="64">
+   <properties>
+    <property name="map" value="waterwaya6"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="waterwayacaterpillar" type="spawn" x="64" y="160" width="160" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="waterwayacaterpillar"/>
+   </properties>
+  </object>
+  <object name="frog" type="spawn" x="64" y="64" width="160" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="frog_3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxTZ2BgUKcQh0ExMpsYDNMfDsXIbEJ4KiNC/yUoRmbjwlqMEHoamfovoalH1hNGhJ4CoL15jNj1hxOhv4oRt/2kYnL1g8IeFv7E+BmX/jAi/YyOQXEHwiC96ynEAN/1cLE=
+  </data>
+ </layer>
+ <layer name="Objects" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuuM+EXdyekXSzDBmx83WZMdVWQ+2VgNINQLVGjJh8EKhE038TyR5JqPouJoh6GL+HCaEfG7jJiMlHVt9LQD82YMyIajaMX86I6gdku9HdQax7YQBXmMP0oMuDACyMJzChhvkcNL4nI/YwkESKI2NGwnxqAgDE5hSJ
+  </data>
+ </layer>
+ <layer name="Above" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcvERjGzBC2IRoXPrxgeNMhO2HgUpmVHXofHLsx6cf5C9K9IPAfBxuJFY/OYCe+rHFAbKfCcUZrjgkFwAA5XQS2g==
+  </data>
+ </layer>
+ <layer name="Walkable" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJx7wszA8GSIYRBA5yOLYZMnVz82OVxi2OTR1RKyA5d+fH4gF+DyE7FuoCROiNGPj08tDACGSHY2
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="up" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="houseatcrossroads0"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="rest" type="rest" x="256" y="128" width="32" height="32"/>
+  <object name="north" type="mapchange" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="houseatcrossroads5"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="crossroads_guest" type="spawn" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="crossroads_guest"/>
+   </properties>
+  </object>
+  <object name="crossroads_sleepguard" type="spawn" x="32" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="crossroads_sleepguard"/>
+   </properties>
+  </object>
+  <object name="crossroads_backguard" type="spawn" x="448" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="crossroads_backguard"/>
+   </properties>
+  </object>
+  <object name="crossroads_guest_1" type="spawn" x="320" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="crossroads_guest"/>
+   </properties>
+  </object>
+  <object name="crossroads_rat" type="spawn" x="384" y="96" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="crossroads_rat"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="nondisplay:17" type="key" x="224" y="96" width="64" height="64">
+   <properties>
+    <property name="phrase" value="crossroads_sleep"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="17"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

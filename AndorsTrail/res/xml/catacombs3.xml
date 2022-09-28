@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytlEsOwyAMRH0xjgJpK0ivmAP1c426EkjTyUBo1cXbBOc5NnaCmQXg5GTnXCl0zrENddY8q3OpROcq4jEn52XPRrBvoZyYdxGem/MgH9aWRc4NfPz87jwpDutbv/QxXF8vbsbXvu0o55EvVfKgPiYIX7LPe59x4TvoK7afidG3J9vPNPpwdnt9wL3gmVb9az6+gyQcPNPKV0TfiuldnLnfKPoWrb+LqraZWUB4H9k3syMI7yPe1S++Ua3/8vH/cTS3s7vB4NyPznoxb16p+NaF
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9U1EKwjAMTQXHwBsMxHN4ID92gV3AfbgbeAhBvwY68FCewJY1EMt7tfPDB6FrmryE5UXkP6i9rVdlsVcQd4/n0dvF29aJNP4cMzwnN9e8Ab5H5ClFiB1iTUnqLuFRTN4qc9+5z/dKMHrzXRfW33juPelBwTg6w8HQA1+7mmseSB7KQb5cb7mcifgDV2fuLD9FB3xpX6VcCqTdqoAnaLr+EpND2KGQr/03ICadG5uB7qJFqt3WvI8xx2pSfWxmIXYgOnrK/Gb1jWaVAv1j7fsF9oXpmPlLgfYc7pPjMWfCvVSPv+ANyTslXg==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlMENgDAIRUsncQ2n8ewmjuC4xgNJg/TzIZr4rtBXSktb89llEkiinq3zuYjRs4I86fM9hajForXpnos8Y6zjBvWD8aHzVXyZ+45yM7VFvqwL+Sou5Kv2NeuL3o23zjsrO4uez1uDPMfgOEGMxc56ZYYRb/13X/lsD//CBfoFEZo=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzdkkEKQCEIRKOzdP8zfloEId9mnrRqwI0xT01Hb208HlNZbn9bqvKiX/H+PDEf5bBcpstQLNLTqTf1584M2X4yXvV+1A4rtSnHvSPqrfDUbkiO1Mt6JnMpvyNy+5RF+1ecm/EBXXgmcw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="544" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="catacombs4"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="up" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="catacombs2"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="sign_catacombs3_grave1" type="sign" x="224" y="96" width="32" height="32"/>
+  <object name="sign_catacombs3_grave2" type="sign" x="448" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn rats" visible="0">
+  <object name="catacombrat1" type="spawn" x="64" y="128" width="544" height="480">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="catacombrat1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn guards" visible="0">
+  <object name="catacombguard3" type="spawn" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="catacombguard3"/>
+   </properties>
+  </object>
+  <object name="catacombguard2" type="spawn" x="32" y="288" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="catacombguard2"/>
+   </properties>
+  </object>
+  <object name="catacombguard2_1" type="spawn" x="64" y="128" width="224" height="128">
+   <properties>
+    <property name="spawngroup" value="catacombguard2"/>
+   </properties>
+  </object>
+  <object name="catacombguard3_1" type="spawn" x="64" y="384" width="224" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="catacombguard3"/>
+   </properties>
+  </object>
+  <object name="catacombguard3_2" type="spawn" x="320" y="96" width="288" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="catacombguard3"/>
+   </properties>
+  </object>
+  <object name="catacombguard2_2" type="spawn" x="320" y="384" width="288" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="catacombguard2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

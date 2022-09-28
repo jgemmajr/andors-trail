@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="25" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwTYWBgEBlB2AMJk6qPFLPRMbF6yTWfkJ3EuIVU80n1LzXNHwg7qG32QNhBiRnzoJhadsxDw3/RMDb1pNiBbh4ujG4/ITtwuZcUjM+O5RSaTYwdS6lkBwA914hI
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzNUjFuwkAQ9P3BDWUkCpo0JMJ5AxLIchdFaYmUdyDeABUUvIHG1P5KvsGudCMPwwY5VFlpdPbd7szO3hXF/4gXwyT1mP2xbkjOk2FsGBk2hucBWl6LuiE5zl3Zf2t4LW611B/XVgP4OafLa5N6rVHg7xH+pWEhedD7NuwCzSqfRVESv/PUmX8paxQn0Y/6h89pvqcmXfuI1rnnGX5S74trzkH/6rMWvlpW5vDwuWkNPHD/Ra5tsn/k+rs6Ug6+u+wZei319ikeKpoPIpo/uFx/TflbqYVXaLgH3NVvc18LB8c+Xes0kl/SnJQXvSg/+oGng52/3ekBGnpXyotenavNeyvD1x1f6IV96F2BE71qvBs+ZK8Lckt5U/zm9G3qjDjYH8cFAkpFpA==
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw2EAnEsjc2HgVg62IcMkO1LxSJPiltCCSvBq4eQPdjcRwtAjj+INRcW3jBAajzjCwNauZte5g83QIvwAgA7oQjG
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxTYWJgUBlBGBmQqo9Us0mxixh1pAJS/Y1NDbmA3LDHZRY5duCzh5puI8VsQnrIdQd6WJGqF18aJtWdpIYPOfmOWuaTYze17aCHP2hlDwAglisz
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="64" y="480" width="64" height="32">
+   <properties>
+    <property name="map" value="mountainlake3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="768" y="64" width="32" height="160">
+   <properties>
+    <property name="map" value="mountainlake5"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="maonit_3" type="spawn" x="608" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object name="maonit_3_1" type="spawn" x="608" y="224" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object name="maonit_2" type="spawn" x="640" y="96" width="96" height="288">
+   <properties>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object name="maonit_2_1" type="spawn" x="320" y="256" width="320" height="96">
+   <properties>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object name="maonit_3_2" type="spawn" x="64" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object name="maonit_1" type="spawn" x="160" y="64" width="448" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="maonit_1"/>
+   </properties>
+  </object>
+  <object name="maonit_2_2" type="spawn" x="64" y="64" width="224" height="352">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

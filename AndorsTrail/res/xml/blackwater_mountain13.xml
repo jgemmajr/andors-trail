@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="19" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzV1EsOgjAQgOHhSr7QRVeeAyxG5Raey4vojrs4jZ2kmfTdMdHFly4gf2BoUQBwQesO4AFhC9riPTOuKuCEbpEGl2rldqRai3VFmql9rgFNzFzYOjjf5syUtring1paoEUznARaQ0PHeDlohnRtk9j3/2qE+j3hat1fvpYSbrX23I62jl1cqmPmxc99TOzdTIuf+5hUi/7ltNbO3NfaZ/Z8rVX3sbPuAq2+oBNqSe3RX20ZY6acVi7+Dt9svQGBhkFA
+  </data>
+ </layer>
+ <layer name="Objects" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytlTtLA0EQx3dHPd9GjV40vj+AjYUQX7Gy8WuIIIKFoKQRLPQ7pLWV1EGwVBRs/A4WSiCVWFk5y86yc5u9V8zAsLOP+d1/53bvhLD2K4Voo9dA988wPgTd5rEtXC8x7wXja6l9GizrG8d/MnAa6JfSagkwfwy603WA/kXr+0GzxrtkNXHtg7TaBkHvl7PmQNeBW5jCLQutK5SduhYwbtJ8nCk9RpugtSUPS9kSxLOOnH0a1oSzR3NOlhNYxyw2vCDmfC1ivJLAuhC6ptyHQDtnFSA6z+2c2oCNqbqf4Lph0LmcpfLXWd3eRbSfZJMOq8XmAuE/c3UW1xztvvd4ymppcm5YzrbnGTWm603YO8rvatuTtyMtb4BpU6wZdb9l1FcT7lVLRrWNKJ7063kV6XdU1Q3AupT2HYek1dTcsNacWuWxO4fl4+yS3kdH9y3rz2f81m7ieBF9g9qQ3Ng9xuWMrAIxTFsivxK6bsazsPjzjVWonYXOc5X3W6veWZH2VXLOXB5WhcV5dT2hV3Huk42Vqf1wctJ0PaPv41yfc7fNWeXa0nTtSc2q0vworp1yuP/9l7tW7yGrl7rSWH8hfVom
+  </data>
+ </layer>
+ <layer name="Above" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAl4wMeMFHIP6MXwkYNALNiWciQiERgJCbQIAfqEaYCHVbgWq2E6GOGECMu0gxi1puo7ZZIEAN86gZXuhpywpq9k8gVgXK/SbDTEs0ejiBRiqnVWqBGdQzCicY6PgkJbwIxRNesxiRMAPh8hfdLErSPy6zyAHY/EiuedQuo0FAiQr1GsgseyS3KQPNVCHTXHQ/wswi17yBAPQqnwCEDCEA
+  </data>
+ </layer>
+ <layer name="Above_2" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzN08ENwCAMQ1G6/xoM2iuKEnA/FsVSbuUVWaE/rfUwWeI3ylShjuN+M8t5L9pRZSlmPL/TV2ZV+dqTczfozLrNuichZ3f+NxqrnomV9eawiEneFnUU37WPN1m0K2fvLkuNy/nDUt1b9uuk9QK/AtQO
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="exit" type="mapchange" x="384" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain12"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="sign_blackwater13" type="sign" x="320" y="352" width="32" height="32"/>
+  <object name="west" type="mapchange" x="0" y="320" width="32" height="64">
+   <properties>
+    <property name="map" value="elm_mine0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="576" y="320" width="32" height="64">
+   <properties>
+    <property name="map" value="elm_mine1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="ehrenfest_selector_3" type="script" x="512" y="320" width="32" height="160">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="160" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="elm_mine2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="ortholion_celebration" type="script" x="544" y="320" width="32" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="arghest" type="spawn" x="64" y="384" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="arghest"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="bwm72_beginning:22" type="replace" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_2"/>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="22"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

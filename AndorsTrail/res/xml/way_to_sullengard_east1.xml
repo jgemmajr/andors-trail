@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="11" height="25" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_51" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_51.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_35" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_35.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_46" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_46.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_34" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_34.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="1345" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="11" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj2IKMQCNGgiZ
+  </data>
+ </layer>
+ <layer name="Objects" width="11" height="25">
+  <data encoding="base64" compression="zlib">
+   eJx9UztSQkEQnH1LETwDXkoZUBxEPYGFBfiNPQMJxiaEClQRqJwC8AJewNAPGZF6BXvqzfBm15Wu6ip2X09vz+xSEFEOtjLaopC9kSOqgXVXrttg1+ypjvdYe10r6yfwGlCIelbVWV8+V30svsA98FvWqm/g99KFWvYbw+fNE72DHz7soyu9eV9qU8gpzME1qu2h7gy88GHNnfjeG20fmlvM4dJoN1TOI3dVXtUyVNsE903vtv9TaM7BK9HOKPSyOMD5h+CR3MfAaF+QtQOPkygfo03h3U//mZWt+3R/M9g56r3ZDLFONYxj832X7zBav1I1M8u1fG9l4TmMB/AJXGAWK3kbM/GNz3sE5+ASumfzjorKLvmObR+qjXOktKm81n/q0hn4jeUJ7/i/vAuj6C62dbK+AX+it8wZfgFBWDLe
+  </data>
+ </layer>
+ <layer name="Above" width="11" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAVkYGBk4gFgWyZRlQgQADbgDTh87GZg4+vcQCYsyFAVkk9YJE2jOdiYFhBhDPYkKICQD1PgDyxbGon8mEyueH2pPIDKHVgFgdh10gM0HqBFkx5QKB4kHMqOaC7A9lwlTrC1Tnx4wpDgOkhBkxZuCLN5g6YuMW3W2kuhWXPejxLUqC+aJobHzqYWqJ9S+yuidMuM1HdgPIL8dY8JuHy41JONwE04cvX4jiEcdmHwChDA2i
+  </data>
+ </layer>
+ <layer name="Top" width="11" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALKAQAETAAB
+  </data>
+ </layer>
+ <layer name="Walkable" width="11" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJylk0sOABAMRG3c1P3PIHbSmDeDJjbVz+uo0Vsb4ixLfbslftVPWRpHHJRLLG7+2iPVSsU6vjqL04X49vsbjRNWV5N266cu5dLcJyb1ZmqG1x1zvOl/o51/0YxYauwE0a006g==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="sign_way_to_sullengard_east_park" type="sign" x="192" y="128" width="32" height="32"/>
+  <object name="north" type="mapchange" x="224" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road4"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="0" y="768" width="320" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="yellow_tooth_spawn1" type="spawn" x="64" y="32" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn" type="spawn" x="160" y="160" width="64" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn2" type="spawn" x="224" y="96" width="128" height="224">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn3" type="spawn" x="64" y="480" width="192" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="128" y="608" width="192" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn" type="spawn" x="32" y="320" width="64" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_king_spawn" type="spawn" x="224" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth_king"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

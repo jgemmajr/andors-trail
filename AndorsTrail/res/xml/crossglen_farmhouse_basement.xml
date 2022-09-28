@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <layer name="Ground" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwzZGBgiCeADaE4gQCGqZtEAJOiLp5IdQlEqCPGrElQs74TiQFgtio4
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeNDBCMAiEQul2JgYGLWYGBhNmhLpGRgjWBOIwIL4JFHsFVHcCyLZkQqiDmYEObqLxQWag6wWBGGZUfjcO85CBNSOq+W5AM92ZEGaj200IAADOlAzD
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgWMlAHEBXx8iMWx0HE4Ivz0icecTaiwsg25MBtD+LCbdadOBMvFIUAACnZgS1
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxTYWZgUKExBgFsbBgfF8BmDiF1hMwjRi8pfgMAkQsH7Q==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="stairs_up" type="mapchange" x="0" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="crossglen_farmhouse"/>
+    <property name="place" value="stairs_down"/>
+   </properties>
+  </object>
+  <object name="note_lodars" type="sign" x="224" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="crossglen_beetle" type="spawn" x="64" y="64" width="224" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="crossglen_beetle"/>
+   </properties>
+  </object>
+  <object name="oromir_basement_help" type="spawn" x="96" y="64" width="192" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_basement_help"/>
+   </properties>
+  </object>
+  <object name="oromir_basement" type="spawn" x="96" y="64" width="192" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_basement"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

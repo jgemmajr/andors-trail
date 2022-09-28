@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwzY2BgMCOAE5CwGRobhBORsBkaG4Q/IeEEJDY2+UQ0tQlo8uhqE/HIg/B8KEZmI2MA4IokqA==
+  </data>
+ </layer>
+ <layer name="Objects" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOlALxQUYIG0SrMKHKl6GpV0WSlwWqbwHiN0C2GlC8BE2vPFBuCZStjiZHDMhlJF0PDAAA8/0GRQ==
+  </data>
+ </layer>
+ <layer name="Above" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMGpnw819SmX+fEb88OkBXTwoAAI2aCEk=
+  </data>
+ </layer>
+ <layer name="Walkable" width="8" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxbwsTAsIQMDALEysPYyDS6PLIYPnl0tfjksbkBHQMAEnsZSw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="up" type="mapchange" x="192" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart_tower_3"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart_tower_1"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="bridge" type="mapchange" x="224" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart"/>
+    <property name="place" value="bridge_left"/>
+   </properties>
+  </object>
+  <object name="wall" type="mapchange" x="64" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart"/>
+    <property name="place" value="wall"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="guynmart_wguard3" type="spawn" x="32" y="96" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="guynmart_wguard"/>
+   </properties>
+  </object>
+  <object name="guynmart_rob4" type="spawn" x="128" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="guynmart_rob4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="guynmart:110" type="key" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guynmart_key_tower1"/>
+    <property name="requireId" value="guynmart"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="110"/>
+   </properties>
+  </object>
+  <object name="guynmart:163" type="key" x="64" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guynmart_key_tower1_10"/>
+    <property name="requireId" value="guynmart"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="163"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0"/>
+</map>

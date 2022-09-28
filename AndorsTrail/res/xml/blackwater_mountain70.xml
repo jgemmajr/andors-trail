@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Base" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfCKKjXUMBcAy0A0bBKCAR7B1g+wHapwEY
+  </data>
+ </layer>
+ <layer name="Ground" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNkssNgCAQROFmC7ZFMZZhR5TiBxK1DTGyyWTCbjh48PDiJw/Y3SE551LhLGyFqJArZ/1eFcRr7TEV5vq+A+wF8BJwGV4G2IvwbwAOqmNXvKVRh6wdCK5D1rL3MPr3KWdmxcN6pR/LW5Q+EM6t5bTm+CcP87M8zM+aC3pavuxZ+eJ9uDryld61c5HY4eEcv7hXjxf8N/ePa+z1bhzOg2E=
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJx9Uj1LA0EQ3b0usTEhCSoE0kUsU9n5hwSLs/OTK1ImUcFAhERBO/Gf+DvsU1hJ9A03w85Odn3w2NnbtzNvbse5bXyDU/DDb59dFCEuwUMfOFBn7+ruOTjGfuJqdhJ5F+CGz3awjnwdz8B78NHcoZyiu0XdO6wP4DyRu4lv19Cs+N6+r/2kQLpjnB0g7huvL0ZH2KX8qkeLG9aRhnJWPnjoso+F0vfAYRHnuCxiHyc+1LWw/7bpYu2v0b/yujHfK5WH/D1xnKtL+FHxMuPxrAg5xZ/1JHjmdU/V7WW0AtJ8svcq88aEtopz9QlHZl9mdH2zt/OwVv4sUjPZAFscUx/SN3mVNy5d3K+dG8KI89s+BG+q5qkLc/of6J3Hie/yRlfKh/Sr30Jmba321IP+h10Xz88Xr39hMjNC
+  </data>
+ </layer>
+ <layer name="Objects_1" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxIKFRKh5ycjAsIgIdZJAdYvJdEcjE3HqmohUNwpGAbFAfIDtBwDW6gQJ
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYECATAbCoJqJgUGeEcGfDsRdQLFOIN3LhKpWC4nfCWRrAPWVAdnrGBnwgm4mhLpmILsViNuZMNVdhIqtB6prAbLbgLgDizpkwIVfGg5EiVQni8T+RKQebACmVxTNTGygjwmihpDa+TjEW7CEPzH2kqKWmmaRYp4qkepIAf+IUIPNfaSmhz8EzIMBbPFHCBAbftgAtjiihnk9TKhi6AA5jc+CigEAZB4WyA==
+  </data>
+ </layer>
+ <layer name="Top" width="10" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMhDMxMDAxQ9gTmPCrZWam0DIsoIWRgeEekJalvtGjgAagn0AaGQWjAB8AAGrUAwg=
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy1kVEKACAIQ4Wu4v3P2JfQh5tTTAiCXttafsz844rZZrcyvYPYbD/h0FRspa/oqf1mvlVGpZssM/NFdxmn6Km9dfJN/wHxTDPO0B3GMV/1HR0O+So9o+4udCEczA==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="10" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy1kVEKACAIQ4Wu4v3P2JfQh5tTTAiCXttafsz844rZZrcyvYPYbD/h0FRspa/oqf1mvlVGpZssM/NFdxmn6Km9dfJN/wHxTDPO0B3GMV/1HR0O+So9o+4udCEczA==
+  </data>
+ </layer>
+ <layer name="Walkable_1" width="10" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxTYWZgUCERIwNqq8Onllx11DATphaZpkQdsn2EzMOmhxyMrBeX/ejixLiT2PCmtjp88YdLH7HqSIkXamJK3Y0sTkz4kZKuiFWHzx3o+rHx8dkBAIWWH7E=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="64" y="928" width="64" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain14"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="bwm17_vine_selector" type="script" x="224" y="800" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights_1" type="script" x="32" y="896" width="128" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights2_1" type="script" x="256" y="480" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights2_1" type="script" x="128" y="192" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights_1" type="script" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="hole" type="mapchange" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain71"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="288" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain15"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="bwm70_sign" type="script" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights2_1" type="script" x="256" y="736" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="288" y="704" width="32" height="96">
+   <properties>
+    <property name="map" value="blackwater_mountain15"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="bwm70_corpse" type="script" x="224" y="512" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="forestboar2" type="spawn" x="64" y="576" width="96" height="256">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar4"/>
+   </properties>
+  </object>
+  <object name="gornaud_2" type="spawn" x="128" y="64" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="gornaud_2"/>
+   </properties>
+  </object>
+  <object name="gornaud_1" type="spawn" x="192" y="416" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="gornaud_2"/>
+   </properties>
+  </object>
+  <object name="forestboar1" type="spawn" x="32" y="288" width="96" height="160">
+   <properties>
+    <property name="spawngroup" value="forestboar4"/>
+   </properties>
+  </object>
+  <object name="primwolf2" type="spawn" x="64" y="224" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="primwolf2"/>
+   </properties>
+  </object>
+  <object name="bwm17_worker" type="spawn" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="bwm17_worker"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="bwm17_hole" type="key" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="bwm17_vine2_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object name="bwm17_questenabled" type="key" x="160" y="256" width="32" height="64">
+   <properties>
+    <property name="phrase" value="bwm17_questenabled"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="bwm17_questenabled2" type="replace" x="256" y="832" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object name="bwm17_vine:2" type="replace" x="288" y="320" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+   </properties>
+  </object>
+  <object name="bwm17_vine:1" type="replace" x="256" y="832" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Above"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights:1" type="replace" x="32" y="0" width="256" height="960">
+   <properties>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="bwm17_heights"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights:2" type="replace" x="32" y="0" width="256" height="960">
+   <properties>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="bwm17_heights"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights:2" type="replace" x="288" y="384" width="32" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="bwm17_heights"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="bwm17_heights:1" type="replace" x="288" y="384" width="32" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="bwm17_heights"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="bwm17_questenabled1" type="replace" x="128" y="224" width="64" height="96">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

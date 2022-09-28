@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="28" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJzt0sENwDAIA0BmiDJU95+o36pKUQDbqFUfvM8YpplN8hyLYZtPvtKNdsLI6DlMP+Mi7Kxb9atu1ka4GR/pRmy0u5uB6Xo5lO64jNJU7vib3zCH6f/1TX1Weqnseb/L7o1Q3Xp+NBMzS8cfdbidNsI9ASOuueU=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJy1VjFuwzAMlDr0F35Fg+YnCeClgB/TF3TpGKBDli5+RhY/yTXRHnK4kJIaOwcITiSGR1LkOSk9BrtlfS7rPaf0vTzPy3p9EFcr/1lsXmjfW2viBT8W+z0t60vOsbaul/Ls6az/e075tl5ruffyfci/zy779ru0be5TwHOhfeS/Ve4zfe5Dq9v4ts4dODbEcm/uh3S9S66pV/eL7HGdNPc1+c+FM6/veEY1Bi8O88+1VJ+o9yH5+3yGOqlOlPSK/QxBfwN8DxpnL3amg6eyu6J/Lz4Gx4o7Yk7WKNjDv9ayhlIPKKdqlIfoTpGTzpbFDdsulzl7sqtBZ0jjY0ScrPeR70grOmfG9f3ZUlvcT40n0u+oVz1Oq403J+Z7JpsIOIt6Vd+n8Mu18rRE75v7HbinVw3ap6ppkb6qDoCzc2YXeH5qDKoQS61v+P6Qm/Ja7NDO/wKck8OjAK/en2p4Syzjst4qsaH/dPZt3+bH08laLPyOZ7/6X8Gbd4X3e9gP+fpuB8YGv1x76zedX/Cwzh7lN4YP2huFg7VH41b8AMyLl0k=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPOMLIwHCMEUGPgpENLo6mAaoDQmE6GuajYBRQBmiZh0bz5yggB4ymm6ENKI2/0finHQAA7M8JqQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztlksKACAIRKWzdv8ztA+xj59poAfu0jdCC3sT6b/Ky6LKk+nXZla4d+Zn+CNAeW/8c99qbpQ7E5TXymG9YeE0K8NuiD/BOBsNw24MGTUqcntuiWhe83rzZPZH3kRIBqvwWg0=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="0" y="864" width="960" height="32">
+   <properties>
+    <property name="map" value="fields1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="128" width="32" height="736">
+   <properties>
+    <property name="map" value="fields5"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="384" width="32" height="480">
+   <properties>
+    <property name="map" value="fields7"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="sign_fields6" type="sign" x="480" y="768" width="32" height="32"/>
+  <object name="brv_patrol_check_stop_hero" type="script" x="64" y="448" width="704" height="384">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="tinlyn" type="spawn" x="384" y="640" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="tinlyn"/>
+   </properties>
+  </object>
+  <object name="tinlyn_sheep" type="spawn" x="192" y="416" width="256" height="224">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="tinlyn_sheep"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_0" type="spawn" x="64" y="96" width="416" height="192">
+   <properties>
+    <property name="spawngroup" value="fieldcritter_0"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_0_1" type="spawn" x="608" y="704" width="288" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="fieldcritter_0"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_0_2" type="spawn" x="512" y="256" width="160" height="192">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="fieldcritter_0"/>
+   </properties>
+  </object>
+  <object name="knights" type="spawn" x="32" y="416" width="768" height="448">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="stop_hero" type="key" x="32" y="416" width="768" height="448">
+   <properties>
+    <property name="phrase" value="brv_wait_patrol"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

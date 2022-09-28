@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="29" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="29" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzFlUsOwyAMRH0xjlLSViUcsd33YkkkrI4s23xC1MVsLJiHB5wEIgqO7oqsdZ5Pq/dr10NRMtbJuncOy3vd9VR0M9bJ+qGs8BbH++PIWic9uHfZo+d9Vtx7AubasT8Ocjl3zrl1H56Ta7kzJ4uZyx1rGSE3Fl5PThn2Rmo7O+bj8fjdfEVdm5lIv3fsZVzrD2cmFV/v26DlKv1a8sRZTieZo/PicTXm6Iz0cCNo5lnwDbZoEazRu+hhBtLf39VMS/9gcgY1Xm1Oz7DZG3PH/rR/9UwxE2vav3qm5Hfp0PtiMRNrG7sJNxs=
+  </data>
+ </layer>
+ <layer name="Objects" width="29" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztlM0NwyAMheHQJbJKJ+oaUYZIRqiUMxekRupkldVYql4fmJ/klu+CMPBsMLZzF7/c/Tm6N9BdYX3ZxwCxrMSOWoieGcAejRhzoFYL0z7OYJP5mDkXiA3fT3VyWOuW71yMJUSSNxb3g+yzYmdvJOA7vRK6k6tnA7/R//sT3g3aAtOq2aOxHVXTwfCX8m+h+ZYewGpEKP17mJMeUrGk6PHL/l9pvzrqvjUs9pZinv5bl6zuz0Zyq3fBXtTSE1oZXX9/vSjnA+0VKLk=
+  </data>
+ </layer>
+ <layer name="Above" width="29" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzNlMERgCAMBOFHl7RlC9YAD+xMeWTEG4khoLIfxiHchSRozHxYa0yw53di4jTapSb5+GN1RdxWOe8FeaEfnSFNV42+7mOcY/Iq8Yq6IJHRCLCX+u0eceAjqcMTkvmR+KBOYuJG9Cazgk7OE/sy0q+mVc7JSL8M3hEJAj96Q1gbrSf3Lu5i0wDPVu5mQYrmn0pEq/Ot3V+aS0tPtLm8yfK95XT0zJ2WP3o9i+cOy2gfGg==
+  </data>
+ </layer>
+ <layer name="Walkable" width="29" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztkzEOACAIA/Uv/P+NroYoKVBwkYTFQA9IlTmG/HySp7jVsbSz4eFZvfoty7zpWLeMzuxlsjQYzIy/UKZntoiPtSZSk+XtemhEuN4/xdgZ8Uol2+rt2Dl6cyYX5VcyLS9W52f2Mhe130B3
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="basiliskcave1_1_4"/>
+    <property name="place" value="southeast"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="768" y="672" width="64" height="32">
+   <properties>
+    <property name="map" value="basiliskcave1_1_2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="basiliskcave2_2" type="container" x="832" y="224" width="32" height="32"/>
+  <object name="basiliskcave2_2" type="container" x="224" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="erumen_1" type="spawn" x="64" y="128" width="160" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erumen_1"/>
+   </properties>
+  </object>
+  <object name="cave_serpent_4" type="spawn" x="160" y="128" width="160" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cave_serpent_1"/>
+   </properties>
+  </object>
+  <object name="cave_serpent_1" type="spawn" x="256" y="96" width="288" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cave_serpent_1"/>
+   </properties>
+  </object>
+  <object name="cavesnake2" type="spawn" x="544" y="96" width="288" height="192">
+   <properties>
+    <property name="spawngroup" value="cavesnake2"/>
+   </properties>
+  </object>
+  <object name="cave_serpent_2" type="spawn" x="320" y="320" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="cave_serpent_2"/>
+   </properties>
+  </object>
+  <object name="cave_serpent_3" type="spawn" x="480" y="288" width="416" height="320">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="cave_serpent_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

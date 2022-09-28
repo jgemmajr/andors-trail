@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlGEKgzAMhXsxj1J1Q+1VPPY2aCCEvJdUN9iPgFrJlybvZSqlTD2aeraxmpDvu/lvIzkQA3E/uR4mhFfV8/KOI+BmY+u5niaqYbfO9XLMg/eP6tfsHfSYzY5xo34Iu4Ia7fwz55FGvHuPnOnztYfMNasDmfHomZyLXq/okuWO5ix6lfe1+L4dzb0P5GG+HeVWkwf9Jx5ivs1oU99P52HcEwTSiafNTJ9sjxH3JD212sz0STOPgDuiTV0TqnchzLnwXZsJxvV4nqckfsFlntKauVqHp6emvnme0pphHo/mY/W0O99QII9H+9HTU00ymccz3JG8swrm8Wj2GS6aE9oxrcSznwLmlR0jPY72O7qznpHuWaQ5tkszXOThO7s04jZ1Zj38zV2Kao50d3dvo/3CuHd5V/wd7YV/474AZ0AqEw==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyFV81qFEEQrp7FkFdIPIinlehFzWEh3sxD6EFWxBwCm5OyKFkQIUe9BDQYc8lBJRKfIQezwsK+Qh5BkDyB/TH1Od/U9MaCpnequ+v3q+reqZnN8ljKY5rHn2R2mer5V/4+t6tnK/Ce9Wr+qvMo70Wq+ceyFzzdgxn2HLnsjSzrTuatVGZrLve6NbSTmt9jn09c7i0fN/MY9mr/zNfAK/lLWvP9q1nvtV7DP5U9/bw2ymMrteVeuOyZxHSQx8uCTvoLgixdB39ciX/ye5LHk6rOG+T2q7Js0H4hxvQ36lykW2nJGrmgkmz6z/WIGeosYWoqusceY9A8xD/KvkxtHaDH+ezTqrufWKEvwCxlUDe/VRbXYn75zfUV0Un7l0QO6YfYRd2aD9D7PO+57Bhr+jPxdeB1WXSSLiRX2K91o3mI2AH9DGfPrR2DXf/+3lZp94INsHGU6jhQl8ZQcTm3MsX66LuOPV8f5u/7eXzNv7/JOchj3P/nL+yLeda9OHviezGPHGPreXzK35/9PPE/SG1/zbqYP0tNvMaiL/pLXxhPYkrjF+s24vpMfP2S6njF+JZ6MulAdKoPm1Xz+3mINXRDF7GJnrledWttUU/GmTdBF+hG29V/scaeXeGzzhAv4kBrLeZ37jqx98j1aQxKPQ3Engg9vMPYq0GoEb3ztA+CEJcPvhc6470EQm/Z6LV5Wi+wGbhcte49GP3l3U+aFHwa+h3I3vKwqnmgdbdDMcV7EDQIOY3+Mla/A2ZZU7i3WVOgp44Z+D90TJFwD8L3Y+viKPrE/rif2jzGceB85GuravNgw4NCnTF2sacwvpDPmj209t12t1fzgVNie+LnHlV1/9acjeXdQR2KSZ6FzezLt/0dgnNrHqvNqn2X6VzyS/mvrH4nKRaBOfbGbbcPvWBPzlFnfHOUsG7W8Nc85q+tfhPOwr5+1dQc/PwYzl/15gCNHG/aQ9CLp6n7Po73A0h9pB7tiSDECjFjvYzcZvYk5GrXz721cpz0HTDzeB+IL8w9iNhb9pihXqCTuH9nbbztpG6cNDexfrcdU4cuh/bTN8aHGJyLviPrvqMgl291vXvie2ERXgepayN4tC32I9VR8nsRTkt3o+ZZc8D/Q6V38iIbFr3XI27nfubUmrpjznnnxN5Qevtw/gsme7i4
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzVlc0NwjAMhV06CBdGYQhuPXcxWIRW6lZwIJJl/B+3Up/USxr5i5/tBCCvm7A+D/z6mmAMo3/flXDfP+b98r+fW+NibQaX5qrF1cSdP8LNKhonckaqCXljcbHvC9h18MjrMWX1sjmmlFM129Ki/Othe+e2Up767pEv7uVWV43DKeNX41LWCnx/cflF57l57Mkv6oHFlBgb1N0RWLSuR0mqa+9MWW8Tdydj75/f71XE4uJra5WS4nuZ2V6rerOP5Pb03IP0gNc3XB9p7qx5bOf2zm2056Q8ZuNupH5m+pxjazXec55ojbHO2O9n5Va9fR+j7jA7
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNklEKwCAMQ4VdxfufcV/+DOyaJqkWBEHtM0nnM8Y0rFWO3hluJ/sE8watJ7hr3+mfQu9fOdgRB2Ezmqs9GXbEdXnN6t29r/qEaEG5mb6O2drd/1Z0hmaMeIiUgonyHfOn/LuCzXIVPqLcTH+Ge3Imqv6xflffsxkzTFZvp86uPFTcbmYlkxs8fgFoSG6b
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="416" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="waytominingtown3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="704" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="waytolostmine1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="ccentip" type="spawn" x="448" y="800" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_1" type="spawn" x="544" y="704" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_2" type="spawn" x="576" y="640" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_3" type="spawn" x="416" y="608" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_4" type="spawn" x="96" y="640" width="224" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_5" type="spawn" x="160" y="512" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_6" type="spawn" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_7" type="spawn" x="256" y="384" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_8" type="spawn" x="256" y="160" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_9" type="spawn" x="416" y="160" width="160" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="ccentip_10" type="spawn" x="512" y="416" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="charwdgg" type="spawn" x="544" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="charwdgg"/>
+   </properties>
+  </object>
+  <object name="ccentip_11" type="spawn" x="608" y="416" width="288" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+  <object name="charwdg1" type="spawn" x="640" y="64" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="charwdg1"/>
+   </properties>
+  </object>
+  <object name="ccentip_12" type="spawn" x="736" y="256" width="96" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ccentip"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>
