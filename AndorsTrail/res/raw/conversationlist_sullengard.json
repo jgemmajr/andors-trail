@@ -3687,8 +3687,27 @@
         "message":"And where is this person now?",
         "replies":[
             {
-                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled.",
-                "nextPhraseID":"sullengard_zaccheria_100"
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. Here is your inventory.",
+                "nextPhraseID":"sullengard_zaccheria_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"zaccheria_inventory",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. I just remembered that I didn't bring your inventory with me. I'll be right back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"zaccheria_inventory",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },
