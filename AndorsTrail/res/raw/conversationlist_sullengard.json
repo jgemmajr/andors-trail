@@ -416,16 +416,6 @@
         "id":"sullengard_mayor",
         "replies":[
             {
-                "nextPhraseID":"sullengard_mayor_5",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"gold_contribute",
-                        "value":50000
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"sullengard_mayor_10",
                 "requires":[
                     {
@@ -468,6 +458,16 @@
                         "requireType":"questLatestProgress",
                         "requireID":"beer_bootlegging",
                         "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000
                     }
                 ]
             },
@@ -6505,6 +6505,23 @@
             {
                 "text":"Can you tell me about your 'business agreement' with your beer 'distributors'?",
                 "nextPhraseID":"sullengard_mayor_beer"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
@@ -6515,16 +6532,50 @@
             {
                 "text":"How did you know that?",
                 "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered_10"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
     {
         "id":"sullengard_mayor_letter_delivered",
-        "message":"Than you for delivering my letter to Kealwea.",
+        "message":"Thank you for delivering my letter to Kealwea.",
         "replies":[
             {
                 "text":"How did you know?",
                 "nextPhraseID":"sullengard_mayor_beer_50"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
