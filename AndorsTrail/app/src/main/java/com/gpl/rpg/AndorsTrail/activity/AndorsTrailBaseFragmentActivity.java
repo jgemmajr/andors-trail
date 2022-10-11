@@ -1,7 +1,7 @@
 package com.gpl.rpg.AndorsTrail.activity;
 
 import android.os.Bundle;
-import androidx.fragment.app.FragmentActivity;
+import android.support.v4.app.FragmentActivity;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 
