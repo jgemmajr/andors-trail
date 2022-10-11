@@ -99,7 +99,9 @@ public final class AndroidStorage {
 
     public static String getUrlForFile(Context context, File worldmap) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO && Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            Uri uri = FileProvider.getUriForFile(context, "com.gpl.rpg.AndorsTrail.fileprovider", worldmap);
+            String applicationId = context.getPackageName();
+//            Uri uri = FileProvider.getUriForFile(context, "com.gpl.rpg.AndorsTrail.fileprovider", worldmap);
+            Uri uri = FileProvider.getUriForFile(context, applicationId + ".fileprovider", worldmap);
             return uri.toString();
         } else {
             return "file://" + worldmap.getAbsolutePath();

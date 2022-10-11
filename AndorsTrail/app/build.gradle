@@ -12,8 +12,13 @@ android {
 
     buildTypes {
         release {
+            manifestPlaceholders icon_name: 'icon', fileproviderPath: 'AndorsTrail'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            manifestPlaceholders icon_name: 'icon_beta', fileproviderPath: 'AndorsTrail.beta2'
+            applicationIdSuffix 'beta2'
         }
     }
 }
