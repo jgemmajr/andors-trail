@@ -48752,6 +48752,9 @@ msgid "Welcome to Sullengard, kid. Happy 20th beer celebration!"
 msgstr "Добро пожаловать в Зулленгард, малыш. Поздравляем с 20-летием пива!"
 
 #: conversationlist_sullengard.json:sullengard_mayor_1:2
+#: conversationlist_sullengard.json:sullengard_mayor_beer_0:1
+#: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered:1
+#: conversationlist_sullengard.json:sullengard_mayor_letter_delivered:1
 msgid "We want to contribute gold coins for your financial loss."
 msgstr "Мы хотим пожертвовать золото в качестве компенсации за ваш материальный ущерб."
 
@@ -48872,6 +48875,10 @@ msgstr "Здравствуйте. Я Годфри, и я владелец это
 #: conversationlist_sullengard.json:sullengard_godrey_10:0
 msgid "I need somewhere to relax and refresh. Do you have a bed available?"
 msgstr "Мне нужно где-нибудь расслабиться и восстановиться. У вас есть свободная кровать?"
+
+#: conversationlist_sullengard.json:sullengard_godrey_10:2
+msgid "Do you know by chance where this lost travelor is?"
+msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_godrey_20
 msgid "Yes, I do, but it's going to cost you more than you may be expecting."
@@ -49592,8 +49599,8 @@ msgid "Correct. Oops...I don't have the new pitchfork. Be right back."
 msgstr "Правильно. Упс... у меня нет новых вил. Сейчас вернусь."
 
 #: conversationlist_sullengard.json:sullengard_ainsley_3
-msgid "Thank you so much, kid. Tell my wife Ainsley I can come home on time today."
-msgstr "Большое спасибо, малыш. Передайте моей жене Эйнсли, что сегодня я смогу вернуться домой вовремя."
+msgid "Thank you so much, kid. Tell my wife Hadena I can come home on time today."
+msgstr "[OUTDATED]Большое спасибо, малыш. Передайте моей жене Эйнсли, что сегодня я смогу вернуться домой вовремя."
 
 #: conversationlist_sullengard.json:sullengard7_road_sign
 msgid ""
@@ -50082,16 +50089,11 @@ msgstr "А где сейчас этот человек?"
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_90:0
 msgid "I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. Here is your inventory."
-msgstr ""
-"Хотелось бы мне знать. После того как он сказал мне, где найти ваши вещи, он "
-"убежал, и мне не удалось увидеть, в каком направлении. Вот ваш инвентарь."
+msgstr "Хотелось бы мне знать. После того как он сказал мне, где найти ваши вещи, он убежал, и мне не удалось увидеть, в каком направлении. Вот ваш инвентарь."
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_90:1
 msgid "I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. I just remembered that I didn't bring your inventory with me. I'll be right back."
-msgstr ""
-"Хотелось бы мне знать. После того как он сказал мне, где найти ваши вещи, он "
-"убежал, и мне не удалось увидеть, в каком направлении. Вот ваш инвентарь. "
-"Вспомнилось, что ваши вещи остались там. Я сейчас вернусь."
+msgstr "Хотелось бы мне знать. После того как он сказал мне, где найти ваши вещи, он убежал, и мне не удалось увидеть, в каком направлении. Вот ваш инвентарь. Вспомнилось, что ваши вещи остались там. Я сейчас вернусь."
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_100
 msgid ""
@@ -51489,7 +51491,7 @@ msgid "How did you know that?"
 msgstr "Как вы узнали об этом?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_letter_delivered
-msgid "Than you for delivering my letter to Kealwea."
+msgid "Thank you for delivering my letter to Kealwea."
 msgstr "Спасибо, что доставили мое письмо Килви."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32
@@ -51623,6 +51625,10 @@ msgstr "Здравствуйте. Я Маддалена, служащая рат
 #: conversationlist_sullengard.json:sullengard_town_clerk_10
 msgid "If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
 msgstr "Если вы пришли по поводу жалобы на налоги или земельного спора, пожалуйста, зарегистрируйтесь, и я свяжусь с вами в ближайшее время."
+
+#: conversationlist_sullengard.json:sullengard_godrey_10a
+msgid "Sure. Look at the table over there. He is my best customer at he moment."
+msgstr ""
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -59581,6 +59587,10 @@ msgstr "Лавовая сущность"
 msgid "Maddalena"
 msgstr "Маддалена"
 
+#: monsterlist_next_release.json:lava_queen_entity
+msgid "Queen lava entity"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr "Поиски Эндора"
@@ -64356,3 +64366,4 @@ msgstr "Зулленгард"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "Фруктовый сад Дибо"
+
