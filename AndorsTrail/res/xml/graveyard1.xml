@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="21" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="none"/>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_34" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_34.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="21" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRPIpH8SimAvYEYq9B4I6RigHgnxQ0
+  </data>
+ </layer>
+ <layer name="Objects" width="21" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytVUtOI0EMdadZcYAgYAMSGqSIA3AHfgmEgfAJ/5+4BomElBUnmEPMnl2uwDXQnGD8aD+Vu1KVCAlLlitVtvOey64eiMin6r8pFjLfENmY4Ts035cZPi9m34u079DloAym5FtUXTY/5CQGn4c+Mc5hwn4o11O1j2XI+azrRzuDxjHA9ypVjbZUdzMaS87vzmFH3m3VVePWbVS25fhSsHem2lb9rbqiuI9h1e/e1XFoOa91/0DtyOIPzC6WgT98zt3Zkq2xd5/A2ZSqX4CtYzUDjjPDBAGmvvlRsL6ynL9cbbcdvwXVTRdzYTauA/isleE3crIHiJN8UZvVIvATd8bcR+4/uJ+qJ3zInZwgl1L/nVun6uml5TChVm1TckB9O+ZzbGc5nN0EJ0pPqvz96Oy8yOPcUz00P9y558eeYJ/luMc42ceeD/Ra0oI7HxdVn3QyOMn3rVHndGExXQk963ugJ3mcOU6UQ6mfcTZODMese/dyKZP9Lm4P9j0z7+Qubo257Lvf4I677EZ+kGk42YMQvA3gN7Z54JvkBfu8o5HU572dUGBErZoWj/uak6pPfY8QZzzvHccDeXpRzY4krPkmcu3r+SqT807BfeLtxP5Ivjfv666eS2ZbIeQLP/HWZr+c5M57X3Y4fS9zjW/VjeqtVN8ckfr3ALPxMaU/2cu+DjzbsDicPcnkm5jqz7Hr62ZYfp39KUMc/xMSv/MxTtQt9X7vqO6bPhhn9szI/PYSOBn3twjx4LQvs5UxDxHOwQ9a4PwP6kfa3w==
+  </data>
+ </layer>
+ <layer name="Layer1" width="21" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6gIWJdHXE6hnsAJ+fcMkNF78jg5Hmd2L9NFz8iwyITfPEiA81QGxcj+Q0j0vPKKANAADK2gCd
+  </data>
+ </layer>
+ <layer name="Above" width="21" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg6ATiVjQaGcD4rWhi+PTgAmpArI4m1opHDbHmFjAj2IXMmPIwd+KykxA4wUhYzQcorQxUqwJVL4/FLbgATC2yfhhQIGB/AQF7koBYkQg/ILsDBmB+JyYMqAGSoDR6OgEBbGGDDrKxiMVCafR4p8RPsYSVYAX4/ECumaAwi8EhF4dFLIuAedSK60oKzMHlH38sYsTmM2zhS6lfyY0zfPaSYiaxYYxsJjH5iFQziQFJOMSRy/xEIszBlscJ2UEuAMUTuXEMAsjxg5xOKTETOQ+EIbGx5fWBAEtJqPfQAb64RQbobQli8wG1yrYgHGxi9dASAAAngyQV
+  </data>
+ </layer>
+ <layer name="Walkable" width="21" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzVk0EKwCAQA4X+/5c+pCehBzeZuPSgIBSNcbJu5zPGNHMNp1taoqPa9G6qTz1ppoSx46tGx2/3ndbDsXzXKbvKSgbtgcrb1eVvTqql/a3y7c6S7MrvNDt9q8Svyk4zpf+j4lOs5JzzJ9lJjUl2uucYXR9UTNSvqmO1R3nSkXoqJsJZvadb63Im+Z32xJP28u6eW+cLTJRakA==
+  </data>
+ </layer>
+ <layer name="Layer2" width="21" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNklEKwCAMQ4Xd/5YeZF/+SNq8oIwJhTnis4mdzxjT1FpOt7RER7Xp3VSfMqmnpMcTbrdOeOo7zaM6W2VPmZVXsugMVGyXi/K+a0+Y1BOd766XLhfH3s/vzNQ7faskn/R+ouv8qb6U/suZVxp1RvWczJpjplXlSGao8qT2tE/FucEkLPoGbubdvxtM5SP1TvOm795l6Fh/rxcwUnEf
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="288" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="graveyard0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="640" y="32" width="32" height="64">
+   <properties>
+    <property name="map" value="waterway5"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="640" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="waterway4"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="graveyard_corpse_0" type="spawn" x="64" y="192" width="224" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyardking" type="spawn" x="320" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="graveyardking"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_1" type="spawn" x="64" y="416" width="224" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_2" type="spawn" x="64" y="640" width="256" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_0" type="spawn" x="160" y="320" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_1" type="spawn" x="160" y="512" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_2" type="spawn" x="288" y="704" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_3" type="spawn" x="288" y="192" width="128" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_4" type="spawn" x="416" y="192" width="160" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_5" type="spawn" x="288" y="416" width="160" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_6" type="spawn" x="448" y="416" width="128" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_7" type="spawn" x="320" y="640" width="256" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_8" type="spawn" x="384" y="768" width="192" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_9" type="spawn" x="64" y="768" width="192" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_3" type="spawn" x="384" y="512" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_4" type="spawn" x="384" y="704" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse2_5" type="spawn" x="384" y="320" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse2"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_entrance" type="spawn" x="224" y="160" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_boss_patrol" type="spawn" x="256" y="704" width="128" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="graveyardenterance" type="key" x="288" y="96" width="64" height="32">
+   <properties>
+    <property name="phrase" value="graveyardwall_1"/>
+    <property name="requireId" value="graveyard_quest"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="50"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Script">
+  <object name="graveyardday" type="script" x="256" y="768" width="128" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="graveyardbosskill_10" type="script" x="288" y="768" width="64" height="96">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="boss_killed" type="script" x="256" y="704" width="128" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="despawn_fix0" type="script" x="256" y="128" width="128" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="graveyard_quest:50" type="replace" x="96" y="224" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="96" y="320" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="192" y="320" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="320" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="192" y="416" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="416" y="416" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="96" y="512" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="192" y="512" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="416" y="512" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="96" y="608" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="320" y="608" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="608" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="96" y="704" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="416" y="704" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="704" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="512" y="800" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="96" y="800" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest:50" type="replace" x="192" y="800" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Layer1"/>
+    <property name="Walkable" value="Layer2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

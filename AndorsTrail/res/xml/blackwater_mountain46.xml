@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="9" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgSMCDbYE4Hohn4sHpUDWz8GCYmq94MDXVgNwdB8XIcjAxkDwAWyIoSA==
+  </data>
+ </layer>
+ <layer name="Objects" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/YGGE0DFQPisj6WY0ArElkWojoOa7oNkDAHGcAcA=
+  </data>
+ </layer>
+ <layer name="Above" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOrGQcemoIAQDR3gNT
+  </data>
+ </layer>
+ <layer name="Walkable" width="9" height="7" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsjA8ISOGB+gthp0e9HFAF1uJK4=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="exit" type="mapchange" x="32" y="160" width="32" height="32"/>
+  <object name="entry1" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain47"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="entry2" type="mapchange" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain46"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="entry3" type="mapchange" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain46"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="128" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain45"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys"/>
+</map>

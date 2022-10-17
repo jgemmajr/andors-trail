@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="26" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_41" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_41.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="1345" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="1409" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1473" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="1537" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="1601" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="1665" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="1729" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzdlc0NwjAMheshUgkk7lQs0jP7cODOCkUgRuBnJdYgUhMRRbH9LNwLh0+RGscvaV7soeu6oWJsfGuxRNwOwBKH6nqD6j4jL2AMNMPNW3XvkQcwZl1u3qq7Iow+wc1bddeEMSrxeb72msVXe7L7yeIzbY3modZ+6z2jfi7XaB765bxSTs1DyB2hfi7XaB7i2BZwdU3KeUggd8+d0cuf3N1z/9VbF60b3rrc/bR0p8g7cnXU39CMpHuOXCI3IB/ap7R+hOSUfKONiC5Sh9A+ZfEVUofQPoX4SstZxhzpS2hwSoQUs8Q7yj2/JOv2Qj32frsS/6zL9YySD5MV3rU=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzVVTtrHEEM1u7MLdhu/SCkSBscCH5xeUFwQhqT/gz7FwKJwWd3tiuD/4ILt4F0TlK4OTC4C7hMFTf+A3HhLpAiUkZitLqZvbvgJoIPzcxK861mJM1FAXBhMFMCvIHRILuPRcQA574MWq+T3fsqgr5bTlqb/kfeHCwvwfISXqPdMtwNvrrxeWu0uyuhvf4X3soFfVSktZX9TgD5kba8g7LJa/NLeO/z/meQ1n/HHqDg/zvoBJAf6alq8ngfIb7jfm8hAqA5z2EK97hG32nFe+qa+ZbjfYb6OWIP7Q8QL7ge2kTqoAvD//y5as4tJ9V9Lq+I97yFm/xO8Hx/+DCXcSrmSfJZx0u5ZfOu5p5D2IQ4pvWfrj1ezSt7k64NL+WWzTt7h4Iu+/5WaMtn2Vv2neE4dPwr+H0NsZSpLYn1xkVOn+mHX9BmF7Hhw94bPvJQvuk8+4bjnnBkeCXWgYp3nJpIjXW9aNF3Y3k1tvH7wzJitwj3oc/zA2KL4513TcjZS6z2bnK8syZ3V8z8ludyRwsGtk4JN+oMNO+xa+d9iXod8aoMvD0Y3TNykou3j2dyrwxok1E9Y1LemmO6HYNX5IFLa5JLHzAOby+aDeVjivfKpzVJH30XM/drebXYfCQ5Z98eTC4p3gHz7hnbVA7JGr23jzsBKfnVaY41r2e9BDFeqr99Pp9Ubdie0dZnqI4kB1Px1oxVdR9zOF8s41j6gT0D3Vdsf6T7+OS5n/CbZHkpZv1ukLxDVOjXR71jeDdhWA7Rtkv5hOf6hGOYx3f+qUu/UcTzB0vf8p0=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/mM2IStMLzGFEpQca6JLgDg5m/OpB8sQCPRLs5WTGr56TBHtJAZlAOx3w2JtJoziUZ6JMfrADaqUhGEDOw9jMhplJ7TSEnIexmQ0zkw+P2bRIQ7jMNASKG0PlaJGGsJn5kxWVjy9+yAEVQFxFhDp88UMOqATiajL14owfLBgGtFghmBzAD/SnMDPuOI/CId7AxsDgApUrxGM+ehwTK4/LXmyAlHoKBnClK5i9xJRDpNRTMICertDbGMSUQxdZSLcXPV2R0sagpByiRC8l5RAhvaB0VwKkS6FsbmYEHo6AUD6ktZmtLBD1MIysH5TXtjJA8DYkGpbPsNmDy24A0JclzQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzlk0EOgDAIBHvy/4/0Id5Jge0A0UQSoomU2aV4X2vdJmmoPSyvyiX6JvMt9l+59j2qpxzqtyOq+nfzIneq+I360FlXd5Lsbqff0/NkNxWu15vcj+WqmjI93VGdsacx003mH+n3/Ci+VS79h053Oes5xVXOfd0vuV+vboprv3Vx7TOr7QzF7xQv4k7u8y4f6k7Nqg==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="fields4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse1" type="mapchange" x="224" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse2" type="mapchange" x="672" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford4"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse3" type="mapchange" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford5"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse4" type="mapchange" x="480" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford6"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="burhczyd_check3" type="script" x="448" y="384" width="96" height="32"/>
+  <object name="lonefordhouse5" type="mapchange" x="672" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford7"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse6" type="mapchange" x="160" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford8"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="lonefordhouse7" type="mapchange" x="640" y="640" width="64" height="32">
+   <properties>
+    <property name="map" value="loneford9"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="sign_loneford2" type="sign" x="192" y="416" width="32" height="32"/>
+  <object name="east" type="mapchange" x="928" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrimhaven0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="704" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="loneford11"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="928" y="64" width="32" height="160">
+   <properties>
+    <property name="map" value="waytobrimhaven0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" x="288" y="800" width="96" height="32">
+   <properties>
+    <property name="map" value="loneford13"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="160" y="0" width="448" height="32">
+   <properties>
+    <property name="map" value="fields11b"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" x="928" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrimhaven0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="loneford_wellguard" type="spawn" x="320" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="loneford_wellguard"/>
+   </properties>
+  </object>
+  <object name="loneford_villager0" type="spawn" x="288" y="544" width="96" height="256">
+   <properties>
+    <property name="spawngroup" value="loneford_villager0"/>
+   </properties>
+  </object>
+  <object name="conren" type="spawn" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="conren"/>
+   </properties>
+  </object>
+  <object name="loneford_villager1" type="spawn" x="512" y="480" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="loneford_villager1"/>
+   </properties>
+  </object>
+  <object name="wallach" type="spawn" x="704" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="wallach"/>
+   </properties>
+  </object>
+  <object name="loneford_guard0" type="spawn" x="192" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="loneford_guard0"/>
+   </properties>
+  </object>
+  <object name="loneford_villager2" type="spawn" x="128" y="736" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="loneford_villager2"/>
+   </properties>
+  </object>
+  <object name="loneford_villager3" type="spawn" x="544" y="736" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="loneford_villager3"/>
+   </properties>
+  </object>
+  <object name="loneford_villager4" type="spawn" x="672" y="704" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="loneford_villager4"/>
+   </properties>
+  </object>
+  <object name="pig" type="spawn" x="32" y="512" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pig"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

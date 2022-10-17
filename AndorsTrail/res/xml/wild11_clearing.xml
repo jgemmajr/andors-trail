@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+IhgAERuglh
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyFVFEKwyAMjfsUHWUUxtjPBv3dFXar9RYeYRdqLzWlBl7jc30QomKSlxdxEBEvG851PWSLdV98yLa69lx9yvZxW4452wVyjJA7Qo3V8XONG+rew5rdVe6MH9b2wMv2qDkKvpXXUj27X/wt253w01zI7Sp7TJDb9pOMfjYGgTUC9HqkHwI5v0h+y++ffsinBzvfRbh+VjPbH97R+IfbzzlCXIHOdjp4ewF4ae5ZWv1UryB7XYp/n3i/ytO+J9THm/7t7JHvU9r5sjlL7cGCvRfUr/cn6Hkgddl7Kf8D8hpJXOrUQX4/jKsWeA==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyVkl0KgDAMg+sh9jh8Uu9/FG/kBhaykv4sMJTVpt8yRUSusZr46kFN6+1/4jvWmLKZyhV5VLim7rEewocs2Tk97yy/yowovx0Py8fy6+T7TOrzJgxen9XcO4/1nite2I/eymXnVbJibHgfk5PlJ1LPAu+A9ezkiR5RfngOnOn9Eyy/Kg/btznZWYzXk9Y+sikMoA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSCECgwAx6ojFMDBYzMIFyDWLkLnEmk2MfhibHDPx2TOY/IzPDnrGLTbzqJEm0dVTGoa43EmtMBgoDAAB5lbd
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="down" type="mapchange" x="448" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="clearing_level1"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="wild11"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="pack1" type="spawn" x="384" y="352" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pack1"/>
+   </properties>
+  </object>
+  <object name="pack2" type="spawn" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="pack2"/>
+   </properties>
+  </object>
+  <object name="pack1_1" type="spawn" x="160" y="256" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pack1"/>
+   </properties>
+  </object>
+  <object name="pack1_2" type="spawn" x="128" y="96" width="384" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="pack1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

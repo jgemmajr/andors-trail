@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="5" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="5">
+  <data encoding="base64" compression="zlib">
+   eJytkUEKwCAMBPMx736yNEqtlz6yCWxApUpoexiQRRnZDUQUJhSBhUNIoCzue9gneQR63uA6hQw0qx/dT77WG+Ea84oe/nKv/mBw04PtYLxxed7pNhd81nmifnt2cgNXbjWb
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAKSA2ZWRgMIdiS0YGksBTEtWnAXE6EBsD9Zkh6bUi0px9WMTmM+JXMwMoHwmko4F4IpJ4ERBbA+U2QflrkMyxIcI9C6BqpJDEdqOp+QvE14HYBKg2B4gtsJhrA5UDYVsSwxMX+AfEN5D4Jkh24LJrEwPlAABsvxPB
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgkGeAgFQgZmJiYGAG4vmMDCjgIAPtQBASewGavfFMNLSYCLBpYK2nO6BWPAMAwCUEtg==
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6AAACWAAB
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="5">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GQAMQMSzUBlswnZi2wnut20cg8pgN72YgsHcjEAZiJq4Q==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="64" y="128" width="352" height="32">
+   <properties>
+    <property name="map" value="brimhaven3"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="brv7_drop" type="container" x="128" y="32" width="32" height="32"/>
+  <object name="basiliskcave" type="mapchange" x="64" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="basiliskcave1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="release_mouse0" type="script" x="64" y="64" width="352" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="anakis" type="spawn" x="96" y="64" width="64" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="anakis"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

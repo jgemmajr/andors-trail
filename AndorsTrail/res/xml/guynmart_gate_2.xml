@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_34" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_34.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_36" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_36.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_35" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_35.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwzZmBgMCaAXXFgmLwbDgyT34QDw8wmVx6f3CaoG+4TwABJlB+v
+  </data>
+ </layer>
+ <layer name="Objects" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOqDJiZ4OAOwG9HlB6DRB7MkJoSkEhI355TyLNAQC1/wM5
+  </data>
+ </layer>
+ <layer name="Above" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcuJOgdj4jFSwEAi8C8t5EmgMAr6sBfQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="8" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsjA8IQOGAbQ2ch8dIBPnli9hDAAE/smeA==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart"/>
+    <property name="place" value="gate"/>
+   </properties>
+  </object>
+  <object name="guynmart_s_gate1" type="script" x="160" y="160" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="guynmart_gateguard" type="spawn" x="64" y="96" width="160" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="guynmart_gateguard"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

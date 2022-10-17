@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="27" height="12" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="27" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4CCAN0PxFiQaWX4rFG+DYkLm4cM3sWBcbkF3B6n4FhaMzy2U2IWMhRghGJtbGLC4Y6BwJhBnkIiR/YjuZ1rZRU9/DWa7suloFzmYUBogBtPaXwDV3j0d
+  </data>
+ </layer>
+ <layer name="Objects" width="27" height="12">
+  <data encoding="base64" compression="zlib">
+   eJyLYmRgeAXEZxgQNAiDADczA9lgIguCPRdo7kIgjgJifiBfHEmdFJJdMPEORgjtBrX/JxAvALJ/Y7EHJPcLiOuZGBhqmSBqQO4vA2IuIL+MCaJOH4gNsPhrO5S+jeYeGAC5xQ1HOIDcCwozbgbcWIiA/AOg2ReYEW65jWQ+ulsMgH4pZCANl0H9Cwp7EI1sJiwcXkHDGzmMDIF2LWPExHuA4qUMuDHMrivMqP58x4zqZ1gaAwEQG5td+OxBtgtEF+DxOwg0ALEjI4QmZBcLM267uKDmyQLTdxQLhAazoe5A9lcfM2X+ggGQnSA3cUExzC4QgOWZfgrtQk9rMHOR7UIOR3xpGhdWgdqlgRZ+IL4GA/Z0w40Wn5VMEPwOikHhsgdKv0MSR44vWPixILFhZRELUC0bE8J/AHkFXwE=
+  </data>
+ </layer>
+ <layer name="Above" width="27" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFFkBshcR/x4AdeDJD6LdY5DyYcWgCAkEmBNsSiK1xK4UDTUbcbvHEYxc5QB6PeTB3oIcRLQDMHcSG0VAEzsDwdGGE0MhgNiN29TCwnIA8KWAOFc0aMMAMCcfhAliBZQQnE4KmB2AB2lMExABVdQm4
+  </data>
+ </layer>
+ <layer name="Walkable" width="27" height="12">
+  <data encoding="base64" compression="zlib">
+   eJx7wsLA8AQLRgbY5CnB+ACt7CLkLxgfn1twuZdSQMgduNxDShjgcyeyGmLcQIx/SFFDahhi00ts/GOLY3zm47OXUDhTkjbwuZMUN5NjFyF3UGoXqWUDPnli5YjFAF7DfuE=
+  </data>
+ </layer>
+ <layer name="Above_replace" width="27" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGXgzDjQLhg+AABdPwBF
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="160" width="32" height="192">
+   <properties>
+    <property name="map" value="loneford1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="320" y="352" width="128" height="32">
+   <properties>
+    <property name="map" value="lodar0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="832" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford14"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="192" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="loneford2"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" x="96" y="352" width="128" height="32">
+   <properties>
+    <property name="map" value="loneford12"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="outside" type="mapchange" x="384" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford16"/>
+    <property name="place" value="inside"/>
+   </properties>
+  </object>
+  <object name="gqtombstone_1" type="sign" x="544" y="256" width="32" height="32"/>
+  <object name="west3" type="mapchange" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="sign_loneford2" type="sign" x="64" y="64" width="32" height="32"/>
+  <object name="outside2" type="mapchange" x="608" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="loneford17"/>
+    <property name="place" value="inside2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys">
+  <object name="gqtombstone_2" type="sign" x="608" y="256" width="32" height="32"/>
+  <object name="loneford13_pitchfork" type="key" x="800" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="loneford13_pitchfork_selector"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="500"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="loneford13_pitchfork" type="replace" x="800" y="256" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_replace"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

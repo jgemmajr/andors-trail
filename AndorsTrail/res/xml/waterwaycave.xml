@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwzZWBgMAViCxKwKRIOA+JQErATVJ8ZEIeTqNcZiK2geieRgSnRC/MvufqQ9eML7zCoGicsemHyuMInHKoXFk7ocYQvvJHdjC2OiPXvQMYRpXrJiV/0OCZHHwCvF19U
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAc2OORe4XE/o1DL0iNMyNCzBZKr2HEogEK4oDYAcr+CMT/gGonQNUvgopHMiLEg5D0XoXKIauFmQOTRwbWSOyVIHdBxcxxYBuoWdYMmMAct5fgYBFhJRjgFQH5L1B6PtTfsDAGhTsonEHhGYkWTjAAijeQPHIYgwAonKSZUPnIAKRnNSNCHKQWFC7YwhwUpuhxtAiqJwDJDmKALpIbFyHZwcCAPZ38Q1K/kgHTn9jcDuKD3Igex7jSBDYMAwDGuzCV
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4cBCN387EwNDPiKkOm/hKCuylRK8NBXqJBejhQor8fCzhh6wHVxjjswuXmYQAcjgHMpGvFx1g80M7kvkrcaghBqDHL7nmkAIAPNYQPQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GSIYmSATQxZHJ9ebHrwmYHPXFLUDFW96OGCK5ywmYkP4NNLDCDFDnz24lJDjB5yMADjDZL1
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="waterway15"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="sign_waterwaycave" type="sign" x="32" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="burrower_2" type="spawn" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="burrower_2"/>
+   </properties>
+  </object>
+  <object name="burrower_2_1" type="spawn" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="burrower_2"/>
+   </properties>
+  </object>
+  <object name="burrower_3" type="spawn" x="352" y="160" width="32" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="burrower_3"/>
+   </properties>
+  </object>
+  <object name="burrower_3_1" type="spawn" x="320" y="288" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="burrower_3"/>
+   </properties>
+  </object>
+  <object name="burrower_3_2" type="spawn" x="96" y="320" width="352" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="burrower_3"/>
+   </properties>
+  </object>
+  <object name="burrower_2_2" type="spawn" x="224" y="96" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="burrower_2"/>
+   </properties>
+  </object>
+  <object name="burrower_cr" type="spawn" x="192" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="burrower_cr"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

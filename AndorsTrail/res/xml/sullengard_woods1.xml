@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_50" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_50.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRPIpH8SgexVTDABgIEsE=
+  </data>
+ </layer>
+ <layer name="Breadcrumb" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B6IB+K6W0fveykt33I9tIbUOrPfByYFnYSsoOQOCV2kuo2SsJ1oNLeQKW/gbCT1vaipwF62omLT0t76Q0GU3oFAPRGGEk=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJylVkFqxDAMlEtPeyq+lUJfsDnvV/KM3JtjCLTk2DflWU0jqsETrewsVCCyli15LI+0XkRkIRX6Ql52vew67Tqb7ZqOY/W5pdj/+anYoa+7vlHM1XwvNL6abbTvGoyzxYv8VX523Wi/mWz4qnSpnHOhuSjumT/OhLHi3SwubCut9/FauFr+jDs6L3B90m+PtYWL79v7M2aRcs+Kf6F1m9zHb8VV/zHF/l2SO5mDGIM7Xz7BFWHAXCS6Djyc5HhfPNY1WgtR3JU4zfcIrJiDvbc1UR79GLG1PnH+CK/nAp9vdutuqfCR+Yc1zAUvHh/nA9JL4RBzC/tHPYmlt3iDszO+7OZqPWQKMK+Oe32AoYaN96vVOuzIu6+vLsV4wevelHkFnK1azzafA/xZ2r2p1ssHeazWcR9ZjvnFHlzHNc57XJyTqNYRf0xHPjyCt5VHnOOsh3w7zoO3/+mZsPHd8B4sfO+8J+Md5NiHanms1chCsXne1zBjeSSPXD9R38Hcu/z95wmdATlGbj5SeVd8mfr3EHNkTOXd4fOLuBrzFzmw57E=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJylVVtOwzAQHPpfxA+ffLqcA27R3CJ3aJDyyQk4Tm5VcCQPHU/XTqRasmKvd9fj2UdOAN7znPKc81yegNf8fZO9D5et+yTryP7jAHzmeSr3zSLj9znLLrjZq13kd8ueb1J/qx5E9pLnsazdXw9Xz37rvcQFwehYe7h69oqhitHhpk8d3rXHr9rPqO2X4L458HGV9zFnen579tFY9ZKsVVf3qhPhAu7zVrFq7g1FR3n8Qh0L7rVu+P4Ib5S3COSTnFHm+c39OeDL8Xms1zEE+pD7HTMKn2exX/2NdrfiS3bW6iGauxGnjpeD2IjpGtzXqnXKlXetr6XRm8jhQA4srwb0az2V84SaWxRZrze1evmIfbWeIDkv/Pbwev9xXMpJVOv0/4s6Hx7tmeSr1UOYEz+W88zbFt49uCiLepbnqcZdfSneEds9U321amRCjd1rWLHs4VHrJ+o7PFOO/3tpUP8c32VGI+oZWtctfonP4wjc/zudD49vFG/38wcSTKQf
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzllcENgCAMRdEdHMgxYAvdwYOTsZYhsQk2pf3QcPJdjDVtPr8thiBzNeIovfnb+8zrWF00n5MX/btV18ofZVbdwuHM3xWPo5J3OuoWtN4mIXYb70hdjnY+gs8ougstfQXpfBzun+Un4dl1TbNE7V+tT/JV09WrueVfHUfuEM3TUR9Hd917Z6LE8O2PdX94fSRSwOaeQHzs/T8Q6C5J9O5IjaV3xjwieHv7Fx4f7h2S
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNUkEKwDAIK+wr/f8bxw6DIRrTVMuE0vZgEmPmNcb86XnKvu1t31G/yts1T0c/i9+p461oV9W6vnViH15FeB5+5p3St6J7NU+MXvRHfjH5YedGHIg705XN7+m1eIoP6k7QXk5yMpgVvLt8nldRTqrmi3Kj8DFavcypnKyPiLs6J5252dV6A0hdSjI=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="northeast" type="mapchange" x="928" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_woods_gj1"/>
+    <property name="place" value="northwest"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="928" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_woods_gj1"/>
+    <property name="place" value="southwest"/>
+   </properties>
+  </object>
+  <object name="southeast" type="mapchange" x="800" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_west_ravine"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="southwest" type="mapchange" x="0" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_woods14"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="sull_forest_tree_fungus_spawn1" type="spawn" x="832" y="512" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object name="sull_forest_tree_fungus_spawn2" type="spawn" x="864" y="480" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object name="sull_forest_tree_fungus_spawn3" type="spawn" x="96" y="416" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object name="sull_red_forest_snake_spawn1" type="spawn" x="288" y="288" width="192" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object name="sull_red_forest_snake_spawn2" type="spawn" x="480" y="352" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object name="sull_red_forest_snake_spawn3" type="spawn" x="768" y="192" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object name="huckleber_reaper_spawn1" type="spawn" x="160" y="320" width="96" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object name="huckleber_reaper_spawn2" type="spawn" x="704" y="256" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

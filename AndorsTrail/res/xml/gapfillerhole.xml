@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4MCCQ6AYl3gImhpqiQMAzq8HqQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxbwcDAsAKIy4CYjZGBgYURQi8B8o8B8VqoPEzNJiAuAeKZUHwMKgbCIUh4CgFxZHNBeCFUHABQtBNn
+  </data>
+ </layer>
+ <layer name="Above" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYWRgYANiFiCGAVYkNjJgwSEOApw45NiwiIPMB2FOJBpmPgAVtwBZ
+  </data>
+ </layer>
+ <layer name="Walkable" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxLYWRgSMGCsQGYODZ5XPpJEQfRAFH5CEo=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="160" y="64" width="32" height="96">
+   <properties>
+    <property name="map" value="woodsettlement0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="gapfillerhole_drop" type="container" x="0" y="64" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="vermin" type="spawn" x="32" y="32" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

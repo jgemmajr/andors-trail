@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTYGBgkIBiNSxYAgtWB2JNNKyNpkYViDWA2BGItaA0COsAsS6aOkccmBx1EiSoQ8fEqlMlUh3MTEJqkDEAYLAO9g==
+  </data>
+ </layer>
+ <layer name="Ground_replace" width="10" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeQAKI1aDYEQ0jA1Ug1kTCGlA1uljUoZtDiToJHOok0NQBAPjWB0I=
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfKBKhRh+IlYDYEIiNcajRA2IpIFYG4hqomAkWddlQehUQS+OxMxOIDaDYCIhzoXoIASMi1MAANwlqSQEAr0QFcQ==
+  </data>
+ </layer>
+ <layer name="Objects_replace" width="10" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh+IBOI5YH4DRBb4FE3E0qb4ZA3RsJ6QCyFQ50CEJtC2blQjA0YoGFzLGoAb0YFgw==
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPZELpajxqGoH4PpRdQ4RZxNipAmVbALElDnUGRJpHD0CqWwDZXASI
+  </data>
+ </layer>
+ <layer name="Above_replace" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh+wACIraBsGwrMaSNTnzURagygGB0AAMqMAcg=
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxbwsDAsITGmIFINcgAnzkMaHqINZsY95Gjjhi3E4sBXfYz5Q==
+  </data>
+ </layer>
+ <layer name="Walkable_replace" width="10" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeYAkWzIBEU6qOAY86XG4hZC82dQB0eRFN
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="upstairs" type="mapchange" x="160" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="arulircave4"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+  <object name="downstairs" type="mapchange" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="arulircave6"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="arulircave_secret" type="script" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="arulircave_secretloot" type="container" x="64" y="256" width="32" height="32"/>
+  <object name="arulircave_secret_initiate" type="script" x="128" y="96" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="arulir_3" type="spawn" x="160" y="128" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="224" y="128" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace" visible="0">
+  <object name="arulircave_secret:20" type="replace" x="0" y="160" width="224" height="160">
+   <properties>
+    <property name="Above" value="Above_replace"/>
+    <property name="Ground" value="Ground_replace"/>
+    <property name="Objects" value="Objects_replace"/>
+    <property name="Walkable" value="Walkable_replace"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

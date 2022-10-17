@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_48" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_48.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_51" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_51.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_42" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_42.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_52" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_52.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_47" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_47.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_44" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_44.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="1345" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="1409" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="1473" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="1537" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="1601" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="1665" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <tileset firstgid="1729" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="1793" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1857" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="1921" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="1985" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="2049" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="2113" name="map_36" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_36.png"/>
+ </tileset>
+ <tileset firstgid="2177" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="2241" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlUtOwzAQhu1002twEQ7Bskg8DtEGKqRK6YoFS5p9ESw4EKVQKG8OAOzxKDPy38F2IiQoUqn0yc/M53Ect22Maf+zkkyyilXx/oW9/u28l+X9KXpL9K7bikvr+2fQxn2eWT8/BsZJeY+ZAtYw4ja+X2IE82PQc3Vu8u4zQ3i25DbmSmUJ87UP4/Rr8u06NqxHnpW2zvfQ9R0lOOXntDdnF5WGS8o5FifkFZ7sYps4Z29uPN0I5J24uR0Xd6rixLyPjmfHS8Ab84S8a5mniVevM5ZbLN89U51R9I4dJ1zq35j70SvxU3uqx+TsYhyJ3dRb8PolB+3scyljOZ9d7ZV6J+CVOdeOTVe/sl+/P+0t2IljvYT3xpUX8G6njntbzcHzil7MPZY35j5SuVD9NuB94H3VMfHOOGsZ8xqYh+0S9kD2TfZwHvDOrb+PtHvLje9k3qvnYbtkYveZ9ko/rj1rVb6DVoV4qa7XV4A3dY/GvEN4lxRnG7yCDXib3N0pr7jxLA3YNwAvjeF3SZD3rYYPE/e2zeL/WMF5o3cY8b7XcGfTXu0X9y5Dfu3F+y3/xj6HCJ11nSv1fQL50iid
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyFVr1rVEEQ3+ftuzsCOeREIZGAWBiMWFkcEjvBQrFUsDCx0CIQkZAv4l1AQiwECwkiKOK/YCMqJgopBNFKEdTSLsbYxRBIUGeyM77fzdt3GRjm7czsfO3s7Ks557oJa4RdLsCH1P2HGsgtVf2tUl6+2360MWD87hU+UtxbJ9wo5WOxejGqOgj3ydY+l4f6LrY0Fs2zU8zO5WtjIRZ/kU1cM/QQHjR+ah1sHSdcInwZ2aPnamNj/u+Kc+cq+TraGG18ddBdJHweyeeKD/K7Pr/nUzlfJ+4Bm7cTO9a2AxnGa23HAHWL7gH6UJ7GNpmEWo+mWb0RhiuBYi6Ye1Ff90R8WuBav3Ch3p1goZJ9DwC/6I61XL4Hrppzw3y47kUxMnyUM8AzVfu65v3rJN/v4rbOko+Tvr3GsT6NzSkLVq/ssz6oR/S1p9n3UdHBvnGueK45V3x/EU4l2d7lJKy1p9j3kvAZHpYCXZOZ+raSt9Nprj+g/eu+uD7LJHvjQq+8Av6jUrteWnWuCnYGk3gdmDZFZ4R0GkTnfZbLnA9rlj1zIe/XLvAVJkj2LQ04LXVQO4OyroMfhCEfestCA2Ji6AV/Rwj7C/RdxM8mvKtcX11zbw0SXk8Cqo0hyXebdMeSbC/e+xngD/t2n1uQzzXR2y61rxu05wTRP8Sfh/hGwC7CT4lxLSnOT+s4Ddgyuiu0f4N8bxLepO/LkH+/zAKuQ5O+u6h3a2R73AWKsakvPDvkTRm/FfHD8CPJfPKM5vw5DqZ9RO9IPsfKgc9wC3wvC4/P8gvUDmUXhGL8O/UD28wfl2/udZajfgz0HL+CXH1in2Hd78VN7QDfWz5P7sWm8blq5kBZ1gsuu3/vYM8ToZzHYprVztpRvwzsk8+ZKdu9SPRSh3gRts295fdhSXvRZ7WO+b0hvTZOsa6Q3nfC85KbhaEO83DO5+f96Yj+AWP7M8Q2SjEcBhnqHfL5mNjnRBqwV3i3Ka+/5k5sROYaz8ozPvSuwljBncd+0vNmnzNpeG8Z9M1jyufdB/9Z3SYX9Y22W+VsXr3fk6HNGedvw8gmk3aevmnWxkQkz1/Ea9Fb9bSalyloPW2dsP/s214X//oGsm/utSmxwbLZanteZdM3fId1TjOsgv9emZ+P4R9W33D9T9H82Te/izr7ZyXXJtj7B5qFqkU=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy1VztOw0AQteM45AJUKGXCGVCQ6LgCEg21D5AqKd1wgvRQ0CMkap+CMg0tf0L4FezIu8r4ZWc/kXnSaO2d3Xkzs7MTJ0lk7Dp0hKFj3UDPDwR9DIbwbrOJa3wYOHQxfuO6kZJ9wSbucfkQA24n9Mw4cM9Z178HuW1xGzu2eJEjBGjDVmO2nEpnIoGv57FLuR0FrPkPmFglTuM7j4fyHlp7mDf+fpVt+uEC+sjPzbefn+9c+V/p2gm582aNxIE+uGqlSNfPbd9fV8/hvIg3plum/vUxkOxQ/t+Z7iOt52J4+dnNoRfMhD2LfJOXOGl+pcYvJT8kmWBAwITxUhyPysYzxGLjJXzq8Tcy5xgj2TvUzxXLh8TLUQX20olljuwt1f6VPr8yr8Xw0rPhPc/ruW9PnU0DfKG9T0peIKaLTi2XevTZn1nmpqDj+eFcNl4jZc50Qj254kSdlKvTTlN8iOGkuBd5c26vX4/jXpIcaTnu+XljYGIl/lvNd501dT5Mt/CpYH3I9OabSN4Tna8DVjO++1WwPtQm0F4JfnBO7q/prXf99Vybv1fbxNkWdyjwezv2/4ENlM9xd92nXwNqysf9ADak++37XsLvh/sdt1/Ia/AH0xhdTg==
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSiAgBbWgXYB/cBI8isM/GVkYPgHxf8Z6WevAxsCu7PRzp6vLAwM31nob+83oJ0/WAirGwWjYDACAF9tCzc=
+  </data>
+ </layer>
+ <layer name="Top2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzaENADAIAEEUc9Wx/0ZIJqiA3CWvPwIAAP55OVXe/8ImDZq5Aj8=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzdk1EOwCAIQ/3w/qf0IPs1hEqtQraR+KXj0ZaN3tqYjq3R888bmF5Vsyt0s56j+5NZGb32/pZPtmflHrA1v1e9vl1qrp4eZsbb3kZ7q87Bcpkc7Zysbvafyjh/4ip5f1lvBderbK73TTb3NJtqj1Y9or5Z3DmnFVfxO3q30mS5J/uENHt36B27+2juiI3msGzUZ2dHEBNxlVL3EOlhfdvZjZ2MvTxZJtJsezzFnBT/
+  </data>
+ </layer>
+ <layer name="Walkable2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLB72D+lQXyLDWSDJQAA8E/XDlwDaeUDoQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="128" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="flagstone0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south1" type="mapchange" x="256" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="waytogalmore1"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="864" width="32" height="64">
+   <properties>
+    <property name="map" value="wild18"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" x="672" y="928" width="128" height="32">
+   <properties>
+    <property name="map" value="waytogalmore1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" x="832" y="928" width="64" height="32">
+   <properties>
+    <property name="map" value="waytogalmore1"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="stn_gyra_m15_5" type="script" x="96" y="32" width="128" height="32"/>
+  <object name="stn_gyra_m15_4" type="script" x="32" y="832" width="32" height="96"/>
+  <object name="stn_gyra_m15_3" type="script" x="224" y="896" width="160" height="32"/>
+  <object name="stn_gyra_m15_2" type="script" x="832" y="896" width="64" height="32"/>
+  <object name="stn_gyra_m15_1" type="script" x="672" y="896" width="96" height="32"/>
+  <object name="stn_colonel_30b" type="script" x="512" y="704" width="32" height="32"/>
+  <object name="stn_colonel_30" type="script" x="448" y="704" width="32" height="32"/>
+  <object name="stn_colonel_10" type="script" x="480" y="736" width="96" height="64"/>
+  <object name="stn_colonel_101c" type="script" x="192" y="832" width="32" height="128"/>
+  <object name="stn_colonel_101b" type="script" x="224" y="896" width="160" height="32"/>
+  <object name="stn_colonel_101a" type="script" x="256" y="736" width="128" height="32"/>
+  <object name="stn_colonel_100" type="script" x="224" y="768" width="224" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="stn_lizard_10" type="script" x="96" y="96" width="768" height="256"/>
+  <object name="stn_sign_stoutford" type="script" x="224" y="320" width="32" height="32"/>
+  <object name="stn_castle_cleared" type="script" x="256" y="448" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="stn_colonel" type="spawn" x="480" y="672" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="stn_colonel"/>
+   </properties>
+  </object>
+  <object name="erwyn_knight" type="spawn" x="256" y="384" width="128" height="160">
+   <properties>
+    <property name="spawngroup" value="erwyn_knight"/>
+   </properties>
+  </object>
+  <object name="erwyn_soldier" type="spawn" x="32" y="768" width="416" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erwyn_soldier"/>
+   </properties>
+  </object>
+  <object name="erwyn_soldier2" type="spawn" x="448" y="544" width="480" height="384">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erwyn_soldier2"/>
+   </properties>
+  </object>
+  <object name="stn_gyra5" type="spawn" x="160" y="0" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra5"/>
+   </properties>
+  </object>
+  <object name="stn_gyra4" type="spawn" x="0" y="864" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra4"/>
+   </properties>
+  </object>
+  <object name="stn_gyra3" type="spawn" x="288" y="928" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra3"/>
+   </properties>
+  </object>
+  <object name="stn_gyra2" type="spawn" x="832" y="928" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra2"/>
+   </properties>
+  </object>
+  <object name="stn_gyra1" type="spawn" x="704" y="928" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="stn_gyra1"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons1" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_colonel_mons1"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons2" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_colonel_mons2"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons3" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stn_colonel_mons3"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons3b" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_colonel_mons3b"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons4" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_colonel_mons4"/>
+   </properties>
+  </object>
+  <object name="stn_colonel_mons5" type="spawn" x="256" y="800" width="160" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_colonel_mons5"/>
+   </properties>
+  </object>
+  <object name="mikhail" type="spawn" x="928" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mikhail"/>
+   </properties>
+  </object>
+  <object name="stn_lizard" type="spawn" x="96" y="96" width="768" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="stn_lizard"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="stn_nondisplay:51n" type="key" x="256" y="736" width="128" height="32">
+   <properties>
+    <property name="phrase" value="stn_colonel_310"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="51"/>
+   </properties>
+  </object>
+  <object name="stn_nondisplay:51s" type="key" x="256" y="928" width="96" height="32">
+   <properties>
+    <property name="phrase" value="stn_colonel_310"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="51"/>
+   </properties>
+  </object>
+  <object name="stn_nondisplay:51w" type="key" x="0" y="864" width="32" height="64">
+   <properties>
+    <property name="phrase" value="stn_colonel_310"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="51"/>
+   </properties>
+  </object>
+  <object name="stn_nondisplay:02" type="key" x="192" y="736" width="32" height="32">
+   <properties>
+    <property name="phrase" value="stn_northgate_10"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
+   <properties>
+    <property name="Top" value="Objects"/>
+    <property name="Walkable" value="Objects"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
+   <properties>
+    <property name="Top" value="Top2"/>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

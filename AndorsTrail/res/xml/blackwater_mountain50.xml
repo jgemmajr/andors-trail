@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsAXiBBKwLRJOAeKbJOBUqL54IE4D4lsk4FggTofq3UoGHtU7qndUL3X02pKpF7nsiCMBw/QAAC3gvrQ=
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9sGViYLBjoq6ZpUA8mxGBYeA7kG0JZSPLFyHptUZSTwxAVj9Y9D4G4udA/AKIXwHxPyL0fkUzwxKNhskPRv+Soxfdv+gAm38pASxI5jxhQMQPDL+CimMDT6AYOR4t0dSA+I+R1CKDI0T64SiaOitGCP5GQH87I0ItDGRC2W1oeg8yoLodJu9ChTIAAFgUJkM=
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9kV8KwjAMxtM/4vuusJeBL/MA6jW8gsfwpDuFsCmCKU0gC2sbGPiD8ZUmX9vsA9jPwwFcPMAVP+/y3i1k/VI91TRPn2sMez9u7S3dOYkzvepreSX/9s6kAfVI6w61d7ln3vCzdxG1kdZn0vQ/lopXMtDeqfDWmteKnreEdd4trPNaYe8bNYp8mI72D4V7o8hxVD2cU6C+6NZeJuU4KG8tp73ztvJhdN8d3/kyeq19LX6ZTCMo
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxbwsTAsGSIYmQA46PTyPLY9OFSi03NYNCL7D9cbEJ60c3BJY/NPcQAauolZA6x/iVVLykAPW3hS6PY3IgtXeNL34TyAinuJdYMUvIiqXpJwQBYd16t
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="exit" type="mapchange" x="224" y="576" width="32" height="32"/>
+  <object name="entry1" type="mapchange" x="64" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain10"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="entry2" type="mapchange" x="384" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain46"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="sign_blackwater50_right" type="sign" x="352" y="512" width="32" height="32"/>
+  <object name="sign_blackwater50_left" type="sign" x="96" y="512" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="throdna" type="spawn" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="throdna"/>
+   </properties>
+  </object>
+  <object name="blackwater_acolyte" type="spawn" x="32" y="128" width="160" height="320">
+   <properties>
+    <property name="spawngroup" value="blackwater_acolyte"/>
+   </properties>
+  </object>
+  <object name="blackwater_acolyte_1" type="spawn" x="288" y="128" width="160" height="320">
+   <properties>
+    <property name="spawngroup" value="blackwater_acolyte"/>
+   </properties>
+  </object>
+  <object name="throdna_guard" type="spawn" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="throdna_guard"/>
+   </properties>
+  </object>
+  <object name="throdna_guard_1" type="spawn" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="throdna_guard"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

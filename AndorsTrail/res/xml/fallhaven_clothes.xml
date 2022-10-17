@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJydkNsNgCAMRWEmE+IovjDRDx3GCeo2LuE8liixqZSHHyeB0h7gGqWUEWh+ILm8DxihGj1L+XaGqy1k79YTMmf6LKHW3xolJw8+Axk+KQ8gf/Eze4aPZ0TxvZWWPdwX6l0jMylf6t6Yr8W39O49+s2uxMf7N/ScD5DINwTv79AzIKO+zw6GDdRKuADzq2Nd
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYwMuEn08sqIDibWji6HxiwR2gOyqhNAwcZWZgEAZiXUYIuxYo1kCkeT1EqFmDxe+g8FjMhGCTApKBOBVNbBsONrJfKpmxu+0QUPwImpwf1E3CSOLY9OMCyH6WJV4bGBxAs2cLEwTDgBwWPTA7+hkx3SBGwN3yUPokE8KP8lB3TEAy7zmWMAHp2QrFtAAAu30a5A==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAv0GQhTowU854yMTBUoImJMZNvHjaxSiqbR6oeGIjHIodNDJd55IaLPBOqeeSGBzaAz7+TGUlTj0v+Ex73EjKPUPhSqp4SAADNzQhj
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxbwsLAsGQU0xQjA3Q+uhypZmIzjxruJMY8ZPtx6SfWXGIBrjAl5Bdc7iTFPPRwxxYX+MTwmUsuBgAoyXIx
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="128" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_ne"/>
+    <property name="place" value="clothes"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="fallhaven_clothes" type="spawn" x="160" y="96" width="384" height="224">
+   <properties>
+    <property name="spawngroup" value="fallhaven_clothes"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="7" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="7" height="8">
+  <data encoding="base64" compression="zlib">
+   eJyTYGBgkMSCJaBYCguGycliwTC5BCyYkD5JHHKSUHs3o4nvhIpLI2FZND4Ack0Iaw==
+  </data>
+ </layer>
+ <layer name="Objects" width="7" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgSARiEzQaBkBsUzQaBiywYGJAEho/mUh9IPCTBLUgAACLvQXv
+  </data>
+ </layer>
+ <layer name="Above" width="7" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg0GRkwAkIyaUA6VQgTgPidBL0kSMXj0cOFwAAnDgC8w==
+  </data>
+ </layer>
+ <layer name="Walkable" width="7" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxbwsjAsGQAMDLAJU5IHpe5yHwAC24cXQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="96" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain11"/>
+    <property name="place" value="house3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="prim_armorer" type="spawn" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="prim_armorer"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

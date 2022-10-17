@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwzY2BgMCMSV+DBlKhbjEbjUrcEjabUXnqrIwYDAM8UJDc=
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAe3MSD0dXdAuInaBibuttQti8jhP4HFX/NiF0dDMDUYTPPEKh3KRHqQOApEKsz4lZ3B4gfIuF9jNjVERMuxAAA0WspNQ==
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAe3ALiJ1iwABOquts49P9D4+NTdxOHumVkmkdLdXeA+CEWvI8RhwF4AAD1fxf2
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxLYWJgSCESEwLkqsNlB7nqYGLUch+11BGDAeQNESM=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain34"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="sign_bwm35" type="sign" x="96" y="160" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="bjorgur_bandit" type="spawn" x="160" y="96" width="64" height="128">
+   <properties>
+    <property name="spawngroup" value="bjorgur_bandit"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

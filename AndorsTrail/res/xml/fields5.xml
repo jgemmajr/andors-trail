@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1M0NgDAIBtCO1DiF8xmHdAy9NKnNB1T+evFATEzsEwrUUsr2RBWeexfUexQnEaOBzh6NqrT6oM5A/2BxUL5SrShT40n5WuuoyZfrGQ/zBAbq5wiX698Ik6ptRA8hD82tp8vNCHW/FlOaiYh7nZ3HFabXfvDwMsxjodviUkb7XmtbXY1tre9XVzs30p1F5DrbLzO+d//O+lEzw/kZewn5mbuwuSt2cFaNM/vpd99xAwNmdrw=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy1VstOw0AM3CCoRC75glz4mH4BIiI3JA5ccuEj+kNF8HkQqzvK1PU+vC0jraJunB17PHEaQh0eu9P1vru8J3u7uH9c10d3Wm/rel/XT8X58rx1diqOeZjrNa4cJ87Ydfa+FQc+zVPi0pjjdQrpHAQWn4fHOnMkfgA5zJHzFnyM34qePjt8ksOxMg79lFo/K/LL8aFHJf8yZ2utlidyEE7xWau+KQ+OisOqu0XfnOeH7txLMo8ejLO9tV7r+RYv5XzQxzOm+DvlKY+XtK6IFz0HOp/7OodtNvAM9HCmdJ3UFRjiLP9W+56ecizX83R3Gfuifi/E7+kpYvl5PWf/E9BlMbTjd2YfNZC6D1fMPQvQaQybrujvnrT/Ctt389DoJc59UZ5hP/eUk8DzrmqvjzF3rZvm1/C+N9rr6J/FrfnhOWhQ+96UNEHPSvw1ZzE4P+Tc03MD1V7iv1WtGuh7ir+lVkD/N5oS9yx+zzxEfnreCnhOWTOS+Wu/j5bGYzL6HIjTs7kGqdkv6JXWfN/6j+qZ39AY+g0JP1j6Y4+1r6m95GM+g/PhfV2jxP0BwpWGzA==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMcDIi2CxANhsjbrWU2MGKZi417UE3m1aAE4899HIDzC58bqEWQLYD2X+w+KSlG7ClmeEIcOUNlgHwOz3iFR+gZpkgOIjTDi3K2FGACmYwMTD8IhI3MpFm9mBMW7T0LzJALh8uAelbUMzIzMDQwIybhqm7MgjDbjACSstgctPoaNk0CvCBwVj2jQIEAACQzB5V
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzl09EKgCAMhWGh938LH7QrISLtbOdPhQZdBOq3zVmPUuqPvxbqOmWtcsb1nN6/643skUn39q0+0lTvle4tOWvkWZQZvS/X7QV1F6qnuNlae47ikqZac8akgu4r6dG1fhXOu3LniDCj9tPMRm03Vpg7uFnTzWPFW93ZzL6Xma6am2Nm84m4Ts33vbP72+IEEb5Bqw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="288" y="928" width="672" height="32">
+   <properties>
+    <property name="map" value="fields2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="192" width="32" height="736">
+   <properties>
+    <property name="map" value="fields6"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="416" width="32" height="384">
+   <properties>
+    <property name="map" value="guynmart_wood_11"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="fieldcritter_1" type="spawn" x="256" y="704" width="352" height="192">
+   <properties>
+    <property name="spawngroup" value="fieldcritter_1"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_0" type="spawn" x="512" y="800" width="352" height="96">
+   <properties>
+    <property name="spawngroup" value="fieldcritter_0"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_1_1" type="spawn" x="640" y="224" width="256" height="192">
+   <properties>
+    <property name="spawngroup" value="fieldcritter_1"/>
+   </properties>
+  </object>
+  <object name="fieldcritter_0_1" type="spawn" x="704" y="288" width="192" height="288">
+   <properties>
+    <property name="spawngroup" value="fieldcritter_0"/>
+   </properties>
+  </object>
+  <object name="guynmart_robber1" type="spawn" x="320" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guynmart_robber1"/>
+   </properties>
+  </object>
+  <object name="guynmart_robber2" type="spawn" x="192" y="512" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="guynmart_robber2"/>
+   </properties>
+  </object>
+  <object name="frog_3" type="spawn" x="288" y="64" width="256" height="256">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="frog_3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

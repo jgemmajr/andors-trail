@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="13" height="11" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="none"/>
+ </properties>
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <layer name="Ground" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgSMCBbXHgeCBOxIFTcZgB0pOEA8diMQOmZwcejG5GOhF60DG5emwJqIlDw8jhhy6HLo+McYUzPowrnPHh7WRgALB8Q/Q=
+  </data>
+ </layer>
+ <layer name="Objects" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfWDMyMCwFYhtGCJ+XCb/68wwQtcuAmAPIXg6kV0L1w8xCB+eQ2C+B8iuAeBUQb0Myaw2aPk0ofyYQyyC5aTVUvAGI10LNgIFkRog4MvBhQpjDADXrFZJd2OzxBdIt2L0/7AAAEKMSpw==
+  </data>
+ </layer>
+ <layer name="Above" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPaDIyMKxlYmDQYiJNDy6wHo8cMngDVbcOSG9A0nOAeGfAwUEkt+NzGy4wA4vYGzLMGaoAALW4B18=
+  </data>
+ </layer>
+ <layer name="Walkable" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxTYWJgUKEzBgFS1ePSg02cGECMHmzihPTROywHEgMADbcRXw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="brother2" type="mapchange" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_brother2"/>
+    <property name="place" value="cave"/>
+   </properties>
+  </object>
+  <object name="brv_brothers_check_coin_bag" type="script" x="192" y="128" width="32" height="32"/>
+  <object name="brv_brothers_another_axe" type="script" x="160" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="attohead" type="spawn" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_attohead"/>
+   </properties>
+  </object>
+  <object name="alvies" type="spawn" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_alvies"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="brother1_locked" type="key" x="96" y="64" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_brother1_locked"/>
+    <property name="requireId" value="brv_nondisplay_multipurpose"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="30"/>
+   </properties>
+  </object>
+  <object name="brothers_first_part" type="key" x="256" y="128" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_brothers_0"/>
+    <property name="requireId" value="brv_flood"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

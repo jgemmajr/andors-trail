@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="31" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="31">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUk4WDRph5ww0HUTmMgmhgJi3cORTNpGbY0sLM4RC2gzW+aOleWoUtLTAAX9Afzw==
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="31">
+  <data encoding="base64" compression="zlib">
+   eJytVb1KA0EQnt0LaewsIvkBf8C/YAQfwkJtTWEnQiAq16hIniAPIfgIgqQ1mEYPhKvyJpZi4ww7w86texcEB4a53M1++818s5sJAEzQn/8pLsrJ0N/+gLlozQf6+x/2DNfIt3CPqvdrxq8P9zlA/7IAM4zf1mNc4pp96+JR4jGJSyPgJ5hdzCd7dQFmxsUmxh5463DUmJqfroGsxXEVefQR6zBxv59VzpYtvpNIWDX0dYVJ9X5zvjyH67ZtXEPhGupI9oi+aeLrMlWz1qpqBm7Rh4h3D3FNVzCOjOsvWaMES/idYt41+g16rjik2M8liHvZXE0Ybwcc3og57KGf8DPpX+O9p8brKHPRimAC48n3sXV4VNsuf9e5OWN/8pp+iW6SD8yvE2BJ3GScHtcCKi92tqj3Um9sX9JPNCQbqfloorehOOtd5id7x84DWcqYXSjuHZvLU9T3PDjDa8yDbMC8BLPD9Vf1UXoY7nuG7+vmN89pRY8yxstVzfKN7A4c5kWASfeBzJCe0znPzCxyFslbCnNsPebQFPUa8H4N8BqH/OSZ6hPMFNxcSD1XqrftxM3qsXH8Y/zkOVc8gTV6YL7EO1VzJXOgNYnd97TujnUSr6s7RGOugj/XsfsKuJcvxp1N6vdywHkQ9Pae9RmX3NdiDVVX3xYxU/D9SBVuC+L3FNlG4vsjvDWm1P+U+D4Mecar/q+1zYPe1tUMiG5lWGW8X9TcCbZwHtv4f3/G9dUi7yWSTjnnaM4ZFP/fFkW5w/RdObe+pz/dmi6r
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="31">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+QJ5xoF0AATuZUGlC4CQB+aNEqCHWzKNY1BzFppAIM7Hpo5Y7YYCcON1NxXRAqn+oaSYp8X6SgHps8U4sICbe8dmpBsTqJNqJD6C7B5/7yC0TBjLeyQHocTLY3I8rzQw2dxILVCnQO1T8TKhMGQpmUxJPyIAWZdhRPDQAIQYsyA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="31" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlEsKwCAMRO39r+lBSheFUELmk1C66EBQiL6MUdzHWvuPz8ale0Riedm+uF9lPr2qOeRzihm5Sm/UtZXUu0Z3hviMst4wntX6qP9MXaam+oYmmZUcZsVymIwmz+zUU70yrI7Pt5gxl80dblfsP9Xhdfwinupb4XX+Jpd3Amn5PZ8=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="384" width="32" height="256">
+   <properties>
+    <property name="map" value="roadbeforecrossroads5"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east1" type="mapchange" x="608" y="768" width="32" height="224">
+   <properties>
+    <property name="map" value="roadbeforecrossroads7"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="608" y="288" width="32" height="128">
+   <properties>
+    <property name="map" value="waytominingtown0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="sign_rbfcr6" type="sign" x="480" y="736" width="32" height="32"/>
+  <object name="sign_rbfcr6_grave1" type="sign" x="256" y="320" width="32" height="32"/>
+  <object name="brv_patrol_check_stop_hero" type="script" x="256" y="640" width="288" height="256">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="forestserpent2" type="spawn" x="352" y="288" width="128" height="288">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestserpent2"/>
+   </properties>
+  </object>
+  <object name="forestfox2" type="spawn" x="384" y="512" width="160" height="192">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestfox2"/>
+   </properties>
+  </object>
+  <object name="forestboar3" type="spawn" x="64" y="384" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="forestboar3"/>
+   </properties>
+  </object>
+  <object name="fox2" type="spawn" x="96" y="768" width="192" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="fox2"/>
+   </properties>
+  </object>
+  <object name="agthor" type="spawn" x="128" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="agthor"/>
+   </properties>
+  </object>
+  <object name="forestfox2_1" type="spawn" x="416" y="288" width="160" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestfox2"/>
+   </properties>
+  </object>
+  <object name="agthor_guard" type="spawn" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="agthor_guard"/>
+   </properties>
+  </object>
+  <object name="knights" type="spawn" x="224" y="608" width="352" height="352">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="stop_hero" type="key" x="224" y="608" width="352" height="352">
+   <properties>
+    <property name="phrase" value="brv_wait_patrol"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

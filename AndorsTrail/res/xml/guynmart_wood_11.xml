@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlEEOgyAQRWHnoqfqCRrTI9kjidBlPYP2OoX4JyFTNFYFmsjiRWfG+JiBUAkhqgWelha8vHfHRU457eVGy9uiECvES44QvqtnsUJugFvD0aHm1nWTvztDPZNbo2YAfdsx71Yn95LboDfNai1y4w5faNaEm+1VTk/uGzbu6Zxbe/93NNb7kN8+c5CTMAH6iL4160npKxQK8ahXkNJ1lDdmH//oS31WUvjO4sx9TmM5U90rOed5Vu4ZnDW8H9kecbE=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJydVjtOAzEQdXZvkCKRtkOKIm2kXAJxggiQKCOloCYFUQ4QrkCXa0APKdJkG+AQuUJE8AgPGd7OeL15kmWv7Z3nNzP+bDrOvfmyUWrGMHP/UPrvWzF+4cuLL8+5M7EP8zWOtbCP3IgRfH+EQriE/+j7PaJPW8tVqAfZqc34FOOvoRBHKdZPfvnK23GW4N+uq3PjvNLwDyGFE/0sbTP3ytdPoT2O8PXdKUesHGL0xBypEe3fGDnAMV4EPswd2dbW0Qu15t8YnwW2nxpriUK0eT0a3873HYPOCeQW2ta4ZN93sFN16vuawHEooH9r5I31HfMBxhrzn9HNdZsW11aMUV7E1kpzq0hs2sYS+2Nrt84Ai2vs9P80m0ULTsIu+E0787lvpaytSZtsL4Wf8PzuizbGY5XV5zVxkpbe6Tc39+U+ay5N2gbKHVVBHkiuqZHTCLa1i+SanMPazuGSYJ1HOLcJWj4wn8U18/13CWXk4nnclu8R+tcRX1h5TKD3CXFqfFIb8skzh20ODR5uY34ip6YN71e6/+XewXXIuVvFtxqnpS32VkDtqI/5tFgy5wK0aRx70CDns96la94XzEn3oBY7C9Z4yh7UfJtyj+DZzPXcpvrjk/mj5SLZLTN7XOu7NvJU7g08fzWdk7w+rnFXYk8ij4U27yHrDjlkv1pnRkxT3/apbwYZ12ngTbF1UO6kc9ZCWmnvPPj6B9xuQ7k=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy9V1sOwjAM6+AsnIvvHoPD9YPP3QgmVilEeThpNEsTNB2xnaXtGFtr7+/FMZQ4xfMmx1/31nr7XROd5PQ+ERwcHP3U1Nk4y/kQYl2IzTp0NkY4Uc8SrzWH+IvUm2LWXtM0tv/v0Wfr8Ul9N/NX9ZfHRzmHkFviQvk1vgO70jfaeLUGkn6Pa3d807HmJ+sDzRPxE5n38lv6dyWeyZnZYzROa17j4T2AIlKvlV7msDgr1o4Gy5PWD1W4wh/KvQrab5G1kYWWg+ug92bXhLdHSrpW/EXrQ2ucgfbsKrR5QM8RuhazGqTfS97R/c+CdwYj2ireFSz+VU70/wT6zoBojOa68iypwAdxGflp
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy9VUEKwDAIG+z/v+hDdyqMoUmMdoFChzZRW926r2uRtRHt2RnkU9GtcLqaXy2VU6mHWqeMI0Nkc/KMzmd6qr3rk+US+UV7pOHe0R88DG6v7L2D6N2gb6cGSBvlymxRrFk+bh4qTzUf1c74WQ8p74ZxIrsK5q9oOnDqNQG1nlN6b10ljhM4mR/jQb3V1VP7pQM0Z777bm0rcU/cozsrnN7PZutUbFV9FlenvmxOVv8XTAvlo8bWneNIn2lWZ4i6pngmVhbLA0CfDiI=
+  </data>
+ </layer>
+ <layer name="Walkable_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztkkEKACAMwwT//wsfKl6lW6eCpwTEHaypYGs5o+fz2qOlco4ov9/hvCpz4lddnO/0rcodeVzmxhV1zpyVTlW386izL96sQ+Ufv7qqfQAAAAAAfjEB9w4zig==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztkkEKACAIBIP+/4seGh2CCFcFo9MMRAXqbFBrmtH1fZ/Xrpaa46H6rSye1+rJ+lWWyHf3v/BG76j41HzPmclUcZ81Vm3F62XI/OOqK5sHAAAAAOAXE2JSM4o=
+  </data>
+ </layer>
+ <layer name="Walkable_3" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0VEKACEIRdGg/e+ihUYfQYivpOzvHhhqhtR0StFa1e9zP1bv8eIjbI71mzqXUXfNq+6yq/mrrte7jXuds5rtKe5WpLfdzDOof/mjXiRPdn8AAABARAflnjGV
+  </data>
+ </layer>
+ <layer name="Walkable_4" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0VEKACEIRdGg/e+ihUYfQYivpOzvHhhqhtR0StFa1e9zP1bv8eIjbI71mzqXUXfNq+6yq/mrrte7jXuds5rtKe5WpLfdzDOof/mjXiRPdn8AAABARAflnjGV
+  </data>
+ </layer>
+ <layer name="Walkable_5" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPLGFG0NgwrQE97R0ov9IzPLHZOwpGwSgYBaNgFIyCUTAKRsEoGN4AANEEEFA=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="256" y="0" width="544" height="32">
+   <properties>
+    <property name="map" value="guynmart_wood_10"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west1" type="mapchange" x="0" y="192" width="32" height="256">
+   <properties>
+    <property name="map" value="guynmart_wood_1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="guynmart_s_hill1" type="script" x="736" y="64" width="32" height="32"/>
+  <object name="guynmart_s_hill2" type="script" x="288" y="32" width="64" height="32"/>
+  <object name="guynmart_s_hill3" type="script" x="448" y="160" width="32" height="32"/>
+  <object name="guynmart_s_hill4" type="script" x="448" y="32" width="64" height="32"/>
+  <object name="east" type="mapchange" x="928" y="416" width="32" height="384">
+   <properties>
+    <property name="map" value="fields5"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" x="0" y="512" width="32" height="416">
+   <properties>
+    <property name="map" value="guynmart_wood_12"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="chk_wild_berry" type="script" x="32" y="192" width="32" height="736"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="forestboar4" type="spawn" x="448" y="704" width="384" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestboar4"/>
+   </properties>
+  </object>
+  <object name="forestbeetle" type="spawn" x="64" y="96" width="160" height="480">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestbeetle"/>
+   </properties>
+  </object>
+  <object name="guynmart_dog10" type="spawn" x="160" y="-224" width="96" height="64">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="guynmart_dog10"/>
+   </properties>
+  </object>
+  <object name="forestserpent2" type="spawn" x="192" y="576" width="160" height="256">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestserpent2"/>
+   </properties>
+  </object>
+  <object name="forestboar3" type="spawn" x="480" y="448" width="192" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar3"/>
+   </properties>
+  </object>
+  <object name="forestserpent2_1" type="spawn" x="672" y="416" width="160" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestserpent2"/>
+   </properties>
+  </object>
+  <object name="wild_berry" type="spawn" x="384" y="192" width="512" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="wild_berry"/>
+   </properties>
+  </object>
+  <object name="wild_berry2" type="spawn" x="544" y="672" width="320" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="wild_berry"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="guynmart_r_hill1" type="replace" x="224" y="0" width="608" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="guynmart_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="41"/>
+   </properties>
+  </object>
+  <object name="guynmart_r_hill2" type="replace" x="224" y="0" width="608" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="guynmart_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="42"/>
+   </properties>
+  </object>
+  <object name="guynmart_r_hill3" type="replace" x="224" y="0" width="608" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_3"/>
+    <property name="requireId" value="guynmart_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="43"/>
+   </properties>
+  </object>
+  <object name="guynmart_r_hill4" type="replace" x="224" y="0" width="608" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_4"/>
+    <property name="requireId" value="guynmart_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="44"/>
+   </properties>
+  </object>
+  <object name="guynmart_r_hill5" type="replace" x="224" y="0" width="608" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_5"/>
+    <property name="requireId" value="guynmart_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="45"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+</map>

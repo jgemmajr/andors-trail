@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_40" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_40.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzFk9sNgCAMRXEG52EUUQmyosxhGEhJIGlqqbwSP84PoSe3lEohhIysD57AAQ5w/4sS31LppHw9zpKM0LkhWn3JuSNae05oRE/PFH/75inv8oQrzMgwbxh8ubzYZ+KMbKGPAvZo44zcIB+Vf5TvinC1tfm4vikUmgf3r2CNYnJhFEPuLjyDu6zFe79rwfvcyzmYG0i74YU=
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPQhgZGIoYIeynBNQSA0Dm5QLxNzL1v0TjfwHiNgaEG4vIdxocoPuZUjOx+RnZTHsm/PoJ+RnZzGYgdgCatwVNjhg3wswrI00rQfNgAJZ+2ID4MxBnkOBGWBgyQPVloIUnSD6FBPNAYRgJVQ+iQeGZy4gwOxGL+5EBofQLMx8Zf8ehFmY3uXkCBtYg2Y0tfZAKviKxhRhxY1IAG5obc5Hisg9I38RhXgsWMVi+gKVXWJhjC88ZBMwaBeQBAJK0MQQ=
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFLxmoC6ht3gwqmwcCjYzUNW/Uz0PLPFLCAqYWn3nEuh1kVjwQlzJAaErNGyh1+NyOzzw/oL6bQPwZiPvISI+E8kUL6UaOAhIBAP5GFO0=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxbwsjAsIQARgaE1BKDqW0espnUNo8Wfqa1meSaj2wOLkCJ+2htHrl+pmYckauPWuYRcj8p5hELKE2v1AgfWpg9igljAJlv0Xo=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="608" y="192" width="32" height="64">
+   <properties>
+    <property name="map" value="mountaincave0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="up" type="mapchange" x="544" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="waytolake0"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="288" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="mountaincave2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="remains_mcave_6" type="sign" x="96" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="scaradon_1" type="spawn" x="352" y="224" width="224" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scaradon_1"/>
+   </properties>
+  </object>
+  <object name="scaradon_2" type="spawn" x="320" y="64" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scaradon_2"/>
+   </properties>
+  </object>
+  <object name="scaradon_2_1" type="spawn" x="384" y="352" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="scaradon_2"/>
+   </properties>
+  </object>
+  <object name="scaradon_2_2" type="spawn" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="scaradon_2"/>
+   </properties>
+  </object>
+  <object name="scaradon_1_1" type="spawn" x="96" y="384" width="224" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scaradon_1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

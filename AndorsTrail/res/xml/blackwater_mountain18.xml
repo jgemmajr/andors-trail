@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="22">
+  <data encoding="base64" compression="zlib">
+   eJyVk0sKwzAMBXUxH8VJWuy6tBfMPherAhaoD0lGi4H4MxBJz4WICtOYk+nMEVCA23tNtzKPgKG8XXnCMwDdM0HkXgt03dp9L2q16tZuVKtV967cbN2WuwGe28CVfOgMYE8HzPdD//mI5jFg76u+VzlAN5MD2fdcr94OZ9hXfC/areqfDoMCZ43seq3M9Xlf1vjWxLUyV+d9WVt9zL5BnEHWw15G2fVm7oEzs2b3A49voSo=
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+6GNE5VczYlfHChRfA2VvQxKfCqW1gPI1OPSC9JUA8Q8k+RIkeTYsYuigBY8cLjATj5wFE4TORXJTPxI7kxHhLhjQgspbMmGK4QK6QLWnGSD4MlQM3b/o9sDETzNi9/cMLHrQwSkC7gIB9PD5QUDPDBzia9D4oPSBK1zQ47gXqO4kELcyQGhs7oK5DeRn5PAAxZEINHz1oHFCTjohBEDueUNEeOIC29D4ilDaGs3MBjR12PKDEgPusNWC5lFY2kCOT5AflNHkQO5aw4A/n4BAJpp92NwFEyMU/rA0RCj9UgIAnoInGg==
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAARkYGsgBI330y9JKrDwQyydRHTb2kmjODQjfA4occvZk01ost7SDHLz692OSIDWdscshpCl/6wqZ3BqYQ0XqJBdTWSyh8JkDlsYUFPr2E8iYl/iA2nAcLAADhuRIM
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxTYWRgUIFiEFBhJA8PhF5iAS59lNg5kOFEjr+R9RITnsNJLzZ5fHGJLxwHOg1RQy+usCJVLzaATw6bvcQAUv1Gql5iMABmCyFk
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="96" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain17"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="up" type="mapchange" x="64" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain19"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="gornaud_3" type="spawn" x="128" y="288" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="gornaud_3"/>
+   </properties>
+  </object>
+  <object name="gornaud_3_1" type="spawn" x="64" y="224" width="32" height="160">
+   <properties>
+    <property name="spawngroup" value="gornaud_3"/>
+   </properties>
+  </object>
+  <object name="gornaud_3_2" type="spawn" x="128" y="96" width="256" height="32">
+   <properties>
+    <property name="spawngroup" value="gornaud_3"/>
+   </properties>
+  </object>
+  <object name="gornaud_2" type="spawn" x="160" y="224" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="gornaud_2"/>
+   </properties>
+  </object>
+  <object name="gornaud_2_1" type="spawn" x="224" y="224" width="224" height="448">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="gornaud_2"/>
+   </properties>
+  </object>
+  <object name="gornaud_2_2" type="spawn" x="128" y="576" width="160" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="gornaud_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

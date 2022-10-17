@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyVktEOgCAIRRVdaf9c9unZBtuNXa0ezkjkDMViCCF2FiBOsJqk6zuuQBl4WJc7onHvHBprZyNe1m8BdyegK+DZumm03Mz1Z2jkTubibBLxGtmLOivL21y819yeUUlenMfOPML3/Oqynl/d0yE/XHG9Ru5CsLuWgYs1M0p4/hv4jm8ucgFNoSDY
+  </data>
+ </layer>
+ <layer name="Ground_replace" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj6oBGIm8nU2wTELWTqrYXqHwWjgBIAAKGZAwo=
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyFk00OgjAQheuaE/iDmBiJBkmMSzDegMS1O/UsKPiv6CXZeQNfw0xSJwVf8mXaMq8zLeAquxKwAm3QAW5NHmsj5ssG39sYH8AWXIW3Kzw+wfJAAHY0d2q8nmWcggysRY3E6FfnHsFJ5ExATv5M2RVSzlnUZ+XUQ5NsPtnPh6Jv5HOMxDPuJ1bVXfF68KePEcUSLMDM0gfXnIMBjYdgT+Npq/LcwB08DG9BaIUU+xTHVJ/vK6UzaD1V9S50zZexR8/wXyjGRr1SnK+gc2nJ79W3wGd11K/q/o+oZt0x9voCSiYiRw==
+  </data>
+ </layer>
+ <layer name="Objects_replace" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5AJ7RlT+TwrM+kOBXjUK9I6CgQcA9McCXA==
+  </data>
+ </layer>
+ <layer name="Above_replace" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxk8GmgHjAIGAFobAOM=
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcaBKp7iAWvjwjhH0Uhx5rJHUf8dg5DYd9MPOR7SfGvTA1s4F4MpI5CmjqjPDoRbYTFx9dD8wedHXHGFD9ggyw+XEylFbHYR/MzEoc5oCABh69yACXnxQI2D+DgFkKWOSnM0DcPBOIZ0HxHKgcerxi0w8D6H7FliZgYr+QxCaj0djMQtb7gQE1jJHNgZkBAMaHG1s=
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GSAMQMF+hiI0I+uBhsgxV3E6KNELzn+xWcmPr2k6GPAI0asfkKAWPvJiStsdhDjB1pjAMG8j2U=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="upstairs" type="mapchange" x="96" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="arulircave5"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+  <object name="arulircave_trap08" type="script" x="128" y="96" width="64" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="arulircave_trap09" type="script" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="arulirmountain_bosstrap" type="script" x="352" y="320" width="96" height="128">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="arulirmountain_bosstrap_r" type="script" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="arulir_gem5" type="container" x="32" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="gornaud_4" type="spawn" x="352" y="96" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="gornaud_4"/>
+   </properties>
+  </object>
+  <object name="gornaud_4" type="spawn" x="96" y="160" width="128" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="gornaud_4"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="32" y="128" width="96" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_leader" type="spawn" x="384" y="320" width="64" height="128">
+   <properties>
+    <property name="spawngroup" value="arulir_leader"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="160" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="192" y="256" width="96" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="288" y="192" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_4" type="spawn" x="288" y="288" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="arulircave_trap:08" type="key" x="128" y="96" width="64" height="96">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="8"/>
+   </properties>
+  </object>
+  <object name="arulircave_trap:09" type="key" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="9"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="arulircave_trap:8" type="replace" x="128" y="96" width="64" height="96">
+   <properties>
+    <property name="Ground" value="Ground_replace"/>
+    <property name="Objects" value="Objects_replace"/>
+   </properties>
+  </object>
+  <object name="arulircave_trap:9" type="replace" x="256" y="160" width="32" height="128">
+   <properties>
+    <property name="Objects" value="Objects_replace"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

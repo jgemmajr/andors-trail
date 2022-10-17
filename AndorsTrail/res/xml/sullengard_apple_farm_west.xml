@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="40" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_50" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_50.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMBKEb37/iuugECaumqqr68ACHpBkB
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzVV9sNwjAMvLACX4ifjoDEBszUv6zSJZiAQWAYWoGFiS4PSwkJkSznVedy9SXtBcC1kp0dcEO+zK5gEl6xJN59tQfxEi827tWYjlcTX2xt8Sl82rfCl1p3cp94uk/qyx/yNztue/C6but+xt9htSPi+YcExhH4m4J33Tv/JF5qvCV/TA+MP5C54RkzIn8WfZTohekDbw4Wsi/vvvH5BNYR+PMd9FGiX41J139xv1nvj5iGRzj/St5vqT40VuYt+WfZb67o/bL7SvZvzb8W+BguaVv5y/ldg+/TkOfY/cG0i+D5nudfDJeub7FOrt7/wmZPx4FakQ==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzVlksOgCAMRMs5XLjTQ3M0P2dRFiRSqxQyFZyEgArp8LRUIhttZ9uFXvOcz/3Km+RBMxelVRFvdPd9hHtx7F3qbQF7vMb9A7/pbLMQT+M1qDW/+L57+f5yeyCy5SflQy9nDIIf75H8VnbtnTgt8ffm1UKl/HLrLPjVePyqvtXUj7f8aMWvJJeR/tD1SssPUa9KPfLzQOOvNg+t+WnFOT/Vj9w4rkdqoDJ+Gr8W/y9IHR3bAZQ=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzN1F0KwCAMA2B3/2t6kL2O0hGjNY0gCOvPh1PnM8YsnlXjWw/16vSt9HP37cQrfa77F2NX8pS+zIRylT4Um31T+tzvB2u74YvrGNPtY/cP5Sp9mdHdh+5wh8/1/+7UO+nN2FjjiS+rceOt6D5/f2uH88cYq+YLYtlggg==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="608" y="1088" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_apple_farm_east"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="deebo_orchard_farmer_spawn" type="spawn" x="32" y="608" width="576" height="640">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="deebo_orchard_farmer"/>
+   </properties>
+  </object>
+  <object name="deebo_orchard_farmer_ainsley_spawn" type="spawn" x="32" y="32" width="576" height="288">
+   <properties>
+    <property name="spawngroup" value="deebo_orchard_farmer_ainsley"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo5gCHEQkprZ5pJpLrL20CJtR86hjHgDMQhM1
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJytU70KwkAMTmsVlA46aBFxUPEtnBx8AB9A3NycRJ+is2/iouDgK7joKA4ugvQBxIQmNHcWrT+Bj1xyly9fr7kQAHwHwEMUEHlEMcX7kJwRk3jiAtQxbiB2vBcg+swb4foGiaeapRuf66nepKOIuQpzrByzZ43zmiuytGyVPp1v50yu1ht9xCP9Kq5ZG3A92UhpDF7okz2xkxULx4rvgdBX3LYnG1vxHcy77OI3X5zvMVe6Q8QGc0N4Rla7Kl6ZuV/4yI74byL+V9NcXH/G+PAhBmpurqyRZpO4FpDMQhPRYV9jL/kWe7qzGZicEb8l4pIZLSNKGbz02lt8Hsf0/rJyiYcUvrUTz7rYJ1w0GzZfldc0p//QR3sPKStQ8A==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdsDIyMHAyki5HjDpkcWxqWLHoIWQOuW7EB/C5H5f74hkx9VHDLfQC2Pw2koAoEMsSQVPTLFqYSQiA0im13IcsR6lZoPQHAMIoBvA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWYAgxRm6mFkQEgdLj42OVxmousjZD8x7sNlDjIflxsJmYWsH5seYt1HDJ9aAJ9fKDFzqJlHSpwSkicnP+Eyj5I8Sg33EZv3KHUfAC9mN+4=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="256">
+   <properties>
+    <property name="map" value="cabin_norcity_road2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="448" y="448" width="160" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_sapwn2" type="spawn" x="544" y="224" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_mountain_cat_spawn" type="spawn" x="320" y="96" width="128" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object name="yelllow_tooth_spawn" type="spawn" x="512" y="96" width="64" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="576" y="160" width="32" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

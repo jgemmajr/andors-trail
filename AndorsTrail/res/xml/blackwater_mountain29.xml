@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="22" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="none"/>
+ </properties>
+ <tileset firstgid="1" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwzZGBgMKQRTqAyhpmbiAOH4pHDh2HmGuHAYVDanhFCFwPpSiSMSx/MXGM0MVzqicXY3EuquZuB7t7CiMqmhrm43JuAFA7GUD4uOwyhcUmMuYloYolUMnc7FmwEpbGZG0akud/wYHLDfriZm4CmHp2PCycQMBdfWsGHEwmYiy2tEIsBxFJ8Zw==
+  </data>
+ </layer>
+ <layer name="Objects" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJy1UTsOglAQXPxcRUsbULHEo1hItMHak3ASbfQAnkHgBCYW2rsTlvDc+HiIcZLJ7C6PYd5C9D8cPKIp60N0LjXUNh8wI6/s78yzKPoKR65nrE9RkhqwzYfiiz6R2c6rnwN+x3tG4hGzLli3rGGvo9kHXxsC0Zs6l/7o6yt1ofoefE/MvvRm7cJIKVDtEL4hlSR6r4FAqYmxUtN36dhDE5ryrphrZmxw09IXOVOq8ybMieWs6z+b0Hnhe/nifRv0fjPm3rJXzLOWvsiZUp03V77m3THPW/oi59XIWzjyFi19u+IFub4u8w==
+  </data>
+ </layer>
+ <layer name="Objects_2" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A4YA3ENgPtiFEwCoYRAACQqwB4
+  </data>
+ </layer>
+ <layer name="Above" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdyGSiv7lhjKg0LmBPornhjKg0KYBe4UCKPbZAbAdlnwPitUj+osRcfIBW5s5nws0nZKc7WnwGERm/Qy2MBou5p2hkrj6R5uJLKwMBAJ4oEN8=
+  </data>
+ </layer>
+ <layer name="Walkable" width="22" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsTA8GQUwzE2QKw+bDS6ubjswGUvIfcg80kxF5t+WpuLrg4bn5QwI+ReapiLz0/4zEU3m9Q0SChNkmP2YDCXVuEwGMwlBwMAHzrPiw==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBAAAAWAAAE=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="160" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain11"/>
+    <property name="place" value="house9"/>
+   </properties>
+  </object>
+  <object name="sign_blackwater29" type="sign" x="288" y="448" width="32" height="32"/>
+  <object name="base_beamto_stoutford" type="mapchange" x="32" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="stoutford_castle_barrack2"/>
+    <property name="place" value="base_beamto_prim"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="guthbered" type="spawn" x="576" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guthbered"/>
+   </properties>
+  </object>
+  <object name="guthbered_guard" type="spawn" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guthbered_guard"/>
+   </properties>
+  </object>
+  <object name="guthbered_guard_1" type="spawn" x="608" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guthbered_guard"/>
+   </properties>
+  </object>
+  <object name="prim_guard2" type="spawn" x="448" y="352" width="192" height="128">
+   <properties>
+    <property name="spawngroup" value="prim_guard2"/>
+   </properties>
+  </object>
+  <object name="prim_guard1" type="spawn" x="288" y="128" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="prim_guard1"/>
+   </properties>
+  </object>
+  <object name="prim_guard3" type="spawn" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="prim_guard3"/>
+   </properties>
+  </object>
+  <object name="prim_guard4" type="spawn" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="prim_guard4"/>
+   </properties>
+  </object>
+  <object name="ortholion" type="spawn" x="192" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ortholion"/>
+   </properties>
+  </object>
+  <object name="prim_guard5" type="spawn" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_guard5"/>
+   </properties>
+  </object>
+  <object name="ortholion_guard1" type="spawn" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
+   </properties>
+  </object>
+  <object name="ortholion_guard2" type="spawn" x="160" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ortholion_guard2"/>
+   </properties>
+  </object>
+  <object name="prim_guard6" type="spawn" x="224" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_guard6"/>
+   </properties>
+  </object>
+  <object name="prim_guard7" type="spawn" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_guard7"/>
+   </properties>
+  </object>
+  <object name="jern" type="spawn" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_tavern_guest4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="base_nondisplay:1" type="key" x="32" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="base_beamto_10"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="ortholion_conversation" type="key" x="160" y="224" width="64" height="32">
+   <properties>
+    <property name="phrase" value="ortholion_conversation_1"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="Omi2_bwm1:36" type="replace" x="224" y="192" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Objects_2"/>
+    <property name="requireId" value="Omi2_bwm1"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
+   </properties>
+  </object>
+  <object name="Omi2_bwm1:36" type="replace" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="Omi2_bwm1"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

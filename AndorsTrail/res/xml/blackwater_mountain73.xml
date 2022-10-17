@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <layer name="Base" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D+oIJIMWqZTU17iNWPrk4IiEWgWIgK5iOrR9cjQqIZ6PZSKy5IsXPUHsJpg1R7kdMcMqZ2eFRgsYMcMwgBbP5YToZdw9UOAItkDgo=
+  </data>
+ </layer>
+ <layer name="Ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJydlF1OwzAQhJ0roFyCn8IDCC6AuAdSXxFSn3KZNqFK00twBx45jSXWwqMOU/+JSKNG8u5+nnFq75wbozxpa/rI6GCaouZYH/ovTH1UeD9GoU4ZQfuMmL9kGD0xUKeMqSLwUF/ysaca1M+FnDSvFoYXxhh95XLSvMCaGxgz/Q6NYtZSYGAPOJNF5rx2v/Wst+6cNbj6masHnt2LUpwSg7+NRebr7Brny3RvehTGRHnl5mtWylHPT4mskJf6Rd+a9vuSqUn5BIOzTO0T67uoFCfnOcw/ZNaVEWr5P1ryw/sKfVuZ28oYExyezQxfyPPGzuC9whgSjLvulC3ff9+mS1u7MuFZ2fvDPxiDzGaF55oYTnpaGJvu7/3k3fmdyIxbelcGzj3lA+v4DrlHGZ8VBrwwA3tWLyXGs6xrz06UyifoB0Jo64k=
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytlT1Ow0AQhWepEBIVCE5AwU8IhEAkao5AQYoUkVJQGCKl4CZchJoLgBCUSKRDuQaIGXlHjF9mvSvEk0Yb2+v3vfGuHaL/0xvXZSCaca2F/PyHPzK+2Ps7479wzn208CtgqG7gHjtv3h4hyV8YRp/7uM3cV2Wue5pTs48SRpezfHKd8O/r0Kwz8tfLMnJrvkO/3i88PkGtR47kUJbspxyjMqP4q/cozt3gcYtrEPelcjQTMtrWXP1HkGOTj7fNOcuRe8bx2urKcn6rlL9keo71as4rx/bc5/Ge0ms+Ds39p95TrmGo693hYCbNpcK1xP03kTXg8UrZtMzxep4mrosnMmZORuQMoOdJ7FllnzH2nWJ4HO15GPtW3VH9DCT7OXgc8NxeSDPk/bT7VfPIO3PhzD8KdfWMX0f2JWRCeQz0t8fH8t1wGF4mEb53wugW/GfsmTmnwETtOgx9rqlcon3jeViQCRklsozHAkapfgCWslmp
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAATSgmB2ii0QZ41JFrRzwjqh341JFrhwWRdqCrcWQi3S5S7ACZD/M/reygNF4IqcHmB3lG7GxyAbl+yCEy/siNB5LcQoFeYsOQVn7whGJ8fnBBYkfQxhlwAMuXhOxpA2J1Mu0gNs3tBLpFgwp2kJrGiQ1jSuwg1h5K7SAGIJuLzU0uWMQosQMEfgPxH0YETQ1AbvgAAFUGEts=
+  </data>
+ </layer>
+ <layer name="Top" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dwghw62FHDSAdLiASaA+2AUUA2cGQaaBeMgoEAgyneAQtxAZk=
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlkUsKACAIRKWzdv8ztHITOY2TrhKEoHrPzxxmsyg9qniRo5P/s8PfR/HqOPFO552pOCIvqkPlR/9RKHtD7szMbjNiaszOCTk7HYyH5Sh3Coupt6K/bB/MPtSaOhws89Wh5O6o4i4Rg5vL
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north" type="mapchange" x="608" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain71"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south1" type="mapchange" x="192" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain74"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" x="96" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain74"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west1" type="mapchange" x="0" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain75"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+  <object name="bwm73_drop" type="container" x="448" y="512" width="32" height="32"/>
+  <object name="bwm73_drop" type="container" x="160" y="192" width="32" height="32"/>
+  <object name="bwm73_drop" type="container" x="672" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="bwm73_monster1" type="spawn" x="224" y="160" width="288" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="tough_venomfang"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster2" type="spawn" x="96" y="256" width="96" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="tough_venomfang"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster3" type="spawn" x="320" y="256" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="venomfang_2"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster4" type="spawn" x="416" y="352" width="96" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="venomfang_2"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster5" type="spawn" x="192" y="352" width="96" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="venomfang_2"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster7" type="spawn" x="192" y="448" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="tough_venomfang"/>
+   </properties>
+  </object>
+  <object name="bwm73_monster6" type="spawn" x="608" y="384" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="venomfang_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

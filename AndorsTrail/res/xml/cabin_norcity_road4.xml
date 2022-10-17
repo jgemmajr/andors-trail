@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4KAAB0ExJWaMmjdq3nA1b6iZSU3zaIEBCe8Qmw==
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyFU71OQlEMbg/GgZDIZGI0MQYn48Y78A5uDvgGhEXjG/AMJiYi8BhshtXFh2BhYjCGltvqd3vOlSZNS3++9ju9tKmSRybqim3TYfvMVc+nWZWN+EeJ6AXqHlKV66S/ulPKxfMRjwznkPi8LdfjEW/G1Xyv17nu34N/JXoLdTe2d4mv17yG2WR9kafXv3OOpzHN6S2Qi845hjfEXE/0uoHvXHQJPM5Ezy0/gV1+DDve+b97nOR0f/uGqZAs4C1EL7jeO4bvMAq+X5FvyEecJ6vHGcgD8dbijws4nQZu+x7Iad1I7ABi68Bty+V93eqNEPOScsym/0fEVpwl5O8M44PrmN7TD79dSrfB2MreUDG/zJ/CLklwW3CnN85xviG2Al9lBz1TNrc=
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgEAViWQbqAGLMIda+1YyY6mHseCZMcwiZy4pFD6VuxSYHsoeTiQRLcNipBsTqeNwC4+NzIz63kxoWa4DxIY0nTsixg1rmkKP2OBlmYXMvshghM4kNC2LchqzHgomwe/GJ4XMLJeYQAwiZDctPID4Ay3UMEw==
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBDUShNAAFWAAW
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJydk1EOACAIQtu6ivc/Y7+tMXrA1o+iYNnstaY4CoSTgvShespbO6uqJaD3l9YQf252Ok+b+/HTHXO5t+edV1rEI90vwlFvoHxRf0Sr/SPOr4upfuk+qvgBMMETDA==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="sign_cabin_norcity_road4" type="sign" x="480" y="352" width="32" height="32"/>
+  <object name="north" type="mapchange" x="448" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="512" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="yellow_tooth_spawn1" type="spawn" x="96" y="32" width="288" height="64">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="224" y="128" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn3" type="spawn" x="96" y="224" width="256" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="hardshell_bettle_spawn1" type="spawn" x="96" y="96" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="hardshell_beetle"/>
+   </properties>
+  </object>
+  <object name="hardshell_battle_spawn2" type="spawn" x="448" y="224" width="32" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="hardshell_beetle"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn4" type="spawn" x="480" y="384" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

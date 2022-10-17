@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="35" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_49" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_49.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_47" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_47.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="35" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRTDcMAAVaCvE=
+  </data>
+ </layer>
+ <layer name="Objects" width="35" height="10">
+  <data encoding="base64" compression="zlib">
+   eJydUrENwkAM9KdIkSZUIGWDFDAEQoxEQ5E9UjEJDJIZkBAS0FDwVrA4zNsfcdIrL8dv353dEVFPIway0UGextx542EWT5XJEWwC0Tb8xsvw3atP9OXYIlGzhnsLfA7F+OYYa5+g5znRn2HpFzQJ/p7Xwkv4sB7hj9pwHjmvd5n/Guvic9c+SK1mQm/Rifp1vmjzfMRd0Xuj32mvZUes/U1xsmK4M9KHd+eROU+nN6I0dkxDtLTAa/++V8E+yzjX2x980VPLR/QGZ4Q+XmKNaxhjq8LnOoWv5yvyZF9FQw165Cs7jjmD0u3xZZ53hwuC5/QCxBY/zQ==
+  </data>
+ </layer>
+ <layer name="Above" width="35" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANXBkZGDwZMcXZsYiRC0SBWBaI5zNB+AeB9CEmhLw7EzZdxAFc7ifGPQMN0MOBHECO/5EBclgQChd0u6iZRvDZQw1AK7dSCkj1K644okWYEQNA4YpstyuSG0BisDSO7j4Yn5K8T23wlsjwY2QmTh0A3rYOBQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="35" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAFWYGugKQfcTaiUstNd0MswNmJrqdlNhFilm47KcE0MvtuOyl1C/44gWfWmQ3UBtQM36QzRwsbqHEfHz5ld7lDLK9lGBqugUAKdcJTA==
+  </data>
+ </layer>
+ <layer name="Walkable_Below" width="35" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4ARVmCEbm08tOfJhYc2gNiHErujtI8QMxdlPTvdQyh1J7SHELAFjrB+0=
+  </data>
+ </layer>
+ <layer name="Walkable_Above" width="35" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoAhVm4vFgAEPJrSBAC3fSwo/EmkdKeiHXv8SqAwCQZwd4
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="512" y="288" width="288" height="32">
+   <properties>
+    <property name="map" value="sullengard6"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="96">
+   <properties>
+    <property name="map" value="sullengard10"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south_below" type="mapchange" x="800" y="288" width="288" height="32">
+   <properties>
+    <property name="map" value="sullengard6"/>
+    <property name="place" value="north_below"/>
+   </properties>
+  </object>
+  <object name="west_below" type="mapchange" x="0" y="0" width="32" height="192">
+   <properties>
+    <property name="map" value="sullengard10"/>
+    <property name="place" value="east_below"/>
+   </properties>
+  </object>
+  <object name="sullengard10_replace_above_script" type="script" x="32" y="192" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="sullengard6_replace_above_script" type="script" x="480" y="256" width="320" height="32"/>
+  <object name="sullengard10_replace_below_script" type="script" x="32" y="0" width="32" height="192">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="sullengard6_replace_below_script" type="script" x="800" y="256" width="288" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="sullengard_venom_snake_spawn1" type="spawn" x="832" y="0" width="192" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="sullengard9_replace_below" type="replace" x="0" y="160" width="832" height="160">
+   <properties>
+    <property name="Walkable" value="Walkable_Below"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="12"/>
+   </properties>
+  </object>
+  <object name="sullengard9_replace_above" type="replace" x="0" y="160" width="832" height="160">
+   <properties>
+    <property name="Walkable" value="Walkable_Above"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="13"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

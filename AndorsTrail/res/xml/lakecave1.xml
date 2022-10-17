@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_37" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_37.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzlllsSgyAMRdkYS6lYRul+Oi6qy1JnvNOYCZTw0I9+nB+lOdA8xBpjLGGsxBYwbTwrmQ//JJxDcrqNsOEreRz+IJxjjngXwqcAxIGXn2Pf0+sCr7SmpZfH8Ym1Gq+2NlN7hHc03/qj3rfSB2fs/+Ve1FqIxBozyXHuoM9Qa5JD0885zh30WWpmaPpZU4fenPNSEqMUzCn+vLaXUwzmXPdLJjVO1HNQ+FrsA/VU69T455u89LtwpZfml8/l3jnGvGrh1dQVnVexvu3VS5hXTnjXw8f7SfL2ZLjBS+8b/+Dl94qrcirx63epdyly7mZ0vZSTkphanOBtxQoxfv9r
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyVV7tKQ0EQvXkQ/IA0IhKiKRQUxMqfsEh+QBt/wFbxgSFVijSCBsRUipBOieAnCIrYioXpDNiJjRbukB3ucZy5uzmw7E12d87M7OzZe5NkMqzl4uac5MLzrbFR/u/v00Kcb4wd5b/diHVLwp8u8B6LsakMO5a/Jd/3na0b17dcv+rtVgrjxngBvrrLx8g/l/2agWufIk9dwXvubcjY2YbkZNC+VPzztWsL7ncVfP3Op3GcFdN1277v5fQ9QF62azXiq7k27dot2OhDXjhHewqX5F1W7FqN+DT/JarGPmMMBC2OklhDObdq9Dngx77n0eKYFJTftt/fhu+fXLtX5m7l/u6Hhg0lR1WFk7AeoS0ybxY2C+kZPfJ25/zvg+KY80usuQRfOeaB4RPpgazhQZJq2hBszUf6LPEDZwu5sIZbUNvoB6IudEJiFniaEK92XrimSL+w1rL8aHibVh0xeG+182Ihyw+ZB4km6BTqG6Pyb0XYj5ZiJwsxcdZ8n6VzZeB9dO1B9Jx3znFMfmYC41STnLcnhZP61yS9FxiT5MfirEHeuK6wZ27EslKbIS555piTNXko9E2r8djaxLtWO3MaDsXZ1vQKa1Oe0ay7VsbE+mzdR6hXbzBfnlHtjkINGiVhsKaxXsl3yZDmxeIdnjsZNl8EP+bow5jbgfv1IcMHOvcXyn1FuDM4GSHNleN091+Kmm4qNXXl2ko+1ch2ZL5D/jDfucJJWk36daKM8Tr89sA4tBg09JT3MOudw/JDwoolZJ+hvRcuRnwT9YA35ruN8AvSeIz4
+  </data>
+ </layer>
+ <layer name="Objects_DameriliasFetched" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJAEAIwEDdfw73/OJxBkXuIHUi2KDyd/3ZXwAAYN4DfJwDPw==
+  </data>
+ </layer>
+ <layer name="Objects_DameriliasGrewBack" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJAEAIwEDBQdx/yy8eZ1DkDlIngg0qf9ef/QUAAOY9IZEAqw==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgc4CAT/c0CqZNnpI6d9YwQs1YSoZYYNfjALiR2KiPx/qDUXmSwg5n4sKOmvTuZiVdLLXth5jwlUf03CuzEFqdXgfguHj2UpmVq5gdSwh6fnfj8jM0OarkfF1iJZEcSFK+hg50gO+SBaZ+JhPSPCxBKRzBAa38NJkALv8LCGZ2mFSiD2kEMmEFF/z4kUT0163piy2QQoGY9RAqglr3o6YcYv1MzrEkBgyWsSUkflORPZHux2UmM2eTYTW44U1oWUbP8GAWkA1rlawAxuDSp
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A0cJBpYOxdOTDWjoJRMOBAnpH+dg5UfhsIv46CUUArMGM0PY+CUTAKhgAAAKSJAu8=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlMENwDAIA6PuP2YG6TeKig0B0z6KxAckzhDCvMaYv7/mlrGcisv4qFYF19PzrlHBXWt7dWW5ez97nHEzhuqscQ/XMxMr5tGX2fnI/6v8T6fWzVbflMhdUelQME/moGIr63/Fu+aJmJG3jWqN7DDiR/WxnlDvHn61dfMsrnc/nnJM+zp3tluWTtYHMsSNzjzDY+98svcVN0F9dzq5N2hd6NA=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="sign_lakecave1" type="sign" x="768" y="160" width="32" height="32"/>
+  <object name="south" type="mapchange" x="256" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="lakecave0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east1" type="mapchange" x="928" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="lakecave2"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="928" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="lakecave2"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="lakecave1_1" type="spawn" x="64" y="672" width="448" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="honey_bee"/>
+   </properties>
+  </object>
+  <object name="lakecave1_2" type="spawn" x="192" y="96" width="384" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="honey_bee"/>
+   </properties>
+  </object>
+  <object name="lakecave1_3" type="spawn" x="544" y="288" width="320" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="honey_bee"/>
+   </properties>
+  </object>
+  <object name="lakecave1_4" type="spawn" x="192" y="576" width="672" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestbeetle"/>
+   </properties>
+  </object>
+  <object name="lakecave1_5" type="spawn" x="672" y="192" width="192" height="320">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestbeetle"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Damerilia1">
+  <object name="Damerilia#1Fetched" type="replace" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="30"/>
+   </properties>
+  </object>
+  <object name="Damerilia#1GrewBack" type="replace" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="31"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia1_0" type="script" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia2">
+  <object name="Damerilia#2Fetched" type="replace" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="32"/>
+   </properties>
+  </object>
+  <object name="Damerilia#2GrewBack" type="replace" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="33"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia2_0" type="script" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia3">
+  <object name="Damerilia#3Fetched" type="replace" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="34"/>
+   </properties>
+  </object>
+  <object name="Damerilia#3GrewBack" type="replace" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="35"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia3_0" type="script" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia4">
+  <object name="Damerilia#4Fetched" type="replace" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
+   </properties>
+  </object>
+  <object name="Damerilia#4GrewBack" type="replace" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="37"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia4_0" type="script" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia5">
+  <object name="Damerilia#5Fetched" type="replace" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="38"/>
+   </properties>
+  </object>
+  <object name="Damerilia#5GrewBack" type="replace" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="39"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia5_0" type="script" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

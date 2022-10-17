@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_39" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_39.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdlksOwjAMRHup0oplcwbKvTgxIGHJGs04E8KKhVdO/PzJJFmXZVmTnS+7JTvA79ouDNcF7w7c9rLrQNyd5K7quCTegxhyq7gsd1XHKXiMe3biqtwxXtRarYu+nsZax4JbrTlg9rNMl9s6s4/c3j3ZwGa4jrUPm+nF4V6LtQ4b9bKLeKvgsp45/UO9ZH7sXTtcdTdU/WN5IH8n3OxTd0PuX1W74t/IfLNP3Q05f8zb4TNu9jn5x1zcun+lIzwPo/t+xXVqUGd6hpv1h6yNrEW9fsNletuSz/kjuL0PTTHNoe8Q/MtSn3NmoSmmOfS1FFv9IUbOW6U59CEX3373HzJ7FrGn8db33vnRc4hcrKsZTJyTy499zv+KmdLECHdmRkwX/8at7p5evG/eEXXHOjN27mdmDk/FY/4nXs5vrg==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzFVjuSwjAMdcKV6AIVnIB6J1fZhuEmFBxhu1wH2HJLirUIGrSep0+WeHgzTIDIerL8JCsljG/l/5pYz+hr3457OLe6zU+TUp+fx/xZZruv/Htn+PRyIuO/KLy9svbo+KZYNV9ybZvtOmcfhNvj2YF35Jd8bMAe2gZzMjrxvVdsEFBeKLaVvSwELbcovhu0HFHGovlFce+SfvaEwXiHuD3bg5NvCdaKpm/mJp9IL1GgPSCd1ug9Vv4OgXqJwsuhBo/fqx/UHxhDwBfzIz8yNtIwa4v8bp1+M0f9RoD4NW6tbk8BmzkwpYb4rD6b8X6Kgvc+hQvl65yed2NNWDqpeRb/gTenWP1L1tdJN7uDNL1o8D3Peud6tPrHkP7ey1Ph9R4EdNdZ84DUKdJCVANbY06K4tWehe56OVdYNVlyyzx9FPNYyVHWaa26oZ4Q7QdT5hDG9bHP8iwlr6fJSN8rY6N5twMzjlenUb7S35Aw3zvxC9XrQS4=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlsENgDAMA8teLMwYTMIqvPiUNI0rO3mAn23lqxJHSmtvHcaZUg/vInpF3iG8mW/UC2Vm1oTJjHKZvUe4TB7CVejn1nLV/xn5RzN8blyuWlXcneiF1ny1R1+Vl5FZfvp7pPbezM3msecy8+YxrX+p82b1gLlbINwMppox4jIVzQSbi+zsFVz2nGbM/apuSfUpAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzllOEKwCAIhNv7v2YPMvZjEGF6d0oxJsTA1M/qXL9a6z9fj43fypqrPctUDlLHikGYrGXOuoph2Zn+Mvft9VHx9iiXfTeGHfnUMyg1KmYlewc7+FkuogeGO/qRvlBTtOv1j9ZS58ZjV8a/OUiduWZWJ5Y/o8NqjX6Zy+gk2qs+M2seA+Gq/Xl5ClfVhLU3+yImqwmPgeRWcSM7wVVmYOc/QsnZsW4PlN+I
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="up" type="mapchange" x="832" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="jan_pitcave1"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="800" y="832" width="32" height="32">
+   <properties>
+    <property name="map" value="jan_pitcave3"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="sign_pitcave2" type="sign" x="864" y="768" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="pitcave1" type="spawn" x="544" y="96" width="256" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pitcave1"/>
+   </properties>
+  </object>
+  <object name="pitcave2" type="spawn" x="288" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_1" type="spawn" x="544" y="320" width="384" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_2" type="spawn" x="32" y="256" width="128" height="288">
+   <properties>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_3" type="spawn" x="480" y="672" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_4" type="spawn" x="224" y="416" width="224" height="512">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_boss" type="spawn" x="736" y="736" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="pitcave2_boss"/>
+   </properties>
+  </object>
+  <object name="pitcave1_1" type="spawn" x="64" y="736" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="pitcave1"/>
+   </properties>
+  </object>
+  <object name="pitcave2_5" type="spawn" x="64" y="96" width="192" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_6" type="spawn" x="384" y="192" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+  <object name="pitcave2_7" type="spawn" x="672" y="672" width="128" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pitcave2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

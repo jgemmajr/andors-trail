@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy9ktEKgCAMRf0xP0WtyIL6i766xxQULmOb66EeDg53t6tj3jnngQnwA6w6rabGa2EGduVNqM0Gr3omqMEeW2EBsuBDtYF5Y6fX5Rb3GuxxE4Lgw2kP5t8J6kKLu77eXUwfzHM+lLP1pjOS9NfA9y10Rn/5WmZUdyF+4DsCd0DSRMCa0/TczkeCppFyVv0DKzSxSA==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8YAMjbdTC1Ocwka6fVHtAYDeSPVehtCXUHBUgfgPEL9DMtcZizxYmhFoQ/kaiO6SgdA1QrzSS+E0oDTLPBig3B2pPHYnmgwDMfd+g7Aokv9dA/cQGxDJI4shqvjFiit1EMBmOMiD83cCAiA/08AOBI2j2EguQ3YYeBiC7QemmFRpGMAAKW11GVLdisxcmDwoDeRz2SyGpQdcHArCwQZY/woAKbjAg0gk+NZlMEGyJRc6KEVXPDTz2DRQAAMvyLtU=
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcQJORNmpx6YHx45mI14NPLS595JhBrD3IoJEJVR8y+w3pxhENyIkLagBywojW4MZAO4AEcGSgHUAmAACEOgcD
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxbwsTAsGQUDwiGAXqZjQ7w6SNGLSn6yQWk2EUN+9HNIMZ/xPqfmuFDr3RFTbOogQGtV4eH
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="928" y="96" width="32" height="64">
+   <properties>
+    <property name="map" value="blackwater_mountain51"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="sign_bwm52_grave1" type="sign" x="96" y="224" width="32" height="32"/>
+  <object name="sign_bwm52_grave2" type="sign" x="128" y="128" width="32" height="32"/>
+  <object name="sign_bwm52_grave3" type="sign" x="128" y="224" width="32" height="32"/>
+  <object name="sign_bwm52_grave4" type="sign" x="800" y="160" width="32" height="32"/>
+  <object name="sign_bwm52_grave5" type="sign" x="768" y="192" width="32" height="32"/>
+  <object name="sign_bwm52_grave7" type="sign" x="480" y="128" width="32" height="32"/>
+  <object name="sign_bwm52_grave6" type="sign" x="512" y="128" width="32" height="32"/>
+  <object name="sign_bwm52_papers1" type="sign" x="416" y="192" width="32" height="32"/>
+  <object name="sign_bwm52_papers2" type="sign" x="128" y="160" width="32" height="32"/>
+  <object name="west" type="mapchange" x="0" y="160" width="32" height="64">
+   <properties>
+    <property name="map" value="blackwater_mountain43"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="restless_dead_1" type="spawn" x="672" y="160" width="224" height="128">
+   <properties>
+    <property name="spawngroup" value="restless_dead_1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="restless_dead_1_1" type="spawn" x="256" y="96" width="416" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="restless_dead_1"/>
+   </properties>
+  </object>
+  <object name="blackwater_guard2" type="spawn" x="64" y="96" width="160" height="192">
+   <properties>
+    <property name="spawngroup" value="blackwater_guard2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

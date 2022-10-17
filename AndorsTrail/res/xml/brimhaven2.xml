@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="28" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJy1ls0NgzAMhcMtS5SeUKfsEt0B5ko3KZFq1X3yX8AcPoEaxy9O/EJrKWVl1J3X97k6UGyEx1TKs/zocxuD6zaHEV2kz30zqvK7xIjuItTLtfBdAmMj3Kb/vR6df2Zfl4t1e75NgNeMMVm6Wv8vTJePZek2gcpqxhhpfxDvXDQv0JmSLh/z7orIfaH1Pupm12uto0Pnm1Wv1scbaEr9fKZe606n/eW6kRqj9TYF6d7QYq0cI31Mvdw9xP3r3f/R74HXx+hfDy3vaB+jj/pzNtZw1KcR3b7n92D91rfR8xH3b6au5QH0b6ZuU5D8m6lreQB16T1D1+oz/E+Zpev56ApdYjY8eVTXyinlxXFJE2NJg4isT8onzT+Dta4IH4X2Tjg=
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJytVs1OFEEQ7u3lCUzcjRiOGgwHJRGD8bDxb8+cSXgAD8ankAuXJboP4EkQUVBR/kQPw8HoVSOaKCdvEryYEBK1vkyVU9tU7/aOfkmlqnuq+quaru6ZZsV1YNCVw82qPb9D679j+9qAc9dZmjR/n+amfa5ljTrbLZq/6zvtad87R8ljnDguDhx93uR6P0fiZ4mj7Ttty3enYkwSholzhHnDes/wur/Jrjm7Fln3OY9rLh0XjDnw/jJyjeWfijD+ZzAGb939X+z73j5No65uvakxGvH9EeHVNVu8/eAsyTnOQYB6de+LPaPyAe8tX0i/GDXmUK/ufbHBKzWDd8oXkoJed8t5kjGSBnNI72N83Be8wFwa5V/EesDy2SK5Qmf2NnFlql5gvg/OMncp6sz+sa/K3uEaZXhlv8Jzhf0L73B9vwu2fcH7QIkL7HmfSy/g/gnvcH2/CzLFu6BEj5fI5xlyIL1scOv+Qr3rpDd5fEDykuQVySHJexV3iuSt+h4MVfP9g8Y6c754nws+f9btmyC+yGeiUpwlx7zCfUzFfGS/Wb6zl13RQynnRiAxwjnItua9w88meTxUjWvEQtfUfCpqzPmBx6hrXO3bQ9aPWD/lXFdIzxDXi0htKQBnO3J+rDrvGbU1gnjsw6rrfo7knX6hWPn1uWTk0VJ89UBbAG/KOQKygG+Rtd6/llGv9T+0RrLBInmssn2VC5Q9bQd9JXisbP1OU/YzPNOCr2xvl/jehmio/yS8O+R/2uVn8hPzvya5TPXuMm/mO/MAFp0N2Q/0Adb83iXnEyQnmfsbc0o8XrfUu6v660Y198GzNz7fD9kDicH8nuI95O9qeEbEF3qJxk9cPs78UR+xtV8sPsYR+oYaz/8AaT6o7Q==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJx7x4AKOpkg9DsGwgCmlhrAjYV4tZnM1LNXngQ/kKKWUuBBQngMBrCEyuZZALEVmthbLOq8geHUwYRbTQeJcWYJxNZoYrjyAnL6R1dDzbyBDvClf0J5w5OF9DCBAXzpn5C9Xiy0CRNi/LuISHuXMBCfjgmVBfj8i55GQWnYG5rf0eMGW5onBHD5F1+Zju5WYsp/QmYQA6hRlpNjBjXKcnrWB0MBULsOIARgecMbS10Jy0dHGKlvL6F8RAs7CQFCecCdRu2J0TyACqgVzuqDwA0gcBQYvyfxxPENItN64xBrz8IAAHTVJEg=
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="28">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcIJN5oF0wCkbBKBgFo2CwAx+W0fpiuIBGloGxd6DSz6i9o/YOJ3uHOwAAmgkEog==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="28" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztk8EOwCAIQz34/1/hh+5kYgwDLK3ZYSRkHpDXIhu9tbHkGqP7mY2oj4rraZnnDNeqzTAYvU5CNTOUfYPB3JW3ejV3Z1S4yL8WaVFwvRlkZnTrLVR+VW/7c20uQ4PVU8Gdd9bvfs7EXo/OsBqIX28OJ71Vfqt7FPlic1l+EQ2Iz6yer+0zu2/Ei9iZusouIzt4i8fIByjCLKA=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="north1" type="mapchange" x="128" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="brimhaven4"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="480" y="0" width="320" height="32">
+   <properties>
+    <property name="map" value="brimhaven4"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="east1" type="mapchange" x="928" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven8"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
+  <object name="church" type="mapchange" x="288" y="480" width="64" height="32">
+   <properties>
+    <property name="map" value="brimhaven_church"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="school" type="mapchange" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_school"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="farmhouse" type="mapchange" x="704" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven2_farmhouse"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="laundry" type="mapchange" x="704" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven2_laundry"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="woodcutter" type="mapchange" x="768" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven2_woodcutter"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="prison" type="mapchange" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_prison"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="brv2_grave_1" type="sign" x="384" y="608" width="32" height="32"/>
+  <object name="brv2_grave_2" type="sign" x="128" y="544" width="32" height="32"/>
+  <object name="brv2_grave_3" type="sign" x="192" y="608" width="32" height="32"/>
+  <object name="brv2_grave_4" type="sign" x="256" y="608" width="32" height="32"/>
+  <object name="brv2_grave_5" type="sign" x="192" y="544" width="32" height="32"/>
+  <object name="brv2_grave_6" type="sign" x="128" y="608" width="32" height="32"/>
+  <object name="brv2_grave_7" type="sign" x="128" y="672" width="32" height="32"/>
+  <object name="brv2_grave_8" type="sign" x="320" y="608" width="32" height="32"/>
+  <object name="brv2_grave_9" type="sign" x="192" y="672" width="32" height="32"/>
+  <object name="brv2_grave_10" type="sign" x="448" y="608" width="32" height="32"/>
+  <object name="brv2_grave_11" type="sign" x="256" y="672" width="32" height="32"/>
+  <object name="brv2_grave_12" type="sign" x="192" y="736" width="32" height="32"/>
+  <object name="brv_ring_bells_random" type="script" x="416" y="64" width="256" height="416"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="woodcutter" type="spawn" x="800" y="288" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_woodcutter"/>
+   </properties>
+  </object>
+  <object name="farmer" type="spawn" x="736" y="704" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_farmer"/>
+   </properties>
+  </object>
+  <object name="farmgirl" type="spawn" x="576" y="640" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="brv_farmer_girl"/>
+   </properties>
+  </object>
+  <object name="brv_villager6" type="spawn" x="448" y="384" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="brv_villager6"/>
+   </properties>
+  </object>
+  <object name="brv_villager7" type="spawn" x="160" y="128" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="brv_villager7"/>
+   </properties>
+  </object>
+  <object name="brv_villager8" type="spawn" x="320" y="128" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="brv_villager8"/>
+   </properties>
+  </object>
+  <object name="brv_villager10" type="spawn" x="480" y="128" width="192" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_villager10"/>
+   </properties>
+  </object>
+  <object name="brv_guard_deputy" type="spawn" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_guard_deputy"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="brv_sign_school" type="key" x="384" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_sign_school"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

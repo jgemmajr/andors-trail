@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <layer name="Ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1lTluxDAMRenGS2Afc1JN6anHZxB0qFzFN5gyEsIPf3MoyUCS4sMLLT6Ki9yLyKi6JYWkB73rHY2OfSwo24akSfWpjDu9exj//H3WorFNBS26JlR01+/AyP6iKtufGhue2RYuMgIxBvIHbcZ3NBzLmJ04UB/sITh2T32X6tGdGYu85+JF+UJO2M+rwhiS/8lhcC7smq3ib5Wjt7w8W0akuFv54B58ytGHHmM3DK4l9NVgbboP9GFrH6Wa1mzQhxwzE5z73zJg5/5YzH2u26w1hLiOXh913c91L+TZ5g29a88DW8dTj8p57sAsMW7yPgPoHY/TG8ZKubexrxX/ljOr+LxFv0+OD9TZs9U4/C+orY1y/Uz0Zq4VVywwWnN2VbHC+AvtDgMz8V/K/r8BKUXEDw==
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyVVTtOAzEQtZetQtiCy8AFuAGsFIkGKQUNBSkSKR/ScQSkHCBF6BBIuQfStvQ0iCPgwX7yyzAm8KTR7np+b2Zsr3MZa2dj5fN763d12of18NM+JfzVruTXSzJJ67MgfR/XGODV+KhvKG/js/RJgM6oD5ilJ/fkOch1FcUlbviGXAU5rqIffOfpOQjr9z7qLUg88QeXSnGS3mie4M7rLy7m+Q+E45i+SxyBjbJHvzAv8JE4U1qTGtiPbRkT9Q0+6El98Ds/R/w6Y+9iNud76mR+UiP2n/if1FGHPC3VzJAcPEvoh2k/LI2cyHVal3lxPahDYi/I5ibtSeSXXixc7olwGBR6YM1lTXn1HDUnYEScJmTHM7ZyAWPSg/c8cQH/bbLVZ2ZlnLfbsHdGQd6DvJE91zOnd4k9dbt3QbvnHN+F2MsgHyI+nw/NDbE2dqhv6HtZ4h8m36PCvWX5Qc/3qvRzWGU+0PXC+6uqj+8fqx6OC6xS/K3Lvmfh+WD07pPONHoLvo3/GRt3wJDmD1yEtUdl90TxL9V+YnSGbmTwLZ0PwPp/Wij9k78AMa5V7w==
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlVEKwjAMhrt14KOn8ByeQ192AZ9lUxTEM3iI7dWBDg/lFWywhS5L0kwR/KF07Zp8SdtsxgzVmN8I/FbZkHHP5fXSXGuNWWXj97WfK73vXsG4eJuTfc+d3Xju2sbZrl1/zcc2GgV/mFkKMWHGNsGg/KX8YwYIYqVE5aBVbAd+dsSa1ur2RMPAvCA4R87/shjbphh71245b3NA44VnSDlyeUg23JlRa2YCg1Nn0+cS3w/M+ERUTvH9oBhTmdTdj/PEDM0+pxhSjFyN1YXMOPq+szyjifqpNRbyhv7hnykfgYHfPYl9g3qvou82Z8sxNIJ6h/9AL8T8LeNf9QKw4TwX
+  </data>
+ </layer>
+ <layer name="Above_1" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjASwchjYkcPEwBDPRGNLRsEoGKIAAG6VAiI=
+  </data>
+ </layer>
+ <layer name="Above_0" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHfADsQrR+0YNHbw0tj8UTAyAQA9vwLO
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzVkkEKACEMAwX//4s+dNnbIqaTSj1soBctnRgbc4z41KuYd+vPjEzUTzOUd+Ksd47HCsOZ5TDW/sobsyyd3sw/+XMYSu6O7vKg7B0WMWiew8sYldzUH58wyK86qzKyfabd7S6HoXLvYJBOd4K8E6fqqVO3/lrVA7LJxao=
+  </data>
+ </layer>
+ <layer name="Walkable_1" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHewhHnUjsEEQP4YLn4ZBYMHAAD10ANE
+  </data>
+ </layer>
+ <layer name="Walkable_0" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHewhHnUjsFmBz3sGQUjCwAAvo8D6w==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="128" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="mushroom_m2_1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="bogsten_check_necklace" type="script" x="32" y="352" width="32" height="96"/>
+  <object name="bogsten_check_zuulkhan" type="script" x="96" y="480" width="160" height="128">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="zuul_khan" type="spawn" x="160" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="zuul_khan"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_1" type="spawn" x="160" y="96" width="352" height="192">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="mid_fungi_2" type="spawn" x="544" y="448" width="224" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object name="dangerous_fungi_1" type="spawn" x="224" y="192" width="416" height="256">
+   <properties>
+    <property name="quantity" value="8"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_1" type="spawn" x="32" y="96" width="128" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_2" type="spawn" x="608" y="96" width="160" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_1" type="spawn" x="32" y="352" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_2" type="spawn" x="512" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_3" type="spawn" x="704" y="384" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_4" type="spawn" x="512" y="544" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="zuul_khan1_blocker" type="spawn" x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="zuul_khan1_blocker"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace" visible="0">
+  <object name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+  <object name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

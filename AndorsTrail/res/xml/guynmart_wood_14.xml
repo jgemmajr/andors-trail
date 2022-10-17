@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_38" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_38.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="15" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BiGOAgPJkcPLv3Emo3PfHL8NNDhO4pH8SgexcMFAwASXBa9
+  </data>
+ </layer>
+ <layer name="Objects" width="15" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxrYWBgaAPiFjJoZIAuDwOcQCzIQDooBuIXeHAZHj0PCZj9Fkk/sXrQ9ePS8wSIb2LBbIy4zYPpKcchX4JFPyE96PqR3UKMnuEC9gLDbR+esMcH7kD1CTAxMAQyQWhSgSBQTxAThCYGeJPpVhhIAupPQTJjDgluTgbqS6XQ/lEwCoYiAACwlC0T
+  </data>
+ </layer>
+ <layer name="Above" width="15" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzjYmJg4ARiEGgF4k4kGh8QAurhBmIuIOZBMgMmx4MHC0P1cqOZgU1uFI/iUTyKR/EopiUGAC/JGGI=
+  </data>
+ </layer>
+ <layer name="Above_1" width="15" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzjYmJg4ARiEGgF4k4kGh8QAurhBmIuIOZBMgMmx4MHC0P1cqOZgU1uFI9icjEfEItgwaJE6OVlQk3vfUC+NyMDgxgZemGAHnq/AbExM+l6kfMgvrw6ikfxcMQAftwZ4g==
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxLYWZgSCETIwNcctjUjoJRQA9AbNrFpxebWcToxcYnRy8hcXQ15OY/SsJqFIyCoQ4AVRsUHw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0"/>
+ <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace" visible="0"/>
+</map>

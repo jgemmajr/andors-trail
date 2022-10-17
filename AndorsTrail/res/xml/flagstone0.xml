@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJgDAMBdB2EKGKOovnXl3D9bqPbmFFCyEkGqUWkRwegsb8pHXGGBe1UY10x7ckECqiLvXqmX8CyNhqGqQSzoHrUq+A6qGUMTCkc8D3eG8Kl/dkDow6w6s9n8yRu7dSSin1ZfMNf8h1Vi5nbm3lSpzz2/tyuXDP6YV9ubscgcXszxL364Et12fOHS3NE3LmnimdJ7UCpPgGsw==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyVVzGO1EAQ7B1HaL/APeAkUiyf9kJIwKDVcmJJEOI4dFokUvgBYl+ABC9BXHYvQCQkEF0EOSE6Nzslt8vds6ak0diecVV1T8+sV2QamiSyyNc/ZuPxj4V335nrN8Gc9xN9QOuP4wG4PYFD57Rd+9vx1PkZONnLrTS8x7xmj95F1V8/z/0V+dbcvDb3+2JTHAXPLx3/98pU/7Dq2tcuxrud30X23Mo4H0fErXHXhoOxzPoYe2zGNrlfVH3jMYWtK83Vk67dLzTVOw7ibNLQl2KbYs5HAc/Drj2gZx9mvUfgTu4tv8fp5Q41Aa2oL/n2eNkj0Jprq6F5WjraIsM8Ws/MY1HTWNS/6NqZ83wfrFf1dhKMcY84ubfjyJHNqx2LPL4KuNnfmnjBxXnG/Wkax6LP7Hz1ZfcTg2MBF+JCrVhvXh51bkPnpBeL0Dzm0OtahriR+jyxdoRS3XgcnGPFPPvUHGyTXy+lGva0vbHWcEEXvxOe11Wg5dWXx2HXd2PmIt628J6ntQ3WXWS8l7w1mzvvezm263NF563dR+wH8VrtFek2qdfS+GtHU/GlGt5/yxz8jYC4Pe/zNK43zvFT0r0g3U+FbwR4R7wa21rGeY7WVXGzmtbzmejVvdWNago4qKb1LykOL4Z58s9Url/FW/HxS3Zre1gN47T1bDVPTLwbic+rw8KeUfyW/nsO8z/Lrt6XEp9X0Xnu7bvzzP/dPPuf73CsvepiH0b7Fvv1MqhbxKfQ+sW6QcP6BxfyHH0zRJgao3duQHff2W/xzKy19+3FmraubA5VV3MzRRu5YPyc7f7HrYP3rwElhaHE
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy9VssNQjEMK3CBKZgAtumxR4ZjS4REILKcNOkHnx5tsfNrk1J+eJ7KMghXhHOH7vXYPxs5E4VwWb60AMdjQl90GUf96M/wW7BiGPFX7BrF7P8RXnxEq6q1VmI2jMa99o98z3k2ePvaL/RvBhgna8+CZYvm0nFdXQsMqFGN76bWojahL5Ym2oOYqYMdGKmDTB6xdiN14+1ZMWKc0Xut64HxNnLW49qVq3/BusOClf4hF6tBXNMxvh1yeueBWYb5e0/qXoz+v/u+63mnF2sP2bdbdDM9ksHLL8tldFa13gbx08vvZUJXkH0Dmcb7N853vf4yAtRFTeHtvctsPvPgzf+sljP9PFPPq2cv1s+82UXjBRz0NcU=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztU0EOwDAIWrL//7IPWbLT0iiCWk8z2WkWBHHd17X+760JDqamua2+jHdIw1Qpejs5qngRV3avmRnUe4lmt3hO3RB603VHESY7l9qv6thn9Xi6tCCOKpaXm4jTy2D2nqqZVfPdlVfmf+R1l2dMZTLGYKH+qtfKLTH9HRlD1aEXZeUkp+L1pF60i8y+v73MfhGHwm1psfBZj5l/iANlOZMPhGe9YzlZbFVL5GGUmR3fw3oAJX7xQQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="house" type="mapchange" x="768" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="flagstone_inner"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="128" width="32" height="96">
+   <properties>
+    <property name="map" value="wild8"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="256" width="32" height="96">
+   <properties>
+    <property name="map" value="wild16"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="160" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="waytogalmore0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="stoutford_guard1" type="spawn" x="384" y="352" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="stoutford_guard1"/>
+   </properties>
+  </object>
+  <object name="stn_gyra_50" type="script" x="32" y="320" width="224" height="32"/>
+  <object name="stn_gyra_m28_1" type="script" x="32" y="864" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="forestboar3" type="spawn" x="832" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="forestboar3"/>
+   </properties>
+  </object>
+  <object name="forestboar2" type="spawn" x="544" y="160" width="288" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar2"/>
+   </properties>
+  </object>
+  <object name="forestbeetle" type="spawn" x="64" y="448" width="224" height="448">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="forestbeetle"/>
+   </properties>
+  </object>
+  <object name="forestwolf1" type="spawn" x="64" y="96" width="192" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
+   </properties>
+  </object>
+  <object name="cavesnake2_boss" type="spawn" x="608" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cavesnake2_boss"/>
+   </properties>
+  </object>
+  <object name="flagstone_sentry" type="spawn" x="384" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="flagstone_sentry"/>
+   </properties>
+  </object>
+  <object name="prisoner1" type="spawn" x="768" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="prisoner1"/>
+   </properties>
+  </object>
+  <object name="cavesnake2_boss_1" type="spawn" x="864" y="672" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cavesnake2_boss"/>
+   </properties>
+  </object>
+  <object name="forestserpent1" type="spawn" x="864" y="768" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="forestserpent1"/>
+   </properties>
+  </object>
+  <object name="flagstone_guard" type="spawn" x="288" y="128" width="224" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="flagstone_guard"/>
+   </properties>
+  </object>
+  <object name="stn_lizard" type="spawn" x="96" y="96" width="768" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="stn_lizard"/>
+   </properties>
+  </object>
+  <object name="stn_gyra1" type="spawn" x="128" y="896" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_gyra1"/>
+   </properties>
+  </object>
+  <object name="stn_gyra2" type="spawn" x="96" y="384" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_gyra2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="base_nondisplay:2" type="key" x="64" y="352" width="128" height="32">
+   <properties>
+    <property name="phrase" value="stn_gyra_52"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

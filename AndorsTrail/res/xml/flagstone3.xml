@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="13">
+  <data encoding="base64" compression="zlib">
+   eJyVkkEOwCAIBPmYT7FWU9sv+rxKosl2g5Ee5iLLRNAgIlendZ5O6hSgjnoeaCYQWNf+m3wNiKM+/exLVMd+y8dYPqyzL2x89YcP97HyRbojZnG+Kt99eGbmLN43ir2/1RnPap3Nv2H18g5PY1b2zb+xu4vmMmWtnMXqHYszt/pr3pxyOHNeH3oRT4ZzLx2Lge0=
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAJgb6Ag4C8iaMCPYaIJ6JQ902qDw+AJPH5ceXSGw2JDYuO2GgBQeblgBkzwwk/jYsamYy4HcPLDzKiLAPV9hisxcZvCQgjw6IcQsudWxYxEAAOW3gCxOQOg4ktdSIS0L5CRaH9M53hAAAm5gUfA==
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEL4kUwyWPrhab3nhG/GYhyxNjHj5ASP8MKpsHAox4/EeqeejhQcgsdLWUuJeYtIBNDa4wJcY8XH7F5kZsaolNHwOljlhAarqkBgAAiPEcog==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxTYWRgUAFiEFBhpB5GNg8Z0Mo8QuYjy2NTiwsQMgtX2NHKPGL8i81vxKjBZSYh83DpJUWMWPMIhQspYUWqHeiAkjjHpp4YNfjMowYGAPTwGQI=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="608" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="flagstone4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="64" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="flagstone2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="skeleton3" type="spawn" x="544" y="160" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="skeleton3"/>
+   </properties>
+  </object>
+  <object name="cavesnake2_boss" type="spawn" x="512" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cavesnake2_boss"/>
+   </properties>
+  </object>
+  <object name="skeleton2" type="spawn" x="384" y="320" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="skeleton2"/>
+   </properties>
+  </object>
+  <object name="undead1" type="spawn" x="352" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="undead1"/>
+   </properties>
+  </object>
+  <object name="skeleton2_1" type="spawn" x="192" y="96" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="skeleton2"/>
+   </properties>
+  </object>
+  <object name="skeleton3_1" type="spawn" x="192" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="skeleton3"/>
+   </properties>
+  </object>
+  <object name="undead1_1" type="spawn" x="32" y="128" width="32" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="undead1"/>
+   </properties>
+  </object>
+  <object name="cavesnake2_boss_1" type="spawn" x="32" y="288" width="192" height="96">
+   <properties>
+    <property name="spawngroup" value="cavesnake2_boss"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

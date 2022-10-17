@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="25" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_45" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_45.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlO0JgCAQhu82upqiZfqYpWFapaBlUiq4TD1TEYp+PEhqPr6nSABQKxqD8YD36XnEvon18ZaPN44xn0czP8S2P8mxPITXwVzL5SEEaBU9yhn0XLO2IY5K/dcpBpQzVHg/u9AsZiYbPV7r5MohOc5MK+wtR+ecLB7bOpInF19xxHh8Z5zDI93VUE+ILyaHy1PqPrzZ5XvjcrlKvA0p9+bnJ4UN0IXTog==
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyNVb1KA0EQ3rsExFxr4xvYCGoR0vgARoxCiqTLE2jpT2OlKUXB3so3EEFrCYip0qXPA4gIts6QHe6773YvNzDc/s18883M7jlXlHHq3Eaaz7dl/CrfjyRfmySutsTOvuge4Oz5seKgzVejHg7HN/DjEJdnsl1r1sPopEWcqR/HuFgM93LusUbO9NxxZG89UpcLn58b+d7WyJWe45rYvJUWuSg/4/Ij+iv6LXopa3eyN05ybsjxr1nME3JQmbkwF5MDsb+CfcVTbiGOXPcM7GJ1aYu+wbrGtd8o8zRZpMW+zGA+Ii6KMZTvIelZM+8HkwdZmwbOqn7CuO/C+RqnriRD8fmelFXF8PmOxfJlOOeEY/ZT8nEdiIdtZhGcLa+Kt6jwcyJ6RPMuzDsV9Wc86zmLDXuJcU4j8QwqcEJYhmcx9wjHsLuuLIqzmS51Fa+BV/PFPrF3FnQXRoRXhdUF+yd692JidxTzXYWlYnnquXJujBv2aYv8TFZgWb3Zf6wW1mfr9E+Y01uBWJpzrLf5nntfsR7LvC36xTemD7yw3txXKMhL62c1mXnffTiL9dSzlmf9V4X4hN4l48G+WSwHWA+sS6i3cC0LYKMPvtPml/MV6jeLzTC4Z0Ixo1+tM99H++7I/2fXa7uxxLA17kG2/QfyOpD6
+  </data>
+ </layer>
+ <layer name="Above" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAk4wMJIGjQPUqOORAZh3FYR4x9rwlzSlkgXcU6ic1vIjxUwcjZtgRY89HIP7MQJyfOvHEDbXASixipIYXMmhhhtAwf4KAPBNu9UcZKbNvIAGlbkfXT4x5lNiJnJZCgTiWATefUvORAaXm4gOxONggQA0/IZuFyx5qAErMJCVNwMIEW9gQE16E7AnFI07IbPT0Q6y/yIlnUvyBz2xqpjGYOdROt7D4RreHErOINYMYPdjcCAMwcXxy1AaUhL0ZtP7D5W8AbzM03w==
+  </data>
+ </layer>
+ <layer name="Above_replace" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAbwiXHo2xFLBztGwSgYBaNgFEAAAJ6nAzc=
+  </data>
+ </layer>
+ <layer name="Walkable" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzdlEsOACEIQ914E+5/xvEAfAqtk8k0YWEMfYKo7bXsRCXbmvgKh2Wh+ku/3rgPj5Wxvb2pKr9qPWWyHpFn1pfJDGf5SP+ZWrN6lPfAzi3D8/ZvcxRSvPMuI+pX5IVwmPlCc6K/CxVTx8QLZUzr6TJU580YVQ5yRkV0/B+6cyrE
+  </data>
+ </layer>
+ <layer name="Walkable_replace" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAagwjr07QCZTw9/jIJRMApGwShgYAAAtk0ApQ==
+  </data>
+ </layer>
+ <layer name="Above_replace2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqgNiBdsAoGAWjYBSMIAAABQYAXg==
+  </data>
+ </layer>
+ <layer name="Walkable_replace2" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="west" type="mapchange" x="0" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="wild15"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="foaming_flask" type="mapchange" x="576" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="foaming_flask"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="448" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="vilegard_n"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="768" y="448" width="32" height="288">
+   <properties>
+    <property name="map" value="road2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="sign_foamingflask" type="sign" x="448" y="224" width="32" height="32"/>
+  <object name="sign_road1_nw" type="sign" x="256" y="256" width="32" height="32"/>
+  <object name="sign_road1_s" type="sign" x="448" y="480" width="32" height="32"/>
+  <object name="north" type="mapchange" x="64" y="0" width="256" height="32">
+   <properties>
+    <property name="map" value="roadbeforecrossroads9"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="brv_patrol_check_stop_hero" type="script" x="192" y="224" width="544" height="448">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="achieve_road" type="script" x="128" y="224" width="32" height="256"/>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="ff_outsideguard" type="spawn" x="640" y="224" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ff_outsideguard"/>
+   </properties>
+  </object>
+  <object name="forestserpent2" type="spawn" x="128" y="544" width="224" height="224">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="forestserpent2"/>
+   </properties>
+  </object>
+  <object name="beetle2" type="spawn" x="544" y="608" width="192" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="beetle2"/>
+   </properties>
+  </object>
+  <object name="beetle2_1" type="spawn" x="64" y="352" width="224" height="352">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="beetle2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="stop_hero" type="key" x="160" y="192" width="608" height="512">
+   <properties>
+    <property name="phrase" value="brv_wait_patrol"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="thieves_hidden:20" type="replace" x="32" y="288" width="64" height="96">
+   <properties>
+    <property name="Above" value="Above_replace"/>
+    <property name="Walkable" value="Walkable_replace"/>
+   </properties>
+  </object>
+  <object name="thieves_hidden:30" type="replace" x="32" y="288" width="64" height="96">
+   <properties>
+    <property name="Above" value="Above_replace2"/>
+    <property name="Walkable" value="Walkable_replace2"/>
+    <property name="requireId" value="thieves_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="30"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn_guild">
+  <object name="Feygard_BG" type="spawn" x="96" y="288" width="192" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="Feygard_BG"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn_knights" visible="0">
+  <object name="knights" type="spawn" x="160" y="192" width="608" height="512">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="21" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="21">
+  <data encoding="base64" compression="zlib">
+   eJytlEkOgkAQRZsNp8LhWiAINzJ6AzyCw45TuHRldagvP2WXEuLiJaSLfjU0TR5CyIXyT+QE1nb0fEowxwdPJ5yFZqZvZ4CrUk8v1ORjDsKR9iI34D2VeuJzkY2xZ6IGdiA3YF+nHtDQ+tlx4F3Uznt6ja+EjfDQmm0NiHPu6Bioz576XAvbbIqVpm7E4/NAHp5bkciXig3hcx72zOOeNpuwZ4T+GpNjiS+C/jxf5CLcnJ7sLJBnT+t2Zlfh7vhsv+/aw+jkbzF13375sB59bfDvg+fjvroFPvt9tfoevksbi/meeqaerwyfezr12fvQUm08T8+JvnqF7wOo1cX9Y078X6vIyXcwhZ0n5vTNx/tT/wHr+3XW3n/A9l6T4wXMecGR
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="21">
+  <data encoding="base64" compression="zlib">
+   eJydlE0OQUEMgGeeA1jYO4MDSKzEBitxB1zBxsqBEP8r4W3FEcRebFjS5k2jajpvaNLMm59+7UzbZ0wmE9Cp0aVWeH/PQRdOQzYbz9oB9GzfegFdwdra6Uxhlez3XgNi2sHYY1q2gYAEq5hk86cb+R2HST7HiJi7SXa/Q4RdN4JPb/WIC8WkoNXA/gC0Bbw26Enxn4o58m7KOeTV7fc6zzHF7mOQ3I1+T2Q9nH0CZ45uvQO5uhay/UtEzkkG7JvnmwTrSauhEXuzirPVclPxsEn6bhxH1hgX7D3Zc3Snf3jYe7KvtvaTx32ir4W4W14tNwM+kbcMvJX0j4I56itn6S1kH+wU/3lM4mGN/lJn0qfkxTKpl+gct0/FPIZJ/8uyh0e9JsXH1PoZeXsXW+i/RT0vWS9vkVqI
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjZWSgKmCDmrcXj5ooZtxyTGS4JxqPecigkgG/u0JZSLcbGWgD3XGcSLU+lFlFEfhIhJo6YDyEERmutUSoCQaa9Q6Hechhhs9t7kS6h5YA5NdKJEwpQDarigrmkQPQ85wBEkaXRxaHAW0C8eLDiMC45AgBLyQ1mkSkg6OElaCAC0SooZaZakjlDDFmYlPfwIQQU0WStyeiDFMlo5wj1e8wgM892MwEANlBGL0=
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6wJGZuubcJ8E8fHZrEmkOshn47MZlHrobiHE/SA82dbjEyTELBIgNA2L10MM8QukJl3l/mbDLEXIzsnwTC2l6CZlHqluGonkXcIiD4pEc83ABTSqZ94YZYR6peQ0dgPwYg2QepQDZDErdhm4eOQAA5/IR7A==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxLYWZgSBnFVMUgQC1zYIAcPej6iDUPnxnY1BHST4z7CZlFSvjis5ca5hHyH6nhi81saqWTwWAeLTAt3IfPPGr5GV+6ocTN6GmIHD/jA+Sah89cbPoBK/CD+Q==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="608" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="elm_4f_3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="elm4f5_monster1" type="spawn" x="384" y="192" width="128" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine4"/>
+   </properties>
+  </object>
+  <object name="elm4f5_monster2" type="spawn" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="shadowfang1"/>
+   </properties>
+  </object>
+  <object name="elm4f5_monster3" type="spawn" x="256" y="256" width="64" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine2"/>
+   </properties>
+  </object>
+  <object name="elm4f5_monster4" type="spawn" x="224" y="512" width="256" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="elm_mine1"/>
+   </properties>
+  </object>
+  <object name="elm4f5_monster5" type="spawn" x="32" y="288" width="96" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="bwm_olm2"/>
+   </properties>
+  </object>
+  <object name="elm4f5_monster6" type="spawn" x="256" y="544" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="bwm_olm2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="elm4f5_locked" type="key" x="96" y="320" width="32" height="96">
+   <properties>
+    <property name="phrase" value="elm4f5_locked"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

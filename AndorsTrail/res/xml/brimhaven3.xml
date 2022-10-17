@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytl91twzAMhKVuEI/RHTxKHDuIkpeO04H68+KxaqEmcD6REpU2wAGxZOkjKZK2xxDC6NRl09umB4xdQedNi0N5/dyh285NMMa2XR1KTvtE900r+SU2WDFCu2XMGxfmTrFUCnp8cH0Cdg932bmXWEp8YHtyXOWX75Hc8JwHKnPnWGrd59mePD7EX63Afe9UXrvEUqthE3PTH7ioIR6vNXuQK7Hu5X7FOlcbQ+76JPfb2NMj5LKtLI/PnMPsI88/gj03RZudfUZ2K4d5HrkfsVTNZ2RzDr++HLk87+XW2J4c5vkRuJ+xVIvLZz3Qf77GvmHFYiauJ96efE7ErfUgb7yt2sI56RtajffWlRZv5mp15NFp1zPx5rxt1S/Xco1bY9e42jOVe4FwW2yNi3WCXC2ftedZz1lbvQO5Wj5rvcCTa+wz75+5067Wswz3OSl5x2ytjrh3ZN0MhlWLrZjXeolw8/v4PegxtNTicm7jvcjtYVrnUDvn/+R68rvGHZ2sKRzzUDs7K79wH/6mmCrSvkH4Hs1n9lfW/gDhi7PP
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzVVjtrVEEUnr13XbWzEAWbgJUIVgoSxFITQtpUW9otaCFxQYNsZ6vINv4Ai+Cmi2hlY4zPgI3m8RtkNQhWgp7jPZ/327Mz9yYbGz84zOw8zvM7czeEEKbCZPiRTXjRcPhg1//ioH78TziSp/c+NAoBfF46iTwt7iF/R/P0/Qti86zz64qcfZkV4yArbHRoTedL9pux2gzhmUgrL2MY1PjHcT7K9ibrIg/l/Kbdeyo2n4u0KX9dG9/J2htbP0Fxfq52K4rVUNgGdkXmRfe2rH3MS38U78mXk2Z3hfzaL/pi4zXp7Nl4W9buiFwWWbL9TrM8s23+qm+T9Fqf7nvfV/ap66r6l5AZkSmKD7nmmGNoSazTNt9JnJkVHacSe8NQ5ghAzGpbeRKr2ZmssFuVA93rJfbUrupepjXml9q+Z7Erf1vE3ekwCt07JnK84n0B5izXPh+e20C7Iv+6tybyqqZGCs3x0ObLbs/XGnXcdee4Z3kP9bvVKETzgbnqmktwTMG1rkOq1t1GIe1GOT9PtYhxLJbv6/ROePj3it8a5sPp5qhdRVW+Vc9bi/2ryDc7E+NtXb9jHxyL9SPn+wblaN58+JV4o1K97VEXM2wDvi6Toopjqd6qguYfPY0Rb4Dvdc2Nxq09nbKtMaOmqNOG9cqGu4Oexog3AL+ZG8g3+Mj2+4mY9f8DeoWxJesz4s99ujcIBTfwTYPvwzCOa04YN0XHotl7HLn7Quw+ELtPnM/Mj17CbjhUTv13OqaHgXgXsqKOWsMFysMgjL6dCnyLmePcV+iV1H+cL1kZ7yflEXEX6+rDuby0y/3H9U9xuxvG35C7IpdEftKoa9o76+7/wKzlEPVGLKnvJbAZxqF3Lop8pxFxq501p2MrEo/WIMYvfhO9nn+BP744fgE7zuZvPyK7jg==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlktqwzAQhqWYgrvJsl4WQi6RZa6RIxRaKL1AV930EFnnHM46zWPTo6TJphaWYBg0D1m2kx8ENvLo04xnNDImTZvE7/vSvXDndhzuK+J8C9zlxJiTbUeO3hh7vCen9SSPJ+nTxvf0WPTHeEE+1M27Jdbn8nBn5ZGqvbfh4qzhdmHnKoXL1ZVUc9z8Ec3F6qos4vO45qiaDPZL5h9JOczV3Q8xN/P2z2ge+lw90OtKkrhO2GfI3iN7nMOw7rbgmYoFjBf2GbO76Iuwl2qe07kZFwW7Bv4/eT9dvBbouxDvwKV8/mvGVcF1WnheVbTPmOkU4g1rWop3rF9AaXup8znlHKPyNuyH66VlJMe0PlNcrraDqH6mYWvWp3RQ2sbYU0UPhnkNz4Oce8N7s87HDfqZJO7819iuTDtswpnt7HJiyfUOTn3cx2G8xuR28fl34Hvu0NLm1z97Pk8t
+  </data>
+ </layer>
+ <layer name="Objects_brother2_open_door" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzTENADAIADDIEkzi3wcO9nLQGmgE8FNv5+3ceQEAuGMAMkQAZg==
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxHMZxpoFxAHOJhpa/5K2hqPEwyV8B8Fo4BUMFB5arCDK4wD7YJRMAroC0bLglEwCkYBDAAAu9QEHg==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk1EOgDAIQ83OuvufQX9MzFKgBaY/LtmHWelj2M1xHPPazLp1c/Ttr7hKfz+X+4dvctd8dHEZP4vNZhnNDHEtf68fhe35Wb6VXHi+bP+MJpMX9jyT/46+MtzK+6nMis2TknGFixhoZbioztNGbPTNsL3+Fe6zhuUi7eqBdMp8UH+Rp/fWrFomY8pdOrgReyc3qslymTt4fKRReq3kD3moM2W9GR+G3eXD6D1d5c7MrDMz73gHVr525GDHtpgnIovXjw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="320" width="32" height="416">
+   <properties>
+    <property name="map" value="brimhaven1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="800" y="128" width="64" height="32">
+   <properties>
+    <property name="map" value="brimhaven6"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="64" y="0" width="352" height="32">
+   <properties>
+    <property name="map" value="brimhaven7"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="brimhaven_employee" type="mapchange" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_employee"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="tavern" type="mapchange" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_tavern1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="burhczyd_check10" type="script" x="832" y="736" width="96" height="32"/>
+  <object name="brother1" type="mapchange" x="512" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_brother1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="brother2" type="mapchange" x="672" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_brother2"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="inn" type="mapchange" x="192" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_inn_east"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="brimhaven_metalsmith" type="mapchange" x="128" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_metalsmith"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="fortune_teller" type="mapchange" x="608" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_fortune_teller"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="brother2_door" type="replace" x="672" y="192" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_brother2_open_door"/>
+    <property name="requireId" value="brv_nondisplay_multipurpose"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="brv_fisher" type="spawn" x="608" y="736" width="96" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_fisher"/>
+   </properties>
+  </object>
+  <object name="brv_fish1" type="spawn" x="448" y="480" width="128" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_fish"/>
+   </properties>
+  </object>
+  <object name="brv_fish2" type="spawn" x="32" y="224" width="320" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_fish"/>
+   </properties>
+  </object>
+  <object name="exit_guard" type="spawn" x="832" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="brv_exit_guard"/>
+   </properties>
+  </object>
+  <object name="brv_villager1" type="spawn" x="704" y="256" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="brv_villager1"/>
+   </properties>
+  </object>
+  <object name="brv_villager14" type="spawn" x="256" y="576" width="192" height="320">
+   <properties>
+    <property name="spawngroup" value="brv_villager14"/>
+   </properties>
+  </object>
+  <object name="brv_villager15" type="spawn" x="224" y="320" width="160" height="256">
+   <properties>
+    <property name="spawngroup" value="brv_villager15"/>
+   </properties>
+  </object>
+  <object name="brv_villager4" type="spawn" x="672" y="416" width="160" height="288">
+   <properties>
+    <property name="spawngroup" value="brv_villager4"/>
+   </properties>
+  </object>
+  <object name="brv_ball" type="spawn" x="800" y="864" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="brv_ball"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child2" type="spawn" x="800" y="832" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child2"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child3" type="spawn" x="800" y="832" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child3"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child1" type="spawn" x="800" y="928" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_playing_child1"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child4" type="spawn" x="800" y="832" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child4"/>
+   </properties>
+  </object>
+  <object name="guard_advent" type="spawn" x="128" y="736" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="guard_advent"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="andor:1" type="key" x="608" y="896" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_fisher"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="andor:1b" type="key" x="640" y="736" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_fisher"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="brother2_door" type="key" x="672" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_brother2_door1"/>
+    <property name="requireId" value="brv_nondisplay_multipurpose"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+  <object name="block_exit" type="key" x="800" y="128" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_exit_forbidden_10"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="100"/>
+   </properties>
+  </object>
+  <object name="block_playing_children" type="key" x="768" y="928" width="96" height="32">
+   <properties>
+    <property name="phrase" value="brv_playing_children"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="143"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlUsOwjAMRMMV2COVCnpL9r1Uj8GnlE97E4qUCGs0id3visVbtJp4HGei5M65PMJJcOw5iG9tzVefefaEk5FdTzFQz/wCmUKsrkUfm0kOPVyBPcwrcBioZ8gebkDu54X1i4H60JOkFEhdLf5j/fC/BmL60JOkjOjvhvp3T6Poa/BB5H5LqN8IH1z3UPRsTWy/od7cMF+cy1q+eFbampeRUvHFs4r5hu+3EW2/2mxR0wpS+9V8Mc+owz46fy7dhP2e3bQ8twlSvhfH82w9gy7BmDyzucx9j1ieq56np/JzWcp3Sax5XsOX5Rn7Ye+GhZRvLM/sPWUzSjEmz6n3lPXEsOSq8gQdvu/aG8+w5tmaK9YTQ/Nd+i5p+dtufszZnzX7Q+/LH84HVWJPAQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytVrlKBEEQ7fET/AsDM8FAcTPB3EQMTAyNjPQXFpRNBkFYUDBRBDVZf2K/wtv1vu+jiunH1JbVM9Pqg6Knq6v7VVV3V49zOaZ9e+jbzcSZaHn9sDGu57REvxNYb9LQTdmm+bol48AXyUyAt3D9JItlJMIe4DweBi3jcBFha+Xxt7j84/w6yZ6h5zPTl3TnC+B8zyn9k28tewujBWNTxvrAmtI/+zZk77w+JVkUtkuVvMzA+am57jy9kLySvBn2Ka2f9Dg3T98Nl+W4WbA20F8hd0U2GOOW85t6bobOW19gnSo+lIFjLopXc7BvrD8nuYrgeRffqeesCx1y2xa6LZLtCA4LH+KbY10g2fD9mhizclmU34cIXpxnnedd1T91eX4ZZ4YPjxV4MQfnuR6wtWoJeGOh4x0q4MB55ljlXdW8Vc43eNkW+8t55rrRVrZ7qv0vYH85z/ruHnkJYZ/kIEI+xVwZL0PXvTLIGhQDGa+FHbV+rD8hva7POtay/WX9tet+I3Z8i3tXE32A411JMm7rLQrVZ+Da/TwXEroOANjfdd+X9aqTlMd7Q3JX7JoJ6zxrDn4vTwPzb0nuIznl/bXG4ENsnZYI/Svznjb8N+4j+GJ4qrz3GqloVwX/McmJkI77WQtC+17mJ/9vNFy+zzLnyyTjNL+XZNavI8+89PE3dUty4ozhXA8Q3wTJoPIf4xxv0/vfdPl/BJAq/ZLQS84Fl+cONmNJFrvkw71rqLlowYU4UJ/Aj/43PQDBXw==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy9VjluxDAMtJXT2dz3fVZ+w6beb/gb2+QZLo18I0e1X0mRIkDS7XYLhIJNmEuQsmQ7GYCgj7GGoijRUVTjK45EDCs/hvcp4Wh8XzwKz8bKmFn1fAT2RGwo03uPqw1Xys+3wFs3+hipMIaLP2L3BZgB/o/ATYweTyboanwtJiPwkafFY3FpSlut7m0OJD5+Mwc/AU5OdDk/YfHZsXfBDk2d4ytTGoLmgPIxpnm0uD7afD/AD8i4e3B9pORYAvIxJkm3ab59QNJF4FptVP4F7I19fwrvzgPszjTrIjCXr2DvQuxa3UqwazZR8swxEJ4dm9K0fSfhFrj3Rq8rH5yY0s7ALsCmUbkuTXN36Wr714VZ5Zvmnjh0u9bz1OHTeFG3ILoIrOdNh660LjOHz2L/9aVnww68PyCcJbheDrCHhrr61KfYGdp59R/oq57b6j7Hta5WzyH91FfXVc9bjv6LcYWelTTP+L/BgfW8Tfoo78G+ZyXGGVpXtI/SHnzNYrKgvb6p7+N+XGmxZjSmGyPHaCHtI66/xvT3hbOgTYySbiEydYSeWfTc4gjVbgPffzMNOfNd8Bfzzdm4eP8LWepcJQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk0sOwCAIRO39r+lBuiUGhqEItklJTP0MPgQ6rzHmx4a007H8w69Vpd66I3LPqmd9Vx3D1XyQL7OHfHfb27jyzPPL9hDiWvNoDIjL5mg3F8WC9jJcpI3kIsL1tNZ7s1y51uYRvhWTxZXnXv6r/qNKY2rewbVyw+ZQW8vvk/d21fdUX1naTByIu9aBMTYmjav1Q5WxeUHaXdxdMWfq383u4t6w+wCw
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAMA6D1D/R8jzEGmsBk07UDAAAA4x6LJwC3
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="128" y="928" width="320" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain10"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="house1" type="mapchange" x="576" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain21"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house2" type="mapchange" x="352" y="736" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain22"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="burhczyd_check9" type="script" x="320" y="768" width="96" height="32"/>
+  <object name="house3" type="mapchange" x="128" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain23"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house4" type="mapchange" x="128" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain24"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house5" type="mapchange" x="128" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain25"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house6" type="mapchange" x="320" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain26"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house7" type="mapchange" x="544" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain27"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house8" type="mapchange" x="704" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain28"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="house9" type="mapchange" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain29"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="sign_prim_n" type="sign" x="256" y="416" width="32" height="32"/>
+  <object name="sign_prim_s" type="sign" x="256" y="736" width="32" height="32"/>
+  <object name="ehrenfest_selector" type="script" x="416" y="384" width="32" height="160">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="jern_shouting_selector" type="script" x="480" y="448" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="prim_commoner1" type="spawn" x="288" y="768" width="608" height="96">
+   <properties>
+    <property name="spawngroup" value="prim_commoner1"/>
+   </properties>
+  </object>
+  <object name="prim_commoner2" type="spawn" x="288" y="576" width="352" height="96">
+   <properties>
+    <property name="spawngroup" value="prim_commoner2"/>
+   </properties>
+  </object>
+  <object name="prim_commoner3" type="spawn" x="224" y="256" width="128" height="160">
+   <properties>
+    <property name="spawngroup" value="prim_commoner3"/>
+   </properties>
+  </object>
+  <object name="prim_commoner4" type="spawn" x="416" y="160" width="480" height="192">
+   <properties>
+    <property name="spawngroup" value="prim_commoner4"/>
+   </properties>
+  </object>
+  <object name="moyra" type="spawn" x="64" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="moyra"/>
+   </properties>
+  </object>
+  <object name="ehrenfest" type="spawn" x="448" y="448" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ehrenfest"/>
+   </properties>
+  </object>
+  <object name="ortholion_guard1b" type="spawn" x="96" y="864" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
+   </properties>
+  </object>
+  <object name="ortholion_guard1a" type="spawn" x="288" y="864" width="128" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
+   </properties>
+  </object>
+  <object name="ortholion_hidden" type="spawn" x="480" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ortholion_hidden"/>
+   </properties>
+  </object>
+  <object name="ortholion_guard_hidden" type="spawn" x="512" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ortholion_guard_hidden"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+</map>

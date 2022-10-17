@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BhA7DPA9uPDHkiYAUpTYp4nFkyJeV5A7IuG/SkwzxuI/aB4NpQOGATxMJAYAMReDE8=
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBg4ANiXiy0EBQji3MBsQASjSxux4hdLbrZyGaYMzHAgRiSepg8untEsJg9CSonC8QhQPwMiA9BaV009bj8ag10+wM0cThgRDA90NyHHh746JmMmOZ5oqnjgYqD3P0EytaE+vsZlK8FxIFAHAzEoVDj3IDhuANqriYTwkxuAngBUE8QCAPZt4F0GJDeD7VnJ5AvCjWPCxrGDEjuEmFABaFA9VMYsduzDijOwoA7frGlFRjgR/I3CFgzIsSXMyL032dC6H0AxApYzCSWXgQNQwCXvhvq
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwTZcANZIFYFI88MhCFqkcGqnjUw+R+MhFvN7rYfTxqkd2Fy32E7EMGHkhsRmbSwoYQ0GQi7D5SAMwsfOFPCuBDMlMWiY1OkwLQ1YPiEt29+OxCpmFAFE0vJQCmHwBQQAg8
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxTYWZgUBlAjA6oaRY1zBwMYUKJn4gF2PRRYh6l7iYUn+SYRw4GAKLBFj8=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="house_entrance" type="mapchange" x="448" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten1"/>
+    <property name="place" value="exit_south"/>
+   </properties>
+  </object>
+  <object name="backyard_entrance" type="mapchange" x="448" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten1"/>
+    <property name="place" value="exit_north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="64">
+   <properties>
+    <property name="map" value="bogsten5"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="cave_entrance" type="mapchange" x="384" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="bogsten2"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="forestwasp" type="spawn" x="64" y="160" width="352" height="128">
+   <properties>
+    <property name="spawngroup" value="forestwasp"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

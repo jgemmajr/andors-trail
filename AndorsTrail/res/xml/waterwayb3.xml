@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="13" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4KASLgLiAiqaN4pH8SgexaOYthhWbiOX3wAZ5g6n
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="13">
+  <data encoding="base64" compression="zlib">
+   eJyNVMEKwjAMbcWLRy8b4mmgF9FPKwwPHh3oHAh68af8LVuWx96yVBYI6bq07720TeecO0Zvo5+j19E7+f4Xb9Hvsvbt+3nYnPXA4rj3wx4vcW2a58cPex5VbuN7L+V74aeYiMDcRN/KuPEDHmM3wnOp8ILBL1mRweScl8Gf/0NjIF4d5RZuPJdyrhm9vA41wpj1FhIPbmp8VpyL/XM1XkVfG+tYI3PjnIYwS8oD58rA1Hovijfvc5Jo3SPNLUgETk4v15PrrDVapuuOOvAd+6fXqqc+N77DweUNPLVeftOVwXWO7fzAV9fv4cbagJXmn+o/+COHaxuIn34nrAtRc/kaXKz7BbPOPZeT60m1m/YUjumeLvy05/B7aCmX+yT3Y21p/gfbZG6Z
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="13">
+  <data encoding="base64" compression="zlib">
+   eJy1U0EOwCAI4zXbSz3wMr41LyaGQAFlTYxbhLZqZSIaczDVsHpOehHfwjPHC9aRphz4i2q0tji+snwRRkP/jYeT3kjzj5zI9o3y0ZVTzWmB1Wz5QZC4xEXnGeszizK56tHbEKPeQ2UvHlfm3q193eR/12S1lvWUgeZA/1W9D3dBKos=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzNk8ENACAIA3H/NRnEv0HagiSS8DBijyr6MvNPkonojKKB2NkaMRhdVBPpRR6jXirMm4dqdN66ylaY7Iyg3iZmmw3Fq8JGtdM+0d/u+M72VQbjm7mPV9wXOmdueyrHfA==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="928" y="32" width="32" height="64">
+   <properties>
+    <property name="map" value="waterwayb4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="waterwayb2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="waterwayacaterpillar" type="spawn" x="224" y="64" width="224" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="waterwayacaterpillar"/>
+   </properties>
+  </object>
+  <object name="waterwayamushroom" type="spawn" x="544" y="128" width="160" height="256">
+   <properties>
+    <property name="spawngroup" value="waterwayamushroom"/>
+   </properties>
+  </object>
+  <object name="waterwayamushroom_1" type="spawn" x="416" y="128" width="192" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="waterwayamushroom"/>
+   </properties>
+  </object>
+  <object name="waterwayacaterpillar_1" type="spawn" x="576" y="64" width="320" height="224">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="waterwayacaterpillar"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>
