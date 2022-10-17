@@ -838,6 +838,23 @@
             {
                 "text":"I'm hungry. Do you have any food to sell?",
                 "nextPhraseID":"sullengard_godrey_sell"
+            },
+            {
+                "text":"Do you know by chance where this lost travelor is?",
+                "nextPhraseID":"sullengard_godrey_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -2505,7 +2522,7 @@
     },
     {
         "id":"sullengard_ainsley_3",
-        "message":"Thank you so much, kid. Tell my wife Ainsley I can come home on time today.",
+        "message":"Thank you so much, kid. Tell my wife Hadena I can come home on time today.",
         "replies":[
             {
                 "text":"You're welcome.",
@@ -6787,5 +6804,16 @@
     {
         "id":"sullengard_town_clerk_10",
         "message":"If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
+    },
+    {
+        "id":"sullengard_godrey_10a",
+        "message":"Sure. Look at the table over there. He is my best customer at he moment.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_inn_traveler_spawn",
+                "mapName":"sullengard_inn"
+            }
+        ]
     }
 ]
