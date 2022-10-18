@@ -175,10 +175,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     private void completeLoadSaveActivity(int slot) {
         Intent i = new Intent();
         if (slot == SLOT_NUMBER_CREATE_NEW_SLOT) {
-            List<Integer> usedSlots = Savegames.getUsedSavegameSlots(this);
-            if (usedSlots.isEmpty())
-                slot = SLOT_NUMBER_FIRST_SLOT;
-            else slot = Collections.max(usedSlots) + 1;
+            slot = getFirstFreeSlot();
         } else if (slot == SLOT_NUMBER_EXPORT_SAVEGAMES
                 || slot == SLOT_NUMBER_IMPORT_SAVEGAMES
                 || slot == SLOT_NUMBER_IMPORT_WORLDMAP) {
@@ -189,6 +186,15 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         i.putExtra("slot", slot);
         setResult(Activity.RESULT_OK, i);
         LoadSaveActivity.this.finish();
+    }
+
+    private int getFirstFreeSlot() {
+        int slot;
+        List<Integer> usedSlots = Savegames.getUsedSavegameSlots(this);
+        if (usedSlots.isEmpty())
+            slot = SLOT_NUMBER_FIRST_SLOT;
+        else slot = Collections.max(usedSlots) + 1;
+        return slot;
     }
 
     private String getConfirmOverwriteQuestion(int slot) {
@@ -400,8 +406,16 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
     private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles) {
+        importSaveGames(resolver, appSavegameFolder, saveFiles, false);
+    }
+    private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles, boolean addAsNew) {
         for (DocumentFile file : saveFiles) {
-            int slot = getSlotFromSavegameFileName(file.getName());
+            int slot;
+            if(addAsNew)
+                slot = getFirstFreeSlot();
+            else
+                slot = getSlotFromSavegameFileName(file.getName());
+
             importSaveGameFile(resolver, appSavegameFolder, file, slot);
         }
     }
@@ -543,7 +557,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                                                       List<DocumentFile> alreadyExistingFiles,
                                                       List<DocumentFile> newFiles) {
         final String title = getString(R.string.loadsave_import_overwrite_confirmation_title);
-        String message = getString(R.string.loadsave_import_overwrite_confirmation);
+        String message = getString(R.string.loadsave_import_file_exists_confirmation);
 
         StringBuilder sb = new StringBuilder();
         sb.append('\n');
@@ -560,7 +574,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             if (fileHeader != null)
                 fileHeaderDesription = fileHeader.describe();
 
-            sb.append(getString(R.string.loadsave_import_overwrite_confirmation_file_pattern, alreadyExistingFileName, fileHeaderDesription));
+            sb.append(getString(R.string.loadsave_import_file_exists_confirmation_file_pattern, alreadyExistingFileName, fileHeaderDesription));
 //            sb.append(alreadyExistingFile.getName());
         }
         if (amount > 3) {
@@ -572,12 +586,24 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 getResources().getDrawable(android.R.drawable.ic_dialog_alert),
                 message,
                 null,
+                true,
                 true);
 
-        CustomDialogFactory.addButton(d, android.R.string.yes, v -> newFiles.addAll(alreadyExistingFiles));
+        CustomDialogFactory.addButton(d, R.string.loadsave_import_option_overwrite, v -> newFiles.addAll(alreadyExistingFiles));
+        CustomDialogFactory.addButton(d, R.string.loadsave_import_option_add_as_new, v -> {
+            newFiles.add(null);//add a null element as marker to know later if the files should be imported as new or overwrite the existing ones
+            newFiles.addAll(alreadyExistingFiles);
+        });
+
         CustomDialogFactory.addDismissButton(d, android.R.string.no);
         CustomDialogFactory.setDismissListener(d, dialog -> {
-            importSaveGames(resolver, appSavegameFolder, newFiles);
+            boolean addAsNew = false;
+            if(newFiles.size() > 0 && newFiles.get(0) == null) {
+                newFiles.remove(0);
+                addAsNew = true;
+            }
+
+            importSaveGames(resolver, appSavegameFolder, newFiles, addAsNew);
             completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES);
         });
         CustomDialogFactory.show(d);

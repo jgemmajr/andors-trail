@@ -494,8 +494,10 @@
 	<string name="loadsave_export_overwrite_confirmation_title">Overwrite Existing Files?</string>
 	<string name="loadsave_export_overwrite_confirmation">The target Folder contains existing files with the same name of some Files that should be exported. Are you sure you want to overwrite those files?</string>
 	<string name="loadsave_import_overwrite_confirmation_title">Overwrite Existing Files?</string>
-	<string name="loadsave_import_overwrite_confirmation">The target Folder contains existing files with the same name. Are you sure you want to overwrite these files:</string>
-	<string name="loadsave_import_overwrite_confirmation_file_pattern">(%1$s) - (%2$s)</string>
+	<string name="loadsave_import_option_overwrite">Overwrite Existing</string>
+	<string name="loadsave_import_option_add_as_new">Add as new Save</string>
+	<string name="loadsave_import_file_exists_confirmation">The target Folder contains existing files with the same name. Do you want to overwrite these slots or import them as new saves?</string>
+	<string name="loadsave_import_file_exists_confirmation_file_pattern">(%1$s) - (%2$s)</string>
 	<string name="loadsave_import_save">Import savegames</string>
 	<string name="loadsave_import_save_successfull">Import successful</string>
 	<string name="loadsave_import_save_unsuccessfull">Import unsuccessful</string>
