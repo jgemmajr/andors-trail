@@ -117,6 +117,9 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 importWorldmap.setOnClickListener(this);
                 exportImportContainer.setVisibility(View.VISIBLE);
             }
+            else{
+                exportImportContainer.setVisibility(View.GONE);
+            }
         }
     }
 
@@ -575,7 +578,6 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 fileHeaderDesription = fileHeader.describe();
 
             sb.append(getString(R.string.loadsave_import_file_exists_confirmation_file_pattern, alreadyExistingFileName, fileHeaderDesription));
-//            sb.append(alreadyExistingFile.getName());
         }
         if (amount > 3) {
             sb.append("\n...");
