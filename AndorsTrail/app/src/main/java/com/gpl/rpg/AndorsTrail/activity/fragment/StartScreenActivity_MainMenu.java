@@ -38,6 +38,7 @@ import com.gpl.rpg.AndorsTrail.util.AndroidStorage;
 import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 public class StartScreenActivity_MainMenu extends Fragment {
 
@@ -114,7 +115,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 				AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
 				if (hasExistingGame && app != null && app.getWorld() != null && app.getWorld().model != null
 						&& app.getWorld().model.statistics != null && !app.getWorld().model.statistics.hasUnlimitedSaves()) {
-					final Dialog d = CustomDialogFactory.createDialog(getActivity(),
+					final CustomDialog d = CustomDialogFactory.createDialog(getActivity(),
 							getString(R.string.startscreen_load_game),
 							getResources().getDrawable(android.R.drawable.ic_delete),
 							getString(R.string.startscreen_load_game_confirm),
@@ -204,7 +205,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
 			if (activity.getApplicationContext().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
 				if (AndroidStorage.shouldMigrateToInternalStorage(activity.getApplicationContext())) {
-					final Dialog d = CustomDialogFactory.createDialog(activity,
+					final CustomDialog d = CustomDialogFactory.createDialog(activity,
 							getString(R.string.startscreen_migration_title),
 							activity.getResources().getDrawable(android.R.drawable.ic_dialog_alert),
 							getString(R.string.startscreen_migration_text),
@@ -220,7 +221,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 					});
 					CustomDialogFactory.show(d);
 					if (!AndroidStorage.migrateToInternalStorage(activity.getApplicationContext())) {
-						final Dialog errorDlg = CustomDialogFactory.createDialog(activity,
+						final CustomDialog errorDlg = CustomDialogFactory.createDialog(activity,
 								getString(R.string.startscreen_migration_title),
 								activity.getResources().getDrawable(android.R.drawable.ic_dialog_alert),
 								getString(R.string.startscreen_migration_failure),
@@ -305,7 +306,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 //		.create().show();
 //		
 //		
-		final Dialog d = CustomDialogFactory.createDialog(getActivity(),
+		final CustomDialog d = CustomDialogFactory.createDialog(getActivity(),
 				getString(R.string.startscreen_newgame), 
 				getResources().getDrawable(android.R.drawable.ic_delete), 
 				getResources().getString(R.string.startscreen_newgame_confirm),

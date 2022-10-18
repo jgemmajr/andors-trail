@@ -40,6 +40,7 @@ import com.gpl.rpg.AndorsTrail.savegames.Savegames.FileHeader;
 import com.gpl.rpg.AndorsTrail.util.AndroidStorage;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 public final class LoadSaveActivity extends AndorsTrailBaseActivity implements OnClickListener {
     private boolean isLoading = true;
@@ -263,7 +264,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     private boolean isOverwriteTargetInIncompatibleVersion(int slot) {
         final FileHeader header = Savegames.quickload(this, slot);
         if (header != null && header.fileversion != AndorsTrailApplication.DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION) {
-            final Dialog d = CustomDialogFactory.createErrorDialog(this, "Overwriting not allowed", "You are currently using a development version of Andor's trail. Overwriting a regular savegame is not allowed in development mode.");
+            final CustomDialog d = CustomDialogFactory.createErrorDialog(this, "Overwriting not allowed", "You are currently using a development version of Andor's trail. Overwriting a regular savegame is not allowed in development mode.");
             CustomDialogFactory.show(d);
             return true;
         }
@@ -524,7 +525,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
     private void showConfirmOverwriteByExportQuestion(ContentResolver resolver, DocumentFile targetFolder, DocumentFile[] files) {
-        final Dialog d = CustomDialogFactory.createDialog(this,
+        final CustomDialog d = CustomDialogFactory.createDialog(this,
                 getString(R.string.loadsave_export_overwrite_confirmation_title),
                 getResources().getDrawable(android.R.drawable.ic_dialog_alert),
                 getString(R.string.loadsave_export_overwrite_confirmation),
@@ -566,7 +567,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             sb.append("\n...");
         }
         message = message + sb;
-        final Dialog d = CustomDialogFactory.createDialog(this,
+        final CustomDialog d = CustomDialogFactory.createDialog(this,
                 title,
                 getResources().getDrawable(android.R.drawable.ic_dialog_alert),
                 message,
@@ -623,28 +624,28 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     //region show Dialogs
 
     private void showErrorImportingWorldmapWrongDirectory() {
-        final Dialog d = CustomDialogFactory.createErrorDialog(this,
+        final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
                 getString(R.string.loadsave_import_worldmap_unsuccessfull),
                 getString(R.string.loadsave_import_worldmap_unsuccessfull_wrong_directory));
         CustomDialogFactory.show(d);
     }
 
     private void showErrorImportingSaveGameUnknown() {
-        final Dialog d = CustomDialogFactory.createErrorDialog(this,
+        final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
                 getString(R.string.loadsave_import_save_unsuccessfull),
                 getString(R.string.loadsave_import_save_unsuccessfull_unknown));
         CustomDialogFactory.show(d);
     }
 
     private void showErrorLoadingEmptySlot() {
-        final Dialog d = CustomDialogFactory.createErrorDialog(this,
+        final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
                 getString(R.string.startscreen_error_loading_game),
                 getString(R.string.startscreen_error_loading_empty_slot));
         CustomDialogFactory.show(d);
     }
 
     private void showSlotGetsDeletedOnLoadWarning(final int slot) {
-        final Dialog d = CustomDialogFactory.createDialog(this,
+        final CustomDialog d = CustomDialogFactory.createDialog(this,
                 getString(R.string.startscreen_attention_slot_gets_delete_on_load),
                 getResources().getDrawable(android.R.drawable.ic_dialog_alert),
                 getString(R.string.startscreen_attention_message_slot_gets_delete_on_load),
@@ -658,7 +659,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         final String title =
                 getString(R.string.loadsave_save_overwrite_confirmation_title) + ' '
                         + getString(R.string.loadsave_save_overwrite_confirmation_slot, slot);
-        final Dialog d = CustomDialogFactory.createDialog(this,
+        final CustomDialog d = CustomDialogFactory.createDialog(this,
                 title,
                 getResources().getDrawable(android.R.drawable.ic_dialog_alert),
                 message,

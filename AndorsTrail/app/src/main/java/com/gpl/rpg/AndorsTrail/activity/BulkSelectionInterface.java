@@ -23,6 +23,7 @@ import com.gpl.rpg.AndorsTrail.controller.ItemController;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 /**
  * @author ejwessel
@@ -206,7 +207,7 @@ public final class BulkSelectionInterface extends AndorsTrailBaseActivity implem
 //									})
 //						.setNegativeButton(android.R.string.no, null)
 //						.show();
-					final Dialog d = CustomDialogFactory.createDialog(v.getContext(),
+					final CustomDialog d = CustomDialogFactory.createDialog(v.getContext(),
 							v.getContext().getResources().getString(R.string.bulkselection_sell_confirmation_title),
 							v.getContext().getResources().getDrawable(android.R.drawable.ic_dialog_info),
 							message,

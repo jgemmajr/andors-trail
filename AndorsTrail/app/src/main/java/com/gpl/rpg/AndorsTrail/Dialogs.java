@@ -46,14 +46,15 @@ import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 import com.gpl.rpg.AndorsTrail.view.ItemContainerAdapter;
 
 public final class Dialogs {
 
-	private static void showDialogAndPause(Dialog d, final ControllerContext context) {
+	private static void showDialogAndPause(CustomDialog d, final ControllerContext context) {
 		showDialogAndPause(d, context, null);
 	}
-	private static void showDialogAndPause(Dialog d, final ControllerContext context, final OnDismissListener onDismiss) {
+	private static void showDialogAndPause(CustomDialog d, final ControllerContext context, final OnDismissListener onDismiss) {
 		context.gameRoundController.pause();
 		CustomDialogFactory.setDismissListener(d, new OnDismissListener() {
 			@Override
@@ -195,7 +196,7 @@ public final class Dialogs {
 		//		itemList.setPadding(20, 0, 20, 20);
 		itemList.setAdapter(new ItemContainerAdapter(mainActivity, world.tileManager, combinedLoot.items, world.model.player));
 
-		final Dialog d = CustomDialogFactory.createDialog(mainActivity, 
+		final CustomDialog d = CustomDialogFactory.createDialog(mainActivity,
 				mainActivity.getResources().getString(title), 
 				mainActivity.getResources().getDrawable(R.drawable.ui_icon_equipment), 
 				msg, 
@@ -249,7 +250,7 @@ public final class Dialogs {
 	}
 
 	public static void showHeroDied(final MainActivity mainActivity, final ControllerContext controllers) {
-		final Dialog d = CustomDialogFactory.createDialog(mainActivity,
+		final CustomDialog d = CustomDialogFactory.createDialog(mainActivity,
 				mainActivity.getResources().getString(R.string.dialog_game_over_title),
 				mainActivity.getResources().getDrawable(R.drawable.ui_icon_combat),
 				mainActivity.getResources().getString(R.string.dialog_game_over_text),
@@ -286,7 +287,7 @@ public final class Dialogs {
 	}
 
 	public static void showConfirmRest(final Activity currentActivity, final ControllerContext controllerContext, final MapObject area) {
-		final Dialog d = CustomDialogFactory.createDialog(currentActivity, 
+		final CustomDialog d = CustomDialogFactory.createDialog(currentActivity,
 				currentActivity.getResources().getString(R.string.dialog_rest_title), 
 				null, 
 				currentActivity.getResources().getString(R.string.dialog_rest_confirm_message), 
@@ -310,7 +311,7 @@ public final class Dialogs {
 		//		.setMessage(R.string.dialog_rest_message)
 		//		.setNeutralButton(android.R.string.ok, null)
 		//		.create();
-		final Dialog d = CustomDialogFactory.createDialog(currentActivity, 
+		final CustomDialog d = CustomDialogFactory.createDialog(currentActivity,
 				currentActivity.getResources().getString(R.string.dialog_rest_title), 
 				null, 
 				currentActivity.getResources().getString(R.string.dialog_rest_message), 
@@ -336,7 +337,7 @@ public final class Dialogs {
 			text += currentActivity.getResources().getString(R.string.dialog_newversion_permission_information);
 		}
 
-		final Dialog d = CustomDialogFactory.createDialog(currentActivity, 
+		final CustomDialog d = CustomDialogFactory.createDialog(currentActivity,
 				currentActivity.getResources().getString(R.string.dialog_newversion_title), 
 				null, 
 				text,
@@ -371,7 +372,7 @@ public final class Dialogs {
 		}
 
 		if (!world.model.statistics.hasUnlimitedSaves()) {
-			final Dialog d = CustomDialogFactory.createDialog(mainActivity,
+			final CustomDialog d = CustomDialogFactory.createDialog(mainActivity,
 					mainActivity.getResources().getString(R.string.menu_save_switch_character_title),
 					null,
 					mainActivity.getResources().getString(R.string.menu_save_switch_character),
@@ -460,7 +461,7 @@ public final class Dialogs {
 		itemList.setAdapter(new ArrayAdapter<String>(context, R.layout.combatlog_row, android.R.id.text1, combatLogMessages));
 		view = itemList;
 
-		final Dialog d = CustomDialogFactory.createDialog(context, 
+		final CustomDialog d = CustomDialogFactory.createDialog(context,
 				context.getResources().getString(R.string.combat_log_title), 
 				context.getResources().getDrawable(R.drawable.ui_icon_combat), 
 				null, 
