@@ -190,14 +190,10 @@ public class StartScreenActivity_MainMenu extends Fragment {
 					setCurrentVersionForVersionCheck();
 					checkAndRequestPermissions(getActivity());
 					migrateDataOnDemand(getActivity());
-					boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-					startscreen_load.setEnabled(hasSavegames);
 				}
 			});
 		}
 
-		boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-		startscreen_load.setEnabled(hasSavegames);
 	}
 
 	@TargetApi(29)
@@ -212,13 +208,6 @@ public class StartScreenActivity_MainMenu extends Fragment {
 							null,
 							true);
 					CustomDialogFactory.addDismissButton(d, android.R.string.ok);
-					d.setOnDismissListener(new DialogInterface.OnDismissListener() {
-						@Override
-						public void onDismiss(DialogInterface arg0) {
-							boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-							startscreen_load.setEnabled(hasSavegames);
-						}
-					});
 					CustomDialogFactory.show(d);
 					if (!AndroidStorage.migrateToInternalStorage(activity.getApplicationContext())) {
 						final CustomDialog errorDlg = CustomDialogFactory.createDialog(activity,
