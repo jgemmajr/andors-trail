@@ -65,11 +65,11 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		}
 		
 		View root = inflater.inflate(R.layout.startscreen_mainmenu, container, false);
-		
+
 		save_preview_holder = (ViewGroup) root.findViewById(R.id.save_preview_holder);
 		save_preview_hero_icon = (ImageView) root.findViewById(R.id.save_preview_hero_icon);
 		save_preview_hero_desc = (TextView) root.findViewById(R.id.save_preview_hero_desc);
-		
+
 
 		startscreen_continue = (Button) root.findViewById(R.id.startscreen_continue);
 		startscreen_continue.setOnClickListener(new OnClickListener() {
@@ -135,7 +135,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 				}
 			}
 		});
-		
+
 
 		if (AndorsTrailApplication.DEVELOPMENT_FORCE_STARTNEWGAME) {
 			if (AndorsTrailApplication.DEVELOPMENT_DEBUGRESOURCES) {
@@ -153,14 +153,14 @@ public class StartScreenActivity_MainMenu extends Fragment {
 			checkAndRequestPermissions(getActivity());
 			migrateDataOnDemand(getActivity());
 		}
-		
+
 		return root;
 	}
-	
+
 	@Override
 	public void onResume() {
 		super.onResume();
-		
+
 		String playerName;
 		String displayInfo = null;
 		int iconID = TileManager.CHAR_HERO;
@@ -249,13 +249,13 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		super.onAttach(activity);
 		listener = (OnNewGameRequestedListener) activity;
 	}
-	
+
 	@Override
 	public void onDetach() {
 		super.onDetach();
 		listener = null;
 	}
-	
+
 	private void setButtonState(final String playerName, final String displayInfo, int iconID, boolean isDead) {
 		startscreen_continue.setEnabled(hasExistingGame && !isDead);
 		startscreen_newgame.setEnabled(true);
@@ -296,8 +296,8 @@ public class StartScreenActivity_MainMenu extends Fragment {
 //		
 //		
 		final CustomDialog d = CustomDialogFactory.createDialog(getActivity(),
-				getString(R.string.startscreen_newgame), 
-				getResources().getDrawable(android.R.drawable.ic_delete), 
+				getString(R.string.startscreen_newgame),
+				getResources().getDrawable(android.R.drawable.ic_delete),
 				getResources().getString(R.string.startscreen_newgame_confirm),
 				null,
 				true);
@@ -308,9 +308,9 @@ public class StartScreenActivity_MainMenu extends Fragment {
 			}
 		});
 		CustomDialogFactory.addDismissButton(d, android.R.string.cancel);
-		
+
 		CustomDialogFactory.show(d);
-		
+
 	}
 
 	private static final String versionCheck = "lastversion";
@@ -327,16 +327,23 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		e.putInt(versionCheck, AndorsTrailApplication.CURRENT_VERSION);
 		e.commit();
 	}
-	
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case INTENTREQUEST_LOADGAME:
-                if (resultCode != Activity.RESULT_OK) break;
+				boolean unsuccessful = resultCode != Activity.RESULT_OK;
+				if(data == null) break;
+
                 final boolean wasImportOrExport = data.getBooleanExtra("import_export", false);
-                if (wasImportOrExport) break;
+                if (wasImportOrExport) {
+					String message = getImportExportMessage(!unsuccessful, data);
+					Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show();
+					break;
+				}
+				if (unsuccessful) break;
                 final int slot = data.getIntExtra("slot", 1);
                 continueGame(false, slot, null);
                 break;
@@ -346,7 +353,24 @@ public class StartScreenActivity_MainMenu extends Fragment {
         }
     }
 
-    private void updatePreferences(boolean alreadyStartedLoadingResources) {
+	private String getImportExportMessage(boolean successful, Intent data) {
+		String message = "";
+		boolean isImportWorldmap = data.getBooleanExtra("import_worldmap", false);
+		boolean isImportSaves = data.getBooleanExtra("import_savegames", false);
+		boolean isExport = data.getBooleanExtra("export", false);
+
+		if(isImportWorldmap) {
+			message = getString(successful ? R.string.loadsave_import_worldmap_successfull : R.string.loadsave_import_worldmap_unsuccessfull);
+		} else if(isImportSaves) {
+			message = getString(successful ? R.string.loadsave_import_save_successfull : R.string.loadsave_import_save_unsuccessfull);
+		} else if(isExport) {
+			message = getString(successful ? R.string.loadsave_export_successfull : R.string.loadsave_export_unsuccessfull);
+		}
+
+		return message;
+	}
+
+	private void updatePreferences(boolean alreadyStartedLoadingResources) {
         AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
         AndorsTrailPreferences preferences = app.getPreferences();
         preferences.read(getActivity());
@@ -375,18 +399,18 @@ public class StartScreenActivity_MainMenu extends Fragment {
         getActivity().finish();
     }
 
-	
+
 	public interface OnNewGameRequestedListener {
 		public void onNewGameRequested();
 	}
-	
+
 	private OnNewGameRequestedListener listener = null;
-	
+
 	private void createNewGame() {
 		if (listener != null) {
 			listener.onNewGameRequested();
 		}
 	}
-	
+
 
 }

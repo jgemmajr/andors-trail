@@ -116,6 +116,9 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 importSaves.setOnClickListener(this);
                 importWorldmap.setOnClickListener(this);
                 exportImportContainer.setVisibility(View.VISIBLE);
+
+                boolean hasSavegames = !Savegames.getUsedSavegameSlots(this).isEmpty();
+                exportSaves.setEnabled(hasSavegames);
             }
             else{
                 exportImportContainer.setVisibility(View.GONE);
@@ -174,8 +177,14 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         }
     }
 
+    private void cancelLoadSaveActivity(int slot){
+        completeLoadSaveActivity(slot, false);
+    }
 
     private void completeLoadSaveActivity(int slot) {
+        completeLoadSaveActivity(slot, true);
+    }
+    private void completeLoadSaveActivity(int slot, boolean success) {
         Intent i = new Intent();
         if (slot == SLOT_NUMBER_CREATE_NEW_SLOT) {
             slot = getFirstFreeSlot();
@@ -183,11 +192,23 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 || slot == SLOT_NUMBER_IMPORT_SAVEGAMES
                 || slot == SLOT_NUMBER_IMPORT_WORLDMAP) {
             i.putExtra("import_export", true);
+
+            if(slot == SLOT_NUMBER_IMPORT_WORLDMAP){
+                i.putExtra("import_worldmap", true);
+            }
+            if(slot == SLOT_NUMBER_IMPORT_SAVEGAMES){
+                i.putExtra("import_savegames", true);
+            }
+            if(slot == SLOT_NUMBER_EXPORT_SAVEGAMES){
+                i.putExtra("export", true);
+            }
+
         } else if (slot < SLOT_NUMBER_FIRST_SLOT)
             slot = SLOT_NUMBER_FIRST_SLOT;
 
         i.putExtra("slot", slot);
-        setResult(Activity.RESULT_OK, i);
+        if(success) setResult(Activity.RESULT_OK, i);
+        else setResult(Activity.RESULT_CANCELED, i);
         LoadSaveActivity.this.finish();
     }
 
@@ -409,18 +430,22 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
     private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles) {
-        importSaveGames(resolver, appSavegameFolder, saveFiles, false);
-    }
-    private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles, boolean addAsNew) {
+        boolean saveAsNew = false;
         for (DocumentFile file : saveFiles) {
             int slot;
-            if(addAsNew)
+            if(file == null){
+                saveAsNew = true;
+                continue;
+            }
+            if (saveAsNew)
                 slot = getFirstFreeSlot();
             else
                 slot = getSlotFromSavegameFileName(file.getName());
 
             importSaveGameFile(resolver, appSavegameFolder, file, slot);
         }
+
+        completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES);
     }
 
 
@@ -599,14 +624,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
         CustomDialogFactory.addDismissButton(d, android.R.string.no);
         CustomDialogFactory.setDismissListener(d, dialog -> {
-            boolean addAsNew = false;
-            if(newFiles.size() > 0 && newFiles.get(0) == null) {
-                newFiles.remove(0);
-                addAsNew = true;
-            }
-
-            importSaveGames(resolver, appSavegameFolder, newFiles, addAsNew);
-            completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES);
+            importSaveGames(resolver, appSavegameFolder, newFiles);
         });
         CustomDialogFactory.show(d);
     }
@@ -654,14 +672,14 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     private void showErrorImportingWorldmapWrongDirectory() {
         final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
                 getString(R.string.loadsave_import_worldmap_unsuccessfull),
-                getString(R.string.loadsave_import_worldmap_unsuccessfull_wrong_directory));
+                getString(R.string.loadsave_import_worldmap_wrong_directory));
         CustomDialogFactory.show(d);
     }
 
     private void showErrorImportingSaveGameUnknown() {
         final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
                 getString(R.string.loadsave_import_save_unsuccessfull),
-                getString(R.string.loadsave_import_save_unsuccessfull_unknown));
+                getString(R.string.loadsave_import_save_error_unknown));
         CustomDialogFactory.show(d);
     }
 
