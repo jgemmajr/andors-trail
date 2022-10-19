@@ -435,6 +435,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_rock_3, "map_rock_3", new Size(6, 5), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_6, "map_transition_6", new Size(18, 8), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_ratdom, "map_ratdom", new Size(18, 6), sz1x1, mTileSize);
 		/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);
