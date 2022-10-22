@@ -2,6 +2,7 @@ package com.gpl.rpg.AndorsTrail.view;
 
 import android.content.Context;
 import android.content.DialogInterface.OnDismissListener;
+import android.content.DialogInterface.OnCancelListener;
 import android.graphics.Rect;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
@@ -30,13 +31,13 @@ public class CustomDialogFactory {
 	}
 
 	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
-											String desc, View content, boolean hasButtons, boolean verticalButtons) {
-		return createDialog(context, title, icon, desc, content, hasButtons, true, verticalButtons);
+											String desc, View content, boolean hasButtons, boolean canDismiss) {
+		return createDialog(context, title, icon, desc, content, hasButtons, canDismiss, false);
 	}
 
 	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
 											String desc, View content, boolean hasButtons) {
-		return createDialog(context, title, icon, desc, content, hasButtons, true, false);
+		return createDialog(context, title, icon, desc, content, hasButtons, true);
 	}
 
 	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
@@ -147,9 +148,13 @@ public class CustomDialogFactory {
 		return dialog;
 	}
 
+	public static CustomDialog addButton(final CustomDialog dialog, String text, final OnClickListener listener) {
+		return addButton(dialog, -1, text, listener);
+	}
 	public static CustomDialog addButton(final CustomDialog dialog, int textId, final OnClickListener listener) {
-
-
+		return addButton(dialog, textId, null, listener);
+	}
+	public static CustomDialog addButton(final CustomDialog dialog, int textId, String text, final OnClickListener listener) {
 		Button template = getButtonTemplate(dialog);
 		LayoutParams params = template.getLayoutParams();
 		ViewGroup buttonsHolder = getButtonContainer(dialog);
@@ -160,7 +165,12 @@ public class CustomDialogFactory {
 		b.setBackgroundDrawable(ThemeHelper.getThemeDrawable(dialog.getContext(), R.attr.ui_theme_textbutton_drawable));
 		b.setTextColor(ThemeHelper.getThemeColor(dialog.getContext(), R.attr.ui_theme_dialogue_light_color));
 
-		b.setText(textId);
+		if(textId != -1) {
+			b.setText(textId);
+		} else {
+			b.setText(text);
+		}
+
 		b.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -183,10 +193,24 @@ public class CustomDialogFactory {
 			}
 		});
 	}
+	public static CustomDialog addCancelButton(final CustomDialog dialog, int textId) {
+		return CustomDialogFactory.addButton(dialog, textId, new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				dialog.cancel();
+			}
+		});
+	}
 
 	public static CustomDialog setDismissListener(CustomDialog dialog, OnDismissListener listener) {
 		dialog.setOnDismissListener(listener);
 
+		return dialog;
+	}
+
+	public static CustomDialog setCancelListener(CustomDialog dialog, OnCancelListener listener) {
+		dialog.setOnCancelListener(listener);
 		return dialog;
 	}
 
