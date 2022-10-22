@@ -1,7 +1,10 @@
 package com.gpl.rpg.AndorsTrail.activity;
 
+import java.io.DataInputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -433,12 +436,15 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         boolean saveAsNew = false;
         for (DocumentFile file : saveFiles) {
             int slot;
-            if(file == null){
+            if(file == null){//null is value a marker that the next should be saved as new
                 saveAsNew = true;
                 continue;
             }
             if (saveAsNew)
+            {
                 slot = getFirstFreeSlot();
+                saveAsNew = false;
+            }
             else
                 slot = getSlotFromSavegameFileName(file.getName());
 
@@ -585,7 +591,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                                                       List<DocumentFile> alreadyExistingFiles,
                                                       List<DocumentFile> newFiles) {
         final String title = getString(R.string.loadsave_import_overwrite_confirmation_title);
-        String message = getString(R.string.loadsave_import_file_exists_confirmation);
+        String message = getString(R.string.loadsave_import_file_exists_question);
 
         StringBuilder sb = new StringBuilder();
         sb.append('\n');
@@ -593,40 +599,75 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
         Context context = AndorsTrailApplication.getApplicationFromActivity(this).getApplicationContext();
 
-        for (int i = 0; i < amount && i < 3; i++) {
+        ArrayList<CustomDialog> dialogs = new ArrayList<CustomDialog>(amount) ;
+
+        for (int i = 0; i < amount ; i++) {
             DocumentFile alreadyExistingFile = alreadyExistingFiles.get(i);
-            String alreadyExistingFileName = alreadyExistingFile.getName();
-            FileHeader fileHeader = Savegames.quickload(context, getSlotFromSavegameFileName(alreadyExistingFileName));
-            sb.append('\n');
-            String fileHeaderDesription = "";
-            if (fileHeader != null)
-                fileHeaderDesription = fileHeader.describe();
+            int slot = getSlotFromSavegameFileName(alreadyExistingFile.getName());
+            FileHeader existingFileHeader = Savegames.quickload(context, slot);
+            FileHeader importedFileHeader = null;
+            try (InputStream stream = resolver.openInputStream(alreadyExistingFile.getUri());
+                 DataInputStream dataStream = new DataInputStream(stream)) {
+                importedFileHeader = new FileHeader(dataStream, true);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                continue;
+            } catch (IOException e) {
+                e.printStackTrace();
+                continue;
+            }
 
-            sb.append(getString(R.string.loadsave_import_file_exists_confirmation_file_pattern, alreadyExistingFileName, fileHeaderDesription));
+            StringBuilder messageSb = new StringBuilder();
+            String existingFileDescription = getString(R.string.loadsave_import_existing_description, slot, existingFileHeader.describe());
+            String importedFileDescription = getString(R.string.loadsave_import_imported_description, slot, importedFileHeader.describe());
+            messageSb.append(getString(R.string.loadsave_import_file_exists_question, existingFileDescription, importedFileDescription));
+
+
+            String m = messageSb.toString();
+            CustomDialog dialog = CustomDialogFactory.createDialog(this,
+                    title,
+                    getResources().getDrawable(android.R.drawable.ic_dialog_alert),
+                    m,
+                    null,
+                    true,
+                    false,
+                    true);
+
+            CustomDialogFactory.addButton(dialog, R.string.loadsave_import_option_keep_existing, v -> {
+                //do nothing
+                GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
+            });
+
+            CustomDialogFactory.addButton(dialog, R.string.loadsave_import_option_keep_imported, v -> {
+                newFiles.add(alreadyExistingFile);
+                GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
+            });
+
+            CustomDialogFactory.addButton(dialog, R.string.loadsave_import_option_add_as_new, v -> {
+                newFiles.add(null);//add a null element as marker to know later if the next file should be imported as new or overwrite the existing one
+                newFiles.add(alreadyExistingFile);
+                GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
+            });
+
+            CustomDialogFactory.addCancelButton(dialog, android.R.string.cancel);
+            CustomDialogFactory.setCancelListener(dialog, v -> {
+                completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES, false);
+            });
+
+            dialogs.add(dialog);
         }
-        if (amount > 3) {
-            sb.append("\n...");
+
+        GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
+    }
+
+    private void GoToNextConflictOrFinish(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> newFiles, ArrayList<CustomDialog> dialogs) {
+        if(dialogs.stream().count() > 0){
+            CustomDialog d = dialogs.remove(0);
+            CustomDialogFactory.show(d);
         }
-        message = message + sb;
-        final CustomDialog d = CustomDialogFactory.createDialog(this,
-                title,
-                getResources().getDrawable(android.R.drawable.ic_dialog_alert),
-                message,
-                null,
-                true,
-                true);
-
-        CustomDialogFactory.addButton(d, R.string.loadsave_import_option_overwrite, v -> newFiles.addAll(alreadyExistingFiles));
-        CustomDialogFactory.addButton(d, R.string.loadsave_import_option_add_as_new, v -> {
-            newFiles.add(null);//add a null element as marker to know later if the files should be imported as new or overwrite the existing ones
-            newFiles.addAll(alreadyExistingFiles);
-        });
-
-        CustomDialogFactory.addDismissButton(d, android.R.string.no);
-        CustomDialogFactory.setDismissListener(d, dialog -> {
+        else{
             importSaveGames(resolver, appSavegameFolder, newFiles);
-        });
-        CustomDialogFactory.show(d);
+        }
     }
 
     @Override
