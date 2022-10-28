@@ -10,9 +10,15 @@ import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.FileProvider;
 import android.support.v4.provider.DocumentFile;
+
+import android.os.Handler;
+import android.os.Looper;
 import android.webkit.MimeTypeMap;
 
+import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.util.BackgroundWorker.BackgroundWorkerCallback;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,6 +26,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.concurrent.CancellationException;
+import java.util.function.Consumer;
 
 public final class AndroidStorage {
     public static File getStorageDirectory(Context context, String name) {
@@ -148,7 +156,7 @@ public final class AndroidStorage {
     public static String getUrlForFile(Context context, File worldmap) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             String applicationId = context.getPackageName();
-            Uri uri = FileProvider.getUriForFile(context, applicationId + ".fileprovider", worldmap);//TODO: remove fixed fileprovider
+            Uri uri = FileProvider.getUriForFile(context, applicationId + ".fileprovider", worldmap);
             return uri.toString();
         } else {
             return "file://" + worldmap.getAbsolutePath();
@@ -170,4 +178,151 @@ public final class AndroidStorage {
         intent.setType(Constants.SAVEGAME_FILE_MIME_TYPE);
         return intent;
     }
+
+    public static void copyDocumentFilesFromToAsync(DocumentFile[] sources, Context context, DocumentFile[] targets, Consumer<Boolean> callback) {
+        if(sources.length != targets.length)
+        {
+            throw new IllegalArgumentException("Both arrays, target & source have to have the same size");
+        }
+
+        BackgroundWorker worker = new BackgroundWorker();
+        CustomDialogFactory.CustomDialog progressDialog = getLoadingDialog(context);
+        progressDialog.setOnCancelListener(dialog -> worker.cancel());
+        ContentResolver resolver = context.getContentResolver();
+        Handler handler = Handler.createAsync(Looper.getMainLooper());
+
+        worker.setTask(new BackgroundWorker.worker() {
+            @Override
+            public void doWork(BackgroundWorkerCallback callback) {
+                try {
+                    callback.onInitialize();
+                    for (int i = 0; i < sources.length ; i++) {
+                        if (worker.isCancelled()) {
+                            callback.onFailure(new CancellationException("Cancelled"));
+                            return;
+                        }
+                        DocumentFile source = sources[i];
+                        DocumentFile target = targets[i];
+
+                        if(source == null || target == null)
+                        {
+                            continue;
+                        }
+
+
+                        copyDocumentFile(source, resolver,target);
+                        float progress = i /(float) sources.length;
+                        callback.onProgress(progress);
+                    }
+                    callback.onComplete(true);
+                } catch (NullPointerException e) {
+                    if (worker.isCancelled()) {
+                        callback.onFailure(new CancellationException("Cancelled"));
+                        return;
+                    }
+                } catch (Exception e) {
+                    callback.onFailure(e);
+                }
+            }
+        });
+        worker.setCallback(getDefaultBackgroundWorkerCallback(handler, progressDialog, callback));
+        worker.run();
+    }
+
+    public static void copyDocumentFilesToDirAsync(DocumentFile[] files,
+                                                   Context context,
+                                                   DocumentFile targetDirectory,
+                                                   Consumer<Boolean> callback) {
+        BackgroundWorker worker = new BackgroundWorker();
+        CustomDialogFactory.CustomDialog progressDialog = getLoadingDialog(context);
+        progressDialog.setOnCancelListener(dialog -> worker.cancel());
+        ContentResolver resolver = context.getContentResolver();
+        Handler handler = Handler.createAsync(Looper.getMainLooper());
+
+        worker.setTask(new BackgroundWorker.worker() {
+            @Override
+            public void doWork(BackgroundWorkerCallback callback) {
+                try {
+                    callback.onInitialize();
+                    for (int i = 0; i < files.length; i++) {
+                        if (worker.isCancelled()) {
+                            callback.onFailure(new CancellationException("Cancelled"));
+                            return;
+                        }
+                        DocumentFile file = files[i];
+                        if(file == null)
+                            continue;
+
+                        copyDocumentFileToNewOrExistingFile(file, resolver, targetDirectory);
+                        float progress = i /(float) files.length;
+                        callback.onProgress(progress);
+                    }
+                    callback.onComplete(true);
+                } catch (NullPointerException e) {
+                    if (worker.isCancelled()) {
+                        callback.onFailure(new CancellationException("Cancelled"));
+                        return;
+                    }
+                } catch (Exception e) {
+                    callback.onFailure(e);
+                }
+            }
+        });
+        worker.setCallback(getDefaultBackgroundWorkerCallback(handler, progressDialog, callback));
+        worker.run();
+    }
+
+    private static BackgroundWorkerCallback getDefaultBackgroundWorkerCallback(Handler handler,
+                                                                               CustomDialogFactory.CustomDialog progressDialog,
+                                                                               Consumer<Boolean> callback) {
+        return new BackgroundWorkerCallback() {
+            private  int progress = -1;
+            @Override
+            public void onInitialize() {
+                handler.post(() -> {
+                    CustomDialogFactory.show(progressDialog);
+                });
+            }
+
+            @Override
+            public void onProgress(float progress) {
+                handler.post(() -> {
+                    int intProgress = (int) (progress * 100);
+                    if(this.progress == intProgress)
+                        return;
+
+                    this.progress = intProgress;
+                    CustomDialogFactory.setDesc(progressDialog, intProgress + "%");
+                });
+            }
+
+            @Override
+            public void onFailure(Exception e) {
+                handler.post(() -> {
+                    progressDialog.dismiss();
+                    callback.accept(false);
+                });
+            }
+
+            @Override
+            public void onComplete(Object result) {
+                handler.post(() -> {
+                    progressDialog.dismiss();
+                    callback.accept(true);
+                });
+            }
+        };
+    }
+
+    private static CustomDialogFactory.CustomDialog getLoadingDialog(Context context) {
+        CustomDialogFactory.CustomDialog progressDialog = CustomDialogFactory.createDialog(context,
+                context.getResources().getString(R.string.dialog_loading_message),
+                context.getResources().getDrawable(R.drawable.loading_anim),
+                null,
+                null,
+                false,
+                false);
+        return progressDialog;
+    }
+
 }

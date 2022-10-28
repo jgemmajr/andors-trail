@@ -343,43 +343,35 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
     private void exportSaveGamesFolderContentToFolder(ContentResolver resolver, DocumentFile target, DocumentFile[] files) {
-        for (DocumentFile file : files) {
-            String fileName = file.getName();
-            DocumentFile existingFile = target.findFile(fileName);
-            boolean hasExistingFile = existingFile != null && existingFile.exists();
+        DocumentFile[] sourceFiles = new DocumentFile[files.length];
 
+        DocumentFile[] worldmapFiles = null;
+
+        for (int i = 0; i < files.length; i++) {
+            DocumentFile file = files[i];
             if (file.isFile()) {
-                try {
-                    if (hasExistingFile)
-                        existingFile.delete();
-
-
-                    AndroidStorage.copyDocumentFileToNewOrExistingFile(file, resolver, target);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                sourceFiles[i] = file;
             } else if (file.isDirectory()) {
-                DocumentFile targetWorlmap = existingFile;
-                //if the folder exists already, put the files in the existing folder. (should not happen because of check earlier)
-                if (!hasExistingFile)
-                    //create a new folder for the worldmap-files
-                    targetWorlmap = target.createDirectory(Constants.FILENAME_WORLDMAP_DIRECTORY);
-
-                if (targetWorlmap == null)//Unable to create worldmap folder for some reason
-                    continue;
-
-                DocumentFile[] worldmapFiles = file.listFiles();
-                for (DocumentFile f : worldmapFiles) {
-                    try {
-                        AndroidStorage.copyDocumentFileToNewOrExistingFile(f, resolver, targetWorlmap);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
+                worldmapFiles = file.listFiles();
             }
         }
+        Context context =this;
+        DocumentFile[] finalWorldmapFiles = worldmapFiles;
+        AndroidStorage.copyDocumentFilesToDirAsync(sourceFiles,
+                context,
+                target,
+                (sucess) -> {
+                    if (sucess) {
+                        DocumentFile worldmapFolder = target.createDirectory(Constants.FILENAME_WORLDMAP_DIRECTORY);
+                        AndroidStorage.copyDocumentFilesToDirAsync(finalWorldmapFiles,
+                                context,
+                                worldmapFolder,
+                                (sucessWorldmap) -> completeLoadSaveActivity(SLOT_NUMBER_EXPORT_SAVEGAMES, sucessWorldmap));
+                    } else {
+                        completeLoadSaveActivity(SLOT_NUMBER_EXPORT_SAVEGAMES, false);
+                    }
+                });
 
-        completeLoadSaveActivity(SLOT_NUMBER_EXPORT_SAVEGAMES);
     }
 
 
@@ -433,27 +425,39 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
     private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles) {
+        int size = saveFiles.size();
+        DocumentFile[] sources = new DocumentFile[size];
+        DocumentFile[] targets = new DocumentFile[size];
+
         boolean saveAsNew = false;
-        for (DocumentFile file : saveFiles) {
-            int slot;
-            if(file == null){//null is value a marker that the next should be saved as new
+        for (int i = 0; i < size; i++) {
+            DocumentFile file = saveFiles.get(i);
+            if (file == null) {//null is value a marker that the next should be saved as new
                 saveAsNew = true;
                 continue;
             }
-            if (saveAsNew)
-            {
+
+            int slot = getSlotFromSavegameFileName(file.getName());
+            if (slot == -1) {
+                //invalid file name
+                continue;
+            }
+
+            if (saveAsNew) {
                 slot = getFirstFreeSlot();
                 saveAsNew = false;
             }
-            else
-                slot = getSlotFromSavegameFileName(file.getName());
 
-            importSaveGameFile(resolver, appSavegameFolder, file, slot);
+            String targetName = Savegames.getSlotFileName(slot);
+            sources[i] = file;
+            targets[i] = getOrCreateDocumentFile(appSavegameFolder, targetName);
         }
 
-        completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES);
+        AndroidStorage.copyDocumentFilesFromToAsync(sources,
+                this,
+                targets,
+                (sucess) -> completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES, sucess));
     }
-
 
     private void completeSavegameImportAndCheckIfDone(List<Integer> importsNeedingConfirmation, int slot) {
         importsNeedingConfirmation.remove((Object) slot);
@@ -541,18 +545,10 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             chosenFolder = file;
         }
 
-        DocumentFile[] files = chosenFolder.listFiles();
-        for (DocumentFile file : files) {
-            if (file.isFile()) {
-                try {
-                    AndroidStorage.copyDocumentFileToNewOrExistingFile(file, resolver, ownWorldmapFolder);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        completeLoadSaveActivity(SLOT_NUMBER_IMPORT_WORLDMAP);
+        AndroidStorage.copyDocumentFilesToDirAsync(chosenFolder.listFiles(),
+                this,
+                ownWorldmapFolder,
+                (success) -> completeLoadSaveActivity(SLOT_NUMBER_IMPORT_WORLDMAP, success));
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
