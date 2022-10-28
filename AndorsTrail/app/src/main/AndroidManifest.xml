@@ -7,10 +7,6 @@
 	android:versionName="0.8.4"
 	android:installLocation="auto"
 	>
-	<uses-sdk 
-		android:minSdkVersion="4"
-		android:targetSdkVersion="30"
-		/>
 	
 	<supports-screens
 		android:smallScreens="true" 
@@ -35,7 +31,8 @@
 		android:hasFragileUserData="true"
 		android:preserveLegacyExternalStorage="true"
 		>
-		<activity 
+		<activity
+			android:exported="true"
 		    android:name="com.gpl.rpg.AndorsTrail.activity.StartScreenActivity"
 		    android:clearTaskOnLaunch="true"
 		    >
