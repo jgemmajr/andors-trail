@@ -306,6 +306,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     //region Imports/Exports
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
     private void exportSaveGames(Intent data) {
         Uri uri = data.getData();
 
@@ -342,6 +343,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
     private void exportSaveGamesFolderContentToFolder(ContentResolver resolver, DocumentFile target, DocumentFile[] files) {
         DocumentFile[] sourceFiles = new DocumentFile[files.length];
 
@@ -351,7 +353,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             DocumentFile file = files[i];
             if (file.isFile()) {
                 sourceFiles[i] = file;
-            } else if (file.isDirectory()) {
+            } else if (file.isDirectory() && Objects.equals(file.getName(), Constants.FILENAME_WORLDMAP_DIRECTORY)) {
                 worldmapFiles = file.listFiles();
             }
         }
@@ -375,7 +377,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void importSaveGames(Intent data) {
         Uri uri = data.getData();
         ClipData uris = data.getClipData();
@@ -401,6 +403,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         importSaveGamesFromUris(context, resolver, appSavegameFolder, uriList);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void importSaveGamesFromUris(Context context, ContentResolver resolver, DocumentFile appSavegameFolder, List<Uri> uriList) {
         int count = uriList.size();
 
@@ -515,6 +518,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         return targetFile;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
     private void importWorldmap(Intent data) {
         Uri uri = data.getData();
 
@@ -568,6 +572,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
     private void showConfirmOverwriteByExportQuestion(ContentResolver resolver, DocumentFile targetFolder, DocumentFile[] files) {
         final CustomDialog d = CustomDialogFactory.createDialog(this,
                 getString(R.string.loadsave_export_overwrite_confirmation_title),
@@ -582,6 +587,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         CustomDialogFactory.show(d);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void showConfirmOverwriteByImportQuestion(ContentResolver resolver,
                                                       DocumentFile appSavegameFolder,
                                                       List<DocumentFile> alreadyExistingFiles,
@@ -656,6 +662,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void GoToNextConflictOrFinish(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> newFiles, ArrayList<CustomDialog> dialogs) {
         if(dialogs.stream().count() > 0){
             CustomDialog d = dialogs.remove(0);
@@ -673,7 +680,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         if (resultCode != Activity.RESULT_OK)
             return;
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             switch (-requestCode) {
                 case SLOT_NUMBER_EXPORT_SAVEGAMES:
                     exportSaveGames(data);

@@ -229,53 +229,50 @@ public final class AndroidStorage {
         worker.run();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
     public static void copyDocumentFilesToDirAsync(DocumentFile[] files,
                                                    Context context,
                                                    DocumentFile targetDirectory,
                                                    Consumer<Boolean> callback) {
-        BackgroundWorker worker = new BackgroundWorker();
+        BackgroundWorker<Boolean> worker = new BackgroundWorker<>();
         CustomDialogFactory.CustomDialog progressDialog = getLoadingDialog(context);
         progressDialog.setOnCancelListener(dialog -> worker.cancel());
         ContentResolver resolver = context.getContentResolver();
         Handler handler = Handler.createAsync(Looper.getMainLooper());
 
-        worker.setTask(new BackgroundWorker.worker() {
-            @Override
-            public void doWork(BackgroundWorkerCallback callback) {
-                try {
-                    callback.onInitialize();
-                    for (int i = 0; i < files.length; i++) {
-                        if (worker.isCancelled()) {
-                            callback.onFailure(new CancellationException("Cancelled"));
-                            return;
-                        }
-                        DocumentFile file = files[i];
-                        if(file == null)
-                            continue;
-
-                        copyDocumentFileToNewOrExistingFile(file, resolver, targetDirectory);
-                        float progress = i /(float) files.length;
-                        callback.onProgress(progress);
-                    }
-                    callback.onComplete(true);
-                } catch (NullPointerException e) {
+        worker.setTask(workerCallback -> {
+            try {
+                workerCallback.onInitialize();
+                for (int i = 0; i < files.length; i++) {
                     if (worker.isCancelled()) {
-                        callback.onFailure(new CancellationException("Cancelled"));
+                        workerCallback.onFailure(new CancellationException("Cancelled"));
                         return;
                     }
-                } catch (Exception e) {
-                    callback.onFailure(e);
+                    DocumentFile file = files[i];
+                    if(file == null)
+                        continue;
+
+                    copyDocumentFileToNewOrExistingFile(file, resolver, targetDirectory);
+                    float progress = i /(float) files.length;
+                    workerCallback.onProgress(progress);
                 }
+                workerCallback.onComplete(true);
+            } catch (NullPointerException e) {
+                if (worker.isCancelled()) {
+                    workerCallback.onFailure(new CancellationException("Cancelled"));
+                }
+            } catch (Exception e) {
+                workerCallback.onFailure(e);
             }
         });
         worker.setCallback(getDefaultBackgroundWorkerCallback(handler, progressDialog, callback));
         worker.run();
     }
 
-    private static BackgroundWorkerCallback getDefaultBackgroundWorkerCallback(Handler handler,
+    private static BackgroundWorkerCallback<Boolean> getDefaultBackgroundWorkerCallback(Handler handler,
                                                                                CustomDialogFactory.CustomDialog progressDialog,
                                                                                Consumer<Boolean> callback) {
-        return new BackgroundWorkerCallback() {
+        return new BackgroundWorkerCallback<Boolean>() {
             private  int progress = -1;
             @Override
             public void onInitialize() {
@@ -296,6 +293,7 @@ public final class AndroidStorage {
                 });
             }
 
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onFailure(Exception e) {
                 handler.post(() -> {
@@ -304,8 +302,9 @@ public final class AndroidStorage {
                 });
             }
 
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
-            public void onComplete(Object result) {
+            public void onComplete(Boolean result) {
                 handler.post(() -> {
                     progressDialog.dismiss();
                     callback.accept(true);
@@ -315,14 +314,13 @@ public final class AndroidStorage {
     }
 
     private static CustomDialogFactory.CustomDialog getLoadingDialog(Context context) {
-        CustomDialogFactory.CustomDialog progressDialog = CustomDialogFactory.createDialog(context,
+        return CustomDialogFactory.createDialog(context,
                 context.getResources().getString(R.string.dialog_loading_message),
                 context.getResources().getDrawable(R.drawable.loading_anim),
                 null,
                 null,
                 false,
                 false);
-        return progressDialog;
     }
 
 }
