@@ -9,13 +9,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
+
 /**
  * Simply instantiate this class, implement abstract methods in an anonymous type, and tada, your Button is a Spinner! 
  */
 public abstract class SpinnerEmulator {
 	
 	private Button spinnerButton;
-	private Dialog spinnerDialog = null;
+	private CustomDialog spinnerDialog = null;
 	private ListView choicesList;
 	private Context context;
 	

@@ -20,11 +20,12 @@ import com.gpl.rpg.AndorsTrail.savegames.Savegames;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 public final class LoadingActivity extends AndorsTrailBaseActivity implements OnResourcesLoadedListener, OnSceneLoadedListener {
 
 	private WorldSetup setup;
-	private Dialog progressDialog;
+	private CustomDialog progressDialog;
 	private CloudsAnimatorView clouds_back, clouds_mid, clouds_front;
 	boolean loaded = false;
 
@@ -165,7 +166,7 @@ public final class LoadingActivity extends AndorsTrailBaseActivity implements On
 	}
 
 	private void showLoadingFailedDialog(int messageResourceID) {
-		final Dialog d = CustomDialogFactory.createDialog(this, getResources().getString(R.string.dialog_loading_failed_title), null, getResources().getString(messageResourceID), null, true);
+		final CustomDialog d = CustomDialogFactory.createDialog(this, getResources().getString(R.string.dialog_loading_failed_title), null, getResources().getString(messageResourceID), null, true);
 		CustomDialogFactory.addDismissButton(d, android.R.string.ok);
 		CustomDialogFactory.setDismissListener(d, new OnDismissListener() {
 			@Override

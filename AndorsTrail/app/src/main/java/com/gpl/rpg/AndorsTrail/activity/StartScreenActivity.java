@@ -11,6 +11,7 @@ import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -114,7 +115,7 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 		if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
 
-			final Dialog d = CustomDialogFactory.createDialog(this,
+			final CustomDialog d = CustomDialogFactory.createDialog(this,
 					getResources().getString(R.string.dialog_permission_information_title),
 					getResources().getDrawable(android.R.drawable.ic_dialog_info),
 					getResources().getString(R.string.dialog_permission_information),
