@@ -71,6 +71,29 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_button_container_vertical"
+            style="@style/AndorsTrail_Style_StdFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp">
+
+            <Button
+                android:id="@+id/dialog_template_button_vertical"
+                style="@style/AndorsTrail_Style_TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
         </LinearLayout>
     </LinearLayout>
 

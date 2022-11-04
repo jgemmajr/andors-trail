@@ -38,25 +38,26 @@ import com.gpl.rpg.AndorsTrail.util.AndroidStorage;
 import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 
 public class StartScreenActivity_MainMenu extends Fragment {
 
-	private static final int INTENTREQUEST_PREFERENCES = 7;
-	public static final int INTENTREQUEST_LOADGAME = 9;
+    private static final int INTENTREQUEST_PREFERENCES = 7;
+    public static final int INTENTREQUEST_LOADGAME = 9;
 
-	private boolean hasExistingGame = false;
-	private Button startscreen_continue;
-	private Button startscreen_newgame;
-	private Button startscreen_load;
-	private ViewGroup save_preview_holder;
-	private ImageView save_preview_hero_icon;
-	private TextView save_preview_hero_desc;
-	
-	
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		updatePreferences(false);
-		super.onCreateView(inflater, container, savedInstanceState);
+    private boolean hasExistingGame = false;
+    private Button startscreen_continue;
+    private Button startscreen_newgame;
+    private Button startscreen_load;
+    private ViewGroup save_preview_holder;
+    private ImageView save_preview_hero_icon;
+    private TextView save_preview_hero_desc;
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        updatePreferences(false);
+        super.onCreateView(inflater, container, savedInstanceState);
 
 
 		if (container != null) {
@@ -64,11 +65,11 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		}
 		
 		View root = inflater.inflate(R.layout.startscreen_mainmenu, container, false);
-		
+
 		save_preview_holder = (ViewGroup) root.findViewById(R.id.save_preview_holder);
 		save_preview_hero_icon = (ImageView) root.findViewById(R.id.save_preview_hero_icon);
 		save_preview_hero_desc = (TextView) root.findViewById(R.id.save_preview_hero_desc);
-		
+
 
 		startscreen_continue = (Button) root.findViewById(R.id.startscreen_continue);
 		startscreen_continue.setOnClickListener(new OnClickListener() {
@@ -114,7 +115,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 				AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
 				if (hasExistingGame && app != null && app.getWorld() != null && app.getWorld().model != null
 						&& app.getWorld().model.statistics != null && !app.getWorld().model.statistics.hasUnlimitedSaves()) {
-					final Dialog d = CustomDialogFactory.createDialog(getActivity(),
+					final CustomDialog d = CustomDialogFactory.createDialog(getActivity(),
 							getString(R.string.startscreen_load_game),
 							getResources().getDrawable(android.R.drawable.ic_delete),
 							getString(R.string.startscreen_load_game_confirm),
@@ -134,7 +135,7 @@ public class StartScreenActivity_MainMenu extends Fragment {
 				}
 			}
 		});
-		
+
 
 		if (AndorsTrailApplication.DEVELOPMENT_FORCE_STARTNEWGAME) {
 			if (AndorsTrailApplication.DEVELOPMENT_DEBUGRESOURCES) {
@@ -152,14 +153,14 @@ public class StartScreenActivity_MainMenu extends Fragment {
 			checkAndRequestPermissions(getActivity());
 			migrateDataOnDemand(getActivity());
 		}
-		
+
 		return root;
 	}
-	
+
 	@Override
 	public void onResume() {
 		super.onResume();
-		
+
 		String playerName;
 		String displayInfo = null;
 		int iconID = TileManager.CHAR_HERO;
@@ -189,14 +190,10 @@ public class StartScreenActivity_MainMenu extends Fragment {
 					setCurrentVersionForVersionCheck();
 					checkAndRequestPermissions(getActivity());
 					migrateDataOnDemand(getActivity());
-					boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-					startscreen_load.setEnabled(hasSavegames);
 				}
 			});
 		}
 
-		boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-		startscreen_load.setEnabled(hasSavegames);
 	}
 
 	@TargetApi(29)
@@ -204,23 +201,16 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
 			if (activity.getApplicationContext().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
 				if (AndroidStorage.shouldMigrateToInternalStorage(activity.getApplicationContext())) {
-					final Dialog d = CustomDialogFactory.createDialog(activity,
+					final CustomDialog d = CustomDialogFactory.createDialog(activity,
 							getString(R.string.startscreen_migration_title),
 							activity.getResources().getDrawable(android.R.drawable.ic_dialog_alert),
 							getString(R.string.startscreen_migration_text),
 							null,
 							true);
 					CustomDialogFactory.addDismissButton(d, android.R.string.ok);
-					d.setOnDismissListener(new DialogInterface.OnDismissListener() {
-						@Override
-						public void onDismiss(DialogInterface arg0) {
-							boolean hasSavegames = !Savegames.getUsedSavegameSlots(getActivity()).isEmpty();
-							startscreen_load.setEnabled(hasSavegames);
-						}
-					});
 					CustomDialogFactory.show(d);
 					if (!AndroidStorage.migrateToInternalStorage(activity.getApplicationContext())) {
-						final Dialog errorDlg = CustomDialogFactory.createDialog(activity,
+						final CustomDialog errorDlg = CustomDialogFactory.createDialog(activity,
 								getString(R.string.startscreen_migration_title),
 								activity.getResources().getDrawable(android.R.drawable.ic_dialog_alert),
 								getString(R.string.startscreen_migration_failure),
@@ -259,13 +249,13 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		super.onAttach(activity);
 		listener = (OnNewGameRequestedListener) activity;
 	}
-	
+
 	@Override
 	public void onDetach() {
 		super.onDetach();
 		listener = null;
 	}
-	
+
 	private void setButtonState(final String playerName, final String displayInfo, int iconID, boolean isDead) {
 		startscreen_continue.setEnabled(hasExistingGame && !isDead);
 		startscreen_newgame.setEnabled(true);
@@ -305,9 +295,9 @@ public class StartScreenActivity_MainMenu extends Fragment {
 //		.create().show();
 //		
 //		
-		final Dialog d = CustomDialogFactory.createDialog(getActivity(),
-				getString(R.string.startscreen_newgame), 
-				getResources().getDrawable(android.R.drawable.ic_delete), 
+		final CustomDialog d = CustomDialogFactory.createDialog(getActivity(),
+				getString(R.string.startscreen_newgame),
+				getResources().getDrawable(android.R.drawable.ic_delete),
 				getResources().getString(R.string.startscreen_newgame_confirm),
 				null,
 				true);
@@ -318,9 +308,9 @@ public class StartScreenActivity_MainMenu extends Fragment {
 			}
 		});
 		CustomDialogFactory.addDismissButton(d, android.R.string.cancel);
-		
+
 		CustomDialogFactory.show(d);
-		
+
 	}
 
 	private static final String versionCheck = "lastversion";
@@ -337,64 +327,90 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		e.putInt(versionCheck, AndorsTrailApplication.CURRENT_VERSION);
 		e.commit();
 	}
-	
 
-	@Override
-	public void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
-		switch (requestCode) {
-		case INTENTREQUEST_LOADGAME:
-			if (resultCode != Activity.RESULT_OK) break;
-			final int slot = data.getIntExtra("slot", 1);
-			continueGame(false, slot, null);
-			break;
-		case INTENTREQUEST_PREFERENCES:
-			updatePreferences(true);
-			break;
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case INTENTREQUEST_LOADGAME:
+				boolean unsuccessful = resultCode != Activity.RESULT_OK;
+				if(data == null) break;
+
+                final boolean wasImportOrExport = data.getBooleanExtra("import_export", false);
+                if (wasImportOrExport) {
+					String message = getImportExportMessage(!unsuccessful, data);
+					Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show();
+					break;
+				}
+				if (unsuccessful) break;
+                final int slot = data.getIntExtra("slot", 1);
+                continueGame(false, slot, null);
+                break;
+            case INTENTREQUEST_PREFERENCES:
+                updatePreferences(true);
+                break;
+        }
+    }
+
+	private String getImportExportMessage(boolean successful, Intent data) {
+		String message = "";
+		boolean isImportWorldmap = data.getBooleanExtra("import_worldmap", false);
+		boolean isImportSaves = data.getBooleanExtra("import_savegames", false);
+		boolean isExport = data.getBooleanExtra("export", false);
+
+		if(isImportWorldmap) {
+			message = getString(successful ? R.string.loadsave_import_worldmap_successfull : R.string.loadsave_import_worldmap_unsuccessfull);
+		} else if(isImportSaves) {
+			message = getString(successful ? R.string.loadsave_import_save_successfull : R.string.loadsave_import_save_unsuccessfull);
+		} else if(isExport) {
+			message = getString(successful ? R.string.loadsave_export_successfull : R.string.loadsave_export_unsuccessfull);
 		}
+
+		return message;
 	}
-	
+
 	private void updatePreferences(boolean alreadyStartedLoadingResources) {
-		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
-		AndorsTrailPreferences preferences = app.getPreferences();
-		preferences.read(getActivity());
-		if (app.setLocale(getActivity())) {
-			if (alreadyStartedLoadingResources) {
-				// Changing the locale after having loaded the game requires resources to
-				// be re-loaded. Therefore, we just exit here.
-				Toast.makeText(getActivity(), R.string.change_locale_requires_restart, Toast.LENGTH_LONG).show();
-				doFinish();
-				return;
-			}
-		} 
-		if (ThemeHelper.changeTheme(preferences.selectedTheme)) {
-			// Changing the theme requires a restart to re-create all activities.
-			Toast.makeText(getActivity(), R.string.change_theme_requires_restart, Toast.LENGTH_LONG).show();
-			doFinish();
-			return;
-		}
-		app.getWorld().tileManager.updatePreferences(preferences);
-	}
-	
-	@SuppressLint("NewApi")
-	private void doFinish() {
-		//For Lollipop and above
-		((AndorsTrailApplication)getActivity().getApplication()).discardWorld();
-		getActivity().finish();
-	}
+        AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
+        AndorsTrailPreferences preferences = app.getPreferences();
+        preferences.read(getActivity());
+        if (app.setLocale(getActivity())) {
+            if (alreadyStartedLoadingResources) {
+                // Changing the locale after having loaded the game requires resources to
+                // be re-loaded. Therefore, we just exit here.
+                Toast.makeText(getActivity(), R.string.change_locale_requires_restart, Toast.LENGTH_LONG).show();
+                doFinish();
+                return;
+            }
+        }
+        if (ThemeHelper.changeTheme(preferences.selectedTheme)) {
+            // Changing the theme requires a restart to re-create all activities.
+            Toast.makeText(getActivity(), R.string.change_theme_requires_restart, Toast.LENGTH_LONG).show();
+            doFinish();
+            return;
+        }
+        app.getWorld().tileManager.updatePreferences(preferences);
+    }
 
-	
+    @SuppressLint("NewApi")
+    private void doFinish() {
+        //For Lollipop and above
+        ((AndorsTrailApplication) getActivity().getApplication()).discardWorld();
+        getActivity().finish();
+    }
+
+
 	public interface OnNewGameRequestedListener {
 		public void onNewGameRequested();
 	}
-	
+
 	private OnNewGameRequestedListener listener = null;
-	
+
 	private void createNewGame() {
 		if (listener != null) {
 			listener.onNewGameRequested();
 		}
 	}
-	
+
 
 }

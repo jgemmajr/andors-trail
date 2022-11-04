@@ -43,6 +43,7 @@ import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CombatView;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory.CustomDialog;
 import com.gpl.rpg.AndorsTrail.view.DisplayActiveActorConditionIcons;
 import com.gpl.rpg.AndorsTrail.view.ItemContainerAdapter;
 import com.gpl.rpg.AndorsTrail.view.MainView;
@@ -247,7 +248,7 @@ public final class MainActivity
 					final ItemContainerAdapter inventoryListAdapter = new QuickslotsItemContainerAdapter(lv.getContext(), world.tileManager, world.model.player.inventory.usableItems(), world.model.player, wornTiles);
 					lv.setAdapter(inventoryListAdapter);
 
-					final Dialog d = CustomDialogFactory.createDialog(v.getContext(), 
+					final CustomDialog d = CustomDialogFactory.createDialog(v.getContext(),
 							v.getResources().getString(R.string.inventory_assign), 
 							v.getResources().getDrawable(R.drawable.ui_icon_equipment), 
 							v.getResources().getString(R.string.inventory_selectitem), view, false);

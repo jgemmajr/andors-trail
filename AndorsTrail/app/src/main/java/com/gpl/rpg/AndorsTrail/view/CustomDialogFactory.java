@@ -1,8 +1,8 @@
 package com.gpl.rpg.AndorsTrail.view;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface.OnDismissListener;
+import android.content.DialogInterface.OnCancelListener;
 import android.graphics.Rect;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
@@ -22,25 +22,33 @@ import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 
 public class CustomDialogFactory {
-	
-	public static class CustomDialog extends Dialog {
+
+	public static class CustomDialog extends android.app.Dialog {
 		public CustomDialog(Context context) {
 			super(context);
 		}
-		
+		boolean verticalButtons = false;
 	}
-	
-	public static CustomDialog createDialog(final Context context, String title, Drawable icon, String desc, View content, boolean hasButtons) {
+
+	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
+											String desc, View content, boolean hasButtons, boolean canDismiss) {
+		return createDialog(context, title, icon, desc, content, hasButtons, canDismiss, false);
+	}
+
+	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
+											String desc, View content, boolean hasButtons) {
 		return createDialog(context, title, icon, desc, content, hasButtons, true);
 	}
-		
-	public static CustomDialog createDialog(final Context context, String title, Drawable icon, String desc, View content, boolean hasButtons, final boolean canDismiss) {
+
+	public static CustomDialog createDialog(final Context context, String title, Drawable icon,
+											String desc, View content, boolean hasButtons,
+											final boolean canDismiss, final boolean verticalButtons) {
 		final CustomDialog dialog = new CustomDialog(new ContextThemeWrapper(context, ThemeHelper.getDialogTheme())) {
 			@Override
 			public boolean onTouchEvent(MotionEvent event) {
 				Rect r = new Rect();
 				this.getWindow().getDecorView().findViewById(R.id.dialog_hitrect).getHitRect(r);
-				
+
 				if (r.contains((int)event.getX(), (int)event.getY())) {
 					return super.onTouchEvent(event);
 				} else {
@@ -51,7 +59,7 @@ public class CustomDialogFactory {
 					return false;
 				}
 			}
-			
+
 			@Override
 			public void onWindowFocusChanged(boolean hasFocus) {
 				super.onWindowFocusChanged(hasFocus);
@@ -63,7 +71,8 @@ public class CustomDialogFactory {
 				}
 			}
 		};
-		
+		dialog.verticalButtons = verticalButtons;
+
 		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		dialog.setContentView(R.layout.custom_dialog_title_icon);
 		dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
@@ -72,23 +81,37 @@ public class CustomDialogFactory {
 		} else {
 			dialog.getWindow().setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		}
-		
+
 		setTitle(dialog, title, icon);
-		
+
 		setDesc(dialog, desc);
-		
+
 		setContent(dialog, content);
-		
-		ViewGroup buttonsHolder = (ViewGroup) dialog.findViewById(R.id.dialog_button_container);
+
+		ViewGroup buttonsHolder = getButtonContainer(dialog);
+		ViewGroup unusedButtonsHolder = getUnusedButtonContainer(dialog);
+
+		unusedButtonsHolder.setVisibility(View.GONE);
 		if (hasButtons) {
 			buttonsHolder.setVisibility(View.VISIBLE);
 		} else {
 			buttonsHolder.setVisibility(View.GONE);
 		}
-		
+
 		return dialog;
 	}
-	
+
+	public static CustomDialog createErrorDialog(final Context context, String title, String description) {
+		final CustomDialog d = createDialog(context,
+				title,
+				context.getResources().getDrawable(android.R.drawable.ic_dialog_alert),
+				description,
+				null,
+				true);
+		CustomDialogFactory.addDismissButton(d, android.R.string.ok);
+		return d;
+	}
+
 	public static CustomDialog setTitle(final CustomDialog dialog, String title, Drawable icon) {
 		TextView titleView = (TextView) dialog.findViewById(R.id.dialog_title);
 		if (title != null || icon != null) {
@@ -100,7 +123,7 @@ public class CustomDialogFactory {
 		}
 		return dialog;
 	}
-	
+
 	public static CustomDialog setDesc(final CustomDialog dialog, String desc) {
 		TextView descView = (TextView) dialog.findViewById(R.id.dialog_description);
 		ViewGroup descHolder = (ViewGroup) dialog.findViewById(R.id.dialog_description_container);
@@ -113,7 +136,7 @@ public class CustomDialogFactory {
 		}
 		return dialog;
 	}
-	
+
 	public static CustomDialog setContent(final CustomDialog dialog, View content) {
 		ViewGroup contentHolder = (ViewGroup) dialog.findViewById(R.id.dialog_content_container);
 		if (content != null) {
@@ -124,54 +147,101 @@ public class CustomDialogFactory {
 		}
 		return dialog;
 	}
-	
-	public static Dialog addButton(final Dialog dialog, int textId, final OnClickListener listener) {
-		
-		Button template = (Button) dialog.findViewById(R.id.dialog_template_button);
+
+	public static CustomDialog addButton(final CustomDialog dialog, String text, final OnClickListener listener) {
+		return addButton(dialog, -1, text, listener);
+	}
+	public static CustomDialog addButton(final CustomDialog dialog, int textId, final OnClickListener listener) {
+		return addButton(dialog, textId, null, listener);
+	}
+	public static CustomDialog addButton(final CustomDialog dialog, int textId, String text, final OnClickListener listener) {
+		Button template = getButtonTemplate(dialog);
 		LayoutParams params = template.getLayoutParams();
-		ViewGroup buttonsHolder = (ViewGroup) dialog.findViewById(R.id.dialog_button_container);
-		
+		ViewGroup buttonsHolder = getButtonContainer(dialog);
+
 		Button b = new Button(dialog.getContext());
 		b.setLayoutParams(params);
 		//Old android versions need this "reminder"
 		b.setBackgroundDrawable(ThemeHelper.getThemeDrawable(dialog.getContext(), R.attr.ui_theme_textbutton_drawable));
 		b.setTextColor(ThemeHelper.getThemeColor(dialog.getContext(), R.attr.ui_theme_dialogue_light_color));
-		
-		b.setText(textId);
+
+		if(textId != -1) {
+			b.setText(textId);
+		} else {
+			b.setText(text);
+		}
+
 		b.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				listener.onClick(v);
 				dialog.dismiss();
 			}
 		});
-		
+
 		buttonsHolder.addView(b, params);
 		return dialog;
 	}
-	
-	public static Dialog addDismissButton(final Dialog dialog, int textId) {
+
+	public static CustomDialog addDismissButton(final CustomDialog dialog, int textId) {
 		return CustomDialogFactory.addButton(dialog, textId, new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				dialog.dismiss();
 			}
 		});
 	}
-	
-	public static Dialog setDismissListener(Dialog dialog, OnDismissListener listener) {
+	public static CustomDialog addCancelButton(final CustomDialog dialog, int textId) {
+		return CustomDialogFactory.addButton(dialog, textId, new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				dialog.cancel();
+			}
+		});
+	}
+
+	public static CustomDialog setDismissListener(CustomDialog dialog, OnDismissListener listener) {
 		dialog.setOnDismissListener(listener);
-		
+
 		return dialog;
 	}
-	
-	public static void show(Dialog dialog) {
-		
+
+	public static CustomDialog setCancelListener(CustomDialog dialog, OnCancelListener listener) {
+		dialog.setOnCancelListener(listener);
+		return dialog;
+	}
+
+	public static void show(CustomDialog dialog) {
+
 		dialog.findViewById(R.id.dialog_template_button).setVisibility(View.GONE);
+		dialog.findViewById(R.id.dialog_template_button_vertical).setVisibility(View.GONE);
 		dialog.show();
-		
+
+	}
+
+
+	private static ViewGroup getUnusedButtonContainer(CustomDialog dialog) {
+		if (dialog.verticalButtons)
+			return (ViewGroup) dialog.findViewById(R.id.dialog_button_container);
+		else
+			return (ViewGroup) dialog.findViewById(R.id.dialog_button_container_vertical);
+	}
+
+	private static ViewGroup getButtonContainer(CustomDialog dialog) {
+		if (dialog.verticalButtons)
+			return (ViewGroup) dialog.findViewById(R.id.dialog_button_container_vertical);
+		else
+			return (ViewGroup) dialog.findViewById(R.id.dialog_button_container);
+	}
+
+	private static Button getButtonTemplate(CustomDialog dialog) {
+		if (dialog.verticalButtons)
+			return (Button) dialog.findViewById(R.id.dialog_template_button_vertical);
+		else
+			return (Button) dialog.findViewById(R.id.dialog_template_button);
 	}
 
 }
