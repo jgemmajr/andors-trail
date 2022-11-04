@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2022-10-07 23:04+0000\n"
-"Last-Translator: Nut Andor <nut.andor@posteo.de>\n"
+"PO-Revision-Date: 2022-11-04 13:07+0000\n"
+"Last-Translator: aircqsj <11285819@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -407,7 +407,7 @@ msgstr "你还有更多任务要我做吗？"
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr "[OUTDATED]我们应该谈点什么，对吧？"
+msgstr "你有什么任务给我吗？"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
@@ -906,7 +906,7 @@ msgstr "你的哥哥？不，今天我还没见到他呢。我想我看到他昨
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr "谢谢，我去和格鲁尔谈谈。我还想谈点其他事。"
+msgstr "谢谢，我会去和格鲁尔谈谈。我还想谈点其他事。"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
@@ -48458,7 +48458,7 @@ msgstr "你想不想和我一起试试水晶球，看看它是否有效？"
 
 #: conversationlist_delivery.json:brv_wh_delivery_brv_fortune:1
 msgid "Thanks for choosing Facutloni's delivery."
-msgstr "感谢你选择Facutloni'的快递。"
+msgstr "感谢你选择法库托尼的快递。"
 
 #: conversationlist_delivery.json:brv_wh_delivery_brv_fortune_10
 msgid "You say you want me to help you?"
@@ -48879,7 +48879,7 @@ msgstr "我需要一个放松和提神的地方。你有空床吗？"
 
 #: conversationlist_sullengard.json:sullengard_godrey_10:2
 msgid "Do you know by chance where this lost travelor is?"
-msgstr ""
+msgstr "你知道这个迷路的旅行者在哪里吗？"
 
 #: conversationlist_sullengard.json:sullengard_godrey_20
 msgid "Yes, I do, but it's going to cost you more than you may be expecting."
@@ -50094,7 +50094,8 @@ msgstr "[OUTDATED]我希望我知道。他告诉我在哪里可以找到你的�
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_90:1
 msgid "I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. I just remembered that I didn't bring your inventory with me. I'll be right back."
-msgstr ""
+msgstr "我希望我知道。在他告诉我在哪里可以找到你的东西之后，他就溜了，我无法看到他逃"
+"往哪个方向。我只记得我没有带你的存货。我马上就回来。"
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_100
 msgid ""
@@ -51629,7 +51630,7 @@ msgstr "如果您在这里处理税务投诉或土地纠纷，请登记，我很
 
 #: conversationlist_sullengard.json:sullengard_godrey_10a
 msgid "Sure. Look at the table over there. He is my best customer at he moment."
-msgstr ""
+msgstr "当然，看看那边的桌子。他是我目前最好的顾客。"
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -55268,11 +55269,20 @@ msgstr "握住它时，你会有一种温暖和舒适的感觉。"
 
 #: itemlist_delivery.json:facutloni_docket
 msgid "Facutloni's Docket"
-msgstr "Facutloni的记事表"
+msgstr "法库托尼的记事表"
 
 #: itemlist_delivery.json:facutloni_docket:description
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
-msgstr "一份文件列出了Fallhaven的图书爱好者阿西尔（Arcir）订购了一本“尘封的旧书”。  来自Brimhaven的金属匠埃德林订购了一把“纹锤”。  来自Stoutford的装甲兵奥迪拉特订购了一个“漂亮的瓷器人物”。  来自Brimhaven的洗衣店Veranra订购了一件“破旧的斗篷”。  倒霉的商人Tjure订购了一个“神秘绿色之物”。  来自Guynmart城堡的仆人仆人订购了一盏“枝形吊灯”。  来自Remgard酒馆的Arghes订购了“黄靴子”。来自Vilegard的悲伤女人Wyre订购了一把“七弦琴”。  来自Crossglen的Mikhail订购了一个“毛绒枕头”。  来自Brimhaven的算命先生Pangitain订购了一个“水晶球” "
+msgstr ""
+"一份文件列出了法尔海文的图书爱好者阿西尔订购了一本“尘封的旧书”。  "
+"来自布林海文的金属匠埃德林订购了一把“纹锤”。  "
+"来自斯托福德的装甲兵奥迪拉特订购了一个“漂亮的瓷器人物”。  "
+"来自布林海文的洗衣店维南拉订购了一件“破旧的斗篷”。  "
+"倒霉的商人特诸尔订购了一个“神秘绿色之物”。  "
+"来自盖恩玛特城堡的仆人仆人订购了一盏“枝形吊灯”。  来自瑞姆加德酒馆的阿尔吉斯"
+"订购了“黄靴子”。来自维尔加德的悲伤女人维艾订购了一把“七弦琴”。  "
+"来自克罗斯山谷的米哈伊尔订购了一个“毛绒枕头”。  "
+"来自布林海文的算命先生盘尼坦订购了一个“水晶球” "
 
 #: itemlist_sullengard.json:golden_jackal_fur
 msgid "Golden jackal fur"
@@ -59595,7 +59605,7 @@ msgstr "玛达莱纳"
 
 #: monsterlist_next_release.json:lava_queen_entity
 msgid "Queen lava entity"
-msgstr ""
+msgstr "女王熔岩实体"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -64099,7 +64109,8 @@ msgstr "交货"
 
 #: questlist_delivery.json:brv_wh_delivery:10
 msgid "Facutloni asked me to help him deliver all of the items ordered by his customers a long time ago. He even gave me an old document with the names and items written on it."
-msgstr "Facutloni让我帮助他运送很久以前顾客订购的所有物品。他甚至给了我一份旧文件，上面写着名字和物品。"
+msgstr "法库托尼让我帮助他运送很久以前顾客订购的所有物品。他甚至给了我一份旧文件，上"
+"面写着名字和物品。"
 
 #: questlist_delivery.json:brv_wh_delivery:20
 msgid "Arcir the Fallhaven book-lover ordered a 'Dusty Old book'."
@@ -64139,15 +64150,15 @@ msgstr "米哈伊尔订购了一个'毛绒枕头'。"
 
 #: questlist_delivery.json:brv_wh_delivery:110
 msgid "Pangitain the Brimhaven fortune teller ordered a 'Crystal Globe'."
-msgstr "Brimhaven的算命先生Pangitain订购了一个'水晶球'。"
+msgstr "布林海文的算命先生盘尼坦订购了一个'水晶球'。"
 
 #: questlist_delivery.json:brv_wh_delivery:120
 msgid "Facutloni wants me to report back after the deliveries are complete."
-msgstr "Facutloni希望我在交付完成后报告。"
+msgstr "法库托尼希望我在交付完成后报告。"
 
 #: questlist_delivery.json:brv_wh_delivery:130
 msgid "I reported back to Facutloni. He is very happy."
-msgstr "我向Facutloni汇报了情况。他非常高兴。"
+msgstr "我向法库托尼汇报了情况。他非常高兴。"
 
 #: questlist_sullengard.json:deebo_orchard_hth
 msgid "Hunting the hunter"
@@ -64372,4 +64383,3 @@ msgstr "苏伦加德"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "迪博果园"
-
