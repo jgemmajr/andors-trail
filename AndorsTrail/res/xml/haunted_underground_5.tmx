@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="14" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,62 +180,90 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="20" height="15">
+ <layer id="1" name="Base" width="14" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7J8nAsJETgu8hsd9JYvKxsUFqYGqxicP4KFgYB+ZENeseLv1o+KAwdoyuDqd70PBuKeyYGL3Y8GkpBGZmR7DJNQ8bTmPFLr4ZDybHHnzmkYOpbRc1w3QUDz4MAKax4Dg=
+   eJxjYBg+YA/zQLtgFIxUAADd2ADA
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="15">
+ <layer id="2" name="Ground" width="14" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgeCvJAAcg9hsc/LtoctgASP0FQVSx04IQfSC5U0hy/4RR1WEz+xSSXmxmXEdi84mg6k0WQNULc99hXH4QYmCwY4EwZ8pA6M9sEFqSiYEhCGjeLaB9/EKo7r0GFDsDZT9Dci8IxEHNWymDsCaPCUInCaBaDwqnF2K48UsxiDqY+wOB+j8g+f+iGMQtxIJXeOzChWHgBgF7iJX/IYYd3xYjrBcfgKULWLx8w2EPIfxKEhIv2AB6WIPS5Qs0MZj9MPeA0sdtoNhrqDhI/UtJiD0g8BJJDgZuQ+WfoZkNSgcw9chmoqtDN/8VFvPBeoUgefc2kpkgtdeRxNDzNgicRtODTGNzH7oYPvoVmhkAXcWbCQ==
+   eJxrY2ZgaCMDb+bEjmcw48fIalcxE49hetrx2A0CuOQowfj8iw/j8jc+3I7m79VE6sUXLtTyTxsZ7iKUXvDpIUYfsemTnHRNSn4AAEm0jK0=
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="15">
+ <layer id="3" name="Objects" width="14" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7K8kABnegND5wTxjBviuJWw+y+F00NQ/ZcZv/CIscSP9mPG5j5MAtx4RHbg+SmSD3orsTGzgsRlgNNoDL/ZfING84gz1ExAM+cItC/djsvymJai4yH10OlxgIgNLBTSRxfG5FNp+Qe3Dpw2c+TB7dPTex2ItNDTqNDxDrZ2IAALSvMV4=
+   eJxjYEAFl4UY8ILPUPk2ZuyYECBGrbAYbn0gsIcZOwbpQxdDtu8wFnN1hBkYlMUgNAzIM6HqA4VJCTMEl+JxNzcTbv/NROM/QgpnaSbiww8GiqHuwRUue4HYQxBTXytU7QxmCIa5S1wYUy0I8Auj6iMFFCPpQXYXOgCFBcw/JTjkkc0swaMWW/otJsHt6GZ/JpAfYAAAo/gvUg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15">
+ <layer id="4" name="Above" width="14" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGOGASoYQYyoIYZxJoFU4NMY2Pj8iu6GLrdxABC9o8CBKA0XAilF1Ltxxb32NIGMW4gNl0Taz4xeRaf+fTI/wDD8WwO
+   eJxjYBg4cFiMvvpKmcnTRy1wmUh3o/vPQpB4fezCCP4lMu0jFpCrj1h3DSUAAK9dCKs=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="128" width="32" height="192">
+ <layer id="10" name="Top" width="14" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgx0cFhtoF4wCQgAAZ0UA2g==
+  </data>
+ </layer>
+ <layer id="5" name="Walkable" width="14" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPbBQjjIlVR0991PDbYNBHSpgQ0gcTJzVMCAFq+Ica/iYnLZGKAQMuaPI=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="384" width="32" height="64">
    <properties>
-    <property name="map" value="road4"/>
+    <property name="map" value="haunted_underground_4"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="house" type="mapchange" x="384" y="128" width="32" height="32">
+  <object id="2" name="underground" type="mapchange" x="288" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="road5_house"/>
-    <property name="place" value="entrance"/>
+    <property name="map" value="haunted_cemetery1"/>
+    <property name="place" value="cemetery"/>
    </properties>
   </object>
-  <object id="3" name="east" type="mapchange" x="608" y="160" width="32" height="192">
-   <properties>
-    <property name="map" value="cabin_norcity_road1"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="4" name="road5_daw_selector" type="script" x="128" y="448" width="32" height="32">
+  <object id="3" name="haunted_cemetery1_walkable_gp" type="script" x="288" y="96" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="5" name="beetle2" type="spawn" x="64" y="288" width="288" height="160">
+ <objectgroup id="7" name="Spawn" visible="0">
+  <object id="4" name="sinister_wraith_spawn1" type="spawn" x="256" y="256" width="96" height="64">
    <properties>
-    <property name="spawngroup" value="beetle2"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sinister_wraith"/>
    </properties>
   </object>
-  <object id="6" name="forestboar3" type="spawn" x="288" y="320" width="288" height="128">
+  <object id="5" name="death_wrecker_spawn1" type="spawn" x="64" y="384" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="forestboar3"/>
+    <property name="spawngroup" value="death_wrecker"/>
+   </properties>
+  </object>
+  <object id="6" name="sleepless_taint_spawn1" type="spawn" x="128" y="320" width="96" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sleepless_taint"/>
+   </properties>
+  </object>
+  <object id="7" name="three_eyed_bat_spawn1" type="spawn" x="160" y="288" width="192" height="64">
+   <properties>
+    <property name="spawngroup" value="three_eyed_bat"/>
+   </properties>
+  </object>
+  <object id="8" name="three_eyed_bat_spawn2" type="spawn" x="160" y="128" width="256" height="64">
+   <properties>
+    <property name="spawngroup" value="three_eyed_bat"/>
+   </properties>
+  </object>
+  <object id="9" name="sleepless_taint_spawn2" type="spawn" x="256" y="160" width="128" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sleepless_taint"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>

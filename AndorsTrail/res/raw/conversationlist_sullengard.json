@@ -2153,18 +2153,18 @@
         "message":"Are you a farmer?",
         "replies":[
             {
-                "text":"No. But I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "text":"No. But I'm a child of an ordinary farmer in a small settlement called Crossglen.",
                 "nextPhraseID":"throthaus_5"
             },
             {
-                "text":"Yes. I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "text":"Yes. I'm a child of an ordinary farmer in a small settlement called Crossglen.",
                 "nextPhraseID":"throthaus_5"
             }
         ]
     },
     {
         "id":"throthaus_5",
-        "message":"If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here.",
+        "message":"If you are the child of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here.",
         "replies":[
             {
                 "text":"N",
@@ -2194,11 +2194,11 @@
         "message":"Don't worry about me. I still have one. I bought them from buy-one take-one shop in Nor City. It's a limited shop though.",
         "replies":[
             {
-                "text":"I'll prove it to you that I'm a son of a farmer!",
+                "text":"I'll prove it to you that I'm the child of a farmer!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"You'll see that you are wrong about me. I'm a son of a farmer!",
+                "text":"You'll see that you are wrong about me. I'm the child of a farmer!",
                 "nextPhraseID":"X"
             }
         ]
@@ -3721,7 +3721,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"zaccheria_inventory",
-                        "value":1,
+                        "value":0,
                         "negate":false
                     }
                 ]

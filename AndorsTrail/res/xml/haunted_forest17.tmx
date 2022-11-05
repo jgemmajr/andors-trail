@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="8">
  <properties>
+  <property name="colorfilter" value="black60"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
@@ -183,62 +184,79 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="20" height="15">
+ <layer id="1" name="Base" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJy7J8nAsJETgu8hsd9JYvKxsUFqYGqxicP4KFgYB+ZENeseLv1o+KAwdoyuDqd70PBuKeyYGL3Y8GkpBGZmR7DJNQ8bTmPFLr4ZDybHHnzmkYOpbRc1w3QUDz4MAKax4Dg=
+   eJxjYBjcgImbuuoGCgAAE5oAGw==
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="15">
+ <layer id="2" name="Ground" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgeCvJAAcg9hsc/LtoctgASP0FQVSx04IQfSC5U0hy/4RR1WEz+xSSXmxmXEdi84mg6k0WQNULc99hXH4QYmCwY4EwZ8pA6M9sEFqSiYEhCGjeLaB9/EKo7r0GFDsDZT9Dci8IxEHNWymDsCaPCUInCaBaDwqnF2K48UsxiDqY+wOB+j8g+f+iGMQtxIJXeOzChWHgBgF7iJX/IYYd3xYjrBcfgKULWLx8w2EPIfxKEhIv2AB6WIPS5Qs0MZj9MPeA0sdtoNhrqDhI/UtJiD0g8BJJDgZuQ+WfoZkNSgcw9chmoqtDN/8VFvPBeoUgefc2kpkgtdeRxNDzNgicRtODTGNzH7oYPvoVmhkAXcWbCQ==
+   eJxj4mZgYBrE2I2JOHVhRKobKAwAmo0FGQ==
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="15">
+ <layer id="3" name="Objects" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJy7K8kABnegND5wTxjBviuJWw+y+F00NQ/ZcZv/CIscSP9mPG5j5MAtx4RHbg+SmSD3orsTGzgsRlgNNoDL/ZfING84gz1ExAM+cItC/djsvymJai4yH10OlxgIgNLBTSRxfG5FNp+Qe3Dpw2c+TB7dPTex2ItNDTqNDxDrZ2IAALSvMV4=
+   eJxtUDkOgDAM8xdalpYVsfF5ngA8AQkJmGDhegADCw1N1CKwVEVuYssJAFQWqN07NR4IX5j3ChgdP6yvu8ULnfJ1497GszPr8zTMrjzbsv+fn4D0iQm+sV5QsHdmvlqC+Iu+1aEniPM2rpbW70yY6J+1lw5ZBuXvFGffo2yUi3aUW96bQDDg
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15">
+ <layer id="4" name="Above" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGOGASoYQYyoIYZxJoFU4NMY2Pj8iu6GLrdxABC9o8CBKA0XAilF1Ltxxb32NIGMW4gNl0Taz4xeRaf+fTI/wDD8WwO
+   eJy7KcnAcAuIb0JpbOAmDvHNOMRhAJd5hMwFARkpwnpv4XEzsvkvJTHdehHIv4QmhmwWLnNh7toIlN9EwH/IAACB7hLC
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="128" width="32" height="192">
+ <layer id="10" name="Top" width="10" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi64KbkQLuAeAAAo+cA8w==
+  </data>
+ </layer>
+ <layer id="5" name="Walkable" width="10" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg2CiGwAwMqGwGNHl0OWSASw029bjswmcmLnlcdmDTj8st6PLY3EconHDZC8IAHEkgpw==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="288" y="64" width="32" height="160">
    <properties>
-    <property name="map" value="road4"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="2" name="house" type="mapchange" x="384" y="128" width="32" height="32">
-   <properties>
-    <property name="map" value="road5_house"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="608" y="160" width="32" height="192">
-   <properties>
-    <property name="map" value="cabin_norcity_road1"/>
+    <property name="map" value="haunted_forest16"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="4" name="road5_daw_selector" type="script" x="128" y="448" width="32" height="32">
+  <object id="2" name="south" type="mapchange" x="32" y="256" width="160" height="32">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="map" value="haunted_forest_way_to_house5"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="3" name="north" type="mapchange" x="128" y="0" width="192" height="32">
+   <properties>
+    <property name="map" value="haunted_forest19"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="5" name="beetle2" type="spawn" x="64" y="288" width="288" height="160">
+ <objectgroup id="7" name="Spawn">
+  <object id="4" name="angel_death_spawn1" type="spawn" x="32" y="192" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="beetle2"/>
+    <property name="spawngroup" value="angel_death"/>
    </properties>
   </object>
-  <object id="6" name="forestboar3" type="spawn" x="288" y="320" width="288" height="128">
+  <object id="5" name="angel_death_spawn2" type="spawn" x="192" y="64" width="64" height="96">
    <properties>
-    <property name="spawngroup" value="forestboar3"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="angel_death"/>
+   </properties>
+  </object>
+  <object id="6" name="musty_prowler_spawn1" type="spawn" x="96" y="192" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="musty_prowler"/>
+   </properties>
+  </object>
+  <object id="7" name="grieveless_dead_spawn1" type="spawn" x="128" y="64" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="grieveless_dead"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
