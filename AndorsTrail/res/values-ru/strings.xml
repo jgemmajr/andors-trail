@@ -311,9 +311,9 @@
     <string name="skill_number_of_increases_one">Вы можете улучшить один навык.</string>
     <string name="skill_number_of_increases_several">Вы можете улучшить %1$d навыков.</string>
     <string name="levelup_adds_new_skillpoint">Этот уровень также дает вам очко навыков!</string>
-    <string name="loadsave_save_to_new_slot">Создать новый слот для сохранения игры</string>
+    <string name="loadsave_save_to_new_slot">Создать новый слот сохранения</string>
     <string name="loadsave_save_overwrite_confirmation_title">Перезаписать сохранение\?</string>
-    <string name="loadsave_save_overwrite_confirmation">Это сохранение содержит другое имя игрока (%1$s), не совпадающим с именем текущего героя (%2$s). Вы уверены, что хотите перезаписать сохраненную игру\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Это сохранение содержит имя игрока (%1$s), отличное от имени текущего героя (%2$s). Вы уверены, что хотите перезаписать сохранение\?</string>
     <string name="iteminfo_displaytypes_ordinary">Обычный</string>
     <string name="iteminfo_displaytypes_quest">Квестовый</string>
     <string name="iteminfo_displaytypes_legendary">Легендарный</string>
@@ -495,9 +495,9 @@
     <string name="inventory_category_favorites">Избранные</string>
     <string name="inventory_category_weapons">Оружие</string>
     <string name="inventory_category_armor">Доспехи</string>
-    <string name="inventory_category_usable">Расходуемые</string>
+    <string name="inventory_category_usable">Полезное</string>
     <string name="inventory_category_quest">Квестовые</string>
-    <string name="inventory_category_other">Прочие</string>
+    <string name="inventory_category_other">Другое</string>
     <string name="inventory_sort_custom">Без сортировки</string>
     <string name="inventory_sort_name">Название</string>
     <string name="inventory_sort_price">Цена</string>
@@ -515,7 +515,7 @@
     <string name="skill_category_defense">Защита</string>
     <string name="skill_category_criticals">Крит. удары</string>
     <string name="skill_category_immunity">Иммунитет</string>
-    <string name="skill_category_utility">Вспомогательное</string>
+    <string name="skill_category_utility">Полезное</string>
     <string name="skill_category_speciality">Специальность</string>
     <string name="skill_category_proficiency">Умения</string>
     <string name="skill_sort_unsorted">Без сортировки</string>
@@ -609,4 +609,30 @@
     <string name="startscreen_migration_text">Перенос данных сохраненной игры.</string>
     <string name="startscreen_migration_failure">Не удалось перенести данные сохранения.</string>
     <string name="monsterinfo_killcount">Предыдущие убийства</string>
+    <string name="loadsave_import_option_keep_imported">Сохранить импортированное сохранение</string>
+    <string name="loadsave_import_save">Импорт сохранений</string>
+    <string name="loadsave_import_option_keep_existing">Сохранить существующее сохранение</string>
+    <string name="loadsave_export_unsuccessfull">Экспорт не выполнен</string>
+    <string name="loadsave_import_save_successfull">Импорт выполнен</string>
+    <string name="loadsave_import_file_exists_question">В слоте уже есть сохраненная игра. Вы хотите сохранить существующее сохранение, перезаписать его импортированным сохранением или импортировать сохранение в слот\? 
+\n 
+\n%1$s 
+\n 
+\n%2$s</string>
+    <string name="loadsave_export">Экспорт сохранений</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Перезаписать существующие файлы\?</string>
+    <string name="loadsave_import_save_unsuccessfull">Импорт не выполнен</string>
+    <string name="loadsave_import_save_error_unknown">При импорте произошла неизвестная ошибка.</string>
+    <string name="loadsave_export_successfull">Экспорт выполнен</string>
+    <string name="loadsave_export_overwrite_confirmation">Выбранная папка содержит существующие файлы с теми же именами, что и файлы, которые необходимо экспортировать. Вы уверены, что хотите перезаписать эти файлы\?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Перезаписать слот\?</string>
+    <string name="loadsave_import_option_add_as_new">Добавить новое Сохранение</string>
+    <string name="loadsave_import_worldmap">Импорт карты мира</string>
+    <string name="loadsave_import_existing_description">Существующее сохранение. Слот: %1$s: 
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Импортированное сохранение. Слот: %1$s: 
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_successfull">Импортирование карты мира успешно</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Не удалось импортировать карту мира</string>
+    <string name="loadsave_import_worldmap_wrong_directory">Вы уверены, что в этой папке находится карта мира\? Пожалуйста, выберите папку с названием \'worldmap\' для экспорта.</string>
 </resources>
