@@ -608,4 +608,31 @@
     <string name="startscreen_migration_title">数据转移</string>
     <string name="startscreen_migration_text">转移savegame数据.</string>
     <string name="startscreen_migration_failure">转移savegame数据失败.</string>
+    <string name="loadsave_export">导出存档游戏</string>
+    <string name="loadsave_export_successfull">导出成功</string>
+    <string name="loadsave_export_unsuccessfull">导出失败</string>
+    <string name="loadsave_export_overwrite_confirmation_title">是否覆盖现有文件？</string>
+    <string name="loadsave_export_overwrite_confirmation">目标文件夹包含与应导出的某些文件同名的现有文件。是否确实要覆盖这些文件？</string>
+    <string name="loadsave_import_save">导入存档游戏</string>
+    <string name="loadsave_import_save_successfull">导入成功</string>
+    <string name="loadsave_import_save_unsuccessfull">导入失败</string>
+    <string name="loadsave_import_save_error_unknown">导入时发生未知错误。</string>
+    <string name="loadsave_import_option_keep_existing">保留现有存档</string>
+    <string name="loadsave_import_option_keep_imported">保留导入的保存</string>
+    <string name="loadsave_import_option_add_as_new">添加为新的保存</string>
+    <string name="loadsave_import_existing_description">现有保存： 插槽： %1$s：
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">导入存档：槽位：%1$s：
+\n%2$s</string>
+    <string name="loadsave_import_worldmap">导入世界地图</string>
+    <string name="loadsave_import_worldmap_successfull">世界地图导入成功</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">世界地图导入成功</string>
+    <string name="loadsave_import_worldmap_wrong_directory">你确定这个文件夹里有一个世界地图吗？请在你的导出位置里面选择名为\'worldmap\'的文件夹。</string>
+    <string name="monsterinfo_killcount">历史杀戮</string>
+    <string name="loadsave_import_file_exists_question">在目标槽中已经有一个保存游戏。你想保留现有的保存，用导入的保存覆盖它，还是把保存导入到一个插槽中？
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_overwrite_confirmation_title">是否覆盖现有插槽？</string>
 </resources>
