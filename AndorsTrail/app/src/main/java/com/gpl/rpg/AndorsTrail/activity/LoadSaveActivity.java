@@ -11,9 +11,7 @@ import java.util.List;
 import java.util.Objects;
 
 import android.Manifest;
-import android.annotation.TargetApi;
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.ClipData;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -152,11 +150,15 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         }
     }
 
-    private void addSavegameSlotButtons(ViewGroup parent, LayoutParams params, List<Integer> usedSavegameSlots) {
-        int unused = 1;
-        for (int slot : usedSavegameSlots) {
-            final FileHeader header = Savegames.quickload(this, slot);
-            if (header == null) continue;
+	private void addSavegameSlotButtons(ViewGroup parent,
+										LayoutParams params,
+										List<Integer> usedSavegameSlots) {
+		int unused = 1;
+		for (int slot : usedSavegameSlots) {
+			final FileHeader header = Savegames.quickload(this, slot);
+			if (header == null) {
+				continue;
+			}
 
             while (unused < slot) {
                 Button b = new Button(this);
@@ -206,37 +208,49 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 i.putExtra("export", true);
             }
 
-        } else if (slot < SLOT_NUMBER_FIRST_SLOT)
-            slot = SLOT_NUMBER_FIRST_SLOT;
+		}
+		else if (slot < SLOT_NUMBER_FIRST_SLOT) {
+			slot = SLOT_NUMBER_FIRST_SLOT;
+		}
 
-        i.putExtra("slot", slot);
-        if(success) setResult(Activity.RESULT_OK, i);
-        else setResult(Activity.RESULT_CANCELED, i);
-        LoadSaveActivity.this.finish();
-    }
+		i.putExtra("slot", slot);
+		if (success) {
+			setResult(Activity.RESULT_OK, i);
+		}
+		else {
+			setResult(Activity.RESULT_CANCELED, i);
+		}
+		LoadSaveActivity.this.finish();
+	}
 
-    private int getFirstFreeSlot() {
-        int slot;
-        List<Integer> usedSlots = Savegames.getUsedSavegameSlots(this);
-        if (usedSlots.isEmpty())
-            slot = SLOT_NUMBER_FIRST_SLOT;
-        else slot = Collections.max(usedSlots) + 1;
-        return slot;
-    }
+	private int getFirstFreeSlot() {
+		int slot;
+		List<Integer> usedSlots = Savegames.getUsedSavegameSlots(this);
+		if (usedSlots.isEmpty()) {
+			slot = SLOT_NUMBER_FIRST_SLOT;
+		}
+		else {
+			slot = Collections.max(usedSlots) + 1;
+		}
+		return slot;
+	}
 
-    private String getConfirmOverwriteQuestion(int slot) {
-        if (isLoading)
-            return null;
+	private String getConfirmOverwriteQuestion(int slot) {
+		if (isLoading) {
+			return null;
+		}
 
         return getConfirmOverwriteQuestionIgnoringLoading(slot);
     }
 
-    private String getConfirmOverwriteQuestionIgnoringLoading(int slot) {
-        if (slot == SLOT_NUMBER_CREATE_NEW_SLOT)
-            return null;//creating a new savegame
+	private String getConfirmOverwriteQuestionIgnoringLoading(int slot) {
+		if (slot == SLOT_NUMBER_CREATE_NEW_SLOT) {
+			return null;//creating a new savegame
+		}
 
-        if (!Savegames.getSlotFile(slot, this).exists())
-            return null;//nothing in slot to overwrite
+		if (!Savegames.getSlotFile(slot, this).exists()) {
+			return null;//nothing in slot to overwrite
+		}
 
         if (preferences.displayOverwriteSavegame == AndorsTrailPreferences.CONFIRM_OVERWRITE_SAVEGAME_ALWAYS) {
             return getString(R.string.loadsave_save_overwrite_confirmation_all);
@@ -245,12 +259,16 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             return null;
         }
 
-        final String currentPlayerName = model.player.getName();
-        final FileHeader header = Savegames.quickload(this, slot);
-        if (header == null) return null;
+		final String currentPlayerName = model.player.getName();
+		final FileHeader header = Savegames.quickload(this, slot);
+		if (header == null) {
+			return null;
+		}
 
-        final String savedPlayerName = header.playerName;
-        if (currentPlayerName.equals(savedPlayerName)) return null; //if the names match
+		final String savedPlayerName = header.playerName;
+		if (currentPlayerName.equals(savedPlayerName)) {
+			return null; //if the names match
+		}
 
         return getString(R.string.loadsave_save_overwrite_confirmation, savedPlayerName, currentPlayerName);
     }
@@ -259,40 +277,44 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
     public void onClick(View view) {
         final int slot = (Integer) view.getTag();
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            switch (slot) {
-                case SLOT_NUMBER_IMPORT_WORLDMAP:
-                    clickImportWorldmap();
-                    return;
-                case SLOT_NUMBER_IMPORT_SAVEGAMES:
-                    clickImportSaveGames();
-                    return;
-                case SLOT_NUMBER_EXPORT_SAVEGAMES:
-                    clickExportSaveGames();
-                    return;
-            }
-        }
-        if (!isLoading
-                && slot != SLOT_NUMBER_CREATE_NEW_SLOT
-                && AndorsTrailApplication.CURRENT_VERSION == AndorsTrailApplication.DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION) {
-            if (!isOverwriteTargetInIncompatibleVersion(slot)) {
-                saveOrOverwriteSavegame(slot);
-            }
-        } else if (isLoading) {
-            loadSaveGame(slot);
-        } else {
-            saveOrOverwriteSavegame(slot);
-        }
-    }
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+			switch (slot) {
+				case SLOT_NUMBER_IMPORT_WORLDMAP:
+					clickImportWorldmap();
+					return;
+				case SLOT_NUMBER_IMPORT_SAVEGAMES:
+					clickImportSaveGames();
+					return;
+				case SLOT_NUMBER_EXPORT_SAVEGAMES:
+					clickExportSaveGames();
+					return;
+			}
+		}
+		if (!isLoading
+			&& slot != SLOT_NUMBER_CREATE_NEW_SLOT
+			&& AndorsTrailApplication.CURRENT_VERSION
+			   == AndorsTrailApplication.DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION) {
+			if (!isOverwriteTargetInIncompatibleVersion(slot)) {
+				saveOrOverwriteSavegame(slot);
+			}
+		}
+		else if (isLoading) {
+			loadSaveGame(slot);
+		}
+		else {
+			saveOrOverwriteSavegame(slot);
+		}
+	}
 
-    private void saveOrOverwriteSavegame(int slot) {
-        final String message = getConfirmOverwriteQuestion(slot);
-        if (message != null) {
-            showConfirmoverwriteQuestion(slot, message);
-        } else {
-            completeLoadSaveActivity(slot);
-        }
-    }
+	private void saveOrOverwriteSavegame(int slot) {
+		final String message = getConfirmOverwriteQuestion(slot);
+		if (message != null) {
+			showConfirmOverwriteQuestion(slot, message);
+		}
+		else {
+			completeLoadSaveActivity(slot);
+		}
+	}
 
     private boolean isOverwriteTargetInIncompatibleVersion(int slot) {
         final FileHeader header = Savegames.quickload(this, slot);
@@ -313,21 +335,22 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         Context context = getApplicationContext();
         ContentResolver resolver = AndorsTrailApplication.getApplicationFromActivity(this).getContentResolver();
 
-        File storageDir = AndroidStorage.getStorageDirectory(context, Constants.FILENAME_SAVEGAME_DIRECTORY);
-        DocumentFile source = DocumentFile.fromFile(storageDir);
-        DocumentFile target = DocumentFile.fromTreeUri(context, uri);
-        if (target == null) {
-            return;
-        }
+		File storageDir = AndroidStorage.getStorageDirectory(context,
+															 Constants.FILENAME_SAVEGAME_DIRECTORY);
+		DocumentFile target = DocumentFile.fromTreeUri(context, uri);
+		if (target == null) {
+			return;
+		}
 
-        DocumentFile[] files = source.listFiles();
+		File[] files = storageDir.listFiles();
+		if (files == null) {
+			showErrorExportingSaveGamesUnknown();
+			return;
+		}
 
-        boolean hasExistingFiles = false;
-        for (DocumentFile file :
-                files) {
-            String fileName = file.getName();
-            if (fileName == null)
-                continue;
+		boolean hasExistingFiles = false;
+		for (File file : files) {
+			String fileName = file.getName();
 
             DocumentFile existingFile = target.findFile(fileName);
             if (existingFile != null) {
@@ -336,101 +359,127 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             }
         }
 
-        if (hasExistingFiles) {
-            showConfirmOverwriteByExportQuestion(resolver, target, files);
-        } else {
-            exportSaveGamesFolderContentToFolder(resolver, target, files);
-        }
+		if (hasExistingFiles) {
+			showConfirmOverwriteByExportQuestion(resolver, target, files);
+		}
+		else {
+			exportSaveGamesFolderContentToFolder(target, files);
+		}
+	}
+
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void exportSaveGamesFolderContentToFolder(DocumentFile target, File[] files) {
+		DocumentFile[] sourceFiles = new DocumentFile[files.length];
+
+		File[] worldmapFiles = null;
+
+		for (int i = 0; i < files.length; i++) {
+			File file = files[i];
+			if (file.isFile()) {
+				sourceFiles[i] = DocumentFile.fromFile(file);
+			}
+			else if (file.isDirectory() && Objects.equals(file.getName(),
+														  Constants.FILENAME_WORLDMAP_DIRECTORY)) {
+				worldmapFiles = file.listFiles();
+			}
+		}
+		Context context = this;
+		File[] finalWorldmapFiles = worldmapFiles;
+		AndroidStorage.copyDocumentFilesToDirAsync(sourceFiles,
+												   context,
+												   target,
+												   getString(R.string.loadsave_exporting_savegames),
+												   (success) -> {
+													   if (success) {
+														   AndroidStorage.createZipDocumentFileFromFilesAsync(
+																   finalWorldmapFiles,
+																   context,
+																   target,
+																   Constants.FILENAME_WORLDMAP_DIRECTORY,
+																   getString(R.string.loadsave_exporting_worldmap),
+																   (successWorldmap) -> completeLoadSaveActivity(
+																		   SLOT_NUMBER_EXPORT_SAVEGAMES,
+																		   successWorldmap));
+													   }
+													   else {
+														   completeLoadSaveActivity(
+																   SLOT_NUMBER_EXPORT_SAVEGAMES,
+																   false);
+													   }
+												   });
+
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.P)
-    private void exportSaveGamesFolderContentToFolder(ContentResolver resolver, DocumentFile target, DocumentFile[] files) {
-        DocumentFile[] sourceFiles = new DocumentFile[files.length];
 
-        DocumentFile[] worldmapFiles = null;
-
-        for (int i = 0; i < files.length; i++) {
-            DocumentFile file = files[i];
-            if (file.isFile()) {
-                sourceFiles[i] = file;
-            } else if (file.isDirectory() && Objects.equals(file.getName(), Constants.FILENAME_WORLDMAP_DIRECTORY)) {
-                worldmapFiles = file.listFiles();
-            }
-        }
-        Context context =this;
-        DocumentFile[] finalWorldmapFiles = worldmapFiles;
-        AndroidStorage.copyDocumentFilesToDirAsync(sourceFiles,
-                context,
-                target,
-                (sucess) -> {
-                    if (sucess) {
-                        DocumentFile worldmapFolder = target.createDirectory(Constants.FILENAME_WORLDMAP_DIRECTORY);
-                        AndroidStorage.copyDocumentFilesToDirAsync(finalWorldmapFiles,
-                                context,
-                                worldmapFolder,
-                                (sucessWorldmap) -> completeLoadSaveActivity(SLOT_NUMBER_EXPORT_SAVEGAMES, sucessWorldmap));
-                    } else {
-                        completeLoadSaveActivity(SLOT_NUMBER_EXPORT_SAVEGAMES, false);
-                    }
-                });
-
-    }
-
-
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    private void importSaveGames(Intent data) {
-        Uri uri = data.getData();
-        ClipData uris = data.getClipData();
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void importSaveGames(Intent data) {
+		Uri uri = data.getData();
+		ClipData uris = data.getClipData();
 
         if (uri == null && uris == null) {
             //no file was selected
             return;
         }
 
-        Context context = getApplicationContext();
-        ContentResolver resolver = context.getContentResolver();
+		Context context = getApplicationContext();
+		ContentResolver resolver = AndorsTrailApplication.getApplicationFromActivity(this)
+														 .getContentResolver();
 
         File storageDir = AndroidStorage.getStorageDirectory(context, Constants.FILENAME_SAVEGAME_DIRECTORY);
         DocumentFile appSavegameFolder = DocumentFile.fromFile(storageDir);
 
-        List<Uri> uriList = new ArrayList<>();
-        if (uri != null) {
-            uriList.add(uri);
-        } else {
-            for (int i = 0; i < uris.getItemCount(); i++)
-                uriList.add(uris.getItemAt(i).getUri());
-        }
-        importSaveGamesFromUris(context, resolver, appSavegameFolder, uriList);
-    }
+		List<Uri> uriList = new ArrayList<>();
+		if (uri != null) {
+			uriList.add(uri);
+		}
+		else {
+			for (int i = 0; i < uris.getItemCount(); i++) {
+				uriList.add(uris.getItemAt(i).getUri());
+			}
+		}
+		importSaveGamesFromUris(context, resolver, appSavegameFolder, uriList);
+	}
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    private void importSaveGamesFromUris(Context context, ContentResolver resolver, DocumentFile appSavegameFolder, List<Uri> uriList) {
-        int count = uriList.size();
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void importSaveGamesFromUris(Context context,
+										 ContentResolver resolver,
+										 DocumentFile appSavegameFolder,
+										 List<Uri> uriList) {
+		int count = uriList.size();
 
         ArrayList<DocumentFile> alreadyExistingFiles = new ArrayList<>();
         ArrayList<DocumentFile> newFiles = new ArrayList<>();
 
-        for (int i = 0; i < count; i++) {
-            Uri item = uriList.get(i);
-            DocumentFile itemFile = DocumentFile.fromSingleUri(context, item);
-            boolean fileAlreadyExists = getExistsSavegameInOwnFiles(itemFile, appSavegameFolder);
-            if (fileAlreadyExists)
-                alreadyExistingFiles.add(itemFile);
-            else
-                newFiles.add(itemFile);
-        }
+		for (int i = 0; i < count; i++) {
+			Uri item = uriList.get(i);
+			DocumentFile itemFile = DocumentFile.fromSingleUri(context, item);
+			boolean fileAlreadyExists = getExistsSavegameInOwnFiles(itemFile, appSavegameFolder);
+			if (fileAlreadyExists) {
+				alreadyExistingFiles.add(itemFile);
+			}
+			else {
+				newFiles.add(itemFile);
+			}
+		}
 
-        if (alreadyExistingFiles.size() > 0) {
-            showConfirmOverwriteByImportQuestion(resolver, appSavegameFolder, alreadyExistingFiles, newFiles);
-        } else {
-            importSaveGames(resolver, appSavegameFolder, newFiles);
-        }
-    }
+		if (alreadyExistingFiles.size() > 0) {
+			showConfirmOverwriteByImportQuestion(resolver,
+												 appSavegameFolder,
+												 alreadyExistingFiles,
+												 newFiles);
+		}
+		else {
+			importSaveGames(resolver, appSavegameFolder, newFiles);
+		}
+	}
 
-    private void importSaveGames(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> saveFiles) {
-        int size = saveFiles.size();
-        DocumentFile[] sources = new DocumentFile[size];
-        DocumentFile[] targets = new DocumentFile[size];
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void importSaveGames(ContentResolver resolver,
+								 DocumentFile appSavegameFolder,
+								 List<DocumentFile> saveFiles) {
+		int size = saveFiles.size();
+		DocumentFile[] sources = new DocumentFile[size];
+		DocumentFile[] targets = new DocumentFile[size];
 
         boolean saveAsNew = false;
         for (int i = 0; i < size; i++) {
@@ -456,22 +505,20 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             targets[i] = getOrCreateDocumentFile(appSavegameFolder, targetName);
         }
 
-        AndroidStorage.copyDocumentFilesFromToAsync(sources,
-                this,
-                targets,
-                (sucess) -> completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES, sucess));
-    }
+		AndroidStorage.copyDocumentFilesFromToAsync(sources,
+													this,
+													targets,
+													getString(R.string.loadsave_importing_savegames),
+													(sucess) -> completeLoadSaveActivity(
+															SLOT_NUMBER_IMPORT_SAVEGAMES,
+															sucess));
+	}
 
-    private void completeSavegameImportAndCheckIfDone(List<Integer> importsNeedingConfirmation, int slot) {
-        importsNeedingConfirmation.remove((Object) slot);
-        if (importsNeedingConfirmation.isEmpty()) {
-            completeLoadSaveActivity(SLOT_NUMBER_IMPORT_SAVEGAMES);
-        }
-    }
-
-    private boolean getExistsSavegameInOwnFiles(DocumentFile savegameFile, DocumentFile appSavegameFolder) {
-        if (savegameFile == null)
-            return false;
+	private boolean getExistsSavegameInOwnFiles(DocumentFile savegameFile,
+												DocumentFile appSavegameFolder) {
+		if (savegameFile == null) {
+			return false;
+		}
 
         DocumentFile foundFile = appSavegameFolder.findFile(Objects.requireNonNull(savegameFile.getName()));
         return foundFile != null && foundFile.exists();
@@ -494,106 +541,109 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         }
     }
 
-    private void importSaveGameFile(ContentResolver resolver, DocumentFile appSavegameFolder, DocumentFile itemFile, int slot) {
-        String targetName = Savegames.getSlotFileName(slot);
-        DocumentFile targetFile = getOrCreateDocumentFile(appSavegameFolder, targetName);
-
-        if (targetFile == null || !targetName.equals(targetFile.getName())) {
-            showErrorImportingSaveGameUnknown();//TODO: maybe replace with a more specific error message
-            return;
-        }
-
-        try {
-            AndroidStorage.copyDocumentFile(itemFile, resolver, targetFile);
-        } catch (IOException e) {
-            showErrorImportingSaveGameUnknown();
-            e.printStackTrace();
-        }
-    }
-
-    private DocumentFile getOrCreateDocumentFile(DocumentFile folder, String targetName) {
-        DocumentFile targetFile = folder.findFile(targetName);//try finding the file
-        if (targetFile == null)//no file found, creating new one
-            targetFile = folder.createFile(Constants.NO_FILE_EXTENSION_MIME_TYPE, targetName);
-        return targetFile;
-    }
+	private DocumentFile getOrCreateDocumentFile(DocumentFile folder, String targetName) {
+		DocumentFile targetFile = folder.findFile(targetName);//try finding the file
+		if (targetFile == null)//no file found, creating new one
+		{
+			targetFile = folder.createFile(Constants.NO_FILE_EXTENSION_MIME_TYPE, targetName);
+		}
+		return targetFile;
+	}
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void importWorldmap(Intent data) {
         Uri uri = data.getData();
 
-        Context context = getApplicationContext();
-        ContentResolver resolver = AndorsTrailApplication.getApplicationFromActivity(this).getContentResolver();
+		Context context = AndorsTrailApplication.getApplicationFromActivity(this)
+												.getApplicationContext();
 
-        File storageDir = AndroidStorage.getStorageDirectory(context, Constants.FILENAME_SAVEGAME_DIRECTORY);
-        DocumentFile storageFolder = DocumentFile.fromFile(storageDir);
-        DocumentFile ownWorldmapFolder = storageFolder.findFile(Constants.FILENAME_WORLDMAP_DIRECTORY);
-        if (ownWorldmapFolder == null) {
-            ownWorldmapFolder = storageFolder.createDirectory(Constants.FILENAME_WORLDMAP_DIRECTORY);
-        }
+		DocumentFile chosenZip = DocumentFile.fromSingleUri(context, uri);
+		if (chosenZip == null || !chosenZip.isFile()) {
+			showErrorImportingWorldmapWrongDirectory();
+			return;
+		}
+		String chosenZipName = chosenZip.getName();
+		if (!chosenZipName.startsWith(Constants.FILENAME_WORLDMAP_DIRECTORY)) {
+			showErrorImportingWorldmapWrongDirectory();
+			return;
+		}
 
-        DocumentFile chosenFolder = DocumentFile.fromTreeUri(context, uri);
-        if (chosenFolder == null || !chosenFolder.isDirectory()) {
-            showErrorImportingWorldmapWrongDirectory();
-            return;
-        }
-        if (!Constants.FILENAME_WORLDMAP_DIRECTORY.equals(chosenFolder.getName())) {
-            //user did not select the worldmap folder directly
-            DocumentFile file = chosenFolder.findFile(Constants.FILENAME_WORLDMAP_DIRECTORY);
-            if (file == null || !file.isDirectory() || !Constants.FILENAME_WORLDMAP_DIRECTORY.equals(file.getName())) {
-                //could not find a worldmap folder in the users selection
-                showErrorImportingWorldmapWrongDirectory();
-                return;
-            }
+		File ownWorldmapFolder = getOwnWorldmapFolder(context);
 
-            chosenFolder = file;
-        }
 
-        AndroidStorage.copyDocumentFilesToDirAsync(chosenFolder.listFiles(),
-                this,
-                ownWorldmapFolder,
-                (success) -> completeLoadSaveActivity(SLOT_NUMBER_IMPORT_WORLDMAP, success));
+		AndroidStorage.unzipDocumentFileToDirectoryAsync(chosenZip,
+														 this,
+														 ownWorldmapFolder,
+														 false,
+														 getString(R.string.loadsave_importing_worldmap),
+														 (success) -> completeLoadSaveActivity(
+																 SLOT_NUMBER_IMPORT_WORLDMAP,
+																 success));
+	}
+
+	private File getOwnWorldmapFolder(Context context) {
+		File storageDir = AndroidStorage.getStorageDirectory(context,
+															 Constants.FILENAME_SAVEGAME_DIRECTORY);
+		File ownWorldmapFolder = null;
+		for (File f : storageDir.listFiles()) {
+			if (f.getName().equals(Constants.FILENAME_WORLDMAP_DIRECTORY)) {
+				ownWorldmapFolder = f;
+				break;
+			}
+		}
+		if (ownWorldmapFolder == null) {
+			ownWorldmapFolder = new File(storageDir, Constants.FILENAME_WORLDMAP_DIRECTORY);
+			ownWorldmapFolder.mkdir();
+		}
+		return ownWorldmapFolder;
+	}
+
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void clickExportSaveGames() {
+		showStartExportInfo(view -> startActivityForResult(AndroidStorage.getNewOpenDirectoryIntent(),
+														   -SLOT_NUMBER_EXPORT_SAVEGAMES));
+	}
+
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void clickImportSaveGames() {
+		showStartImportSavesInfo(view -> startActivityForResult(AndroidStorage.getNewSelectMultipleSavegameFilesIntent(),
+																-SLOT_NUMBER_IMPORT_SAVEGAMES));
+	}
+
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void clickImportWorldmap() {
+		showStartImportWorldmapInfo(view -> startActivityForResult(AndroidStorage.getNewSelectZipIntent(),
+																   -SLOT_NUMBER_IMPORT_WORLDMAP));
+
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    private void clickExportSaveGames() {
-        startActivityForResult(AndroidStorage.getNewOpenDirectoryIntent(), -SLOT_NUMBER_EXPORT_SAVEGAMES);
-    }
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void showConfirmOverwriteByExportQuestion(ContentResolver resolver,
+													  DocumentFile targetFolder,
+													  File[] files) {
+		final CustomDialog d = CustomDialogFactory.createDialog(this,
+																getString(R.string.loadsave_export_overwrite_confirmation_title),
+																getResources().getDrawable(android.R.drawable.ic_dialog_alert),
+																getString(R.string.loadsave_export_overwrite_confirmation),
+																null,
+																true);
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    private void clickImportSaveGames() {
-        startActivityForResult(AndroidStorage.getNewSelectMultipleSavegameFilesIntent(), -SLOT_NUMBER_IMPORT_SAVEGAMES);
-
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    private void clickImportWorldmap() {
-        startActivityForResult(AndroidStorage.getNewOpenDirectoryIntent(), -SLOT_NUMBER_IMPORT_WORLDMAP);
-
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.P)
-    private void showConfirmOverwriteByExportQuestion(ContentResolver resolver, DocumentFile targetFolder, DocumentFile[] files) {
-        final CustomDialog d = CustomDialogFactory.createDialog(this,
-                getString(R.string.loadsave_export_overwrite_confirmation_title),
-                getResources().getDrawable(android.R.drawable.ic_dialog_alert),
-                getString(R.string.loadsave_export_overwrite_confirmation),
-                null,
-                true);
-
-        CustomDialogFactory.addButton(d, android.R.string.yes, v -> exportSaveGamesFolderContentToFolder(resolver, targetFolder, files));
-        CustomDialogFactory.addDismissButton(d, android.R.string.no);
+		CustomDialogFactory.addButton(d,
+									  android.R.string.yes,
+									  v -> exportSaveGamesFolderContentToFolder(targetFolder,
+																				files));
+		CustomDialogFactory.addDismissButton(d, android.R.string.no);
 
         CustomDialogFactory.show(d);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    private void showConfirmOverwriteByImportQuestion(ContentResolver resolver,
-                                                      DocumentFile appSavegameFolder,
-                                                      List<DocumentFile> alreadyExistingFiles,
-                                                      List<DocumentFile> newFiles) {
-        final String title = getString(R.string.loadsave_import_overwrite_confirmation_title);
-        String message = getString(R.string.loadsave_import_file_exists_question);
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void showConfirmOverwriteByImportQuestion(ContentResolver resolver,
+													  DocumentFile appSavegameFolder,
+													  List<DocumentFile> alreadyExistingFiles,
+													  List<DocumentFile> newFiles) {
+		final String title = getString(R.string.loadsave_import_overwrite_confirmation_title);
+		String message = getString(R.string.loadsave_import_file_exists_question);
 
         StringBuilder sb = new StringBuilder();
         sb.append('\n');
@@ -619,10 +669,18 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 continue;
             }
 
-            StringBuilder messageSb = new StringBuilder();
-            String existingFileDescription = getString(R.string.loadsave_import_existing_description, slot, existingFileHeader.describe());
-            String importedFileDescription = getString(R.string.loadsave_import_imported_description, slot, importedFileHeader.describe());
-            messageSb.append(getString(R.string.loadsave_import_file_exists_question, existingFileDescription, importedFileDescription));
+			StringBuilder messageSb = new StringBuilder();
+			String existingFileDescription =
+					getString(R.string.loadsave_import_existing_description,
+													   Integer.toString(slot),
+													   existingFileHeader.describe());
+			String importedFileDescription =
+					getString(R.string.loadsave_import_imported_description,
+													   Integer.toString(slot),
+													   importedFileHeader.describe());
+			messageSb.append(getString(R.string.loadsave_import_file_exists_question,
+									   existingFileDescription,
+									   importedFileDescription));
 
 
             String m = messageSb.toString();
@@ -645,11 +703,13 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                 GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
             });
 
-            CustomDialogFactory.addButton(dialog, R.string.loadsave_import_option_add_as_new, v -> {
-                newFiles.add(null);//add a null element as marker to know later if the next file should be imported as new or overwrite the existing one
-                newFiles.add(alreadyExistingFile);
-                GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
-            });
+			CustomDialogFactory.addButton(dialog, R.string.loadsave_import_option_add_as_new,
+										  v -> {
+				newFiles.add(null);//add a null element as marker to know later if the next file
+				// should be imported as new or overwrite the existing one
+				newFiles.add(alreadyExistingFile);
+				GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
+			});
 
             CustomDialogFactory.addCancelButton(dialog, android.R.string.cancel);
             CustomDialogFactory.setCancelListener(dialog, v -> {
@@ -662,23 +722,27 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         GoToNextConflictOrFinish(resolver, appSavegameFolder, newFiles, dialogs);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    private void GoToNextConflictOrFinish(ContentResolver resolver, DocumentFile appSavegameFolder, List<DocumentFile> newFiles, ArrayList<CustomDialog> dialogs) {
-        if(dialogs.stream().count() > 0){
-            CustomDialog d = dialogs.remove(0);
-            CustomDialogFactory.show(d);
-        }
-        else{
-            importSaveGames(resolver, appSavegameFolder, newFiles);
-        }
-    }
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void GoToNextConflictOrFinish(ContentResolver resolver,
+										  DocumentFile appSavegameFolder,
+										  List<DocumentFile> newFiles,
+										  ArrayList<CustomDialog> dialogs) {
+		if (dialogs.stream().count() > 0) {
+			CustomDialog d = dialogs.remove(0);
+			CustomDialogFactory.show(d);
+		}
+		else {
+			importSaveGames(resolver, appSavegameFolder, newFiles);
+		}
+	}
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (resultCode != Activity.RESULT_OK)
-            return;
+		if (resultCode != Activity.RESULT_OK) {
+			return;
+		}
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             switch (-requestCode) {
@@ -713,19 +777,58 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     //region show Dialogs
 
-    private void showErrorImportingWorldmapWrongDirectory() {
-        final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
-                getString(R.string.loadsave_import_worldmap_unsuccessfull),
-                getString(R.string.loadsave_import_worldmap_wrong_directory));
-        CustomDialogFactory.show(d);
-    }
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void showStartExportInfo(OnClickListener onOk) {
+		final CustomDialog d = CustomDialogFactory.createDialog(this,
+																getString(R.string.loadsave_export),
+																getResources().getDrawable(android.R.drawable.ic_dialog_info),
+																getString(R.string.loadsave_export_info),
+																null,
+																true);
+		CustomDialogFactory.addButton(d, android.R.string.yes, onOk);
+		CustomDialogFactory.addDismissButton(d, android.R.string.no);
+		CustomDialogFactory.show(d);
+	}
 
-    private void showErrorImportingSaveGameUnknown() {
-        final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
-                getString(R.string.loadsave_import_save_unsuccessfull),
-                getString(R.string.loadsave_import_save_error_unknown));
-        CustomDialogFactory.show(d);
-    }
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void showStartImportSavesInfo(OnClickListener onOk) {
+		final CustomDialog d = CustomDialogFactory.createDialog(this,
+																getString(R.string.loadsave_import_save),
+																getResources().getDrawable(android.R.drawable.ic_dialog_info),
+																getString(R.string.loadsave_import_save_info),
+																null,
+																true);
+		CustomDialogFactory.addButton(d, android.R.string.yes, onOk);
+		CustomDialogFactory.addDismissButton(d, android.R.string.no);
+		CustomDialogFactory.show(d);
+	}
+
+	@RequiresApi(api = Build.VERSION_CODES.P)
+	private void showStartImportWorldmapInfo(OnClickListener onOk) {
+		final CustomDialog d = CustomDialogFactory.createDialog(this,
+																getString(R.string.loadsave_import_worldmap),
+																getResources().getDrawable(android.R.drawable.ic_dialog_info),
+																getString(R.string.loadsave_import_worldmap_info),
+																null,
+																true);
+		CustomDialogFactory.addButton(d, android.R.string.yes, onOk);
+		CustomDialogFactory.addDismissButton(d, android.R.string.no);
+		CustomDialogFactory.show(d);
+	}
+
+	private void showErrorImportingWorldmapWrongDirectory() {
+		final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
+																	 getString(R.string.loadsave_import_worldmap_unsuccessfull),
+																	 getString(R.string.loadsave_import_worldmap_wrong_file));
+		CustomDialogFactory.show(d);
+	}
+
+	private void showErrorExportingSaveGamesUnknown() {
+		final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
+																	 getString(R.string.loadsave_export_unsuccessfull),
+																	 getString(R.string.loadsave_export_error_unknown));
+		CustomDialogFactory.show(d);
+	}
 
     private void showErrorLoadingEmptySlot() {
         final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
@@ -745,16 +848,15 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         CustomDialogFactory.show(d);
     }
 
-    private void showConfirmoverwriteQuestion(final int slot, String message) {
-        final String title =
-                getString(R.string.loadsave_save_overwrite_confirmation_title) + ' '
-                        + getString(R.string.loadsave_save_overwrite_confirmation_slot, slot);
-        final CustomDialog d = CustomDialogFactory.createDialog(this,
-                title,
-                getResources().getDrawable(android.R.drawable.ic_dialog_alert),
-                message,
-                null,
-                true);
+	private void showConfirmOverwriteQuestion(final int slot, String message) {
+		final String title = getString(R.string.loadsave_save_overwrite_confirmation_title) + ' '
+							 + getString(R.string.loadsave_save_overwrite_confirmation_slot, slot);
+		final CustomDialog d = CustomDialogFactory.createDialog(this,
+																title,
+																getResources().getDrawable(android.R.drawable.ic_dialog_alert),
+																message,
+																null,
+																true);
 
         CustomDialogFactory.addButton(d, android.R.string.yes, v -> completeLoadSaveActivity(slot));
         CustomDialogFactory.addDismissButton(d, android.R.string.no);
