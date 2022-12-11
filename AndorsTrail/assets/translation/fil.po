@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-14 20:11+0200\n"
-"PO-Revision-Date: 2021-12-31 07:01+0000\n"
-"Last-Translator: Elytra Wixzo <Rioremandaban@gmail.com>\n"
+"PO-Revision-Date: 2022-12-12 13:51+0000\n"
+"Last-Translator: rabituwu <jm.tibar14@gmail.com>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fil/>\n"
 "Language: fil\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
 "|| n % 10 == 6 || n % 10 == 9);\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -312,7 +312,7 @@ msgstr "Pagkatali"
 #: actorconditions_brimhaven.json:fatigue3
 #: actorconditions_brimhaven.json:fatigue4
 msgid "Fatigue"
-msgstr "Pagkahilo"
+msgstr "Pagkapagod"
 
 #: actorconditions_brimhaven.json:turn_to_stone
 msgid "Turning to stone"
@@ -320,7 +320,7 @@ msgstr "Nagiging bato"
 
 #: actorconditions_brimhaven.json:stoneskin
 msgid "Stone skin"
-msgstr "Batong balat"
+msgstr "Balat na Bato"
 
 #: actorconditions_brimhaven.json:overeating
 msgid "Overeating"
@@ -328,15 +328,15 @@ msgstr "Empacho"
 
 #: actorconditions_brimhaven.json:venom
 msgid "Venom"
-msgstr "Lason"
+msgstr "Kamandag"
 
 #: actorconditions_fungi_panic.json:spore_poison
 msgid "Spore poisoning"
-msgstr "Paglason ng Spore"
+msgstr "Pagkalason sa Spore"
 
 #: actorconditions_gison.json:reinvigorated
 msgid "Reinvigorated"
-msgstr "Muling Sumigla"
+msgstr "Nabuhayan"
 
 #: actorconditions_gison.json:sated
 msgid "Sated"
@@ -360,11 +360,11 @@ msgstr "Nagyeyelong mga sugat"
 
 #: actorconditions_omi2.json:relax
 msgid "Requiescence"
-msgstr ""
+msgstr "Pahinga"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "Pagmamayari ni Kazaul"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -372,33 +372,34 @@ msgstr "Mabuti naman, gising ka na."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
-msgstr "Hindi ko makita ang iyong kapatid kahit saan. Hindi pa sya bumabalil mula kahapon."
+msgstr ""
+"Hindi ko mahanap ang kapatid mong si Andor. Kahapon pa siya di bumabalik."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr "Wag mo nang intindihin. Baka bumalik din yun agad."
+msgstr "Wag mo nang intindihin, babalik lang yun."
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
 #: conversationlist_umar.json:umar_return_2
 msgid "Anything else I can help you with?"
-msgstr "Ano pang ibang maitutulong ko sayo?"
+msgstr "May maitutulong pa ba ako?"
 
 #: conversationlist_mikhail.json:mikhail_default:0
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr "Meron ka pa bang ibang ipapagawa sa akin?"
+msgstr "May ipapagawa ka pa ba sakin?"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "May ipapagawa ka pa ba sa akin?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
-msgstr "Meron ka pa bang ibang masasabe sakin tungkol kay andor?"
+msgstr "May masasabi ka pa ba sakin tungkol kay Andor?"
 
 #: conversationlist_mikhail.json:mikhail_default:5
 #: conversationlist_mikhail.json:mikhail_default:6
@@ -411,48 +412,56 @@ msgstr "Hinahanap ko si Andor."
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
-msgstr ""
+msgstr "Anong libro yang hawak mo?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
 msgstr ""
+"Oo, nandito ako para magdeliver ng inorder na 'Plush Pillow'. Pero para san "
+"ba ito?"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
-msgstr "Oo naman, kailangan ko ng tulong sa ibang mga bagay. Sa tinapay at daga. Alin ang gusto mo pagusapan?"
+msgstr ""
+"Oo naman, kailangan ko pa rin ng tulong, tinapay at daga. Alin ang gusto mo "
+"pagusapan?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "Pano yung sa tinapay??"
+msgstr "Pano yung tinapay?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr "Pano yung sa daga?"
+msgstr "Pano yung daga?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr "Eh... iba nalang ang pagusapan natin."
+msgstr "Wag na nga, iba nalang pagusapan natin."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
-msgstr "Salamat sa pagkuha mo ng tinapay para sakin. Meron paring mga daga."
+msgstr "Salamat sa tinapay para sakin. Pero meron paring mga daga."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
-msgstr "Salamat sa ginawa mo sa mga daga.Gusto ko parin ng tinapay."
+msgstr "Salamat sa paglinis sa mga daga. Gusto ko parin ng tinapay."
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
-msgstr "Hindi para sa ngayon. Salamat sa pag-aalaga ng tinapay at mga daga."
+msgstr ""
+"Di pa ngayon. Salamat sa pagresolba sa problema ko sa tinapay at mga daga."
 
 #: conversationlist_mikhail.json:mikhail_andor1
 msgid "As I said, Andor went out and hasn't been back since. I worry about him. Please go look for your brother. He said he would only be out for a short while."
-msgstr "Tulad nga ng sinabi ko, umalis si Andor at di pa rin bumabalik hanggang ngayon. Alalang-alala na ako para sa kanya. Pakiusap hanapin mo ang iyong kapatid. Ang sabi niya ay saglit lang siyang aalis."
+msgstr ""
+"Tulad ng sinabi ko, umalis si Andor at di pa rin bumabalik hanggang ngayon. "
+"Nag-aalala na ako para sa kanya. Pakiusap hanapin mo ang iyong kapatid. Ang "
+"sabi niya ay saglit lang siyang aalis."
 
 #: conversationlist_mikhail.json:mikhail_andor2
 msgid "Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town."
@@ -564,9 +573,11 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
-"Ah, ginawa mo ba iyon? Wow, salamat ng maraming para sa iyong tulong! Mangyaring kumuha ng training shield ni Andor - kailangan mo ito.\n"
+"Ah, talaga ba? Wow, salamat ng marami sa tulong! Kunin mo ang Training "
+"Shield ni Andor - kakailanganin mo ito.\n"
 "\n"
-"Kung nasaktan ka, gamitin mo ang inyong higaan doon para magpahinga at muling makakuha ng lakas."
+"Kung nasaktan ka, gamitin mo ang inyong kama upang makapag pahinga ka nang "
+"bumalik ang iyong lakas."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -576,15 +587,20 @@ msgid ""
 msgstr ""
 "Salamat sa iyong tulong sa mga daga kanina.\n"
 "\n"
-"Kung nasaktan ka, gamitin ang iyong kama doon upang magpahinga at bumalik ang iyong lakas."
+"Kung nasaktan ka, gamitin mo ang inyong kama upang makapag pahinga ka nang "
+"bumalik ang iyong lakas."
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
 msgstr ""
+"Gaya ng ginawa ng aking Ama, bibigyan kita ng libro na madadala mo sa iyong "
+"paglakbay."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
 msgstr ""
+"Ang librong ito ay Diary, na maaari mong pagsulatan ng iyong mga Experience "
+"at Achievements na makukuha mo sa iyong paglakbay."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
@@ -63348,4 +63364,3 @@ msgstr ""
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
