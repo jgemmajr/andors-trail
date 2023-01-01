@@ -603,4 +603,33 @@
     <string name="combat_log_item_plural">Has econtrado %1$d Objetos:</string>
     <string name="combat_log_item_single">Has encontrado un objeto:</string>
     <string name="startscreen_migration_title">Migración de datos</string>
+    <string name="loadsave_export">Exportar partidas guardadas</string>
+    <string name="loadsave_export_successfull">Exportación exitosa</string>
+    <string name="loadsave_export_unsuccessfull">Exportación fallida</string>
+    <string name="loadsave_export_overwrite_confirmation_title">¿Sobrescribir los archivos existentes\?</string>
+    <string name="loadsave_import_save">Importar las partidas guardadas</string>
+    <string name="loadsave_import_save_successfull">Importación realizada</string>
+    <string name="loadsave_import_save_error_unknown">Se ha producido un error desconocido durante la importación.</string>
+    <string name="loadsave_import_option_keep_existing">Conservar la memoria existente</string>
+    <string name="loadsave_import_option_keep_imported">Guardar lo importado</string>
+    <string name="loadsave_import_option_add_as_new">Añadir como nuevo Guardar</string>
+    <string name="loadsave_import_existing_description">Guardado existente: Ranura: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Guardado importado: Ranura: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">Importar el mapa mundi</string>
+    <string name="loadsave_import_worldmap_successfull">Importación correcta del mapa del mundo</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Mapa mundi importado con éxito</string>
+    <string name="loadsave_import_worldmap_wrong_directory">¿Estás seguro de que hay un mapa del mundo en esta carpeta\? Seleccione la carpeta llamada \'worldmap\' dentro de su ubicación de exportación.</string>
+    <string name="loadsave_import_overwrite_confirmation_title">¿Sobrescribir la ranura existente\?</string>
+    <string name="startscreen_migration_text">Transferencia de los datos de las partidas guardadas.</string>
+    <string name="startscreen_migration_failure">No se pudieron transferir los datos de la partida guardada.</string>
+    <string name="loadsave_import_save_unsuccessfull">La Importación falló</string>
+    <string name="loadsave_export_overwrite_confirmation">La carpeta de destino contiene otros archivos con el mismo nombre que algunos archivos que deben exportarse. ¿Está seguro de que desea sobrescribir esos archivos\?</string>
+    <string name="monsterinfo_killcount">Asesinatos anteriores</string>
+    <string name="loadsave_import_file_exists_question">Ya existe un juego guardado en la ranura de destino. ¿Desea conservar el juego guardado existente, sobrescribirlo con el juego guardado o importar el juego guardado a una ranura\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
 </resources>
