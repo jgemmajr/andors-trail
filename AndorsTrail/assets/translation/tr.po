@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2022-05-07 03:12+0000\n"
-"Last-Translator: Kerem Yavuz Kaya <keremkaya5361@gmail.com>\n"
+"PO-Revision-Date: 2023-01-13 09:52+0000\n"
+"Last-Translator: Ömer Faruk Çakmak <omerfarukckmk@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -364,7 +364,7 @@ msgstr "Panik"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr "doymak"
+msgstr "Tokluk"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
@@ -410,7 +410,7 @@ msgstr "Benim için başka görevin var mı?"
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr "[OUTDATED]Bir şey hakkında konuşmamız gerekiyordu, değil mi?"
+msgstr "Benim için bir görevin var mı?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
@@ -432,6 +432,7 @@ msgstr "Elinde ne tür bir kitap var?"
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
 msgstr ""
+"Evet, 'Peluş Yastık' siparişini teslim etmek için buradayım. Ama ne için?"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -1193,7 +1194,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:edrin_0_0
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr ""
+msgstr "Merhaba."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -2054,7 +2055,9 @@ msgstr "Yeraltı mezarlığına mı inmek istiyorsun? Hmm, belki bir anlaşma ya
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4
 msgid "Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church."
-msgstr "Bana handaki şu leziz pişmiş etlerden getirirsen Fallhaven Kilisesi mezarlarına girmene izin veririm."
+msgstr ""
+"Bana meyhanedeki şu leziz pişmiş etlerden getirirsen Fallhaven Kilisesi "
+"mezarlarına girmene izin veririm."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4:0
 msgid "Here, I have cooked meat for you."
@@ -2113,7 +2116,9 @@ msgstr "Ah, efendim. Bakın, artık hiç bela çıkarmıyorum. Dediğiniz gibi d
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_3_2
 msgid "Oh good. That guard threw me out of the tavern. If I see him again I'll show him one thing or another."
-msgstr "Oh iyi. Muhafızın teki beni handan attı. Eğer ki onu bulursam gününü göstereceğim."
+msgstr ""
+"Oh iyi. Muhafızın teki beni meyhaneden attı. Eğer ki onu bulursam gününü "
+"göstereceğim."
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_4
 msgid "Drink drink drink, drink some more. Drink, drink ... Uh how did it go again?"
@@ -2382,7 +2387,7 @@ msgstr "Kitabımı bulduğun için çok teşekkürler!"
 
 #: conversationlist_fallhaven_tavern.json:bela
 msgid "Welcome to Fallhaven Tavern. Have a seat anywhere."
-msgstr "Fallhaven hanına hoşgeldin. İstediğin yere oturabilirsin."
+msgstr "Fallhaven Meyhanesi'ne hoşgeldin. İstediğin yere oturabilirsin."
 
 #: conversationlist_fallhaven_tavern.json:bela:0
 #: conversationlist_fallhaven_tavern.json:bela_gsnake_5:0
@@ -2399,6 +2404,8 @@ msgstr "Kalacak boşta odanız var mı?"
 #: conversationlist_vilegard_tavern.json:tharwyn_2:1
 msgid "Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'."
 msgstr ""
+"Torilo, sizin gibi diğer meyhane sahiplerine bir grup 'dağıtımcı' ile yapmış "
+"olabileceğiniz bir 'iş anlaşması' hakkında soru sormamı önerdi."
 
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
@@ -2501,7 +2508,9 @@ msgstr "Tabii ki oraya gideceğim."
 
 #: conversationlist_fallhaven_tavern.json:bela_gsnake_11
 msgid "What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern."
-msgstr "Böylesine genç, gelecek vaat eden bir hayatı ziyan edeceksin! Peki... hanımdan ayrılmadan önce hesabını ödemeyi unutma."
+msgstr ""
+"Böylesine genç, gelecek vaat eden bir hayatı ziyan edeceksin! Peki... "
+"meyhanemden ayrılmadan önce hesabını ödemeyi unutma."
 
 #: conversationlist_fallhaven_tavern.json:bela_gsnake_20
 msgid "You are back!"
@@ -2582,11 +2591,11 @@ msgstr "Selam."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_0:0
 msgid "There was a drunk outside the tavern that told me a story about you two."
-msgstr "Dışarıda beraber yaptıklarınız hakkında hikayeler anlatan bir ayyaş vardı."
+msgstr "Meyhanenin dışında bir sarhoş bana ikiniz hakkında bir hikaye anlattı."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_1
 msgid "That old drunk over at the tavern told you his story did he?"
-msgstr "Hanın önündeki şu ihtiyar ayyaş anlattı di mi?"
+msgstr "Meyhanenin önündeki şu ihtiyar ayyaş anlattı değil mi?"
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_2
 msgid "Same old story. We used to travel together a few years back."
@@ -2647,7 +2656,7 @@ msgstr "Akıllıca. Maceracılık insana çok fazla yara izi hediye edebilir. Bi
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_13
 msgid "His house is just southwest of the tavern."
-msgstr "Evi hanın hemen güneybatısında."
+msgstr "Evi meyhanenin hemen güneybatısında."
 
 #: conversationlist_fallhaven_gaela.json:gaela_r
 msgid "Hello again. I hope you will find what you are looking for."
@@ -3862,7 +3871,9 @@ msgstr ""
 
 #: conversationlist_signs_pre067.json:sign_pitcave2
 msgid "The ground is littered with bloodstained scraps of paper, seemingly torn from a journal in a fight."
-msgstr "[OUTDATED]Gandir burada yatıyor, eski arkadaşı Irogotu'nun eliyle öldürüldü."
+msgstr ""
+"Yer, kavgada bir günlükten koparılmış gibi görünen kanlı kâğıt parçalarıyla "
+"dolu."
 
 #: conversationlist_signs_pre067.json:sign_fallhaven1
 msgid "Welcome to Fallhaven. Watch out for pickpockets!"
@@ -4265,6 +4276,7 @@ msgstr "Yeni bir olay var mı?"
 #: conversationlist_sullengard.json:farrik_inquery:1
 msgid "I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you."
 msgstr ""
+"Dunla'ya bira dağıtım işini ve 'iş anlaşmasını' sordum. Beni size gönderdi."
 
 #: conversationlist_farrik.json:farrik_5
 msgid "Well, there was one thing a few weeks ago. One of our guild members got arrested for trespassing."
@@ -4714,87 +4726,89 @@ msgstr "Tekrardan merhaba, benim dostum."
 
 #: conversationlist_umar.json:umar_return_1:1
 msgid "I have given them our promised share."
-msgstr "[OUTDATED]Bana anahtarı anlatacak mısın?"
+msgstr "Onlara vaat ettiğimiz payı verdim."
 
 #: conversationlist_umar.json:umar_return_1:2
 msgid "What are we gonna do about Sullengard?"
-msgstr "[OUTDATED]Crackshot öldü."
+msgstr "Sullengard konusunda ne yapacağız?"
 
 #: conversationlist_umar.json:umar_return_1:3
 msgid "What are your plans for the new traitors?"
-msgstr "[OUTDATED]Tekrar ne yapmam gerekiyor?"
+msgstr "Yeni hainler için planlarınız nedir?"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "[OUTDATED]Hainler için planlarınız neler?"
+msgstr "Matpat bana Defy ve adamlarının Sullengard'dan ayrıldığını söyledi."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
-msgstr "[OUTDATED]Bana hainler hakkında söylediklerine devam edebilir misin?"
+msgstr "Defy ve adamları Sullengard'dan ayrılmış."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
-msgstr "[OUTDATED]Bir şey hakkında konuşmamız gerekiyor."
+msgstr ""
+"Defy bana paylaşım zamanının herhangi bir sebep belirtilmeksizin "
+"erteleneceğini söyledi."
 
 #: conversationlist_umar.json:umar_return_1:7
 msgid "What am I supposed to do in Sullengard again?"
-msgstr ""
+msgstr "Sullengard'da ne yapmam gerekiyordu?"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
-msgstr "[OUTDATED]Sonunda işi bitirdim."
+msgstr "Bana anahtardan bahsedecek misin?"
 
 #: conversationlist_umar.json:umar_return_1:10
 msgid "Crackshot is dead."
-msgstr "[OUTDATED]Tekrar ne yapmam gerekiyor?"
+msgstr "Crackshot öldü."
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
-msgstr ""
+msgstr "Ne yapmam gerekiyordu?"
 
 #: conversationlist_umar.json:umar_return_1:12
 msgid "What are your plans for the traitors?"
-msgstr "[OUTDATED]Merhaba."
+msgstr "Hainler için planlarınız nedir?"
 
 #: conversationlist_umar.json:umar_return_1:13
 msgid "Can you continue with what you were telling me about the traitors?"
-msgstr "[OUTDATED]Seninle asil kadın hakkında konuşmalıyım."
+msgstr "Hainler hakkında söylediklerinize devam edebilir misiniz?"
 
 #: conversationlist_umar.json:umar_return_1:14
 msgid "We are supposed to talk about something."
-msgstr "[OUTDATED]Rehineyi getirdim."
+msgstr "Bir şey hakkında konuşmamız gerekiyor."
 
 #: conversationlist_umar.json:umar_return_1:15
 #: conversationlist_umar.json:umar_return_1:16
 msgid "We were supposed to talk about something, right?"
-msgstr ""
+msgstr "Bir şey hakkında konuşmamız gerekiyordu, değil mi?"
 
 #: conversationlist_umar.json:umar_return_1:17
 msgid "I've finally finished the job."
-msgstr "[OUTDATED]Yeni görevim hakkında başka bir şey var mı?"
+msgstr "Sonunda işi bitirdim."
 
 #: conversationlist_umar.json:umar_return_1:18
 msgid "What am I suppossed to do again?"
-msgstr "[OUTDATED]Baş belası beni gönderdi. İşi bitirdim."
+msgstr "Ne yapmam gerekiyordu?"
 
 #: conversationlist_umar.json:umar_return_1:19
 #: conversationlist_umar.json:umar_return_1:20
 msgid "What am I supposed to do with the noblewoman?"
-msgstr "[OUTDATED][OUTDATED]Tanıştığıma memnun oldum. Güle-güle."
+msgstr "Soylu kadınla ne yapmam gerekiyor?"
 
 #: conversationlist_umar.json:umar_return_1:21
 msgid "I have to talk to you about the noblewoman."
-msgstr ""
+msgstr "Seninle soylu kadın hakkında konuşmalıyım."
 
 #: conversationlist_umar.json:umar_return_1:22
 msgid "I have brought the hostage."
-msgstr ""
+msgstr "Rehineyi getirdim."
 
 #: conversationlist_umar.json:umar_return_1:23
 #: conversationlist_umar.json:umar_return_1:24
 #: conversationlist_umar.json:umar_return_1:25
 msgid "Anything more about my new task?"
-msgstr ""
+msgstr "Yeni görevimle ilgili başka bir şey var mı?"
 
 #: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
@@ -4803,7 +4817,7 @@ msgstr ""
 #: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
 msgid "Nice to meet you. Goodbye."
-msgstr ""
+msgstr "Tanıştığımıza memnun oldum. Güle güle."
 
 #: conversationlist_umar.json:umar_return_2:0
 msgid "Can you repeat what you said about Andor?"
@@ -4823,7 +4837,7 @@ msgstr "Merhaba. Arayışınız nasıl gitti?"
 
 #: conversationlist_umar.json:umar_novisit_1:0
 msgid "What search?"
-msgstr "Ne Arama?"
+msgstr "Ne arayışı?"
 
 #: conversationlist_umar.json:umar_2
 msgid "Last time we talked, you asked for the way to Lodar's Hideaway. Did you find it?"
@@ -5255,7 +5269,7 @@ msgstr "Şapel, Gölge için ibadet yerimiz ve ayrıca köyümüzde daha büyük
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_3
 msgid "Apart from the chapel, we have a tavern, a smith and an armorer."
-msgstr "Şapel dışında bir taverna, demirci ve zırhçımız var."
+msgstr "Şapel dışında bir meyhane, demirci ve zırhçımız var."
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_3:0
 msgid "Thanks for the information. There was something else I wanted to talk about."
@@ -5285,6 +5299,8 @@ msgstr "Bana kendinle ilgili ne söyleyebilirsin?"
 #: conversationlist_vilegard_tavern.json:dunla_default:3
 msgid "I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you."
 msgstr ""
+"Tharwyn ile bira 'dağıtımcısının' kim olduğu hakkında konuştum ve beni size "
+"gönderdi."
 
 #: conversationlist_vilegard_tavern.json:dunla_1
 msgid "Me? I am no one. You didn't even see me. You certainly did not talk to me."
@@ -5304,11 +5320,11 @@ msgstr "Her yerde oturun. Size ne verebilirim?"
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2:0
 msgid "Show me what food you have available."
-msgstr "Bana hangi yiyeceğin olduğunu göster."
+msgstr "Elindeki yiyecekleri göster."
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2:2
 msgid "Let's get back to discussing your 'business agreement' with the 'distributors'."
-msgstr ""
+msgstr "'Dağıtımcılar' ile 'iş anlaşmanızı' tartışmaya geri dönelim."
 
 #: conversationlist_vilegard_tavern.json:vilegard_tavern_drunk_1
 msgid "Oh look, a lost kid. Here, have some mead kid."
@@ -5445,7 +5461,9 @@ msgstr "Vilegard'ın kuzeyinde Köpüklü Şişe adında bir meyhane var. Bence 
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_7
 msgid "The tavern is almost always visited by the Feygard royal guard of Lord Geomyr."
-msgstr "Lokali neredeyse her zaman Lord Geomyr'in Feygard kraliyet muhafızları tarafından ziyaret edilir."
+msgstr ""
+"Meyhane neredeyse her zaman Lord Geomyr'in Feygard kraliyet muhafızları "
+"tarafından ziyaret edilir."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_8
 msgid "They are probably here to spy on us, since we are followers of the Shadow. Lord Geomyr's forces always try to make life difficult for us and the Shadow."
@@ -5603,7 +5621,9 @@ msgstr "Genellikle, Nor Şehri'ne giden ana yol üzerinden geçen gezginlerle al
 
 #: conversationlist_alynndir.json:alynndir_3
 msgid "Oh, there is not much around here. Vilegard to the west, Brightport to the east and Sullengard to the south."
-msgstr "[OUTDATED]Ah, etrafta pek bir şey yok. Batıda Vilegard, doğuda da Brightport var."
+msgstr ""
+"Buralarda pek bir şey yok. Batıda Vilegard, doğuda Brightport ve güneyde "
+"Sullengard."
 
 #: conversationlist_alynndir.json:alynndir_4
 msgid "Up north is just forest. But there are some strange things happening there."
@@ -7995,7 +8015,10 @@ msgstr "Canavar saldırılarına karşı yardım etmeni görmem söylendi."
 
 #: conversationlist_prim_guthbered.json:guthbered_2
 msgid "Prim began as a simple camp for the miners that worked in the mines around here. Later it grew to a settlement, and a few years back we even got a tavern and an inn here."
-msgstr "Prim, buradaki madenlerde çalışan madenciler için basit bir kamp olarak başladı. Daha sonra bir yerleşim yeri haline geldi ve birkaç yıl önce burada bir taverna ve bir han bile var."
+msgstr ""
+"Prim, buradaki madenlerde çalışan madenciler için basit bir kamp olarak "
+"başladı. Daha sonra bir yerleşim yeri haline geldi ve birkaç yıl önce burada "
+"bir meyhane ve bir han bile var."
 
 #: conversationlist_prim_guthbered.json:guthbered_3
 msgid "This place used to be full of life when the miners worked here."
@@ -11396,7 +11419,9 @@ msgstr "Güneydeki karakolların bizden daha fazla ekipmana ihtiyacı var. O sef
 
 #: conversationlist_gandoren.json:gandoren_13
 msgid "Take this shipment of 10 iron swords to the guard captain stationed in a tavern called 'The Foaming Flask', near a village called Vilegard."
-msgstr "Bu 10 demir kılıç sevkiyatını, Vilegard adlı bir köyün yakınındaki 'The Foaming Flask' adlı bir tavernada görevli muhafız kaptanına götürün."
+msgstr ""
+"Bu 10 demir kılıçlık sevkiyatı Vilegard adlı bir köyün yakınındaki 'Köpüklü "
+"Şişe' adlı bir meyhanede konuşlanmış muhafız kaptanına götür."
 
 #: conversationlist_gandoren.json:gandoren_13:0
 msgid "No problem. Anything for the glory of Feygard."
@@ -11457,11 +11482,14 @@ msgstr "İşte taşımanı istediğim sevkiyat."
 
 #: conversationlist_gandoren.json:gandoren_21
 msgid "As I said, you should deliver those 10 iron swords to the guard captain stationed in a tavern called 'The Foaming Flask', near a village called Vilegard."
-msgstr "Dediğim gibi, bu 10 demir kılıcı Vilegard adlı bir köyün yakınında 'The Foaming Flask' adlı bir meyhanede görevli muhafız kaptanına teslim etmelisiniz."
+msgstr ""
+"Dediğim gibi, bu 10 demir kılıcı Vilegard adlı bir köyün yakınındaki "
+"'Köpüklü Şişe' adlı bir meyhanede konuşlanmış muhafız kaptanına teslim "
+"etmelisiniz."
 
 #: conversationlist_gandoren.json:gandoren_22
 msgid "Return to me once you are done."
-msgstr "işin bitince bana dön."
+msgstr "İşin bitince bana dön."
 
 #: conversationlist_gandoren.json:gandoren_23
 msgid "I feel that I should warn you about something also. See that fellow over there in the corner? Ailshara. She seems very interested in our dealings for some reason."
@@ -11473,7 +11501,7 @@ msgstr "Ne pahasına olursa olsun ondan uzak durmanızı öneririm. Ne yaparsan 
 
 #: conversationlist_gandoren.json:gandoren_deliver_1
 msgid "You return. Good news about the shipment I hope?"
-msgstr "geri dönmüşsün. Umarım sevkiyatla ilgili iyi haber vardır?"
+msgstr "Geri dönmüşsün. Umarım sevkiyatla ilgili iyi haber vardır?"
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:1
 msgid "I am still working on transporting that shipment."
@@ -11481,11 +11509,11 @@ msgstr "Hala sevkiyatı taşımaya çalışıyorum."
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:3
 msgid "Yes. I have delivered them as you ordered."
-msgstr "evet. Emrettiğiniz gibi teslim ettim."
+msgstr "Evet. Emrettiğiniz gibi teslim ettim."
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:4
 msgid "Yes. I have delivered them."
-msgstr "evet. Onları teslim ettim."
+msgstr "Evet. Onları teslim ettim."
 
 #: conversationlist_gandoren.json:gandoren_tr_2
 msgid "I'm sorry, we only trade with allies of Feygard. Help me with the task I gave you and we might be able to work something out."
@@ -11494,7 +11522,7 @@ msgstr "Üzgünüm, biz sadece Feygard'ın müttefikleriyle ticaret yapıyoruz. 
 #: conversationlist_gandoren.json:gandoren_deliver_y_1
 #: conversationlist_gandoren.json:gandoren_deliver_n_1
 msgid "Splendid! Feygard is in debt to you."
-msgstr "muhteşem! Feygard sana borçlu."
+msgstr "Muhteşem! Feygard sana borçlu."
 
 #: conversationlist_gandoren.json:gandoren_delivered_1
 msgid "I hope you managed to stay away from the savages of Nor City as much as possible while being over there."
@@ -11705,7 +11733,9 @@ msgstr "Bana bu eşyaları getirdiğin için teşekkür ederim, güney topraklar
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_2:0
 msgid "I was sent to deliver these items to a Feygard patrol stationed in the Foaming Flask tavern."
-msgstr "Bu eşyaları Foaming Flask tavernasında görevli bir Feygard devriyesine teslim etmek için gönderildim."
+msgstr ""
+"Bu eşyaları Köpüklü Şişe meyhanesinde konuşlanmış bir Feygard devriyesine "
+"teslim etmek için gönderildim."
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_3
 msgid "Instead, you brought them to me. You have my thanks."
@@ -13561,7 +13591,9 @@ msgstr "Devam et."
 
 #: conversationlist_algangror.json:algangror_task2_11
 msgid "So, the first person that I want you to visit is Jhaeld. I hear that he spends most of his time in the Remgard tavern these days."
-msgstr "O halde, gitmeni istediğim ilk kişi Jhaeld. Duyduğuma göre bu günlerde vaktinin çoğunu Remgard Hanı'nda geçiriyormuş."
+msgstr ""
+"O halde, gitmeni istediğim ilk kişi Jhaeld. Duyduğuma göre bu günlerde "
+"vaktinin çoğunu Remgard meyhanesinde geçiriyormuş."
 
 #: conversationlist_algangror.json:algangror_task2_12
 msgid "Secondly, I want you to visit one of the farmers named Larni. He lives with his wife Caeda here in Remgard in one of the northern cabins."
@@ -13578,7 +13610,9 @@ msgstr "Dördüncüsü Emerei, muhtemelen Remgard'ın güneydoğusundaki evinde 
 
 #: conversationlist_algangror.json:algangror_task2_15
 msgid "The fifth person is the farmer Carthe. Carthe lives on the eastern shore of Remgard, near the tavern."
-msgstr "Beşinci kişi ise çiftçi Carthe. Carthe Remgard'ın doğu tarafındaki kıyı şeridinde yaşıyor, hanın yan tarafında."
+msgstr ""
+"Beşinci kişi ise çiftçi Carthe. Carthe Remgard'ın doğu tarafındaki kıyı "
+"şeridinde yaşıyor, meyhanenin yan tarafında."
 
 #: conversationlist_algangror.json:algangror_task2_16
 msgid "Once you have placed these five idols by the beds of these five people, return to me as soon as possible."
@@ -13716,7 +13750,10 @@ msgstr "Bazı sebeplerden ötürü, Remgard'daki diğer insanlar bana garip bak�
 
 #: conversationlist_algangror.json:algangror_story13
 msgid "I was even barred from the tavern. 'People come here for a good time, and we don't want people like you here ruining that' they said. What fools they are."
-msgstr "Beni hana girmekten bile men ettiler. \"İnsanlar buraya güzel vakit geçirmek için geliyor, ve senin gibi bunu engelleyecek insanları burada istemiyoruz\" dediler. Ne budala tipler."
+msgstr ""
+"Beni meyhaneye girmekten bile men ettiler. \"İnsanlar buraya güzel vakit "
+"geçirmek için geliyor, ve senin gibi bunu engelleyecek insanları burada "
+"istemiyoruz\" dediler. Ne budala tipler."
 
 #: conversationlist_algangror.json:algangror_story14
 msgid "I heard one woman whispering to her boy, 'Don't look at her, she'll turn you to stone!'. Others just turned the other way when they met me."
@@ -13991,7 +14028,9 @@ msgstr "Köy büyüğümüz Jhaeld'i ziyaret etmeli ve onunla bundan sonra ne ya
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_2
 msgid "You can probably find him in the tavern to the southeast, since that's where he spends most of his time."
-msgstr "Muhtemelen onu güneydoğudaki tavernada bulabilirsiniz, çünkü zamanının çoğunu orada geçiriyor."
+msgstr ""
+"Muhtemelen onu güneydoğudaki meyhanede bulabilirsiniz, çünkü zamanının "
+"çoğunu orada geçiriyor."
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_2:0
 msgid "I will go see him."
@@ -16169,7 +16208,11 @@ msgstr "İlk olarak, Norath ve karısı Bethir güneybatı kıyısındaki çiftl
 
 #: conversationlist_jhaeld.json:jhaeld_16
 msgid "Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in Remgard. Unfortunately, one of the knights has vanished, which is most embarrassing for us. They can be found here in the tavern."
-msgstr "İkincisi, duymuş olabileceğiniz gibi, Remgard'daki Elythom Şövalyeleri'nden oluşan bir heyetin ziyareti ile kutsandık. Ne yazık ki, şövalyelerden biri ortadan kayboldu, ki bu bizim için çok utanç verici. Burada, tavernada bulunabilirler."
+msgstr ""
+"İkincisi, duymuş olabileceğiniz gibi, Remgard'daki Elythom Şövalyeleri'nden "
+"oluşan bir heyetin ziyareti ile kutsandık. Ne yazık ki, şövalyelerden biri "
+"ortadan kayboldu, ki bu bizim için çok utanç verici. Burada, meyhanede "
+"bulunabilirler."
 
 #: conversationlist_jhaeld.json:jhaeld_17
 msgid "Third, the old woman Duaina usually has great wisdom to share, considering the experience she has with ... things out of the ordinary. You'll find her in her house to the south."
@@ -16881,7 +16924,7 @@ msgstr "Suçsuz, masum koyunları öldürürken."
 
 #: conversationlist_duaina.json:duaina_8
 msgid "[Duaina stares at you in silence while holding her hand over her mouth]"
-msgstr "[REVIEW](Duiana eliyle ağzını kapatarak sessizce sana bakıyor)"
+msgstr "[Duiana eliyle ağzını kapatarak sessizce sana bakıyor]"
 
 #: conversationlist_duaina.json:duaina_8:0
 msgid "What else have you seen in your visions?"
@@ -17091,7 +17134,9 @@ msgstr "Afedersin, konuşmaya vaktim yok."
 
 #: conversationlist_remgard_villagers1.json:remgard_villager6
 msgid "You are not from around here, are you? If you ever need a place to stay, visit the tavern. I hear that Kendelow has a room available for rent."
-msgstr "Buralardan değilsin, değil mi? Eğer kalacak bir yere ihtiyacın olursa, tavernaya bir uğra. Kendelow'un kiralık bir odası olduğunu duydum."
+msgstr ""
+"Buralardan değilsin, değil mi? Eğer kalacak bir yere ihtiyacın olursa, "
+"meyhaneye bir uğra. Kendelow'un kiralık bir odası olduğunu duydum."
 
 #: conversationlist_remgard_villagers1.json:remgard_villager7
 msgid "I have heard strange noises from across the water of lake Laeroth. I wonder what lurks on the shores of the other side."
@@ -17269,11 +17314,12 @@ msgstr "Sen, bu benim evim. Ben muhafızları çağırmadan önce çık dışar�
 
 #: conversationlist_kendelow.json:kendelow_1
 msgid "I heard that you helped us get rid of that witch Algangror. Thank you."
-msgstr "Algangror cadısından kurtulmamıza yardımcı olduğunu duydum. Teşekkürler."
+msgstr ""
+"O cadı Algangror'dan kurtulmamıza yardım ettiğini duydum. Teşekkür ederim."
 
 #: conversationlist_kendelow.json:kendelow_2
 msgid "Welcome to my tavern. I hope you will find your stay a pleasant one."
-msgstr "Tavernama hoş geldiniz. Umarım burada rahat edersiniz."
+msgstr "Meyhaneme hoş geldiniz. Ziyaretinizin güzel geçmesini umarım."
 
 #: conversationlist_kendelow.json:kendelow_d
 #: conversationlist_ervelyn.json:ervelyn_d
@@ -17287,49 +17333,58 @@ msgstr "Elbette ki, buyur."
 
 #: conversationlist_kendelow.json:kendelow_3
 msgid "Most people here in Remgard tend to their crops. Other than that, I hear that Arnal the armorer over on the western shore has some good business trading."
-msgstr "Remgard'daki çoğu insan ekinleriyle ilgilenir. Bunun dışında, demirci Arnald'ın batı kyıırlarında güzel ticaret yaptığını duydum."
+msgstr ""
+"Remgard'daki çoğu insan ekinleriyle ilgileniyor. Bunun dışında, batı "
+"kıyısındaki zırhçı Arnal'ın iyi ticaret yaptığını duydum."
 
 #: conversationlist_kendelow.json:kendelow_4
 msgid "Also, we usually get a lot of visitors here in the tavern. Lately, it has been a lot fewer people in here though, with the closing of the bridge because of those missing people and all."
-msgstr "Benzer şekilde, tavernada pek çok ziyaretçi ağırlarız. Fakat insanların kaybolmasının ardından köprünün kapanması sonrası gittikçe daha az insan gelir oldu."
+msgstr ""
+"Ayrıca meyhaneye genellikle çok sayıda ziyaretçi gelir. Ancak son "
+"zamanlarda, kayıp insanlar yüzünden köprünün kapatılmasıyla birlikte buraya "
+"gelenlerin sayısı azaldı."
 
 #: conversationlist_kendelow.json:kendelow_5
 msgid "On your way in, maybe you noticed that we even have a visit from the Knights of Elythom here in the tavern? It seems that more and more people are becoming aware of the hospitality of Remgard."
 msgstr ""
+"İçeri girerken belki de Elythom Şövalyeleri'nin tavernamızı ziyaret ettiğini "
+"fark etmişsinizdir. Görünüşe göre giderek daha fazla insan Remgard'ın "
+"misafirperverliğinin farkına varıyor."
 
 #: conversationlist_kendelow.json:kendelow_5:0
 msgid "Thank you. I had some other questions."
-msgstr ""
+msgstr "Teşekkür ederim. Başka sorularım da var."
 
 #: conversationlist_kendelow.json:kendelow_room_2
 msgid "You have already rented my last room. We don't have any more rooms other than that one."
-msgstr ""
+msgstr "Son odamı çoktan kiraladınız. Ondan başka odamız yok."
 
 #: conversationlist_kendelow.json:kendelow_room_3
 msgid "Why, yes, as a matter of fact, there is. I have one very fine room available upstairs."
-msgstr ""
+msgstr "Evet, aslına bakarsanız var. Üst katta çok güzel bir odam var."
 
 #: conversationlist_kendelow.json:kendelow_room_4
 msgid "The previous tenant left in a hurry some days ago."
-msgstr ""
+msgstr "Önceki kiracı birkaç gün önce apar topar çıktı."
 
 #: conversationlist_kendelow.json:kendelow_room_5
 msgid "You may rent the room for as long as you like for only 600 gold."
 msgstr ""
+"Odayı sadece 600 altın karşılığında istediğiniz kadar kiralayabilirsiniz."
 
 #: conversationlist_kendelow.json:kendelow_room_5:0
 msgid "600 gold, are you mad!? That's a fortune."
-msgstr ""
+msgstr "600 altın mı? Delirdin mi sen? Bu bir servet."
 
 #: conversationlist_kendelow.json:kendelow_room_5:1
 msgid "Is there anything you can do to lower the price?"
-msgstr ""
+msgstr "Fiyatı düşürmek için yapabileceğiniz bir şey var mı?"
 
 #: conversationlist_kendelow.json:kendelow_room_5:2
 #: conversationlist_kendelow.json:kendelow_room_6a:0
 #: conversationlist_kendelow.json:kendelow_room_6b:0
 msgid "I'll take it. Here is the gold."
-msgstr ""
+msgstr "Alıyorum. İşte altınlar."
 
 #: conversationlist_kendelow.json:kendelow_room_5:3
 #: conversationlist_kendelow.json:kendelow_room_6a:1
@@ -17340,26 +17395,30 @@ msgstr "O kadar altınım yok."
 #: conversationlist_kendelow.json:kendelow_room_6a
 msgid "The price is fixed. I cannot go around handing out discounts to just anyone. Also, keep in mind that you may rent it for as long as you wish."
 msgstr ""
+"Fiyat sabittir. Öyle herkese indirim yapamam. Ayrıca, dilediğiniz kadar "
+"kiralayabileceğinizi de unutmayın."
 
 #: conversationlist_kendelow.json:kendelow_room_6b
 msgid "Since you helped us here in Remgard with that witch Algangror, I am prepared to offer you a discount. How about we say 400 gold for it instead?"
 msgstr ""
+"Remgard'da cadı Algangror konusunda bize yardım ettiğin için sana indirim "
+"yapmaya hazırım. Onun yerine 400 altın desek nasıl olur?"
 
 #: conversationlist_kendelow.json:kendelow_room_7
 msgid "You are welcome to return once you have the gold, if you are still interested."
-msgstr ""
+msgstr "Hala ilgileniyorsanız, altını aldıktan sonra geri dönebilirsiniz."
 
 #: conversationlist_kendelow.json:kendelow_room_8
 msgid "Thank you. The room is upstairs. You may rent it for as long as you wish."
-msgstr ""
+msgstr "Teşekkür ederim. Oda üst katta. İstediğiniz kadar kiralayabilirsiniz."
 
 #: conversationlist_arghes.json:arghes_1
 msgid "You will find no business here, child."
-msgstr "Burada işin yok, çocuk."
+msgstr "Burada iş bulamazsın, evlat."
 
 #: conversationlist_arghes.json:arghes_2
 msgid "How interesting. The child from Fallhaven, here in Remgard?"
-msgstr "Ne kadar enteresan. Fallhaven'lı çocuk, şimdi de Remgard'da?"
+msgstr "Ne kadar ilginç. Fallhaven'lı çocuk, burada Remgard'da mı?"
 
 #: conversationlist_arghes.json:arghes_2:0
 msgid "I'm not from Fallhaven, I'm from Crossglen, west of Fallhaven."
@@ -17372,6 +17431,8 @@ msgstr "Nereden geldiğimi nasıl bildin?"
 #: conversationlist_arghes.json:arghes_2:3
 msgid "And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?"
 msgstr ""
+"Ve bir çift 'Sarı çizme' sipariş etmen ne kadar ilginç. Bunu gerçekten "
+"sipariş ettin mi?"
 
 #: conversationlist_arghes.json:arghes_3a
 msgid "Is that so? Hmm, most interesting. It does not change anything, however."
@@ -17412,11 +17473,13 @@ msgstr "Kesinlikle."
 
 #: conversationlist_arghes.json:arghes_8
 msgid "No, I cannot tell you anything at this time. You are welcome to return once your path has become ... clearer."
-msgstr "Hayır, şu an sana hiçbir şey söyleyemem. Takip ettiğin yol daha açık bir hal aldığında .. tekrar geleceksin."
+msgstr ""
+"Hayır, şu anda size bir şey söyleyemem. Yolunuz biraz daha aydınlandığında "
+"tekrar gelebilirsin."
 
 #: conversationlist_remgard_villagers2.json:perester
 msgid "If you are looking for Duaina, she is out in the backyard."
-msgstr ""
+msgstr "Duaina'yı arıyorsan, arka bahçede."
 
 #: conversationlist_remgard_villagers2.json:freen
 msgid "Sorry, we are closed. If you want to practice your reading skills, please come back another day. If there is a specific book you are looking for, I might be able to help you."
@@ -23920,7 +23983,7 @@ msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardking_1:0
 msgid "I've come for the key."
-msgstr ""
+msgstr "Anahtar için geldim."
 
 #: conversationlist_graveyard1.json:algore_99a
 msgid "Let's go."
@@ -33171,16 +33234,20 @@ msgid ""
 "(The dying Crackshot is in agony. He looks at you despairingly)\n"
 "It is curs...sed."
 msgstr ""
+"(Ölmekte olan Crackshot acı içindedir. Umutsuzca size bakar)\n"
+"O lane...tli."
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_3
 msgid ""
 "The key is cursed .... She ... I am ... (Crackshot finally dies, emitting a soft bluish breath)\n"
 ""
 msgstr ""
+"Anahtar lanetli .... O ... Ben ... (Crackshot sonunda ölür, yumuşak mavimsi "
+"bir nefes yayar)\n"
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_3:0
 msgid "Bah .... Too many questions. I need to come back."
-msgstr ""
+msgstr "Eeh .... Çok fazla sorum var. Geri gelmem gerek."
 
 #: conversationlist_omicronrg9.json:umar_guild03_25
 msgid "Excellent. Did he have the key with him?"
@@ -33302,6 +33369,8 @@ msgstr "Evet anladım."
 #: conversationlist_omicronrg9.json:umar_guild03_28a
 msgid "Each of you have your own specific task. Spies must hide their identities, even to their allies."
 msgstr ""
+"Her birinizin kendi özel görevi var. Casuslar kimliklerini müttefiklerinden "
+"bile gizlemelidir."
 
 #: conversationlist_omicronrg9.json:umar_guild03_28a:0
 msgid "That makes sense."
@@ -33309,13 +33378,16 @@ msgstr "Bu mantıklı."
 
 #: conversationlist_omicronrg9.json:umar_guild03_29
 msgid "Hmm! And now to business. Here's your reward for the good work."
-msgstr ""
+msgstr "Hmm! Ve şimdi işimize dönelim. İşte iyi iş için ödülün."
 
 #: conversationlist_omicronrg9.json:umar_guild03_30
 msgid ""
 "Take 4000 gold coins, and some bottles of my favorite mead.\n"
 "Now you deserve a good rest, my friend. You have earned the trust of the Thieves Guild."
 msgstr ""
+"Yanına 4000 altın ve en sevdiğim bal liköründen birkaç şişe al.\n"
+"Şimdi iyi bir dinlenmeyi hak ediyorsun dostum. Hırsızlar Loncası'nın "
+"güvenini kazandın."
 
 #: conversationlist_omicronrg9.json:umar_guild03_30:0
 #: conversationlist_omi2.json:ortholion_18a:1
@@ -49791,7 +49863,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_10:3
 msgid "I've been to Remgard looking for Andor"
-msgstr ""
+msgstr "Andor'u aramak için Remgard'a gitmiştim."
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_10:4
 msgid "I've been to this really cool place called Blackwater settlement."
@@ -51944,7 +52016,7 @@ msgstr ""
 
 #: itemlist_v0610_1.json:axe_gutsplitter
 msgid "Gutsplitter"
-msgstr "bağırsak ayırıcı"
+msgstr "Karındeşen"
 
 #: itemlist_v0610_1.json:hammer_skullcrusher
 msgid "Skullcrusher"
@@ -63577,9 +63649,8 @@ msgstr "Brimhaven"
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
