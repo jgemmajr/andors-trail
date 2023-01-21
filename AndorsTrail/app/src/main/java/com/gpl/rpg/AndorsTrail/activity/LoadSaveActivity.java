@@ -331,15 +331,18 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     //region Imports/Exports
 
+    //region Export
+
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void exportSaveGames(Intent data) {
         Uri uri = data.getData();
 
         Context context = getApplicationContext();
         ContentResolver resolver = AndorsTrailApplication.getApplicationFromActivity(this)
-                .getContentResolver();
+                                                         .getContentResolver();
 
-        File storageDir = AndroidStorage.getStorageDirectory(context, Constants.FILENAME_SAVEGAME_DIRECTORY);
+        File storageDir = AndroidStorage.getStorageDirectory(context,
+                                                             Constants.FILENAME_SAVEGAME_DIRECTORY);
         DocumentFile target = DocumentFile.fromTreeUri(context, uri);
         if (target == null) {
             return;
@@ -386,30 +389,47 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         }
         Context context = this;
         File[] finalWorldmapFiles = worldmapFiles;
+        CopyFilesToExternalFolder(target, sourceFiles, context, finalWorldmapFiles);
+
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.P)
+    private void CopyFilesToExternalFolder(DocumentFile target,
+                                           DocumentFile[] sourceFiles,
+                                           Context context,
+                                           File[] finalWorldmapFiles) {
         AndroidStorage.copyDocumentFilesToDirAsync(sourceFiles,
                                                    context,
                                                    target,
                                                    getString(R.string.loadsave_exporting_savegames),
                                                    (success) -> {
                                                        if (success) {
-                                                           AndroidStorage.createZipDocumentFileFromFilesAsync(
-                                                                   finalWorldmapFiles,
-                                                                   context,
-                                                                   target,
-                                                                   Constants.FILENAME_WORLDMAP_DIRECTORY,
-                                                                   getString(R.string.loadsave_exporting_worldmap),
-                                                                   (successWorldmap) -> completeLoadSaveActivity(
-                                                                           SLOT_NUMBER_EXPORT_SAVEGAMES,
-                                                                           successWorldmap));
+                                                           CopyWorldmapFilesAsZip(target,
+                                                                                  context,
+                                                                                  finalWorldmapFiles);
                                                        } else {
                                                            completeLoadSaveActivity(
                                                                    SLOT_NUMBER_EXPORT_SAVEGAMES,
                                                                    false);
                                                        }
                                                    });
-
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.P)
+    private void CopyWorldmapFilesAsZip(DocumentFile target,
+                                        Context context,
+                                        File[] finalWorldmapFiles) {
+        AndroidStorage.createZipDocumentFileFromFilesAsync(finalWorldmapFiles,
+                                                           context,
+                                                           target,
+                                                           Constants.FILENAME_WORLDMAP_DIRECTORY,
+                                                           getString(R.string.loadsave_exporting_worldmap),
+                                                           (successWorldmap) -> completeLoadSaveActivity(
+                                                                   SLOT_NUMBER_EXPORT_SAVEGAMES,
+                                                                   successWorldmap));
+    }
+
+    //endregion
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void importSaveGames(Intent data) {
@@ -519,7 +539,6 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     private int getSlotFromSavegameFileName(String fileName) {
         if (fileName == null || !fileName.startsWith(Constants.FILENAME_SAVEGAME_FILENAME_PREFIX)) {
-            //TODO: Maybe output a message that the file didn't have the right name?
             return -1;
         }
         String slotStr = fileName.substring(Constants.FILENAME_SAVEGAME_FILENAME_PREFIX.length());
@@ -529,7 +548,6 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
             slot = Integer.parseInt(slotStr);
             return slot;
         } catch (NumberFormatException e) {
-            //TODO: Maybe output a message that the file didn't have the right name?
             return -1;
         }
     }
@@ -763,6 +781,8 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
 
     //region show Dialogs
 
+    //region Import/Export
+
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void showStartExportInfo(OnClickListener onOk) {
         final CustomDialog d = CustomDialogFactory.createDialog(this,
@@ -815,6 +835,8 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
                                                                      getString(R.string.loadsave_export_error_unknown));
         CustomDialogFactory.show(d);
     }
+
+    //endregion
 
     private void showErrorLoadingEmptySlot() {
         final CustomDialog d = CustomDialogFactory.createErrorDialog(this,
