@@ -370,6 +370,14 @@ msgstr "Repouso"
 msgid "Kazaul possession"
 msgstr "Possessão de Kazaul"
 
+#: actorconditions_haunted_forest.json:death_plague
+msgid "Death Plague"
+msgstr ""
+
+#: actorconditions_haunted_forest.json:sleepwalking
+msgid "Sleepwalking"
+msgstr ""
+
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
 msgstr "Oh que bom, acordaste."
@@ -873,10 +881,10 @@ msgstr "Isso é tudo que sei. Talvez devias perguntar nas redondezas de Fallhave
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
-"Hello kid. You're Mikhail's son aren't you? With that brother of yours.\n"
+"Hello kid. You're Mikhail's youngest child aren't you? With that brother of yours.\n"
 "\n"
 "I'm Leonid, steward of Crossglen village."
-msgstr ""
+msgstr "[REVIEW]"
 "Olá miúdo. És o filho de Mikhail não é? Um dos nossos irmãos.\n"
 "\n"
 "Chamo-me Leonid, sou o administrador de Crossglen."
@@ -1002,6 +1010,7 @@ msgstr "Obrigado pela informação. Adeus."
 #: conversationlist_omi2.json:prim_tavern_guest4_17c:0
 #: conversationlist_omi2.json:ehrenfest_39a:1
 #: conversationlist_omi2.json:capvjern_22:1
+#: conversationlist_haunted_forest.json:gabriel_shadow
 msgid "Shadow be with you."
 msgstr "Que a Sombra esteja contigo."
 
@@ -1642,6 +1651,7 @@ msgstr "Não te metas em problemas."
 #: conversationlist_fallhaven.json:fallhaven_priest:0
 #: conversationlist_jolnor.json:jolnor_chapel_1:0
 #: conversationlist_buceth.json:buceth_1:1
+#: conversationlist_haunted_forest.json:gabriel_shadow:0
 msgid "Can you tell me more about the Shadow?"
 msgstr "Podes dizer-me mais alguma coisa sobre a Sombra?"
 
@@ -2532,8 +2542,8 @@ msgid "No, you will give me that book."
 msgstr "Não, vais dar-me o livro."
 
 #: conversationlist_fallhaven_larcal.json:larcal_4
-msgid "Good boy. Now run away."
-msgstr "Bom menino. Agora põe-te a andar."
+msgid "Good, now run away."
+msgstr "[REVIEW]Bom menino. Agora põe-te a andar."
 
 #: conversationlist_fallhaven_larcal.json:larcal_5
 msgid "OK, now you're starting to annoy me, kid. Get lost while you still can."
@@ -15024,6 +15034,7 @@ msgstr "Algumas pessoas têm comentado que viram alguns deles a uma boa distânc
 #: conversationlist_omicronrg9.json:troublemaker_guild_8a:0
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_4:0
 #: conversationlist_sullengard.json:farrik_beer_20:0
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_30
 msgid "Anything else?"
 msgstr "Mais alguma coisa?"
 
@@ -21816,6 +21827,7 @@ msgstr "Tem todas as marcações. Mas não pode ser? Não entendo."
 #: conversationlist_fungi_panic.json:fungi_rescued_90:0
 #: conversationlist_omi2.json:ortholion_guard_0c:2
 #: conversationlist_omi2.json:ortholion_5a:1
+#: conversationlist_haunted_forest.json:gabriel_daw_60:1
 msgid "What is it?"
 msgstr "O que é isso?"
 
@@ -22146,7 +22158,7 @@ msgid "Oh. Sure."
 msgstr "Oh. Claro."
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40
-msgid "So you need a cure against giant mushrooms."
+msgid "So you need a cure against giant mushrooms?"
 msgstr "Então precisas de uma cura contra os cogumelos gigantes."
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40:0
@@ -22342,8 +22354,8 @@ msgid "Why doesn't he want to do this work?"
 msgstr "Porque é que ele não quer fazer esse trabalho?"
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2
-msgid "You're really curious boy... Well our superior, the guard captain, only wants to pay the woodcutter when he has done his work."
-msgstr "És mesmo curioso miúdo... Bem, o nosso superior, o diretor, apenas pagará ao lenhador quando ele fizer o trabalho dele."
+msgid "You're really curious kid... Well our superior, the guard captain, only wants to pay the woodcutter when he has done his work."
+msgstr "[REVIEW]És mesmo curioso miúdo... Bem, o nosso superior, o diretor, apenas pagará ao lenhador quando ele fizer o trabalho dele."
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2:0
 msgid "Maybe I could help?"
@@ -33868,7 +33880,7 @@ msgid "He can't be gone without our share from the bootleg brewers."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_17:0
-msgid "I thought he's here."
+msgid "I thought he would come back here."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_17:1
@@ -34058,7 +34070,7 @@ msgid "You will be the one to blame here."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild04_defy_gone_script_grant
-msgid "[Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?]"
+msgid "Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulirmountain_entrance
@@ -35481,7 +35493,7 @@ msgid "I will!"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_11a_20:0
-msgid "[mumbling] ... end in desaster again. Oh dear."
+msgid "[mumbling] ... end in disaster again. Oh dear."
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_11e
@@ -46461,7 +46473,7 @@ msgid "Hah. I always knew you were far too shady to be an honest man."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_6a2
-msgid "Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow."
+msgid "Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_8a
@@ -46746,7 +46758,7 @@ msgid "I'll investigate. Bye."
 msgstr ""
 
 #: conversationlist_omi2.json:arghest_alert_2
-msgid "You'd better telling me the truth. I will report it later."
+msgid "You'd better be telling me the truth. I will report it later."
 msgstr ""
 
 #: conversationlist_omi2.json:arghest_alert_2:0
@@ -47041,7 +47053,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:elm4_sign2
 msgid ""
-"MINERS: this zone has been declared unstable. No further excavations must be done here.\n"
+"MINERS: This zone has been declared unstable. No further excavating is allowed.\n"
 "\n"
 "Signed by Guthbered of Prim."
 msgstr ""
@@ -47128,7 +47140,7 @@ msgid "Plunder."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard8_plunder
-msgid "You try to put off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing."
+msgid "You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard8_consumed
@@ -48392,17 +48404,6 @@ msgstr ""
 msgid "I've already admired this view. It's time to go back and get some work done."
 msgstr ""
 
-#: conversationlist_sullengard.json:sullengard_ravine_ledge_10
-msgid ""
-"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n"
-"\n"
-"Did this person plunge to their death, or is there a safe way to get to the bottom?"
-msgstr ""
-
-#: conversationlist_sullengard.json:sullengard_ravine_ledge_10:0
-msgid "I should head back now before I suffer a similar fate."
-msgstr ""
-
 #: conversationlist_sullengard.json:deebo_orchard_farmer_0
 msgid "Apple farming is tough and Deebo overworks us, but please don't tell him I said so."
 msgstr ""
@@ -48890,10 +48891,6 @@ msgstr ""
 msgid "I think you should leave."
 msgstr ""
 
-#: conversationlist_sullengard.json:sullengard_bartender_50
-msgid "Get out of here now. Do not come back until you learn some respect."
-msgstr ""
-
 #: conversationlist_sullengard.json:deebo_orchard_deebo_0
 msgid "What a lovely day for some good quality hard work outside."
 msgstr ""
@@ -49155,7 +49152,6 @@ msgid "OK, I have faith in you."
 msgstr ""
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_80
-#: conversationlist_sullengard.json:deebo_orchard_deebo_81
 msgid " The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
 msgstr ""
 
@@ -49194,15 +49190,15 @@ msgid "Are you a farmer?"
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_4:0
-msgid "No. But I'm a son of an ordinary farmer in a small settlement called Crossglen."
+msgid "No. But I'm a child of an ordinary farmer in a small settlement called Crossglen."
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_4:1
-msgid "Yes. I'm a son of an ordinary farmer in a small settlement called Crossglen."
+msgid "Yes. I'm a child of an ordinary farmer in a small settlement called Crossglen."
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_5
-msgid "If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here."
+msgid "If you are the child of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here."
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_6
@@ -49214,11 +49210,11 @@ msgid "Don't worry about me. I still have one. I bought them from buy-one take-o
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_7:0
-msgid "I'll prove it to you that I'm a son of a farmer!"
+msgid "I'll prove it to you that I'm the child of a farmer!"
 msgstr ""
 
 #: conversationlist_sullengard.json:throthaus_7:1
-msgid "You'll see that you are wrong about me. I'm a son of a farmer!"
+msgid "You'll see that you are wrong about me. I'm the child of a farmer!"
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hadena_0
@@ -49498,7 +49494,7 @@ msgid "Thanks. That would be great."
 msgstr ""
 
 #: conversationlist_sullengard.json:nimael_pm_30
-msgid "I just need a little bit of time.Please come back soon and I will have your soup ready."
+msgid "I just need a little bit of time. Please come back soon and I will have your soup ready."
 msgstr ""
 
 #: conversationlist_sullengard.json:nimael_pm_25
@@ -49510,7 +49506,7 @@ msgid "Yes. Please enjoy while it's hot."
 msgstr ""
 
 #: conversationlist_sullengard.json:nimael_pm_45
-msgid "No, not yet. You must have patience Making the Gloriosa soup safe to eat takes time."
+msgid "No, not yet. You must have patience. Making the Gloriosa soup safe to eat takes time."
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_0:0
@@ -49870,7 +49866,7 @@ msgid "No way! I've put my hands in crates and cracks in walls before and have b
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_20
-msgid "[You have successfully removed an extreamly heavy sack. This must be Zaccheria stolen inventory.]"
+msgid "[You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.]"
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_taken
@@ -50180,6 +50176,7 @@ msgid "What? Why not? Don't you remember who lives there?"
 msgstr ""
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_30:0
+#: conversationlist_next_release.json:crossglen_valentina_andor_25:0
 msgid "Umm...no, no I don't."
 msgstr ""
 
@@ -51037,7 +51034,7 @@ msgid "That's nice. But I don't care. See you later."
 msgstr ""
 
 #: conversationlist_sullengard.json:deebo_orchard_howkin_20
-msgid "Well, I guess it's because by father works the farmers too much and I don't pay them enough for their labor."
+msgid "Well, I guess it's because my father works the farmers too much and I don't pay them enough for their labor."
 msgstr ""
 
 #: conversationlist_sullengard.json:deebo_orchard_howkin_20:0
@@ -51094,6 +51091,10 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sull_ravine_grazia_1:0
 msgid "Tried to do what?"
+msgstr ""
+
+#: conversationlist_sullengard.json:deebo_orchard_deebo_81
+msgid " The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of its death."
 msgstr ""
 
 #: conversationlist_sullengard.json:ainsley_goto_loneford_0
@@ -51362,6 +51363,300 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_godrey_10a
 msgid "Sure. Look at the table over there. He is my best customer at he moment."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge_10b
+msgid ""
+"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n"
+"\n"
+"Did this person plunge to their death, or is there a safe way to get to the bottom?"
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_ravine_ledge_10b:0
+msgid "I should head back now before I suffer a similar fate."
+msgstr ""
+
+#: conversationlist_sullengard.json:sullengard_bartender_50b
+msgid "Get out of here now. Do not come back until you learn some respect."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:daw_haunted_enterance
+msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_shh
+msgid "Shh!"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_shh:0
+msgid "What? Why?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_shh:1
+#: conversationlist_haunted_forest.json:gabriel_daw_10:0
+msgid "[You just nod up and down]"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_10
+msgid "Do you hear it?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_10:1
+msgid "[Lie] Umm I sure do."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_10:2
+msgid "No, sir, I do not."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_10_rec
+msgid "Speak, child."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_20
+msgid "What do you hear?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_20:0
+msgid "The Shadow. It talks to me too."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_20:1
+msgid "The birds are singing today. I also like to listen to them."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_20_lie
+msgid "You lie!"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_20_birds
+msgid "No! Not that."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_30
+msgid "It's coming from over there. [He points east]"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_35
+msgid "Clear your mind and you will hear it."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_35:0
+msgid "You are crazy. I'm out of here."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_35:1
+msgid "How do I clear my mind?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_40
+msgid "Close your eyes."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_40:0
+msgid "Yeah, you're scaring me. Maybe I'll come back later."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_40:1
+msgid "Sure. I'll close my eyes now, but don't try anything that you will regret."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_50
+msgid "Do you hear it now?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_50:0
+msgid "Yes, I think so. It sounds like moaning of some kind."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_60
+msgid "Yes! Finally. Someone else that can hear it."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_60:0
+msgid "This is scaring me. I'm going home to father."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_70
+msgid "I have no idea and the other villagers think I am crazy. Do you think I'm crazy?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_70:0
+msgid "Maybe, but I'm intrigued, so I will say 'no'."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_70:1
+msgid "Oh, absolutely."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_80
+msgid "OK. I fear that whatever it is, it is coming for this church and the village."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_85
+msgid "I am not an adventurer, and I am certainly not a fighter."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_85:0
+msgid "Obviously"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_90
+msgid "I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_90:0
+msgid "Of course. Anything for the Shadow."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_90:1
+msgid "If there is a reward, why not?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_90:2
+msgid "I don't think I am ready. "
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_100
+msgid "Outstanding. Report back to me when you are done."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete
+msgid "Why are you still here when the noises persist?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete:0
+msgid "Can you explain to me again what it is that you want me to do?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete:1
+msgid "You're not the boss of me, Shadow man. I will address your problem when I am ready to do so."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete_10
+msgid "The noise, my child! It's coming from over there. [He points east]"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20
+msgid "I asked you to go investigate the noise and stop it if it is a threat"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20:0
+msgid "Oh yeah. Sorry. I will get on top of that right away."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_0
+msgid "The noise, it's gone! Was it you? Did you stop it?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_0:0
+msgid "Yes. It was me."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_10
+msgid "Well, for that, I am eternally grateful."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_10:0
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_40:0
+msgid "How 'grateful' are you?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_10:1
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_40:1
+msgid "I will do anything for the Shadow."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_15
+msgid "I will get to that momentarily."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_13
+msgid "Thank you, my child."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_20
+msgid "Please tell me what was causing the noise?"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_20:0
+msgid "A demonic creature and its minions rose from their graves and were roaming the forest."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_30:0
+msgid "They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning to make Vilegard their first victims"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_40
+msgid "This is indeed alarming. But we are so grateful for your work here."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_50
+msgid "Very! In fact, here are 3000 gold pieces for all your trouble."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:gabriel_daw_complete_49
+msgid "Walk with the Shadow, my child."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_house_basement_script_10
+msgid "Just as you reach the bottom step, you look across the room to see this demonic creature. It does not see you as it's looking towards the ground."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_house_basement_script_20
+msgid "It begins to bring its arms and head straight up towards the ceiling while moaning and speaking in a language that you do not understand. When all of a sudden it notices your presence and begins to drop it's arm and points directly at you."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_house_basement_script_30
+msgid "Again, yelling in a language that you do not understand. You begin to tremble in fear."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_forest_discovery_script_10
+msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much loader now."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road2_daw_10
+msgid "You stick your head between the trees."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road2_daw_10:0
+msgid "What an eerie sound ..."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road2_daw_20
+msgid "Now you notice that the moaning heard by Gabriel is a little louder here."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road5_daw_10
+msgid "As you stick your head between the trees, you feel a burst of cold air and a shiver goes down your body"
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road5_daw_10:0
+msgid "This doesn't feel right! I should get out of here now."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road5_daw_10:1
+msgid "I should stick around a little bit longer."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_cemetery1_nonwalkable_hole
+msgid "As you emerge from the hole, the rope tumbles to the ground."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road5_daw_20
+msgid "Now you begin to notice that the moaning heard by Gabriel is a little loader here."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:road5_daw_20:0
+msgid "I must be getting closer to the source. It's time to press on."
+msgstr ""
+
+#: conversationlist_haunted_forest.json:haunted_benzimos_death_10
+msgid "Benzimos is now dead ... again."
+msgstr ""
+
+#: conversationlist_next_release.json:crossglen_valentina_andor_25
+msgid "Don't you remember who lives there?"
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -54803,7 +55098,7 @@ msgid "Blob of kazarite"
 msgstr ""
 
 #: itemlist_omi2.json:elm_gem:description
-msgid "The shadow is even in the most unexpected places."
+msgid "The Shadow is even in the most unexpected places."
 msgstr ""
 
 #: itemlist_omi2.json:elm_gem_u
@@ -54879,6 +55174,7 @@ msgid "Heavy, ancient key with a small head, thick shaft and a wide end."
 msgstr ""
 
 #: itemlist_omi2.json:skull1
+#: itemlist_haunted_forest.json:human_skull
 msgid "Human skull"
 msgstr ""
 
@@ -54939,7 +55235,7 @@ msgid "Ortholion's talisman"
 msgstr ""
 
 #: itemlist_omi2.json:ortholion_reward:description
-msgid "You feel a warm and comfortable feeling when holding it."
+msgid "You feel warm and comfortable while holding it."
 msgstr ""
 
 #: itemlist_delivery.json:facutloni_docket
@@ -55063,7 +55359,7 @@ msgid "Spring Squeeze"
 msgstr ""
 
 #: itemlist_sullengard.json:sullengard_spring_squeeze:description
-msgid "A little bit of spring in ever sip. Brewed by the Brewere family."
+msgid "A little bit of spring in every sip. Brewed by the Brewere family."
 msgstr ""
 
 #: itemlist_sullengard.json:pig_bone
@@ -55071,7 +55367,7 @@ msgid "Pig's bone"
 msgstr ""
 
 #: itemlist_sullengard.json:pig_bone:description
-msgid "All that remails of the poor pig."
+msgid "All that remains of the poor pig."
 msgstr ""
 
 #: itemlist_sullengard.json:gloriosa_mushroom
@@ -55087,7 +55383,7 @@ msgid "Gloriosa mushroom soup"
 msgstr ""
 
 #: itemlist_sullengard.json:gloriosa_mushroom_soup:description
-msgid "[TODO]"
+msgid "A delicious but rare soup perfected by Nimael."
 msgstr ""
 
 #: itemlist_sullengard.json:zaccheria_inventory
@@ -55107,7 +55403,7 @@ msgid "Greataxe of broken promises"
 msgstr ""
 
 #: itemlist_sullengard.json:great_axe_of_bp:description
-msgid "It promised to saves lives, but instead it takes them."
+msgid "It promised to save lives, but instead it takes them."
 msgstr ""
 
 #: itemlist_sullengard.json:dark_heart_sword
@@ -55204,6 +55500,62 @@ msgstr ""
 
 #: itemlist_sullengard.json:blade_protector:description
 msgid "This blade has been wielded by one that went before you."
+msgstr ""
+
+#: itemlist_haunted_forest.json:death_mace
+msgid "Death mace"
+msgstr ""
+
+#: itemlist_haunted_forest.json:angel_feather
+msgid "Angel feather"
+msgstr ""
+
+#: itemlist_haunted_forest.json:angel_feather:description
+msgid "A feather from the Angel of death. Legend states that if you place one under a person's pillow, it causes the Angel of death to appear..."
+msgstr ""
+
+#: itemlist_haunted_forest.json:human_skull:description
+msgid "Freaky to most, but intriguing to some."
+msgstr ""
+
+#: itemlist_haunted_forest.json:skeletal_remains
+msgid "Skeletal remains"
+msgstr ""
+
+#: itemlist_haunted_forest.json:skeletal_remains:description
+msgid "Ancient human bones."
+msgstr ""
+
+#: itemlist_haunted_forest.json:shield_of_undead
+msgid "Shield of the undead"
+msgstr ""
+
+#: itemlist_haunted_forest.json:shield_of_undead:description
+msgid "This shield calls for death, and yours will do."
+msgstr ""
+
+#: itemlist_haunted_forest.json:spider_eggs
+msgid "Spider eggs"
+msgstr ""
+
+#: itemlist_haunted_forest.json:spider_eggs:description
+msgid "Better served cooked, but some like to eat these raw."
+msgstr ""
+
+#: itemlist_haunted_forest.json:tonic_of_blood
+msgid "Tonic of blood"
+msgstr ""
+
+#: itemlist_haunted_forest.json:tonic_of_blood:description
+msgid "An ancient \"healing\" remedy that's been known to cause more harm than good."
+msgstr ""
+
+#: itemlist_haunted_forest.json:eye_ball
+msgid "Bat eye"
+msgstr ""
+
+#: itemlist_haunted_forest.json:eye_ball:description
+msgid "The eye ball of a \"three-eyed bat\"."
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tiny_rat
@@ -58752,9 +59104,15 @@ msgid "Lediofa"
 msgstr ""
 
 #: monsterlist_fungi_panic.json:lombric_ball
-#: monsterlist_fungi_panic.json:lombric_ball2
-#: monsterlist_fungi_panic.json:lombric_ball3
 msgid "Lombric ball"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:lombric_ball2
+msgid "Mature lombric ball"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:lombric_ball3
+msgid "Quick lombric ball"
 msgstr ""
 
 #: monsterlist_fungi_panic.json:lombric_beast
@@ -59271,6 +59629,62 @@ msgstr ""
 
 #: monsterlist_next_release.json:lava_queen_entity
 msgid "Queen lava entity"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:haunted_benzimos
+msgid "Benzimos"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:angel_death
+msgid "Angel of death"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:skeletal_raider
+msgid "Skeletal raider"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:dead_walker
+msgid "Deadwalker"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:sinister_wraith
+msgid "Sinister wraith"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:sleepless_taint
+msgid "Sleepless taint"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:death_wrecker
+msgid "Death wrecker"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:graveyard_gatekeeper
+msgid "Graveyard gatekeeper"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:mindless_disgrace
+msgid "Mindless disgrace"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:grieveless_dead
+msgid "Grieveless dead"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:musty_prowler
+msgid "Musty prowler"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:forest_hunter
+msgid "Forest hunter"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:three_eyed_bat
+msgid "Three-eyed bat"
+msgstr ""
+
+#: monsterlist_haunted_forest.json:gabriel
+msgid "Gabriel"
 msgstr ""
 
 #: questlist.json:andor
@@ -63587,7 +64001,11 @@ msgid "With Sullengard running into financial trouble, Umar is enraged by Defy's
 msgstr ""
 
 #: questlist_omi2.json:Thieves04:70
-msgid "Umar gave me a task to give the mayor at least 50000 gold coins as the promised share for their living. After that, I'm instructed to report back immediately."
+msgid "Umar gave me a task to give the mayor at least 50000 gold coins as the promised share for their living. After that, I'm instructed to report back to him."
+msgstr ""
+
+#: questlist_omi2.json:Thieves04:75
+msgid "Sullengard has been given their share of the gold and now it's time to revisit Umar."
 msgstr ""
 
 #: questlist_omi2.json:Thieves04:80
@@ -63647,7 +64065,7 @@ msgid "One of the tavern regulars, possibly Lorn's old partner Jern, does not be
 msgstr ""
 
 #: questlist_omi2.json:Omi2_bwm1:23
-msgid "Lorn's old partner asked me to bring a large bottle of cool water from the streams that are down the hole East of Prim. I bet it is the same hole I've been down earlier."
+msgid "Lorn's old partner asked me to bring a large bottle of cool water from the streams that are down the hole east of Prim. I bet it is the same hole I've been down earlier."
 msgstr ""
 
 #: questlist_omi2.json:Omi2_bwm1:24
@@ -63859,7 +64277,7 @@ msgid "Throthaus wanted me to pull out his pitchfork from the haystack to prove 
 msgstr ""
 
 #: questlist_sullengard.json:deebo_orchard_ght:40
-msgid "I successfully pulled out the pitchfork. It's time to visit Ainsley again working in Deebo's Orchard in Sullengard."
+msgid "I successfully pulled out the pitchfork. It's time to visit Ainsley again who's working on Deebo's Orchard."
 msgstr ""
 
 #: questlist_sullengard.json:deebo_orchard_ght:50
@@ -63937,7 +64355,7 @@ msgid "I've agreed to help the Feygard patrol captain investigate why there is s
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:20
-msgid "After bribing Torilo, the owner of the Floaming flask, he stated that he and other tavern owners had a 'business agreement' with a group of 'distributors'. He suggested that I ask other tavern owners for more information."
+msgid "After bribing Torilo, the owner of the Foaming flask, he stated that he and other tavern owners had a 'business agreement' with a group of 'distributors'. He suggested that I ask other tavern owners for more information."
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:30
@@ -63961,23 +64379,55 @@ msgid "I have done what Mayor Ale has asked of me as I have delivered his letter
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:80
-msgid "Mayor Ale has explained everything to me about the 'business agreement' with the Thieves guild. I should head back to the Floaming flask tavern and speak with the captain."
+msgid "Mayor Ale has explained everything to me about the 'business agreement' with the Thieves guild. I should head back to the Foaming flask tavern and speak with the captain."
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:90
-msgid "I informed the guard captain at the Floaming flask tavern all about the beer bootlegging operation."
+msgid "I informed the guard captain at the Foaming flask tavern all about the beer bootlegging operation."
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:100
-msgid "I informed the guard captain at the Floaming flask tavern that the beer was being distributed by the Thieves guild."
+msgid "I informed the guard captain at the Foaming flask tavern that the beer was being distributed by the Thieves guild."
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:110
-msgid "I informed the guard captain at the Floaming flask tavern that Sullengard was responsible for brewing the beer."
+msgid "I informed the guard captain at the Foaming flask tavern that Sullengard was responsible for brewing the beer."
 msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging:120
-msgid "I lied to the guard captain at the Floaming flask tavern and told him nothing about the beer bootlegging operation."
+msgid "I lied to the guard captain at the Foaming flask tavern and told him nothing about the beer bootlegging operation."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking
+msgid "The Dead are Walking"
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:0
+msgid "Gabriel, the acolyte in Vilegard has asked me to investigate the sounds that only he is hearing."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:10
+msgid "Off of the Duleian road, just east of Vilegard, I noticed that the moaning sounds seem just a little bit louder."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:20
+msgid "Off of the Duleian road, just south of Alynndir's cabin, I noticed that the moaning sounds seem just a little bit louder."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:40
+msgid "I discovered the 'Haunted forest' and suspected that this may be the source of the sounds heard by Gabriel in Vilegard."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:50
+msgid "In the haunted house's basement, I discovered Benzimos (and he discovered me) while chanting some kind of ritual. He must be stopped."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:60
+msgid "Now that Benzimos is \"dead\" again, I should return to Vilegard and speak with Gabriel."
+msgstr ""
+
+#: questlist_haunted_forest.json:dead_walking:70
+msgid "Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard."
 msgstr ""
 
 #: worldmap.xml:world1:crossglen
@@ -64039,3 +64489,4 @@ msgstr ""
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
+
