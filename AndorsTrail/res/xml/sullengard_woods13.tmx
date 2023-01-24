@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="34" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -208,12 +208,12 @@
    eJy9llEKwyAMhvvUG+zRnn6MXcPRUQ8w2I4zwwxkITF/7dgH0hrSGM1vdZq+eaTJZKv2UtuttrW2e8JtktL6V2ccj3n5PHOLLXnW/kvYaExp0zlwjoSXp2c/LXjOa+r3I/u8YH4RW2f+RG7vlyB+5KfXKuKs/FFNRH6j6/Rr9LoTe3OzYhzxQ2utQf1RP6TWWv8Mazd3YuzVYg9vzyNztertaQCt4Qjbjv3u2b16WPRqw1gaiM4PQtbDq3M5uJb6TJFYY478c6w4ngastbfG1GcjMr4Vx9OAtReO6pZztuLoM2IkrgTR1z/o6Yug/HLC7gz8zneje/tW3pXk/UzPuwh/5g00Emra
   </data>
  </layer>
- <layer id="6" name="Walkable" width="34" height="19">
+ <layer id="6" name="Walkable" width="34" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9UtsNgDAI7BTuv0I3NH6YNIQDDk5J+iOt99zXWjs4z0R79XnxTtxz/uSAdhkPu1fxzkatk9Wg5PZVrogXm+m0OxYb+TTBrWZo8RHPju4qh8gThffT3qiy72Rd8aHqV3dne4E0TTNgPexidt+ceB52lKHim8JjFr/aRRU3pgPqjCNMhqMS19PrddC7iyb7/w2LP4Mu
+   eJy9UskNwDAIyxTdf4VsWPVRCSEugxOkfEoan/tZawfnm2jPPj+exJVzk4O3y3joPYt3NmydqAYmt1O5erzQTKfd0dieTxPcaoYa3+PZ0V3lEHnC8H7am5PdQ/OpvN/tZ0VDpGnqFaJxgtn9R+JZ2FGGjG8Mj1H8ahdZ3JAOsDOOMBGOTFxLr9VB66432fsvRfmD9Q==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="384" y="576" width="32" height="32">
    <properties>
     <property name="map" value="sullengard_woods12"/>
@@ -279,6 +279,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="9" name="Keys" visible="0"/>
+ <objectgroup id="10" name="Replace" visible="0"/>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lFkKgEAMQz2F97+CN/RLkDJJ86ZaEGGWpEsy13kcV/ne4fbqGbU+xU94OizCo7gTrAk+7a/Kj57r5pdguv6k+khydRwJPunzV3WQGsgclf5qLRPdVz63//4TvMRDqp6JZ9S9FUfVRcfj9Lb7Zuzqg3iAxES7bt3N+ovcu9kmWk68l3Ck2KSOP/Sk+JJ3kQT1ueNy91fzoDwd/q7PFSfRHMVx+6n/qBY6PXU57OpX5dP1gXL8EQ/+DRMm2OI=
+   eJy1lF0OgDAIg3cK738Fb+irIbZ8HZPEmOynHdByX2vd5XuH26tn1PoUn/B0WAmP4iZYE/y0vup96bmufwTT1Yfqg7zVcRD8pM6n8khySPqo9Fdzmei+8rn99z/BIx5S+Uw8o+59cVRddDxOb7szY1cfiQeSmGjXrbten3h711uiZeI9wkGxkzz+0JPiI3MxidTnjsvd/+pHytPh7/pccSaaS3HcPvXfbj2IphLdqaAemcyaE/OJ4D8kv9mp
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -217,7 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="poisonous_jitterfly_spawn1" type="spawn" x="224" y="64" width="320" height="160">
    <properties>
     <property name="quantity" value="4"/>
@@ -275,6 +275,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>

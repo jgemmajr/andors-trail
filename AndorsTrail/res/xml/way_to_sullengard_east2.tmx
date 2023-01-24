@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,12 +198,12 @@
    eJydUlsOQDAQ7DX0HDgBB8YXR3CDev9LnME2NBmrXY1JRI2dmc1uh0S9sBK33byh9+CpsaiIr4W6ib5nxqF3CFa3fNRIOCC3AR/Dzq7f7mdWS7o+kWfEc3lPX/5thD9HqpXK6Mn1k/ftg6MgTamvXNT59oF98buAcPuIyY9BaB6Yi/3g/zEwT8v5NIj91kt3mHsbYX9uHidhxUFV
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="15" visible="0">
+ <layer id="4" name="Walkable" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVUskNADAIcoruv4IbNv0ZAkJJfHhTbJ+qHvaAPoPKszmuH+vUfscp2emAvFivqvnhNN/odN58lUvnK66J9u7+qg/j6V9Ibu+w8dlqnC6Mp8qhXdNiRfc=
+   eJyVU8kNACAIYwr3X4ENjT9CeknCw9pCFe1T1SNfsPUMhG2ccRxv93c9U47TIl9Iyzg/nuYZVQ2kS/eS+sxrcvdu/ky38fQtJLN3ofwoDvOxcfaPVF6wP0kT
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="128" y="0" width="320" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_east1"/>
@@ -223,7 +223,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="4" name="yellow_tooth_spawn1" type="spawn" x="64" y="64" width="384" height="96">
    <properties>
     <property name="quantity" value="4"/>
@@ -255,6 +255,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>
