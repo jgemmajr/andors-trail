@@ -78,16 +78,11 @@
         "iconID":"actorconditions_omi2:4",
         "name":"Requiescence",
         "category":"mental",
-        "isPositive":1,
         "roundEffect":{
             "visualEffectID":"blueSwirl",
             "increaseCurrentHP":{
                 "min":2,
                 "max":2
-            },
-            "increaseCurrentAP":{
-                "min":0,
-                "max":0
             }
         },
         "abilityEffect":{

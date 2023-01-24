@@ -148,7 +148,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"achievements",
+                        "requireID":"sullengard_nondisplay",
                         "value":110,
                         "negate":true
                     }
@@ -160,7 +160,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"achievements",
+                        "requireID":"sullengard_nondisplay",
                         "value":110,
                         "negate":true
                     }
@@ -178,7 +178,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"achievements",
+                        "requireID":"sullengard_nondisplay",
                         "value":110,
                         "negate":true
                     }
@@ -190,7 +190,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"achievements",
+                        "requireID":"sullengard_nondisplay",
                         "value":110
                     }
                 ]
@@ -199,18 +199,21 @@
     },
     {
         "id":"sullengard_ravine_ledge_10",
-        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a safe way to get to the bottom?",
         "replies":[
             {
-                "text":"I should head back now before I suffer a similar fate.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    }
+                ]
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"achievements",
-                "value":110
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10b"
             }
         ]
     },
@@ -778,6 +781,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":75
             }
         ]
     },
@@ -1355,7 +1363,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"achievements",
+                        "requireID":"sullengard_nondisplay",
                         "value":120,
                         "negate":true
                     }
@@ -1369,17 +1377,21 @@
     },
     {
         "id":"sullengard_bartender_50",
-        "message":"Get out of here now. Do not come back until you learn some respect.",
-        "rewards":[
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"achievements",
-                "value":120
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    }
+                ]
             },
             {
-                "rewardType":"questProgress",
-                "rewardID":"sullengard_hidden",
-                "value":3
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50b"
             }
         ]
     },
@@ -2957,7 +2969,7 @@
     },
     {
         "id":"nimael_pm_30",
-        "message":"I just need a little bit of time.Please come back soon and I will have your soup ready.",
+        "message":"I just need a little bit of time. Please come back soon and I will have your soup ready.",
         "rewards":[
             {
                 "rewardType":"createTimer",
@@ -3017,7 +3029,7 @@
     },
     {
         "id":"nimael_pm_45",
-        "message":"No, not yet. You must have patience Making the Gloriosa soup safe to eat takes time."
+        "message":"No, not yet. You must have patience. Making the Gloriosa soup safe to eat takes time."
     },
     {
         "id":"sullengard_zaccheria_0",
@@ -3842,7 +3854,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_20",
-        "message":"[You have successfully removed an extreamly heavy sack. This must be Zaccheria stolen inventory.]",
+        "message":"[You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4482,7 +4494,7 @@
         "replies":[
             {
                 "text":"[While holding back a smirk, you lie] Yes, why?",
-                "nextPhraseID":"crossglen_valentina_andor_30"
+                "nextPhraseID":"crossglen_valentina_andor_25"
             },
             {
                 "text":"No. Should I have?",
@@ -4500,7 +4512,7 @@
             },
             {
                 "text":"[While holding back a smirk, you lie] Yes, why?",
-                "nextPhraseID":"crossglen_valentina_andor_30"
+                "nextPhraseID":"crossglen_valentina_andor_25"
             }
         ]
     },
@@ -6081,7 +6093,7 @@
     },
     {
         "id":"deebo_orchard_howkin_20",
-        "message":"Well, I guess it's because by father works the farmers too much and I don't pay them enough for their labor.",
+        "message":"Well, I guess it's because my father works the farmers too much and I don't pay them enough for their labor.",
         "replies":[
             {
                 "text":"You guys need to treat your farmers with more respect.",
@@ -6293,7 +6305,7 @@
     },
     {
         "id":"deebo_orchard_deebo_81",
-        "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
+        "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of its death."
     },
     {
         "id":"ainsley_goto_loneford_0",
@@ -6813,6 +6825,71 @@
                 "rewardType":"spawnAll",
                 "rewardID":"sullengard_inn_traveler_spawn",
                 "mapName":"sullengard_inn"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge_10a",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge_10b",
+        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a safe way to get to the bottom?",
+        "replies":[
+            {
+                "text":"I should head back now before I suffer a similar fate.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_nondisplay",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"sullengard_bartender_50a",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"sullengard_bartender_50b",
+        "message":"Get out of here now. Do not come back until you learn some respect.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":120
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":3
             }
         ]
     }

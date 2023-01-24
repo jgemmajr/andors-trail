@@ -19,7 +19,7 @@
         "id":"deebo_apples",
         "iconID":"items_japozero:486",
         "name":"Orchard apples",
-        "displaytype":"quest",
+        "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":35,
         "category":"food",
@@ -321,7 +321,7 @@
         "name":"Spring Squeeze",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A little bit of spring in ever sip. Brewed by the Brewere family.",
+        "description":"A little bit of spring in every sip. Brewed by the Brewere family.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":2,
@@ -367,7 +367,7 @@
         "name":"Gloriosa mushroom soup",
         "displaytype":"rare",
         "category":"food",
-        "description":"[TODO]",
+        "description":"A delicious but rare soup perfected by Nimael.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -377,16 +377,10 @@
                     "chance":"100"
                 },
                 {
-                    "condition":"sated",
-                    "magnitude":1,
-                    "duration":5,
-                    "chance":"100"
-                },
-                {
                     "condition":"relax",
                     "magnitude":1,
                     "duration":5,
-                    "chance":"40"
+                    "chance":"5"
                 }
             ]
         }
@@ -437,7 +431,7 @@
         "name":"Greataxe of broken promises",
         "displaytype":"rare",
         "category":"axe2h",
-        "description":"It promised to saves lives, but instead it takes them.",
+        "description":"It promised to save lives, but instead it takes them.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":6,
@@ -449,7 +443,7 @@
             "increaseCriticalSkill":11,
             "increaseBlockChance":-8,
             "setCriticalMultiplier":2.0,
-            "setNonWeaponDamageModifier":150
+            "setNonWeaponDamageModifier":160
         },
         "hitEffect":{
             "conditionsSource":[
@@ -507,12 +501,14 @@
                     "magnitude":1,
                     "duration":2,
                     "chance":"10"
-                },
+                }
+            ],
+            "conditionsTarget":[
                 {
                     "condition":"dazed",
                     "magnitude":1,
                     "duration":3,
-                    "chance":"35"
+                    "chance":"25"
                 }
             ]
         }
@@ -540,7 +536,7 @@
                 {
                     "condition":"putrefaction",
                     "magnitude":1,
-                    "duration":1,
+                    "duration":2,
                     "chance":"3"
                 },
                 {
@@ -729,6 +725,8 @@
         "iconID":"items_consumables:25",
         "name":"Snake meat",
         "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":34,
         "category":"food",
         "description":"There's just something about meat from a snake that makes it just a little bit better.",
         "useEffect":{

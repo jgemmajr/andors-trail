@@ -8126,6 +8126,20 @@
         "id":"brv_fortune_fortunes_select",
         "replies":[
             {
+                "nextPhraseID":"brv_fortune_come_back_much_later",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":151
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_fortune_andor_10",
                 "requires":[
                     {
