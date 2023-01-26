@@ -609,4 +609,30 @@
     <string name="startscreen_migration_text">Migrace dat uložených her.</string>
     <string name="startscreen_migration_failure">Migrace dat uložených her se nezdařila.</string>
     <string name="monsterinfo_killcount">Statistika soubojů</string>
+    <string name="loadsave_export">Exportovat uložené hry</string>
+    <string name="loadsave_export_successfull">Export proběhl úspěšně</string>
+    <string name="loadsave_import_worldmap">Importovat mapu světa</string>
+    <string name="loadsave_import_worldmap_successfull">Import mapy světa byl úspěšný</string>
+    <string name="loadsave_export_unsuccessfull">Export se nezdařil</string>
+    <string name="loadsave_import_file_exists_question">V cílové pozici je již uložená hra. Chceš zachovat stávající uloženou hru, přepsat ji importovanou uloženou hrou nebo importovat uloženou hru do pozice\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_save_unsuccessfull">Import se nezdařil</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Přepsat existující soubory\?</string>
+    <string name="loadsave_import_worldmap_wrong_directory">Skutečně je v této složce mapa světa\? Vyber prosím složku s názvem \"worldmap\" v tvém exportu.</string>
+    <string name="loadsave_import_option_keep_existing">Zachovat stávající</string>
+    <string name="loadsave_export_overwrite_confirmation">Cílová složka obsahuje existující soubory se stejným názvem jako některé soubory, které mají být exportovány. Chceš tyto soubory přepsat\?</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Import mapy světa se nezdařil</string>
+    <string name="loadsave_import_save_error_unknown">Při importu došlo k neznámé chybě.</string>
+    <string name="loadsave_import_save">Importovat uložené hry</string>
+    <string name="loadsave_import_save_successfull">Import byl úspěšný</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Přepsat existující pozici\?</string>
+    <string name="loadsave_import_existing_description">Stávající uložená hra: Pozice: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_option_keep_imported">Zachovat importované</string>
+    <string name="loadsave_import_option_add_as_new">Přidat na novou pozici</string>
+    <string name="loadsave_import_imported_description">Importovaná uložená hra: Pozice: %1$s:
+\n\t%2$s</string>
 </resources>
