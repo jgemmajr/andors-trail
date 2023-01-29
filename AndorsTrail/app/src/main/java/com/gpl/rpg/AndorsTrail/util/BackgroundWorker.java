@@ -4,14 +4,14 @@ import java.util.concurrent.Executors;
 
 public final class BackgroundWorker<T> {
 	boolean cancelled = false;
-	worker task;
-	BackgroundWorkerCallback callback;
+	worker<T> task;
+	BackgroundWorkerCallback<T> callback;
 
-	public void setTask(worker task) {
+	public void setTask(worker<T> task) {
 		this.task = task;
 	}
 
-	public void setCallback(BackgroundWorkerCallback callback) {
+	public void setCallback(BackgroundWorkerCallback<T> callback) {
 		this.callback = callback;
 	}
 
@@ -20,7 +20,7 @@ public final class BackgroundWorker<T> {
 	}
 
 	interface worker<T> {
-		void doWork(BackgroundWorkerCallback callback);
+		void doWork(BackgroundWorkerCallback<T> callback);
 	}
 
 	interface BackgroundWorkerCallback<T> {

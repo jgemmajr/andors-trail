@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEGGASoZQ61zKKGXcgAG59a4YLLDmQxSswhN55ICR9s7iYUnsTGBz49+NyNz23EmIeNT4x5uNyFzz5auQ+fmwi5E1s4YktnxKZLdDfhCwtC6QVX2iDGHlIBsXZT4v+hgAGFPt8a
+   eJzbKMbAsJEGGASoZQ61zKKGXcgAG59a4YLLDmQxUuMCm1upHbb4AKnhjk8fPj3EhgE5YYquhljziA1ndD20cB8+NxGyA1s4YkuvpKYTYsICVxomlDaIsYdUQEockOv/oYABGNvjxA==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -226,7 +226,7 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="3" name="jackal_defeted_script_10" type="script" x="320" y="288" width="128" height="160">
+  <object id="3" name="jackal_defeted_script_10" type="script" x="288" y="256" width="192" height="224">
    <properties>
     <property name="when" value="step"/>
    </properties>

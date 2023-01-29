@@ -266,14 +266,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object name="elm2f_monster1" type="spawn" x="544" y="1056" width="64" height="64">
+ <objectgroup name="Spawn">
+  <object name="elm2f_monster1" type="spawn" x="544" y="1088" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="elm_debris"/>
    </properties>
   </object>
-  <object name="elm2f_monster2" type="spawn" x="512" y="1056" width="32" height="32">
+  <object name="elm2f_monster2" type="spawn" x="512" y="1088" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="elm_debris"/>

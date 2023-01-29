@@ -245,20 +245,20 @@
   </object>
   <object name="elm5f_potion" type="container" x="32" y="544" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="elm5f_monster1" type="spawn" x="416" y="320" width="32" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="elm_mine5"/>
    </properties>
   </object>
-  <object name="elm5f_monster2" type="spawn" x="224" y="96" width="96" height="32">
+  <object name="elm5f_monster2" type="spawn" x="224" y="128" width="64" height="32">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="elm_mine5"/>
    </properties>
   </object>
-  <object name="elm5f_monster3" type="spawn" x="224" y="96" width="96" height="32">
+  <object name="elm5f_monster3" type="spawn" x="224" y="128" width="64" height="64">
    <properties>
     <property name="spawngroup" value="elm_mine6"/>
    </properties>

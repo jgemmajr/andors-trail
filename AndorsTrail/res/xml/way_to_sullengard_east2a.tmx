@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="14">
   <data encoding="base64" compression="zlib">
-   eJxLEmIAg5eSDAyvgPikGJAjhOCDMAikQNWBwBug2FtJVH3IIA2q9j1Q/AMQH5JEsNOEcOvDBmD6kNWzS2Gq+yXOwKAtgYl/iyPUJEHt/opmL48Edrv/iKPyvwP1sQLtZpOCmAVyEz69aUjhCGKD3I3sTh0cerXQ/EDInfgAzM/Y9PIxQehsKM3JhCqPz51yULXVTJhy5AJdHGZxIYln41Bji0ONFBIbn1uzKfQPAJhsLMc=
+   eJxLEmIAg5eSDAyvgPikGJAjhOCDMAikQNWBwBug2FtJVH1gcUEInQZV+x4o/gGID0ki2GlCmPquCTJggGeCqGYgq2eXwlT/S5yBQVsCE/8WR9iRBLX7qyRC33GgOA9Q3SMhTDP/iKPyvwP1sQLtZpOCmAVyE0gvCDwE8guYEH4B6U1DCkcQG+RuZHfqSCDMbmBCsLXQ/AADPEhsGPCD6kN2vw+SWTA/w/Qiq+ODqsuG0pxAOgbJD+juRI4nOSz2YgtDXOLXscR5MhNELUjuIZIeLiT/ZDNh6gOBYhxqpJDY1UwQc9HTG0gMpqcaSX0eDrtg/kH2AwDDrkVw
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCnJwHALiNHBS6DYfSB+AMSbkNgwgEsfMjiIpA9Z/U4C+ggBcvXD9H2D0jA3HRbDrQefu18R0EsIkKoXWf1g1nsZh3pi9OJSP5j1AgCWuCkr
+   eJxjYGBguCnJwHALiNHBS6DYfSB+AMSbkNgwgEsfMjiIpA9Z/U4C+ggBcvXD9H2D0jA3HRbDrQefu18R0EsIkKoXWT2leuOYKLe3GocZl3GoJ8bNuNQPZr0AlCsqCA==
   </data>
  </layer>
  <layer id="4" name="Top" width="15" height="14">
@@ -202,7 +202,7 @@
  </layer>
  <layer id="5" name="Walkable" width="15" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJg8BGMeIwslpsAJceQvrwmQETowRg04/Prej6iAkndHMpsZeQemLcQW+9Iw0DAJogckY=
+   eJzbKMbAsBEJg8BGMeIwslpsAJceQvrwmQETowRgsxufW5HVoNP4wgbdLlxmErKXkHpi3EFvvSMNAwBmWHMN
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -219,7 +219,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="3" name="flying_tree_ant_spawn1" type="spawn" x="352" y="96" width="128" height="128">
    <properties>
     <property name="quantity" value="2"/>
@@ -232,6 +232,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
+ <objectgroup id="9" name="Replace" visible="0"/>
 </map>

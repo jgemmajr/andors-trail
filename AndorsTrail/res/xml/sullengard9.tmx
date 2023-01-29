@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="35" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="35" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,9 +198,9 @@
    eJxjYMAN7kgyMNyVxBQ/gEWMXHATaNYtIN4MNfM+kH6AZP4+CuzC5X5i3DPQAD0cyAHk+B8ZIIcFoXBBt4uaaQSfPdQAtHIrpYBUv+KKI1qEGTEAFK7Idt9BcgNIDJbG0d0H41OS96kNzhHplstixKkDAEAVLBQ=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="35" height="10" visible="0">
+ <layer id="4" name="Walkable" width="35" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYECAjWIMdAUg+4i1E5daaroZZgfMTHQ7KbGLFLNw2U8JoJfbcdlLqV/wxQs+tchuoDagZvwgmzlY3EKJ+fjyK73LGWR7KcHUdAsA/xYvbA==
+   eJxjYECAjWIMdAUg+4i1E5daStyMrhdmB0wc3U5K7SLWLFz2UwJINQfdreSGA7X8gi9e8KlFdgM1AL5wobb5pOqjZf4lxnxiwobW7sQFkPM2uZiabgEAynUyiA==
   </data>
  </layer>
  <layer id="5" name="Walkable_Below" width="35" height="10" visible="0">
@@ -213,7 +213,7 @@
    eJxjYBgFo2Bogo1ixOPBAIaSW0GAFu6khR+JNY+U9EKuf4lVBwDPySYY
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="512" y="288" width="288" height="32">
    <properties>
     <property name="map" value="sullengard6"/>
@@ -262,10 +262,26 @@
     <property name="spawngroup" value="sullengard_venom_snake"/>
    </properties>
   </object>
+  <object id="10" name="deathcob_spawn1" type="spawn" x="192" y="224" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
+  <object id="11" name="deathcob_spawn2" type="spawn" x="512" y="32" width="224" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
+  <object id="12" name="deathcob_spawn3" type="spawn" x="128" y="96" width="224" height="32">
+   <properties>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace">
-  <object id="10" name="sullengard9_replace_below" type="replace" x="0" y="160" width="832" height="160">
+  <object id="13" name="sullengard9_replace_below" type="replace" x="0" y="160" width="832" height="160">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -273,7 +289,7 @@
     <property name="requireValue" value="12"/>
    </properties>
   </object>
-  <object id="11" name="sullengard9_replace_above" type="replace" x="0" y="160" width="832" height="160">
+  <object id="14" name="sullengard9_replace_above" type="replace" x="0" y="160" width="832" height="160">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="sullengard_hidden"/>

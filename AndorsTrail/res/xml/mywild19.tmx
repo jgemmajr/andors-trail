@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="24" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="24" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,7 +184,7 @@
  </layer>
  <layer id="2" name="Objects" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1VbFKA0EQPSyt3C0WttBv8AO00i5prGOjYpH4B+oXGOy1D6JlQLSwFCSINhbxDAF7EQL2Ic5yN97sZCZ3VzgwTLL75s3bndmk5ZPkCLz1T7FuTge8XQNfBxviIfi2koe1aXw1izESxwX4JdsP65/ANQPftcmfcczIJJHxGj3wa/Cb/CyYp1ngQ71uKVvDnC/YW7fl/ZCM7p0vy+sjs7jHqEm7x40SPdq8rMKZ1sgdI5ZiXkBbQ+jR1MS6t7yMG5qMQ+oRYpr5/LSZbo4PuJmJzzfIuVOhBmJ2VgrOCcvXNE3YfFFDnXiuoZvP/87vJ/Rceit7EPd9zIeWsto/NtYYOPuk9h3xD5etTwnHpp/XHLQ9EwyfN3xffB6oDcidd5R3QeOY1BsrM4816FuRdPCIGlJBtzT7wd6Zfj47dD1YX+E+hv6cWHn2Gr7oxyOb8Vthxvi5DsDPgLsLfkU0ncL3J5e9CZqn8VT5zafaHlzBVeW/oyo3xntXfH6z5TV+AUdq1Y8=
+   eJy1VbFKA0EQPSytslssbKHf4AdopV1srGOjYpH4B+oXKPaxF9EyIFpYChJEG4t4hoC9CIJ9SGa5m9zsZCZ3VzgwTLL75s3bndmk5ZPkCLz1T7FuTge8XQNfBxviIfiWkoe1aXwzizESRxf8ku2H9S/gmoDv2mRmHDM0SWS8xhX4DfhtfhbM0yzwoV63lK1hzjfsrdnyfkhG9y6W5fWhWdxj1KTd43qJHm1eVuBMq+SOEUsxr6CtKfRobGLdm17GDUzGIfUIMdv5/LSZbo4PuImJz9fPuVOhBmJ2GnpPNE2/bL6ooU4818DN5//k9xN6Lr2VPYj7PuZDS1ntPxtrDJw9Uvue+KfL1seEY8PPaw7aXgiGzxu+Lz4P1PrkzjvKu6BxROqNlJnHGvStSDp4RA2poFua/WAfTD+fHboerKdwH0N/Tqw8e01f9OOJzfidMGP8XAfgZ8B9Dn5NNJ3C92eXvQmap/FU+c2n2h5dwVXlv6MqN8YHV3x+t+U1po8/1I8=
   </data>
  </layer>
  <layer id="3" name="Above" width="24" height="20">
@@ -241,21 +241,28 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="8" name="forestserpent1" type="spawn" x="96" y="128" width="192" height="160">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestserpent1"/>
    </properties>
   </object>
-  <object id="9" name="forestwolf1" type="spawn" x="128" y="224" width="96" height="160"/>
+  <object id="9" name="forestwolf1" type="spawn" x="128" y="224" width="96" height="160">
+   <properties>
+    <property name="spawngroup" value="forestwolf1"/>
+   </properties>
+  </object>
   <object id="10" name="forestserpent1" type="spawn" x="96" y="384" width="384" height="128">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestserpent1"/>
    </properties>
   </object>
   <object id="11" name="forestwolf1" type="spawn" x="416" y="128" width="224" height="352">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,1891 +1,389 @@
 [
     {
         "id":"burhczyd1",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":61
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "replies":[	
+            {	"nextPhraseID":"burhczydx_90",
+                "requires":[{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":61 }] },
+            {	"nextPhraseID":"burhczydx_10" }
+		],
+        "rewards":[	{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd2",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":62
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+                "requires":[{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":62 }] },
+            {	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd3",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":63
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":63 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd4",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":64
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":64 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd5",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":65
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":65 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd6",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":66
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":66 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd7",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":67
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":67 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd8",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":68
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":68 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd9",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":69
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":69 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd10",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":610
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":610 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd11",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":611
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":611 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczyd12",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":612
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10"
-            }
+        "replies":[ {	"nextPhraseID":"burhczydx_90",
+						"requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":612 }] },
+					{	"nextPhraseID":"burhczydx_10" }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":71
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":72
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":73
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":74
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":75
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":76
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":77
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":78
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":79
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":710
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":711
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":712
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":71 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":72 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":73 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":74 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":75 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":76 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":77 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":78 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":79 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":710 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":711 },
+					{ "rewardType":"questProgress", 	  "rewardID":"quest_burhczyd_nd", "value":712 }]
     },
     {
         "id":"burhczydx_10",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_10_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":61
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":71,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":62
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":72,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":63
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":73,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_4",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":64
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":74,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_5",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":65
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":75,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_6",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":66
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":76,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":67
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":77,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_8",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":68
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":78,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_9",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":69
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":79,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":610
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":710,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_11",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":611
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":711,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10_12",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":612
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":712,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ]
+        "replies":[	{ "nextPhraseID":"burhczydx_10_1",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":61  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_2",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":62  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_3",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":63  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":73,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_4",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":64  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":74,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_5",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":65  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":75,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_6",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":66  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":76,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_7",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":67  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":77,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_8",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":68  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":78,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_9",  "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":69  }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":79,  "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":610 }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":710, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_11", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":611 }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":711, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_10_12", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":612 }, { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":712, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_50" }]
     },
     {
         "id":"burhczydx_10_1",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1e",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":61
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":91
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd1",  "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd1e", "mapName":"crossglen_hall" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":61 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":91 }]
     },
     {
         "id":"burhczydx_10_2",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2e",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":62
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":92
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd2",  "mapName":"fallhaven_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd2e", "mapName":"fallhaven_tavern" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":62 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":92 }]
     },
     {
         "id":"burhczydx_10_3",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3e",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":63
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":93
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd3",  "mapName":"loneford6" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd3e", "mapName":"loneford6" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":63 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":93 }]
     },
     {
         "id":"burhczydx_10_4",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4e",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":64
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":94
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd4",  "mapName":"vilegard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd4e", "mapName":"vilegard_tavern" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":64 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":94 }]
     },
     {
         "id":"burhczydx_10_5",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5e",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":65
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":95
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd5",  "mapName":"stoutford_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd5e", "mapName":"stoutford_tavern" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":65 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":95 }]
     },
     {
         "id":"burhczydx_10_6",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6e",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":66
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":96
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd6",  "mapName":"blackwater_mountain43" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd6e", "mapName":"blackwater_mountain43" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":66 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":96 }]
     },
     {
         "id":"burhczydx_10_7",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7e",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":67
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":97
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd7",  "mapName":"remgard_tavern0" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd7e", "mapName":"remgard_tavern0" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":67 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":97 }]
     },
     {
         "id":"burhczydx_10_8",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8e",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":68
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":98
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd8",  "mapName":"woodhouse2" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd8e", "mapName":"woodhouse2" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":68 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":98 }]
     },
     {
         "id":"burhczydx_10_9",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9e",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":69
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":99
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd9",  "mapName":"blackwater_mountain22" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd9e", "mapName":"blackwater_mountain22" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":69 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":99 }]
     },
     {
         "id":"burhczydx_10_10",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10e",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":610
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":910
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd10",  "mapName":"brimhaven_tavern1" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd10e", "mapName":"brimhaven_tavern1" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":610 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":910 }]
     },
     {
         "id":"burhczydx_10_11",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11e",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":611
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":911
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd11",  "mapName":"sullengard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd11e", "mapName":"sullengard_tavern" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":611 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":911 }]
     },
     {
         "id":"burhczydx_10_12",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_50"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12e",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":612
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":912
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_50" } ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd12",  "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" },
+					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":612 },
+					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":912 }]
     },
     {
         "id":"burhczydx_50",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_12a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":110
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_11a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_9a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":80
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_8a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":70
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_7a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":60
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_6a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":50
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_5a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":40
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_4a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_3a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_2a",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_1a"
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_12a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":110 }] },
+					{ "nextPhraseID":"burhczydx_11a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczydx_10a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":90 }] },
+					{ "nextPhraseID":"burhczydx_9a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":80 }] },
+					{ "nextPhraseID":"burhczydx_8a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":70 }] },
+					{ "nextPhraseID":"burhczydx_7a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":60 }] },
+					{ "nextPhraseID":"burhczydx_6a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":50 }] },
+					{ "nextPhraseID":"burhczydx_5a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":40 }] },
+					{ "nextPhraseID":"burhczydx_4a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":30 }] },
+					{ "nextPhraseID":"burhczydx_3a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":20 }] },
+					{ "nextPhraseID":"burhczydx_2a", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":10 }] },
+					{ "nextPhraseID":"burhczydx_1a" }]
     },
     {
         "id":"burhczydx_90",
-        "replies":[
-            {
-                "nextPhraseID":"burhczydx_12e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":120
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_11e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":110
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_10e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_9e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_8e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":80
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_7e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":70
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_6e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":60
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_5e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":50
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_4e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":40
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_3e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_2e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczydx_1e",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":10
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"burhczydx_12e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 }] },
+					{ "nextPhraseID":"burhczydx_11e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":110 }] },
+					{ "nextPhraseID":"burhczydx_10e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczydx_9e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":90 }] },
+					{ "nextPhraseID":"burhczydx_8e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":80 }] },
+					{ "nextPhraseID":"burhczydx_7e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":70 }] },
+					{ "nextPhraseID":"burhczydx_6e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":60 }] },
+					{ "nextPhraseID":"burhczydx_5e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":50 }] },
+					{ "nextPhraseID":"burhczydx_4e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":40 }] },
+					{ "nextPhraseID":"burhczydx_3e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":30 }] },
+					{ "nextPhraseID":"burhczydx_2e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":20 }] },
+					{ "nextPhraseID":"burhczydx_1e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":10 }] }]
     },
     {
         "id":"burhczydx_xa",
-        "replies":[
-            {
-                "nextPhraseID":"burhczyd1_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":71
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd2_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":72
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd3_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":73
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd4_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":74
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd5_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":75
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd6_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":76
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd7_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":77
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd8_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":78
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd9_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":79
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd10_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":710
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd11_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":711
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd12_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":712
-                    }
-                ]
-            }
-        ],
+        "replies":[ { "nextPhraseID":"burhczyd1_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71 }] },
+					{ "nextPhraseID":"burhczyd2_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72 }] },
+					{ "nextPhraseID":"burhczyd3_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":73 }] },
+					{ "nextPhraseID":"burhczyd4_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":74 }] },
+					{ "nextPhraseID":"burhczyd5_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":75 }] },
+					{ "nextPhraseID":"burhczyd6_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":76 }] },
+					{ "nextPhraseID":"burhczyd7_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":77 }] },
+					{ "nextPhraseID":"burhczyd8_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":78 }] },
+					{ "nextPhraseID":"burhczyd9_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":79 }] },
+					{ "nextPhraseID":"burhczyd10_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":710 }] },
+					{ "nextPhraseID":"burhczyd11_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":711 }] },
+					{ "nextPhraseID":"burhczyd12_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":712 }] }],
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -1894,125 +392,29 @@
             }
         ]
     },
-    {
-        "id":"burhczyd1_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":61
-            }
-        ]
+    { 	"id":"burhczyd1_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":61 } ]
     },
-    {
-        "id":"burhczyd2_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":62
-            }
-        ]
+    { 	"id":"burhczyd2_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":62 } ]
     },
-    {
-        "id":"burhczyd3_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":63
-            }
-        ]
+    {	"id":"burhczyd3_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":63 } ]
     },
-    {
-        "id":"burhczyd4_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":64
-            }
-        ]
+    {	"id":"burhczyd4_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":64 } ]
     },
-    {
-        "id":"burhczyd5_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":65
-            }
-        ]
+    {	"id":"burhczyd5_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":65 } ]
     },
-    {
-        "id":"burhczyd6_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":66
-            }
-        ]
+    {	"id":"burhczyd6_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":66 } ]
     },
-    {
-        "id":"burhczyd7_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":67
-            }
-        ]
+    {	"id":"burhczyd7_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":67 } ]
     },
-    {
-        "id":"burhczyd8_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":68
-            }
-        ]
+    {	"id":"burhczyd8_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":68 } ]
     },
-    {
-        "id":"burhczyd9_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":69
-            }
-        ]
+    {	"id":"burhczyd9_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":69 } ]
     },
-    {
-        "id":"burhczyd10_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":610
-            }
-        ]
+    {	"id":"burhczyd10_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":610 } ]
     },
-    {
-        "id":"burhczyd11_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":611
-            }
-        ]
+    {	"id":"burhczyd11_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":611 } ]
     },
-    {
-        "id":"burhczyd12_10",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":612
-            }
-        ]
+    {	"id":"burhczyd12_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":612 } ]
     },
     {
         "id":"burhczydx_1a",
@@ -3848,7 +2250,15 @@
         "message":"I will!",
         "replies":[
             {
-                "text":"[mumbling] ... end in desaster again. Oh dear.",
+                "text":"[mumbling] ... end in disaster again. Oh dear.",
+                "nextPhraseID":"burhczydx_11a_21"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_11a_21",
+        "replies":[
+            {
                 "nextPhraseID":"burhczydx_xa"
             }
         ],
@@ -3895,1087 +2305,256 @@
     },
     {
         "id":"burhczyd_check1",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":91
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":61
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check1_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check1_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":91 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":61 }] },
+					{ "nextPhraseID":"burhczyd_check1_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check1_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check1_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1e",
-                "mapName":"crossglen_hall"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", 			"rewardID":"burhczyd1",  "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", 	"rewardID":"burhczyd1e", "mapName":"crossglen_hall" }]
     },
     {
         "id":"burhczyd_check1_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd1e",
-                "mapName":"crossglen_hall"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", 	"rewardID":"burhczyd1",  "mapName":"crossglen_hall" },
+					{ "rewardType":"spawnAll", 			"rewardID":"burhczyd1e", "mapName":"crossglen_hall" }]
     },
     {
         "id":"burhczyd_check2",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":92
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":62
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check2_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check2_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":92 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":62 }] },
+					{ "nextPhraseID":"burhczyd_check2_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check2_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check2_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd2",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2e",
-                "mapName":"fallhaven_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd2", "mapName":"fallhaven_tavern" }, 
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd2e", "mapName":"fallhaven_tavern" }]
     },
     {
         "id":"burhczyd_check2_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd2e",
-                "mapName":"fallhaven_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd2", "mapName":"fallhaven_tavern" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd2e", "mapName":"fallhaven_tavern" }]
     },
     {
         "id":"burhczyd_check3",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":93
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":63
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check3_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check3_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":93 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":63 }] },
+					{ "nextPhraseID":"burhczyd_check3_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check3_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check3_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd3",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3e",
-                "mapName":"loneford6"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd3", "mapName":"loneford6" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd3e", "mapName":"loneford6" }]
     },
     {
         "id":"burhczyd_check3_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd3e",
-                "mapName":"loneford6"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd3", "mapName":"loneford6" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd3e", "mapName":"loneford6" }]
     },
     {
         "id":"burhczyd_check4",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":94
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":64
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check4_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check4_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":94 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":64 }] },
+					{ "nextPhraseID":"burhczyd_check4_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check4_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check4_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd4",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4e",
-                "mapName":"vilegard_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd4", "mapName":"vilegard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd4e", "mapName":"vilegard_tavern" }]
     },
     {
         "id":"burhczyd_check4_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd4e",
-                "mapName":"vilegard_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd4", "mapName":"vilegard_tavern" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd4e", "mapName":"vilegard_tavern" }]
     },
     {
         "id":"burhczyd_check5",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":95
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":65
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check5_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check5_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":95 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":65 }] },
+					{ "nextPhraseID":"burhczyd_check5_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] }, 
+					{ "nextPhraseID":"burhczyd_check5_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check5_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd5",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5e",
-                "mapName":"stoutford_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd5", "mapName":"stoutford_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd5e", "mapName":"stoutford_tavern" }]
     },
     {
         "id":"burhczyd_check5_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd5e",
-                "mapName":"stoutford_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd5", "mapName":"stoutford_tavern" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd5e", "mapName":"stoutford_tavern" }]
     },
     {
         "id":"burhczyd_check6",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":96
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":66
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check6_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check6_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":96 }] }, 
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":66 }] },
+					{ "nextPhraseID":"burhczyd_check6_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check6_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] } ]
     },
     {
         "id":"burhczyd_check6_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd6",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6e",
-                "mapName":"blackwater_mountain43"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd6", "mapName":"blackwater_mountain43" }, 
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd6e", "mapName":"blackwater_mountain43" }]
     },
     {
         "id":"burhczyd_check6_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd6e",
-                "mapName":"blackwater_mountain43"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd6", "mapName":"blackwater_mountain43" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd6e", "mapName":"blackwater_mountain43" }]
     },
     {
         "id":"burhczyd_check7",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":97
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":67
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check7_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check7_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":97 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":67 }] },
+					{ "nextPhraseID":"burhczyd_check7_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check7_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check7_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd7",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7e",
-                "mapName":"remgard_tavern0"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd7", "mapName":"remgard_tavern0" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd7e", "mapName":"remgard_tavern0" }]
     },
     {
         "id":"burhczyd_check7_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd7e",
-                "mapName":"remgard_tavern0"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd7", "mapName":"remgard_tavern0" }, 
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd7e", "mapName":"remgard_tavern0" }]
     },
     {
         "id":"burhczyd_check8",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":98
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":68
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check8_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check8_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":98 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":68 }] },
+					{ "nextPhraseID":"burhczyd_check8_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check8_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check8_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd8",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8e",
-                "mapName":"woodhouse2"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd8", "mapName":"woodhouse2" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd8e", "mapName":"woodhouse2" }]
     },
     {
         "id":"burhczyd_check8_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd8e",
-                "mapName":"woodhouse2"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd8", "mapName":"woodhouse2" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd8e", "mapName":"woodhouse2" }]
     },
     {
         "id":"burhczyd_check9",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":99
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":69
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check9_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check9_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":99 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":69 }] },
+					{ "nextPhraseID":"burhczyd_check9_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check9_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check9_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd9",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9e",
-                "mapName":"blackwater_mountain22"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd9", "mapName":"blackwater_mountain22" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd9e", "mapName":"blackwater_mountain22" }]
     },
     {
         "id":"burhczyd_check9_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd9e",
-                "mapName":"blackwater_mountain22"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd9", "mapName":"blackwater_mountain22" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd9e", "mapName":"blackwater_mountain22" }]
     },
     {
         "id":"burhczyd_check10",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":910
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":610
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check10_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check10_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":910 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":610 }] },
+					{ "nextPhraseID":"burhczyd_check10_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check10_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check10_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd10",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10e",
-                "mapName":"brimhaven_tavern1"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd10", "mapName":"brimhaven_tavern1" }, 
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd10e", "mapName":"brimhaven_tavern1" }]
     },
     {
         "id":"burhczyd_check10_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd10e",
-                "mapName":"brimhaven_tavern1"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd10", "mapName":"brimhaven_tavern1" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd10e", "mapName":"brimhaven_tavern1" }]
     },
     {
         "id":"burhczyd_check11",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":911
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":611
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check11_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check11_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":911 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":611 }] },
+					{ "nextPhraseID":"burhczyd_check11_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check11_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check11_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd11",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11e",
-                "mapName":"sullengard_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd11", "mapName":"sullengard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd11e", "mapName":"sullengard_tavern" }]
     },
     {
         "id":"burhczyd_check11_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd11e",
-                "mapName":"sullengard_tavern"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd11", "mapName":"sullengard_tavern" }, 
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd11e", "mapName":"sullengard_tavern" }]
     },
     {
         "id":"burhczyd_check12",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":912
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd_nd",
-                        "value":612
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check12_b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"burhczyd_check12_e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"quest_burhczyd",
-                        "value":90
-                    }
-                ]
-            }
-        ]
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":912 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":612 }] },
+					{ "nextPhraseID":"burhczyd_check12_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check12_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check12_b",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd12",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12e",
-                "mapName":"crossglen_hall"
-            }
-        ]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd12", "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" }]
     },
     {
         "id":"burhczyd_check12_e",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd12e",
-                "mapName":"crossglen_hall"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd12", "mapName":"crossglen_hall" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" }]
     },
     {
         "id":"burhczyd_remove_all",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd1e",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":91
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd2e",
-                "mapName":"fallhaven_tavern"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":92
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd3e",
-                "mapName":"loneford6"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":93
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd4e",
-                "mapName":"vilegard_tavern"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":94
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd5e",
-                "mapName":"stoutford_tavern"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":95
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd6e",
-                "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":96
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd7e",
-                "mapName":"remgard_tavern0"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":97
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd8e",
-                "mapName":"woodhouse2"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":98
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd9e",
-                "mapName":"blackwater_mountain22"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":99
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd10e",
-                "mapName":"brimhaven_tavern1"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":910
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd11e",
-                "mapName":"sullengard_tavern"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":911
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"burhczyd12e",
-                "mapName":"crossglen_hall"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quest_burhczyd_nd",
-                "value":912
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd1",  "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd1e", "mapName":"crossglen_hall" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":91 },
+					
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd2",  "mapName":"fallhaven_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd2e", "mapName":"fallhaven_tavern" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":92 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd3",  "mapName":"loneford6" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd3e", "mapName":"loneford6" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":93 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd4",  "mapName":"vilegard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd4e", "mapName":"vilegard_tavern" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":94 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd5",  "mapName":"stoutford_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd5e", "mapName":"stoutford_tavern" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":95 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd6",  "mapName":"blackwater_mountain43" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd6e", "mapName":"blackwater_mountain43" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":96 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd7",  "mapName":"remgard_tavern0" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd7e", "mapName":"remgard_tavern0" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":97 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd8",  "mapName":"woodhouse2" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd8e", "mapName":"woodhouse2" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":98 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd9",  "mapName":"blackwater_mountain22" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd9e", "mapName":"blackwater_mountain22" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":99 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd10",  "mapName":"brimhaven_tavern1" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd10e", "mapName":"brimhaven_tavern1" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":910 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd11",  "mapName":"sullengard_tavern" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd11e", "mapName":"sullengard_tavern" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":911 },
+
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12",  "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" },
+					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":912 }]
     }
 ]

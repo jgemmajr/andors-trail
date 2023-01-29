@@ -83,7 +83,7 @@ public final class SkillCollection {
 	public static final int PER_SKILLPOINT_INCREASE_COINFINDER_CHANCE_PERCENT = 30;
 	public static final int PER_SKILLPOINT_INCREASE_MAGICFINDER_CHANCE_PERCENT = 50;
 	public static final int PER_SKILLPOINT_INCREASE_COINFINDER_QUANTITY_PERCENT = 50;
-	public static final int PER_SKILLPOINT_INCREASE_MORE_EXP_PERCENT = 5;
+	public static final int PER_SKILLPOINT_INCREASE_MORE_EXP_PERCENT = 10;
 	public static final int PER_SKILLPOINT_INCREASE_CLEAVE_AP = 3;
 	public static final int PER_SKILLPOINT_INCREASE_EATER_HEALTH = 1;
 	public static final int PER_SKILLPOINT_INCREASE_FORTITUDE_HEALTH = 1;
