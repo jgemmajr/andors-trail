@@ -136,17 +136,17 @@
     <string name="about_button1">Ayuda</string>
     <string name="about_button2">Autores</string>
     <string name="about_button3">Licencia</string>
-    <string name="about_contents1">Bienvenido a El sendero de Andor (Andor\'s Trail), un RPG roguelike de código abierto para Android. &lt;br /&gt;&lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Foros de juego en andorstrail.com para preguntas y discusiones sobre el juego.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Wiki Juego para información sobre el mundo de El Sendero de Andor, entre otras cosas.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Código fuente del proyecto en github.com para los desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Por favor visite los foros para discutir acerca del juego con otros jugadores.&lt;br /&gt;</string>
+    <string name="about_contents1">Bienvenidos al Sendero de Andor. Este es un juego de rol de código abierto con elementos pícaros y de fantasía para Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Foro de Andorstrail.com para hacer preguntas y discutir la juego.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Wiki del Sendero de Andor donde puedes encontrar información más detallada sobre el mundo del Sendero de Andor. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://github.com/AndorsTrailRelease/andors-trail/&gt;Proyecto en github.com para desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br / &gt; Si tiene Si tienes preguntas sobre el juego, visita el foro del juego.&lt;br /&gt;</string>
     <string name="about_contents3">
 		Este programa es software libre; puedes redistribuirlo y / o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Fundación para el Software Libre; . ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior &lt;br /&gt; &lt;br /&gt; Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU para más detalles &lt;br /&gt; &lt;br /&gt; Usted debería haber recibido una copia de la Licencia Pública General de GNU junto con este programa.; si no, ver &lt;a href=http://www.gnu.org/licenses&gt; http://www.gnu.org/licenses &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Para las solicitudes de código fuente y de la característica, por favor visite la página del proyecto en &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; https://github.com/AndorsTrailRelease/andors-trail/ &lt;/a&gt; &lt;br /&gt;
 	</string>
     <string name="dialog_newversion_title">Bienvenido</string>
-    <string name="dialog_newversion_message">¡Gracias por descargar El sendero de Andor (Andor\'s Trail)!
+    <string name="dialog_newversion_message">¡Gracias por descargar El Sendero de Andor!
 \n
-\n Tenga en cuenta que esta versión del Camino de Andor es un proyecto vivo, lo que significa que todos los mapas aún no se han completado.
-\n Por favor visite los foros del proyecto para discutir el juego con otros jugadores o para ayudar a hacer el juego aún mejor (véase \"acerca de\").
+\nPor favor, ten en cuenta que esta versión del Sendero de Andor es un TRABAJO EN PROGRESO, lo que significa que todos los mapas aún no están completos.
+\nPor favor, visita los foros del proyecto para discutir el juego con otros jugadores o para ayudar a que el juego sea aún mejor (ver acerca de).
 \n
-\n ¡Gracias por todos los comentarios!</string>
+\n¡Gracias por todos los comentarios!</string>
     <string name="questlog_includecompleted_prompt">Selecciona que misiones mostrar</string>
     <string name="questlog_includecompleted_hidecompleted">Misiones activas</string>
     <string name="questlog_includecompleted_includecompleted">Todas las misiones</string>
@@ -276,7 +276,7 @@
     <string name="skill_longdescription_weapon_chance">Incrementa la probabilidad de ataque en %1$d por cada nivel de habilidad.</string>
     <string name="about_interface">&lt;div&gt;&lt;b&gt;Los ajustes del juego&lt;/b&gt; pueden encontrase pulsando el botón de Menú del dispositivo.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Iconos de interfaz&lt;/h1&gt; &lt;div&gt;&lt;b&gt;El cofre&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Ranuras rápidas [Manten pulsada una de las bolsas para asignar objetos para su uso instantáneo]&lt;/p&gt; &lt;div&gt;&lt;b&gt;El héroe&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menú [Visión general, Misiones, Habilidades e Inventario *]&lt;/p&gt;&lt;p&gt;* (En el inventario, pulsa un objeto para ver información y mantenlo pulsado para más opciones)&lt;/p&gt; &lt;div&gt;&lt;b&gt;El enemigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Información [Aparece durante el combate]&lt;/p&gt;&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate&lt;/h1&gt;&lt;p&gt;Toda acción de combate cuesta PA.&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atacar&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Equiparse con objetos y usar objetos puede alterar el coste de PA y coste de uso)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Usar objetos&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Huir&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate avanzado&lt;/h1&gt; &lt;div&gt;Durante el combate, mantén pulsado un espacio adyacente al héroe...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para Huir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(El espacio adyacente se resalta - El botón de \"Atacar\" cambia a \"Mover\")&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt;&lt;p&gt;[modo de huida activado - Mantén pulsado al enemigo para reanudar el combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para cambiar de objetivo&lt;/b&gt;&lt;/div&gt;&lt;p&gt;(El sombreado rojo cambia entre los enemigos)&lt;/p&gt;&lt;p&gt;[El objetivo ha sido cambiado]&lt;/p&gt;</string>
     <string name="skill_longdescription_weapon_dmg">Incrementa el daño máximo en %1$d por cada nivel de habilidad.</string>
-    <string name="change_locale_requires_restart">Cambiar local requiere un reinicio. El sendero de Andor (Andor\'s Trail) se ha cerrado.</string>
+    <string name="change_locale_requires_restart">Cambiar local requiere un reinicio. El sendero de Andor se ha cerrado.</string>
     <string name="skill_longdescription_barter">Por cada nivel de habilidad, disminuye la penalización de oro al comprar y vender un %1$d por ciento.</string>
     <string name="skill_longdescription_dodge">Incrementa la probabilidad de bloqueo en %1$d por cada nivel de habilidad.</string>
     <string name="skill_longdescription_barkskin">Incrementa la resistencia al daño en %1$d por cada nivel de habilidad.</string>
@@ -556,9 +556,9 @@
     <string name="startscreen_error_loading_empty_slot">No se puede cargar desde una ranura vacía.</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">Atención</string>
     <string name="startscreen_attention_message_slot_gets_delete_on_load">Cargar este juego elimina su ranura de guardado. Tendrás que guardar de nuevo antes de cambiar a otro juego.</string>
-    <string name="dialog_permission_information">El Sendero de Andor (Andor\'s Trail) escribe las partidas guardadas en el almacenamiento del dispositivo (accesible por el usuario). Esto permite, fácilment, hacer backup de las partidas guardadas o transferirlas a otro dispositivo . Por favor, visita nuestros foros para más información.
+    <string name="dialog_permission_information">El Sendero de Andor escribe las partidas guardadas en el almacenamiento del dispositivo (accesible por el usuario). Esto permite hacer fácilmente un respaldo de las partidas guardadas o transferirlas a otro dispositivo . Por favor, visita nuestros foros para más información.
 \n
-\nEl Sendero de Andor (Andor\'s Trail) no accede al dispositivo para ningún otro propósito y no accede a internet. El Sendero de Andor (Andor\'s Trail) es código abierto (open source); los fuentes pueden encontrarse en github.</string>
+\nEl Sendero de Andor no accede al dispositivo para ningún otro propósito y no accede a Internet. El Sendero de Andor es código abierto (open source); las fuentes se pueden encontrar en github.</string>
     <string name="dialog_loading_failed_cheat">La aplicacion no pudo cargar el archivo de partida guardada. Este archivo de partida guardada ya ha sido continuada.</string>
     <string name="loadsave_empty_slot">%1$d.&lt;vacío&gt;</string>
     <string name="skill_longdescription_fightstyle_unarmed_unarmored">Mientras luchas win tener ninguna armadura equipada y sin usar un arma o escudo, ganas %1$d de probabilidad de ataque, %2$d de probabilidad de bloqueo, %3$d de resistencia al daño e incrementa el daño máximo un %4$d por cada nivel de habilidad. La habilidad también proporciona un multiplicador de daño crítico de 1 más 0.%5$d por nivel.
@@ -603,4 +603,33 @@
     <string name="combat_log_item_plural">Has econtrado %1$d Objetos:</string>
     <string name="combat_log_item_single">Has encontrado un objeto:</string>
     <string name="startscreen_migration_title">Migración de datos</string>
+    <string name="loadsave_export">Exportar partidas guardadas</string>
+    <string name="loadsave_export_successfull">Exportación exitosa</string>
+    <string name="loadsave_export_unsuccessfull">Exportación fallida</string>
+    <string name="loadsave_export_overwrite_confirmation_title">¿Sobrescribir los archivos existentes\?</string>
+    <string name="loadsave_import_save">Importar las partidas guardadas</string>
+    <string name="loadsave_import_save_successfull">Importación realizada</string>
+    <string name="loadsave_import_save_error_unknown">Se ha producido un error desconocido durante la importación.</string>
+    <string name="loadsave_import_option_keep_existing">Conservar la memoria existente</string>
+    <string name="loadsave_import_option_keep_imported">Guardar lo importado</string>
+    <string name="loadsave_import_option_add_as_new">Añadir como nuevo Guardar</string>
+    <string name="loadsave_import_existing_description">Guardado existente: Ranura: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Guardado importado: Ranura: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">Importar el mapa mundi</string>
+    <string name="loadsave_import_worldmap_successfull">Importación correcta del mapa del mundo</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Mapa mundi importado con éxito</string>
+    <string name="loadsave_import_worldmap_wrong_directory">¿Estás seguro de que hay un mapa del mundo en esta carpeta\? Seleccione la carpeta llamada \'worldmap\' dentro de su ubicación de exportación.</string>
+    <string name="loadsave_import_overwrite_confirmation_title">¿Sobrescribir la ranura existente\?</string>
+    <string name="startscreen_migration_text">Transferencia de los datos de las partidas guardadas.</string>
+    <string name="startscreen_migration_failure">No se pudieron transferir los datos de la partida guardada.</string>
+    <string name="loadsave_import_save_unsuccessfull">La Importación falló</string>
+    <string name="loadsave_export_overwrite_confirmation">La carpeta de destino contiene otros archivos con el mismo nombre que algunos archivos que deben exportarse. ¿Está seguro de que desea sobrescribir esos archivos\?</string>
+    <string name="monsterinfo_killcount">Asesinatos anteriores</string>
+    <string name="loadsave_import_file_exists_question">Ya existe un juego guardado en la ranura de destino. ¿Desea conservar el juego guardado existente, sobrescribirlo con el juego guardado o importar el juego guardado a una ranura\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
 </resources>

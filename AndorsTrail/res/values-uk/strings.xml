@@ -608,4 +608,31 @@
     <string name="startscreen_migration_title">Міграція даних</string>
     <string name="startscreen_migration_text">Міграція даних збереженої гри.</string>
     <string name="startscreen_migration_failure">Не вдалося перенести дані збереженої гри.</string>
+    <string name="loadsave_export">Експорт збережених ігор</string>
+    <string name="loadsave_export_unsuccessfull">Невдалий експорт</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Перезаписати існуючі файли\?</string>
+    <string name="loadsave_import_save">Імпорт збережених ігор</string>
+    <string name="loadsave_import_save_successfull">Успішний імпорт</string>
+    <string name="loadsave_import_save_unsuccessfull">Невдалий імпорт</string>
+    <string name="loadsave_import_save_error_unknown">Під час імпортування сталася невідома помилка.</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Перезаписати наявний слот\?</string>
+    <string name="loadsave_import_option_keep_imported">Зберегти імпортоване збереження</string>
+    <string name="loadsave_import_option_add_as_new">Додати нове Збереження</string>
+    <string name="loadsave_import_worldmap">Імпорт карти світу</string>
+    <string name="loadsave_import_worldmap_successfull">Імпорт карти світу успішний</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Імпорт карти світу невдалий</string>
+    <string name="loadsave_export_successfull">Успішний експорт</string>
+    <string name="loadsave_import_file_exists_question">У вибраному слоті вже є збережена гра. Ви хочете зберегти наявне збереження, перезаписати його імпортованим збереженням або імпортувати збереження в слот\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_export_overwrite_confirmation">Вибрана папка містить існуючі файли з тим самим іменем, що й деякі файли, які слід експортувати. Ви впевнені, що хочете перезаписати ці файли\?</string>
+    <string name="loadsave_import_option_keep_existing">Зберегти наявне збереження</string>
+    <string name="loadsave_import_existing_description">Існуюче збереження: Слот: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Імпортоване збереження: Слот: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_wrong_directory">Ви впевнені, що в цій папці є карта світу\? Виберіть папку під назвою \'worldmap\' у вашому місці експорту.</string>
+    <string name="monsterinfo_killcount">Попередні вбивства</string>
 </resources>
