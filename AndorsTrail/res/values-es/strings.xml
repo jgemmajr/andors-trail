@@ -276,7 +276,7 @@
     <string name="skill_longdescription_weapon_chance">Incrementa la probabilidad de ataque en %1$d por cada nivel de habilidad.</string>
     <string name="about_interface">&lt;div&gt;&lt;b&gt;Los ajustes del juego&lt;/b&gt; pueden encontrase pulsando el botón de Menú del dispositivo.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Iconos de interfaz&lt;/h1&gt; &lt;div&gt;&lt;b&gt;El cofre&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Ranuras rápidas [Manten pulsada una de las bolsas para asignar objetos para su uso instantáneo]&lt;/p&gt; &lt;div&gt;&lt;b&gt;El héroe&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menú [Visión general, Misiones, Habilidades e Inventario *]&lt;/p&gt;&lt;p&gt;* (En el inventario, pulsa un objeto para ver información y mantenlo pulsado para más opciones)&lt;/p&gt; &lt;div&gt;&lt;b&gt;El enemigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Información [Aparece durante el combate]&lt;/p&gt;&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate&lt;/h1&gt;&lt;p&gt;Toda acción de combate cuesta PA.&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atacar&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Equiparse con objetos y usar objetos puede alterar el coste de PA y coste de uso)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Usar objetos&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Huir&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate avanzado&lt;/h1&gt; &lt;div&gt;Durante el combate, mantén pulsado un espacio adyacente al héroe...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para Huir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(El espacio adyacente se resalta - El botón de \"Atacar\" cambia a \"Mover\")&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt;&lt;p&gt;[modo de huida activado - Mantén pulsado al enemigo para reanudar el combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para cambiar de objetivo&lt;/b&gt;&lt;/div&gt;&lt;p&gt;(El sombreado rojo cambia entre los enemigos)&lt;/p&gt;&lt;p&gt;[El objetivo ha sido cambiado]&lt;/p&gt;</string>
     <string name="skill_longdescription_weapon_dmg">Incrementa el daño máximo en %1$d por cada nivel de habilidad.</string>
-    <string name="change_locale_requires_restart">Cambiar local requiere un reinicio. El sendero de Andor se ha cerrado.</string>
+    <string name="change_locale_requires_restart">Cambiar de localización requiere reiniciar. Se ha cerrado el Camino de Andor.</string>
     <string name="skill_longdescription_barter">Por cada nivel de habilidad, disminuye la penalización de oro al comprar y vender un %1$d por ciento.</string>
     <string name="skill_longdescription_dodge">Incrementa la probabilidad de bloqueo en %1$d por cada nivel de habilidad.</string>
     <string name="skill_longdescription_barkskin">Incrementa la resistencia al daño en %1$d por cada nivel de habilidad.</string>
@@ -328,9 +328,9 @@
     <string name="skill_number_of_increases_one">Puedes seleccionar una habilidad para mejorar.</string>
     <string name="skill_number_of_increases_several">Puedes seleccionar %1$d habilidades para mejorar.</string>
     <string name="levelup_adds_new_skillpoint">¡Has recibido un punto de habilidad!</string>
-    <string name="loadsave_save_to_new_slot">Crear una nueva ranura para guardar la partida</string>
-    <string name="loadsave_save_overwrite_confirmation_title">¿Sobreescribir partida?</string>
-    <string name="loadsave_save_overwrite_confirmation">La partida guardada contiene un nombre de jugador diferente (%1$s) que tu actual nombre de jugador (%2$s). ¿Estas seguro que quieres sobreescribir la partida?</string>
+    <string name="loadsave_save_to_new_slot">Crear una nueva ranura de guardado</string>
+    <string name="loadsave_save_overwrite_confirmation_title">¿Sobreescribir la partida guardada\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Esta partida guardada contiene un nombre de jugador (%1$s) diferente al actual (%2$s). ¿Estás seguro de que quieres sobrescribir esta partida guardada\?</string>
     <string name="iteminfo_displaytypes_ordinary">Común</string>
     <string name="iteminfo_displaytypes_quest">Objeto de misión</string>
     <string name="actorconditioninfo_category">Tipo de efecto: %1$s</string>
@@ -607,7 +607,7 @@
     <string name="loadsave_export_successfull">Exportación exitosa</string>
     <string name="loadsave_export_unsuccessfull">Exportación fallida</string>
     <string name="loadsave_export_overwrite_confirmation_title">¿Sobrescribir los archivos existentes\?</string>
-    <string name="loadsave_import_save">Importar las partidas guardadas</string>
+    <string name="loadsave_import_save">Importar partidas guardadas</string>
     <string name="loadsave_import_save_successfull">Importación realizada</string>
     <string name="loadsave_import_save_error_unknown">Se ha producido un error desconocido durante la importación.</string>
     <string name="loadsave_import_option_keep_existing">Conservar la memoria existente</string>
@@ -624,12 +624,22 @@
     <string name="loadsave_import_overwrite_confirmation_title">¿Sobrescribir la ranura existente\?</string>
     <string name="startscreen_migration_text">Transferencia de los datos de las partidas guardadas.</string>
     <string name="startscreen_migration_failure">No se pudieron transferir los datos de la partida guardada.</string>
-    <string name="loadsave_import_save_unsuccessfull">La Importación falló</string>
+    <string name="loadsave_import_save_unsuccessfull">Importación fallida</string>
     <string name="loadsave_export_overwrite_confirmation">La carpeta de destino contiene otros archivos con el mismo nombre que algunos archivos que deben exportarse. ¿Está seguro de que desea sobrescribir esos archivos\?</string>
     <string name="monsterinfo_killcount">Asesinatos anteriores</string>
-    <string name="loadsave_import_file_exists_question">Ya existe un juego guardado en la ranura de destino. ¿Desea conservar el juego guardado existente, sobrescribirlo con el juego guardado o importar el juego guardado a una ranura\?
+    <string name="loadsave_import_file_exists_question">Ya existe un juego guardado en la ranura de destino. ¿Desea conservar el juego guardado existente, sobrescribirlo con el juego guardado importado o importar el juego guardado a una ranura\?
 \n
 \n%1$s
 \n
 \n%2$s</string>
+    <string name="loadsave_export_error_unknown">Se ha producido un error desconocido al exportar.</string>
+    <string name="loadsave_importing_worldmap">Importar mapa del mundo</string>
+    <string name="loadsave_importing_savegames">Importar partidas guardadas</string>
+    <string name="loadsave_import_worldmap_wrong_file">¿Está seguro de que ha seleccionado un mapa del mundo\? Por favor, seleccione el archivo zip llamado \'worldmap.zip\' que fue exportado a su ubicación de exportación.</string>
+    <string name="loadsave_export_info">Seleccione el directorio al que desea exportar todos los archivos.</string>
+    <string name="loadsave_import_save_info">Selecciona todas las partidas guardadas que quieras importar.</string>
+    <string name="loadsave_exporting_worldmap">Exportar el mapa del mundo</string>
+    <string name="loadsave_exporting_savegames">Exportar partidas guardadas</string>
+    <string name="loadsave_import_error_unknown">Se ha producido un error desconocido durante la importación.</string>
+    <string name="loadsave_import_worldmap_info">Seleccione el archivo zip del mapa del mundo.</string>
 </resources>
