@@ -2,29 +2,33 @@ Actor conditions format.
 
 [b]Actor conditions are defined in JSON format. Files containing actor conditions should be named actorconditions_[i]<name>[/i].json, and placed under res/raw/ in the game source folder. The [i]<name>[/i] can be anything composed of lower case letters, digits, and underscores.[/b]
 
-[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/actor_condition.png[/img]
+[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/actor_condition.png[/img]
 A single file can hold any number of actor conditions, as a list. Even if only one actor condition is defined in a file, it must be contained within a list.
+
 Actor conditions, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
 
-An [b]actor condition[/b] [u]must[/u] have the following fields defined:
+[list]An [b]actor condition[/b] [u]must[/u] have the following fields defined:
 - "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this actor condition. Any other game element that reference an actor condition do so by using the ID.
 - "[b]name[/b]" with any textual value. This is the display name of the actor condition (in english), as shown to the player in-game. Proper spelling and capitalization are required. When more than one word is used, only the first letter of the first word is capitalized, except for proper nouns (like the Shadow).
 - "[b]iconID[/b]" with a textual value indicating a sprite ID of the form [i]<spritesheet ID>[/i]:[i]<sprite index>[/i]. The [i]<spritesheet ID>[/i] is the name of the image file as present in res/drawable, without the extension (for example, if the sprite is in res/drawable/actorconditions_1.png, the spritesheet ID is "actorconditions_1"). The sprite index is the number of sprites you have to skip to reach the desired one within the spritesheet, reading left-to-right, starting at 0 for the top-left one. One sprite is generally defined as a 32x32px square within a spritesheet.
 - "[b]category[/b]" with one of the following textual values: "[b]spiritual[/b]", "[b]mental[/b]", "[b]physical[/b]", or "[b]blood[/b]". This field describes the kind of affliction caused by this actor condition, and which skills can affect them.
+[/list]
 
-An [b]actor condition[/b] [u]can[/u] have the following fields defined:
+[list]An [b]actor condition[/b] [u]can[/u] have the following fields defined:
 - "[b]isPositive[/b]" with a numerical value of 1 or 0. 0 being the default, you can omit this field entirely when it is the desired value. When the value is 1, it means that the actor condition as a beneficial effect on the afflicted actor. Weak poison is NOT positive, but Shadow Regeneration is.
 - "[b]isStacking[/b]" with a numerical value of 1 or 0. 0 being the default, you can omit this field entirely when it is the desired value. When the value is 1, it means that the actor condition can be inflicted multiple times simultaneously on the same actor with cumulative effects.
 - "[b]roundEffect[/b]" with an object value, as defined in the [b]timed effect[/b] definition below. These effects will be applied to the inflicted actor every round (in battle, or every 6 seconds outside of battle).
 - "[b]fullRoundEffect[/b]" with an object value, as defined in the [b]timed effect[/b] definition below. These effects will be applied to the inflicted actor every "full round" (in battle, or every 25 seconds outside of battle).
 - "[b]abilityEffect[/b]" with an object value, as defined in the [b]constant effect[/b] definition below. These effects are permanent stats modifiers applied as long as the actor condition is active.
+[/list]
 
-A [b]timed effect[/b] [u]can[/u] have the following fields defined:
+[list]A [b]timed effect[/b] [u]can[/u] have the following fields defined:
 - "[b]visualEffectID[/b]" with one of the following textual values: "[b]redSplash[/b]", "[b]blueSwirl[/b]", "[b]greenSplash[/b]", and "[b]miss[/b]". Every time the effect will take place, the player will be overlaid by a short animation corresponding to the selected value.
 - "[b]increaseCurrentHP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of HP from which a random value will be picked, and added to the current HP of the player. Poisons typically use negative values here.
 - "[b]increaseCurrentAP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of AP from which a random value will be picked, and added to the current AP of the player. Useful only for negative values here, as at the beginning of a round, the player will have his AP bar full.
+[/list]
 
-A [b]constant effect[/b] [u]can[/u] have the following fields defined:
+[list]A [b]constant effect[/b] [u]can[/u] have the following fields defined:
 - "[b]increaseAttackChance[/b]" with a numerical value. Will add this value to the total AC of the player while the condition is active.
 - "[b]increaseAttackDamage[/b]"with an object value, as defined in the [b]min-max values[/b] definition below. Will add these values to the minimum and maximum AD of the player while the condition is active.
 - "[b]increaseMaxHP[/b]" with a numerical value. Will add this value to the maximum HP of the player while the condition is active.
@@ -36,10 +40,12 @@ A [b]constant effect[/b] [u]can[/u] have the following fields defined:
 - "[b]increaseCriticalSkill[/b]" with a numerical value. Will add this value to the total CS of the player while the condition is active.
 - "[b]increaseBlockChance[/b]" with a numerical value. Will add this value to the total BC of the player while the condition is active.
 - "[b]increaseDamageResistance[/b]" with a numerical value. Will add this value to the total DR of the player while the condition is active.
+[/list]
 
-[b]Min-max values[/b] [u]must[/u] have the following fields defined:
+[list][b]Min-max values[/b] [u]must[/u] have the following fields defined:
 - "[b]min[/b]" with a numerical value. That's the lowest possible value.
 - "[b]max[/b]" with a numerical value. That's the highest possible value.
+[/list]
 
 [b]Full example using all fields.[/b]
 [code]

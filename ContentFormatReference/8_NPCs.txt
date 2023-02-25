@@ -2,17 +2,18 @@ NPCs format.
 
 NPCs are defined in JSON format. Files containing NPCs should be named monsterlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
 
-[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
+[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
 
 A single file can hold any number of NPCs, as a list. Even if only one NPC is defined in a file, it must be contained within a list.
 NPCs, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
 
-A [b]NPC[/b] [u]must[/u] have the following fields defined:
+[list]A [b]NPC[/b] [u]must[/u] have the following fields defined:
 - "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this NPC. Any other game element that reference a NPC do so by using the ID.
 - "[b]name[/b]" with any textual value. This is the display name of the NPC (in english), as shown to the player in-game. Proper spelling and capitalization are required. When more than one word is used, only the first letter of the first word is capitalized, except for proper nouns (like the Shadow).
 - "[b]iconID[/b]" with a textual value indicating a sprite ID of the form <spritesheet ID>:<sprite index>. The <spritesheet ID> is the name of the image file as present in res/drawable, without the extension (for example, if the sprite is in res/drawable/monsters_armor1.png, the spritesheet ID is "monsters_armor1"). The sprite index is the number of sprites you have to skip to reach the desired one within the spritesheet, reading left-to-right, starting at 0 for the top-left one. One sprite is generally defined as a 32x32px square within a spritesheet.
+[/list]
 
-A [b]NPC[/b] [u]can[/u] have the following fields defined:
+[list]A [b]NPC[/b] [u]can[/u] have the following fields defined:
 - "[b]maxHP[/b]" with a numerical integer value. This is the number of HP this type of NPC will have when spawned. The default value is 1.
 - "[b]maxAP[/b]" with a numerical integer value. This is the number of AP this type of NPC will have at the beginning of a round. The default value is 10.
 - "[b]moveCost[/b]" with a numerical integer value. This is the AP cost of moving for this type of NPC. It has an impact on the movement speed of the NPC even out of combat. The default value is 10.
@@ -31,24 +32,29 @@ A [b]NPC[/b] [u]can[/u] have the following fields defined:
 - "[b]blockChance[/b]" with a numerical integer value. This is the BC for this type of NPC. The default value is 0.
 - "[b]damageResistance[/b]" with a numerical integer value. This is the DR for this type of NPC. The default value is 0.
 - "[b]hitEffect[/b]" with an object value, as defined in the [b]hit effect[/b] definition below. This defines the effect that are triggered when the NPC successfully hits the player.
+[/list]
 
-A [b]hit effect[/b] [u]can[/u] have the following fields defined:
+[list]A [b]hit effect[/b] [u]can[/u] have the following fields defined:
 - "[b]increaseCurrentHP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of HP from which a random value will be picked, and added to the current HP of the NPC. This cannot make the current HP exceed the max HP of the NPC.
 - "[b]increaseCurrentAP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of AP from which a random value will be picked, and added to the current AP of the NPC. This cannot make the current AP exceed the max AP of the NPC.
 - "[b]conditionsSource[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the NPC when this [b]hit effect[/b] is triggered.
 - "[b]conditionsTarget[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the player when this [b]hit effect[/b] is triggered.
+[/list]
 
-A [b]timed actor condition[/b] [u]must[/u] have the following fields defined:
+[list]A [b]timed actor condition[/b] [u]must[/u] have the following fields defined:
 - "[b]condition[/b]" with a textual value matching an actor condition's ID. This is the actor condition that will potentially affect the target (player or enemy).
 - "[b]chance[/b]" with a textual representation of a numerical value. This is the percentage of chance that the actor condition will be applied. "100" means that the condition will always be applied.
+[/list]
 
-A [b]timed actor condition[/b] [u]can[/u] have the following fields defined:
+[list]A [b]timed actor condition[/b] [u]can[/u] have the following fields defined:
 - "[b]duration[/b]" with a numerical value. This is the number of rounds the effect will last. The value 999 can be used to mean that the effect lasts forever, and can only be removed by [i]clearing[/i] this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
 - "[b]magnitude[/b]"  with a numerical integer value. This is a multiplier used to amplify the effect of the base actor condition. The value -99 can be used to mean that this effect will [i]clear[/i] the target from this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
+[/list]
 
-[b]Min-max values[/b] [u]must[/u] have the following fields defined:
+[list][b]Min-max values[/b] [u]must[/u] have the following fields defined:
 - "[b]min[/b]" with a numerical value. That's the lowest possible value.
 - "[b]max[/b]" with a numerical value. That's the highest possible value.
+[/list]
 
 [b]Full example using all fields.[/b]
 [code]
