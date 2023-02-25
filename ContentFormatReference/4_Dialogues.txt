@@ -1,0 +1,229 @@
+Dialogues format.
+
+Dialogues are defined in JSON format. Files containing dialogues should be named conversationlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/dialogue.png[/img]
+
+A single file can hold any number of dialogues, as a list. Even if only one dialogue is defined in a file, it must be contained within a list.
+Dialogues, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+For analysis and review, I suggest finding the starting point of a dialogue (either from the NPC editor, or from the Map), and using the "Dialogue tree" tab at the bottom.
+
+Dialogues are the trickiest data type to create and edit for Andor's Trail. The reward & requirement system is at the core of the scripting capabilities of the game engine, and while usually called "dialogues", some never display text, or aren't part of a conversation with a NPC. In this case, they are often called "scripts" (like in the map object type "script").
+
+A [b]dialogue[/b] [u]must[/u] have the following field defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this dialogue. Any other game element that reference a dialogue do so by using the ID.
+A [b]dialogue[/b] [u]can[/u] have the following fields defined:
+- "[b]message[/b]" with any textual value. This is the text displayed when this dialogue is reached (in english), as shown to the player in-game. Proper spelling and capitalization are required. Multi-line messages are possible by using the "\n" character sequence to indicate a new line. The message can contain "[b]$playername[/b]", and the game engine will replace this by the player's name in-game.
+- "[b]switchToNPC[/b]" with a textual value matching the ID of a NPC. This NPC must be present on the map when this dialogue is reached.
+- "[b]replies[/b]" with a list value containing any number of objects as defined in the [b]replies[/b] definition below. These define what event or dialogue will come next, depending on player choice and/or requirements on these replies.
+- "[b]rewards[/b]" with a list value containing any number of objects as defined in the [b]rewards[/b] definition below. These define what effects reaching this dialogue will have on the player or the world.
+
+A [b]reply[/b] [u]must[/u] have the following fields defined:
+- "[b]text[/b]" with any textual value. This is the text displayed as a selectable reply (in english), as shown to the player in-game. Proper spelling and capitalization are required. Multi-line messages are NOT possible. The text can contain "[b]$playername[/b]", and the game engine will replace this by the player's name in-game. There is a special case: when the value is "N", no replies are shown to the player, only the "Next" button. This is used to make the NPC continue talking. Use this to put pauses in the text said by the NPC, as long multi-line messages would be hard to follow (or worse, require scrolling) in-game, especially on tiny devices.
+- "[b]nextPhraseID[/b]" with a textual value matching a dialogue ID or one of the following special values: "[b]X[/b]", "[b]F[/b]", "[b]R[/b]", "[b]S[/b]". When this reply is selected, the dialogue will continue to the dialogue whose ID is referenced in this field. 
+When the value is "[b]X[/b]", the dialogue ends. This is also the case when this field is omitted entirely.
+When the value is "[b]F[/b]", the dialogue ends and the player will start fighting the NPC. The player always has the first turn.
+When the value is "[b]R[/b]", the dialogue ends and the NPC is removed from the map, as if it was killed, but without loot or splatter.
+When the value is "[b]S[/b]", the dialogue ends and the the player starts trading with the active NPC.
+- "[b]requires[/b]" with a list value containing any number of objects as defined in the [b]requirements[/b] definition below. All the requirements associated to a given reply must be fulfilled for the reply to be displayed to the player. Think of it as a boolean AND between all requirements of a given reply. If you need to perform a boolean OR, simply create two replies with different requirements, but the same "nextPhraseID".
+
+A [b]requirement[/b] [u]must[/u] have the following field defined:
+- "[b]requireType[/b]" with one of the following textual values: "[b]questProgress[/b]", "[b]questLatestProgress[/b]", "[b]inventoryRemove[/b]", "[b]inventoryKeep[/b]", "[b]wear[/b]", "[b]skillLevel[/b]", "[b]killedMonster[/b]", "[b]timerElapsed[/b]", "[b]usedItem[/b]", "[b]spentGold[/b]", "[b]consumedBonemeals[/b]", "[b]hasActorCondition[/b]".
+A [b]requirement[/b] [u]can[/u] have the following field defined:
+- "[b]requireID[/b]" with a textual value. As it depends on the "[b]requireType[/b]" selected, see below for details.
+- "[b]value[/b]" with a numerical value. As it depends on the "[b]requireType[/b]" selected, see below for details.
+- "[b]negate[/b]" with the value true or false. false being the default, this property can be omitted completely in this case. When the value is true, the requirement is fulfilled only when it shouldn't be.
+When "requireType" is "[b]questProgress[/b]" or "[b]questLatestProgress[/b]", the "requireID" field must have a value matching a quest ID, and the "value" must have a value matching a quest step ID. In both case, the player must have reached this quest stage in order to fulfill the requirement. The difference between "questProgress" and "latestQuestProgress" is that the latter also requires that no other quest stage with a greater ID must have been reached (numerical comparison between the stage IDs).
+When "requireType" is "[b]inventoryRemove[/b]", "[b]inventoryKeep[/b]" or "[b]usedItems[/b]", the "requireID" field must have a value matching an item ID, and the "value" must have a positive numerical value depicting the quantity of the item. In the case of the "[b]usedItems[/b]" type, the player must have used at least the selected quantity of the selected item type (quaffed X potions, eat Y apples...). In the case of "[b]inventoryKeep[/b]" and "[b]inventoryRemove[/b]", the player must have at least the selected quantity of the selected item in his inventory, the difference is that with the latter, these items will be taken from the player. I'd suggest avoiding doing that outside of a dialogue though, or with proper warning.
+When "requireType" is "[b]wear[/b]", the "requireID" field must have a value matching an item ID. "value" is not used. To fulfill this, the player must have the selected item equipped.
+When "requireType" is "[b]skillLevel[/b]", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "value" field must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
+When "requireType" is "[b]killedMonster[/b]", the "requireID" field must have a value matching a NPC ID, and the "value" field must be a numerical value that indicate the number of the given NPC that the player must have killed.
+When "requireType" is "[b]timerElapsed[/b]", the "requireID" field must be a textual value matching the ID of a timer started by a dialogue. The "value" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
+When "requireType" is "[b]factionScore[/b]", the "requireID" field must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "value" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+When "requireType" is "[b]spentGold[/b]", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of gold that the player must have spent overall.
+When "requireType" is "[b]consumedBonemeals[/b]", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
+When "requireType" is "[b]hasActorConditions[/b]", the "requireID" field must have a value matching an actor condition ID. The "value" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
+
+A [b]reward[/b] [u]must[/u] have the following fields defined:
+- "rewardType" with one of the following values: "[b]questProgress[/b]", "[b]removeQuestProgress[/b]", "[b]dropList[/b]", "[b]skillIncrease[/b]", "[b]actorCondition[/b]", "[b]alignmentChange[/b]", "[b]alignmentSet[/b]", "[b]giveItem[/b]", "[b]createTimer[/b]", "[b]spawnAll[/b]", "[b]removeSpawnArea[/b]", "[b]deactivateSpawnArea[/b]", "[b]activateMapObjectGroup[/b]", "[b]deactivateMapObjectGroup[/b]", "[b]changeMapFilter[/b]". Explanation for all rewards type, and associated constraints on the other fields of a reply definition is below.
+- "rewardID" with a textual value generally matching the ID of a game object. As it depends on the "[b]rewardType[/b]" selected, see below for details.
+A [b]reward[/b] [u]can[/u] have the following fields defined:
+- "[b]value[/b]" with a numerical value. As it depends on the "[b]rewardType[/b]" selected, see below for details.
+- "[b]mapName[/b]" with a textual value matching a map ID. As it depends on the "[b]rewardType[/b]" selected, see below for details.
+When "rewardType" is "[b]questProgress[/b]" or "[b]removeQuestProgress[/b]", the "rewardID" field must match a quest's ID, and the "value" field must match a step ID that is defined in the selected quest. The "mapName" field is unused. "[b]questProgress[/b]" will grant that progress, while "[b]removeQuestProgress[/b]" will remove that progress from the player. The latter should be used only for [i]hidden[/i] quests, as removing entries from the player's quest log can be awkward.
+When "rewardType" is "[b]dropList[/b]", the "rewardID" field must match a droplist's ID, and the "value" and "mapName" fields are unused. When granted this reward, the player will receive all the items from the droplists, taking the variability of the droplist into account (some may have random quantities, or even random presence).
+When "rewardType" is "[b]skillIncrease[/b]", the "rewardID" field must match a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "value" and "mapName" fields are unused. When granted this reward, the player will see this skill's level incremented by one.
+When "rewardType" is "[b]actorCondition[/b]", the "rewardID" field must match an actor condition's ID, and the "value" field will indicate the number of rounds this actor conditions last. The "mapName" field is unused. When granted this reward, the player will be afflicted by the actor condition for the selected number of rounds. Use a "value" of 999 to indicate that this actor condition lasts forever (rotworms anyone?). Another special case: when the "value" is -99, it means the player will be cleared of all active instances of this actor condition.
+When the "rewardType" is "[b]alignmentChange[/b]" or "[b]alignmentSet[/b]", the "rewardID" field must be an arbitrary textual value that will serve as the faction ID to use in "factionScore" requirements or NPCs' "faction" field, and the "value" field must be an integer indicating the score. In the case of "alignmentChange", the score set in "value" is added to the current score for that faction ID, while "alignmentSet" sets the value as the new score, regardless of the previous value.
+When "rewardType" is "[b]giveItem[/b]", the "rewardID" field must match an item's ID, and the "value" field indicate the quantity. The "mapName" field is unused. When granted this reward, the player will receive the selected quantity of the selected item. This is quite similar to the "droplist" reward type, but it is simpler (no variability possible), and avoids the burden of creating a droplist when you just want to give one or two items, or some gold.
+When "rewardType" is "[b]createTimer[/b]", the "rewardID" field must contain any textual value that will be this timer's ID. The "value" and "mapName" fields are unused. When granted this reward, the game will keep note of the game time (in game rounds elapsed since you started the game), and use this for comparison in requirements. Every time you [i]create[/i] a timer, any previous note with the same timer ID will be overwritten.
+When "rewardType" is "[b]spawnAll[/b]", "[b]removeSpawnArea[/b]", or "[b]deactivateSpawnArea[/b]", the "mapName" field must match a map's ID, and the "rewardID" field must match a spawn area's ID within the selected map. The "value" field is unused. In the case of "[b]spawnAll[/b]", when granted this reward, this spawn area will be activated (if it was inactive), and all included NPCs will be spawned immediately. In the case of "[b]removeSpawnArea[/b]", when granted this reward, this spawn area will be deactivated, and all included NPCs will be removed immediately. In the case of "[b]deactivateSpawnArea[/b]", when granted this reward, this spawn area will be deactivated, but all included NPCs will remain on the map until killed or removed by a dialogue reward.
+When "rewardType" id "[b]activateMapObjectGroup[/b]", or "[b]deactivateMapObjectGroup[/b]", the "mapName" field must match a map's ID, and the "rewardID" field must match an object group's ID within the selected map. The "value" field is unused. In the case of "[b]activateMapObjectGroup[/b]", when granted this reward, all map objects (except spawn areas) within this object group will be made active. In the case of "[b]deactivateMapObjectGroup[/b]", when granted this reward, all map objects (except spawn areas) within this object group will be made inactive (they have no effect on the game anymore).  :!: Beware though, as deactivating an object group containing a replace area that has already been triggered will NOT revert the map to its previous look.
+When "rewardType" id "[b]changeMapFilter[/b]", the "mapName" field must match a map's ID, and the "rewardID" field must match a color filter's ID, as found here: [url]https://github.com/AndorsTrailRelease/ATCS/blob/master/src/com/gpl/rpg/atcontentstudio/model/maps/TMXMap.java[/url]. The "value" field is unused. When granted this reward, the selected map will have its "colorFilter" property changed to the value of the "rewardID" field. See the post about maps to know the effect of the different available color filters.
+
+[b]The special case of selectors[/b]
+In a dialogue, notably as the starting point of a dialogue, you'll often want to use branches, different paths. A NPC may first greet you with "I don't have time", but later, depending on your choices, may change that to "Hello friend!" or "How dare you? After all you did to us!".
+To do so, we use a special kind of dialogue we call a [b]selector[/b].
+To create a selector, simply create a dialogue with no "[b]message[/b]" field, and add a bunch of replies with no text (use "N" as the "text" field of the reply) with different requirements.
+The game engine will evaluate the requirements of each reply, one after the other, in the order they are defined in the JSON file. The first reply for which all requirements are fulfilled is selected, and the script goes on to the dialogue indicated by the "nextPhraseID" field of the reply. It is often useful to also have the last reply with no requirements, to be used as the default.
+
+[b]Full example using all fields.[/b]
+[code]{
+    "id":"dialogue_id",
+    "message":"This is line one.\nThis is line two.",
+    "switchToNPC":"tiny_rat",
+    "replies":[
+        {
+            "text":"N",
+            "nextPhraseID":"mikhail_rats_start2a"
+        },
+        {
+            "text":"Reply. NPC replies too.",
+            "nextPhraseID":"mikhail_rats_start2a"
+        },
+        {
+            "text":"Reply. Dialgoue ends.",
+            "nextPhraseID":"X"
+        },
+        {
+            "text":"Reply. Let's fight.",
+            "nextPhraseID":"F"
+        },
+        {
+            "text":"Reply. NPC disappears.",
+            "nextPhraseID":"R"
+        },
+        {
+            "text":"Reply. Starts trading with NPC.",
+            "nextPhraseID":"S",
+            "requires":[
+                {
+                    "requireType":"questProgress",
+                    "requireID":"andor",
+                    "value":1,
+                    "negate":true
+                },
+                {
+                    "requireType":"questLatestProgress",
+                    "requireID":"andor",
+                    "value":1
+                },
+                {
+                    "requireType":"inventoryRemove",
+                    "requireID":"hair",
+                    "value":1
+                },
+                {
+                    "requireType":"inventoryKeep",
+                    "requireID":"hair",
+                    "value":1
+                },
+                {
+                    "requireType":"wear",
+                    "requireID":"shirt1"
+                },
+                {
+                    "requireType":"skillLevel",
+                    "requireID":"crit1",
+                    "value":1
+                },
+                {
+                    "requireType":"killedMonster",
+                    "requireID":"tiny_rat",
+                    "value":10
+                },
+                {
+                    "requireType":"timerElapsed",
+                    "requireID":"aze",
+                    "value":10
+                },
+                {
+                    "requireType":"usedItem",
+                    "requireID":"meat",
+                    "value":10
+                },
+                {
+                    "requireType":"spentGold",
+                    "value":10
+                },
+                {
+                    "requireType":"consumedBonemeals",
+                    "value":10
+                },
+                {
+                    "requireType":"hasActorCondition",
+                    "requireID":"chaotic_grip"
+                }
+            ]
+        }
+    ],
+    "rewards":[
+        {
+            "rewardType":"questProgress",
+            "rewardID":"andor",
+            "value":1
+        },
+        {
+            "rewardType":"removeQuestProgress",
+            "rewardID":"andor",
+            "value":1
+        },
+        {
+            "rewardType":"dropList",
+            "rewardID":"startitems"
+        },
+        {
+            "rewardType":"skillIncrease",
+            "rewardID":"crit1"
+        },
+        {
+            "rewardType":"actorCondition",
+            "rewardID":"chaotic_grip",
+            "value":1
+        },
+        {
+            "rewardType":"alignmentChange",
+            "rewardID":"faction_id",
+            "value":1
+        },
+        {
+            "rewardType":"giveItem",
+            "rewardID":"hair",
+            "value":1
+        },
+        {
+            "rewardType":"createTimer",
+            "rewardID":"timer_id"
+        },
+        {
+            "rewardType":"spawnAll",
+            "rewardID":"spawn_area_id",
+            "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"removeSpawnArea",
+            "rewardID":"spawn_area_id",
+            "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"deactivateSpawnArea",
+            "rewardID":"spawn_area_id",
+            "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"activateMapObjectGroup",
+            "rewardID":"object_group_id",
+            "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"deactivateMapObjectGroup",
+            "rewardID":"object_group_id",
+            "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"changeMapFilter",
+            "rewardID":"black20",
+            "mapName":"blackwater_mountain0"
+        }
+    ]
+}[/code]

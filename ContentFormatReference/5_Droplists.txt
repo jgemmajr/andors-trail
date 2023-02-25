@@ -1,0 +1,59 @@
+Droplists format.
+
+[b]Droplists are defined in JSON format. Files containing droplists should be named droplists_[i]<name>[/i].json, and placed under res/raw/ in the game source folder. The [i]<name>[/i] can be anything composed of lower case letters, digits, and underscores.[/b]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_equipment.png[/img]
+A single file can hold any number of droplists, as a list. Even if only one droplist is defined in a file, it must be contained within a list.
+Droplists, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+
+A [b]droplist[/b] [u]must[/u] have the following fields defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this droplist. Any other game element that reference a droplist do so by using the ID.
+- "[b]items[/b]" with a list value containing any number of objects as defined in the dropped items definition below. These are the items that can be dropped as part of this droplist, along with individual quantity range and drop chance.
+
+A [b]dropped item[/b] [u]must[/u] have the following fields defined:
+- "[b]itemID[/b]" with a textual value matching an item's ID.
+- "[b]chance[/b]" with a numerical value (can be decimal). It defines the percentage of chance that this item will be dropped in this droplist. Use "100" for a sure drop, "50" for 50% chance, "0.1" for extraordinary items, and "0.01" for legendary items.
+- "[b]quantity[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. The quantity actually dropped will be picked at random within this range each time this droplist is dropped.
+
+[b]Min-max values[/b] [u]must[/u] have the following fields defined:
+- "[b]min[/b]" with a numerical value. That's the lowest possible value.
+- "[b]max[/b]" with a numerical value. That's the highest possible value.
+
+[b]Full example using all fields.[/b]
+[code]{
+    "id":"droplist_id",
+    "items":[
+        {
+            "itemID":"hair",
+            "chance":"100",
+            "quantity":{
+                "min":1,
+                "max":1
+            }
+        },
+        {
+            "itemID":"ring_shadow0",
+            "chance":"0.001",
+            "quantity":{
+                "min":1,
+                "max":1
+            }
+        },
+        {
+            "itemID":"gold",
+            "chance":"50",
+            "quantity":{
+                "min":0,
+                "max":5000
+            }
+        },
+        {
+            "itemID":"health_minor",
+            "chance":"100",
+            "quantity":{
+                "min":2,
+                "max":5
+            }
+        }
+    ]
+}[/code]

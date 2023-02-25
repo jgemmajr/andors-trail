@@ -1,0 +1,26 @@
+Item categories format.
+
+Item categories are defined in JSON format. Files containing item categories should be named itemcategories_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/equip_shield.png[/img]
+
+A single file can hold any number of item categories, as a list. Even if only one item category is defined in a file, it must be contained within a list.
+Item categories, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+
+An [b]item category[/b] [u]must[/u] have the following fields defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this item category. Any other game element that reference an item category do so by using the ID.
+- "[b]name[/b]" with any textual value. This is the display name of the item category (in english), as shown to the player in-game. Proper spelling and capitalization are required. When more than one word is used, only the first letter of the first word is capitalized, except for proper nouns (like the Shadow).
+
+An [b]item category[/b] [u]can[/u] have the following fields defined:
+- "[b]actionType[/b]" with one of the following values: "[b]none[/b]", "[b]use[/b]", or "[b]equip[/b]". When the value is "[b]none[/b]", the player can neither use nor equip items belonging to this category. This is the default value, and this field can be omitted entirely when this is the case. When the value is "[b]use[/b]", the player can [i]consume[/i] items belonging to this category. When the value is "[b]equip[/b]", the player can equip the items belonging to this category in the equipment slot defined using the "[b]inventorySlot[/b]" field for this item category. The "[b]inventorySlot[/b]" field is mandatory when the value "[b]equip[/b]" is used.
+- "[b]size[/b]" with one of the following values:  "[b]none[/b]", "[b]light[/b]", "[b]std[/b]", or "[b]large[/b]". This indicate the size of the items belonging to this category, and is used by the skill system to provide benefits to using one size of equipment or another. "[b]none[/b]" is the default value, and this field can be omitted entirely when this is the case. 
+- "[b]inventorySlot[/b]" with one of the following values: "[b]weapon[/b]", "[b]shield[/b]", "[b]head[/b]", "[b]body[/b]", "[b]hand[/b]", "[b]feet[/b]", "[b]neck[/b]", "[b]leftring[/b]", or "[b]rightring[/b]". This field is unused when "[b]actionType[/b]" is not set to "[b]equip[/b]", but is mandatory when it is. The values should be pretty self-explanatory, and define what slot of the player's equipment can be used by items belonging to this category. "[b]leftring[/b]" and "[b]rightring[/b]" are completely equivalent to each other in an item category definition. They are both present because the same [i]Enum[/i] as the one defining equipment slots is used.
+
+[b]Full example using all fields.[/b]
+[code]{
+    "id":"item_category_id",
+    "name":"Item category",
+    "actionType":"equip",
+    "size":"large",
+    "inventorySlot":"shield"
+}[/code]
