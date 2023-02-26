@@ -2,7 +2,7 @@ Actor conditions format.
 
 [b]Actor conditions are defined in JSON format. Files containing actor conditions should be named actorconditions_[i]<name>[/i].json, and placed under res/raw/ in the game source folder. The [i]<name>[/i] can be anything composed of lower case letters, digits, and underscores.[/b]
 
-[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/actor_condition.png[/img]
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/actor_condition.png[/img]
 A single file can hold any number of actor conditions, as a list. Even if only one actor condition is defined in a file, it must be contained within a list.
 
 Actor conditions, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.

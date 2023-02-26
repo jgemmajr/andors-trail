@@ -2,7 +2,7 @@ NPCs format.
 
 NPCs are defined in JSON format. Files containing NPCs should be named monsterlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
 
-[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
 
 A single file can hold any number of NPCs, as a list. Even if only one NPC is defined in a file, it must be contained within a list.
 NPCs, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.

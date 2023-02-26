@@ -2,7 +2,7 @@ Quests format.
 
 Quests are defined in JSON format. Files containing quests should be named questlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
 
-[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_quest.png[/img]
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_quest.png[/img]
 
 A single file can hold any number of quests, as a list. Even if only one quest is defined in a file, it must be contained within a list.
 Quests, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.

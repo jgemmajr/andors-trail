@@ -2,7 +2,7 @@ Droplists format.
 
 [b]Droplists are defined in JSON format. Files containing droplists should be named droplists_[i]<name>[/i].json, and placed under res/raw/ in the game source folder. The [i]<name>[/i] can be anything composed of lower case letters, digits, and underscores.[/b]
 
-[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_equipment.png[/img]
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_equipment.png[/img]
 A single file can hold any number of droplists, as a list. Even if only one droplist is defined in a file, it must be contained within a list.
 Droplists, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
 

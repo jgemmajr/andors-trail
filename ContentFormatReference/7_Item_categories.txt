@@ -2,7 +2,7 @@ Item categories format.
 
 Item categories are defined in JSON format. Files containing item categories should be named itemcategories_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
 
-[img]https://raw.githubusercontent.com/Zukero/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/equip_shield.png[/img]
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/equip_shield.png[/img]
 
 A single file can hold any number of item categories, as a list. Even if only one item category is defined in a file, it must be contained within a list.
 Item categories, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
