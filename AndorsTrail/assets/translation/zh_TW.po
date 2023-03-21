@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-03-19 07:40+0000\n"
+"PO-Revision-Date: 2023-03-21 20:24+0000\n"
 "Last-Translator: DragonChen TW <teacher144123@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hant/>\n"
@@ -63,7 +63,7 @@ msgstr "流血"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr "初級狂暴之怒"
+msgstr "初級狂怒"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
@@ -107,7 +107,7 @@ msgstr "專注準確"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "爾德克藥劑"
+msgstr "爾德克毒藥"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
@@ -199,7 +199,7 @@ msgstr "倉促"
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
-msgstr "熾盛"
+msgstr "燃燒"
 
 #: actorconditions_v070.json:sting_minor
 msgid "Minor sting"
@@ -215,7 +215,7 @@ msgstr "遲鈍"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr "亡者的詛咒"
+msgstr "亡者詛咒"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
@@ -239,7 +239,7 @@ msgstr "腐壞"
 
 #: actorconditions_guynmart.json:regenNeg
 msgid "Shadow Degeneration"
-msgstr "暗影退化"
+msgstr "暗影衰退"
 
 #: actorconditions_guynmart.json:bone_fracture
 msgid "Bone fracture"
@@ -394,7 +394,7 @@ msgstr "太好了，你醒了。"
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
-msgstr "我似乎到處都找不到你的哥哥安道爾，他昨天離開之後就一直沒有回來。"
+msgstr "我到處都找不到你哥安道爾，他昨天離開之後就一直沒有回來。"
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
@@ -441,7 +441,7 @@ msgstr ""
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
-msgstr "哦對，有些事情我需要協助，麵包跟老鼠，你對哪個有興趣？"
+msgstr "哦對，有些事情需要幫忙，麵包跟老鼠，你對哪個有興趣？"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
@@ -466,7 +466,7 @@ msgstr "謝謝你給我弄了麵包來，剩老鼠的問題。"
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
-msgstr "謝謝你幫我解決了老鼠，我仍然還需要麵包。"
+msgstr "謝謝你幫我解決了老鼠，我還是喜歡麵包。"
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
@@ -550,7 +550,7 @@ msgstr "不客氣。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there."
-msgstr "我早上在外面的後花園看到了一些老鼠，你能夠幫我殺掉你看的到的每隻老鼠嗎？"
+msgstr "我早上在外面的後花園看到了一些老鼠。你能夠幫我殺掉你看的到的每隻老鼠嗎。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -713,7 +713,7 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
-"當然，還子，你可以在這休息。\n"
+"當然，孩子，你可以在這休息。\n"
 "\n"
 "挑一張你想要的床。"
 
@@ -867,7 +867,7 @@ msgstr "來，我有個毒腺給你。"
 
 #: conversationlist_crossglen_gruil.json:gruil2:1
 msgid "OK, I'll bring one."
-msgstr "好的，我會帶一個過來。"
+msgstr "好的，我會拿一個過來。"
 
 #: conversationlist_crossglen_gruil.json:gruil_complete
 msgid "Thanks a lot kid. This will do just fine."
@@ -883,11 +883,12 @@ msgstr "我昨天和他說過話。他問我認不認識一個人叫…悠馬爾
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
-msgstr "他好像對什麼事感到不安，而且離開的非常匆忙。一些有關墜風港的盜賊行會。"
+msgstr "他好像對什麼事感到不安，而且離開的非常匆忙。一些有關墮落天堂的盜賊行會。"
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
-msgstr "我只知道這些。也許你應該去墜風港問問。你可以去找我的朋友加艾拉，他可能知道得更多。"
+msgstr "我只知道這些。也許你應該去墮落天堂問問。你可以去找我的朋友加艾拉，他可能知道"
+"得更多。"
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -895,14 +896,14 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]你好，孩子。你不是米哈爾的兒子嗎？你還有個哥哥呢。\n"
+"你好，孩子。你不是米哈爾的兒子嗎？你還有個哥哥呢。\n"
 "\n"
-"我是雷奧尼德，橫格蘭的管理者。"
+"我是雷奧尼德，十字谷村莊的管理者。"
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
 msgid "What can you tell me about Crossglen?"
-msgstr "關於橫格蘭你能告訴我什麼？"
+msgstr "關於十字谷你能告訴我什麼？"
 
 #: conversationlist_crossglen_leonid.json:leonid1:2
 #: conversationlist_crossglen_leonid.json:leonid_continue:2
@@ -923,7 +924,7 @@ msgstr "謝了，我去和古魯爾談談。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
-msgstr "你知道的，這裡是橫谷村。大致上是個農業村莊。"
+msgstr "你知道的，這裡是十字谷村莊。大致上是個農業社會。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
@@ -968,16 +969,16 @@ msgid ""
 "On one hand, Lord Geomyr supports Crossglen with a lot of protection.\n"
 "[Points to the soldiers in the hall]"
 msgstr ""
-"一方面來說，領主鳩米爾為橫谷這裡提供了很多的保護。\n"
+"一方面來說，領主鳩米爾為十字谷這裡提供了很多的保護。\n"
 "[指向大廳的士兵們]"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen7
 msgid "But on the other hand, the tax and the recent changes of what's allowed are really taking a toll on Crossglen."
-msgstr "但另一方面來說，稅務以及最近政令的變動也確實的對橫谷造成影響。"
+msgstr "但另一方面來說，稅務以及最近政令的變動也確實的對十字谷造成影響。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
-msgstr "需要有什麼人去一趟鳩米爾堡並向管理者談談我們橫谷這邊的處境。"
+msgstr "需要有什麼人去一趟鳩米爾堡並向管理者談談我們十字谷這邊的處境。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
 msgid "In the meantime, we've banned all use of bonemeal as a healing substance."
@@ -1086,11 +1087,12 @@ msgstr "我現在該怎麼醫治病人啊？使用常規治療藥劑嗎？呸，
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
-msgstr "如果你有興趣的話，我知道有個人還有些骨粉的存貨。去和梭羅尼爾談談吧，他是墜風港一位牧師的朋友。和他說說我的暗語「暗影的光輝」。"
+msgstr "如果你有興趣的話，我知道有個人還有些骨粉的存貨。去和梭羅尼爾談談吧，他是墮落"
+"天堂一位牧師朋友。和他說我的暗語「暗影的光輝」。"
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
-msgstr "不，抱歉。我聽說在墜風港的製藥者可以調製些什麼抵禦這種效果。"
+msgstr "不，抱歉。我聽說在墮落天堂的製藥者可以調製些什麼抵禦這種效果。"
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
@@ -1241,7 +1243,7 @@ msgstr "特別的是，我看到有隻老鼠比其他隻都還大。你覺得你
 
 #: conversationlist_crossglen_odair.json:odair4:0
 msgid "Sure, I'll help you so that Crossglen can use the supply cave again."
-msgstr "當然，我會幫忙的，這樣橫谷的大家才能再使用這個補給洞穴。"
+msgstr "當然，我會幫忙的，這樣十字谷的大家才能再使用這個補給洞穴。"
 
 #: conversationlist_crossglen_odair.json:odair4:1
 msgid "Sure, I'll help you. But only because there might be some gain for me in this."
@@ -1620,7 +1622,7 @@ msgstr "你見過我哥哥安道爾嗎？他長得有點像我。"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen4
 msgid "You're that kid from Crossglen village right?"
-msgstr "你就是那個來自橫谷村的孩子，對吧?"
+msgstr "你就是那個來自十字谷村的孩子，對吧?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen5
 msgid "Out of the way, peasant."
@@ -1644,7 +1646,8 @@ msgstr "嗯，幾天前我可能見過符合這個描述的人。我不記得在
 
 #: conversationlist_fallhaven.json:fallhaven_andor_4
 msgid "Oh yes, there was another kid from Crossglen village here a few days ago. Not sure he matched your description though."
-msgstr "哦，是的，幾天前這裡還有一個來自克羅斯山谷村的孩子。但我不確定他是否符合你的描述。"
+msgstr "哦，是的，幾天前這裡還有一個來自十字谷村的孩子。但我不確定他是否符合你的描述"
+"。"
 
 #: conversationlist_fallhaven.json:fallhaven_andor_4_1
 msgid "There were some shady looking people following him around. Didn't see any more than that."
@@ -1867,7 +1870,8 @@ msgstr "只要這會帶來一些財富，我就加入！"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4
 msgid "Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church."
-msgstr "如果你能給我路德的鑰匙，我們可以多談談。我對那鑰匙本身一無所知，但有傳言說它位於法爾海文教堂的地下墓穴裡。"
+msgstr "如果你能給我路德的鑰匙，我們可以多談談。我對那鑰匙本身一無所知，但有傳言說它"
+"位於墮落天堂教堂的地下墓穴裡。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4:0
 msgid "OK, sounds easy enough."
@@ -1920,7 +1924,7 @@ msgstr "聽起來像胡說八道。"
 
 #: conversationlist_fallhaven_church.json:thoronir_church_1
 msgid "This is our chapel of worship in Fallhaven. Our community turns to us for support."
-msgstr "這是我們在法爾海文的禮拜堂。我們的社區向我們尋求支持。"
+msgstr "這是我們在墮落天堂的禮拜堂。我們的社區向我們尋求支持。"
 
 #: conversationlist_fallhaven_church.json:thoronir_church_2
 msgid "This church has withstood hundreds of years, and has been kept safe from grave robbers."
@@ -1928,7 +1932,7 @@ msgstr "這座教堂歷經數百年的風雨洗禮，從未遭到過盜墓者的
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1
 msgid "Glow of the Shadow indeed my child. So my old friend Tharal in Crossglen village sent you?"
-msgstr "確實，暗影之光。克羅斯山谷村的老朋友塔拉爾派你來的?"
+msgstr "確實，暗影之光。十字谷村的老朋友撒勒爾派你來的?"
 
 #: conversationlist_fallhaven_church.json:thoronir_church_3
 msgid "The catacombs beneath the church house the remains of our passed leaders. Our great King Luthor is rumored to be buried there."
@@ -1973,7 +1977,8 @@ msgstr "我有那些骨頭，給你。"
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5
 msgid "Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?"
-msgstr "謝謝，請快點回來。我聽說在法爾海文北部一個廢棄的舊房子附近有一些亡靈。也許你可以去那裡看一看？"
+msgstr "謝謝，請快點回來。我聽說在墮落天堂北部一個廢棄的舊房子附近有一些亡靈。也許你"
+"可以去那裡看一看？"
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5:0
 msgid "OK, I'll go check there."
@@ -2046,7 +2051,7 @@ msgstr "你去過地下墓穴嗎?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_1
 msgid "Yes, I have been in the catacombs beneath Fallhaven Church."
-msgstr "是的，我一直在法爾海文教堂下面的地下墓穴裡。"
+msgstr "是的，我一直在墮落天堂教堂下面的地下墓穴裡。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_2
 msgid "But I'm the only one that both has the permission and the bravery to go down there."
@@ -2062,7 +2067,7 @@ msgstr "你想去地下墓穴嗎?嗯，也許我們可以做個交易。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4
 msgid "Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church."
-msgstr "從酒館裡給我拿些美味的熟肉來，我就准許你進入法爾海文教堂的地下墓穴。"
+msgstr "從酒館裡給我拿些美味的熟肉來，我就准許你進入墮落天堂教堂的地下墓穴。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4:0
 msgid "Here, I have cooked meat for you."
@@ -2074,7 +2079,7 @@ msgstr "好的，我去買一些。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete_2
 msgid "You have my permission to enter the catacombs of Fallhaven Church."
-msgstr "我允許你進入法爾海文教堂的地下墓穴。"
+msgstr "我允許你進入墮落天堂教堂的地下墓穴。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete
 msgid "Thanks, this will do nicely."
@@ -2219,11 +2224,11 @@ msgstr "我沒有任何東西可以出售。我以前有很多東西要賣，但
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_trade_2
 msgid "I was once one of the greatest smiths in Fallhaven. Then that bastard Lord Geomyr banned my use of heartsteel."
-msgstr "我曾經是法爾海文最偉大的鐵匠之一。然後那個混蛋吉奧米爾禁止我使用心鋼。"
+msgstr "我曾經是墮落天堂最偉大的鐵匠之一。然後那個混蛋吉奧米爾禁止我使用心鋼。"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_trade_3
 msgid "By decree of Lord Geomyr, no one in Fallhaven is allowed to even use heartsteel weapons. Much less sell any."
-msgstr "根據吉奧米爾勳爵的命令，在法爾海文的任何人都不允許使用心鋼武器。更別說賣了。"
+msgstr "根據吉奧米爾勳爵的命令，在墮落天堂的任何人都不允許使用心鋼武器。更別說賣了。"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_trade_4
 msgid "So now I have to hide the few weapons I have left. I won't dare sell any of them anymore."
@@ -2683,7 +2688,7 @@ msgstr "還有什麼嗎？"
 
 #: conversationlist_fallhaven_gaela.json:gaela_2
 msgid "I heard that you helped Gruil, a fellow thief in Crossglen village."
-msgstr "我聽說你幫助了格魯爾，一個在克羅斯山谷村的小偷。"
+msgstr "我聽說你幫助了古瑞爾，一個在十字谷村的小偷。"
 
 #: conversationlist_fallhaven_gaela.json:gaela_3
 msgid "Word has also reached me that you are looking for someone. I might be able to help you."
@@ -63807,7 +63812,7 @@ msgstr ""
 
 #: worldmap.xml:world1:fallhaven
 msgid "Fallhaven"
-msgstr ""
+msgstr "墮落天堂"
 
 #: worldmap.xml:world1:flagstone
 msgid "Flagstone Prison"
