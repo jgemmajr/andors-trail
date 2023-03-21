@@ -10,18 +10,18 @@
     <string name="loadsave_title_save">Сохранить игру</string>
     <string name="loadsave_title_load">Загрузить игру</string>
     <string name="loadsave_selectslot">Выберите слот</string>
-    <string name="savegame_currenthero_displayinfo">%1$d уровень, %2$d опыта, %3$d золота</string>
+    <string name="savegame_currenthero_displayinfo">уровень: %1$d; %2$d опыта; %3$d золота</string>
     <string name="dialog_loading_message">Загрузка ресурсов…</string>
     <string name="dialog_loading_failed_title">Ошибка загрузки</string>
-    <string name="dialog_loading_failed_message">След Эндора не смог загрузить файл сохранения. 
-\n 
-\n:( 
-\n 
-\nВозможно, файл сохранения повреждён или неполон.</string>
-    <string name="dialog_loading_failed_incorrectversion">След Эндора не смог загрузить файл сохранения игры. Это сохранение сделано в более новой версии игры, чем запущенная в текущий момент.</string>
+    <string name="dialog_loading_failed_message">Игре не удалось загрузить файл сохранения.
+\n
+\n:(
+\n
+\nВозможно, файл сохранения повреждён или недоступен.</string>
+    <string name="dialog_loading_failed_incorrectversion">Игра не смогла загрузить файл сохранения игры. Данный файл сохранения создан в более новой версии, чем та, которая запущена в данный момент.</string>
     <string name="dialog_close">Закрыть</string>
-    <string name="dialog_monsterencounter_title">Встреча</string>
-    <string name="dialog_monsterencounter_message">Вы хотите напасть\?
+    <string name="dialog_monsterencounter_title">Столкновение</string>
+    <string name="dialog_monsterencounter_message">Хотите напасть\?
 \nСложность: %1$s</string>
     <string name="dialog_monsterencounter_info">Инфо</string>
     <string name="status_hp">ОЗ:</string>
@@ -43,7 +43,7 @@
     <string name="combat_use">Использовать</string>
     <string name="combat_endturn">Конец хода</string>
     <string name="combat_flee">Сбежать</string>
-    <string name="combat_begin_flee">Теперь вы можете сбежать, нажмите в каком направлении вы хотите идти.</string>
+    <string name="combat_begin_flee">Теперь вы можете сбежать из боя, щелкнув в нужном направлении.</string>
     <string name="combat_flee_failed">Побег не удался!</string>
     <string name="combat_monsteraction">%1$s атакует.</string>
     <string name="combat_result_monstermiss">%1$s промахнулся!</string>
@@ -51,10 +51,10 @@
     <string name="combat_result_monsterhitcritical">%1$s наносит крит. удар на %2$d ОЗ!</string>
     <string name="combat_result_heromiss">Вы промахнулись.</string>
     <string name="combat_result_herohit">Вы атакуете, %1$s теряет %2$d ОЗ!</string>
-    <string name="combat_result_herohitcritical">Вы наносите крит. удар! %1$s теряет %2$d ОЗ!</string>
+    <string name="combat_result_herohitcritical">Вы нанесли крит. удар! %1$s теряет %2$d ОЗ!</string>
     <string name="combat_result_herokillsmonster">%1$s убит!</string>
-    <string name="combat_not_enough_ap">Не хватает ОД в этом раунде.</string>
-    <string name="combat_hero_dies">Вы потеряли сознание. Но, к счастью, остались живы. Вы потеряли %1$d опыта.</string>
+    <string name="combat_not_enough_ap">Недостаточно ОД в раунде.</string>
+    <string name="combat_hero_dies">Вы потеряли сознание. К счастью, остались живы, но чувствуете усталость и ошеломление. Вы потеряли %1$d опыта.</string>
     <string name="combat_miss_animation_message">ПРОМАХ</string>
     <string name="inventory_info">Инфо</string>
     <string name="inventory_equip">Надеть</string>
@@ -66,12 +66,12 @@
     <string name="inventory_item_equipped">Вы надели %1$s.</string>
     <string name="dialog_loot_pickall">Взять всё</string>
     <string name="dialog_loot_foundgold">Вы нашли %1$d золота.</string>
-    <string name="dialog_loot_pickedupitem">Вы подобрали предмет.</string>
-    <string name="dialog_loot_pickedupitems">Вы подобрали %1$d предмета(ов).</string>
-    <string name="dialog_groundloot_title">Предметы</string>
-    <string name="dialog_groundloot_message">Вы нашли несколько предметов.</string>
+    <string name="dialog_loot_pickedupitem">Вы подобрали вещь.</string>
+    <string name="dialog_loot_pickedupitems">Вы подобрали %1$d вещей.</string>
+    <string name="dialog_groundloot_title">Вещи</string>
+    <string name="dialog_groundloot_message">Вы нашли несколько вещей.</string>
     <string name="dialog_monsterloot_title">Победа</string>
-    <string name="dialog_monsterloot_message">Вы пережили эту встречу.</string>
+    <string name="dialog_monsterloot_message">Вы пережили сражение.</string>
     <string name="combat_status_ap">ОД: %1$d</string>
     <string name="combat_monsterhealth">ОЗ:</string>
     <string name="dialog_monsterloot_gainedexp">Вы получили %1$d опыта.</string>
@@ -87,8 +87,8 @@
     <string name="actorinfo_attack">Атака:</string>
     <string name="actorinfo_defense">Защита:</string>
     <string name="actorinfo_movecost">Цена движения (ОД):</string>
-    <string name="actorinfo_basetraits">Боевая статистика без экипировки и навыков (базовая)</string>
-    <string name="actorinfo_currenttraits">Боевая статистика в экипировке (текущая)</string>
+    <string name="actorinfo_basetraits">Базовая боевая статистика (без снаряжения и навыков)</string>
+    <string name="actorinfo_currenttraits">Боевая статистика (текущая)</string>
     <string name="traitsinfo_attack_cost">Цена атаки (ОД):</string>
     <string name="traitsinfo_attack_chance">Шанс атаки:</string>
     <string name="traitsinfo_attack_damage">Сила атаки:</string>
@@ -112,11 +112,11 @@
     <string name="conversation_rewardexp">[Получено %1$d опыта]</string>
     <string name="conversation_rewardgold">[Получено %1$d золота]</string>
     <string name="conversation_lostgold">[Вы потеряли %1$d золота]</string>
-    <string name="conversation_rewarditem">[Вы получили предмет]</string>
-    <string name="conversation_rewarditems">[Вы получили %1$d предмета(ов)]</string>
+    <string name="conversation_rewarditem">[Вы получили вещь]</string>
+    <string name="conversation_rewarditems">[Вы получили %1$d вещей]</string>
     <string name="shop_buy">Купить</string>
     <string name="shop_sell">Продать</string>
-    <string name="conversation_next">Дальше</string>
+    <string name="conversation_next">Следующий</string>
     <string name="conversation_leave">Уйти</string>
     <string name="shop_infoitem">Инфо</string>
     <string name="shop_buyitem">Купить (%1$d золота)</string>
@@ -126,7 +126,7 @@
     <string name="shop_item_sold">%1$s продан.</string>
     <string name="levelup_title">Новый уровень</string>
     <string name="levelup_description">Поздравляем с %1$d уровнем!</string>
-    <string name="levelup_buttontext">Новый уровень</string>
+    <string name="levelup_buttontext">Поднять уровень</string>
     <string name="levelup_add_health">Увеличить здоровье (+%1$d ОЗ)</string>
     <string name="levelup_add_health_description">Добавить %1$d к максимальному здоровью.</string>
     <string name="levelup_add_attackchance">Увеличить шанс атаки (+%1$d)</string>
@@ -448,8 +448,8 @@
 \n
 \nКаждый уровень навыка увеличивает шанс атаки оружия в правой руке на %1$d %% от базового, а шанс блокировки щитом или парирующим оружием на %2$d %% от базового.</string>
     <string name="skill_longdescription_specialization_dualwield">При использовании оружия в каждой руке увеличивает шанс атаки каждого на %1$d %% базового. Шанс блока каждого оружия так же увеличивается на %2$d %% от базового.</string>
-    <string name="skill_longdescription_specialization_2hand">Увеличивает силу атаки двуручным оружием на %1$d %% от базового значения оружия. Шанс атаки двуручным оружием так же увеличивается на %2$d %% от базового.</string>
-    <string name="skill_longdescription_specialization_weapon_shield">При использовании одноручного оружия в правой руке с щитом увеличивает шанс атаки на %1$d %% от базового шанса оружия, а так же силу атаки на %2$d %%.</string>
+    <string name="skill_longdescription_specialization_2hand">Увеличивает силу атаки двуручным оружием на дополнительные %1$d %% от базового. Шанс атаки двуручным оружием увеличивается на %2$d %% от базового.</string>
+    <string name="skill_longdescription_specialization_weapon_shield">При использовании одноручного оружия в основной руке увеличивает (в %% от базового) шанс атаки на %1$d %% оружия, силу атаки на %2$d %%.</string>
     <string name="preferences_quickslots_placement">Позиция быстрых слотов</string>
     <string name="preferences_quickslots_placement_summary">Расположение быстрых слотов</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">По нижнему краю, центр</string>
@@ -461,7 +461,7 @@
     <string name="preferences_quickslots_placements_vertical_bottom_right">По правому краю, снизу</string>
     <string name="preferences_ui_show_quickslots_when_toolbox_is_visible_title">Показывать быстрые слоты при открытии панели инструментов</string>
     <string name="preferences_ui_show_quickslots_when_toolbox_is_visible">Быстрые слоты отображаются сразу при открытии панели инструментов</string>
-    <string name="startscreen_non_release_version">Это тестовая версия Следа Эндора. Сохранения, сделанные в этой версии могут оказаться несовместимы с публичной версией.</string>
+    <string name="startscreen_non_release_version">Предварительная версия След Эндора. Сохранения данной версии игры несовместимы с публичной версией.</string>
     <string name="heroinfo_gamestats">Статистика игры</string>
     <string name="heroinfo_gamestats_quests">Завершено заданий</string>
     <string name="heroinfo_gamestats_deaths">Часов без сознания</string>
@@ -469,15 +469,15 @@
     <string name="heroinfo_gamestats_bonemeals">Принято зелий из костной муки</string>
     <string name="heroinfo_gamestats_num_used_items">Использовано предметов</string>
     <string name="heroinfo_gamestats_visited_maps">Посещено локаций</string>
-    <string name="heroinfo_gamestats_fav_item">Самый используемый предмет</string>
+    <string name="heroinfo_gamestats_fav_item">Наиболее часто используемый предмет</string>
     <string name="heroinfo_gamestats_num_killed_monsters">Убито монстров</string>
     <string name="heroinfo_gamestats_top_boss">Сильнейший убитый монстр</string>
-    <string name="heroinfo_gamestats_fav_monsters">Часто убиваемые монстры</string>
+    <string name="heroinfo_gamestats_fav_monsters">Наиболее часто убиваемые монстры</string>
     <string name="heroinfo_gamestats_name_and_qty">%1$s (%2$d)</string>
-    <string name="preferences_ui_use_localized_resources_title">Включение перевода</string>
+    <string name="preferences_ui_use_localized_resources_title">Использование локализации ресурсов</string>
     <string name="preferences_ui_use_localized_resources">Использовать перевод интерфейса и контента, если возможно. (Необходим перезапуск)</string>
-    <string name="change_locale_requires_restart">Для смены языка необходим перезапуск. След Эндора был закрыт.</string>
-    <string name="startscreen_incompatible_savegames">Это версия Следа Эндора для разработчиков. Сохранения, созданные в этой версии, несовместимы с публичной версией.</string>
+    <string name="change_locale_requires_restart">Для смены языка необходим перезапуск. Закрытие игры.</string>
+    <string name="startscreen_incompatible_savegames">Версия След Эндора для разработчиков. Сохранения данной версии игры несовместимы с публичной версией.</string>
     <string name="heroinfo_skill_categories">Категория</string>
     <string name="heroinfo_skill_sort">Сортировка</string>
     <string name="heroinfo_inventory_categories">Категория</string>
@@ -527,9 +527,9 @@
     <string name="preferences_display_theme_blue">Кобальт</string>
     <string name="preferences_display_theme_green">Малахит</string>
     <string name="preferences_display_theme_charcoal">Обсидиан</string>
-    <string name="change_theme_requires_restart">Для изменения темы интерфейса требуется перезапуск. След Эндора был закрыт.</string>
+    <string name="change_theme_requires_restart">Для изменения темы интерфейса требуется перезапуск. Закрытие игры.</string>
     <string name="dialog_recenter">К игроку</string>
-    <string name="dialog_more">Далее</string>
+    <string name="dialog_more">Подробнее</string>
     <string name="dialog_monsterencounter_conditions">Воздействия</string>
     <string name="combat_condition_monster_apply">На %1$s воздействует %2$s.</string>
     <string name="combat_condition_monster_clear">%1$s очищается от %2$s.</string>
@@ -542,9 +542,9 @@
     <string name="combat_log_noentries">Нет записей.</string>
     <string name="preferences_high_quality_filters_title">Фильтры высокого качества</string>
     <string name="preferences_high_quality_filters">Отключите, если возникают проблемы с производительностью, например, темных пещерах. Включив, игра будет использовать прозрачные фильтры.</string>
-    <string name="storage_permissions_mandatory">Доступ к памяти необходим Следу Эндора для обработки сохранений и карты мира. Закрытие Следа Эндора.</string>
-    <string name="dialog_loading_failed_cheat">След Эндора не может загрузить файл сохранения. Это сохранение уже загружено.</string>
-    <string name="dialog_game_over_title">Вы проиграли</string>
+    <string name="storage_permissions_mandatory">Доступ к памяти необходим для обработки сохранений и карты мира. Закрытие игры.</string>
+    <string name="dialog_loading_failed_cheat">Игре не удалось загрузить файл сохранения игры. Данный файл сохранения уже загружен.</string>
+    <string name="dialog_game_over_title">Игра окончена</string>
     <string name="dialog_game_over_text">Вы делаете последний вздох и умираете.</string>
     <string name="rip_startscreen">(УМЕР)</string>
     <string name="heroinfo_mode">Режим</string>
@@ -555,16 +555,16 @@
     <string name="heroinfo_one_life">Реализм (1 жизнь)</string>
     <string name="startscreen_game_mode">Режим</string>
     <string name="startscreen_load_game">Загрузка игры</string>
-    <string name="startscreen_load_game_confirm">Текущая игра не сохранена, и Вы потеряете своего персонажа.</string>
+    <string name="startscreen_load_game_confirm">Текущая игра не будет сохранена, и вы потеряете своего персонажа.</string>
     <string name="startscreen_error_loading_game">Ошибка загрузки игры</string>
-    <string name="startscreen_error_loading_empty_slot">Загрузка из пустой ячейки невозможна.</string>
+    <string name="startscreen_error_loading_empty_slot">Не удается загрузить из пустого слота.</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">Внимание</string>
     <string name="startscreen_attention_message_slot_gets_delete_on_load">Загрузка этой игры удаляет ее слот сохранения. Вы должны сохранить игру еще раз, прежде чем переключиться на другую игру.</string>
     <string name="startscreen_mode_unlimited_saves_and_lives">Обычный (Неограниченные жизни и сохранения)</string>
     <string name="startscreen_mode_unlimited_lives">Средний (Неограниченные жизни, 1 сохранение)</string>
     <string name="startscreen_mode_50_lives">Тяжелый (50 жизней, 1 сохранение)</string>
     <string name="startscreen_mode_10_lives">Очень тяжелый (10 жизней, 1 сохранение)</string>
-    <string name="startscreen_mode_3_lives">Экстремальный (3 жизни, 1 сохранение)</string>
+    <string name="startscreen_mode_3_lives">Экстрим (3 жизни, 1 сохранение)</string>
     <string name="startscreen_mode_1_life">Реализм (1 жизнь, 1 сохранение)</string>
     <string name="preferences_language_default">Язык системы</string>
     <string name="preferences_language">Язык</string>
@@ -590,8 +590,8 @@
     <string name="skill_title_fightstyle_unarmed_unarmored">Боевой стиль: Путь монаха</string>
     <string name="iteminfo_effect_set_damage_modifier">Модификатор урона: %1$d%%</string>
     <string name="dialog_permission_information_title">Загрузка и сохранение игр</string>
-    <string name="preferences_movement_dpad_transparency_title">Прозрачность джостика</string>
-    <string name="preferences_movement_dpad_transparency">Если виртуальный джостик включен, то этот параметр определяет уровень его прозрачности.</string>
+    <string name="preferences_movement_dpad_transparency_title">Прозрачность джойстика</string>
+    <string name="preferences_movement_dpad_transparency">Если виртуальный джойстик включен, то параметр определяет уровень его прозрачности.</string>
     <string name="preferences_movement_dpad_transparency_70_pct">70%</string>
     <string name="preferences_movement_dpad_transparency_60_pct">60%</string>
     <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
@@ -603,8 +603,8 @@
     <string name="inventory_category_food">Продукты</string>
     <string name="inventory_category_potion">Зелья</string>
     <string name="inventory_category_jewelry">Драгоценности</string>
-    <string name="combat_log_item_plural">Вы нашли %1$d предметов:</string>
-    <string name="combat_log_item_single">Вы нашли предмет:</string>
+    <string name="combat_log_item_plural">Вы нашли %1$d вещей:</string>
+    <string name="combat_log_item_single">Вы нашли вещь:</string>
     <string name="startscreen_migration_title">Перенос данных</string>
     <string name="startscreen_migration_text">Перенос данных сохраненной игры.</string>
     <string name="startscreen_migration_failure">Не удалось перенести данные сохранения.</string>
