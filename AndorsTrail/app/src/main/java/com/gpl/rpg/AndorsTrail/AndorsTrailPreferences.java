@@ -78,7 +78,7 @@ public final class AndorsTrailPreferences {
 			dest.dpadTransparency = Integer.parseInt(prefs.getString("dpadtransparency", Integer.toString(DPAD_TRANSPARENCY_50_PERCENT)));
 			dest.dpadMinimizeable = prefs.getBoolean("dpadMinimizeable", true);
 			dest.optimizedDrawing = prefs.getBoolean("optimized_drawing", false);
-			dest.highQualityFilters = prefs.getBoolean("high_quality_filters", true);
+			dest.highQualityFilters = prefs.getBoolean("high_quality_filters", false);
 			dest.enableUiAnimations = prefs.getBoolean("enableUiAnimations", true);
 			dest.displayOverwriteSavegame = Integer.parseInt(prefs.getString("display_overwrite_savegame", Integer.toString(CONFIRM_OVERWRITE_SAVEGAME_ALWAYS)));
 			dest.quickslotsPosition = Integer.parseInt(prefs.getString("quickslots_placement", Integer.toString(QUICKSLOTS_POSITION_HORIZONTAL_CENTER_BOTTOM)));
