@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-02-23 01:45+0000\n"
+"PO-Revision-Date: 2023-04-17 19:14+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -39690,7 +39690,7 @@ msgstr "Wygrywasz 5 sztuk złota."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_5gold:0
 msgid "I am a good player."
-msgstr "Dobrze gram."
+msgstr "Jestem dobrym graczem."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_10gold
 msgid "You win 10 gold."
@@ -39752,11 +39752,11 @@ msgstr "[Masz 3 punkty.] Skończyłeś?"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_4
 msgid "[You have 4 points.] Do you risk taking another card?"
-msgstr "[Masz 4 punkty.] Zaryzykujesz wyjęciem jeszcze jednej karty?"
+msgstr "[Masz 4 punkty.] Zaryzykujesz i weźmiesz kolejną kartę?"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_5
 msgid "[You have 5 points.] Are you finished [laughs]?"
-msgstr "[Masz 5 punktów.] Skończyłeś [śmieje się]?"
+msgstr "[Masz 5 punktów.] Skończyłeś już [śmieje się]?"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_6
 msgid "[You have 6 points.] Was that your last card?"
@@ -39776,7 +39776,9 @@ msgstr "[Masz 9 punktów.] Skończyłeś?"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_10
 msgid "[You have 10 points.] Do you risk taking another card? [Laughs]"
-msgstr "[Masz 10 punktów.] Zaryzykujesz wzięciem jeszcze jednej karty? [Śmieje się]"
+msgstr ""
+"[Masz 10 punktów.] Zaryzykujesz i weźmiesz tylko jeszcze jedną kartę? ["
+"Śmieje się]"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_11
 msgid "[You have 11 points.] Do you want one more card?"
@@ -39820,7 +39822,7 @@ msgstr "[Masz 20 punktów.] Chcesz jeszcze jedną kartę?"
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_20:0
 msgid "Sounds stupid, but give me one more card."
-msgstr "Brzmi głupio, ale daj mi jeszcze jedną kartę."
+msgstr "Wiem że to głupie, ale daj mi jeszcze jedną kartę."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_20:1
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_21:1
@@ -39849,7 +39851,9 @@ msgstr "[Masz 24 punkty i przekroczyłeś limit.] Nie poddawaj się."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_25
 msgid "[You have 25 points and you overdraw.] Double your bet and win back what you lost."
-msgstr "[Masz 25 punktów i przekroczyłeś limit.] Podwój zakład i wygraj z powrotem to co straciłeś."
+msgstr ""
+"[Masz 25 punktów i przekroczyłeś limit.] Podwój stawkę i odzyskaj to co "
+"straciłeś."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_26
 msgid "[You have 26 points and you overdraw.] Bad luck for you."
@@ -39857,7 +39861,9 @@ msgstr "[Masz 26 punktów i przekroczyłeś limit.] Masz pecha."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_27
 msgid "[You have 27 points and you overdraw.] Next game next chance for you."
-msgstr "[Masz 27 punktów i przekroczyłeś limit.] W następnej grze będziesz miał szczęście."
+msgstr ""
+"[Masz 27 punktów i przekroczyłeś limit.] Może następnym razem pójdzie Ci "
+"lepiej."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_28
 msgid "[You have 28 points and you overdraw.] Next time you will be lucky."
@@ -39869,11 +39875,13 @@ msgstr "[Masz 29 punktów i przekroczyłeś limit.] Nie poddawaj się."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_30
 msgid "[You have 30 points and you overdraw.] Next game next chance for you."
-msgstr "[Masz 30 punktów i przekroczyłeś limit.] W następnej grze będziesz miał szczęście."
+msgstr ""
+"[Masz 30 punktów i przekroczyłeś limit.] Być może w następnej kolejce "
+"pójdzie Ci lepiej."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_31
 msgid "[You have 31 points and you overdraw.] Double your bet and win back what you lost."
-msgstr "[Masz 31 punktów i przekroczyłeś limit.] Podwój stawkę i wygraj z powrotem to co straciłeś."
+msgstr "[Masz 31 punktów i przekroczyłeś limit.] Podwój stawkę i odegraj się."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_32
 msgid "[You have 32 points and you overdraw.] Bad luck for you."
@@ -39889,7 +39897,9 @@ msgstr "Mam 15 punktów.Masz dużo szczęścia."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_lose_16
 msgid "[You show each other your cards]. I have 16 points and you lose. Next time you will be lucky."
-msgstr "[Pokazujecie sobie wzajemnie karty]. Mam 16 punktów, więc przegrywasz. Następnym razem będziesz miał szczęście."
+msgstr ""
+"[Pokazujecie sobie karty]. Mam 16 punktów, więc przegrywasz. Być może "
+"następnym razem będziesz miał szczęście."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_16
 msgid "[You show each other your cards.] I have 16 points. In my opinion, you are a bit too lucky."
@@ -39909,11 +39919,15 @@ msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 18 punktów, więc przegrywasz.
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_18
 msgid "[You show each other your cards.] I have 18 points and you win. Give me a chance to win my money back."
-msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 18 punktów, a Ty wygrałeś. Daj mi szansę wygrać z powrotem moje pieniądze."
+msgstr ""
+"[Pokazujecie sobie wzajemnie karty.] Mam 18 punktów, a Ty wygrywasz. Daj mi "
+"szansę się odegrać."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_lose_19
 msgid "[You show each other your cards.] I have 19 points and you lose. Double your bet and win back what you lost."
-msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 19 punktów, więc przegrywasz. Podwój stawkę i wygraj z powrotem to co przegrałeś."
+msgstr ""
+"[Pokazujecie sobie wzajemnie karty.] Mam 19 punktów, więc przegrywasz. "
+"Podwój stawkę i odzyskaj pieniądze."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_19
 msgid "[You show each other your cards.] I have 19 points. You have a lot of luck."
@@ -39929,15 +39943,21 @@ msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 20 punktów. Moim zdaniem masz 
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_lose_21
 msgid "[You show each other your cards.] I have 21 points and you lose. Next time, you will be lucky."
-msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 21 punktów, więc przegrywasz. Następnym razem będziesz miał szczęście."
+msgstr ""
+"[Pokazujecie sobie wzajemnie karty.] Mam 21 punktów, więc przegrywasz. Może "
+"następnym razem pójdzie Ci lepiej."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_22
 msgid "[You show each other your cards.] I have 22 points. You will take my last coin if you stay that lucky."
-msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 22 punkty. Jeśli dalej będziesz miał szczęście, to zabierzesz mi ostatni grosz."
+msgstr ""
+"[Pokazujecie sobie wzajemnie karty.] Mam 22 punkty. Jeśli dalej będziesz tak "
+"grał to puścisz mnie w skarpetkach."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_23
 msgid "[You show each other your cards.] I have 23 points. Give me a chance to win my money back."
-msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 23 punkty. Daj mi szansę wygrać z powrotem moje pieniądze."
+msgstr ""
+"[Pokazujecie sobie wzajemnie karty.] Mam 23 punkty. Daj mi szansę abym się "
+"odegrał."
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_win_24
 msgid "[You show each other your cards.] I have 24 points. You have a lot of luck."
@@ -39949,7 +39969,9 @@ msgstr "[Pokazujecie sobie wzajemnie karty.] Mam 25 punktów. Moim zdaniem masz 
 
 #: conversationlist_brimhaven_2.json:sign_waytobrim3_grave3_0
 msgid "Here lies Connat, who spent his life complaining that he was dying. In the end, he was right."
-msgstr "Tu leży Connat, który całe życie narzekał, że umiera. Pod koniec okazało się, że miał rację."
+msgstr ""
+"Tu spoczywa Connat, który przez całe życie narzekał, że umiera. W końcu "
+"okazało się, że miał rację."
 
 #: conversationlist_brimhaven_2.json:brv2_grave_9_1
 #: conversationlist_brimhaven_2.json:brv2_grave_9_0
@@ -39957,8 +39979,8 @@ msgid ""
 "Here lies Lawellyn the weak.\n"
 "Survived by Arlish"
 msgstr ""
-"Tu leży Lawellyn słaby.\n"
-"Przeżyła go Arlish"
+"Tu spoczywa Lawellyn bezsilny.\n"
+"Pozostawił Arlish"
 
 #: conversationlist_brimhaven_2.json:brv2_grave_9_1:0
 msgid "Hmm, interesting."
@@ -39971,59 +39993,72 @@ msgstr "Dlaczego? Co o tym wiesz?"
 #: conversationlist_brimhaven_2.json:arlish_asd_0:0
 #: conversationlist_brimhaven_2.json:arlish_asd_0:1
 msgid "Well, I have it right here."
-msgstr "Świetnie, mam to ze sobą."
+msgstr "Cóż, mam go ze sobą."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_0:2
 msgid "You have looked at the dagger. Can you tell me more?"
-msgstr "Spojrzałeś na sztylet. Możesz mi powiedzieć o nim coś więcej?"
+msgstr "Spójrz na ten sztylet. Możesz mi o nim powiedzieć coś więcej?"
 
 #: conversationlist_brimhaven_2.json:arlish_asd_0:3
 msgid "I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it."
-msgstr "Zaciekawiło mnie to, powiedziano mi, że ten sztylet należał do Lawellyna, ale już go nie mam."
+msgstr ""
+"Jestem po prostu ciekawy, dowiedziałem się że sztylet który kiedyś miałem "
+"należał do Lawellyna."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_0:4
 msgid "Nothing. I was just curious. Bye."
-msgstr "Nic. Zaciekawiło mnie. Cześć."
+msgstr "Nic. Pytam z ciekawości. Do zobaczenia."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_20
 msgid "Arlish takes the dagger and examines it while you continue to talk."
-msgstr "Arlish bierze sztylet i ocenia go, podczas gdy Ty kontynuujesz rozmowę."
+msgstr "Arlish bierze sztylet i ogląda go, podczas gdy Ty mówisz dalej."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_20:0
 msgid "I was able to acquire the dagger and its gem. Then Edrin repaired it for me."
-msgstr "Byłem w stanie odzyskać sztylet oraz klejnot. Potem Edrin go dla mnie naprawił."
+msgstr "Kupiłem sztylet oraz osobno klejnot. Potem Edrin naprawił go dla mnie."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_30
 msgid "This can't be it. It looks like my father's dagger, but his dagger has been missing for a couple of years now. I believe this is stolen property!"
-msgstr "Nie może być. Wygląda na sztylet mojego ojca, ale jego zaginął parę lat temu. Sądzę, że to skradziona własność!"
+msgstr ""
+"To niemożliwe. Wygląda jak zagubiony kilka lat temu sztylet mojego ojca. "
+"Myślę, że został wtedy skradziony!"
 
 #: conversationlist_brimhaven_2.json:arlish_asd_30:1
 msgid "So what.  You said it has been missing for years, so how would you know?"
-msgstr "Więc co. Powiedziałeś, że od wielu lat był zaginiony, więc skąd to wiesz?"
+msgstr "Co z tego. Skąd to wiesz, skoro mówisz że zaginął wiele lat temu?"
 
 #: conversationlist_brimhaven_2.json:arlish_asd_40
 msgid "You see, this was my father Lawellyn's most prized possession. He kept it with him always."
-msgstr "Widzisz, to była najcenniejsza rzecz Lawellyna, mojego ojca. Zawsze go miał ze sobą."
+msgstr ""
+"Widzisz, to była najcenniejsza rzecz która należała do mojego ojca. Zawsze "
+"miał go przy sobie."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_50
 msgid "Then one night, father did not come to my place for dinner as was the custom.  I quickly became worried that something terrible had happened to him. So I went to Mustura for help, but she quickly pushed it off as 'Lawellyn simply went on a trip'."
-msgstr "Tamtej nocy, ojciec nie przyszedł do mnie na kolację, jak to zazwyczaj robił. Szybko się zmartwiłem, że coś strasznego mu się przydarzyło. Poszedłem po Musturę prosić o pomoc, ale szybko mnie zbyła mówiąc \"Lawellyn wybrał się w podróż\"."
+msgstr ""
+"Tamtej nocy, ojciec nie przyszedł jak zwykle na kolację. Od razu zaczęłam "
+"podejrzewać, że stało mu się coś strasznego. Poszłam więc do Mustury prosić "
+"o pomoc, ale ta szybko mnie zbyła mówiąc \"Lawellyn po prostu wyjechał\"."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_70
 msgid "Indeed it does.  In fact, I fear he was murdered. Will you help?"
-msgstr "Tak było rzeczywiście. Obawiam się jednak, że został zamordowany. Pomożesz mi?"
+msgstr ""
+"W rzeczy samej. Prawdę mówiąc, obawiam się, że został jednak zamordowany. "
+"Pomożesz mi?"
 
 #: conversationlist_brimhaven_2.json:arlish_asd_70:0
 msgid "Yes.  Of course I will go investigate a little.  You are in need."
-msgstr "Tak. Oczywiście trochę się temu przyjrzę. Jesteś w potrzebie."
+msgstr "Tak. Oczywiście, zrobię małe śledztwo. Potrzebujesz tego."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_70:1
 msgid "I'm sorry, but I just don't have the time."
-msgstr "Przykro mi, ale teraz nie mam czasu."
+msgstr "Przykro mi, ale teraz nie mam na to czasu."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_60
 msgid "But I tried to explain to her that Lawellyn would not do so without telling me."
-msgstr "Ale próbowałem jej to wytłumaczyć, że Lawellyn nie zrobiłby tego nic mi nie wspominając."
+msgstr ""
+"Próbowałam jej wytłumaczyć, że Lawellyn nie zrobiłby czegoś takiego nie "
+"informując mnie."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_60:0
 msgid "That sounds suspicious."
@@ -40039,27 +40074,37 @@ msgstr "Przykro mi to słyszeć."
 
 #: conversationlist_brimhaven_2.json:arlish_asd_15
 msgid "Well, he did have a dagger, but I can't say if the one you had was his if I can't look at it."
-msgstr "Świetnie, miał sztylet, ale nie jestem w stanie stwierdzić czy ten, skoro nie mogę go zobaczyć."
+msgstr ""
+"Cóż, owszem, miał sztylet, ale nie jestem w stanie potwierdzić czy o niego "
+"Ci chodzi, ponieważ nie mogę go zobaczyć."
 
 #: conversationlist_brimhaven_2.json:brv_asd_no_info_10
 msgid "No, I am sorry, I don't."
-msgstr "Nie, przykro mi, nie posiadam takich informacji."
+msgstr "Nie, przykro mi, niestety nic nie wiem."
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_10
 msgid "I may.  Who's asking?"
-msgstr "Być może. Kto pyta?"
+msgstr "Być może. A kto pyta?"
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_10:0
 msgid "Well, I've been asked by Lawellyn's daughter, Arlish, to investigate his death."
-msgstr "Cóż, Arlish, córka Lawellyna poprosiła mnie abym zbadał okoliczności jego śmierci."
+msgstr "Cóż, Arlish poprosiła mnie abym zbadał okoliczności śmierci jej ojca."
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_20
 msgid "Oh, OK.  Arlish helped me a lot in school when we were kids, so I feel like I owe it to her to help you."
-msgstr "Och, dobra. Arlish bardzo pomagała mi w nauce, kiedy byliśmy dziećmi a zatem myślę, że jestem jej winien pomoc."
+msgstr ""
+"Och, w porządku. Arlish często pomagała mi w nauce, gdy byliśmy dziećmi, "
+"myślę zatem, że jestem winien jej pomoc."
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_30
 msgid "Don't tell the bartender, but I like to frequent the tavern in Loneford a lot, and as such, I've developed quite a friendship with the owner Kizzo. One day we were talking about how scary the woods between Loneford and Brimhaven can be at nighttime.  After sharing some not so scary stories, Kizzo told me a crazy murder story.  Now I can't remember the details because...well, I had been drinking."
-msgstr "Nie mów o tym barmanowi, ale ponieważ często przychodzę do karczmy w Loneford, to zawiązałem nić przyjaźni z jej właścicielem Kizzo. Pewnego razu rozmawialiśmy o tym jak straszny może być nocą las między Loneford a Brimhaven. Po kilku niezbyt strasznych historyjkach, Kizzo opowiedział mi historię szalonego morderstwa. Szczegółów nie pamiętam za dobrze, bo... cóż, byłem już mocno wstawiony."
+msgstr ""
+"Nie mów o tym tutejszemu barmanowi, ale ponieważ często zaglądam do karczmy "
+"w Loneford, to zawiązałem nić przyjaźni z jej właścicielem o imieniu Kizzo. "
+"Pewnego razu rozmawialiśmy o tym, jak straszny może być nocą las między "
+"Loneford a Brimhaven. Po kilku niezbyt przerażających opowiastkach, Kizzo "
+"opowiedział mi historię szalonego morderstwa. Szczegółów nie pamiętam już za "
+"dobrze, bo... no cóż, byłem już wtedy dosyć mocno wstawiony."
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_40
 msgid "I suggest that you go talk to Kizzo."
