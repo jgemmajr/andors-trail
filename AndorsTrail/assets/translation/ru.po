@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2022-10-23 04:10+0000\n"
+"PO-Revision-Date: 2023-04-21 18:37+0000\n"
 "Last-Translator: ilya <keygrov@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ru/>\n"
@@ -11,9 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -380,11 +380,11 @@ msgstr "Казаульское владение"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr ""
+msgstr "Мертвящая чума"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr ""
+msgstr "Лунатизм"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -893,9 +893,9 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]Привет, малыш. Михаил ведь твой отец, не так ли? У тебя ещё брат есть.\n"
+"Привет, малыш. Ты младший ребенок Михаила, да? С твоим братом.\n"
 "\n"
-"Я Леонид, управляющий деревни Кроссглен."
+"Я Леонид, управляющий деревней Кроссглен."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -2551,7 +2551,7 @@ msgstr "Нет, ты отдашь мне эту книгу."
 
 #: conversationlist_fallhaven_larcal.json:larcal_4
 msgid "Good, now run away."
-msgstr "[REVIEW]Хороший мальчик. А теперь беги прочь."
+msgstr "Хорошо, а теперь беги."
 
 #: conversationlist_fallhaven_larcal.json:larcal_5
 msgid "OK, now you're starting to annoy me, kid. Get lost while you still can."
@@ -7293,7 +7293,9 @@ msgstr "Мы долго и успешно копали здесь. Но это �
 
 #: conversationlist_prim_arghest.json:arghest_4
 msgid "The attacks on Prim by the beasts, the bandits and the disappearances really reduced our numbers. Now we cannot keep up the mining activity any longer."
-msgstr "[REVIEW]Атаки зверей и бандитов на Прим сильно уменьшили наши ряды. Теперь мы не можем больше вести здесь раскопки."
+msgstr ""
+"Атаки зверей и бандитов на Прим сильно уменьшили наши ряды. Теперь мы не "
+"можем больше продолжать добычу полезных ископаемых."
 
 #: conversationlist_prim_arghest.json:arghest_5
 msgid "I am Arghest. I guard the entrance here to make sure no one enters the old mine."
@@ -22167,7 +22169,7 @@ msgstr "Ох. Конечно."
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40
 msgid "So you need a cure against giant mushrooms?"
-msgstr "Так тебе нужно лекарство от гигантских грибов."
+msgstr "Так тебе нужно лекарство от гигантских грибов?"
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40:0
 #: conversationlist_graveyard1.json:graveyardtraveler_10:0
@@ -22363,7 +22365,9 @@ msgstr "Почему он не хочет заниматься этой рабо
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2
 msgid "You're really curious kid... Well our superior, the guard captain, only wants to pay the woodcutter when he has done his work."
-msgstr "[REVIEW]Ты очень любопытный... Наш начальник, надзиратель, хочет заплатить дровосеку только после того, как он выполнит свою работу."
+msgstr ""
+"Очень любопытный ребенок.... Наш начальник, капитан стражи, хочет заплатить "
+"дровосеку только после того, как он выполнит свою работу."
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2:0
 msgid "Maybe I could help?"
@@ -33889,7 +33893,7 @@ msgstr "Он не может уйти без нашей доли подполь�
 
 #: conversationlist_omicronrg9.json:umar_guild04_17:0
 msgid "I thought he would come back here."
-msgstr "[REVIEW]Он, кажется, здесь."
+msgstr "Думаю, он вернется сюда."
 
 #: conversationlist_omicronrg9.json:umar_guild04_17:1
 msgid "You're right."
@@ -34079,7 +34083,9 @@ msgstr "Виноватым здесь будешь ты."
 
 #: conversationlist_omicronrg9.json:guild04_defy_gone_script_grant
 msgid "Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?"
-msgstr "[Странно. Дефи и его люди исчезли. Может, они поговорили со здешними пивоварами и сообщили Умару?]"
+msgstr ""
+"Странно. Дефи и его люди исчезли. Может, они поговорили со здешними "
+"пивоварами и сообщили Умару?"
 
 #: conversationlist_arulir_mountain.json:arulirmountain_entrance
 msgid "You have a gut feeling that it would be better to not go any further unprepared."
@@ -47179,27 +47185,31 @@ msgstr "По всей стене кровь! Как будто что-то бр�
 
 #: conversationlist_omi2.json:elm2_bed
 msgid "You wouldn't sleep here."
-msgstr "Вы бы здесь не спали."
+msgstr "Вы бы здесь не стали спать."
 
 #: conversationlist_omi2.json:elm2_chest
 msgid "This large chest is locked with a simple but robust lock with a small keyhole in its center."
-msgstr "Этот большой сундук заперт простым, но надежным замком с маленькой замочной скважиной в центре."
+msgstr ""
+"Большой сундук запертый простым, но надежным замком с маленькой замочной "
+"скважиной в центре."
 
 #: conversationlist_omi2.json:elm2_chest:0
 msgid "Use Jern's rusty key."
-msgstr "Используйте ржавый ключ Джерна."
+msgstr "Использовать ржавый ключ Джерна."
 
 #: conversationlist_omi2.json:elm2_chest:1
 msgid "Hit the lock."
-msgstr "Щелкнул замок."
+msgstr "Ударить по замку."
 
 #: conversationlist_omi2.json:elm2_chest_open
 msgid "Despite the rust, you introduce the key in the lock without major trouble. It seems to fit well enough. The chest is now open."
-msgstr "Несмотря на ржавчину, вы вставляете ключ в замок без особых проблем. Кажется, он подходит достаточно хорошо. Теперь сундук открыт."
+msgstr ""
+"Ключ, несмотря на ржавчину, вставляется в замок без особых проблем. Похоже, "
+"он подходит достаточно хорошо. Теперь сундук открыт."
 
 #: conversationlist_omi2.json:elm2_chest_hit
 msgid "The chest remains undamaged."
-msgstr "Сундук остался неповрежденным."
+msgstr "Сундук не пострадал."
 
 #: conversationlist_omi2.json:elm2_chest_hit:1
 msgid "Try using Jern's key."
@@ -47207,7 +47217,7 @@ msgstr "Попробовать использовать ключ Джерна."
 
 #: conversationlist_omi2.json:elm4_sign1
 msgid "You cannot read the sign from here."
-msgstr "Отсюда вы не сможете прочитать надпись."
+msgstr "Издали надпись невозможно прочитать."
 
 #: conversationlist_omi2.json:elm4_sign2
 msgid ""
@@ -47215,9 +47225,10 @@ msgid ""
 "\n"
 "Signed by Guthbered of Prim."
 msgstr ""
-"ШАХТЕРЫ: Эта зона объявлена нестабильной. Дальнейшие раскопки здесь запрещены.\n"
+"ШАХТЕРЫ: Эта зона объявлена неустойчивой. Дальнейшие раскопки здесь "
+"запрещены.\n"
 "\n"
-"Подписано Гатбередом из Прима."
+"Подписано Гатбердом из Прима."
 
 #: conversationlist_omi2.json:elm4_hole
 msgid "The floor collapses below you, and you fall onto a muddy floor."
@@ -49395,6 +49406,9 @@ msgstr "Хорошо, я верю в тебя."
 #: conversationlist_sullengard.json:deebo_orchard_deebo_80
 msgid " The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
 msgstr ""
+" В последний раз золотого шакала видели, когда он возвращался в \"лес "
+"Зулленгарда\" к западу от моего фруктового сада. Вернитесь ко мне с "
+"доказательством его смерти."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_90
 msgid ""
@@ -49434,15 +49448,19 @@ msgstr "Вы фермер?"
 
 #: conversationlist_sullengard.json:throthaus_4:0
 msgid "No. But I'm a child of an ordinary farmer in a small settlement called Crossglen."
-msgstr "[REVIEW]Нет. Мой отец - обычный фермер из небольшого поселения под названием Кроссглен."
+msgstr ""
+"Нет. Мой отец - обычный фермер из небольшого поселения под названием "
+"Кроссглен."
 
 #: conversationlist_sullengard.json:throthaus_4:1
 msgid "Yes. I'm a child of an ordinary farmer in a small settlement called Crossglen."
-msgstr "[REVIEW]Да. Мой отец - фермер из небольшого поселения под названием Кроссглен."
+msgstr "Да. Мой отец - фермер из небольшого поселения под названием Кроссглен."
 
 #: conversationlist_sullengard.json:throthaus_5
 msgid "If you are the child of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here."
-msgstr "[REVIEW]Раз уж вы родились в семье обычного фермера. Тогда возьмите мои вилы возле моего дома на юго-запад отсюда."
+msgstr ""
+"Раз уж из семьи обычного фермера. Тогда возьмите мои вилы возле моего дома "
+"на юго-запад отсюда."
 
 #: conversationlist_sullengard.json:throthaus_6
 msgid "If you are able to pull it out from the haystack, then it will be yours."
@@ -49454,11 +49472,11 @@ msgstr "Не беспокойся обо мне. У меня есть еще т�
 
 #: conversationlist_sullengard.json:throthaus_7:0
 msgid "I'll prove it to you that I'm the child of a farmer!"
-msgstr "[REVIEW]Я докажу вам, что я из семьи фермера!"
+msgstr "Я докажу вам, что я из семьи фермера!"
 
 #: conversationlist_sullengard.json:throthaus_7:1
 msgid "You'll see that you are wrong about me. I'm the child of a farmer!"
-msgstr "[REVIEW]Вы увидите, что ошибаетесь насчет меня. Я из семьи фермера!"
+msgstr "Вы увидите, что ошибаетесь насчет меня. Я из семьи фермера!"
 
 #: conversationlist_sullengard.json:sullengard_hadena_0
 msgid "Andor, good timing! Your arrival is much appreciated because I need your help to get my husband home on time today."
@@ -49593,7 +49611,9 @@ msgstr "Правильно. Упс... у меня нет новых вил. Се
 
 #: conversationlist_sullengard.json:sullengard_ainsley_3
 msgid "Thank you so much, kid. Tell my wife Hadena I can come home on time today."
-msgstr "[OUTDATED]Большое спасибо, малыш. Передайте моей жене Эйнсли, что сегодня я смогу вернуться домой вовремя."
+msgstr ""
+"Большое спасибо, малыш. Скажи моей жене - Хадене, я смогу вернуться домой "
+"вовремя."
 
 #: conversationlist_sullengard.json:sullengard7_road_sign
 msgid ""
@@ -51649,281 +51669,310 @@ msgstr "Убирайся отсюда сейчас же. И не возвращ�
 #: conversationlist_haunted_forest.json:daw_haunted_enterance
 msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
 msgstr ""
+"Когда вы приближаетесь, волосы встают дыбом, вы испытываете внезапное и "
+"сильное чувство страха и решаете, что не время идти дальше."
 
 #: conversationlist_haunted_forest.json:gabriel_shh
 msgid "Shh!"
-msgstr ""
+msgstr "Ш-ш-ш!"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:0
 msgid "What? Why?"
-msgstr ""
+msgstr "Что? Почему?"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:1
 #: conversationlist_haunted_forest.json:gabriel_daw_10:0
 msgid "[You just nod up and down]"
-msgstr ""
+msgstr "[Вы просто киваете вверх и вниз]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10
 msgid "Do you hear it?"
-msgstr ""
+msgstr "Вы слышите?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:1
 msgid "[Lie] Umm I sure do."
-msgstr ""
+msgstr "[Ложь] х-м-м, да-а."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:2
 msgid "No, sir, I do not."
-msgstr ""
+msgstr "Нет, сэр."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10_rec
 msgid "Speak, child."
-msgstr ""
+msgstr "Говори, дитя."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20
 msgid "What do you hear?"
-msgstr ""
+msgstr "Что вы слышите?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:0
 msgid "The Shadow. It talks to me too."
-msgstr ""
+msgstr "Тень. Она говорит и со мной."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:1
 msgid "The birds are singing today. I also like to listen to them."
-msgstr ""
+msgstr "Сегодня поют птицы. Я тоже люблю их слушать."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_lie
 msgid "You lie!"
-msgstr ""
+msgstr "Ложь!"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_birds
 msgid "No! Not that."
-msgstr ""
+msgstr "Нет! Не так."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_30
 msgid "It's coming from over there. [He points east]"
-msgstr ""
+msgstr "Оно исходит оттуда. [Он указывает на восток]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35
 msgid "Clear your mind and you will hear it."
-msgstr ""
+msgstr "Очистите свой разум, и вы услышите его."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:0
 msgid "You are crazy. I'm out of here."
-msgstr ""
+msgstr "Ты сумасшедший. Я ухожу отсюда."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:1
 msgid "How do I clear my mind?"
-msgstr ""
+msgstr "Как мне очистить свой разум?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40
 msgid "Close your eyes."
-msgstr ""
+msgstr "Закройте глаза."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:0
 msgid "Yeah, you're scaring me. Maybe I'll come back later."
-msgstr ""
+msgstr "Да, ты меня пугаешь. Может быть, я приду позже."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:1
 msgid "Sure. I'll close my eyes now, but don't try anything that you will regret."
 msgstr ""
+"Конечно. Сейчас я закрою глаза, но не делайте ничего такого, о чем потом "
+"будете жалеть."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50
 msgid "Do you hear it now?"
-msgstr ""
+msgstr "Вы слышите?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50:0
 msgid "Yes, I think so. It sounds like moaning of some kind."
-msgstr ""
+msgstr "Да, думаю. Похоже на какой-то стон."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60
 msgid "Yes! Finally. Someone else that can hear it."
-msgstr ""
+msgstr "Да! Наконец-то. Это слышу не только я."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60:0
 msgid "This is scaring me. I'm going home to father."
-msgstr ""
+msgstr "Очень страшно. Лучше пойду к отцу."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70
 msgid "I have no idea and the other villagers think I am crazy. Do you think I'm crazy?"
 msgstr ""
+"Без понятия, а другие жители считают меня сумасшедшим. Вы считаете меня "
+"сумасшедшим?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:0
 msgid "Maybe, but I'm intrigued, so I will say 'no'."
-msgstr ""
+msgstr "Возможно, но мне интересно, поэтому скажу «нет»."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:1
 msgid "Oh, absolutely."
-msgstr ""
+msgstr "О, безусловно."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_80
 msgid "OK. I fear that whatever it is, it is coming for this church and the village."
 msgstr ""
+"Хорошо. Я боюсь, что бы это ни было, оно придет сюда в церковь и деревню."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85
 msgid "I am not an adventurer, and I am certainly not a fighter."
-msgstr ""
+msgstr "Я не авантюрист, и уж точно не боец."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85:0
 msgid "Obviously"
-msgstr ""
+msgstr "Очевидно"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90
 msgid "I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?"
 msgstr ""
+"Мне нужен кто-то желающий и способный. Вы готовы исследовать шум и "
+"остановить его, если это угроза?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:0
 msgid "Of course. Anything for the Shadow."
-msgstr ""
+msgstr "Конечно. Все для Тени."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:1
 msgid "If there is a reward, why not?"
-msgstr ""
+msgstr "Если есть вознаграждение, то почему бы и нет?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:2
 msgid "I don't think I am ready. "
-msgstr ""
+msgstr "Думаю, пока рано. "
 
 #: conversationlist_haunted_forest.json:gabriel_daw_100
 msgid "Outstanding. Report back to me when you are done."
-msgstr ""
+msgstr "Блестяще. Сообщите мне, когда закончите."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete
 msgid "Why are you still here when the noises persist?"
-msgstr ""
+msgstr "Почему вы все еще здесь, если шум не стихает?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:0
 msgid "Can you explain to me again what it is that you want me to do?"
-msgstr ""
+msgstr "Объясните мне еще раз, что вы от меня хотите?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:1
 msgid "You're not the boss of me, Shadow man. I will address your problem when I am ready to do so."
 msgstr ""
+"Не вам надо мной командовать, человек-тень. Я решу твою проблему, когда "
+"созрею для этого."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_10
 msgid "The noise, my child! It's coming from over there. [He points east]"
-msgstr ""
+msgstr "Шум, дитя мое! Он доносится оттуда. [Он указывает на восток]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20
 msgid "I asked you to go investigate the noise and stop it if it is a threat"
 msgstr ""
+"Я попросил вас проверить шум и прекратить его, если он представляет угрозу"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20:0
 msgid "Oh yeah. Sorry. I will get on top of that right away."
-msgstr ""
+msgstr "Ах, да. Извините. Я сейчас же займусь этим."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0
 msgid "The noise, it's gone! Was it you? Did you stop it?"
-msgstr ""
+msgstr "Шум, он исчез! Это были вы? Вы остановили его?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0:0
 msgid "Yes. It was me."
-msgstr ""
+msgstr "Да. Именно я."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10
 msgid "Well, for that, I am eternally grateful."
-msgstr ""
+msgstr "За это я бесконечно благодарен."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:0
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:0
 msgid "How 'grateful' are you?"
-msgstr ""
+msgstr "Как сильно вы \"благодарны\"?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:1
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:1
 msgid "I will do anything for the Shadow."
-msgstr ""
+msgstr "Я сделаю все для Тени."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_15
 msgid "I will get to that momentarily."
-msgstr ""
+msgstr "Скоро займусь этим вопросом."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_13
 msgid "Thank you, my child."
-msgstr ""
+msgstr "Благодарю тебя, дитя мое."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20
 msgid "Please tell me what was causing the noise?"
-msgstr ""
+msgstr "Расскажите, пожалуйста, что было причиной шума?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20:0
 msgid "A demonic creature and its minions rose from their graves and were roaming the forest."
 msgstr ""
+"Демоническое существо и его приспешники восстали из своих могил и бродили по "
+"лесу."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_30:0
 msgid "They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning to make Vilegard their first victims"
 msgstr ""
+"Они жили в заброшенном доме в лесу и проводили какой-то ритуал. Я думаю, что "
+"они планировали сделать Вильгард своей первой жертвой"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40
 msgid "This is indeed alarming. But we are so grateful for your work here."
 msgstr ""
+"Действительно, ситуация тревожная. Тем не менее, мы очень благодарны за вашу "
+"помощь."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_50
 msgid "Very! In fact, here are 3000 gold pieces for all your trouble."
-msgstr ""
+msgstr "Отлично! И вообще, вот 3000 золотых за все ваши хлопоты."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_49
 msgid "Walk with the Shadow, my child."
-msgstr ""
+msgstr "Иди с Тенью, дитя мое."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_10
 msgid "Just as you reach the bottom step, you look across the room to see this demonic creature. It does not see you as it's looking towards the ground."
 msgstr ""
+"Достигнув нижней ступеньки, вы бросаете взгляд через всю комнату и видите "
+"демоническое существо. Но оно не видит вас, так как смотрит в пол."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_20
 msgid "It begins to bring its arms and head straight up towards the ceiling while moaning and speaking in a language that you do not understand. When all of a sudden it notices your presence and begins to drop it's arm and points directly at you."
 msgstr ""
+"Оно начинает поднимать руки и голову прямо к потолку, при этом стонет и "
+"говорит на непонятном вам языке. Вдруг оно замечает ваше присутствие, "
+"опускает руку и указывает прямо на вас."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_30
 msgid "Again, yelling in a language that you do not understand. You begin to tremble in fear."
-msgstr ""
+msgstr "И снова крики на непонятном языке. Вы начинаете дрожать от страха."
 
 #: conversationlist_haunted_forest.json:haunted_forest_discovery_script_10
 msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much loader now."
 msgstr ""
+"Войдя в это мрачное место, вы подозреваете, что приближаетесь к звукам, "
+"которые слышал Габриэль, так как стоны теперь намного громче."
 
 #: conversationlist_haunted_forest.json:road2_daw_10
 msgid "You stick your head between the trees."
-msgstr ""
+msgstr "Вы просунули голову между деревьями."
 
 #: conversationlist_haunted_forest.json:road2_daw_10:0
 msgid "What an eerie sound ..."
-msgstr ""
+msgstr "Какой жуткий звук..."
 
 #: conversationlist_haunted_forest.json:road2_daw_20
 msgid "Now you notice that the moaning heard by Gabriel is a little louder here."
-msgstr ""
+msgstr "Вы заметили, что стон, который слышал Габриэль, здесь немного громче."
 
 #: conversationlist_haunted_forest.json:road5_daw_10
 msgid "As you stick your head between the trees, you feel a burst of cold air and a shiver goes down your body"
 msgstr ""
+"Просунув голову между деревьями, вы чувствуете порыв холодного воздуха, и по "
+"вашему телу проходит дрожь"
 
 #: conversationlist_haunted_forest.json:road5_daw_10:0
 msgid "This doesn't feel right! I should get out of here now."
-msgstr ""
+msgstr "Что-то здесь не так! Мне нужно убираться отсюда."
 
 #: conversationlist_haunted_forest.json:road5_daw_10:1
 msgid "I should stick around a little bit longer."
-msgstr ""
+msgstr "Мне стоит задержаться здесь еще немного."
 
 #: conversationlist_haunted_forest.json:haunted_cemetery1_nonwalkable_hole
 msgid "As you emerge from the hole, the rope tumbles to the ground."
-msgstr ""
+msgstr "В момент, когда вы вылезаете из отверстия, веревка падает на землю."
 
 #: conversationlist_haunted_forest.json:road5_daw_20
 msgid "Now you begin to notice that the moaning heard by Gabriel is a little loader here."
 msgstr ""
+"Вы начинаете замечать, что стоны, которые слышал Габриэль, здесь немного "
+"нагружают."
 
 #: conversationlist_haunted_forest.json:road5_daw_20:0
 msgid "I must be getting closer to the source. It's time to press on."
-msgstr ""
+msgstr "Должно быть, я все ближе к источнику. Пришло время поднажать."
 
 #: conversationlist_haunted_forest.json:haunted_benzimos_death_10
 msgid "Benzimos is now dead ... again."
-msgstr ""
+msgstr "Бензимос мертв... снова."
 
 #: conversationlist_next_release.json:crossglen_valentina_andor_25
 msgid "Don't you remember who lives there?"
-msgstr ""
+msgstr "Разве вы не помните, кто там живет?"
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -55702,7 +55751,7 @@ msgstr "Грибной суп из Глориозы"
 
 #: itemlist_sullengard.json:gloriosa_mushroom_soup:description
 msgid "A delicious but rare soup perfected by Nimael."
-msgstr "[OUTDATED][TODO]"
+msgstr "Прекрасный вкусный, но редкий суп, приготовленный Нимаэлем."
 
 #: itemlist_sullengard.json:zaccheria_inventory
 msgid "Zaccheria's shop inventory"
@@ -55822,59 +55871,63 @@ msgstr "Клинок принадлежал тому, кто был до теб�
 
 #: itemlist_haunted_forest.json:death_mace
 msgid "Death mace"
-msgstr ""
+msgstr "Смертоносная булава"
 
 #: itemlist_haunted_forest.json:angel_feather
 msgid "Angel feather"
-msgstr ""
+msgstr "Перо ангела"
 
 #: itemlist_haunted_forest.json:angel_feather:description
 msgid "A feather from the Angel of death. Legend states that if you place one under a person's pillow, it causes the Angel of death to appear..."
 msgstr ""
+"Перо Ангела смерти. Легенда гласит, что если положить его под подушку "
+"человека, то оно вызывает появление Ангела смерти..."
 
 #: itemlist_haunted_forest.json:human_skull:description
 msgid "Freaky to most, but intriguing to some."
-msgstr ""
+msgstr "Для большинства - дико, но для некоторых - интригующе."
 
 #: itemlist_haunted_forest.json:skeletal_remains
 msgid "Skeletal remains"
-msgstr ""
+msgstr "Остатки скелета"
 
 #: itemlist_haunted_forest.json:skeletal_remains:description
 msgid "Ancient human bones."
-msgstr ""
+msgstr "Древние человеческие кости."
 
 #: itemlist_haunted_forest.json:shield_of_undead
 msgid "Shield of the undead"
-msgstr ""
+msgstr "Щит нежити"
 
 #: itemlist_haunted_forest.json:shield_of_undead:description
 msgid "This shield calls for death, and yours will do."
-msgstr ""
+msgstr "Щит требует смерти, и твоя смерть сгодится."
 
 #: itemlist_haunted_forest.json:spider_eggs
 msgid "Spider eggs"
-msgstr ""
+msgstr "Яйца паука"
 
 #: itemlist_haunted_forest.json:spider_eggs:description
 msgid "Better served cooked, but some like to eat these raw."
-msgstr ""
+msgstr "Подавать лучше в вареном виде, однако некоторые любят и сырые."
 
 #: itemlist_haunted_forest.json:tonic_of_blood
 msgid "Tonic of blood"
-msgstr ""
+msgstr "Тонизирующее средство для крови"
 
 #: itemlist_haunted_forest.json:tonic_of_blood:description
 msgid "An ancient \"healing\" remedy that's been known to cause more harm than good."
 msgstr ""
+"Древнее \"лечебное\" средство, которое, как известно, приносит больше вреда, "
+"чем пользы."
 
 #: itemlist_haunted_forest.json:eye_ball
 msgid "Bat eye"
-msgstr ""
+msgstr "Глаз летучей мыши"
 
 #: itemlist_haunted_forest.json:eye_ball:description
 msgid "The eye ball of a \"three-eyed bat\"."
-msgstr ""
+msgstr "Глазное яблоко \"трехглазой летучей мыши\"."
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 msgid "Tiny rat"
@@ -59423,19 +59476,19 @@ msgstr "Ледиофа"
 
 #: monsterlist_fungi_panic.json:lombric_ball
 msgid "Lombric ball"
-msgstr ""
+msgstr "Червешар"
 
 #: monsterlist_fungi_panic.json:lombric_ball2
 msgid "Mature lombric ball"
-msgstr ""
+msgstr "Взрослый червешар"
 
 #: monsterlist_fungi_panic.json:lombric_ball3
 msgid "Quick lombric ball"
-msgstr "[REVIEW]Ломбрический шар"
+msgstr "Быстрый червешар"
 
 #: monsterlist_fungi_panic.json:lombric_beast
 msgid "Lombric beast"
-msgstr "Ломбрический зверь"
+msgstr "Червешарый зверь"
 
 #: monsterlist_fungi_panic.json:zuul_khan1_blocker
 #: monsterlist_fungi_panic.json:zuul_khan2_blocker
@@ -59584,7 +59637,7 @@ msgstr "Запутавшийся солдат Фейгарда"
 
 #: monsterlist_omi2.json:ortholion_subdued
 msgid "Subdued Feygard mountain scout"
-msgstr "Покоренный горный разведчик Фейгард"
+msgstr "Подавленный горный разведчик Фейгарда"
 
 #: monsterlist_omi2.json:ortholion_guard_wounded
 msgid "Wounded Feygard mountain scout"
@@ -59951,59 +60004,59 @@ msgstr "Королева лавовых сущностей"
 
 #: monsterlist_haunted_forest.json:haunted_benzimos
 msgid "Benzimos"
-msgstr ""
+msgstr "Бензимос"
 
 #: monsterlist_haunted_forest.json:angel_death
 msgid "Angel of death"
-msgstr ""
+msgstr "Ангел смерти"
 
 #: monsterlist_haunted_forest.json:skeletal_raider
 msgid "Skeletal raider"
-msgstr ""
+msgstr "Скелет-налетчик"
 
 #: monsterlist_haunted_forest.json:dead_walker
 msgid "Deadwalker"
-msgstr ""
+msgstr "Ходячий мертвец"
 
 #: monsterlist_haunted_forest.json:sinister_wraith
 msgid "Sinister wraith"
-msgstr ""
+msgstr "Зловещий призрак"
 
 #: monsterlist_haunted_forest.json:sleepless_taint
 msgid "Sleepless taint"
-msgstr ""
+msgstr "Бессонное пятно"
 
 #: monsterlist_haunted_forest.json:death_wrecker
 msgid "Death wrecker"
-msgstr ""
+msgstr "Разрушитель смерти"
 
 #: monsterlist_haunted_forest.json:graveyard_gatekeeper
 msgid "Graveyard gatekeeper"
-msgstr ""
+msgstr "Привратник кладбища"
 
 #: monsterlist_haunted_forest.json:mindless_disgrace
 msgid "Mindless disgrace"
-msgstr ""
+msgstr "Бездумное безобразие"
 
 #: monsterlist_haunted_forest.json:grieveless_dead
 msgid "Grieveless dead"
-msgstr ""
+msgstr "Безжалостная смерть"
 
 #: monsterlist_haunted_forest.json:musty_prowler
 msgid "Musty prowler"
-msgstr ""
+msgstr "Заплесневелый бродяга"
 
 #: monsterlist_haunted_forest.json:forest_hunter
 msgid "Forest hunter"
-msgstr ""
+msgstr "Лесной охотник"
 
 #: monsterlist_haunted_forest.json:three_eyed_bat
 msgid "Three-eyed bat"
-msgstr ""
+msgstr "Трехглазая летучая мышь"
 
 #: monsterlist_haunted_forest.json:gabriel
 msgid "Gabriel"
-msgstr ""
+msgstr "Габриэль"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -63039,7 +63092,7 @@ msgstr "Я оставил кольцо себе и не сказал об это
 
 #: questlist_omicronrg9.json:Thieves01
 msgid "Thief apprentice"
-msgstr "Ученик-вор"
+msgstr "Ученик вора"
 
 #: questlist_omicronrg9.json:Thieves01:5
 msgid ""
@@ -63479,7 +63532,7 @@ msgstr "Вы перенесли 10 валунов."
 
 #: questlist_brimhaven.json:brv_employee:43
 msgid "I have moved 15 boulders. This work is exhausting!"
-msgstr "[REVIEW]Вы перенесли 15 валунов. Вы устали!"
+msgstr "Вы перенесли 15 валунов. Изнурительная работа!"
 
 #: questlist_brimhaven.json:brv_employee:44
 msgid "Only a few to go..."
@@ -63487,7 +63540,8 @@ msgstr "Осталось всего чуть-чуть..."
 
 #: questlist_brimhaven.json:brv_employee:90
 msgid "Finally - that was the last boulder! Gnossath was very pleased with my work."
-msgstr "[REVIEW]Наконец-то — это был последний валун! Гноссат остался очень доволен вашей работой."
+msgstr ""
+"Наконец-то — это был последний валун! Гноссат был очень доволен моей работой."
 
 #: questlist_brimhaven.json:quick_glance
 msgid "A quick glance"
@@ -63499,7 +63553,7 @@ msgstr "Я поговорил с Анакисом. Он рассказал мн�
 
 #: questlist_brimhaven.json:quick_glance:15
 msgid "I denied to help Anakis to find his sister, Juttarka."
-msgstr "[REVIEW]Я отказался помочь Анакису найти его сестру Джуттарку."
+msgstr "Я отказался помочь Анакису найти его сестру Джуттарку."
 
 #: questlist_brimhaven.json:quick_glance:20
 msgid "I agreed to help Anakis find his sister, Juttarka."
@@ -63595,15 +63649,31 @@ msgstr "Я сказал Зимско, что уверен, что игроки �
 
 #: questlist_brimhaven.json:brv_dagger:10
 msgid "I asked Edrin about the strange-looking dagger I purchased. He told me he recognizes it because he made it many years ago, and it used to have a gem mounted in the pommel. If I can find the gem he can remount it in the dagger, and the dagger will have special properties. Apparently it used to belong to someone named Lawellyn."
-msgstr "[REVIEW]Я спросил Эдрина о приобретённом мной странно выглядящем кинжале. Он сказал мне, что узнал его, потому что он сам сделал его много лет назад, и раньше в его навершие был установлен драгоценный камень. Если я найду драгоценный камень, он сможет повторно установить его в кинжал, и у кинжала появятся особые свойства."
+msgstr ""
+"Спросив Эдрина о странном на вид выглядящем кинжале. Он рассказал мне, что "
+"узнал его, потому что он сам сделал его много лет назад, и раньше в его "
+"острие был вмонтирован драгоценный камень. Если я смогу найти драгоценный "
+"камень, он сможет снова вставить его в кинжал, и тот обретет особые "
+"свойства. Очевидно, он принадлежал кому-то по имени Лавеллин."
 
 #: questlist_brimhaven.json:brv_dagger:20
 msgid "I asked Edrin about the strange-looking gem I purchased, and whether he has any idea what it might have been mounted in. He told me he recognizes it, and it used to be mounted in the pommel of a dagger that he made many years ago. If I can find the dagger he can remount the gem, and the dagger will have special properties. Apparently it used to belong to someone named Lawellyn."
-msgstr "[REVIEW]Я спросил Эдрина о приобретённом мной странно выглядящем камне, и есть ли у него какие-нибудь идеи о том, куда он мог бы быть установлен. Он сказал мне, что он узнал его, и он был установлен в навершие кинжала, который он сделал много лет назад. Если я найду кинжал, он сможет повторно установить драгоценный камень, и у кинжала появятся особые свойства."
+msgstr ""
+"[REVIEW]Я спросил Эдрина о приобретённом мной странно выглядящем камне, и "
+"есть ли у него какие-нибудь идеи о том, куда он мог бы быть установлен. Он "
+"сказал мне, что он узнал его, и он был установлен в навершие кинжала, "
+"который он сделал много лет назад. Если я найду кинжал, он сможет повторно "
+"установить драгоценный камень, и у кинжала появятся особые свойства. "
+"Очевидно, он принадлежал кому-то по имени Лавеллин."
 
 #: questlist_brimhaven.json:brv_dagger:25
 msgid "I asked Edrin about the strange-looking dagger and the strange-looking gem I purchased. He told me he recognizes them because he made the dagger many years ago. The gem was originally mounted in the pommel, giving the dagger special properties. He offered to repair it for me. Apparently it used to belong to someone named Lawellyn."
-msgstr "[REVIEW]Я спросил Эдрина о приобретённых мной странно выглядящем кинжале и странно выглядящем камне. Он сказал мне, что узнал их, потому что он сам сделал этот кинжал много лет назад. Камень изначально был установлен в навершие кинжала, давая тому особые свойства. Он предложил починить его для меня."
+msgstr ""
+"[REVIEW]Я спросил Эдрина о приобретённых мной странно выглядящем кинжале и "
+"странно выглядящем камне. Он сказал мне, что узнал их, потому что он сам "
+"сделал этот кинжал много лет назад. Камень изначально был установлен в "
+"навершие кинжала, давая тому особые свойства. Он предложил починить его для "
+"меня. Очевидно, он принадлежал кому-то по имени Лавеллин."
 
 #: questlist_brimhaven.json:brv_dagger:30
 msgid "I asked the thief if the dagger he has originally had the gem I purchased in the pommel. His reply was 'maybe', and that the dagger was no longer available except at a 'special' price."
@@ -63619,15 +63689,19 @@ msgstr "Я показал странно выглядящий кинжал и с
 
 #: questlist_brimhaven.json:brv_dagger:60
 msgid "Edrin wants 800 gold to repair the dagger. I told him I will think about it."
-msgstr "[REVIEW]Эдрин хочет 800 золотых за починку кинжала. Я сказал ему, что подумаю об этом."
+msgstr "Эдрин хочет 800 золотых за починку кинжала. Мне надо подумать."
 
 #: questlist_brimhaven.json:brv_dagger:70
 msgid "Edrin wants 800 gold to repair the dagger. I told him that was too expensive. I will keep the strange-looking dagger and the strange-looking gem."
-msgstr "[REVIEW]Эдрин хочет 800 золотых за починку кинжала. Я сказал ему, что это слишком дорого. Я оставлю себе странно выглядящий кинжал и странно выглядящий камень."
+msgstr ""
+"Эдрин хочет 800 золотых за починку кинжала. Слишком дорого. Я оставлю себе "
+"странно выглядящий кинжал и странно выглядящий камень."
 
 #: questlist_brimhaven.json:brv_dagger:80
 msgid "Edrin wants 800 gold to repair the dagger. I agreed. Edrin took the dagger and the gem and told me to come back later."
-msgstr "[REVIEW]Эдрин хочет 800 золотых за починку кинжала. Я согласился. Эдрин взял кинжал и камень и велел мне заглянуть к нему попозже."
+msgstr ""
+"Эдрин хочет 800 золотых за починку кинжала. Пускай. Эдрин взял кинжал и "
+"камень и велел мне заглянуть к нему попозже."
 
 #: questlist_brimhaven.json:brv_dagger:90
 #: questlist_brimhaven.json:brv_dagger:100
@@ -63704,7 +63778,7 @@ msgstr "Вы подумали, что было бы неплохо подари�
 
 #: questlist_brimhaven.json:brv_present:20
 msgid "I have purchased a necklace."
-msgstr "[REVIEW]Вы купили ожерелье."
+msgstr "Вы купили ожерелье."
 
 #: questlist_brimhaven.json:brv_present:30
 msgid "Mikhail didn't want to take the necklace. He was angry because I didn't focus on finding Andor."
@@ -63712,15 +63786,15 @@ msgstr "Михаил не захотел принимать ожерелье. О
 
 #: questlist_brimhaven.json:brv_present:40
 msgid "My father didn't seem very happy with the cheap necklace."
-msgstr "[REVIEW]Ваш отец не выглядит слишком довольным дешёвым ожерельем."
+msgstr "Ваш отец не выглядит слишком довольным дешёвым ожерельем."
 
 #: questlist_brimhaven.json:brv_present:50
 msgid "My father was very happy with the nice necklace."
-msgstr "[REVIEW]Ваш отец остался очень доволен красивым ожерельем."
+msgstr "Ваш отец остался очень доволен красивым ожерельем."
 
 #: questlist_brimhaven.json:brv_present:60
 msgid "My father was disappointed with the pretentious necklace I bought."
-msgstr "[REVIEW]Ваш отец был разочарован вашим показным ожерельем."
+msgstr "Ваш отец был разочарован вашим вычурным ожерельем."
 
 #: questlist_brimhaven2.json:brv_school2
 msgid "Lessons learned"
@@ -63728,15 +63802,17 @@ msgstr "Выученные уроки"
 
 #: questlist_brimhaven2.json:brv_school2:10
 msgid "I entered a classroom in Brimhaven's school. The teacher told me to sit down."
-msgstr "[REVIEW]Вы вошли в класс Бримхейвенской школы. Учитель велел тебе сесть."
+msgstr "Вы вошли в класс Бримхейвенской школы. Учитель велел мне сесть."
 
 #: questlist_brimhaven2.json:brv_school2:12
 msgid "I noticed an evil-looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?"
-msgstr "[REVIEW]Вы заметили в углу зловещую статую. Кто вообще додумался поставить в школе такую уродливую и отвратительную вещь?"
+msgstr ""
+"В углу стоит злобная статуя. Кто вообще додумался поставить в школе такую "
+"уродливую и отвратительную вещь?"
 
 #: questlist_brimhaven2.json:brv_school2:20
 msgid "I found a free place next to a student named Golin."
-msgstr "[REVIEW]Вы нашли свободное место рядом с Голином."
+msgstr "Вы нашли свободное место рядом с Голином."
 
 #: questlist_brimhaven2.json:brv_school2:30
 msgid "The teacher was droning endlessly about Brimhaven history."
@@ -63752,67 +63828,79 @@ msgstr "Каждый должен взять себе из сундука наб
 
 #: questlist_brimhaven2.json:brv_school2:60
 msgid "I should look for a dueling partner."
-msgstr "[REVIEW]Вам необходимо найти партнёра для дуэли."
+msgstr "Вам необходимо найти партнёра для дуэли."
 
 #: questlist_brimhaven2.json:brv_school2:100
 msgid "I started a fight with Golin."
-msgstr "[REVIEW]Вы начали сражение с Голином."
+msgstr "Вы начали сражение с Голином."
 
 #: questlist_brimhaven2.json:brv_school2:102
 msgid "I started a fight with Golin and killed him."
-msgstr "[REVIEW]Вы начали сражение с Голином и убили его."
+msgstr "Вы начали сражение с Голином и убили его."
 
 #: questlist_brimhaven2.json:brv_school2:104
 msgid "I started a fight with Golin, but I broke off the duel. Very good."
-msgstr "[REVIEW]Вы начали сражение с Голином, но прервали поединок. Отлично."
+msgstr "Вы начали сражение с Голином, но прервали поединок. Отлично."
 
 #: questlist_brimhaven2.json:brv_school2:110
 msgid "I tried to fight a pupil, but they all ran away screaming."
-msgstr "[REVIEW]Вы попытались сразиться с учеником, но они все с криками разбежались."
+msgstr "Вы попытались сразиться с учеником, но они все с криками разбежались."
 
 #: questlist_brimhaven2.json:brv_school2:120
 msgid "I started a fight with the teacher."
-msgstr "[REVIEW]Вы начали сражение с учителем."
+msgstr "Вы начали сражение с учителем."
 
 #: questlist_brimhaven2.json:brv_school2:122
 msgid "I started a fight with the teacher and killed her."
-msgstr "[REVIEW]Вы начали сражение с учителем и убили её."
+msgstr "Вы начали сражение с учителем и убили её."
 
 #: questlist_brimhaven2.json:brv_school2:124
 msgid "I started a fight with the teacher, but I broke off the duel. Very good."
-msgstr "[REVIEW]Вы начали сражение с учителем, но прервали поединок. Отлично."
+msgstr "Вы начали сражение с учителем, но прервали поединок. Отлично."
 
 #: questlist_brimhaven2.json:brv_school2:130
 msgid "I feel the evil stare of the statue."
-msgstr "[REVIEW]Вы чувствуете злобный взгляд статуи."
+msgstr "Вы чувствуете злобный взгляд статуи."
 
 #: questlist_brimhaven2.json:brv_school2:150
 msgid "The evil grinning statue suddenly grew to an incredible size and attacked me!"
-msgstr "[REVIEW]Злобно-усмехающаяся статуя внезапно выросла до невероятных размеров и напала на тебя!"
+msgstr ""
+"Злобно-усмехающаяся статуя внезапно выросла до невероятных размеров и напала "
+"на меня!"
 
 #: questlist_brimhaven2.json:brv_school2:152
 msgid "I killed the evil statue."
-msgstr "[REVIEW]Вы убили злую статую."
+msgstr "Вы убили злую статую."
 
 #: questlist_brimhaven2.json:brv_school2:200
 msgid "The teacher thanked me for saving her. School is over for me. I can go to the general store and get a cake for good performance."
-msgstr "[REVIEW]Учитель поблагодирил тебя за спасение его жизни. Школа для тебя окончена. Можно зайти в универсальный магазин и купить торт, чтобы отметить хорошую работу."
+msgstr ""
+"Учитель поблагодирил тебя за спасение его жизни. Школа для тебя окончена. "
+"Можно зайти в универсальный магазин и купить торт, чтобы отметить хорошую "
+"работу."
 
 #: questlist_brimhaven2.json:brv_school2:210
 msgid "I cheated during the duel. The teacher noticed it and banned me from the school."
-msgstr "[REVIEW]Ты сжульничал во время дуэли. Учитель заметил это и запретил тебе ходить в школу."
+msgstr ""
+"Во время дуэли мне удалось сжульничать. Учитель заметил это и запретил мне "
+"посещать школу."
 
 #: questlist_brimhaven2.json:brv_school2:220
 msgid "The teacher was very satisfied with my performance in the duel. School is over for me. I can go to the general store and get a cake for good performance."
-msgstr "[REVIEW]Учитель был очень доволен твоим выступлением на дуэли. Школа для тебя окончена. Можно зайти в универсальный магазин и купить торт, чтобы отметить хорошую работу."
+msgstr ""
+"Учитель был очень доволен выступлением на дуэли. Школа для меня окончена. "
+"Можно зайти в универсальный магазин и купить торт, чтобы отметить хорошую "
+"работу."
 
 #: questlist_brimhaven2.json:brv_school2:230
 msgid "The teacher sent me away, because I killed Golin in the duel."
-msgstr "[REVIEW]Учитель прогнал тебя, так как ты убил Голина во время дуэли."
+msgstr "Учитель прогнал тебя, так как ты убил Голина во время дуэли."
 
 #: questlist_brimhaven2.json:brv_school2:240
 msgid "Golin was horrified by my murder of the teacher and attacked me to avenge her."
-msgstr "[REVIEW]Голин пришёл в ужас от того, что ты убил учителя и напал на тебя, чтобы отомстить за неё."
+msgstr ""
+"Голин пришёл в ужас от того, что ты убил учителя и напал на тебя, чтобы "
+"отомстить за неё."
 
 #: questlist_brimhaven2.json:brv_wh
 msgid "Inventory"
@@ -63820,47 +63908,49 @@ msgstr "Инвентарь"
 
 #: questlist_brimhaven2.json:brv_wh:10
 msgid "Facutloni asked me to help him check the storage. I should check if there is a pair of every item."
-msgstr "[REVIEW]Факутлони попросил вас помочь ему проверить склад. Вы должны проверить, есть ли пара к каждому предмету."
+msgstr ""
+"Факутлони попросил вас помочь ему проверить склад. Вы должны проверить, есть "
+"ли пара к каждому предмету."
 
 #: questlist_brimhaven2.json:brv_wh:100
 msgid "I have found a pair of crystal globes."
-msgstr "[REVIEW]Вы нашли пару хрустальных глобусов."
+msgstr "Вы нашли пару хрустальных глобусов."
 
 #: questlist_brimhaven2.json:brv_wh:101
 msgid "I have found a pair of plush pillows."
-msgstr "[REVIEW]Вы нашли пару плюшевых подушек."
+msgstr "Вы нашли пару плюшевых подушек."
 
 #: questlist_brimhaven2.json:brv_wh:102
 msgid "I have found a pair of lyras."
-msgstr "[REVIEW]Вы нашли пару лир."
+msgstr "Вы нашли пару лир."
 
 #: questlist_brimhaven2.json:brv_wh:103
 msgid "I have found a pair of boots."
-msgstr "[REVIEW]Вы нашли пару сапог."
+msgstr "Вы нашли пару сапог."
 
 #: questlist_brimhaven2.json:brv_wh:104
 msgid "I have found a pair of chandeliers."
-msgstr "[REVIEW]Вы нашли пару канделябров."
+msgstr "Вы нашли пару канделябров."
 
 #: questlist_brimhaven2.json:brv_wh:105
 msgid "I have found a pair of mysterious green somethings."
-msgstr "[REVIEW]Вы нашли пару таинственных зелёных нечто."
+msgstr "Вы нашли пару таинственных зелёных нечто."
 
 #: questlist_brimhaven2.json:brv_wh:106
 msgid "I have found a pair of old, worn capes."
-msgstr "[REVIEW]Вы нашли пару старых, изношенных плащей."
+msgstr "Вы нашли пару старых, изношенных плащей."
 
 #: questlist_brimhaven2.json:brv_wh:107
 msgid "I have found a pair of pretty porcelain figures."
-msgstr "[REVIEW]Вы нашли пару симпатичных фарфоровых фигурок."
+msgstr "Вы нашли пару симпатичных фарфоровых фигурок."
 
 #: questlist_brimhaven2.json:brv_wh:108
 msgid "I have found a pair of striped hammers."
-msgstr "[REVIEW]Вы нашли пару полосатых молотков."
+msgstr "Вы нашли пару полосатых молотков."
 
 #: questlist_brimhaven2.json:brv_wh:109
 msgid "I have found a pair of dusty old books."
-msgstr "[REVIEW]Вы нашли пару старых пыльных книг."
+msgstr "Вы нашли пару старых пыльных книг."
 
 #: questlist_brimhaven2.json:brv_wh:900
 msgid "I found all the 10 pairs. Facutloni is very happy."
@@ -64327,11 +64417,16 @@ msgstr "Зулленгард столкнулся с финансовыми тр
 
 #: questlist_omi2.json:Thieves04:70
 msgid "Umar gave me a task to give the mayor at least 50000 gold coins as the promised share for their living. After that, I'm instructed to report back to him."
-msgstr "[REVIEW]Умар поручил мне передать мэру не менее 50000 золотых монет в качестве обещанной доли за их проживание. После этого мне велено немедленно доложить о результатах."
+msgstr ""
+"Умар поручил мне передать мэру не менее 50000 золотых монет в качестве "
+"обещанной доли за их проживание. После этого мне велено немедленно доложить "
+"о результатах."
 
 #: questlist_omi2.json:Thieves04:75
 msgid "Sullengard has been given their share of the gold and now it's time to revisit Umar."
 msgstr ""
+"Зулленгард получил свою долю золота, и теперь настало время вновь обратиться "
+"к Умару."
 
 #: questlist_omi2.json:Thieves04:80
 msgid "At last, Sullengard can now sleep calmly and eat sufficiently with their finances restored."
@@ -64727,35 +64822,45 @@ msgstr "Мне пришлось соврать капитану стражи в 
 
 #: questlist_haunted_forest.json:dead_walking
 msgid "The Dead are Walking"
-msgstr ""
+msgstr "Ходячие мертвецы"
 
 #: questlist_haunted_forest.json:dead_walking:0
 msgid "Gabriel, the acolyte in Vilegard has asked me to investigate the sounds that only he is hearing."
 msgstr ""
+"Габриэль, аколит в Вильгарде попросил меня исследовать звуки, которые слышит "
+"только он."
 
 #: questlist_haunted_forest.json:dead_walking:10
 msgid "Off of the Duleian road, just east of Vilegard, I noticed that the moaning sounds seem just a little bit louder."
-msgstr ""
+msgstr "У Дулеанского тракта, к востоку от Вильгарда стоны стали чуть громче."
 
 #: questlist_haunted_forest.json:dead_walking:20
 msgid "Off of the Duleian road, just south of Alynndir's cabin, I noticed that the moaning sounds seem just a little bit louder."
-msgstr ""
+msgstr "У Дулеанского тракта, к югу от хижины Алиндира стоны стали чуть громче."
 
 #: questlist_haunted_forest.json:dead_walking:40
 msgid "I discovered the 'Haunted forest' and suspected that this may be the source of the sounds heard by Gabriel in Vilegard."
 msgstr ""
+"Обнаруженный мной \"Лес с привидениями\" вызвал подозрение, что именно здесь "
+"находится источник звуков, которые слышал Габриэль в Вильгарде."
 
 #: questlist_haunted_forest.json:dead_walking:50
 msgid "In the haunted house's basement, I discovered Benzimos (and he discovered me) while chanting some kind of ritual. He must be stopped."
 msgstr ""
+"В подвале дома с привидениями мне довелось обнаружить Бензимоса (а ему - "
+"меня) во время исполнения какого-то ритуала. Его нужно остановить."
 
 #: questlist_haunted_forest.json:dead_walking:60
 msgid "Now that Benzimos is \"dead\" again, I should return to Vilegard and speak with Gabriel."
 msgstr ""
+"Теперь, когда Бензимос вновь \"мертв\", мне следует вернуться в Вильгард и "
+"поговорить с Габриэлем."
 
 #: questlist_haunted_forest.json:dead_walking:70
 msgid "Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard."
 msgstr ""
+"Габриэль был бесконечно благодарен мне за то, что я смог предотвратить "
+"возможное нападение стаи нежити Бензимоса на Вильгард."
 
 #: worldmap.xml:world1:crossglen
 msgid "Crossglen"
@@ -64816,4 +64921,3 @@ msgstr "Зулленгард"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "Фруктовый сад Дибо"
-

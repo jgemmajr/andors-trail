@@ -8,14 +8,14 @@
     <string name="menu_save_failed">儲存失敗！記憶卡是否已安裝且可以寫入？</string>
     <string name="loadsave_title_save">儲存遊戲</string>
     <string name="loadsave_title_load">載入遊戲</string>
-    <string name="loadsave_selectslot">選擇紀錄</string>
+    <string name="loadsave_selectslot">選擇存檔</string>
     <string name="savegame_currenthero_displayinfo">等級 %1$d，%2$d 經驗值，%3$d 金幣</string>
     <string name="dialog_loading_message">載入資源中…</string>
     <string name="dialog_loading_failed_title">載入失敗</string>
-    <string name="dialog_loading_failed_message">Andor\'s Trail 無法載入遊戲存擋。 
-\n 
-\n:( 
-\n 
+    <string name="dialog_loading_failed_message">Andor\'s Trail 無法載入遊戲存檔。
+\n
+\n:(
+\n
 \n檔案也許損壞或不完整。</string>
     <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 無法載入存檔。存檔的版本比現正運行的版本新。</string>
     <string name="dialog_close">關閉</string>
@@ -52,7 +52,7 @@
     <string name="combat_result_herohitcritical">你的攻擊爆擊了，%1$s 損失 %2$d hp！</string>
     <string name="combat_result_herokillsmonster">%1$s 死了！</string>
     <string name="combat_not_enough_ap">這回合剩下的 AP 不夠。</string>
-    <string name="combat_hero_dies">你失去了知覺，但幸運地醒了過來，感覺到了活著、茫然和疲憊。你損失 %1$d 經驗值。</string>
+    <string name="combat_hero_dies">你失去了知覺，但幸運地活著醒了過來，感覺茫然且疲憊。你損失 %1$d 經驗值。</string>
     <string name="combat_miss_animation_message">MISS</string>
     <string name="inventory_info">資訊</string>
     <string name="inventory_equip">裝備</string>
@@ -102,11 +102,11 @@
     <string name="startscreen_about">關於 / 幫助</string>
     <string name="startscreen_enterheroname">輸入名稱</string>
     <string name="startscreen_load">載入</string>
-    <string name="conversation_rewardexp">[你獲得 %1$d 經驗值]</string>
-    <string name="conversation_rewardgold">[你獲得 %1$d 金幣]</string>
-    <string name="conversation_lostgold">[你損失 %1$d 金幣]</string>
-    <string name="conversation_rewarditem">[你得到一個物品]</string>
-    <string name="conversation_rewarditems">[你得到 %1$d 個物品]</string>
+    <string name="conversation_rewardexp">〔你獲得 %1$d 經驗值〕</string>
+    <string name="conversation_rewardgold">〔你獲得 %1$d 金幣〕</string>
+    <string name="conversation_lostgold">〔你損失 %1$d 金幣〕</string>
+    <string name="conversation_rewarditem">〔你得到一個物品〕</string>
+    <string name="conversation_rewarditems">〔你得到 %1$d 個物品〕</string>
     <string name="conversation_next">繼續</string>
     <string name="conversation_leave">離開</string>
     <string name="shop_buy">購買</string>
@@ -130,7 +130,7 @@
     <string name="levelup_add_blockchance_description">增加 %1$d 到你的基本格擋機率。</string>
     <string name="dialog_rest_title">休息</string>
     <string name="dialog_rest_confirm_message">你是否要在這裡休息？</string>
-    <string name="dialog_rest_message">你休息的不錯，回復了血量。</string>
+    <string name="dialog_rest_message">你休息的不錯，血量回復了。</string>
     <string name="about_button1">幫助</string>
     <string name="about_button2">作者群</string>
     <string name="about_button3">許可</string>
@@ -166,7 +166,7 @@
     <string name="dialog_newversion_title">歡迎</string>
     <string name="dialog_newversion_message">感謝你下載 Andor\'s Trail！
 \n
-\n 請注意 Andor\'s Trail 的這個版本為「正在開發中」，這代表我們還沒有完成所有的地圖。
+\n 請注意 Andor\'s Trail 的這個版本為「開發中」，這代表我們還沒有完成所有的地圖。
 \n 歡迎到論壇來和其他玩家討論遊戲，或是幫這個遊戲變得更棒（請看關於）。
 \n
 \n 感謝你所有的回饋！</string>
@@ -180,7 +180,7 @@
     <string name="preferences_display_category">顯示</string>
     <string name="preferences_display_fullscreen_title">全螢幕</string>
     <string name="preferences_display_fullscreen">用全螢幕模式顯示遊戲。（需要重新啟動）</string>
-    <string name="preferences_dialog_category">確認</string>
+    <string name="preferences_dialog_category">對話確認</string>
     <string name="preferences_dialog_confirmrest_title">休息確認</string>
     <string name="preferences_dialog_confirmrest">當進入了床鋪，顯示確認。如果為否，你將會自動休息。</string>
     <string name="preferences_dialog_confirmattack_title">攻擊確認</string>
@@ -190,8 +190,8 @@
     <string name="preferences_combat_category">戰鬥</string>
     <string name="preferences_combat_speed_title">戰鬥速度</string>
     <string name="preferences_combat_speed">決定怪物的攻擊速度多快。</string>
-    <string name="preferences_display_loot_dialog">總是顯示掉落品的對話</string>
-    <string name="preferences_display_loot_dialog_on_items">當找到物品時，顯示掉落品對話</string>
+    <string name="preferences_display_loot_dialog">總是顯示掉落品的對話框</string>
+    <string name="preferences_display_loot_dialog_on_items">當找到物品時，顯示掉落品對話框</string>
     <string name="preferences_display_loot_dialog_on_items_or_toast">對話顯示物品，通知顯示其他</string>
     <string name="preferences_display_loot_toast">顯示簡短的通知</string>
     <string name="preferences_display_loot_toast_on_items">當找到物品時，才顯示通知</string>
@@ -226,9 +226,9 @@
     <string name="iteminfo_effect_increase_max_hp">提高最大 HP +%1$d</string>
     <string name="iteminfo_effect_decrease_max_hp">降低最大 HP %1$d</string>
     <string name="iteminfo_effect_increase_max_ap">提高最大 AP +%1$d</string>
-    <string name="iteminfo_effect_decrease_max_ap">降低最大 AP -%1$d</string>
+    <string name="iteminfo_effect_decrease_max_ap">降低最大 AP %1$d</string>
     <string name="iteminfo_effect_increase_movecost">提高移動消耗 +%1$d AP</string>
-    <string name="iteminfo_effect_decrease_movecost">降低移動消耗 -%1$d AP</string>
+    <string name="iteminfo_effect_decrease_movecost">降低移動消耗 %1$d AP</string>
     <string name="preferences_display_scaling_factor_title">縮放比例</string>
     <string name="preferences_display_scaling_factor">讓遊戲的顯示變大或小。</string>
     <string name="preferences_display_scaling_factor_normal">1x</string>
@@ -246,9 +246,9 @@
     <string name="preferences_movement_dpad_minimizeable">如果虛擬方向鍵啟用，這項設定允許按一下虛擬方向鍵的中心來最小化。</string>
     <string name="preferences_movement_dpad_positions_disabled">不使用</string>
     <string name="app_name">Andor\'s Trail</string>
-    <string name="startscreen_load_game">載入遊戲進度</string>
+    <string name="startscreen_load_game">載入遊戲</string>
     <string name="startscreen_game_mode">模式</string>
-    <string name="heroinfo_one_life">Permadeath（1 條命）</string>
+    <string name="heroinfo_one_life">永久死亡（1 條命）</string>
     <string name="heroinfo_limited_lives">有限生命（剩下 %1$d / %2$d）</string>
     <string name="heroinfo_unlimited_lives">無限生命，1 次存檔</string>
     <string name="heroinfo_unlimited_lives_and_saves">標準
@@ -267,7 +267,7 @@
     <string name="skill_title_resistance_physical_capacity">增加韌性</string>
     <string name="skill_title_resistance_mental">強化心靈</string>
     <string name="skill_title_magicfinder">尋寶者</string>
-    <string name="skill_title_lower_exploss">失敗精通</string>
+    <string name="skill_title_lower_exploss">成功之母</string>
     <string name="skill_title_regeneration">再生</string>
     <string name="skill_title_evasion">逃離</string>
     <string name="skill_title_fortitude">增加體質</string>
@@ -277,12 +277,12 @@
     <string name="skill_title_coinfinder">寶藏獵人</string>
     <string name="skill_title_speed">戰鬥速度</string>
     <string name="skill_title_better_criticals">加大爆擊</string>
-    <string name="skill_title_more_criticals">增加爆擊機率</string>
+    <string name="skill_title_more_criticals">增加爆擊</string>
     <string name="skill_title_barkskin">堅韌皮膚</string>
     <string name="skill_title_dodge">閃躲</string>
     <string name="skill_title_barter">商人</string>
     <string name="skill_title_weapon_dmg">重擊</string>
-    <string name="skill_title_weapon_chance">精準</string>
+    <string name="skill_title_weapon_chance">武器精準</string>
     <string name="bulkselection_sell_confirmation">你確定要賣出 %1$s 嗎？這個物品是 %2$s 的，你可能不會再次獲得。</string>
     <string name="bulkselection_sell_confirmation_title">你確定嗎？</string>
     <string name="bulkselection_select_all">全部</string>
@@ -318,8 +318,8 @@
     <string name="startscreen_mode_unlimited_lives">中等難度（無限生命與單一存檔）</string>
     <string name="startscreen_mode_unlimited_saves_and_lives">標準難度（無限生命與存檔數量）</string>
     <string name="startscreen_attention_message_slot_gets_delete_on_load">載入此遊戲進度將清空此存檔，在切換到另一個遊戲進度前你會需要再次儲存遊戲進度。</string>
-    <string name="startscreen_error_loading_empty_slot">無法從空存檔中載入遊戲進度。</string>
-    <string name="startscreen_error_loading_game">遊戲進度載入失敗</string>
+    <string name="startscreen_error_loading_empty_slot">無法從空存檔中載入。</string>
+    <string name="startscreen_error_loading_game">遊戲載入失敗</string>
     <string name="startscreen_load_game_confirm">當前遊戲進度尚未儲存，你即將失去你的角色。</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">注意</string>
     <string name="preferences_display_theme_green">孔雀石</string>
@@ -469,8 +469,8 @@
     <string name="skill_title_weapon_prof_2hsword">雙手劍精通</string>
     <string name="skill_title_weapon_prof_1hsword">單手劍精通</string>
     <string name="skill_title_weapon_prof_dagger">匕首精通</string>
-    <string name="conversation_reward_quest_updated">[任務更新：「%1$s」]</string>
-    <string name="conversation_reward_quest_finished">[任務完成：「%1$s」]</string>
+    <string name="conversation_reward_quest_updated">〔任務更新：%1$s〕</string>
+    <string name="conversation_reward_quest_finished">〔任務完成：%1$s〕</string>
     <string name="combat_log_noentries">還沒有記錄。</string>
     <string name="combat_log_title">戰鬥記錄</string>
     <string name="combat_result_monstermoved">%1$s 移動。</string>
@@ -558,9 +558,9 @@
     <string name="iteminfo_displaytypes_legendary">傳說</string>
     <string name="iteminfo_displaytypes_quest">任務物品</string>
     <string name="iteminfo_displaytypes_ordinary">普通</string>
-    <string name="loadsave_save_overwrite_confirmation">這個遊戲記錄的名稱（%1$s），和你現在的名稱（%2$s）不符合。你確定要覆蓋遊戲記錄嗎？</string>
-    <string name="loadsave_save_overwrite_confirmation_title">確定要覆蓋遊戲記錄嗎？</string>
-    <string name="loadsave_save_to_new_slot">建立新的遊戲記錄</string>
+    <string name="loadsave_save_overwrite_confirmation">這個遊戲存檔的名稱（%1$s），和你現在的名稱（%2$s）不符合。你確定要覆蓋遊戲存檔嗎？</string>
+    <string name="loadsave_save_overwrite_confirmation_title">確定要覆蓋遊戲存檔嗎？</string>
+    <string name="loadsave_save_to_new_slot">建立新的遊戲存檔</string>
     <string name="levelup_adds_new_skillpoint">升級帶來一個新的技能點！</string>
     <string name="skill_number_of_increases_several">你可以選擇 %1$d 個技能來升級。</string>
     <string name="skill_number_of_increases_one">你可以選擇 1 個技能來升級。</string>
@@ -593,7 +593,7 @@
     <string name="skill_shortdescription_resistance_blood_disorder">抵抗流血狀態</string>
     <string name="skill_shortdescription_resistance_physical_capacity">抵抗物理負面狀態</string>
     <string name="skill_shortdescription_resistance_mental">抵抗精神負面狀態</string>
-    <string name="skill_shortdescription_magicfinder">增加找到魔法物品的機率</string>
+    <string name="skill_shortdescription_magicfinder">增加找到稀有物品的機率</string>
     <string name="skill_shortdescription_lower_exploss">死亡時，減少經驗值損失</string>
     <string name="skill_shortdescription_regeneration">每一回合回復 HP</string>
     <string name="skill_shortdescription_evasion">增加逃跑機率</string>
@@ -611,4 +611,39 @@
     <string name="startscreen_migration_failure">存檔轉移失敗。</string>
     <string name="startscreen_migration_text">轉移存檔資料。</string>
     <string name="inventory_category_usable">消耗品</string>
+    <string name="loadsave_export_info">請選擇一個目錄來輸出所有檔案。</string>
+    <string name="loadsave_export_overwrite_confirmation_title">是否覆蓋現有檔案？</string>
+    <string name="loadsave_import_save_info">請選擇您要輸入的所有遊戲存檔。</string>
+    <string name="loadsave_export_overwrite_confirmation">目標資料夾的現有文件包含和輸出的某些文件同名。您確定要覆蓋這些文件嗎？</string>
+    <string name="loadsave_import_save">輸入存檔</string>
+    <string name="loadsave_export">輸出遊戲存檔</string>
+    <string name="loadsave_exporting_savegames">存檔輸出中</string>
+    <string name="loadsave_exporting_worldmap">世界地圖輸出中</string>
+    <string name="loadsave_export_successfull">輸出成功</string>
+    <string name="loadsave_export_unsuccessfull">輸出失敗</string>
+    <string name="loadsave_export_error_unknown">輸出時發生未知錯誤。</string>
+    <string name="loadsave_importing_savegames">存檔輸入中</string>
+    <string name="loadsave_import_save_successfull">輸入成功</string>
+    <string name="loadsave_import_save_unsuccessfull">輸入失敗</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">世界地圖載入失敗</string>
+    <string name="monsterinfo_killcount">已擊殺數</string>
+    <string name="loadsave_import_error_unknown">載入存檔時發生未知錯誤。</string>
+    <string name="loadsave_import_overwrite_confirmation_title">覆蓋已有的存檔？</string>
+    <string name="loadsave_import_file_exists_question">目標存檔已經有遊戲進度。你想要保留、覆蓋或是載入遊戲到新的存檔？
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_option_keep_existing">保留現有存檔</string>
+    <string name="loadsave_import_option_keep_imported">保留載入的存檔</string>
+    <string name="loadsave_import_option_add_as_new">新增為新存檔</string>
+    <string name="loadsave_import_imported_description">載入遊戲：存檔： %1$s：
+\n\t%2$s</string>
+    <string name="loadsave_import_existing_description">現有紀錄：存檔：%1$s：
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">載入世界地圖</string>
+    <string name="loadsave_import_worldmap_info">請選擇世界地圖的 zip 檔案。</string>
+    <string name="loadsave_importing_worldmap">世界地圖載入中</string>
+    <string name="loadsave_import_worldmap_wrong_file">你是否確定選擇一個世界地圖？請選擇名為「worldmap.zip」的 zip 檔案，之前被輸出至你指定的位置。</string>
+    <string name="loadsave_import_worldmap_successfull">世界地圖載入成功</string>
 </resources>
