@@ -1,0 +1,41 @@
+Worldmaps format.
+
+[b]Worldmaps use a custom XML format. All worldmaps are defined in a single worldmap.xml file located under res/xml/ in the game source.[/b]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_map.png[/img]
+The root tag is always "[b]worldmap[/b]" and is composed of several "[b]segment[/b]" sub-tags. Each worldmap in ATCS represent a separate "segment". Worldmaps are really best created and edited using ATCS, but masochists can use any text editor.
+
+A "[b]segment[/b]" tag has the "[b]x[/b]" and "[b]y[/b]" properties, both with numerical values, that indicate an offset to the position of all contained areas.
+
+A "[b]segment[/b]" tag has any number of "[b]map[/b]" and "[b]namedarea[/b]" sub-tags.
+
+Each "[b]map[/b]" tag represent a TMX map that has to appear on the worldmap segment.
+
+[list]A "[b]map[/b]" tag [u]must [/u]have the following attributes:
+- "[b]id[/b]" with a textual value matching the ID of a TMX map.
+- "[b]x[/b]" with a numerical value corresponding to the X-coordinate of this map within the segment.
+- "[b]y[/b]" with a numerical value corresponding to the Y-coordinate of this map within the segment.
+[/list]
+[list]A "[b]map[/b]" tag [u]can [/u]have the following optional attribute:
+- "[b]area[/b]" with a textual value matching the "[b]id[/b]" attribute of a "[b]namedarea[/b]" tag from the same segment. Use this when the map is part of a named area of the map, like a town.
+[/list]
+
+Each "[b]namedarea[/b]" tag represent a label on the map, like a town name. The label will be displayed centered on the bounding box of all maps that are part of this "[b]namedarea[/b]".
+
+[list]A "[b]namedarea[/b]" [u]must [/u]have the following attributes:
+- "[b]id[/b]" with a textual value. This is the value that must be referenced in the "[b]area[/b]" attribute of the "[b]map[/b]" tags.
+- "[b]name[/b]" with a textual value. This is the value displayed to the players, so it must be properly capitalized, and can contain spaces.
+- "[b]type[/b]" with a textual value. It typically contains "settlement" for towns and "other" for the rest, but while the field is mandatory, it is unused by the game engine.
+[/list]
+
+[b]Full example using all fields.[/b]
+[code]<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="segmentID" x="43" y="44">
+    <map id="blackwater_mountain0" x="43" y="46"/>
+    <map area="label_id" id="blackwater_mountain1" x="64" y="44"/>
+    <map area="label_id" id="blackwater_mountain10" x="85" y="44"/>
+    <namedarea id="label_id" name="Label on map" type="other"/>
+  </segment>
+</worldmap>
+[/code]

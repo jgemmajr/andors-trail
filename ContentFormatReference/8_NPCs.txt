@@ -1,0 +1,111 @@
+NPCs format.
+
+NPCs are defined in JSON format. Files containing NPCs should be named monsterlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
+
+A single file can hold any number of NPCs, as a list. Even if only one NPC is defined in a file, it must be contained within a list.
+NPCs, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+
+[list]A [b]NPC[/b] [u]must[/u] have the following fields defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this NPC. Any other game element that reference a NPC do so by using the ID.
+- "[b]name[/b]" with any textual value. This is the display name of the NPC (in english), as shown to the player in-game. Proper spelling and capitalization are required. When more than one word is used, only the first letter of the first word is capitalized, except for proper nouns (like the Shadow).
+- "[b]iconID[/b]" with a textual value indicating a sprite ID of the form <spritesheet ID>:<sprite index>. The <spritesheet ID> is the name of the image file as present in res/drawable, without the extension (for example, if the sprite is in res/drawable/monsters_armor1.png, the spritesheet ID is "monsters_armor1"). The sprite index is the number of sprites you have to skip to reach the desired one within the spritesheet, reading left-to-right, starting at 0 for the top-left one. One sprite is generally defined as a 32x32px square within a spritesheet.
+[/list]
+
+[list]A [b]NPC[/b] [u]can[/u] have the following fields defined:
+- "[b]maxHP[/b]" with a numerical integer value. This is the number of HP this type of NPC will have when spawned. The default value is 1.
+- "[b]maxAP[/b]" with a numerical integer value. This is the number of AP this type of NPC will have at the beginning of a round. The default value is 10.
+- "[b]moveCost[/b]" with a numerical integer value. This is the AP cost of moving for this type of NPC. It has an impact on the movement speed of the NPC even out of combat. The default value is 10.
+- "[b]unique[/b]" with the value 1 or 0. When it is 1, the NPC is considered unique, and will not be respawned upon death or removal. The same unique NPC can appear multiple times, if it is referenced by several spawn areas, or with a quantity >1 in a single spawn area. The default value is 0.
+- "[b]monsterClass[/b]" with one of the following textual values: "[b]humanoid[/b]", "[b]insect[/b]", "[b]demon[/b]", "[b]construct[/b]", "[b]animal[/b]", "[b]giant[/b]", "[b]undead[/b]", "[b]reptile[/b]", "[b]ghost[/b]". The selected monster class will imply the type of splatter to use when killed (dirt, blood or dust), and whether the NPC is immune to critical hits ("[b]demon[/b]", "[b]construct[/b]", and "[b]ghost[/b]") or not. The default value is "[b]humanoid[/b]".
+- "[b]movementAggressionType[/b]" with one of the following values: "[b]none[/b]", "[b]helpOthers[/b]", "[b]protectSpawn[/b]", "[b]wholeMap[/b]". This will affect if and when the NPC will track down the player. With the default value "[b]none[/b]", the NPC will keep roaming its spawn area, and will never track down the player. With the value "[b]helpOthers[/b]", the NPC will track down the player if the player is fighting another NPC from the same spawn area. With the value "[b]protectSpawn[/b]", the NPC will track down the player as long as the player is in the NPC's spawn area. With "[b]wholeMap[/b]", the NPC will track down the player anywhere on the map, all the time, except if no path can be found to reach the player.
+- "[b]attackDamage[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate the minimum and maximum AD of the NPC.
+- "[b]spawnGroup[/b]" with any textual value. This value must match the "[b]spawnGroup[/b]" of other NPCs so that a single spawn area can randomly spawn any type of NPC among all those that have the same spawn group.
+- "[b]faction[/b]" with any textual value. This is related to the "[b]alignmentChange[/b]" and "[b]alignmentSet[/b]" dialogue rewards types, and the "[b]factionScore[/b]" dialogue requirements type. When a player's score for this "faction" is negative, the NPC will be aggressive: no dialogue is possible, and aggressive movement can occur.
+- "[b]phraseID[/b]" with a textual value matching a dialogue's ID. When this is null, the NPC is always aggressive. To prevent the player from fighting a NPC, the NPC must have a "[b]phraseID[/b]" set. Talkative NPC can become aggressive as part of a dialogue, and once the fight starts, there is no way to talk to the NPC again, only fight.
+- "[b]droplistID[/b]" with a textual value matching a droplist's ID. For aggressive monsters, this droplist describes the loot they can drop, while for a talkative NPC, it can describe the shop list, or the droplist, depending on whether the dialogue can lead to fighting or trading. Droplists dedicated to trading should always have 100% chance to drop all their items, though the quantities can be random.
+- "[b]attackCost[/b]" with a numerical integer value. This is the AP cost of attacking for this type of NPC. The default value is 10.
+- "[b]attackChance[/b]" with a numerical integer value. This is the AC for this type of NPC. The default value is 0.
+- "[b]criticalSkill[/b]" with a numerical integer value. This is the CS for this type of NPC. The default value is 0.
+- "[b]criticalMultiplier[/b]" with a numerical float value. This is the CM for this type of NPC. The default value is 0.
+- "[b]blockChance[/b]" with a numerical integer value. This is the BC for this type of NPC. The default value is 0.
+- "[b]damageResistance[/b]" with a numerical integer value. This is the DR for this type of NPC. The default value is 0.
+- "[b]hitEffect[/b]" with an object value, as defined in the [b]hit effect[/b] definition below. This defines the effect that are triggered when the NPC successfully hits the player.
+[/list]
+
+[list]A [b]hit effect[/b] [u]can[/u] have the following fields defined:
+- "[b]increaseCurrentHP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of HP from which a random value will be picked, and added to the current HP of the NPC. This cannot make the current HP exceed the max HP of the NPC.
+- "[b]increaseCurrentAP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of AP from which a random value will be picked, and added to the current AP of the NPC. This cannot make the current AP exceed the max AP of the NPC.
+- "[b]conditionsSource[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the NPC when this [b]hit effect[/b] is triggered.
+- "[b]conditionsTarget[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the player when this [b]hit effect[/b] is triggered.
+[/list]
+
+[list]A [b]timed actor condition[/b] [u]must[/u] have the following fields defined:
+- "[b]condition[/b]" with a textual value matching an actor condition's ID. This is the actor condition that will potentially affect the target (player or enemy).
+- "[b]chance[/b]" with a textual representation of a numerical value. This is the percentage of chance that the actor condition will be applied. "100" means that the condition will always be applied.
+[/list]
+
+[list]A [b]timed actor condition[/b] [u]can[/u] have the following fields defined:
+- "[b]duration[/b]" with a numerical value. This is the number of rounds the effect will last. The value 999 can be used to mean that the effect lasts forever, and can only be removed by [i]clearing[/i] this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
+- "[b]magnitude[/b]"  with a numerical integer value. This is a multiplier used to amplify the effect of the base actor condition. The value -99 can be used to mean that this effect will [i]clear[/i] the target from this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
+[/list]
+
+[list][b]Min-max values[/b] [u]must[/u] have the following fields defined:
+- "[b]min[/b]" with a numerical value. That's the lowest possible value.
+- "[b]max[/b]" with a numerical value. That's the highest possible value.
+[/list]
+
+[b]Full example using all fields.[/b]
+[code]
+{
+    "id":"npc_id",
+    "name":"NPC Name",
+    "iconID":"monsters_armor1:0",
+    "maxHP":11,
+    "maxAP":110,
+    "moveCost":110,
+    "unique":1,
+    "monsterClass":"demon",
+    "movementAggressionType":"wholeMap",
+    "attackDamage":{
+        "min":10,
+        "max":10
+    },
+    "spawnGroup":"npc_spawngroup",
+    "faction":"npc_faction",
+    "phraseID":"dialogue_id",
+    "droplistID":"droplist_id",
+    "attackCost":110,
+    "attackChance":10,
+    "criticalSkill":10,
+    "criticalMultiplier":10.0,
+    "blockChance":10,
+    "damageResistance":10,
+    "hitEffect":{
+        "increaseCurrentHP":{
+            "min":10,
+            "max":10
+        },
+        "increaseCurrentAP":{
+            "min":10,
+            "max":10
+        },
+        "conditionsSource":[
+            {
+                "condition":"ac",
+                "magnitude":2,
+                "duration":2,
+                "chance":"100"
+            }
+        ],
+        "conditionsTarget":[
+            {
+                "condition":"ac",
+                "magnitude":11,
+                "duration":10,
+                "chance":"10"
+            }
+        ]
+    }
+}[/code]

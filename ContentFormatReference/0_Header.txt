@@ -1,0 +1,29 @@
+by Zukero » Fri Aug 11, 2017 1:01 pm
+
+Hello adventurers!
+
+This thread compiles a reference documentation of all files format used to define game content.
+It can be of help to users of ATCS, Tiled, but also Notepad++ and VIM madmen alike.
+
+There is a lot to read here, and I don't expect anyone to read it as a book. You'll most likely want to Ctrl+F your way into it to get what you need, when you need it. It not only describes the format and the keywords used, but also the effect each value can have on the game engine. Keywords are typically "[b]in bold between quotes[/b]".
+
+For all game object types, I included an example that make use of all the possible fields, in order to give a concrete example of all syntax.
+
+You'll have to know a little bit about the XML and JSON formats for this to make sense on its own, but Google is your friend for those.
+
+[size=150][i]Table of contents[/i][/size]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57699]Maps[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57700]Worldmaps[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57701]Actor conditions[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57702]Dialogues[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57703]Droplists[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57704]Items[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57705]Item categories[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57706]NPCs[/url][/b]
+[b][url=https://andorstrail.com/viewtopic.php?f=6&t=5825#p57707]Quests[/url][/b]
+
+
+Revised by Nut in March 2023:
+- Migration to git repo https://github.com/AndorsTrailRelease/andors-trail/tree/master/ContentFormatReference
+- Additions to the engine
+- Small fixes

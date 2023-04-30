@@ -7,7 +7,7 @@ import com.gpl.rpg.AndorsTrail.util.ConstRange;
 import com.gpl.rpg.AndorsTrail.util.Range;
 
 public final class Constants {
-	public static final int PERCENT_EXP_LOST_WHEN_DIED = 30;
+	public static final int PERCENT_EXP_LOST_WHEN_DIED = 20;
 	public static final int LEVELUP_EFFECT_HEALTH = 5;
 	public static final int LEVELUP_EFFECT_ATK_CH = 5;
 	public static final int LEVELUP_EFFECT_ATK_DMG = 1;

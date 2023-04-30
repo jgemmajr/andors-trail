@@ -1,0 +1,567 @@
+Maps format.
+
+[b]Maps use the TMX format defined by the [url="http://mapeditor.org"]Tiled editor[/url]. Each map is defined in a single-dedicated TMX file.[/b]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/tiled-icon.png[/img]
+The name of the file is the map's ID. If the file is named "blackwater_mountain0.tmx", its ID will be "blackwater_mountain0".
+
+Different components of a map can be edited with either Tiled or ATCS. For each part, I'll give the recommended tool, but overall I suggest to always start Tiled from within ATCS, as it eases editing back and forth with both tools.
+
+Several tags can have a "properties" sub-tag, itself containing any number of "property" sub-tags. Each of the "property" sub-tags must contain two attributes: "name" and "value". For readability of this document, when you see that a tag can have some property named "X" with value "Y", it means that the tag has a "properties" sub-tag, itself containing a "property" tag that has an attribute "name" with value "X" and an attribute "value" with value "Y".
+
+The TMX format is based on XML, with a "map" top-level tag. 
+[list]A "[b]map[/b]" tag must have the following attribute values:
+- [b]orientation[/b]="orthogonal"
+- [b]tilewidth[/b]="32"
+- [b]tileheight[/b]="32"
+- [b]width[/b]="X" (X ranging from 1 to 32, max 30 preferred)
+- [b]height[/b]="Y" (Y ranging from 1 to 32, max 30 preferred)[/list]
+[list]The "[b]map[/b]" tag will have the following sub-tags:
+- "[b]properties[/b]" optionally (details below)
+- "[b]tileset[/b]" in large quantity. They should match exactly the one in template.tmx.
+- "[b]layer[/b]", at least 4 of them (details below)
+- "[b]objectgroup[/b]", at least 1 (details below)[/list]
+[list]A map can have the following global properties. You can edit this in Tiled using the "Map"->"Map properties" menu, but ATCS is the recommended tool.
+- "[b]outdoors[/b]" as the property name, with "1" as the value indicate that the map is outdoors. Unused by the game engine for now. A value of "0" is possible too, but as it is the default, you can remove the property entirely in this case.
+- "[b]colorfilter[/b]" as the property name, which impact the way everything looks on this map, player and NPCs included, with one of the following values:
+  - "[b]none[/b]" (the default, if so, you can omit the whole tag)
+  - "[b]black20[/b]" (adds a subtle dim to the map, making it a bit darker)
+  - "[b]black40[/b]" (adds a visible dim to the map, making it darker)
+  - "[b]black60[/b]" (adds a strong dim to the map, making it a lot darker)
+  - "[b]black80[/b]" (adds a very strong dim to the map, making it almost black)
+  - "[b]invert[/b]" (everything is drawn with inverted colors, use with caution)
+  - "[b]bw[/b]" (everything is drawn in black & white, use with caution)
+  - "[b]redtint[/b]" (tints everything in red, useful for a burning cave glow)
+  - "[b]greentint[/b]" (tints everything in green, useful for... I don't really know yet)
+  - "[b]bluetint[/b]" (tints everything in blue, could be used for that moonlit night lightning effect).
+[/list]
+
+[img width="32" height="32"]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/tile_layer.png[/img]
+[b]The "layer" tags define the visual aspect of the map. Tiled is the recommended tool to edit all maps graphics, but I recommend you to launch Tiled from ATCS[/b]
+[list]The "[b]layer[/b]" tag must have "[b]width[/b]" and "[b]height[/b]" attributes, both matching the values of the "map" top-level tag. It must also have a "[b]name[/b]" attribute and a "[b]data[/b]" sub-tag. 
+[/list]
+[list]:!: The "[b]data[/b]" sub-tag must have the "[b]encoding[/b]" attribute set to "[b]base64[/b]" and the "[b]compression[/b]" attribute set to "[b]zlib[/b]". The content of the data tag itself should only be edited with Tiled. [/list]
+[list]There must be at least 4 "[b]layer[/b]" tags, one for each of the following values for the "[b]name[/b]" attribute: "[b]Ground[/b]", "[b]Objects[/b]", "[b]Above[/b]", and "[b]Walkable[/b]".
+Supplementary "layer" tags can have any other name, and are used for replace areas (details below). I'll call these "extra graphical layers" in the rest of the document.
+[/list]
+[list]Note that the "[b]Walkable[/b]" graphical layer is never displayed in-game. Any empty tile in this layer can be walked on by the player, while non-empty ones cannot. By convention, [b]we always use the top-left sprite from the "map_trail_1" [/b]spritesheet to mark the unwalkable tiles, but technically, any sprite would do.
+[/list]
+
+[img width="32" height="32"]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/object_layer.png[/img]
+[b]The "objectgroup" tags are containers for the different map objects. Think of them as folders. Both ATCS and Tiled can be used to edit these, as ATCS cannot do some things that Tiled can, like reordering the "objectgroup"s and moving a map object from one "objectgroup" to another.[/b]
+
+The "objectgroup" tag must have a "name" attribute, with any textual value (spaces discouraged), although by convention (and as provided in the template.tmx map), we use "Spawn" to store spawn areas (details below), "Key" for map objects of the "key" type, and "Mapevents" for the rest (like mapchanges, containers, beds...)
+
+If you intend to enable or disable map objects dynamically (through a quest/dialogue/script), create an "[b]objectgroup[/b]" dedicated to a group of map objects that will be enabled or disabled together. This applies to all types of map objects except spawn areas, as these are handled differently and individually (per spawn area, not per group) by the dialogue/script system.
+
+[list]An "[b]objectgroup[/b]" can have the following attribute:
+- "[b]visible[/b]", with a 0 or 1 value. 0 indicates the the layer is hidden in Tiled, or in the map view of ATCS, but has no effect on the game. 1 is the default value, and the attribute can be omitted completely.[/list]
+[list]An "[b]objectgroup[/b]" can have the following property:
+- "[b]active[/b]", with the value "false" or "true". "true" being the default, the tag can be omitted completely in this case. When such a property is present, any map object within this object group (except spawn areas) will not be active until enabled by a script/dialogue.[/list]
+
+[list]An "[b]objectgroup[/b]" tag can contain any number of "object" sub-tags
+[/list]
+
+[b]The "object" sub-tag of an "objectgroup" tag describe one map object, some area that is invisible to the user, but tells the game engine what can happen there. These should be created and edited with ATCS, but Tiled can be used if you really know what you are doing.[/b]
+
+[list]An "[b]object[/b]" tag must have the following attributes:
+- "[b]x[/b]" with an integer value, in pixels, that indicate the top-left X coordinate of the area. It must be a multiple of 32.
+- "[b]y[/b]" with an integer value, in pixels, that indicate the top-left Y coordinate of the area. It must be a multiple of 32.
+- "[b]width[/b]" with an integer value, in pixels, that indicate the width of the area. It must be a multiple of 32.
+- "[b]height[/b]" with an integer value, in pixels, that indicate the height of the area. It must be a multiple of 32.
+- "[b]type[/b]" with a textual value that indicate the type of game object it describes (see possible values below, with the details of each object type).
+- "[b]name[/b]" with a textual value. Depending on the type, some constraints may apply (details below for each object type).
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/container.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]container[/b]", the player will receive the contents of a droplist upon stepping on it. Moreover, items dropped in such a location will be hidden (no loot bag visible).[/b][list]A "[b]container[/b]" must have the following attribute in the "object" tag:
+- "[b]name[/b]" with a textual value that equals an existing droplist's ID.
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/key.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]key[/b]", the player will be granted access only if he satisfies a given requirement, otherwise, a script will be run (and eventually, a message displayed).[/b]
+
+[list]A "[b]key[/b]" must have the following attribute in the "object" tag:
+- "[b]name[/b]" with a textual value that can be anything. ATCS Uses "Object" by default, and doesn't allow you to change it. It will preserve changes made to it in Tiled though.[/list]
+[list]A "[b]key[/b]" must have the following properties
+- "[b]phrase[/b]" with a textual value that equals an existing dialogue's ID. This dialogue can do anything a normal dialogue with a NPC can, including giving rewards, checking requirements, talk to the player, give choices. If this dialogue "says" something to the player, it will be displayed, but this is not mandatory.
+- All the attributes of a requirement (details below). If this requirement is satisfied, the player can enter the area, otherwise, the dialogue defined by the "phrase" property is run.
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/tiled-icon.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]mapchange[/b]", the player will be transported to another "[b]mapchange[/b]" area upon entering the area. When making transitions between two adjacent maps, it is important that the two reciprocal mapchanges have the same width or height (the other being 1 tile).[/b]
+
+[list]A "[b]mapchange[/b]" must have the following attribute:
+- "[b]name[/b]" with a textual value, that will be the ID of this mapchange area. It must be unique within this map.[/list]
+[list]A "[b]mapchange[/b]" should have the following properties (Optional. A mapchange without these properties is an arrival only, and does nothing upon entering it):
+- "[b]map[/b]" with a textual value that matches the ID of the target map. It can be the current map's ID too.
+- "[b]place[/b]" with a textual value that matches the ID (the "name") of a mapchange area in the target map.
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/replace.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]replace[/b]", the visual appearance of the covered area of the map will be modified if the player satisfies a given requirement. Note that in order to revert a map to its original appearance later, you also need to create a second replace area, with dedicated graphical layers that are copies of the original layers. The creation of replace areas is best done with ATCS, but the graphical layers must still be edited with Tiled.[/b]
+
+[list]A "[b]replace[/b]" must have the following attribute:
+- "[b]name[/b]" with any textual value. I try to give it a meaningful name, and suffix all associated graphical layers with that name, but this is only a recommendation.[/list]
+[list]A "[b]replace[/b]" can have any (at least one) of the following properties:
+- "[b]Ground[/b]" with a textual value that matches the ID of an extra graphical layer. When the requirement is satisfied, the portion of the "Ground" graphical layer covered by this replace area will be replaced by the content of the target extra graphical layer.
+- "[b]Objects[/b]". Same as above for the "Objects" graphical layer.
+- "[b]Above[/b]". Same as above for the "Above" graphical layer.
+- "[b]Walkable[/b]". Same as above for the "Walkable" graphical layer. [/list]
+[list]A "[b]replace[/b]" must have the following properties:
+- All the attributes of a requirement (details below). 
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/rest.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]rest[/b]", the player is offered to rest upon entering this area. Beds are implemented this way.[/b]
+
+[list]A "[b]rest[/b]" must have the following attribute:
+- "[b]name[/b]" with any textual value. Try to use a unique name within a map.
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/script.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]script[/b]", a dialogue/script will be evaluated when the player is in the area. The creation of script areas is best done with ATCS.[/b]
+
+[list]A "[b]script[/b]" must have the following attribute:
+- "[b]name[/b]" with a textual value that equals an existing dialogue's ID. Just like the "phrase" property of a key area, this dialogue can do anything a normal dialogue with a NPC can, including giving rewards, checking requirements, talk to the player, give choices. If this dialogue "says" something to the player, it will be displayed, but this is not mandatory.[/list]
+[list]A "[b]script[/b]" must have the following property:
+- "[b]when[/b]" with one of the following textual values: "enter", "step", "round", "always".
+[list]If the value is "[b]enter[/b]", the script is evaluated once each time the player enters the area, including during battle (fleeing).[/list]
+[list]If the value is "[b]step[/b]", the script is evaluated each time the player moves within the area (when the target tile of the movement is in the area), including upon entering the area and during battle (fleeing).[/list]
+[list]If the value is "[b]round[/b]", the script will be evaluated on each new round as long as the player is in the area, including during battle.[/list]
+[list]If the value is "[b]always[/b]", the script will be evaluated on each game tick (~500ms) while the player is in the area. Use with caution, including during battle.[/list]
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/sign.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]sign[/b]", a dialogue/script will be evaluated when the player enters the area. They are used for signposts or graves for example. It is equivalent to a script area with a "enter" trigger. Sign areas are typically 1x1 tile large, and have simple scripts that display information about the current location. The creation of sign areas is best done with ATCS.[/b]
+
+[list]A "[b]sign[/b]" must have the following attribute:
+- "[b]name[/b]" with a textual value that equals an existing dialogue's ID. Just like the "phrase" property of a key area, this dialogue can do anything a normal dialogue with a NPC can, including giving rewards, checking requirements, talk to the player, give choices. If this dialogue "says" something to the player, it will be displayed, but this is not mandatory.
+[/list]
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png[/img]
+[b]If the "type" attribute of the "object" tag has the value "[b]spawn[/b]", NPCs or monsters will appear in the area. Except for some monsters with specific movement types, NPCs and monsters can roam their spawn areas, but can't leave it. The creation of spawn areas is best done with ATCS.[/b]
+
+[list]A "[b]spawn[/b]" must have the following attribute:
+- "[b]name[/b]" with any textual value. This value MUST be unique within the map, as it is used by scripts to activate or deactivate these areas. This ID is also used in the saves.[/list]
+[list]A "[b]spawn[/b]" must have the following property:
+- "[b]spawngroup[/b]" with a textual value matching either a valid "spawngroup" id (these do not exist as stand-alone objects, but are indicated in a NPC's description), either a NPC id. In the case of a spawngroup, each spawned NPC will be randomly selected among all the NPCs that have the matching "spawngroup" value.[/list]
+[list]A "[b]spawn[/b]" can have the following properties:
+- "[b]quantity[/b]" with a numerical value. This represents the total number of monsters that can be spawned in the area. There's no use in making this number larger than the number of walkable tiles in the spawn area.
+- "[b]active[/b]", with the value "false" or "true". "true" being the default, the tag can be omitted completely in this case. When the value is "false", this spawn area will not be active until enabled by a script/dialogue, and no NPC will be spawned.
+- "[b]ignoreAreas[/b]", with the value "false" or "true". "false" being the default, the tag can be omitted completely in this case. When the value is "true", NPCs spawned by this area can be spawned in, and move into, overlapping "key", "rest" and "mapchange" areas.
+[/list]
+
+[b]"replace" and "key" areas need the properties of a requirement.[/b]
+
+[list]A requirement is defined by the following properties:
+- "[b]requireType[/b]" with one of the following textual values: "questProgress", "questLatestProgress", "inventoryRemove", "inventoryKeep", "wear", "skillLevel", "killedMonster", "timerElapsed", "usedItem", "spentGold", "consumedBonemeals", "hasActorCondition".
+- "[b]requireID[/b]" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
+- "[b]requireValue[/b]" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
+
+When "requireType" is "questProgress" or "questLatestProgress", the "requireID" property must have a value matching a quest ID, and the "requireValue" must have a value matching a quest step ID. In both case, the player must have reached this quest stage in order to fulfill the requirement. The difference between "questProgress" and "latestQuestProgress" is that the latter also requires that no other quest stage with a greater ID must have been reached (numerical comparison between the stage IDs).
+
+- "[b]requireNegation[/b]" with the value true or false. false being the default, this property can be omitted completely in this case. When the value is true, the required is fulfilled only when it shouldn't be.
+
+When "requireType" is "[b]inventoryRemove[/b]", "[b]inventoryKeep[/b]" or "[b]usedItems[/b]", the "requireID" property must have a value matching an item ID, and the "requireValue" must have a positive numerical value depicting the quantity of the item. In the case of the "[b]usedItems[/b]" type, the player must have used at least the selected quantity of the selected item type (quaffed X potions, eat Y apples...). In the case of "[b]inventoryKeep[/b]" and "[b]inventoryRemove[/b]", the player must have at least the selected quantity of the selected item in his inventory, the difference is that with the latter, these items will be taken from the player. I'd suggest avoiding doing that outside of a dialogue though, or with proper warning.
+
+When "requireType" is "[b]wear[/b]", the "requireID" property must have a value matching an item ID. "requireValue" is not used. To fulfill this, the player must have the selected item equipped.
+
+When "requireType" is "[b]skillLevel[/b]", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "requireValue" property must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
+
+When "requireType" is "[b]killedMonster[/b]", the "requireID" property must have a value matching a NPC ID, and the "requireValue" property must be a numerical value that indicate the number of the given NPC that the player must have killed.
+
+When "requireType" is "[b]timerElapsed[/b]", the "requireID" property must be a textual value matching the ID of a timer started by a dialogue. The "requireValue" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
+
+When "requireType" is "[b]factionScore[/b]", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+
+When "requireType" is "[b]spentGold[/b]", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of gold that the player must have spent overall.
+
+When "requireType" is "[b]consumedBonemeals[/b]", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
+
+When "requireType" is "[b]hasActorConditions[/b]", the "requireID" property must have a value matching an actor condition ID. The "requireValue" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
+
+[b]Full example using all tags and attributes.[/b]
+[code]<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="black20"/>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_bed_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="map_border_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_border_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="map_bridge_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="map_bridge_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_bridge_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="513" name="map_broken_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="641" name="map_cavewall_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="749" name="map_cavewall_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_cavewall_2.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="857" name="map_cavewall_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_cavewall_3.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="965" name="map_cavewall_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="1073" name="map_chair_table_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1201" name="map_chair_table_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_chair_table_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1329" name="map_crate_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_crate_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1457" name="map_cupboard_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_cupboard_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1585" name="map_curtain_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_fence_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2097" name="map_fence_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_fence_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2225" name="map_fence_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_fence_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2353" name="map_fence_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_fence_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2481" name="map_ground_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2609" name="map_ground_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2737" name="map_ground_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2865" name="map_ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2993" name="map_ground_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3121" name="map_ground_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_6.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3249" name="map_ground_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_7.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3377" name="map_ground_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_8.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3505" name="map_house_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_house_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3633" name="map_house_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_house_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3761" name="map_indoor_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4145" name="map_outdoor_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4273" name="map_pillar_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4657" name="map_plant_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4785" name="map_rock_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4913" name="map_rock_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_rock_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_roof_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5297" name="map_roof_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_roof_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5425" name="map_shop_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_shop_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5553" name="map_sign_ladder_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5681" name="map_table_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_table_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_transition_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6065" name="map_transition_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6193" name="map_transition_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_transition_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_transition_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Ground_2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Objects_2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Above_2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="mapchange_id" type="mapchange" x="256" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="map_id"/>
+    <property name="place" value="mapchange_id"/>
+   </properties>
+  </object>
+  <object name="bed_id" type="rest" x="544" y="160" width="32" height="32"/>
+  <object name="dialogue_id" type="script" x="544" y="0" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="dialogue_id" type="script" x="576" y="0" width="32" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="dialogue_id" type="script" x="608" y="0" width="32" height="32">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="dialogue_id" type="script" x="640" y="0" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="startitems" type="container" x="704" y="0" width="32" height="32"/>
+  <object name="dialogue_id" type="sign" x="768" y="0" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="spawn_area_with_spawngroup_id" type="spawn" x="256" y="64" width="192" height="96">
+   <properties>
+     <property name="spawngroup" value="trainingrat"/>
+   </properties>
+  </object>
+  <object name="spawn_area_inactive_with_npcID_id" type="spawn" x="256" y="192" width="192" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="tiny_rat"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="key_area_1_id" type="key" x="544" y="256" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_2_id" type="key" x="544" y="288" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_3_id" type="key" x="544" y="320" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="hair"/>
+    <property name="requireType" value="inventoryRemove"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_4_id" type="key" x="544" y="352" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="hair"/>
+    <property name="requireType" value="inventoryKeep"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_5_id" type="key" x="544" y="384" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="shirt1"/>
+    <property name="requireType" value="wear"/>
+   </properties>
+  </object>
+  <object name="key_area_6_id" type="key" x="544" y="416" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="crit1"/>
+    <property name="requireType" value="skillLevel"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_7_id" type="key" x="544" y="448" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="tiny_rat"/>
+    <property name="requireType" value="killedMonster"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_8_id" type="key" x="544" y="480" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="timer_id"/>
+    <property name="requireType" value="timerElapsed"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_9_id" type="key" x="544" y="512" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="meat"/>
+    <property name="requireType" value="usedItem"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_10_id" type="key" x="544" y="544" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireType" value="spentGold"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_11_id" type="key" x="544" y="576" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireType" value="consumedBonemeals"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="key_area_12_id" type="key" x="544" y="608" width="224" height="32">
+   <properties>
+    <property name="phrase" value="dialogue_id"/>
+    <property name="requireId" value="ac"/>
+    <property name="requireType" value="hasActorCondition"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="replace_area_id" type="replace" x="192" y="288" width="160" height="160">
+   <properties>
+    <property name="Above" value="Above_2"/>
+    <property name="Ground" value="Ground_2"/>
+    <property name="Objects" value="Objects_2"/>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
+[/code]

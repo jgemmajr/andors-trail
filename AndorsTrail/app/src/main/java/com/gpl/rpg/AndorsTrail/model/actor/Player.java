@@ -111,7 +111,7 @@ public final class Player extends Actor {
 		baseTraits.criticalSkill = 0;
 		baseTraits.criticalMultiplier = 1;
 		baseTraits.damagePotential.set(1, 1);
-		baseTraits.blockChance = 0;
+		baseTraits.blockChance = 9;
 		baseTraits.damageResistance = 0;
 		baseTraits.useItemCost = 5;
 		baseTraits.reequipCost = 5;
