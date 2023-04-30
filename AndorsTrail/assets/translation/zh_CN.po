@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2022-11-04 13:07+0000\n"
+"PO-Revision-Date: 2023-02-25 04:40+0000\n"
 "Last-Translator: aircqsj <11285819@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -380,12 +380,14 @@ msgid "Kazaul possession"
 msgstr "卡扎尔财产"
 
 #: actorconditions_haunted_forest.json:death_plague
+#, fuzzy
 msgid "Death Plague"
-msgstr ""
+msgstr "死神瘟疫"
 
 #: actorconditions_haunted_forest.json:sleepwalking
+#, fuzzy
 msgid "Sleepwalking"
-msgstr ""
+msgstr "梦游"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -49395,7 +49397,8 @@ msgstr "好吧，我对你有信心。"
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_80
 msgid " The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
-msgstr ""
+msgstr " 最后一次看到金豺是在我的果园西边的 \"苏伦加德森林 \"里"
+"，它正往回走。请带着它的死亡证明来见我。"
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_90
 msgid ""
@@ -51649,282 +51652,289 @@ msgstr "现在就离开这里。不要再回来，直到你学会一些尊重。
 
 #: conversationlist_haunted_forest.json:daw_haunted_enterance
 msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
-msgstr ""
+msgstr "当你接近时，你的脖子后面的汗毛都竖了起来，你突然感到强烈的恐惧感，并决定现在"
+"不是你继续前进的时候了。"
 
 #: conversationlist_haunted_forest.json:gabriel_shh
+#, fuzzy
 msgid "Shh!"
-msgstr ""
+msgstr "嘘！"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:0
+#, fuzzy
 msgid "What? Why?"
-msgstr ""
+msgstr "什么? 为什么?"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:1
 #: conversationlist_haunted_forest.json:gabriel_daw_10:0
 msgid "[You just nod up and down]"
-msgstr ""
+msgstr "[你只是上下点头]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10
 msgid "Do you hear it?"
-msgstr ""
+msgstr "你听到了吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:1
 msgid "[Lie] Umm I sure do."
-msgstr ""
+msgstr "[谎言]嗯，我当然知道。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:2
 msgid "No, sir, I do not."
-msgstr ""
+msgstr "不，先生，我没有。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10_rec
 msgid "Speak, child."
-msgstr ""
+msgstr "说话，孩子。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20
 msgid "What do you hear?"
-msgstr ""
+msgstr "你听到了什么？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:0
 msgid "The Shadow. It talks to me too."
-msgstr ""
+msgstr "阴影。它也在跟我说话。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:1
 msgid "The birds are singing today. I also like to listen to them."
-msgstr ""
+msgstr "今天鸟儿在唱歌。我也喜欢听它们的声音。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_lie
 msgid "You lie!"
-msgstr ""
+msgstr "你撒谎！"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_birds
 msgid "No! Not that."
-msgstr ""
+msgstr "不！不是这个。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_30
 msgid "It's coming from over there. [He points east]"
-msgstr ""
+msgstr "它从那边传来。[他指向东方]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35
 msgid "Clear your mind and you will hear it."
-msgstr ""
+msgstr "消除杂念，你就会听到它。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:0
 msgid "You are crazy. I'm out of here."
-msgstr ""
+msgstr "你疯了。我得离开这里。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:1
 msgid "How do I clear my mind?"
-msgstr ""
+msgstr "我怎样才能消除杂念？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40
 msgid "Close your eyes."
-msgstr ""
+msgstr "闭上眼睛。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:0
 msgid "Yeah, you're scaring me. Maybe I'll come back later."
-msgstr ""
+msgstr "是的，你在吓唬我。也许我稍后会回来。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:1
 msgid "Sure. I'll close my eyes now, but don't try anything that you will regret."
-msgstr ""
+msgstr "确定。我现在闭上眼睛，但不要尝试任何你会后悔的事情。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50
 msgid "Do you hear it now?"
-msgstr ""
+msgstr "你现在听到了吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50:0
 msgid "Yes, I think so. It sounds like moaning of some kind."
-msgstr ""
+msgstr "是的，我想是的。这听起来像是某种呻吟声。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60
 msgid "Yes! Finally. Someone else that can hear it."
-msgstr ""
+msgstr "是的!终于。有人能听到它。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60:0
 msgid "This is scaring me. I'm going home to father."
-msgstr ""
+msgstr "这让我感到害怕。我要回家找父亲。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70
 msgid "I have no idea and the other villagers think I am crazy. Do you think I'm crazy?"
-msgstr ""
+msgstr "我不知道，其他村民都认为我是个疯子。你认为我疯了吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:0
 msgid "Maybe, but I'm intrigued, so I will say 'no'."
-msgstr ""
+msgstr "也许吧，但我很感兴趣，所以我会说'没有'。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:1
 msgid "Oh, absolutely."
-msgstr ""
+msgstr "哦，当然。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_80
 msgid "OK. I fear that whatever it is, it is coming for this church and the village."
-msgstr ""
+msgstr "好的。我担心不管是什么，它都是冲着这个教堂和村庄而来。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85
 msgid "I am not an adventurer, and I am certainly not a fighter."
-msgstr ""
+msgstr "我不是一个冒险家，我当然也不是一个战士。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85:0
 msgid "Obviously"
-msgstr ""
+msgstr "很明显"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90
 msgid "I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?"
-msgstr ""
+msgstr "我需要一个愿意并且有能力的人。如果它是威胁，你会去调查噪音并阻止它吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:0
 msgid "Of course. Anything for the Shadow."
-msgstr ""
+msgstr "当然。一切为了暗影。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:1
 msgid "If there is a reward, why not?"
-msgstr ""
+msgstr "如果有奖励,为什么不?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:2
 msgid "I don't think I am ready. "
-msgstr ""
+msgstr "我认为我还没有准备好。 "
 
 #: conversationlist_haunted_forest.json:gabriel_daw_100
 msgid "Outstanding. Report back to me when you are done."
-msgstr ""
+msgstr "优秀。完成后再向我报告。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete
 msgid "Why are you still here when the noises persist?"
-msgstr ""
+msgstr "嘈杂声持续不断，你为什么还在这里？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:0
 msgid "Can you explain to me again what it is that you want me to do?"
-msgstr ""
+msgstr "你能再向我解释一下，你要我做的是什么吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:1
 msgid "You're not the boss of me, Shadow man. I will address your problem when I am ready to do so."
-msgstr ""
+msgstr "你不是我的雇主，影子人。当我准备好的时候，我会解决你的问题。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_10
 msgid "The noise, my child! It's coming from over there. [He points east]"
-msgstr ""
+msgstr "噪声，我的孩子！是从那边传来的。[他指着东边]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20
 msgid "I asked you to go investigate the noise and stop it if it is a threat"
-msgstr ""
+msgstr "我让你去调查噪音，如果它是一种威胁，就阻止它"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20:0
 msgid "Oh yeah. Sorry. I will get on top of that right away."
-msgstr ""
+msgstr "哦。对不起。我会马上处理的。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0
 msgid "The noise, it's gone! Was it you? Did you stop it?"
-msgstr ""
+msgstr "噪声，它已经消失了！是你吗？你阻止它了吗？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0:0
 msgid "Yes. It was me."
-msgstr ""
+msgstr "是的，是我。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10
 msgid "Well, for that, I am eternally grateful."
-msgstr ""
+msgstr "嗯，为此，我非常感激。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:0
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:0
 msgid "How 'grateful' are you?"
-msgstr ""
+msgstr "你有多 \"感激\"？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:1
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:1
 msgid "I will do anything for the Shadow."
-msgstr ""
+msgstr "我愿意为暗影做任何事。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_15
 msgid "I will get to that momentarily."
-msgstr ""
+msgstr "我马上会谈到这一点。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_13
 msgid "Thank you, my child."
-msgstr ""
+msgstr "谢谢你，我的孩子。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20
 msgid "Please tell me what was causing the noise?"
-msgstr ""
+msgstr "请告诉我是什么原因造成的噪音？"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20:0
 msgid "A demonic creature and its minions rose from their graves and were roaming the forest."
-msgstr ""
+msgstr "一个恶魔般的生物和它的爪牙从坟墓里爬出来，在森林里游荡。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_30:0
 msgid "They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning to make Vilegard their first victims"
-msgstr ""
+msgstr "他们居住在森林中的这个废弃的房子里，正在进行某种仪式。我认为他们正计划让维尔"
+"加德成为他们的第一批受害者"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40
 msgid "This is indeed alarming. But we are so grateful for your work here."
-msgstr ""
+msgstr "这确实令人震惊。但我们非常感谢你在这里的工作。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_50
 msgid "Very! In fact, here are 3000 gold pieces for all your trouble."
-msgstr ""
+msgstr "恰好！事实上，这里有 3000 个金币可以解决你所有的麻烦。"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_49
 msgid "Walk with the Shadow, my child."
-msgstr ""
+msgstr "与暗影同行，我的孩子。"
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_10
 msgid "Just as you reach the bottom step, you look across the room to see this demonic creature. It does not see you as it's looking towards the ground."
-msgstr ""
+msgstr "就在你到达底部台阶时，你看向对面的房间，看到这个恶魔般的生物。它没有看到你，"
+"因为它正看向地面。"
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_20
 msgid "It begins to bring its arms and head straight up towards the ceiling while moaning and speaking in a language that you do not understand. When all of a sudden it notices your presence and begins to drop it's arm and points directly at you."
-msgstr ""
+msgstr "它开始把手臂和头伸向天花板，同时呻吟着用你不懂的语言说话。突然，它注意到你的"
+"存在，开始放下手臂，直接指向你。"
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_30
 msgid "Again, yelling in a language that you do not understand. You begin to tremble in fear."
-msgstr ""
+msgstr "再次，用你听不懂的语言大喊大叫。你开始在恐惧中颤抖。"
 
 #: conversationlist_haunted_forest.json:haunted_forest_discovery_script_10
 msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much loader now."
-msgstr ""
+msgstr "当你进入这个黑暗的地方时，你怀疑你离加布里埃尔听到的声音越来越近了，因为现在"
+"的呻吟声更响了。"
 
 #: conversationlist_haunted_forest.json:road2_daw_10
 msgid "You stick your head between the trees."
-msgstr ""
+msgstr "你把头伸到树林之间。"
 
 #: conversationlist_haunted_forest.json:road2_daw_10:0
 msgid "What an eerie sound ..."
-msgstr ""
+msgstr "多么令人毛骨悚然的声音......"
 
 #: conversationlist_haunted_forest.json:road2_daw_20
 msgid "Now you notice that the moaning heard by Gabriel is a little louder here."
-msgstr ""
+msgstr "现在你注意到，加布里埃尔听到的呻吟声在这里有点大了。"
 
 #: conversationlist_haunted_forest.json:road5_daw_10
 msgid "As you stick your head between the trees, you feel a burst of cold air and a shiver goes down your body"
-msgstr ""
+msgstr "当你把头伸进树木之间时，你感到一阵寒流，身体不由自主地打了个寒颤"
 
 #: conversationlist_haunted_forest.json:road5_daw_10:0
 msgid "This doesn't feel right! I should get out of here now."
-msgstr ""
+msgstr "这感觉不对!我现在应该离开这里。"
 
 #: conversationlist_haunted_forest.json:road5_daw_10:1
 msgid "I should stick around a little bit longer."
-msgstr ""
+msgstr "我应该再坚持一下。"
 
 #: conversationlist_haunted_forest.json:haunted_cemetery1_nonwalkable_hole
 msgid "As you emerge from the hole, the rope tumbles to the ground."
-msgstr ""
+msgstr "当你从洞里出来时，绳子掉到地上。"
 
 #: conversationlist_haunted_forest.json:road5_daw_20
 msgid "Now you begin to notice that the moaning heard by Gabriel is a little loader here."
-msgstr ""
+msgstr "现在你注意到，加布里埃尔听到的呻吟声在这里有点大了。"
 
 #: conversationlist_haunted_forest.json:road5_daw_20:0
 msgid "I must be getting closer to the source. It's time to press on."
-msgstr ""
+msgstr "我一定是越来越接近源头了。是时候继续推进了。"
 
 #: conversationlist_haunted_forest.json:haunted_benzimos_death_10
 msgid "Benzimos is now dead ... again."
-msgstr ""
+msgstr "本齐莫斯现在已经死了...再一次。"
 
 #: conversationlist_next_release.json:crossglen_valentina_andor_25
 msgid "Don't you remember who lives there?"
-msgstr ""
+msgstr "你不记得谁住在那里吗？"
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -55828,59 +55838,60 @@ msgstr "这把刀刃是由在你之前的人挥舞的。"
 
 #: itemlist_haunted_forest.json:death_mace
 msgid "Death mace"
-msgstr ""
+msgstr "死神之锤"
 
 #: itemlist_haunted_forest.json:angel_feather
 msgid "Angel feather"
-msgstr ""
+msgstr "天使之羽"
 
 #: itemlist_haunted_forest.json:angel_feather:description
 msgid "A feather from the Angel of death. Legend states that if you place one under a person's pillow, it causes the Angel of death to appear..."
-msgstr ""
+msgstr "一根来自死亡天使的羽毛。传说中，如果你在一个人的枕头下放一根，会导致死亡天使"
+"出现......"
 
 #: itemlist_haunted_forest.json:human_skull:description
 msgid "Freaky to most, but intriguing to some."
-msgstr ""
+msgstr "对大多数人来说是怪异的，但对一些人来说是耐人寻味的。"
 
 #: itemlist_haunted_forest.json:skeletal_remains
 msgid "Skeletal remains"
-msgstr ""
+msgstr "遗骸"
 
 #: itemlist_haunted_forest.json:skeletal_remains:description
 msgid "Ancient human bones."
-msgstr ""
+msgstr "古代人的骨骼。"
 
 #: itemlist_haunted_forest.json:shield_of_undead
 msgid "Shield of the undead"
-msgstr ""
+msgstr "亡灵之盾"
 
 #: itemlist_haunted_forest.json:shield_of_undead:description
 msgid "This shield calls for death, and yours will do."
-msgstr ""
+msgstr "这面盾牌呼唤死亡，你将这么做。"
 
 #: itemlist_haunted_forest.json:spider_eggs
 msgid "Spider eggs"
-msgstr ""
+msgstr "蜘蛛卵"
 
 #: itemlist_haunted_forest.json:spider_eggs:description
 msgid "Better served cooked, but some like to eat these raw."
-msgstr ""
+msgstr "煮熟后食用更好，但有些人喜欢生吃。"
 
 #: itemlist_haunted_forest.json:tonic_of_blood
 msgid "Tonic of blood"
-msgstr ""
+msgstr "补血"
 
 #: itemlist_haunted_forest.json:tonic_of_blood:description
 msgid "An ancient \"healing\" remedy that's been known to cause more harm than good."
-msgstr ""
+msgstr "一种古老的 \"治疗 \"药方，被认为弊大于利。"
 
 #: itemlist_haunted_forest.json:eye_ball
 msgid "Bat eye"
-msgstr ""
+msgstr "蝙蝠眼"
 
 #: itemlist_haunted_forest.json:eye_ball:description
 msgid "The eye ball of a \"three-eyed bat\"."
-msgstr ""
+msgstr "“三眼蝙蝠”的眼球。"
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 msgid "Tiny rat"
@@ -59429,11 +59440,11 @@ msgstr "莱迪奥法"
 
 #: monsterlist_fungi_panic.json:lombric_ball
 msgid "Lombric ball"
-msgstr ""
+msgstr "伦布里克球"
 
 #: monsterlist_fungi_panic.json:lombric_ball2
 msgid "Mature lombric ball"
-msgstr ""
+msgstr "成熟的伦布里克球"
 
 #: monsterlist_fungi_panic.json:lombric_ball3
 msgid "Quick lombric ball"
@@ -59957,59 +59968,59 @@ msgstr "女王熔岩实体"
 
 #: monsterlist_haunted_forest.json:haunted_benzimos
 msgid "Benzimos"
-msgstr ""
+msgstr "本齐莫斯"
 
 #: monsterlist_haunted_forest.json:angel_death
 msgid "Angel of death"
-msgstr ""
+msgstr "死亡天使"
 
 #: monsterlist_haunted_forest.json:skeletal_raider
 msgid "Skeletal raider"
-msgstr ""
+msgstr "骷髅袭击者"
 
 #: monsterlist_haunted_forest.json:dead_walker
 msgid "Deadwalker"
-msgstr ""
+msgstr "行尸"
 
 #: monsterlist_haunted_forest.json:sinister_wraith
 msgid "Sinister wraith"
-msgstr ""
+msgstr "阴险的幽灵"
 
 #: monsterlist_haunted_forest.json:sleepless_taint
 msgid "Sleepless taint"
-msgstr ""
+msgstr "不眠污点"
 
 #: monsterlist_haunted_forest.json:death_wrecker
 msgid "Death wrecker"
-msgstr ""
+msgstr "死亡破坏者"
 
 #: monsterlist_haunted_forest.json:graveyard_gatekeeper
 msgid "Graveyard gatekeeper"
-msgstr ""
+msgstr "守墓人"
 
 #: monsterlist_haunted_forest.json:mindless_disgrace
 msgid "Mindless disgrace"
-msgstr ""
+msgstr "无意识的耻辱"
 
 #: monsterlist_haunted_forest.json:grieveless_dead
 msgid "Grieveless dead"
-msgstr ""
+msgstr "无情死亡"
 
 #: monsterlist_haunted_forest.json:musty_prowler
 msgid "Musty prowler"
-msgstr ""
+msgstr "发霉的徘徊者"
 
 #: monsterlist_haunted_forest.json:forest_hunter
 msgid "Forest hunter"
-msgstr ""
+msgstr "森林猎手"
 
 #: monsterlist_haunted_forest.json:three_eyed_bat
 msgid "Three-eyed bat"
-msgstr ""
+msgstr "三眼蝙蝠"
 
 #: monsterlist_haunted_forest.json:gabriel
 msgid "Gabriel"
-msgstr ""
+msgstr "加布里埃尔"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -64337,7 +64348,7 @@ msgstr "[REVIEW]奥马尔给了我一个任务，让我给市长至少50000金�
 
 #: questlist_omi2.json:Thieves04:75
 msgid "Sullengard has been given their share of the gold and now it's time to revisit Umar."
-msgstr ""
+msgstr "苏伦加德已经获得了他们的黄金份额，现在是时候重新审视奥马尔了。"
 
 #: questlist_omi2.json:Thieves04:80
 msgid "At last, Sullengard can now sleep calmly and eat sufficiently with their finances restored."
@@ -64733,35 +64744,36 @@ msgstr "我对弗洛明斯酒馆的警卫队长撒了谎，没有告诉他关于
 
 #: questlist_haunted_forest.json:dead_walking
 msgid "The Dead are Walking"
-msgstr ""
+msgstr "死者在行走"
 
 #: questlist_haunted_forest.json:dead_walking:0
 msgid "Gabriel, the acolyte in Vilegard has asked me to investigate the sounds that only he is hearing."
-msgstr ""
+msgstr "加布里埃尔，维尔加德的圣徒让我调查只有他听到的声音。"
 
 #: questlist_haunted_forest.json:dead_walking:10
 msgid "Off of the Duleian road, just east of Vilegard, I noticed that the moaning sounds seem just a little bit louder."
-msgstr ""
+msgstr "在杜莱恩路路边，就在维尔加德的东边，我注意到呻吟声似乎大了一点儿。"
 
 #: questlist_haunted_forest.json:dead_walking:20
 msgid "Off of the Duleian road, just south of Alynndir's cabin, I noticed that the moaning sounds seem just a little bit louder."
-msgstr ""
+msgstr "在杜莱恩路路边，就在阿林迪尔小屋的南边，我注意到呻吟声似乎大了一点儿。"
 
 #: questlist_haunted_forest.json:dead_walking:40
 msgid "I discovered the 'Haunted forest' and suspected that this may be the source of the sounds heard by Gabriel in Vilegard."
-msgstr ""
+msgstr "我发现了 \"闹鬼的森林\"，并怀疑这可能是加布里埃尔在维尔加德听到的声音的来源。"
 
 #: questlist_haunted_forest.json:dead_walking:50
 msgid "In the haunted house's basement, I discovered Benzimos (and he discovered me) while chanting some kind of ritual. He must be stopped."
-msgstr ""
+msgstr "在鬼屋的地下室里，我发现了本齐莫斯（他也发现了我），同时念叨着某种仪式。必须"
+"阻止他。"
 
 #: questlist_haunted_forest.json:dead_walking:60
 msgid "Now that Benzimos is \"dead\" again, I should return to Vilegard and speak with Gabriel."
-msgstr ""
+msgstr "现在本齐莫斯又“死”了，我应该回到维尔加德和加布里埃尔谈谈。"
 
 #: questlist_haunted_forest.json:dead_walking:70
 msgid "Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard."
-msgstr ""
+msgstr "加布里埃尔永远感激我能够阻止本齐莫斯的亡灵群对维尔加德的潜在攻击。"
 
 #: worldmap.xml:world1:crossglen
 msgid "Crossglen"
@@ -64822,4 +64834,3 @@ msgstr "苏伦加德"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "迪博果园"
-
