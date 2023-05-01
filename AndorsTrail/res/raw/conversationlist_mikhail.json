@@ -561,10 +561,20 @@
     },
     {
         "id":"mikhail_rats_start3",
-        "message":"Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it. One other thing, you may want to look in that basket on the floor.\nover there as it is Andor's and he might have left something useful in it.",
+        "message":"Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it.",
         "replies":[
             {
                 "text":"OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items.",
+                "nextPhraseID":"mikhail_rats_start3a"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_rats_start3a",
+        "message":"One more thing: Look at that basket on the floor over there. It belongs to  Andor and he might have left something useful inside.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"mikhail_default"
             }
         ]
