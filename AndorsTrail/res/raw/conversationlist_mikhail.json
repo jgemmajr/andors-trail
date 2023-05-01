@@ -3,6 +3,16 @@
         "id":"mikhail_start_select",
         "replies":[
             {
+                "nextPhraseID":"ratdom_mikhail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_nondisplay",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"mikhail_start_select2",
                 "requires":[
                     {
@@ -551,7 +561,7 @@
     },
     {
         "id":"mikhail_rats_start3",
-        "message":"Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it.",
+        "message":"Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it. One other thing, you may want to look in that basket on the floor.\nover there as it is Andor's and he might have left something useful in it.",
         "replies":[
             {
                 "text":"OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items.",
