@@ -143,7 +143,7 @@
     <string name="about_button3">Llicència</string>
     <string name="about_contents1">Us donem la benvinguda a l\'Andor\'s Trail («El Camí d\'Andor»), un joc de rol tipus RPG «rogue» de codi obert.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Fòrums del joc per a fer preguntes i parlar del joc a andorstrail.com.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Viqui del joc amb informació sobre el món d\'El Camí d\'Andor, entre d\'altres coses.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Codi font del projecte a github.com per a desenvolupadors.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Visiteu els fòrums per a parlar del joc amb altres jugadors.&lt;br /&gt;</string>
     <string name="about_interface">&lt;div&gt;Si premeu el botó de menú del vostre dispositiu, es mostraran les &lt;b&gt;opcions del joc&lt;/b&gt;.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Icones de la interfície&lt;/h1&gt; &lt;div&gt;&lt;b&gt;El cofre&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Ranures ràpides [Toc llarg als compartiments de dintre per a assignar-hi objectes per al seu ús instantani]&lt;/p&gt; &lt;div&gt;&lt;b&gt;L\'heroi&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menú [Resum, Missions, Habilitats i Inventari *]&lt;/p&gt; &lt;p&gt;* (A l\'inventari, toqueu un objecte per a obtenir-ne informació o feu toc llarg per a veure més opcions)&lt;/p&gt; &lt;div&gt;&lt;b&gt;L\'enemic&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informació [Apareix durant el combat]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat&lt;/h1&gt; &lt;p&gt;Les accions que es fan durant la batalla costen PA...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atacar&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (L\'equipament o l\'ús d\'alguns objectes poden alterar el cost dels PA)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Fer servir objectes&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fugir&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat Avançat&lt;/h1&gt; &lt;div&gt;Durant el combat, feu un toc llarg en una casella adjacent a l\'heroi...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Per a fugir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(la casella escollida es marca - i el botó d\'«Ataca» canvia a «Moure\'s»)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[mode de fugida activat ‒ Feu un toc llarg a l\'enemic per a tornar a entrar al mode de combat]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Per a canviar d\'objectiu&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(la marca vermella que indica l\'objectiu canvia entre els enemics)&lt;/p&gt; &lt;p&gt;[l\'objectiu ha canviat]&lt;/p&gt;</string>
-    <string name="dialog_newversion_title">Us donem la benvinguda</string>
+    <string name="dialog_newversion_title">Us donem la benvinguda!</string>
     <string name="dialog_newversion_message">Gràcies per descarregar l\'Andor\'s Trail!
 \n
 \nTingueu en compte que aquesta versió d\'«El Camí d\'Andor» està en desenvolupament i els mapes no estan complets.
@@ -292,7 +292,7 @@
     <string name="skill_prerequisite_other_skill">Per a millorar aquesta habilitat, necessiteu tenir almenys el nivell %1$d a l\'habilitat %2$s.</string>
     <string name="skill_prerequisite_level">Per a millorar aquesta habilitat, necessiteu com a mínim un nivell d\'experiència de %1$d.</string>
     <string name="skill_prerequisite_stat">Per a millorar aquesta habilitat, necessiteu com a mínim un nivell de %1$d en l\'estadística base %2$s.</string>
-    <string name="skill_number_of_increases_one">Podeu escollir millorar una habilitat.</string>
+    <string name="skill_number_of_increases_one">Podeu escollir millorar una habilitat. Es mantenen els punts d\'habilitat fins que es facin servir.</string>
     <string name="skill_number_of_increases_several">Podeu escollir millorar %1$d habilitats.</string>
     <string name="levelup_adds_new_skillpoint">Aquest nivell també dóna un punt més per a gastar en habilitats!</string>
     <string name="loadsave_save_to_new_slot">Crea una ranura de desada nova</string>
@@ -643,4 +643,6 @@
     <string name="loadsave_importing_worldmap">S\'importa el mapa del món...</string>
     <string name="loadsave_import_error_unknown">S\'ha produït un error desconegut durant la importació.</string>
     <string name="loadsave_import_worldmap_wrong_file">Esteu segur que heu triat un mapa del món\? Trieu el fitxer «worldmap.zip» que s\'ha exportat al lloc de destí de l\'exportació.</string>
+    <string name="loadsave_import_save_error_unknown">‒obsolet‒</string>
+    <string name="loadsave_import_worldmap_wrong_directory">‒obsolet‒</string>
 </resources>
