@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="27" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="27" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBi6QIyJsJp7QDUJTBB6KlT9YTEIHx3j0o8LJyPpuY/EvimIakYMKyr/tBCmHSD9IH3X0fTC1N9FcuMWLGrQAbobYMAdaIYHE6Y9c/gRbD0k96G7FRcQhLoN5k6Qf8KBOAKIU/HEEz7zkc0ixh1r+DHFQHE+HYv9oDQAMlMQixw2c0AAOUyZkdwECq+pePxILwAAMV8r8w==
+   eJxjYBi6QIyJsJp7QDUJTBB6KlT9YTEIHx3j0o8LJyPpuY/EvimIakYMKyr/tBCmHSD9IH3X0fTC1N9FcuMWLGrQAbobYMAdaIYHE6Y9c/gRbD0k96G7FRcQhLoN5k6Qf8KBOIJAHOEzH9ksYtyxhh9TDBTn07G4AZQGQGYKYpHDZg4IIIcpM5KbQOE1lYA/6QEAoHorjA==
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="9">
@@ -203,7 +203,7 @@
    eJzbKMbAsHGQYxAYSP2k2IPLLmRAjBn41OOTRxYj1j24ACG3o4uTYxeyPnz+ItbNpPqBFHOxhSkhM+mZTwBKc362
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="East" type="mapchange" x="832" y="128" width="32" height="128">
    <properties>
     <property name="map" value="crackshot_hideout2"/>
@@ -232,7 +232,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="6" name="larva_g03_1" type="spawn" x="32" y="128" width="128" height="128">
    <properties>
     <property name="quantity" value="2"/>

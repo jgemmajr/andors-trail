@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="21" height="20" tilewidth="32" tileheight="32" nextobjectid="37">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="21" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="37">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,32 +180,37 @@
  <tileset firstgid="7449" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="21" height="20">
+ <layer id="10" name="Base" width="21" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBja4DYnAhMjPgpGwSgYBaNgcAIAwhwFWQ==
+  </data>
+ </layer>
+ <layer id="1" name="Ground" width="21" height="20">
   <data encoding="base64" compression="zlib">
    eJy1k70RwjAMhV3liAdQ4Q34aYCC1FReLTABMEsmySIpkTpHJ1kKnIuvkO7p2ZbkqQ9hasCQ1lDu0tlotUROayh372y0WmJm0HllPEIID+QJdd3c656ZaV/o9UY+UNfVPDnniP1DrtHWap6eczRdS0+LX2qkHStjPmtNZ+1nGfNZa7pyPxcG5Y64NyeQ+7jH/AH0Wi3vnZHXU/ofEqQj/S7antL/kMjJf8/F+XaprlU/B+H+W/vJa6We/NNPyt2ckIdX+wX/OjUv
   </data>
  </layer>
- <layer name="Objects" width="21" height="20">
+ <layer id="2" name="Objects" width="21" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYKANMGZjYHjLx8DwDohN2BDi8Wz4aXzAGahmBwsDwy4gdoGq38YHoY+zMzBUijEwVAFxNRCfYEeVxwWk+IFqgeadAuITQLU2QHOPIZkJAtEsEBpm5jGouj9IZrewINg2SGwQ8EHyG8xMGDjBjl0dOvBhwS13Hc3MG+zY1YEAsjtj8JhJCegAmttJhtm4wpMWwIkfgUkFrEwIdi6S/ot8EHwDiG9D/SINTIsyYtjNkQSKS0HlPhFIpyDwGqrmqQBx7mQCui0HGI55QMyJ5IYwVky1XwmY+Q0qb0dEvDgD7T0jSpwbdwLVxdE4rpHBUSLCmRjgjuTmzUAzg5lwqyXWvFYkM2nhTmRwgkrmUxsAAPWoLyE=
   </data>
  </layer>
- <layer name="Above" width="21" height="20">
+ <layer id="3" name="Above" width="21" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYKANuCxGWMyahXi9IHAYKK7Cz8AgBsQ7+BBiyMAbh5no6vCJ41JLiZmXiDQTlzpi3UQKAJlZAQyvSqQwwxX26ABfHBEjRqxeStxCqh5kMXxuIdfv+NIANdPnMwHizTTmJ85MQnaP9HyEDqiZj3CVdaS4BwSwhQml4UltAADkBTAu
   </data>
  </layer>
- <layer name="Walkable" width="21" height="20" visible="0">
+ <layer id="4" name="Walkable" width="21" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzdk1EKACEIRDvF3v8K3XB/Ixzn7RD7URCJNU9Rm88Y85K9rkS3+7rTxdz9le3uOqZiKM7XPJ1eMSubMtMeJpq/mKpmau5oHqSW1Tx3XMp0WsJL9CfmkzJonJP/yPU+Ya5c50uY9A/Qty8aIKWU
   </data>
  </layer>
- <layer name="Walkable_1" width="21" height="20">
+ <layer id="5" name="Walkable_1" width="21" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYBgF1AAbxQbaBcSBUXeOglEwCgYrAADQBAJW
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="entrance" type="mapchange" x="320" y="608" width="32" height="32">
    <properties>
     <property name="map" value="guynmart"/>
@@ -237,7 +242,7 @@
   <object id="33" name="guynmart_drp_main1_weapons" type="container" x="128" y="384" width="32" height="32"/>
   <object id="36" name="guynmart_s_hannah" type="script" x="192" y="160" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="6" name="guynmart_steward" type="spawn" x="256" y="96" width="160" height="160">
    <properties>
     <property name="quantity" value="1"/>
@@ -353,7 +358,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup id="8" name="Keys">
   <object id="27" name="guynmart:164" type="key" x="608" y="352" width="32" height="32">
    <properties>
     <property name="phrase" value="guynmart_key_main0"/>
@@ -371,7 +376,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
+ <objectgroup id="9" name="Replace">
   <object id="28" name="guynmart:201" type="replace" x="608" y="96" width="32" height="32">
    <properties>
     <property name="Walkable" value="Walkable_1"/>

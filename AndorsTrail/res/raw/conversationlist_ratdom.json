@@ -6610,7 +6610,7 @@
         "replies":[
             {
                 "text":"Hey, come in! It is cool and refreshing.",
-                "nextPhraseID":"ratdom_rat_flora_warn_20"
+                "nextPhraseID":"ratdom_rat_flora_20"
             }
         ]
     },
@@ -6637,7 +6637,7 @@
     },
     {
         "id":"ratdom_rat_flora_warn_10",
-        "message":"Wait! This could be a trap!",
+        "message":"Wait! I know this place - it is Flora's fountain. This could be a trap!",
         "switchToNPC":"ratdom_rat",
         "replies":[
             {
@@ -10965,7 +10965,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"alignmentChange",
+                "rewardType":"alignmentSet",
                 "rewardID":"ratdom_wells",
                 "value":19
             }
@@ -11317,5 +11317,24 @@
     {
         "id":"ratdom_do_nothing",
         "message":"Let's do the bone dance again!"
+    },
+    {
+        "id":"ratdom_rat_flora_20",
+        "message":"Me and water? Forget it!"
+    },
+    {
+        "id":"ratdom_wells_chest_2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_wells_chest_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"ratdom_wells",
+                "value":19
+            }
+        ]
     }
 ]
