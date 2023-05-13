@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "POT-Creation-Date: Sun Nov 10 11:14:56 CET 2013\n"
-"PO-Revision-Date: 2023-04-07 18:53+0000\n"
+"PO-Revision-Date: 2023-05-13 19:49+0000\n"
 "Last-Translator: Joan Josep <juanjo.ng.83@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ca/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: [none]
 msgid "translator-credits"
@@ -63,7 +63,7 @@ msgstr "Misèria d'Aiguanegra"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
-msgstr "Borratxo"
+msgstr "Emborratxat"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
@@ -115,7 +115,7 @@ msgstr "Benedicció de regeneració de l'Ombra"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Benedicció de precisió del l'Ombra"
+msgstr "Benedicció de precisió de l'Ombra"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -255,7 +255,7 @@ msgstr "Nàusea"
 
 #: actorconditions_stoutford_combined.json:poison_blood
 msgid "Blood poisoning"
-msgstr "Intoxicació sanguínia"
+msgstr "Enverinament de la sang"
 
 #: actorconditions_stoutford_combined.json:deftness
 msgid "Deftness"
@@ -350,90 +350,96 @@ msgstr "Fart"
 
 #: actorconditions_omi2.json:panic
 msgid "Panic"
-msgstr ""
+msgstr "Pànic"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr ""
+msgstr "Saciat"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
-msgstr ""
+msgstr "Congelació menor"
 
 #: actorconditions_omi2.json:frozen2
 msgid "Icy wounds"
-msgstr ""
+msgstr "Ferides pel gel"
 
 #: actorconditions_omi2.json:relax
 msgid "Requiescence"
-msgstr ""
+msgstr "Requiescència"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "Possessió d'en Kazaul"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr ""
+msgstr "Pesta de la mort"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr ""
+msgstr "Somnambulisme"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
-msgstr "Oh, bé, estàs despert."
+msgstr "Oh! Bé! Esteu despert."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
-msgstr "No puc trobar el teu germà, Andor, per enlloc. No ha tornat des que va marxar ahir."
+msgstr ""
+"No puc trobar el vostre germà Andor per enlloc. No ha tornat des que se'n va "
+"anar ahir."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr "No et preocupis, probablement torni aviat."
+msgstr "No us preocupeu. Probablement tornarà aviat."
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
 #: conversationlist_umar.json:umar_return_2
 msgid "Anything else I can help you with?"
-msgstr "Et puc ajudar amb alguna cosa més?"
+msgstr "Us puc ajudar amb alguna cosa més?"
 
 #: conversationlist_mikhail.json:mikhail_default:0
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr "Tens alguna tasca més per a mi?"
+msgstr "Teniu alguna tasca més per a mi?"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr "[OUTDATED]Se suposa que teníem un tema pendent, oi?"
+msgstr "Teniu alguna tasca per a mi?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
-msgstr "Pots dir-me alguna cosa més, sobre l'Andor?"
+msgstr "Podeu dir-me alguna cosa més sobre l'Andor?"
 
 #: conversationlist_mikhail.json:mikhail_default:5
 #: conversationlist_mikhail.json:mikhail_default:6
 msgid "I have a present for you."
-msgstr "Tinc un regal per a tu."
+msgstr "Tinc un regal per a vós."
 
 #: conversationlist_mikhail.json:mikhail_default:7
 msgid "I was searching for Andor."
-msgstr "Buscava a l'Andor."
+msgstr "Buscava l'Andor."
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
-msgstr "Quin és el llibre que tens a la mà?"
+msgstr "Quin tipus de llibre teniu a la mà?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
 msgstr ""
+"Sí, estic aquí per a entregar una comanda d'un «coixí de pelfa». Per a què "
+"és?"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
-msgstr "Ah, sí, necessito ajuda amb un parell de coses, pa i rates. De quina prefereixes parlar?"
+msgstr ""
+"Ah, sí! Necessito ajuda amb un parell de coses, pa i rates. De quina voleu "
+"que us parli?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
@@ -450,7 +456,7 @@ msgstr "Què passa amb les rates?"
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr "No importa, parlem d'una altra cosa."
+msgstr "No importa. Parlem d'altres coses."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
@@ -458,31 +464,40 @@ msgstr "Gràcies per portar-me el pa. Encara queda el tema de les rates."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
-msgstr "Gràcies per ocupar-te de les rates. Encara vull una mica de pa."
+msgstr "Gràcies per ocupar-vos de les rates. Encara vull una mica de pa."
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
-msgstr "Per ara no. Gràcies per ocupar-te del pa i les rates."
+msgstr "Per ara no. Gràcies per ocupar-vos del pa i de les rates."
 
 #: conversationlist_mikhail.json:mikhail_andor1
 msgid "As I said, Andor went out and hasn't been back since. I worry about him. Please go look for your brother. He said he would only be out for a short while."
-msgstr "Com t'he dit, l'Andor va sortir i encara no ha tornat. Em preocupa. Sisplau vés a buscar al teu germà."
+msgstr ""
+"Com us he dit, l'Andor va sortir i encara no ha tornat. Em preocupa. Si us "
+"plau, aneu a buscar el vostre germà. Em va dir que tornaria aviat."
 
 #: conversationlist_mikhail.json:mikhail_andor2
 msgid "Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town."
-msgstr "Potser ha tornat a entrar a la cova de suministres i s'ha quedat atrapat. O potser està al soterrani de la Leta, entrenant amb l'espasa de fusta un altre cop. Sisplau, vés a la ciutat a buscar-lo."
+msgstr ""
+"Potser ha tornat a entrar a la cova de subministres i s'hi ha quedat "
+"atrapat. O potser està al soterrani de la Leta, entrenant amb l'espasa de "
+"fusta un altre cop. Si us plau, aneu a buscar-lo."
 
 #: conversationlist_mikhail.json:mikhail_bread_start
 msgid "Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread."
-msgstr "Ah, quasi se m'oblida. Si tens temps, sisplau, ve a veure la Mara a l'ajuntament i compra'm més pa."
+msgstr ""
+"Ah, quasi se m'oblida. Si teniu temps, aneu a veure a la Mara a l'ajuntament "
+"i compreu-me més pa."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue
 msgid "Did you get my bread from Mara at the town hall yet?"
-msgstr "M'has portat el pa que t'he demanat?"
+msgstr ""
+"M'heu portat el pa de la Mara que us he demanat? A la Mara la podeu trobar a "
+"l'ajuntament."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:0
 msgid "Yes, here you go."
-msgstr "Sí, aquí el tens."
+msgstr "Sí, aquí el teniu."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:1
 #: conversationlist_mikhail.json:mikhail_rats_continue:1
@@ -521,11 +536,13 @@ msgstr "No, encara no."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete
 msgid "Thanks a lot, now I can make my breakfast. Here, take these coins for your help."
-msgstr "Moltes gràcies; ara puc fer-me l'esmorzar. Té, unes monedes, per la teva ajuda."
+msgstr ""
+"Moltes gràcies. Ara puc fer-me l'esmorzar. Teniu. Agafeu aquestes monedes "
+"per la vostra ajuda."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2
 msgid "Thanks for the bread earlier."
-msgstr "Gràcies per el pa d'abans."
+msgstr "Gràcies pel pa d'abans."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2:0
 #: conversationlist_charwood1.json:khorailla1:2
@@ -542,7 +559,9 @@ msgstr "No es mereixen."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there."
-msgstr "He vist unes rates al jardí fa una estona. Podries matar totes les que vegis, sisplau."
+msgstr ""
+"He vist unes rates al jardí fa una estona. Podríeu matar totes les rates que "
+"hi hagi al jardí?"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -554,23 +573,31 @@ msgstr "D'acord, hi aniré a fer una ullada."
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
-msgstr "Si les rates et fereixen, torna i descansa al llit. Així recuperaràs forces."
+msgstr ""
+"Si les rates us fereixen, torneu i descanseu al llit. Així, recuperareu "
+"forces."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
-msgstr "I no oblidis fer un cop d'ull a l'inventari. Probablement encara tinguis l'anell vell que et vaig donar. Posa-te'l."
+msgstr ""
+"I no oblideu fer un cop d'ull a l'inventari. Probablement encara teniu "
+"l'anell vell que us vaig donar. Poseu-vos-el."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
-msgstr "D'acord, entès. Puc descansar aquí, si em fereixen, i hauria de fer un cop d'ull a l'inventari."
+msgstr ""
+"D'acord. Entès. Puc descansar aquí si em fereixen i hauria de fer un cop "
+"d'ull a l'inventari."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to  Andor and he might have left something useful inside."
 msgstr ""
+"Una cosa més: mireu el cistell que hi ha al terrà allà. Pertany a l'Andor i "
+"potser hi ha deixat alguna cosa que us pugui ser útil."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr "Has matat les rates del jardí?"
+msgstr "Heu matat les rates del jardí?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
@@ -582,9 +609,10 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
-"Ah, ho has fet? Vaja, moltes gràcies per l'ajuda! Agafa l'escut d'entrenament de l'Andor, sisplau, el necessitaràs.\n"
+"Ah, ho heu fet? Vaja, moltes gràcies per l'ajuda! Agafeu l'escut "
+"d'entrenament de l'Andor. El necessitareu.\n"
 "\n"
-"Si estàs ferit, descansa al teu llit i recupera forces."
+"Si esteu ferit, descanseu al vostre llit i recupereu forces."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -594,19 +622,23 @@ msgid ""
 msgstr ""
 "Gràcies per ajudar-me amb les rates.\n"
 "\n"
-"Si estàs ferit, descansa al teu llit i recupera forces."
+"Si esteu ferit, descanseu al teu llit i recupereu forces."
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
-msgstr "Igual que va fer el meu pare una vegada, vull donar-te un llibre per que el portis amb tu durant el teu viatge."
+msgstr ""
+"Igual que va fer el meu pare una vegada, vull donar-vos un llibre perquè el "
+"porteu durant el vostre viatge."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
-msgstr "El llibre és una espècie de diari, en el que pots registrar totes les teves experiències i fites."
+msgstr ""
+"El llibre és una espècie de diari on hi podeu registrar totes les "
+"experiències i fites que féssiu al llarg del camí."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr "El vols?"
+msgstr "El voleu?"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
@@ -624,19 +656,24 @@ msgstr "No passa res. No insistiré més."
 #: conversationlist_stoutford_combined.json:stn_colonel_34
 #: conversationlist_ratdom_npc.json:ratdom_audir_2
 msgid "Here you are."
-msgstr "Aquí tens."
+msgstr "Aquí teniu."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
-msgstr "Un altre forma de recuperar forces es menjant. Pots comprar-li menjar a la Mara, a l'ajuntament, però compte, la carn crua pot intoxicar-te."
+msgstr ""
+"Una altre manera de recuperar forces és menjant. Podeu comprar-li menjar a "
+"la Mara, a l'ajuntament; però vigileu amb la carn crua, que potser no se us "
+"posi bé i que us causi problemes."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
-msgstr "Si et passa, potser el sacerdot del poble et pot ajudar. Si no, descansa fins que et trobis millor."
+msgstr ""
+"Si us passa, potser el sacerdot del poble us pot ajudar. Si no, descanseu "
+"fins que us trobeu millor."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr "Jo no em puc permetre comprar carn, així que sempre menjo pa!"
+msgstr "Jo no em puc permetre comprar carn. Així que sempre menjo pa!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -646,11 +683,11 @@ msgid ""
 msgstr ""
 "Benvingut a la meva botiga!\n"
 "\n"
-"Fes una ullada als meus productes, sisplau."
+"Feu una ullada als meus productes, si us plau."
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr "Sisplau, ensenya'm els productes."
+msgstr "Ensenyeu-me els vostres productes."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
@@ -1204,7 +1241,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:edrin_0_0
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr ""
+msgstr "Hola."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -1987,7 +2024,9 @@ msgstr "Et porto aquests ossos."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5
 msgid "Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?"
-msgstr "Gràcies, i, sisplau, torna aviat. He sentit que hi havia alguns no-morts prop d'una casa abandonada just al nord de Fallhaven. Potser pots buscar-hi ossos?"
+msgstr ""
+"Gràcies i torneu aviat. He sentit que hi havia alguns no-morts a prop d'una "
+"casa abandonada just al nord de Fallhaven. Potser podeu buscar-hi ossos?"
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5:0
 msgid "OK, I'll go check there."
@@ -3217,7 +3256,8 @@ msgstr "Calma't, jo només..."
 
 #: conversationlist_flagstone.json:flagstone_guard0
 msgid "Ah, another mortal. Prepare to become part of my undead army!"
-msgstr "Ah, un altre mortal. Prepara't per ser part del meu exèrcit de morts!"
+msgstr ""
+"Ah, un altre mortal. Aviat passareu a formar part del meu exèrcit de morts!"
 
 #: conversationlist_flagstone.json:flagstone_guard0:0
 #: conversationlist_flagstone.json:flagstone_guard1:0
@@ -3246,7 +3286,9 @@ msgstr "Sembles deliciós i tou, vols ser part de la festa?"
 
 #: conversationlist_flagstone.json:flagstone_guard2_3
 msgid "Yes, I think you will. My undead army will spread far outside of Flagstone once I am done with you."
-msgstr "Sí, crec que ho seràs. El meu exèrcit de no-morts s'escamparà fora de Flagstone, quan hagi acabat amb tu."
+msgstr ""
+"Sí, crec que sí. El meu exèrcit de no-morts s'escamparà fora de Flagstone "
+"quan hagi acabat amb vós."
 
 #: conversationlist_flagstone.json:flagstone_guard2_3:0
 msgid "By the Shadow, you must be stopped!"
@@ -3266,7 +3308,9 @@ msgstr "Gira cua ara que pots."
 
 #: conversationlist_flagstone.json:flagstone_sentry_3
 msgid "Flagstone has been overrun by undead, and we are standing guard here to make sure no undead escape."
-msgstr "Flagstone ha estat desbordada pels no-morts, i fem guaita aquí per garantir que cap no-mort se n'escapa."
+msgstr ""
+"Flagstone ha quedat infestada pels no-morts i fem guaita aquí per a garantir "
+"que cap no-mort s'escapa."
 
 #: conversationlist_flagstone.json:flagstone_sentry_3:0
 msgid "Can you tell me the story about Flagstone?"
@@ -3290,7 +3334,9 @@ msgstr "Així que som aquí. He de protegir el camí dels no-morts, perquè no s
 
 #: conversationlist_flagstone.json:flagstone_sentry_11
 msgid "So, I would advise you to leave unless you want to be overrun by undead."
-msgstr "I per això et recomanaria que marxis a menys que vulguis quedar desbordat de no-morts."
+msgstr ""
+"I per això us recomanaria que us n'aneu si no voleu que us ataquin els no-"
+"morts."
 
 #: conversationlist_flagstone.json:flagstone_sentry_11:0
 msgid "Can I investigate the Flagstone ruins?"
@@ -3326,11 +3372,15 @@ msgstr "Hola de nou. Has entrat a Flagstone? Em sorprèn que hagis pogut tornar.
 
 #: conversationlist_flagstone.json:flagstone_sentry_return1:1
 msgid "There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now."
-msgstr "Hi ha un guarda als nivells inferiors de Flagstone al que no es pot arribar, i els antics presoners són tots morts."
+msgstr ""
+"Hi ha un guarda als nivells inferiors de Flagstone al qual no s'hi pot "
+"arribar. Ara, els seus antics presoners són tots no-morts."
 
 #: conversationlist_flagstone.json:flagstone_sentry_20
 msgid "A guardian and undead prisoners you say? This is troubling news, since it means there is some larger force behind all this."
-msgstr "Un guarda i presoners morts, dius? Aquestes notícies em preocupen, perquè vol dir que hi ha forces majors darrere de tot això."
+msgstr ""
+"Un guarda i presoners no-morts, dieu? Aquestes notícies em preocupen, perquè "
+"vol dir que hi ha forces majors darrere de tot això."
 
 #: conversationlist_flagstone.json:flagstone_sentry_21
 msgid "You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news."
@@ -3386,7 +3436,9 @@ msgstr "Bé, continua buscant. Torna si necessites consells."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return4
 msgid "Hello again. It seems something happened inside Flagstone that made the undead weaker. I'm sure we have you to thank for it."
-msgstr "Hla de nou. Sembla ser que ha passat alguna cosa a Flagstone que ha fet més dèbils els no-morts. Estic convençut que t'hem de donar les gràcies a tu."
+msgstr ""
+"Hola de nou. Sembla ser que ha passat alguna cosa a Flagstone que ha fet més "
+"dèbils els no-morts. Estic convençut que us hem de donar les gràcies a vós."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return4:0
 msgid "In the depths of Flagstone, I had to fight a winged demon and found a prisoner called Narael. He told me that he has been there for a very long time, and is too weak to leave."
@@ -4139,7 +4191,7 @@ msgstr "Hola."
 #: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11:2
 #: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12:2
 msgid "Who are you?"
-msgstr ""
+msgstr "Qui sou?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_2
 msgid "My real name is unimportant. People mostly call me Quickfingers."
@@ -4747,11 +4799,11 @@ msgstr "Hola de nou, amic meu."
 
 #: conversationlist_umar.json:umar_return_1:1
 msgid "I have given them our promised share."
-msgstr "[OUTDATED]Em diràs alguna cosa de la clau?"
+msgstr "Els he donat la part que els havíem promès."
 
 #: conversationlist_umar.json:umar_return_1:2
 msgid "What are we gonna do about Sullengard?"
-msgstr "[OUTDATED]En Crackshot és mort."
+msgstr "Què hem de fer amb el Sullengard?"
 
 #: conversationlist_umar.json:umar_return_1:3
 msgid "What are your plans for the new traitors?"
@@ -4759,11 +4811,12 @@ msgstr "[OUTDATED]Em recordes què se suposa que he de fer?"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "[OUTDATED]Quins plans tens pels traïdors?"
+msgstr ""
+"En Matpat m'ha dit que el Defy i els seus homes se n'han anat de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
-msgstr "[OUTDATED]Pots continuar el que em deies dels traïdors?"
+msgstr "En Defy i els seus homes se n'han anat de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
@@ -4775,23 +4828,23 @@ msgstr ""
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
-msgstr "[OUTDATED]Per fi he acabat la feina."
+msgstr "Em direu alguna cosa sobre la clau?"
 
 #: conversationlist_umar.json:umar_return_1:10
 msgid "Crackshot is dead."
-msgstr "[OUTDATED]Em reordes què se suposa que he de fer?"
+msgstr "En Crackshot ha mort."
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
-msgstr ""
+msgstr "Què es suposa que havia de fer?"
 
 #: conversationlist_umar.json:umar_return_1:12
 msgid "What are your plans for the traitors?"
-msgstr "[OUTDATED]Hola."
+msgstr "Quins plans teniu per als traïdors?"
 
 #: conversationlist_umar.json:umar_return_1:13
 msgid "Can you continue with what you were telling me about the traitors?"
-msgstr "[OUTDATED]He de parlar amb tu de la dona noble."
+msgstr "Podeu continuar amb el que dèieu dels traïdors?"
 
 #: conversationlist_umar.json:umar_return_1:14
 msgid "We are supposed to talk about something."
@@ -4800,43 +4853,43 @@ msgstr "[OUTDATED]He portat l'hostatge."
 #: conversationlist_umar.json:umar_return_1:15
 #: conversationlist_umar.json:umar_return_1:16
 msgid "We were supposed to talk about something, right?"
-msgstr ""
+msgstr "Havíem de parlar d'alguna cosa, oi?"
 
 #: conversationlist_umar.json:umar_return_1:17
 msgid "I've finally finished the job."
-msgstr "[OUTDATED]Hi ha alguna novetat sobre la meva tasca nova?"
+msgstr "Ja he acabat la feina."
 
 #: conversationlist_umar.json:umar_return_1:18
 msgid "What am I suppossed to do again?"
-msgstr "[OUTDATED]M'envia en Buscaraons. Ja he fet la feineta."
+msgstr "Què es suposava que havia de fer?"
 
 #: conversationlist_umar.json:umar_return_1:19
 #: conversationlist_umar.json:umar_return_1:20
 msgid "What am I supposed to do with the noblewoman?"
-msgstr "[OUTDATED][OUTDATED]Encantat de conèixe't. Adéu."
+msgstr "Què es suposa que he de fer amb la dona noble?"
 
 #: conversationlist_umar.json:umar_return_1:21
 msgid "I have to talk to you about the noblewoman."
-msgstr ""
+msgstr "He de parlar amb vós de la dona noble."
 
 #: conversationlist_umar.json:umar_return_1:22
 msgid "I have brought the hostage."
-msgstr ""
+msgstr "He portat l'hostatge."
 
 #: conversationlist_umar.json:umar_return_1:23
 #: conversationlist_umar.json:umar_return_1:24
 #: conversationlist_umar.json:umar_return_1:25
 msgid "Anything more about my new task?"
-msgstr ""
+msgstr "Hi ha alguna novetat sobre la meva tasca?"
 
 #: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
-msgstr ""
+msgstr "M'envia en Busca-raons. Ja he fet la feina."
 
 #: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
 msgid "Nice to meet you. Goodbye."
-msgstr ""
+msgstr "Encantat de conèixer-vos. Adéu!"
 
 #: conversationlist_umar.json:umar_return_2:0
 msgid "Can you repeat what you said about Andor?"
@@ -6251,15 +6304,17 @@ msgstr "Clar, clar, tens tota la raó. El nostre deure és cap a Feygard, per ma
 
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_trouble_6:0
 msgid "Yes. The Shadow will not look favorably upon those that disrupt the peace."
-msgstr ""
+msgstr "Sí. L'Ombra no veurà amb bons ulls als que alteren la pau."
 
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_trouble_6:1
 msgid "Yes. The troublemakers should be punished."
-msgstr ""
+msgstr "Sí. Els esvalotadors han de ser castigats."
 
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_trouble_7
 msgid "No, my loyalty is to Feygard. If I would leave, I would also leave my loyalty behind."
 msgstr ""
+"No, sóc lleial a en Feygard. Si me n'anés, també se n'aniria la meva "
+"lleialtat."
 
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_trouble_7:0
 msgid "What does that mean if you are not satisfied with what you do?"
@@ -68890,4 +68945,3 @@ msgstr ""
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
