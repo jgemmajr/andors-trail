@@ -1332,12 +1332,6 @@
                         "requireType":"questProgress",
                         "requireID":"ratdom_mikhail",
                         "value":70
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ratdom_mikhail",
-                        "value":74,
-                        "negate":true
                     }
                 ]
             },
@@ -1623,6 +1617,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Hey - I have brought some bread already.",
+                "nextPhraseID":"ratdom_mikhail_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_mikhail",
+                        "value":74
+                    }
+                ]
             }
         ]
     },
@@ -1648,6 +1653,9 @@
                         "value":54
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"ratdom_mikhail_10_20"
             }
         ],
         "rewards":[
