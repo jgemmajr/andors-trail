@@ -315,10 +315,10 @@
     <string name="skill_prerequisite_stat">Um diesen Skill zu erlernen, werden mindestens %1$d %2$s benötigt (Basiskampfeigenschaften).</string>
     <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern.</string>
     <string name="skill_number_of_increases_several">Du kannst %1$d Fähigkeiten verbessern.</string>
-    <string name="levelup_adds_new_skillpoint">In diesem Level erhälst du einen neuen Skillpunkt!</string>
+    <string name="levelup_adds_new_skillpoint">In diesem Level erhältst du einen neuen Skillpunkt!</string>
     <string name="loadsave_save_to_new_slot">Neuen Speicherplatz anlegen</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Speicherplatz überschreiben?</string>
-    <string name="loadsave_save_overwrite_confirmation">Dieser Speicherplatz enthält einen anderen Spielernamen (%1$s) als den aktuellen Spielernamen (%2$s). Soll dieser Spielstand wirklich überschrieben werden?</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Speicherplatz überschreiben\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Dieser Speicherplatz enthält einen anderen Spielernamen (%1$s) als den aktuellen Spielernamen (%2$s). Soll dieser Spielstand wirklich überschrieben werden\?</string>
     <string name="iteminfo_displaytypes_ordinary">Gewöhnlich</string>
     <string name="iteminfo_displaytypes_quest">Quest Gegenstand</string>
     <string name="iteminfo_displaytypes_legendary">Legendär</string>
@@ -628,4 +628,40 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="startscreen_migration_title">Datenmigration</string>
     <string name="startscreen_migration_text">Migriere Speicherstand.</string>
     <string name="monsterinfo_killcount">Frühere Tötungen</string>
+    <string name="loadsave_export_successfull">Export erfolgreich abgeschlossen.</string>
+    <string name="loadsave_import_error_unknown">Unbekannter Fehler beim Import.</string>
+    <string name="loadsave_import_option_keep_existing">Vorhandenen Spielstand behalten</string>
+    <string name="loadsave_import_option_keep_imported">Importierten Spielstand behalten</string>
+    <string name="loadsave_import_save_error_unknown">- obsolet -</string>
+    <string name="loadsave_import_worldmap_wrong_file">Bist du sicher, dass du eine Karte ausgewählt hast\? Markiere die Datei \'worldmap.zip\', die in dein Zielverzeichnis exportiert worden war.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsolet -</string>
+    <string name="loadsave_export">Gespeicherten Spielstand exportieren</string>
+    <string name="loadsave_export_info">Wähle ein Verzeichnis, in das du alles exportieren möchtest.</string>
+    <string name="loadsave_exporting_savegames">Exportiere Spielstände</string>
+    <string name="loadsave_exporting_worldmap">Exportiere Karte</string>
+    <string name="loadsave_export_unsuccessfull">Export nicht erfolgreich</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Vorhandene Dateien überschreiben\?</string>
+    <string name="loadsave_export_overwrite_confirmation">Das Zielverzeichnis enthält bereits Dateien mit demselben Namen wie die zu exportierenden. Bist du sicher, dass du sie überschreiben willst\?</string>
+    <string name="loadsave_export_error_unknown">Unbekannter Fehler beim Export.</string>
+    <string name="loadsave_import_save">Spielstände importieren</string>
+    <string name="loadsave_import_save_info">Bitte wähle alle Spielstände aus, die du importieren willst.</string>
+    <string name="loadsave_importing_savegames">Importiere Spielstände</string>
+    <string name="loadsave_import_save_successfull">Import abgeschlossen</string>
+    <string name="loadsave_import_save_unsuccessfull">Import nicht erfolgreich</string>
+    <string name="loadsave_import_imported_description">Importierter Spielstand: Speicherplatz: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">Importiere Karte</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Vorhandenen Speicherplatz überschreiben\?</string>
+    <string name="loadsave_import_option_add_as_new">Spielstand in neuem Speicherplatz anfügen</string>
+    <string name="loadsave_import_file_exists_question">In diesem Speicherplatz ist bereits ein Spielstand gespeichert. Möchtest du den vorhandenen Spielstand behalten, ihn mit dem importierten Spielstand überschreiben, oder den importierten Spielstand in einen neuen Speicherplatz anfügen\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_existing_description">Vorhandener Spielstand: Speicherplatz: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_info">Bitte wähle die zip Datei für die Karte.</string>
+    <string name="loadsave_importing_worldmap">Importiere Karte</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Import der Karte nicht erfolgreich</string>
+    <string name="loadsave_import_worldmap_successfull">Import der Karte abgeschlossen</string>
 </resources>
