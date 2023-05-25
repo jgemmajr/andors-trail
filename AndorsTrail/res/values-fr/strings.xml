@@ -313,12 +313,12 @@
     <string name="skill_prerequisite_other_skill">Pour améliorer cette compétence, tu dois atteindre au moins le niveau %1$d de la compétence %2$s.</string>
     <string name="skill_prerequisite_level">Pour améliorer cette compétence, tu dois atteindre au moins le niveau %1$d.</string>
     <string name="skill_prerequisite_stat">Pour améliorer cette compétence, tu dois avoir au moins %1$d à la statistique de base \"%2$s\".</string>
-    <string name="skill_number_of_increases_one">Tu peux sélectionner une compétence à améliorer.</string>
+    <string name="skill_number_of_increases_one">Vous pouvez choisir une compétence à améliorer. Les points de compétence sont conservés jusqu\'à ce qu\'ils soient utilisés.</string>
     <string name="skill_number_of_increases_several">Tu peux sélectionner %1$d compétences à améliorer.</string>
     <string name="levelup_adds_new_skillpoint">Ce niveau te donne également un nouveau point de compétence à utiliser !</string>
     <string name="loadsave_save_to_new_slot">Créer un nouvel emplacement de sauvegarde</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Écraser la sauvegarde ?</string>
-    <string name="loadsave_save_overwrite_confirmation">Cette sauvegarde contient un nom de personnage différent (%1$s) de ton nom actuel (%2$s). Es-tu sûr de vouloir écraser cette sauvegarde \?</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Écraser la sauvegarde \?</string>
+    <string name="loadsave_save_overwrite_confirmation">Cette sauvegarde contient un nom de joueur (%1$s) différent de votre nom de joueur actuel (%2$s). Êtes-vous sûr de vouloir écraser cette sauvegarde \?</string>
     <string name="iteminfo_displaytypes_ordinary">Ordinaire</string>
     <string name="iteminfo_displaytypes_quest">Objet de quête</string>
     <string name="iteminfo_displaytypes_legendary">Légendaire</string>
@@ -629,4 +629,8 @@
     <string name="startscreen_migration_title">Migration de Données</string>
     <string name="startscreen_migration_failure">La migration des données de sauvegarde a échouée.</string>
     <string name="monsterinfo_killcount">Éliminations précédentes</string>
+    <string name="loadsave_export">Exporter les sauvegardes</string>
+    <string name="loadsave_exporting_savegames">Exportation des sauvegardes</string>
+    <string name="loadsave_export_info">Veuillez sélectionner le répertoire dans lequel exporter tous les fichiers.</string>
+    <string name="loadsave_exporting_worldmap">Exportation de la carte du monde</string>
 </resources>
