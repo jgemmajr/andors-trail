@@ -313,7 +313,7 @@
     <string name="skill_prerequisite_other_skill">Um diesen Skill zu erlernen, wird mindestens die %1$d. Stufe des Skills %2$s benötigt.</string>
     <string name="skill_prerequisite_level">Um diesen Skill zu erlernen, wird mindestens das Erfahrungslevel %1$d benötigt.</string>
     <string name="skill_prerequisite_stat">Um diesen Skill zu erlernen, werden mindestens %1$d %2$s benötigt (Basiskampfeigenschaften).</string>
-    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern.</string>
+    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern. Fähigkeitspunkte bleiben bis zu ihrer Benutzung gespeichert.</string>
     <string name="skill_number_of_increases_several">Du kannst %1$d Fähigkeiten verbessern.</string>
     <string name="levelup_adds_new_skillpoint">In diesem Level erhältst du einen neuen Skillpunkt!</string>
     <string name="loadsave_save_to_new_slot">Neuen Speicherplatz anlegen</string>
@@ -558,7 +558,7 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="skill_category_speciality">Spezialisierung</string>
     <string name="skill_category_proficiency">Kompetenz</string>
     <string name="skill_sort_unlocked">Freigeschaltet</string>
-    <string name="preferences_display_theme_title">Oberfläche</string>
+    <string name="preferences_display_theme_title">Design</string>
     <string name="preferences_display_theme">Oberflächendesign auswählen (Neustart notwendig)</string>
     <string name="combat_taunt_monster">Du verhöhnst %1$s!</string>
     <string name="storage_permissions_mandatory">Der Zugriff auf den Datenspeicher ist zwingend notwendig, um Spielstände zu laden und zu speichern. Andor\'s Trail wird daher geschlossen.</string>
@@ -641,12 +641,12 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="loadsave_exporting_worldmap">Exportiere Karte</string>
     <string name="loadsave_export_unsuccessfull">Export nicht erfolgreich</string>
     <string name="loadsave_export_overwrite_confirmation_title">Vorhandene Dateien überschreiben\?</string>
-    <string name="loadsave_export_overwrite_confirmation">Das Zielverzeichnis enthält bereits Dateien mit demselben Namen wie die zu exportierenden. Bist du sicher, dass du sie überschreiben willst\?</string>
+    <string name="loadsave_export_overwrite_confirmation">Der Zielordner beinhaltet Dateien mit dem gleichen Namen wie die zu exportierenden Dateien. Bist du sicher, dass du diese Dateien überschreiben möchtest\?</string>
     <string name="loadsave_export_error_unknown">Unbekannter Fehler beim Export.</string>
     <string name="loadsave_import_save">Spielstände importieren</string>
     <string name="loadsave_import_save_info">Bitte wähle alle Spielstände aus, die du importieren willst.</string>
     <string name="loadsave_importing_savegames">Importiere Speicherstände</string>
-    <string name="loadsave_import_save_successfull">Import abgeschlossen</string>
+    <string name="loadsave_import_save_successfull">Import erfolgreich</string>
     <string name="loadsave_import_save_unsuccessfull">Import nicht erfolgreich</string>
     <string name="loadsave_import_imported_description">Importierter Spielstand: Speicherplatz: %1$s:
 \n\t%2$s</string>
