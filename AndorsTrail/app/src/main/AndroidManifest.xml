@@ -3,8 +3,8 @@
 <manifest 
 	xmlns:android="http://schemas.android.com/apk/res/android" 
 	package="com.gpl.rpg.AndorsTrail"
-	android:versionCode="68"
-	android:versionName="0.8.4"
+	android:versionCode="73"
+	android:versionName="0.8.7"
 	android:installLocation="auto"
 	>
 
@@ -31,7 +31,8 @@
 		android:hasFragileUserData="true"
 		android:preserveLegacyExternalStorage="true"
 		>
-		<activity 
+		<activity
+			android:exported="true"
 		    android:name="com.gpl.rpg.AndorsTrail.activity.StartScreenActivity"
 			android:exported="true"
 		    android:clearTaskOnLaunch="true"
@@ -63,7 +64,7 @@
 		<activity android:name="com.gpl.rpg.AndorsTrail.activity.DisplayWorldMapActivity" />
 
         <provider
-        android:name="android.support.v4.content.FileProvider"
+        android:name="androidx.core.content.FileProvider"
         android:authorities="${applicationId}.fileprovider"
         android:grantUriPermissions="true"
         android:exported="false">

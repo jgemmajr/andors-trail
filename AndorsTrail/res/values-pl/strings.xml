@@ -312,12 +312,12 @@
     <string name="skill_prerequisite_other_skill">Aby podnieść poziom tej umiejętności, potrzebujesz przynajniej poziomu %1$d z umiejętności %2$s.</string>
     <string name="skill_prerequisite_level">Aby podnieść poziom tej umiejętności, potrzebujesz przynajniej poziomu (doświadczenia) %1$d.</string>
     <string name="skill_prerequisite_stat">Aby podnieść poziom tej umiejętności, potrzebujesz przynajniej %1$d %2$s (wartośc bazowa cechy).</string>
-    <string name="skill_number_of_increases_one">Możesz wybrać jedną umiejętność do ulepszenia.</string>
+    <string name="skill_number_of_increases_one">Możesz podnieść poziom jednej z umiejętności. Punkty są zachowywane aż do momentu ich wykorzystania.</string>
     <string name="skill_number_of_increases_several">Możesz wybrać %1$d umiejętności do ulepszenia.</string>
     <string name="levelup_adds_new_skillpoint">Tez poziom daje Ci także możliwość wykorzystania punktu umiejętności!</string>
     <string name="loadsave_save_to_new_slot">Utwórz nowy slot zapisu gry</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Nadpisać zapis gry?</string>
-    <string name="loadsave_save_overwrite_confirmation">Ten zapis gry zawiera inne imię gracza (%1$s) niż obecne (%2$s). Czy na pewno chcesz nadpisać zapis gry?</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Nadpisać zapis gry\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Ten zapis gry zawiera inne imię gracza (%1$s) niż obecne (%2$s). Czy na pewno chcesz nadpisać zapis gry\?</string>
     <string name="iteminfo_displaytypes_ordinary">Zwykły</string>
     <string name="iteminfo_displaytypes_quest">Przedmiot do zadania</string>
     <string name="iteminfo_displaytypes_legendary">Legendarny</string>
@@ -627,4 +627,40 @@ Każdy poziom umiejętności podnosi obrażenia zadawane każdą broń dwuręczn
     <string name="startscreen_migration_text">Przeniesienie zapisów gry.</string>
     <string name="startscreen_migration_failure">Przeniesienie danych nieudane.</string>
     <string name="monsterinfo_killcount">Zabitych do tej pory</string>
+    <string name="loadsave_export">Eksportuj zapisy gry</string>
+    <string name="loadsave_export_successfull">Eksportowanie plików zakończone sukcesem</string>
+    <string name="loadsave_export_unsuccessfull">Eksportowanie plików nie powiodło się</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Nadpisać istniejące pliki\?</string>
+    <string name="loadsave_export_overwrite_confirmation">Katalog docelowy zawiera pliki o identycznych nazwach jak te, które będą eksportowane. Czy chcesz je napisać\?</string>
+    <string name="loadsave_import_save">Importuj pliki zapisów gry</string>
+    <string name="loadsave_import_save_successfull">Import plików zakończony sukcesem</string>
+    <string name="loadsave_import_save_unsuccessfull">Import plików zakończony niepowodzeniem</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Napisać istniejący slot zapisu\?</string>
+    <string name="loadsave_import_option_keep_imported">Zachowaj importowany plik zapisu gry</string>
+    <string name="loadsave_import_option_keep_existing">Zachowaj istniejący plik zapisu gry</string>
+    <string name="loadsave_import_option_add_as_new">Dodaj jako nowy plik zapisu gry</string>
+    <string name="loadsave_import_existing_description">Istniejący plik zapisu gry: Slot: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Importowany plik zapisu gry: Slot: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_file_exists_question">W wybranym slocie znajduje się już zapis gry. Chcesz go zachować, napisać czy też utworzyć nowy slot z zapisem gry\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_exporting_savegames">Trwa eksportowanie plików</string>
+    <string name="loadsave_import_error_unknown">Podczas importowania plików wystąpił nieznany błąd.</string>
+    <string name="loadsave_export_info">Wybierz katalog do którego wyeksportujesz pliki.</string>
+    <string name="loadsave_import_worldmap_wrong_file">Czy na pewno wybrałeś plik z mapa świata\? Wybierz wyeksportowany plik o nazwie \'worldmap.zip\'.</string>
+    <string name="loadsave_exporting_worldmap">Trwa eksportowanie plików mapy</string>
+    <string name="loadsave_export_error_unknown">Podczas eksportowania plików wystąpił nieznany błąd.</string>
+    <string name="loadsave_import_save_info">Wybierz wszystkie pliki zapisów gry które chcesz importować.</string>
+    <string name="loadsave_importing_savegames">Trwa importowanie zapisów gry</string>
+    <string name="loadsave_import_worldmap">Importuj mapę świata</string>
+    <string name="loadsave_import_worldmap_info">Wybierz plik zip zawierający mapę świata.</string>
+    <string name="loadsave_importing_worldmap">Trwa importowanie mapy świata</string>
+    <string name="loadsave_import_worldmap_successfull">Import mapy świata zakończony sukcesem</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Import mapy świata zakończony niepowodzeniem</string>
+    <string name="loadsave_import_save_error_unknown">- nieaktualny-</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- nieaktualny-</string>
 </resources>

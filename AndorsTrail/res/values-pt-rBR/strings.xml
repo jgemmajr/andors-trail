@@ -314,7 +314,7 @@
     <string name="skill_prerequisite_other_skill">Para subir o nível desta habilidade tem que ter, pelo menos, o nível %1$d da habilidade %2$s.</string>
     <string name="skill_prerequisite_level">Para subir o nível desta habilidade tem que ter, no mínimo, o nível %1$d de experiência.</string>
     <string name="skill_prerequisite_stat">Para subir o nível desta habilidade tem que ter, pelo menos, %1$d %2$s (estatísticas base).</string>
-    <string name="skill_number_of_increases_one">Você pode selecionar uma habilidade para melhorar.</string>
+    <string name="skill_number_of_increases_one">Você pode selecionar uma habilidade para melhorar. Os pontos de habilidade são mantidos até serem usados.</string>
     <string name="skill_number_of_increases_several">Você pode selecionar %1$d habilidade para melhorar.</string>
     <string name="levelup_adds_new_skillpoint">Este nível também dá um novo ponto de habilidade para gastar!</string>
     <string name="loadsave_save_to_new_slot">Criar nova posição para guardar jogo</string>
@@ -630,4 +630,40 @@
     <string name="startscreen_migration_text">Migrando dados do jogo salvo.</string>
     <string name="startscreen_migration_failure">Falha ao migrar os dados do jogo salvo.</string>
     <string name="monsterinfo_killcount">Mortes anteriores</string>
+    <string name="loadsave_import_save_error_unknown">- obsoleta -</string>
+    <string name="loadsave_import_error_unknown">Um erro desconhecido ocorreu durante a importação.</string>
+    <string name="loadsave_import_file_exists_question">Já existe um jogo salvo no espaço selecionado. Deseja manter o jogo salvo existente, sobrescrever ele com o jogo salvo importado ou importar o jogo salvo em outro espaço\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_option_keep_existing">Manter jogo salvo existente</string>
+    <string name="loadsave_import_option_keep_imported">Manter jogo salvo importado</string>
+    <string name="loadsave_import_option_add_as_new">Adicionar como novo jogo salvo</string>
+    <string name="loadsave_import_worldmap">Importar mapa do mundo</string>
+    <string name="loadsave_import_worldmap_info">Por favor selecione o arquivo zip do mapa do mundo.</string>
+    <string name="loadsave_importing_worldmap">Importando mapa do mundo</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Importação do mapa do mundo falhou</string>
+    <string name="loadsave_import_worldmap_wrong_file">Tem certeza que selecionou um mapa do mundo\? Por favor selecione o arquivo zip chamado \'worldmap zip\' que foi exportado para o seu local de exportação.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsoleto -</string>
+    <string name="loadsave_export">Exportar jogos salvos</string>
+    <string name="loadsave_export_successfull">Exportado com sucesso</string>
+    <string name="loadsave_export_unsuccessfull">Exportação falhou</string>
+    <string name="loadsave_import_save">Importar jogos salvos</string>
+    <string name="loadsave_import_save_successfull">Importação concluída</string>
+    <string name="loadsave_import_save_unsuccessfull">Importação falhou</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Sobrescrever arquivos existentes\?</string>
+    <string name="loadsave_export_overwrite_confirmation">A pasta selecionada contém arquivos com o mesmo nome de alguns arquivos que devem ser exportados. Você tem certeza que quer sobrescrever esses arquivos\?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Sobrescrever espaço existente\?</string>
+    <string name="loadsave_import_existing_description">Jogos salvos existentes: Espaço:%1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Jogo salvo importado: Espaço:%1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_successfull">Importação do mapa do mundo concluída</string>
+    <string name="loadsave_export_info">Por favor selecione a pasta para exportar todos os arquivos.</string>
+    <string name="loadsave_exporting_savegames">Exportando jogos salvos</string>
+    <string name="loadsave_exporting_worldmap">Exportando mapa do mundo</string>
+    <string name="loadsave_export_error_unknown">Um erro desconhecido ocorreu durante a exportação.</string>
+    <string name="loadsave_import_save_info">Por favor selecione todos os jogos salvos que você quer importar.</string>
+    <string name="loadsave_importing_savegames">Importando jogos salvos</string>
 </resources>
