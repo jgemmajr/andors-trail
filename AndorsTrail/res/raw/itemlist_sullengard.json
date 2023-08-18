@@ -21,7 +21,7 @@
         "name":"Orchard apples",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":35,
+        "baseMarketCost":50,
         "category":"food",
         "description":"A sweet, deliciously tasting snack for those on the move.",
         "useEffect":{
@@ -31,6 +31,10 @@
                     "magnitude":2,
                     "duration":10,
                     "chance":"100"
+                },
+                {
+                    "condition":"fatigue_minor",
+                    "chance":"10"
                 }
             ]
         }
@@ -41,7 +45,7 @@
         "name":"Deebo's apple juice",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":45,
+        "baseMarketCost":97,
         "category":"food",
         "description":"A desireable choice of many Sullengard residence.",
         "useEffect":{
@@ -51,6 +55,12 @@
                     "magnitude":2,
                     "duration":12,
                     "chance":"100"
+                },
+                {
+                    "condition":"vulnerability",
+                    "magnitude":-99,
+                    "duration":2,
+                    "chance":"30"
                 }
             ]
         }
@@ -61,7 +71,7 @@
         "name":"Deebo's apple cider",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":50,
+        "baseMarketCost":80,
         "category":"food",
         "description":"A nice seasonal drink for those slightly colder nights.",
         "useEffect":{
@@ -71,6 +81,11 @@
                     "magnitude":2,
                     "duration":14,
                     "chance":"100"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":-99,
+                    "chance":"35"
                 }
             ]
         }
@@ -407,9 +422,9 @@
                 "max":4
             },
             "increaseAttackCost":6,
-            "increaseAttackChance":12,
-            "increaseCriticalSkill":12,
-            "increaseBlockChance":-3,
+            "increaseAttackChance":8,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":5,
             "increaseDamageResistance":-1,
             "setCriticalMultiplier":2.0,
             "setNonWeaponDamageModifier":150

@@ -332,8 +332,8 @@
     <string name="skill_number_of_increases_several">Můžeš si vybrat %1$d dovednosti/í, které si osvojíš.</string>
     <string name="levelup_adds_new_skillpoint">Získáváš také možnost osvojit si jednu dovednost!</string>
     <string name="loadsave_save_to_new_slot">Vytvořit novou pozici</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Přepsat uloženou hru?</string>
-    <string name="loadsave_save_overwrite_confirmation">Tato uložená hra má jiné jméno hrdiny (%1$s) než je současné jméno hrdiny (%2$s). Opravdu si přeješ tuto hru přepsat?</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Přepsat uloženou hru\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Tato uložená hra má jiné jméno hrdiny (%1$s) než je současné jméno hrdiny (%2$s). Opravdu si přeješ tuto hru přepsat\?</string>
     <string name="iteminfo_displaytypes_ordinary">Běžný</string>
     <string name="iteminfo_displaytypes_quest">Předmět mise</string>
     <string name="iteminfo_displaytypes_legendary">Legendární</string>
@@ -635,4 +635,14 @@
     <string name="loadsave_import_option_add_as_new">Přidat na novou pozici</string>
     <string name="loadsave_import_imported_description">Importovaná uložená hra: Pozice: %1$s:
 \n\t%2$s</string>
+    <string name="loadsave_export_info">Vyberte adresář, do kterého chceš exportovat všechny soubory.</string>
+    <string name="loadsave_exporting_savegames">Exportování uložených her</string>
+    <string name="loadsave_exporting_worldmap">Exportování mapy světa</string>
+    <string name="loadsave_export_error_unknown">Při exportu došlo k neznámé chybě.</string>
+    <string name="loadsave_import_save_info">Vyber všechny uložené hry, které chceš importovat.</string>
+    <string name="loadsave_importing_savegames">Importování uložených her</string>
+    <string name="loadsave_import_error_unknown">Při importu došlo k neznámé chybě.</string>
+    <string name="loadsave_import_worldmap_info">Vyber zip soubor mapy světa.</string>
+    <string name="loadsave_importing_worldmap">Import mapy světa</string>
+    <string name="loadsave_import_worldmap_wrong_file">Určitě byla vybrána mapa světa\? Vyber prosím soubor ZIP s názvem \'worldmap.zip\', který byl exportován do umístění pro export.</string>
 </resources>

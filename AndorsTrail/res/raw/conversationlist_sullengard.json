@@ -45,10 +45,10 @@
     },
     {
         "id":"loneford13_pitchfork",
-        "message":"A new pitchfork pinned in this haystack.",
+        "message":"A new pitchfork is pinned in this haystack.",
         "replies":[
             {
-                "text":"Time to prove that I'm a son of farmer!",
+                "text":"Time to prove that I'm the child of farmer!",
                 "nextPhraseID":"loneford13_pitchfork_selector2",
                 "requires":[
                     {
@@ -107,7 +107,7 @@
         "message":"After several minutes of intense pulling you finally pull out the new pitchfork from the haystack.",
         "replies":[
             {
-                "text":"I'm the son of a farmer!",
+                "text":"I'm a child of a farmer!",
                 "nextPhraseID":"X"
             },
             {
@@ -4135,14 +4135,26 @@
                 "nextPhraseID":"parents_argue_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"andor",
                         "value":100
                     },
                     {
                         "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":110,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"sullengard_hidden",
                         "value":26,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_nondisplay",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -6815,7 +6827,7 @@
     },
     {
         "id":"sullengard_town_clerk_10",
-        "message":"If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
+        "message":"If you are here about a tax complaint or a land dispute, then please sign in and I will get to you momentarily."
     },
     {
         "id":"sullengard_godrey_10a",

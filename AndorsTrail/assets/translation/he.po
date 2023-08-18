@@ -558,6 +558,10 @@ msgstr "אה, דרך אגב, אל תשכח לבדוק בתרמיל שלך. בט�
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr "בסדר, מבין. אני אנוח כאן אם אני נפצע, ואבדוק בתרמיל שלי אם יש לי חפצים שימושיים."
 
+#: conversationlist_mikhail.json:mikhail_rats_start3a
+msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
+msgstr ""
+
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
 msgstr "נו, הרגת את שני החולדות האלה בגינה?"
@@ -612,6 +616,7 @@ msgstr "אין בעיה. אני לא אציק לך עם זה שוב."
 
 #: conversationlist_mikhail.json:mikhail_achievements_50
 #: conversationlist_stoutford_combined.json:stn_colonel_34
+#: conversationlist_ratdom_npc.json:ratdom_audir_2
 msgid "Here you are."
 msgstr "הנה, כך."
 
@@ -640,6 +645,10 @@ msgstr ""
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
 msgstr "תראה לי מה אתה מוכר."
+
+#: conversationlist_crossglen.json:audir1:1
+msgid "Do you have a pickaxe by chance?"
+msgstr ""
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -690,6 +699,9 @@ msgstr "אני יכול לנוח כאן?"
 #: conversationlist_brimhaven.json:edrin_0_0:5
 #: conversationlist_omi2.json:ehrenfest_31b:1
 #: conversationlist_omi2.json:ortholion_guard3_5:2
+#: conversationlist_ratdom_npc.json:whootibarfag_20:1
+#: conversationlist_ratdom_npc.json:whootibarfag_24:1
+#: conversationlist_ratdom_npc.json:whootibarfag_74:1
 msgid "Do you have anything to trade?"
 msgstr "יש לך משהו לסחור?"
 
@@ -1250,6 +1262,9 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_school_enter_20:0
 #: conversationlist_gison.json:gison_p2_70_10:0
 #: conversationlist_omi2.json:ehrenfest_3a:1
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:0
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_80:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95:1
 msgid "OK."
 msgstr ""
 
@@ -1278,6 +1293,9 @@ msgstr ""
 #: conversationlist_omi2.json:prim_guard5_3a:0
 #: conversationlist_omi2.json:ehrenfest_7a:0
 #: conversationlist_delivery.json:brv_wh_delivery_arghes:1
+#: conversationlist_ratdom_npc.json:ratdom_librarian_12:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_250:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16e:0
 msgid "Bye."
 msgstr ""
 
@@ -1364,6 +1382,10 @@ msgstr ""
 #: conversationlist_omi2.json:prim_tavern_guest4_17c:1
 #: conversationlist_omi2.json:capvjern_22:0
 #: conversationlist_delivery.json:brv_wh_delivery_mikhail2:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1:2
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:7
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:2
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16b:0
 msgid "OK, bye."
 msgstr ""
 
@@ -3055,6 +3077,7 @@ msgstr ""
 #: conversationlist_delivery.json:brv_wh_delivery_servant:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_scrooge:0
 #: conversationlist_sullengard.json:farrik_beer_town_10:2
+#: conversationlist_ratdom_npc.json:whootibarfag_74:0
 msgid "Thank you."
 msgstr ""
 
@@ -4030,6 +4053,13 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan_20:0
 #: conversationlist_fungi_panic.json:fungi_rescued:0
 #: conversationlist_sullengard.json:deebo_orchard_howkin_10:2
+#: conversationlist_ratdom.json:ratdom_ghost_40:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:0
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_10:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:1
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11:2
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12:2
 msgid "Who are you?"
 msgstr ""
 
@@ -4376,6 +4406,9 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_wh_boss_10:2
 #: conversationlist_brimhaven2.json:golin_100:0
 #: conversationlist_gison.json:gael_1:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_10:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40g:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10:1
 msgid "Sure."
 msgstr ""
 
@@ -5065,6 +5098,8 @@ msgstr ""
 
 #: conversationlist_kaori.json:kaori_vilegard_3:0
 #: conversationlist_brimhaven_2.json:oromir_behind_inn_20
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_54:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_10:0
 msgid "I see."
 msgstr ""
 
@@ -5599,6 +5634,12 @@ msgstr ""
 #: conversationlist_fungi_panic.json:bogsten_waitforsoup_50:0
 #: conversationlist_gison.json:gael_10:0
 #: conversationlist_omi2.json:ortholion_guard9_1:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_416:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_563:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_580:0
+#: conversationlist_ratdom.json:ratdom_wakeup_140:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_10:0
 msgid "What?"
 msgstr ""
 
@@ -5635,6 +5676,10 @@ msgstr ""
 #: conversationlist_burhczyd.json:burhczydx_9a_4:0
 #: conversationlist_fungi_panic.json:zuul_khan9_20
 #: conversationlist_omi2.json:prim_tavern_guest4_8a:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20c:1
+#: conversationlist_ratdom_npc.json:ratdom_kriih_200:0
+#: conversationlist_ratdom_npc.json:ratdom_kriih_202:0
+#: conversationlist_ratdom_npc.json:whootibarfag_210:0
 msgid "What do you mean?"
 msgstr ""
 
@@ -6417,6 +6462,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_r0:1
 #: conversationlist_maevalia.json:maevalia15:0
 #: conversationlist_stoutford.json:tahalendor2_10
+#: conversationlist_ratdom.json:ratdom_skel_drum_10
 msgid "What now?"
 msgstr ""
 
@@ -9550,6 +9596,7 @@ msgstr ""
 #: conversationlist_twoteeth.json:twoteeth_4:2
 #: conversationlist_stoutford_combined.json:lakecave2_troll_14
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low
+#: conversationlist_ratdom.json:ratdom_ghost_40:1
 msgid "What do you want?"
 msgstr ""
 
@@ -10467,6 +10514,7 @@ msgstr ""
 #: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_1
 #: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_2
 #: conversationlist_gison.json:gison_p2_10_7:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:0
 msgid "No."
 msgstr ""
 
@@ -12828,6 +12876,8 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_gguard_40:2
 #: conversationlist_arulir_mountain.json:bernhar_10:1
 #: conversationlist_gison.json:gison_p1_10_0:0
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_12:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:2
 msgid "What are you doing here?"
 msgstr ""
 
@@ -14489,6 +14539,7 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan_14:1
 #: conversationlist_fungi_panic.json:zuul_khan_70_24:0
 #: conversationlist_gison.json:gison_thief1_22:0
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_70:1
 msgid "Attack!"
 msgstr ""
 
@@ -15263,6 +15314,7 @@ msgstr ""
 #: conversationlist_elwyl.json:elwyl_1:2
 #: conversationlist_guynmart_npc.json:guynmart_gguard_30:1
 #: conversationlist_brimhaven.json:brimhaven_church_guard:1
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12:1
 msgid "OK, I'll leave."
 msgstr ""
 
@@ -17098,6 +17150,10 @@ msgstr ""
 #: conversationlist_ervelyn.json:ervelyn_d
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10:0
 msgid "How may I be of service?"
+msgstr ""
+
+#: conversationlist_kendelow.json:kendelow_d:3
+msgid "Actually, I am wondering if it would be possible if I could cook some meat in your kitchen?"
 msgstr ""
 
 #: conversationlist_kendelow.json:kendelow_shop
@@ -21921,6 +21977,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_28:0
 #: conversationlist_fungi_panic.json:gison_bottle_8_1:0
+#: conversationlist_ratdom.json:ratdom_wells_chest_4:0
 msgid "Nice."
 msgstr ""
 
@@ -21972,6 +22029,8 @@ msgstr ""
 #: conversationlist_sullengard.json:ravynne_0:0
 #: conversationlist_sullengard.json:farrik_beer_10
 #: conversationlist_sullengard.json:sullengard_citizen_0:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_220:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_41
 msgid "Yes."
 msgstr ""
 
@@ -22041,6 +22100,9 @@ msgstr ""
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_54:0
 #: conversationlist_arulir_mountain.json:tjure_30_90:1
 #: conversationlist_sullengard.json:torilo_beer_30:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_552:0
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:1
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_70:1
 msgid "Forget it."
 msgstr ""
 
@@ -22228,6 +22290,7 @@ msgid "Well good luck with that. Maybe you can convince him."
 msgstr ""
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_7:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_520:0
 msgid "I hope so."
 msgstr ""
 
@@ -22495,6 +22558,12 @@ msgid "More work means more money! I'll be back."
 msgstr ""
 
 #: conversationlist_halvor_surprise.json:halvor_bwmine_11:2
+#: conversationlist_ratdom.json:ratdom_rat_final_1_10
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_70a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_71a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_75a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a:0
 msgid "Of course."
 msgstr ""
 
@@ -23331,6 +23400,8 @@ msgstr ""
 
 #: conversationlist_stoutford.json:tahalendor_rumblings80_0:1
 #: conversationlist_gorwath.json:gorwath_letter_11:0
+#: conversationlist_ratdom.json:ratdom_rat_crossglen:0
+#: conversationlist_ratdom.json:ratdom_troll_door2_1:0
 msgid "Indeed."
 msgstr ""
 
@@ -24926,6 +24997,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_gguard_360:0
 #: conversationlist_guynmart_npc.json:guynmart_steward_48
 #: conversationlist_guynmart2_npc.json:guynmart_wise_172:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_242
 msgid "Yes?"
 msgstr ""
 
@@ -24939,6 +25011,9 @@ msgstr ""
 #: conversationlist_stoutford_combined.json:erwyn_child_10
 #: conversationlist_omicronrg9.json:umar_guild02_5c:0
 #: conversationlist_burhczyd.json:burhczydx_4a_9
+#: conversationlist_ratdom.json:ratdom_fraedro_key_20:0
+#: conversationlist_ratdom.json:ratdom_wakeup_142:0
+#: conversationlist_ratdom.json:ratdom_wakeup_150:0
 msgid "Oh."
 msgstr ""
 
@@ -26644,14 +26719,17 @@ msgid "We have good news for you."
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_skeleton2_10
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_10
 msgid "The ring. This human wears the ring of bone. Let him pass."
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_skeleton2_10:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_10:0
 msgid "A bit scary - but really useful, this ring."
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_skeleton2_10:1
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_10:1
 msgid "You are in my way. Attack!"
 msgstr ""
 
@@ -27549,6 +27627,10 @@ msgid "Two loaves of bread! Hmmmm."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_wise_810:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40e:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40f:0
+#: conversationlist_ratdom.json:ratdom_wells_chest_52:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_220:1
 msgid "Well ..."
 msgstr ""
 
@@ -27558,6 +27640,9 @@ msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_wise_812:0
 #: conversationlist_omicronrg9.json:troublemaker_guild02_9:1
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_20:1
+#: conversationlist_ratdom.json:ratdom_wakeup_130:0
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12:0
 msgid "But ..."
 msgstr ""
 
@@ -28323,6 +28408,7 @@ msgid "That potion you made smells really interesting. Can I buy another?"
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots4045_1:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_3:0
 msgid "Too bad."
 msgstr ""
 
@@ -28726,6 +28812,8 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_3:1
 #: conversationlist_omi2.json:ehrenfest_6a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_99:1
+#: conversationlist_ratdom_npc.json:whootibarfag_48:1
 msgid "I will think about it."
 msgstr ""
 
@@ -29910,6 +29998,8 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:berbane_132:0
 #: conversationlist_stoutford_combined.json:berbane_134:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_10:3
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_12:2
 msgid "I give up."
 msgstr ""
 
@@ -31418,6 +31508,7 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_teacher_152_90:0
 #: conversationlist_sullengard.json:sullengard_kealwea_sell:0
 #: conversationlist_sullengard.json:sullengard_lamberta_sell:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_54a
 msgid "Thank you!"
 msgstr ""
 
@@ -31572,6 +31663,7 @@ msgid "But first I have to clarify something. You need to be more careful not to
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_5a:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40b:0
 msgid "Did I?"
 msgstr ""
 
@@ -31999,6 +32091,7 @@ msgstr ""
 #: conversationlist_omi2.json:elm2f_passage:1
 #: conversationlist_omi2.json:elm2f2_chest_2:0
 #: conversationlist_omi2.json:ehrenfest_53:1
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:2
 msgid "Leave."
 msgstr ""
 
@@ -33488,7 +33581,7 @@ msgid "Yes. We must find and kill them and retrieve the share for the sake of Su
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_21
-msgid "Fortunately, one of my men found one of his drunk men and had a short talk with him before he bleed to death."
+msgid "Fortunately, one of my men found one of his drunk men and had a short talk with him before he bled to death."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_21:0
@@ -33688,6 +33781,7 @@ msgstr ""
 #: conversationlist_arulir_mountain.json:arulirmountain_trap_rocks_4:1
 #: conversationlist_arulir_mountain.json:arulirmountain_trap_rocks_6:1
 #: conversationlist_omi2.json:elm4_hole:0
+#: conversationlist_ratdom_npc.json:ratdom_maze_boulder
 msgid "Ouch!"
 msgstr ""
 
@@ -35005,6 +35099,7 @@ msgid "Now tell me - what exactly did she say?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13
+#: conversationlist_ratdom_npc.json:ratdom_rat_242:1
 msgid "Nothing."
 msgstr ""
 
@@ -36253,6 +36348,7 @@ msgstr ""
 #: conversationlist_omi2.json:ehrenfest_30b:0
 #: conversationlist_omi2.json:ehrenfest_41c
 #: conversationlist_omi2.json:capvjern_18b:2
+#: conversationlist_ratdom.json:ratdom_rat_final_1:0
 msgid "Are you sure?"
 msgstr ""
 
@@ -36490,6 +36586,8 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_inn_guest_0:0
 #: conversationlist_brimhaven2.json:brv_school_history_32:0
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_50:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_46a:0
 msgid "Sorry."
 msgstr ""
 
@@ -38183,6 +38281,7 @@ msgid "It was not intentional."
 msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_teacher_102:1
+#: conversationlist_ratdom_npc.json:ratdom_kriih_210:0
 msgid "He earned it."
 msgstr ""
 
@@ -38390,6 +38489,7 @@ msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_wh_boss_52
 #: conversationlist_omi2.json:prim_tavern_guest4_23:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20d:2
 msgid "And?"
 msgstr ""
 
@@ -39374,6 +39474,7 @@ msgid "What's that on the ground?"
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_crime_scene_10:0
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_10:1
 msgid "Look closer."
 msgstr ""
 
@@ -40789,6 +40890,8 @@ msgid "Great and strong, yes."
 msgstr ""
 
 #: conversationlist_fungi_panic.json:zuul_khan_34:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_30:1
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_30:1
 msgid "Aha."
 msgstr ""
 
@@ -41172,6 +41275,7 @@ msgstr ""
 
 #: conversationlist_fungi_panic.json:zuul_khan9_blocker_10:0
 #: conversationlist_omi2.json:arghest_alert_9:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_592:0
 msgid "At last."
 msgstr ""
 
@@ -41299,7 +41403,7 @@ msgid "Here lies Hagale. Killed by greedy $playername, just when he wanted to st
 msgstr ""
 
 #: conversationlist_fungi_panic.json:achieve_road_10
-msgid "This must be the great Duleian Road! I have heard so much of it - and now I am really here!"
+msgid "This must be the great Duleian Road! I have heard so much about it - and now I am really here!"
 msgstr ""
 
 #: conversationlist_fungi_panic.json:chk_wild_berry_50
@@ -42700,6 +42804,10 @@ msgstr ""
 msgid "To each his own, I guess."
 msgstr ""
 
+#: conversationlist_gison.json:gael_20_4:2
+msgid "Cooked meat? Who cooks your meat?"
+msgstr ""
+
 #: conversationlist_gison.json:gael_20_5
 msgid "Now that I mention it: I am running out of meat. I'll have to go out hunting again."
 msgstr ""
@@ -43147,11 +43255,11 @@ msgid "You have truly earned these gold pieces."
 msgstr ""
 
 #: conversationlist_gorwath.json:gorwath_exit
-msgid "I will go now and prepare a present for lovely Arensia."
+msgid "I will go now and prepare a present for lovely Arensia. When we get married, you will of course be invited."
 msgstr ""
 
 #: conversationlist_gorwath.json:gorwath_exit_1
-msgid "And when we get married, you will of course be invited."
+msgid "Before we go our separate ways, please take this ring that I found behind those haystacks over there."
 msgstr ""
 
 #: conversationlist_gorwath.json:gorwath_tmp
@@ -43394,6 +43502,7 @@ msgid "Try to find another way down."
 msgstr ""
 
 #: conversationlist_omi2.json:bwm74_h_warning_1b
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12
 msgid "Nothing happens."
 msgstr ""
 
@@ -46300,7 +46409,7 @@ msgid "Plunder the corpse."
 msgstr ""
 
 #: conversationlist_omi2.json:elm3_corpse_2:2
-msgid "May the shadow be with your soul."
+msgid "May the Shadow be with your soul."
 msgstr ""
 
 #: conversationlist_omi2.json:elm3_corpse_3b
@@ -47711,6 +47820,7 @@ msgid "That's nice to hear. Then you can now give me the... eh...330 gold pieces
 msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes:0
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:0
 msgid "Sure. Here you are."
 msgstr ""
 
@@ -47785,11 +47895,11 @@ msgid "You have already picked up the new pitchfork here."
 msgstr ""
 
 #: conversationlist_sullengard.json:loneford13_pitchfork
-msgid "A new pitchfork pinned in this haystack."
+msgid "A new pitchfork is pinned in this haystack."
 msgstr ""
 
 #: conversationlist_sullengard.json:loneford13_pitchfork:0
-msgid "Time to prove that I'm a son of farmer!"
+msgid "Time to prove that I'm the child of farmer!"
 msgstr ""
 
 #: conversationlist_sullengard.json:loneford13_pitchfork:1
@@ -47805,7 +47915,7 @@ msgid "After several minutes of intense pulling you finally pull out the new pit
 msgstr ""
 
 #: conversationlist_sullengard.json:loneford13_pitchfork_success:0
-msgid "I'm the son of a farmer!"
+msgid "I'm a child of a farmer!"
 msgstr ""
 
 #: conversationlist_sullengard.json:loneford13_pitchfork_success:1
@@ -48454,6 +48564,8 @@ msgid "[Sigh]. I'm longing for my pond which I used to enjoy going to. But now i
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_nanette_1:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_417:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_20:0
 msgid "And then?"
 msgstr ""
 
@@ -49941,6 +50053,7 @@ msgid "Sullengard?! Of course it would be coming from Sullengard. I should have 
 msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_54c
 msgid "Thanks!"
 msgstr ""
 
@@ -50796,7 +50909,7 @@ msgid "Hello. I am Maddalena, the the town hall clerk. If you are looking for Ma
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_town_clerk_10
-msgid "If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
+msgid "If you are here about a tax complaint or a land dispute, then please sign in and I will get to you momentarily."
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_godrey_10a
@@ -51050,7 +51163,7 @@ msgid "Again, yelling in a language that you do not understand. You begin to tre
 msgstr ""
 
 #: conversationlist_haunted_forest.json:haunted_forest_discovery_script_10
-msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much loader now."
+msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much louder now."
 msgstr ""
 
 #: conversationlist_haunted_forest.json:road2_daw_10
@@ -51082,7 +51195,7 @@ msgid "As you emerge from the hole, the rope tumbles to the ground."
 msgstr ""
 
 #: conversationlist_haunted_forest.json:road5_daw_20
-msgid "Now you begin to notice that the moaning heard by Gabriel is a little loader here."
+msgid "Now you begin to notice that the moaning heard by Gabriel is a little louder here."
 msgstr ""
 
 #: conversationlist_haunted_forest.json:road5_daw_20:0
@@ -51095,6 +51208,4115 @@ msgstr ""
 
 #: conversationlist_next_release.json:crossglen_valentina_andor_25
 msgid "Don't you remember who lives there?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_10
+msgid "This chest is empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_30
+msgid "This chest is still empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_31
+msgid "No matter how often you look - this chest is empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_32
+msgid "Empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_33
+msgid "Oh! What a surprise!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_33a
+msgid "This time the chest looks even more empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_34
+msgid "Your sighs resound as a loud echo from the empty chest."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_455_chest_35
+msgid "How often do you want to check if the chest stays empty?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bwm_sign
+msgid "East Up Down West"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bwm_sign:0
+msgid "Now what's that supposed to mean?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_10
+msgid "With a single well-aimed blow, you bring down the rock face. The noise of the collapsing wall is deafening."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_12
+msgid "This rock face looks kind of wrong."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_12:0
+msgid "I'll probe for a hidden mechanism."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_12:1
+#: conversationlist_ratdom.json:ratdom_531_sw_12:2
+#: conversationlist_ratdom.json:ratdom_531_sw_20:1
+msgid "Maybe I should use my pickaxe?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_20
+msgid "This rock face looks kind of wrong. Shall we take a closer look?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_20:0
+msgid "Yes. I'll probe for a hidden mechanism."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_22
+msgid "You don't find anything special."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_30
+msgid "Maybe. Although you would have to work in the dark then, because you can't hold the torch at the same time."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_30:0
+#: conversationlist_ratdom.json:ratdom_531_sw_31:0
+msgid "Right. Nothing special here for sure."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_31
+msgid "You think: I would have to work in the dark then, because I can't hold the torch at the same time."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_531_sw_32
+msgid "Let's better go on and finally find my artifact."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_542_chair
+msgid "An inexplicable dreadful fear overtakes you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_646_statues_10
+msgid "Hey - these statues are not real! We can just move through them."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_646_statues_10:0
+#: conversationlist_ratdom.json:ratdom_646_statues_12:0
+msgid "That's eery."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_646_statues_12
+msgid "These statues are not real, you can just move through them."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_646_statues_20
+msgid "These statues always give me a shudder when I pass through them."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_check_backbone_10
+msgid "You wonder why you have found some rat bones in a library."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_check_backbone_20
+#: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_20
+msgid "Why didn't you take the bones with you?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_check_backbone_20:0
+#: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_20:0
+msgid "What bones?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_check_backbone_22
+#: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_22
+msgid "Oh man, to make matters worse, he's blind."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_check_backbone_26
+msgid "I should take a closer look at the library."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_10
+#: conversationlist_ratdom_npc.json:ratdom_rat_240:1
+msgid "Wait ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_10:0
+msgid "Clevred! What's wrong with you?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_12
+msgid "I got a serious blow. These roundlings were too much. I feel my end coming ... "
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_12:0
+msgid "No, I will give you a healing potion!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_14
+msgid ""
+"Too late, I feel my end coming ... Take my artifact ... and use it wisely. Farewell ...\n"
+"[You get an item]"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_20
+msgid "A long time ago you asked me how to get out of here. Go home, take a nap and you will find out."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_30
+msgid "Good bye, my friend."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_la_30:0
+msgid "Good bye. * Sob *"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lc_10
+#: questlist_ratdom.json:ratdom_quest:948
+msgid "The big yellow cheese now weighs heavily in your bag. Small consolation for the loss of a friend, though."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lc_10:0
+msgid "Sigh. Clevred, I will miss you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_ld_10
+msgid "The artifact was taken back obviously by the roundlings."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_ld_10:0
+msgid "Sigh. Back into the maze, I fear."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_10
+msgid "[singing] Oh my round, oh my yellow, greatest joy on earth!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_10:0
+msgid "Do you think the roundlings will chase us anymore?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_12
+msgid "Those cowards? We showed them, so they hid and lick their wounds."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_12:0
+msgid "Yes, apparently you are right."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_20
+msgid "We'll be back in the light of day soon!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_20:0
+msgid "Finally. My feet went flat. I'm really looking forward to my bed."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_22
+msgid "Your bed? Alright, I'll share it with you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_lk_22:0
+msgid "Lucky for you I'm too tired to argue."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_ly_02
+msgid "I got it! I got my artifact! Finally!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_artefact_ly_20
+msgid "Let's hurry back now!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_10
+msgid "An ancient bone catches your eye."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_10:0
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_12:0
+msgid "Take the bone."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_10:2
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_12:1
+msgid "Don't touch it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_12
+msgid "It seems to be a leg bone of a great old rat. Maybe you could find a better use for it?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_14
+msgid "You slip the bone unobtrusively into your pocket."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_20
+msgid "You look at the pile of bones."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:0
+msgid "Put the leg bone back onto the pile."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:1
+msgid "Maybe you could put another bone from your bag instead?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_22
+msgid "The pile of bones is complete again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_24
+msgid "Inconspicuously you search your bag for other bones."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:0
+msgid "A bone."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:1
+msgid "A contaminated bone."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:2
+msgid "Rats, I don't find any similar looking bone."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s1_30
+msgid "You exchange the ancient bone for the wrong bone and try to look as innocent as possible."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s3_10
+msgid "I am really disappointed in you to steal my most precious bone. I'll take it back now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_bone_collector_s3_10:0
+msgid "Yikes! You have startled me. Yes, sorry."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_cave_ratdom_key_10
+msgid "The rock wall looks quite massive. There is just a tiny little hole in the shape of a bone."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_cave_ratdom_key_10:0
+msgid "What would happen if I put a bone into the hole?"
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_cave_ratdom_key_20
+msgid "The massive rock wall just disappears!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_412_10
+msgid "There is a guard somewhere behind this massive gate."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_412_20
+msgid "Hey, this massive looking gate has a hole."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_412_30
+msgid "This is a rather massive gate."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_10
+msgid "Look, the door seems to be unlocked."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_10:0
+#: conversationlist_ratdom.json:ratdom_door_533_20:0
+msgid "Open the door."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_12
+msgid "Wait - the door has no handle on the other side. If we go through, we can't go back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_12:0
+msgid "Right. I don't think that there is anything interesting there."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_14
+msgid "I agree. Probably just a shortcut back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_20
+msgid "The door seems to be unlocked."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_22
+msgid "Hmm, the door has no handle on the other side. If I go through, I can't go back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_door_533_24
+msgid "Looks like there isn't anything interesting there. Probably just a shortcut back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key
+msgid "The cave wall looks very massive here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key:0
+msgid "You search the wall for some weak points or holes."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_10
+msgid "You found a tiny hole."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_10:0
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12:0
+msgid "Insert a bone into the hole."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_10:1
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12:1
+msgid "Insert Fraedro's golden key into the hole."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_10:2
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12:2
+msgid "Hit the hole with your pickaxe."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_10:3
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12:3
+msgid "Stuff a fish into the hole."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_12f
+msgid "A fish? Really??"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_20
+msgid "The key easily slipped into the hole and vanished! Suddenly a big rumbling makes you close your eyes."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_key_30
+msgid "I hate to admit it, but that was a good idea for once."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_fraedro_sign
+msgid "Access denied!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_10
+msgid "Goosebumps crawl up your back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_20
+msgid "B o o m!  A loud crack makes you jump."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_30
+msgid "Whooo is distuuurbing my reeeest?!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_30:0
+#: conversationlist_ratdom.json:ratdom_ghost_30:1
+msgid "Me."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_30a
+msgid "Me too. [giggles]"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_40
+msgid "A mad giggle fills the room."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_40a
+msgid "No reply."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_50
+msgid "Something hisses through the air and hits you hard in the back of the head."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_50a
+msgid "You can't tell what it was. But it hurt."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_ghost_50b
+msgid "You should learn to dodge in time, you clumsy two-legged creature."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bone_10
+msgid "You grab the content of the gold hunters chest: Some gold nuggets - and a leg bone of a rat!?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_26
+msgid "I should take a closer look back on the isle."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10
+msgid "A wooden plank - hmm ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10:0
+msgid "That's exactly what I need! Let's build a bridge ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10:1
+msgid "It would be a good idea to make a fire now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20
+msgid "No it would not."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20:0
+msgid "Oh. Well, then let's build the bridge."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20:1
+msgid "But I want a fire right now! It is cold here, and dark."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22
+msgid "Then you'd have a fire. And then? You would never be able to leave again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22:0
+msgid "Fine. Nothing is allowed!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22:1
+msgid "I want, want, want! Fire - now!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_24
+msgid "Do you want to stay here forever and starve? Think about the artifact. We have a job to do!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_24:0
+msgid "Well, then let's just build this stupid bridge. [Grumble]"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30
+msgid "And you will be lonely. Unlike you, I can swim. And I will not spend the end of my life here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30:0
+msgid "[Light the wood]"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30:1
+msgid "All right then. So the wood becomes a bridge instead of giving warmth and joy. Sigh."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_80
+msgid "Farewell then. I will think of you when I have the artifact in my claws!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bridge_90
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_90
+msgid "So that looks sturdy enough to carry a person."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed_10
+msgid "Ouch! Something heavy fell on your head!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_10
+msgid "Another wooden plank - the ugly ogre from above must have thrown it!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_10:0
+msgid "Now at last let's build the bridge."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_10:1
+msgid "Another fire for me?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_20
+msgid "No, not this time. You were very lucky that something pursuaded the ogre to do you this favor."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_goldhunter_bed2_20:0
+msgid "Probably you are right, I should not trust my luck too much. Let's build the bridge at last."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key
+msgid "This must be a bad dream."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key:0
+msgid "How can I finally wake up?"
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key:1
+msgid "Maybe I should talk to the rat in my bed again."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key_3
+msgid ""
+"You see a note pinned to the door\n"
+" * Town hall closed * "
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key_3:0
+msgid "This is the first time I've ever seen it closed."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key_3:1
+msgid "Oh, what's this?"
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key_3_20
+msgid "A bag of freshly baked bread is dangling at the door."
+msgstr ""
+
+#: conversationlist_ratdom.json:crossglen_ratdom_key_3_20:0
+msgid "Good old Mara - she always knows what I need."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat2_key2
+msgid "No tresspassing."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_10
+msgid "A torch in the bag doesn't make much light."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_20
+#: conversationlist_ratdom.json:ratdom_maze_rat2_20
+msgid "It might not be a good idea to stumble in the dark."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_30
+msgid "$playername - I knew you would come back!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_30:0
+msgid "Clevred? Is that really you?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_32
+msgid "Sure, you blockhead. Nice to see you again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_32:0
+msgid "I thought you were going to fetch your artifact at last?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_34
+msgid "Yes, yes. But for some jobs you need someone bigger."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_34:0
+msgid "OK, let us try again to find it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_34:1
+msgid "So, am I good enough for the dirty work? Forget it. Bye."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat1_36
+msgid "Great - then let's go!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_rat2_10
+msgid "Go and look for a torch, you blockhead! And use it!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_mole_fence
+msgid "The fence would be no problem for you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_mole_fence:0
+msgid "Climb over the fence."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_mole_fence:1
+msgid "Stay away."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_mole_fence_30
+msgid "Thief! This is our food!!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_mole_food_sign
+msgid "Do not enter the enclosure!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_maze_sign
+msgid "The sign is no longer readable."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_2
+msgid "Hey! Don't take any cheese into the museum! I don't want greasy fingerprints all over the valuable objects!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_2:0
+msgid "How do you know that I have some in my bag?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_2:1
+msgid "Now calm down. Can I deposit my cheese here somewhere?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_2:2
+msgid "I don't go anywhere without my cheese."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_10
+msgid "Then you can't enter."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_10:0
+msgid "So what can I do now?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_10:1
+msgid "I'm not interested in your dusty stuff anyway."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_12
+msgid "Of course he smells it, you poor two-leg with your pathetic nose."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_12:0
+msgid "Oh. What can I do now?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_20
+msgid "You can give me the cheese, I'll take good care of it. Or you can just put it here on the floor."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_20:0
+msgid "Good. Here please take my cheese. But don't eat it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_20:1
+msgid "I'll just put it down here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_20:2
+msgid "Maybe I should just eat everything at once here and now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_cheese_key_40
+msgid "Now you may follow me into our memory hall."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_10
+msgid "It is beautiful inside here, isn't it?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_10:0
+msgid "Hmm, I'd prefer a bit more daylight."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20
+msgid "The paths are so logical, it's easy to find your way around here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20:0
+msgid "Do you think so? I am rather lost already."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20:1
+msgid "Is it? Then tell me how to get out."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20b
+msgid "Two-legs are really dumb. We rats always know where to go."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20b:0
+msgid "For example, how would I get back to Crossglen?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20c
+msgid "If you want to get out, just follow the rats. They show you the way."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20c:0
+msgid "Nonsense."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20c:2
+msgid "Of course - you are right!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20d
+msgid "Don't tell me that you didn't recognize it? That my fellow rats are always running towards the exit?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20d:0
+msgid "Eh, of course I did."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20d:1
+msgid "Now that you mention it, indeed they do!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20e
+msgid "If you want to get out, just use the passages that you see rats in front of."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_20f
+msgid "Oh man. Humans are not the smartest beings, but this one ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_30
+msgid "Ah, I love these tunnels!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_30:0
+msgid "Me, I loath these tunnels by now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_30:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40g:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510d:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_520:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_530:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rp:2
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ps:2
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sr:2
+#: conversationlist_ratdom.json:ratdom_rat_conv2_544:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_550:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_570:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_584:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_592:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_604:1
+msgid "Clevred, let me ask you a question."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40b
+msgid "What I always wanted to ask you: why did you actually kill my uncle?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40c
+msgid "Yes. My uncle together with his wife. They just romped around in your garden."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40d
+msgid "Then you came and murdered them. Just because. And you proudly boasted in front of your father about this act."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40d:0
+#: conversationlist_ratdom_npc.json:whootibarfag_120:0
+msgid "Eh ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40e
+msgid "Not that I liked my uncle, but he didn't deserve such an end."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40f
+msgid "Neither my aunt. She was always squeeking too loud by far. But they were decent rats."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_40g
+msgid "I hope you are a little more reluctant to kill rats in the future."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_400
+msgid "Why don't you wear that necklace you've got? The blue one that would show you the way to the sky?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_400:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_410:0
+msgid "No need. I know the way perfectly well."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_400:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_410:1
+msgid "Well, why don't I? Really, I forgot about it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_400:2
+#: conversationlist_ratdom.json:ratdom_rat_conv2_410:2
+msgid "I didn't see any use."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_400:3
+msgid "I understood how the blue necklace works. Don't bother me with that anymore."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_401
+#: conversationlist_ratdom.json:ratdom_rat_conv2_411
+msgid "It's okay. If you still want to hear it again, just ask me."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_402
+msgid "That's simple enough even for a simple mind: If worn they will mark the passage towards the mountain top with a blue shield."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_402:0
+msgid "Ah, OK."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_410
+msgid "Why don't you wear that orange necklace you've got?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_410:3
+msgid "I understood how the orange necklace works. Don't bother me with that anymore."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_412
+msgid "That's simple enough even for a simple mind: If worn it will mark the passage towards the most interesting places here in the caves."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_413
+msgid "You should not forget important things. The necklace works simple enough even for you: If worn it will mark the passage towards the most interesting places here in the caves."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_414
+msgid "The way might be somewhat longer, but you won't miss anything important of the cave's wonders."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_416
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_10
+msgid "Should there be a branch, there will be an additional flag. The side trip is marked with a yellow shield."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_417
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_20
+msgid "Sigh. If you see an orange shield together with a flag, then first look for another passage marked with a yellow shield."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_417a
+msgid "Follow this passage to the end. We might find something important there. Then go back to the crossing and follow the orange shield again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_417a:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30:0
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30:1
+msgid "Eh, OK. Got it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_418
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_40
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_41
+msgid "[muttering] I want to hope so, but I don't really believe it yet."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510
+msgid "[humming] Roads go ever on and on, over rock and under tree,"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510b
+msgid "By caves where never sun has shone, by streams that never find the sea."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510c
+msgid "Pursuing it with eager feet, until the proper way is found"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510d
+msgid "towards the yellow artifact, so wonderful and big and round."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_510d:0
+msgid "Nice song."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_520
+msgid "Are we there soon?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_530
+msgid "Is it still far?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_530:0
+msgid "Do Not Annoy Me!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_540
+msgid "Boring. We might play a game?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_540:0
+msgid "Why not? What about 'Rock Paper Scissors'?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542
+msgid "OK. I begin. Ready - Set - GO!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542:0
+msgid "Rock"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542:1
+msgid "Paper"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542:2
+msgid "Scissors"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rp
+msgid "Paper - I'll wrap your rock!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rp:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ps:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sr:0
+msgid "You win. Again?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rp:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ps:1
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sr:1
+msgid "I'll give up."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rs
+msgid "Scissors - oh dear."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rs:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542pr:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sp:0
+msgid "I win. Another game?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rr
+msgid "Rock - too."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542rr:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542pp:0
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ss:0
+msgid "Once more."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ps
+msgid "Scissors - I'll cut your paper!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542pr
+msgid "Rock - oh dear, you'll wrap my rock."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542pp
+msgid "Paper - too."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sr
+msgid "Rock - let's smash your scissors!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542sp
+msgid "Paper - oh dear, you'll cut my paper."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542ss
+msgid "Scissors - too."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542k
+msgid "King!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_542k:0
+msgid "King? What's that?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_544
+msgid "The king always wins of course."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_544:0
+msgid "Cheater! I don't play with you anymore!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_550
+msgid "You really look funny as you stumble around on your two legs that are way too long."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_550:0
+msgid "What? Take a look at yourself: Crooked four legs, much too short to even hold a knife."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_552
+msgid "You can run much faster on four legs. Give it a try!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_560
+msgid "You are so quiet. Say, what's your problem."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_560:0
+msgid "I don't have any problem."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_560:1
+msgid "I have a question."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_562
+msgid "You can trust me. You will see, it will do you good."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_562:0
+msgid "I really don't have a problem. At least not until now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_563
+msgid "Ah, I knew it. What is it then?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_564
+msgid "Your problem that you just wanted to talk about."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_564:0
+msgid "I don't want to talk about my problems."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_565
+msgid "So several problems. Which one do you want to start with?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_565:0
+msgid "I don't have any problems!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_566
+msgid "At least it's a problem that you keep contradicting yourself."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_566:0
+msgid "Oh rat, you're annoying. You are my problem."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_567
+msgid "See now? Your problem is your negative attitude."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_567:0
+msgid "I wonder which tastes better, fried, boiled or grilled rat?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_568
+msgid "You have bad taste."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_569
+msgid "Oh, don't look so murderous at me. You brutal biped."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_570
+msgid "Don't worry, I am still by your side."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_570:0
+msgid "I didn't worry."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_580
+msgid "What do you think it will look like?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_582
+msgid "The artifact, of course. Will it be big and round and shiny like I was always told?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_582:0
+msgid "And will it be worth our labor to find it?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_584
+msgid "Labor?! This is a fun tour!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_584:0
+msgid "Is it? Good to know."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_590
+msgid "Hey, you know what?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_590:0
+msgid "Oh great, why can't you be silent for a minute at least?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_592
+msgid "Phh. You are so mean. I won't talk to you anymore."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_600
+msgid ""
+"There was a young rat of Prim,\n"
+"Who was so uncommonly thin"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_602
+msgid ""
+"That when it tried\n"
+"To drink lemonade"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_604
+msgid "It slipped through the straw and fell in."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_604:0
+msgid "Hahaha - that is a good one."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900
+msgid "Sure - what do you want to know?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:0
+msgid "Why do you seem to know everything?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:1
+msgid "Was this huge cave behind our supply cave the whole time? I had never seen it before."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:2
+msgid "How does the orange amulet work, in detail?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:3
+msgid "What will you do with the artifact if we gain it?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:4
+msgid "How does the blue amulet work, in detail?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:5
+msgid "Why do you hunt for the artifact?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:6
+#: conversationlist_ratdom.json:ratdom_rat_crossglen:1
+msgid "Am I dreaming all this?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_900:7
+msgid "How do I get back out of this cave?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_902
+msgid "I think that's the only thing I do not know."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_910
+msgid "Oh, that's easy. I will become famous - even more than King Rah himself!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_920
+msgid "Because it's there, of course."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_930
+msgid "Who knows? And even if - in every dream there is a grain of truth."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_932
+msgid "I'd better bite your toe hard one more time. Maybe then you will know?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_932:0
+msgid "Eh ... no, it's not that important."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_conv2_940
+msgid "Of course. After all, you two-legged folk shouldn't find our realm too easily."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_crossglen_02
+msgid "I remember your brother was sometimes up here with one or two other human beings."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_crossglen
+msgid "A beautiful view."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_crossglen_10
+msgid "Do you need much longer?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_crossglen_20
+msgid "Hey, wake up!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_2
+msgid "An empty plate."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_4
+msgid "You hear a voice: \"Eat me!\""
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_4:0
+msgid "Oh that cake looks tasty. Let's try it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_10
+msgid "You gulp the cake down and wait."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_20
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_20
+msgid "Nothing obvious happens."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_30
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_30
+msgid "You feel a pleasant warmth flowing through your body."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_eatme_40
+msgid "You feel strange and suddenly icy cold."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_2
+msgid "An beautiful bottle - unfortunately empty."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_4
+msgid "You hear a voice: \"Drink me!\""
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_4:0
+msgid "What a lovely color of the bottle. Let's try it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_10
+msgid "You swallow it down and wait."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_drinkme_40
+msgid "You feel dizzy and suddenly start to sweat heavily."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_1
+msgid "Wait! Do you feel it too? We are very close!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_2
+msgid "I am so excited!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_2:0
+msgid "Hush!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_3
+msgid "Over there - look, the roundling!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_3:0
+msgid "He hasn't noticed us yet."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_final_3_10
+msgid "I am not so sure. Roundlings are a strange folk."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_10
+msgid "Why doesn't he ever do what he's told?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_10:0
+msgid "Hey, come in! It is cool and refreshing."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_warn_10
+msgid "Wait! I know this place - it is Flora's fountain. This could be a trap!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_warn_10:0
+msgid "Do you think? It looks so peaceful."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_warn_10:1
+msgid "Maybe you are right. We better leave."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_warn_20
+msgid "Yeah. Let's better not go under the blue swirl."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_kriih_sign_1
+msgid "Visitors not wanted"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_1
+msgid "Here you can see the complete skeleton of King Rah."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_1:0
+msgid "I see nothing."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_1:1
+msgid "Such a great sight! Wart has done a great job."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_2a
+msgid "This is the crown of the old Kingdom."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_2b
+msgid "This is the great key."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_2b_10
+msgid "No rat knows where it fits."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_2c
+msgid "This is King Rah's diary."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_2c_10
+msgid "At least that is the prevailing opinion. It is written in secret script."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3a
+msgid "A suit of armor several centuries old, with the Rat Empire emblem."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3b
+msgid "Wonderfully decorated chests - unfortunately all locked."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3c
+msgid "Many shelves loaded with thick books."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3d
+msgid "A great axe from the last century. You don't want to face a warrior with this weapon in his hands."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_10
+msgid "The table is empty. The displayed item seems to be missing."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_20
+msgid "King Rah's mighty sword."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10
+msgid "Oh, you bring the mighty sword of King Rah! That's great, we will keep it in honor."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:1
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:1
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:3
+msgid "Give me 1000 gold for it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:2
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:4
+msgid "Give me 50000 gold for it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:3
+msgid "No, I decided to keep it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_12
+msgid "Look how nice it looks on the table over there."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_14
+msgid "This is a lot of money for our museum. But here you have 1000 gold."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_16
+msgid "You are crazy. Our museum doesn't have such a big amount of gold."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_20
+msgid "Oh, you have found the mighty sword of King Rah! That's great."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30
+msgid "You may as well give the sword to us now, or you won't get through here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:0
+msgid "OK. Here you are."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:2
+msgid "So I have no choice. Here you are."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:5
+msgid "I'd rather starve here than give you the sword."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_pub
+msgid "Dish of the day: Filet de serpent sur pommes de terre au chou rouge."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_statue_20
+msgid "You see a beautifully crafted statue of your brother Andor."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_statue_30
+msgid "Andor's statue may be cleared away with a pickaxe. Hadn't I mentioned it?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_statue_40
+msgid "When will you finally try to use the pickaxe?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_10
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_12
+msgid "What a nice sword. Too bad it's stuck firmly in the wall."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_20
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_22
+msgid "The sword is gone! There is just an illusion left."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_30
+msgid "King Rah's sword! Quick - say the words!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_30:0
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_32:0
+msgid "Veni gladio fidelis?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_32
+msgid "King Rah's sword! Now what again were the words to say?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_40
+msgid "Yes, yes! It moves ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_sword_key_40:0
+msgid "Hey, who is this?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell
+msgid ""
+"'Hall of remembrance and commemoration of the glorious history of ratdom\n"
+"\n"
+"Free entry - donation requested'\n"
+""
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell:0
+msgid "A museum - boring."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell:1
+msgid "Great, I might get a clue how to find my way through these twisty little passages."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell:2
+msgid "Read further."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell_10
+msgid ""
+"Oh, there is a note attached to it:\n"
+"\n"
+"'Museum closed until further notice due to vandalism.\n"
+"Ring the bell for further advice.'\n"
+""
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell_10:0
+msgid "OK, they had their chance. Let's leave."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell_10:1
+msgid "Ring the bell."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_bell_20
+msgid "DING!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_cave
+msgid "You can't get through."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_warden_exit
+msgid "Hey! You must not go there!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_bone_10
+msgid "As soon as you stepped on the carpet, a loud voice boomed: STOP THE THIEF!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_bone_20
+msgid "Leave the carpet immediatly!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_bone_20:0
+msgid "Oh, of course. Sorry."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_bone_20:1
+msgid "Sure. But I'll take this bone here with me."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_bone_30
+msgid "You picked the bone from its pedestal. Immediatly the music stopped. Uh oh ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_lute_10
+msgid "Hey, why did you disturb our Bone Dance?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_lute_20
+msgid "Hey, come and join the Bone Dance!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_horn_10
+msgid "Yeah?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_horn_20
+msgid "Yeah, yeah, yeah!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_drum_20
+msgid "Oom chicky oom chick, oom chicky oom chi-chicky"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_cymb_10
+msgid "What next?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_cymb_20
+msgid "Come on Andor, let's have fun there!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_cymb_20:0
+msgid "Oh, you know my brother?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_cymb_22
+msgid "... what? Eh, no. Just a song we heard once."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skel_mage
+msgid "Do not disturb me. I have to concentrate, because I am providing the light."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_skeleton_drop
+msgid "You stopped short under the stare of the skeleton leader."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_1
+msgid "Do you really want to open this ominous looking massive door? It looks dangerous."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_1:0
+msgid "Mmh, maybe not."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_1:1
+msgid "Sure. No risk no fun!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_2
+msgid "This ominous looking massive door looks dangerous."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_2:0
+msgid "Mmh, better leave it alone."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door1_2:1
+msgid "No risk no fun. Open!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_1
+#: conversationlist_ratdom.json:ratdom_troll_door2_2
+msgid "It must be extremely dangerous, because it is secured with two strong doors."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_2:0
+msgid "Go back."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_2:1
+msgid "Open anyway."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_10
+msgid "Also I don't believe that the artifact is behind this door."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_10:0
+msgid "OK. Let's go back and seek your artifact."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_10:1
+msgid "No, Clevred. We are going inside."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_20
+msgid "Yeah. Wise decision."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_door2_30
+msgid "He never listens to me, does he?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_kill_2a
+msgid ""
+"The last words of the young ogre are echoing through the cave:\n"
+"'Help! Help! This sneaky dwarf kills us ...'\n"
+"\n"
+"Then - silence.\n"
+"\n"
+"Suddenly the cave is filled with the sound of stomping feet."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_kill_2b
+msgid "Ogres - they are everywhere!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_troll_sign1
+msgid "Beware of the ogre!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_10
+msgid "What an ugly monster!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_10:0
+msgid "Hey, Ugly!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_20
+msgid "Roar?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_20:0
+msgid "Fortunately for you there is no mirror here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_20:1
+msgid "Sorry, I didn't want to disturb you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_30
+msgid "ROAR!!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_30:0
+msgid "Aww, is the little brute angry now?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_30:1
+msgid "Oops, I better be quiet now ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_32
+msgid "Indeed you better be!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_32:0
+msgid "The beast is able to talk?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_32:1
+msgid "... and leave quickly!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_uglybrute_script_90
+msgid "It is ENOUGH now! I'll teach you manners!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_20
+msgid ""
+"You were so tired yesterday, that you didn't even make it to your bed. You dreamed of rats and that something bit your toes firmly. Apparently you had a nightmare.\n"
+"You open your eyes ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_30
+msgid "... but you seem to sleep still!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_52
+msgid "Hey! Have you already done all my tasks?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_52:0
+msgid "Oh. Hello Gruiik."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_90
+msgid "You stumbled to the ground."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_92
+msgid ""
+"You didn't make it to your bed - again. Nevertheless you took some minutes of sleep.\n"
+"When you woke up, something had changed. The rats are gone!\n"
+"\n"
+"What a terrible dream. Or - was everything really just a dream?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_92:0
+msgid "My head ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_100
+msgid "$playername - do I have to worry about you?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_100:0
+msgid "Where is the big rat?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_110
+msgid "You got rid of the rats long ago."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_110:0
+msgid "No. Yes, but ...  Have you seen Clevred?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_120
+msgid "I don't know anyone with that name. You must have had a bad dream. And better stay off the mead."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_120:0
+msgid "I didn't drink."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_130
+msgid "Yes that's what they all say. Better go and find Andor at last."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_140
+msgid "When I think of drinking - Mara seems to have disappeared. So we're all going to stop drinking mead."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_142
+msgid "Maybe she wanted to make her dream of opening a tavern in Brightport come true?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_146
+msgid "Tharal has also disappeared. But I don't think that has anything to do with each other. He often just roams through the forest and will definitely be back soon."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_146:0
+msgid "I hope so. But I have a bad feeling ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_150
+msgid "By the way - Tharal seems to have disappeared. So he won't be able to cure your headache."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_152
+msgid "Maybe he needed some time of peace and roams through the forest?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_152:0
+msgid "Eh, maybe. Sure."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_154
+msgid "I hope he will be back soon."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wakeup_154:0
+msgid "I hope so too. But I have a bad feeling ..."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_flag_10
+msgid "Go around the flag."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_flag_20
+msgid "One time around the flag is enough."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_sign
+msgid "[unreadable signs]"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_sign:0
+msgid "What is that scribble?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_sign_10
+msgid "Scribble? It is plain text!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_sign_20
+msgid "It says: 'Don't touch the water.'"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_water_x1_10
+msgid "You find some rat bones on the ground behind the flag."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_1
+#: conversationlist_ratdom.json:ratdom_well_2
+#: conversationlist_ratdom.json:ratdom_well_3
+#: conversationlist_ratdom.json:ratdom_well_4
+msgid "A deep well"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_1:0
+#: conversationlist_ratdom.json:ratdom_well_2:0
+#: conversationlist_ratdom.json:ratdom_well_3:0
+#: conversationlist_ratdom.json:ratdom_well_4:0
+msgid "You throw a shimmering globe into the well."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_30
+msgid "No, no, no, NO!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_31
+msgid "Not orange! Make it blue!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_32
+msgid "Blue! Do you hear me? BLUE!!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_well_33
+msgid "Is it really that difficult? Sigh."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_4
+msgid "You have found 5 shimmering balls."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_4:1
+msgid "It seems to be more difficult than I thought at first."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_4:2
+msgid "My head is spinning already."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_4:3
+msgid "Oh my. I just don't know how to solve this."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_12
+msgid "Clevred certainly would have known what to do now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_12:0
+msgid "Why only did I leave him?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_14
+msgid "Sigh. Need help again?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_14:0
+msgid "Me? Of course not!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_14:1
+msgid "Don't pretend you know how to solve it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_14:2
+msgid "Please. I just don't know what to do here."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_16
+msgid "I don't pretend to know. I do know."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_16:0
+msgid "So?"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_20
+msgid "Simply drop the balls into the right wells, so that the lamps all have one color. So easy."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_20:0
+msgid "OK. I'll try again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_20:1
+msgid "But the lamps never do what I want. Stupid game."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_30
+msgid "Don't start crying."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_32
+msgid "Each well seem to affect the lamps in a certain way. Just combine that - I am sure you get it now."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_32:0
+msgid "Do you think so? OK. I'll try again."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_32:1
+msgid "No, I give up."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_40
+msgid "Oh dear. What do you have a head for, just against the rain? Well I could do it for you."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_40:0
+msgid "Wait, I'll try once more."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_40:1
+msgid "Please do. Here, take the balls."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_52
+msgid "Ready. I hope you watched closely how I did it."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_wells_chest_52:0
+msgid "Eh, sure."
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_do_nothing
+msgid "Let's do the bone dance again!"
+msgstr ""
+
+#: conversationlist_ratdom.json:ratdom_rat_flora_20
+msgid "Me and water? Forget it!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_audir
+msgid "Now that you mention it - yes. Long ago I made a good, sturdy pickaxe. But nobody wanted it for years, so I almost forgot it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_audir_1
+msgid "You could have it for 80 pieces of gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_audir_1:0
+msgid "Great, I'll take it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_audir_1:1
+msgid "Hmm, I will think about it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_audir_2:0
+msgid "Thank you, bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_10
+msgid "Oh, a visitor - how unusual!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_12
+msgid "I am Loirash. Nice to meet you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_12:0
+msgid "Hi, nice to meet you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_14
+msgid "You're probably wondering what I'm doing here deep in this dark cave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_16
+msgid "I am an instrument maker. Professional musical instruments, you know?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_18
+msgid "At the moment I'm working on a new instrument made entirely of bone. I expect a sound from it that sends chills down the spine."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_18:0
+msgid "It's already doing that to me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_20
+msgid "This cave is a great source of bones of high quality, so I will stay until my instrument is complete."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:0
+msgid "May I have a look?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:1
+msgid "OK. Have fun."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_22
+msgid "Sure. Feel free."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_50
+msgid "Looks like you have something that doesn't belong to you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:0
+msgid "Yes. I found this old leg bone of a rat. Can I purchase it?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:1
+msgid "[Lie] No. I haven't taken anything."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_52
+msgid "Well, no. This is my favorite bone, it makes a good sound. Put it back, please."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_bone_collector_54
+msgid "Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_10
+msgid "Go away!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_20
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:1
+msgid "Hey, you!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:0
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10:0
+msgid "Who, me?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_30
+msgid "I know your face!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_40
+msgid "You had made me leave my post in front of the Foaming Flask!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_40:0
+msgid "Oh. It's you ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_42
+msgid "Surprised? I'm sure you didn't think we'd see each other again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_50
+msgid "I have lost everything because of this! Above all, my honor!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_50:0
+msgid "What honor?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_60
+msgid "I took refuge in this filthy cave to be safe from the guards of Feygard."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_70
+msgid "You will pay for it now!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_ff_guard_70:0
+msgid "But you were so stupid ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1
+msgid "Please don't hurt me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1:1
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:1
+msgid "Why did you steal King Rah's skeleton?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s
+msgid "Please don't hurt me. I am starving."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:2
+msgid "Starving? I have some cheese for you here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:3
+msgid "Starving? I have some good cheddar from Charwood for you here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:4
+msgid "Starving? I have some moldy blue cheese for you here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:5
+msgid "Starving? I have some goat cheese for you here. It smells only slightly."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:6
+msgid "Starving? Sorry, I have no cheese for you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_2
+msgid "Fraedro, good sir. Please don't hurt me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_2:0
+msgid "Ah, that's why you're so heavily guarded."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_4
+msgid "I don't know why I'm being held here. I haven't done anything wrong."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_4:0
+msgid "Yeah, everyone says that."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_4:1
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_10:1
+msgid "I believe you. Go now, while you can."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_10
+msgid "It was not me! It was not me!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_10:0
+msgid "Finally confess!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_10:2
+msgid "I am going to kill you for your deeds now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_12
+msgid "Please don't! It was not me!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_12:0
+msgid "Die now!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_12:1
+msgid "Run and live with your guilty conscience."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_20
+msgid "What? Thank you, thank you! [Fraedro turns to flee, losing a small golden key in the process]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_20:0
+msgid "You better get out of the area quick."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_1
+msgid "Oh, my pleading has been heard. Thanks!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10
+msgid "You must be the rightful heir of King Rah."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_12
+msgid "Of course I am."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20
+msgid "Then you shall get your sword back. I had only borrowed it and taken good care of it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20:0
+msgid "King Rah's sword?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30
+msgid "You'll find it further down in the caves. Say the words 'Veni gladio fidelis'."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30:0
+msgid "I'll try to remember."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_32
+msgid "[Clevred rolls his eyes] He. will. try. to remember. That can only go wrong."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_10
+msgid "No tresspassing! What do you want?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_10:1
+msgid "Hey, hey - calm down!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12
+msgid "No - you can't fool me! You just want to steal my gold! Go away!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20
+msgid "Leave me alone!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20:0
+msgid "May I come to you, so that we could talk a bit?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20:1
+msgid "Well, I'll leave. May you rot among your gold coins."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30
+msgid "Don't you dare! Put a foot into the water and you are dead!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:0
+msgid "But how did you get onto your little isle?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:1
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40:0
+msgid "Enough. Enjoy yourself."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40
+msgid "You would like to know, he? But I won't tell you!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_10
+msgid "Hi $playername. I am watching you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_200
+msgid "Hi $playername. Well done."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_202
+msgid "Hi $playername. I am not amused with what you have done."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_204
+msgid "You released Fraedro. You should have killed him or left him in custody."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_204:0
+msgid "I think Fraedro is absolutely innocent."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_206
+msgid "My plan was that Fraedro should be sentenced to death."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_206:0
+msgid "Really - why?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_210
+msgid "Killing Fraedro. I loved to see that."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_220
+msgid "He deserved death, yes. But not because of the stupid skeleton of Rah."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_220:0
+msgid "Not? Now I'm confused."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_230
+msgid "Of course not. As if Fraedro could. He's far too good a rat to do such a thing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_240
+msgid "I took the skeleton myself and scattered the pieces so that no one would find them."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_250
+msgid "And then I blamed it on my cousin Fraedro."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_250:0
+msgid "How mean!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_260
+msgid "Hahaha! You are funny!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_260:0
+msgid "Why did you do that? He's your cousin."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_270
+msgid "Yes, yes. But he got in my way."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_280
+msgid "I caught him and presented him to Wart. He believed my story and put him under arrest."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_280:0
+msgid "And then I killed him."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_280:1
+msgid "And then I have set him free."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_290
+msgid "That was even better than I had planned. I have to thank you. Here, take some coins for the dirty work."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_290:0
+msgid "I don't want your bloody gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_290:1
+msgid "It had better be many coins."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_292
+msgid "Oh how cute. This two-leg has a guilty conscience. It just keeps getting better!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_292:0
+msgid "I should leave before I forget myself."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_292:1
+msgid "Now you pay for it - attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_294
+msgid "10 pieces of gold is not enough? Oh, you draw your weapon? I think I'd better be gone ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_294:0
+msgid "Wait, you coward!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_300
+msgid "Yes, you have destroyed my beautiful plan. You have to pay for that."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_300:0
+msgid "We'll see who pays here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_kriih_300:1
+msgid "I have to run."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_2
+msgid "Andor! Good that you are back at last!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_2:0
+msgid "I am $playername. You have confused me with my brother."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_2:1
+msgid "Indeed. Any news?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_2:2
+#: conversationlist_ratdom_npc.json:ratdom_librarian_26:0
+msgid "Here I have a new book for your library."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_10
+msgid "Yes. I see it now. Please leave. My master is not present today."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_10:0
+msgid "Andor - master? What ... Where is my brother?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_12
+msgid "That does not concern you. Mind your own business and leave now!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_12:1
+msgid "Tell me about Andor, or ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_14
+msgid "Or what? Attack? Hahaha!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_14:0
+msgid "You'll soon stop laughing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_14:1
+msgid "Just you wait when I come back."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_20
+msgid "I am not sure. Today I hear footsteps of strangers in the corridors."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_20:0
+msgid "[muttering] Probably mine."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_20:1
+msgid "Then what are you waiting for? Go and look who is wandering through our passages!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_20:2
+msgid "Nonsense. Strangers would never find this secret library."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_22
+msgid "What? You are the stranger! You are not allowed to be here!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_22:0
+msgid "It's fine, I'm going already."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_22:1
+msgid "Andor is my brother. I'm going to look for a clue to his whereabouts now. You won't stop me from doing that."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_24
+msgid "You're right, I'm sure I only see pipe dreams."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_26
+msgid "If only I had something to read. Something new, that I haven't read twenty times already."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_30
+msgid "As you command me - I'll be right back."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_30:0
+msgid "Take your time, better to be be thorough!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_40
+msgid ""
+"Oh! What a wonder! I always wanted to have a copy of that wonderful book!\n"
+"Here, take this special bone as a token of my everlasting thanks. [gives leg bone of a rat]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_40:0
+msgid "A lousy bone for this valuable book?!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_librarian_42
+msgid "The librarian is completely absorbed in his new book."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_maze_mole
+msgid "Who's there?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_01
+msgid "Good. You are awake at last."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_01:0
+msgid "A rat? Here?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_02
+msgid "As you see. Did you find your brother Andor already? He hasn't been back home for a while now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_02:0
+msgid "Eh, what? No, I am still looking for Andor."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_03
+msgid "I should have guessed. Anyway."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_03:0
+msgid "What are you doing in my house? Where is Mikhail?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_04
+msgid "We rats took over this village. I am Gruiik, their leader."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10
+msgid "However, there are two-legs running around in my garden again. Go and kill them."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10:0
+msgid "I'll have a look."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10:1
+msgid "I would never do that!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10
+msgid "And I am hungry. Go to the town hall and bring me some bread."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:2
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_70:2
+msgid "Here I have some bread for you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20
+msgid "It's about time."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20:0
+msgid "What - no thanks? Rats."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50
+msgid "Is my garden clean of filthy two-legs again?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50:0
+msgid "No, not yet"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50:1
+msgid "Yes, I killed Mara and Tharal in the garden for you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50:2
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50:3
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_50:4
+msgid "(lie) I killed Mara and Tharal in the garden for you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_70
+msgid "Where is my bread? Why does it need to take so long?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_70:0
+msgid "Just a minute."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_70:3
+msgid "Hey - I have brought some bread already."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_80
+msgid "Good! Now I don't need you anymore!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_80:1
+msgid "I would have gone anyway."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_mikhail_90
+msgid "The huge rat ignores you now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat
+msgid "This is my bed - go away!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:0
+msgid "How do I get out of here?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:1
+msgid "Where would I find this yellow artifact thing?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:2
+#: conversationlist_ratdom_npc.json:ratdom_rat_52:1
+msgid "There is a nice new statue in the cave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:3
+msgid "I tried to pass by Andor's statue, but there is not enough space."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:4
+msgid "Look! I have a pickaxe now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:5
+msgid "There is a little bone shaped hole in the wall behind the statue. What shall I do now?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:6
+msgid "I found a dark deep passage behind our supply cave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:7
+msgid "Will I ever be able to use my bed again? Sigh."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat:8
+msgid "Clevred, I give up. You must search for your powerful artifact alone."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_10
+msgid "I know the way out, of course. Rats always know the way out."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_10:0
+msgid "Great. Show me the way out of this rat infested place here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_10_10
+msgid "Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_10_10:0
+msgid "A yellow round artifact? Where would I find this thing?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_50
+msgid "Thing! Don't call it just 'thing'! It is a great marvel in our world!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_50:0
+msgid "If you say so. And where is this marvel?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_52
+msgid "It is deep in the rat cave, of course. Use your eyes."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_52:0
+msgid "In our supply cave? That should be easy."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_60
+msgid "Yes. The artifact must be behind this statue. Did you look there?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_60:0
+msgid "Not yet. I didn't even know there was a statue in our supply cave. How long has it been there?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_60_10
+msgid "We erected the statue in honor of Andor for never killing rats."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_60_10:0
+msgid "OK. I'll have a look behind the statue."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_60_10:1
+msgid "How do I pass by the statue?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_70
+msgid "Probably you are too fat to get by. Tear the statue down. But don't tell any rat that I said so."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_70:0
+msgid "It's a pity to destroy such a beautiful statue."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_70_10
+msgid "Hmm. I had better accompany you. I think it would be wise to keep an eye on you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_80
+msgid "The statue is well built. You'll probably need a pickaxe to tear it down."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_80:0
+msgid "Where would I get a pickaxe?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_80_10
+msgid "Oh dear - I can't believe it! Are you really that stupid?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_80_20
+msgid "Think for yourself; where are pickaxes supposed to be?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_82
+msgid "Then why didn't you tried to get behind the statue yet?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_90
+msgid "In the shape of bones? That is a key hole, of course!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_90_10
+msgid "Now, let's find out where Gruiik stores his bone supply."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_100
+msgid "I hope  you have finally found my artifact?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_100:0
+msgid "Eh, no, not yet."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_200
+msgid "NO! You want to leave me alone in this huge maze?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_200:0
+msgid "Eh, of course not."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_200:1
+msgid "Well, I don't see any way to help you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_210
+msgid "You promised. You promised to find my artifact for me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_210:0
+msgid "Yes, you're right. Let's try again. Back to the caves!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_210:1
+msgid "I can't keep the promise. Sorry."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_220
+msgid "So I should keep looking on my own?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_230
+msgid "And you still want me to tell you how to get out of here?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_230:0
+msgid "Yes. Please."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_230:1
+msgid "Alright, you won. Let's try again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_240
+msgid "Fine, you don't want it any other way. I'll find the artifact on my own. Farewell."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_240:0
+msgid "Farewell. And sorry."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_242:0
+msgid "I was stupid. Forget what I said."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_244
+msgid "Don't ever scare me like that again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_250
+msgid "Bye. We will never meet again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_bwm1_10
+msgid "Your brother was here often. He had made himself rather comfortable."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_bwm1_20
+msgid "Nobody seemed to be here for a long time."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner
+msgid "Hi, have a drink?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner:0
+msgid "You are running a pub here?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_10
+msgid "Yes, I've always wanted that. Only my customers are usually a bit special."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_20
+msgid "They are very picky, especially when it comes to food. For example, nobody has ordered anything today."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_20:0
+msgid "What are you offering?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah
+msgid "Who dareth to challenge me?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah:0
+#: conversationlist_ratdom_npc.json:ratdom_king_rah:1
+msgid "King Rah? You are not dead since long ago?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah_52
+msgid "Probably this is just a vision to protect the sword."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah_52:0
+msgid "Probably??"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah_54
+msgid "Proveth thyself worthy to wield my sword!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah_54:0
+msgid "OK then. Attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_king_rah_54:1
+msgid "Uh, I'll be right back ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden
+msgid "Yes please?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:0
+msgid "I have found some bones. May I enter now?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:3
+msgid "Could you tell me something about this place?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:4
+msgid "Oh, it's nothing. I just tried the bell."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:5
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:6
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:7
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden:8
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:4
+msgid "Please give me back my cheese."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_10
+msgid "I am the warden of our Memorial Hall. I keep the exhibits in order and answer questions from visitors. Call me Wart."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:0
+msgid "Could you tell me anything about this place?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:1
+msgid "Wart - really? [giggle]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_20
+msgid "[Incomprehensible muttering]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_20:0
+msgid "OK, just leave me then."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_30
+msgid "This used to be a happy place of memories. Many objects and statues from the past invite you to linger and think. Every rat loved this place."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_31
+msgid "Well, almost every rat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_32
+msgid "But Fraedro was filled with jealousy and consumed with envy."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_32:0
+msgid "Yes, it is always the same thing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_32:1
+msgid "Sigh. I know that story already. Get to the point."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_33
+msgid "How he hated it when visitors crowded these halls around the valuable exhibits and admired the statues."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_34
+msgid "He wanted to be the center of attention. A larger-than-life statue of himself should dominate the room, he thought."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_34:0
+msgid "Such a braggart."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_35
+msgid "He hated especially the fully preserved skeleton of King Rah, the powerful founder of this empire. It was particularly brilliant: King Rah, standing upright, his dreaded sword in his bony right hand."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_36
+msgid "Yes, King Rah was a great leader. Many battles were fought against the monsters that came out of the rift. But when the superiority became too great, Rah led his people into the caves under the Blackwater Mountains and founded a new empire there."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_37
+msgid "The wise King Rah had the existing caves further expanded as protection."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_37:0
+msgid "That's why the passages are laid out so confusingly?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_38
+msgid "Right. This should be additional protection from enemies."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_38:0
+msgid "Interesting. But why is the passage here closed now?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_40
+msgid "One bad day I found this place ransacked! Only an empty pedestal remained where the richly decorated skeleton of King Rah had been."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:1
+msgid "How did that happen?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_41:0
+msgid "Ooh."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_42
+msgid "This was probably Fraedro's most terrifying act. We found him and confronted him."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_42:0
+msgid "Such a miserable villain!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_42:1
+msgid "Did he admit it?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44
+msgid "Of course he denied everything, that hypocrite! But who else could have done it?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44a
+msgid "He deserved immediate death for this terrible act. However, we only locked him up until he would reveal where he stashed our beloved royal skeleton."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b
+msgid "For security reasons, we don't let anyone in or out until King Rah is back in his accustomed place."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:0
+msgid "Even 100 pieces of gold wouldn't change your mind?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:1
+msgid "If the skeleton is back, may I pass?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:2
+msgid "I want to talk with Fraedro."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:3
+msgid "What lies behind this blocked passage?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:4
+msgid "May I enter?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_46a
+msgid "Of course not! This door will remain closed until King Rah returns."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_46b
+msgid "Impossible! No way."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_46c
+msgid "The memory hall of course."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44d
+msgid "And another tunnel, but only a short distance and a dead end."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44e
+msgid "We never go there, there are scary noises coming from there."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_44e:0
+msgid "Finally light at the end of the tunnel."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_48
+msgid "If King Rah is with us again, that would be great! Of course you can then go to our memory hall. You would be our guest of honor."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_48a
+msgid "But we are not there yet."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_52
+msgid ""
+"Let's have a look. Oh, what are my old eyes seeing? King Rah is back, completely! I am overwhelmed with joy!\n"
+"You may pass now of course."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_52:0
+msgid "I hope you can puzzle your king back together."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_54b
+msgid "Thank you a thousand times!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_54d
+msgid "I am so grateful."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_60
+msgid "Wonderful! You've already recovered King Rah's head!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_61
+msgid "You've already recovered some of King Rah's legs."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_65
+msgid "Ah, you've already recovered King Rah's tail!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_66
+msgid "Good, you've already recovered King Rah's back bone."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_67
+msgid "Great! These bones look like King Rah's ribs!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_69
+msgid "Please go and find all of King Rah's bones."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_70a
+msgid "Let's have a look ... Great! Only King Rah's head is missing. You will find it too, I am sure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_70a:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_71a:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_75a:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a:1
+msgid "I hope it is worth the hard work."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_71a
+msgid "Let's have a look ... Great! Now we only need the fourth leg. You will find it too, I am sure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_75a
+msgid "Let's have a look ... Great! Only King Rah's tail is missing. You will find it too, I am sure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a
+msgid "Let's have a look ... Great! Only King Rah's back bone is missing. You will find it too, I am sure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a
+msgid "Let's have a look ... Great! Only King Rah's rib bones are missing. You will find them too, I am sure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_79
+msgid "Let's have a look ... In total we need the head, the ribs and the back bone, 4 legs and the tail of course."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_79:0
+msgid "OK, I'll be back."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_80
+msgid "I can't let you enter our Memorial Hall. We have to get back our skeleton statue of King Rah first."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:0
+msgid "OK. I will find the bones for you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:1
+msgid "This maze is terrible. Do you have any idea how I could find my way out again?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:2
+msgid "Do you have any idea where I should go looking for your bones?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_82
+msgid "That is easy. Just choose the exit where you see rats in front of it. Rats always know their way out."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_86
+msgid "Didn't I tell you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_86:0
+msgid "You talk all the time and too much anyway. I can't always listen to that."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_90
+msgid "The cave system is huge and really very confusing. It already surprised me how you found your way to me here."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_91
+msgid "Maybe you'll find wisdom in my compass?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_91:0
+msgid "What compass?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_92
+msgid "Start at the entrance where you entered the lower part of these caves."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_94
+msgid "There you put on the necklace with my compass. With this compass you may perceive otherwise invisible signs on the walls. Follow these."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_94:0
+msgid "What signs?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95
+msgid "Shields in orange and yellow color. Orange for the main route and yellow for short side tunnels."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30
+msgid "Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the orange shield again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_96
+msgid "It will be a far journey. But you will meet everything that you need to meet. And even more."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_96:0
+msgid "This is finally good news."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_98
+msgid "Beware! It slows you down, because your mind is clouded and partly in another dimension."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_98:0
+msgid "No problem. Show me this wonderful item."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_98:1
+#: conversationlist_ratdom_npc.json:whootibarfag_46:1
+msgid "However, I am as poor as a church rat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_99
+#: conversationlist_ratdom_npc.json:whootibarfag_48
+msgid "Well, I have too good a heart. Here, take the amulet for 100 gold pieces."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_99:0
+#: conversationlist_ratdom_npc.json:whootibarfag_48:0
+msgid "Oh thank you! Here is the gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50
+msgid "Sure, here you are."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50:0
+msgid "Thank you. Here, have some coins."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50:1
+msgid "Wasn't there one or two more pieces of cheese?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_52
+msgid "2 gold coins - how very generous."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_53
+msgid "[low voice] Scrooge."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_54
+msgid "Insolence. I'll pretend that I didn't hear it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2
+msgid "Welcome to our great rat memory hall! Shall I tell you something about our great expositions?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:0
+msgid "Thank you, I'll find my way."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:1
+msgid "Why is here an empty pedestal?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:2
+msgid "I want to visit Fraedro."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:3
+msgid "Do you have anything for sale?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:5
+msgid "Please give me back my delicious Charwood cheddar."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:6
+msgid "Please give me back my moldy blue cheese."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2:7
+msgid "Please give me back my goat cheese."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_cheese
+msgid "Sure. Let's go outside."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_1
+msgid "Here stood the statue of King Rah. I told you about it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_2
+msgid "Thank you for bringing the bones back to me. But I still have to put them back together."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_3
+msgid "Until then, our great museum will have to do without this highlight of the exhibition."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_14
+msgid "For security reasons, we don't let anyone talk with Fraedro until he finally admits everything."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_14:0
+msgid "I did find the skeleton. Can Fraedro be released now?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_14:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_15:1
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_15a:0
+msgid "Can I speak to Fraedro? Maybe he regrets what he did and wouldn't do it again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_14:2
+msgid "I don't think it was Fraedro."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_15
+msgid "Of course not. He would steal the bones just one more time."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_15:0
+msgid "You have a sad opinion of your fellow rats."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_15a
+msgid "They're just rats. What do you expect?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16
+msgid "No, you can't speak to Fraedro. It is too dangerous."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16:0
+msgid "Well, I have 100 gold pieces here. Can I speak to Fraedro?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16:1
+msgid "I would like to offer him 100 gold pieces to let me through, but I don't have enough with me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16:2
+msgid "Maybe it wasn't Fraedro after all?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16:3
+msgid "Alright, I think I'll take a look at the rest of the exhibition now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16a
+msgid "You think you could bribe me for a ridiculous 100 gold pieces?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16a:0
+msgid "Eh, no. Of course not. Sorry. I'd better leave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16a:1
+msgid "Well, if you don't want the gold ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16b
+msgid "Wait! [He takes the gold hastily] Sure you can talk to Fraedro. Do you see the stairs over there? Just walk along there, you can't miss it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16c
+msgid "I hope you don't think I'll keep the gold for myself. I will use it for the museum."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16c:0
+msgid "Sure, bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16d
+msgid "You do not believe me!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16d:0
+msgid "Yes, of course I believe you. But I have to go on."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16e
+msgid "I'm honest as a church rat. Yes indeed."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16f
+msgid "I am a little offended that you would accuse me of something despicable like accepting gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16f:0
+msgid "But I just want to go."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16x
+msgid "Yes, go now, and don't keep me from my work."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16x:0
+msgid "??"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_17
+msgid "Of course he was. It couldn't have been otherwise. Go now please, I have work to do."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling
+msgid ""
+"If strangers come hither to gain \n"
+"our treasure, their hope is in vain. \n"
+"In the darkest deep ground, \n"
+"with our Yellow Round, \n"
+"their bones will forever remain."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling:0
+msgid "What a nice poem. They are good, aren't they, Clevred?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling_10
+msgid "Really, they're good at poetry. But we'll take the artifact with us anyway."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling_10:0
+msgid "Of course. So now to work ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2
+msgid ""
+"A thief who thinks to get through \n"
+"with our treasure, is due \n"
+"to give his life \n"
+"upon a strife, \n"
+"and all his stolen goods too."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2:0
+msgid "Eh, let us think a minute."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2:1
+msgid "Well, OK. We have no chance against so many roundlings."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2:2
+msgid "Never - attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_10
+msgid "Coward! You didn't even try."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_10:0
+msgid "Never call me coward! Attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_10:1
+msgid "They are too many for us, we would be killed. Let's give up the artifact."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_12
+msgid "Never! I'd rather die!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_12:0
+msgid "If you think so, then let's attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_12:1
+msgid "Die you will, if you can't let go of it. I will leave it behind."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_roundling2_20
+msgid "I see. I thought you were braver. Go then, I don't want to see you again!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12
+msgid "Mortal - What are you doing in my realm?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_30:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_30:0
+msgid "I have lost my way. Could you help me?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11:1
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12:1
+msgid "I have come to kill you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_10
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_10
+msgid "Of course I could. But why should I?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_10:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_10:0
+msgid "Yes, right. Why should you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_10_20
+msgid "Mortal! You amuse me. I will have you as my jester."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_10_20:0
+msgid "We'll see! Let's fight!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_30
+msgid "I am Roskelt, the Great. King of the caves. Nobody equals me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_30:2
+msgid "Interesting. Bloskelt said the same."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_30
+msgid "I am Bloskelt, the Great. King of the caves. Nobody equals me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_30:2
+msgid "Interesting. Roskelt said the same."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_40
+msgid "There is just one being that denies me my rightful title. Bloskelt, my wretched brother."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_40
+msgid "There is just one being that denies me my rightful title. Roskelt, my wretched brother."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_42
+msgid "You go and find Bloskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick, almost painless death."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_42:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_42:0
+msgid "How generous."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_42
+msgid "You go and find Roskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick, almost painless death."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_50
+msgid "My brother again! He always tries to mock me! And surely you are now going to tell me, that I should surrender?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_50:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_50:0
+msgid "Eh, yes. How did you know?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_50
+msgid "My brother again! He always tries to mock me! And surely  you are now going to tell me, that I should surrender?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_52
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_52
+msgid "HAHAHA! I will not give up and surrender to him! Never! Tell him that. HAHAHAHA!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_11_52:0
+msgid "I will go and tell Bloskelt. Although the messenger of bad news always gets into trouble ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_52:0
+msgid "I will go and tell Roskelt. Although the messenger of bad news always gets into trouble ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_40
+msgid "Mortal! Where is my brother?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_40:0
+msgid "I didn't find him yet."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_40_10
+msgid "Then look again, thoroughly."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_51
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_52
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_60
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70
+msgid "Mortal! Did you fulfil your task?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_51:0
+msgid "I delivered your message, but Bloskelt was just laughing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_52:0
+msgid "I delivered your message, but Roskelt was just laughing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_51_10
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_52_10
+msgid "Then go again. And kill him."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_51_10:0
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_52_10:0
+msgid "Kill him? But it is your brother?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_50_20
+msgid "Yes, that's why. Hurry now."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_50_20:0
+msgid "Oh, OK."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_60:0
+msgid "To kill your brother? No, not yet."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_60_10
+msgid "Then what do you want here? Go and do it."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70:0
+msgid "Yes. Your brother is dead."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70_10
+msgid "Good. I will shower you with gold, jewels and bones."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70_10:0
+msgid "Hm, not much of a shower ... and ugh - there are even rat bones included."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70_20
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_90_10
+msgid "What? Do I hear ungrateful words?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70_20:0
+msgid "No, everything is well."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_70_20:1
+msgid "Enough! Let's fight!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_90
+msgid "Thank you again for your effort."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_90:0
+msgid "It could have been a bit more gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_90_10:0
+msgid "Eh, no, it is nothing. Bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_90_10:1
+msgid "I will take my gold now - attack!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3
+msgid "Omm..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3:0
+msgid "Hi! I am $playername."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3:1
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:1
+msgid "Omm."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_20
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:2
+msgid "Ommmmm..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:0
+msgid "I am $playername. Who are you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_30
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:1
+msgid "Omm... ommm... ommmmm..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:0
+msgid "Omm... omm... omm..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:2
+msgid "Omm... ommm... ommmmmm..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_50
+msgid "Very good. Finally a learned being in this rat hole."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_52
+msgid "In gratitude for the great joy I give you this rat skull."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_52:0
+msgid "Eh - nice, thank you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:ratdom_well_wise3_90
+msgid "Come again whenever you want. It is a nice diversion to talk with someone with a bit of brain at least."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag
+msgid "Greetings, young being."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag:0
+msgid "Hello to you, old man."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag:1
+msgid "Do you have something to trade?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_10
+msgid "Young people are always in a hurry. In my time, you introduced yourself first."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_12
+msgid "We'll try again from the beginning."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_20
+msgid "I am Whootibarfag, wise of the Blackwater mountains."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_20:0
+msgid "Nice to meet you. I am $playername from Crossglen, if you should know the village."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_22
+msgid "Sigh. Always in a hurry. Again - who are you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_24
+msgid "Now, what brings you to this lonely area?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_24:0
+msgid "I'm helping a cheeky little rat find an artifact."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_24:2
+msgid "I recovered and brought back Rat King Rah's skeleton."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_30
+msgid "I should have known. No one comes up here to ask for wisdom."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_30:0
+#: conversationlist_ratdom_npc.json:whootibarfag_76:0
+msgid "Not now. Let us trade first."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_30:1
+#: conversationlist_ratdom_npc.json:whootibarfag_48b:1
+msgid "All right, let's get this over with. Enlighten us."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_32
+msgid "I have great knowledge, you know?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_32:0
+#: conversationlist_ratdom_npc.json:whootibarfag_52:0
+msgid "Maybe another time. Let's just trade."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_32:1
+msgid "Then finally say what you want to say. And after that show me your goods."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_40
+msgid "Sigh. Well, I have interesting items to sell. However, no food, I need it for myself."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_40:0
+msgid "Then what do you have for sale?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_42
+msgid "Torches to light your way."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_42:0
+msgid "I already have one."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_44
+msgid "Hand carved snowballs."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_46
+msgid "And finally, a medallion that will help you find your way here if your memory fails you."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_46:0
+msgid "Now that sounds interesting. Show me your items, please."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_48b
+msgid "Well, now some wisdom ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_48b:0
+msgid "It is getting late. Bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_50
+msgid "Ah, a sacred quest for a mystical object. Good luck on your way."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_50:0
+msgid "Thanks. Then we'll go looking further."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_50:1
+msgid "Maybe you can help us?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_52
+msgid "Who knows? Tell me about your artifact."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_52:1
+msgid "It's big, round and yellow. Clevered, what else do you know about this?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_54
+msgid "Oh, whoever possesses this artifact will be rich and never go hungry again."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_54:0
+msgid "Gold?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_56
+msgid "Who needs gold?! It is much better."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_68
+msgid "Clevred tells and tells."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_70
+msgid "Hold on!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_71
+msgid "I'm afraid I can't help you much there. I'm more familiar with the events out here on the mountain."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_72
+msgid "But you might ask an old friend of mine. He has a small but valuable collection of important items and I'm sure he'll be happy to show you around."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_72:0
+msgid "We'll look for him."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_72:1
+msgid "You mean Wart? We have already met him."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_74
+msgid "You may find him in the caves below, even deeper in the mountain."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_76
+msgid "Good, so that's settled. Now I could share a little of my wisdom with you?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_76:1
+msgid "All right, let's get this over with. Enlighten me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_100
+msgid "I know that I know nothing."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_110
+msgid "But at least I think, so I am. Then I left the cave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_110:0
+msgid "From the shadows to the light."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_112
+msgid "Yes, yes! How did you know?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_112:0
+msgid "I just guessed."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_120
+msgid "Now I need to know what is louder: the noise of a lonely falling tree, or the sound of one hand clapping."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_122
+msgid "I didn't really expect you to know."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_122:0
+msgid "Yes. I know."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_122:1
+msgid "Enough. It's getting late."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_130
+msgid "There are many paths leading to happiness."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_132
+msgid "One of them is to stop whining."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_140
+msgid "Hey - I'm the one with the wisdom here!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_142
+msgid "Arrogance is the surest path to failure."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_150
+msgid "From failure we learn."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_152
+msgid "Learn as if you were to live forever."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_190
+msgid "Seize the day."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_190:0
+msgid "Enough! What. do. you. have. for. sale?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_190:1
+msgid "I give up. Come, Clevred, let us leave."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_200
+msgid "Oh, yes. Of course I know."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_202
+msgid "Nothing remains hidden from me that is happening here in the mountain."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_202:0
+msgid "I really had to run around a lot."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_210
+msgid "Well, I see you've learned a lot by searching the rat kingdom. But you're still missing one thing ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_210:1
+msgid "Do you mean wisdom?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_210:2
+msgid "Yes, I lack patience. The patience to keep listening to your babble."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_212
+msgid "Wisdom? No, hahaha!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_214
+msgid "Leave wisdom to the wise. So to me."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_214:0
+msgid "So what am I missing?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_214:1
+msgid "I will. What do you have for sale?"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_214:2
+msgid "As you wish. I leave the wise now. Bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_220
+msgid "You've seen enough rats skilfully flee and escape."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_220:0
+msgid "Oh yes, I actually have."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_222
+msgid "You just haven't understood that you can make this ability your own."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_224
+msgid "Come closer."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_226
+msgid "Closer ..."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_226:0
+msgid "[You hold your breath - from tension, and because of his bad breath.]"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_230
+msgid "Whootibarfag let you in on the secret of the rat escape. This increases your ability to flee and escape."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_230:0
+msgid "Hey! Yes of course! That's how it works!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_240
+msgid "Use this knowledge well. Go now, I need some rest."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:whootibarfag_240:0
+msgid "Thanks for all your help. Good bye."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook
+msgid "I cook my own meat, thank you very much!"
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook:0
+msgid "I've been looking for a way to cook my meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10
+msgid "I could use some extra gold. So I can cook them for you for let's say 30 gold a piece."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:0
+msgid "Well, here is 1 piece and 30 gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:1
+msgid "OK, I have 5 pieces and 150 gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:2
+msgid "Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:3
+msgid "I'm hungry! Here are 20 pieces and 600 gold."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:4
+msgid "Oh, my mistake, I forgot that I have no meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:gael_cook_10:5
+msgid "Oops, I'm still poor. I can't afford to pay your price."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:get_one_cooked_meat
+msgid "Only one? That's no problem. Here's your cooked meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:get_five_cooked_meat
+msgid "Just five? That's no problem. Here's all your cooked meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:get_ten_cooked_meat
+msgid "10 meat at once? That's no problem. Here's all your cooked meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:get_twenty_cooked_meat
+msgid "20 meat at once?! You may even love this stuff more than I do. Here's all your cooked meat."
+msgstr ""
+
+#: conversationlist_ratdom_npc.json:kendelow_meat
+msgid "No, sorry. I can't let you use my kitchen. But..."
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -51321,6 +55543,10 @@ msgstr ""
 
 #: itemcategories_brimhaven.json:weapon_blocking
 msgid "Parrying weapon"
+msgstr ""
+
+#: itemcategories_ratdom.json:bigtorch
+msgid "Big torch"
 msgstr ""
 
 #: itemlist_money.json:gold
@@ -53987,6 +58213,7 @@ msgstr ""
 #: itemlist_brimhaven_2.json:kids_gloves:description
 #: itemlist_brimhaven_2.json:kids_shield:description
 #: itemlist_brimhaven_2.json:kids_boots:description
+#: itemlist_ratdom.json:kids_ring:description
 msgid "Part of Andor's training equipment."
 msgstr ""
 
@@ -54889,16 +59116,153 @@ msgstr ""
 msgid "The eye ball of a \"three-eyed bat\"."
 msgstr ""
 
+#: itemlist_ratdom.json:handcarved_snowball
+msgid "Hand carved snowball"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_artefact
+msgid "Rat's artifact"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_artefact:description
+msgid "A hard, dry cheese wheel that seems to last almost forever."
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_book
+msgid "Nasty looking book"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_book:description
+msgid ""
+"-> Enslavement <- \n"
+"and how to do it right.\n"
+"\n"
+"[As you scan the pages, you decide that this is not appropriate reading for you]"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_compass_bwm
+msgid "Blue rat necklace"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_compass_bwm:description
+msgid ""
+"This necklace will guide you the shortest way towards the sky.\n"
+"Watch out for blue shields."
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_compass_tour
+msgid "Orange rat necklace"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_compass_tour:description
+msgid ""
+"This necklace will guide you a long way through the caves from Crossglen entrance unto every worthy place.\n"
+"Watch out for orange shields, but don't neglect the yellow shields."
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_fraedro_key
+msgid "Fraedro's key"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_fraedro_key:description
+msgid "A tiny golden key"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_maze_mole_food
+msgid "Nutritious snake meat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_pickaxe
+msgid "Pickaxe"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_torch
+msgid "Ratcave Torch"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_back
+msgid "Back bones of a rat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_leg
+msgid "Leg bones of a rat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_leg_coll
+msgid "Leg bone of a rat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_leg_coll:description
+msgid "The most precious bone of the instrument maker's bone collection"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_skull
+msgid "Rat skull"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_tail
+msgid "Tail bones of a rat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_skelett_ribs
+msgid "Rib bones of a rat"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_rat_sword
+msgid "Rat King Rah's sword"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_wells_ball
+msgid "Shimmering globe"
+msgstr ""
+
+#: itemlist_ratdom.json:snake_meat_cooked
+msgid "Cooked snake meat"
+msgstr ""
+
+#: itemlist_ratdom.json:well_water
+msgid "Bottle of well water"
+msgstr ""
+
+#: itemlist_ratdom.json:well_water:description
+msgid "As if freshly drawn from the well"
+msgstr ""
+
+#: itemlist_ratdom.json:kids_ring
+msgid "Kid's ring"
+msgstr ""
+
+#: itemlist_ratdom.json:polished_ring_protector
+msgid "Polished ring of the protector"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_parchment
+msgid "Parchment from Flora's fountain"
+msgstr ""
+
+#: itemlist_ratdom.json:ratdom_parchment:description
+msgid ""
+"You see three words in big red letters:\n"
+"\n"
+"HELP ME\n"
+"ANDOR\n"
+"\n"
+"and a blood stained fingerprint underneath."
+msgstr ""
+
 #: monsterlist_crossglen_animals.json:tiny_rat
+#: monsterlist_ratdom.json:ratdom_maze_rat1
 msgid "Tiny rat"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:cave_rat
 #: monsterlist_v069_monsters.json:puny_caverat
+#: monsterlist_ratdom.json:ratdom_maze_rat2
 msgid "Cave rat"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tough_cave_rat
+#: monsterlist_ratdom.json:tough_cave_rat3
 msgid "Tough cave rat"
 msgstr ""
 
@@ -55019,6 +59383,7 @@ msgid "Arambold"
 msgstr "ארמבולד"
 
 #: monsterlist_crossglen_npcs.json:tharal
+#: monsterlist_ratdom.json:ratdom_tharal
 msgid "Tharal"
 msgstr ""
 
@@ -55027,14 +59392,17 @@ msgid "Drunk"
 msgstr ""
 
 #: monsterlist_crossglen_npcs.json:mara
+#: monsterlist_ratdom.json:ratdom_mara
 msgid "Mara"
 msgstr ""
 
 #: monsterlist_crossglen_npcs.json:gruil
+#: monsterlist_ratdom.json:ratdom_gruil
 msgid "Gruil"
 msgstr ""
 
 #: monsterlist_crossglen_npcs.json:leonid
+#: monsterlist_ratdom.json:ratdom_leonid
 msgid "Leonid"
 msgstr ""
 
@@ -55093,6 +59461,8 @@ msgstr ""
 #: monsterlist_guynmart.json:guynmart_skeleton
 #: monsterlist_guynmart.json:guynmart_skeleton2
 #: monsterlist_stoutford_combined.json:stn_colonel_mons2
+#: monsterlist_ratdom.json:ratdom_skeleton1
+#: monsterlist_ratdom.json:ratdom_skeleton2
 msgid "Skeleton"
 msgstr ""
 
@@ -55512,6 +59882,7 @@ msgid "Feygard patrol captain"
 msgstr ""
 
 #: monsterlist_v068_npcs.json:feygard_patrol_watch
+#: monsterlist_ratdom.json:ratdom_ff_guard
 msgid "Feygard patrol watch"
 msgstr ""
 
@@ -57687,6 +62058,8 @@ msgstr ""
 #: monsterlist_guynmart.json:guynmart_fish2
 #: monsterlist_brimhaven.json:brv_fish1
 #: monsterlist_brimhaven.json:brv_fish2
+#: monsterlist_ratdom.json:ratdom_water_fish1
+#: monsterlist_ratdom.json:ratdom_water_fish2
 msgid "Fish"
 msgstr ""
 
@@ -57892,18 +62265,30 @@ msgid "Dummy NPC"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:erwyn_skel_lute
+#: monsterlist_ratdom.json:ratdom_skel_lute
+#: monsterlist_ratdom.json:ratdom_skel_lute1
+#: monsterlist_ratdom.json:ratdom_skel_lute2
 msgid "Lutenist"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:erwyn_skel_hornet
+#: monsterlist_ratdom.json:ratdom_skel_horn
+#: monsterlist_ratdom.json:ratdom_skel_horn1
+#: monsterlist_ratdom.json:ratdom_skel_horn2
 msgid "Horn player"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:erwyn_skel_drum
+#: monsterlist_ratdom.json:ratdom_skel_drum
+#: monsterlist_ratdom.json:ratdom_skel_drum1
+#: monsterlist_ratdom.json:ratdom_skel_drum2
 msgid "Drummer"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:erwyn_skel_cymbal
+#: monsterlist_ratdom.json:ratdom_skel_cymb
+#: monsterlist_ratdom.json:ratdom_skel_cymb1
+#: monsterlist_ratdom.json:ratdom_skel_cymb2
 msgid "Cymbalist"
 msgstr ""
 
@@ -59018,6 +63403,274 @@ msgstr ""
 msgid "Gabriel"
 msgstr ""
 
+#: monsterlist_ratdom.json:cavesnake4
+msgid "Big cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:cavesnake5
+#: monsterlist_ratdom.json:ratdom_m3b
+msgid "Nasty cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m2a
+msgid "Vicious cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m2b
+msgid "Malicious cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m3a
+msgid "Malignant cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m4a
+msgid "Pernicious cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m4b
+msgid "Virulent cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m5a
+msgid "Lazy snail"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m5b
+msgid "Poisenous snail"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m6a
+msgid "Cave gnome"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m6b
+msgid "Plump cave gnome"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m7a
+msgid "Fierce cave lizard"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m7b
+msgid "Snappy cave lizard"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m8a
+msgid "Elvedridge"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m8b
+msgid "Dangerous elvedridge"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m9a
+msgid "Giant hornbat"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m9b
+msgid "Cave teckel"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m9c
+msgid "Cave wolf"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m10a
+msgid "Poisonous caterpillar"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m10b
+msgid "Biting caterpillar"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m11a
+msgid "Young cave worm"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m11b
+msgid "Angry cave worm"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m11c
+msgid "Old cave worm"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m12a
+msgid "Quick viper"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m12b
+msgid "Nasty viper"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m13a
+msgid "Young roundling"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_m13b
+msgid "Curious roundling"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_bone_collector
+msgid "Loirash"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_fraedro
+msgid "Fraedro"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_ghost
+#: monsterlist_ratdom.json:ratdom_ghost1
+#: monsterlist_ratdom.json:ratdom_ghost2
+#: monsterlist_ratdom.json:ratdom_ghost3
+#: monsterlist_ratdom.json:ratdom_ghost4
+msgid "Ghost"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_goldhunter
+#: worldmap.xml:ratdom_level_4:ratdom_maze_goldhunter_area
+#: worldmap.xml:ratdom_level_5:ratdom_maze_goldhunter_area
+msgid "Gold hunter"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_king_rah
+msgid "King Rah"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_kriih
+msgid "Kriih"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_librarian
+msgid "Librarian"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_maze_boulder1
+#: monsterlist_ratdom.json:ratdom_maze_boulder2
+#: monsterlist_ratdom.json:ratdom_maze_boulder3
+#: monsterlist_ratdom.json:ratdom_maze_boulder4
+#: monsterlist_ratdom.json:ratdom_maze_boulder5
+msgid "Flaming orb"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_maze_mole
+#: monsterlist_ratdom.json:ratdom_maze_mole2
+msgid "Cave mole"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_maze_mole_food
+msgid "Nutritious cave snake"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_maze_slime
+msgid "Slime"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_mikhail
+msgid "Gruiik"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_rat
+#: monsterlist_ratdom.json:ratdom_rat_bwm1
+#: monsterlist_ratdom.json:ratdom_rat_crossglen
+msgid "Clevred"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_rat_pub_owner
+msgid "Horfael"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_rat_statue
+msgid "Andor's statue"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_rat_warden
+#: monsterlist_ratdom.json:ratdom_rat_warden2
+msgid "Wart"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_roundling
+#: monsterlist_ratdom.json:ratdom_roundling2
+#: monsterlist_ratdom.json:ratdom_roundling3
+msgid "Roundling"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_skel_dance1
+#: monsterlist_ratdom.json:ratdom_skel_dance2
+#: monsterlist_ratdom.json:ratdom_skel_dance3
+#: monsterlist_ratdom.json:ratdom_skel_dance4
+#: monsterlist_ratdom.json:ratdom_skel_dance5
+#: monsterlist_ratdom.json:ratdom_skel_dance6
+#: monsterlist_ratdom.json:ratdom_skel_dance7
+msgid "Dancing skeleton"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_skel_dance21
+#: monsterlist_ratdom.json:ratdom_skel_dance22
+#: monsterlist_ratdom.json:ratdom_skel_dance23
+#: monsterlist_ratdom.json:ratdom_skel_dance24
+#: monsterlist_ratdom.json:ratdom_skel_dance25
+#: monsterlist_ratdom.json:ratdom_skel_dance26
+#: monsterlist_ratdom.json:ratdom_skel_dance27
+msgid "Angry skeleton"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_skel_mage
+msgid "Skeleton mage"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_skeleton_boss1
+msgid "Roskelt"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_skeleton_boss2
+msgid "Bloskelt"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_1
+msgid "Young ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_2
+msgid "Weak ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_3
+msgid "Angry ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_4
+msgid "Mad ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_5
+msgid "Dangerous ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_6
+msgid "Ancient ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_troll_9
+msgid "Giant ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_uglybrute
+msgid "Ogre"
+msgstr ""
+
+#: monsterlist_ratdom.json:ratdom_well_wise0
+#: monsterlist_ratdom.json:ratdom_well_wise1
+#: monsterlist_ratdom.json:ratdom_well_wise2
+#: monsterlist_ratdom.json:ratdom_well_wise3
+msgid "Wise of the wells"
+msgstr ""
+
+#: monsterlist_ratdom.json:whootibarfag
+msgid "Whootibarfag"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr ""
@@ -59103,7 +63756,10 @@ msgid "While exploring the town of Sullengard, I so happened to stumble upon my 
 msgstr ""
 
 #: questlist.json:andor:110
-msgid "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do."
+msgid ""
+"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n"
+"\n"
+"[Quest is not completable at this time.]"
 msgstr ""
 
 #: questlist.json:mikhail_bread
@@ -59294,7 +63950,9 @@ msgstr ""
 #: questlist.json:nocmar:20
 msgid ""
 "Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\n"
-"If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again."
+"If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.\n"
+"\n"
+"[Quest is not completable at this time.]"
 msgstr ""
 
 #: questlist.json:nocmar:200
@@ -62360,7 +67018,10 @@ msgid "You've talked with a Knight of Elythom who happened to be an old acquaint
 msgstr ""
 
 #: questlist_burhczyd.json:quest_burhczyd:110
-msgid "Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet..."
+msgid ""
+"Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet...\n"
+"\n"
+"[Quest is not completable at this time.]"
 msgstr ""
 
 #: questlist_burhczyd.json:quest_burhczyd:120
@@ -63124,7 +67785,7 @@ msgid "Hole in the wall: I discovered a secret room deep in a cave."
 msgstr ""
 
 #: questlist_fungi_panic.json:achievements:80
-msgid "Tough luck: I must have fallen for every trap in the Arulir mountain. Ouch..."
+msgid "Tough luck: I must have fallen for every trap in the Arulir mountain. Ouch ..."
 msgstr ""
 
 #: questlist_fungi_panic.json:achievements:100
@@ -63137,6 +67798,10 @@ msgstr ""
 
 #: questlist_fungi_panic.json:achievements:120
 msgid "Thrown out of my first tavern. I was told to leave the Sullengard tavern and at such a young age too. Am I starting down the wrong path?"
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:125
+msgid "Uniform blue lighting: I solved a difficult logic riddle."
 msgstr ""
 
 #: questlist_gison.json:gison_soup
@@ -63725,7 +68390,7 @@ msgid "Off of the Duleian road, just south of Alynndir's cabin, I noticed that t
 msgstr ""
 
 #: questlist_haunted_forest.json:dead_walking:40
-msgid "I discovered the 'Haunted forest' and suspected that this may be the source of the sounds heard by Gabriel in Vilegard."
+msgid "I discovered the 'Haunted forest' and suspect that this may be the source of the sounds heard by Gabriel in Vilegard."
 msgstr ""
 
 #: questlist_haunted_forest.json:dead_walking:50
@@ -63738,6 +68403,314 @@ msgstr ""
 
 #: questlist_haunted_forest.json:dead_walking:70
 msgid "Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail
+msgid "More rats!"
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:10
+msgid "A huge rat called Gruiik told you that they drove all the people out of this village."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:20
+msgid "Some two-legs were running around in the garden again. You should kill them."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:30
+msgid "You killed Mara."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:32
+msgid "You killed Tharal."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:52
+msgid "You told Gruiik that you killed Mara and Tharal."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:54
+msgid "You lied to Gruiik that you killed Mara and Tharal."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:70
+msgid "Gruiik was hungry and asked to bring him bread."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:72
+msgid "You found a bread in a bag hanging at the door of the Crossglen town hall."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:74
+msgid "You gave a bread to Gruiik."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_mikhail:90
+msgid "The huge rat ignores you after he has the bread."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest
+msgid "Yellow is it"
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:10
+msgid "You woke up when you felt that something had bitten your your toe. Apparently you had a nightmare - there were rats everywhere! Anyway, you were not even slightly recovered."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:30
+msgid "An ancient meditating man rewarded you with a rat skull for a wise discussion."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:31
+msgid "You took a leg bone of a rat from a gold hunter."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:32
+msgid "You stole a leg bone of a rat from the instrument maker."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:33
+msgid "In the center of a labyrinth you found a leg bone of a rat."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:34
+msgid "You took a leg bone of a rat from the dancing but vengeful and unforgiving skeletons."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:35
+msgid "You found the tail bones of a dead rat on a platform in a lake."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:36
+msgid "In a library you found the back bone of a big rat."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:37
+msgid "You got some rib bones of a rat from the skeleton leader."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:50
+msgid "A small, naughty rat called Clevred claimed that he could help you get out of here. In return, he required you to help to find a yellow, round artifact."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:52
+msgid "I should look around in the rat cave. Clevred probably meant the Crossglen's supply cave."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:60
+msgid "In the depth of the supply cave you found a new statue, that resembles to your brother Andor."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:70
+msgid "The rats had erected the statue in honor of Andor for never killing rats. You should begin your search behind this statue."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:80
+msgid "You would need a pickaxe to tear down the statue."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:82
+msgid "Audir, the smith of Crossglen, sold you an old, sturdy pickaxe."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:90
+msgid "You tore down the statue of Andor. Behind it in the wall you found a hole in the shape of a bone."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:100
+msgid "You put a bone into the hole, and the wall crumbled to dust."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:110
+msgid "A torch could help you to see in the dark. Unfortunately, the torch is so heavy, that you have to lift it with both hands."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:120
+msgid "You found a platform from which you have a good view over Crossglen. Andor seemed to have been here many times."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:130
+msgid "You found Andor's hideout."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:200
+msgid ""
+"You found an exit from the caves to the surface. Cold icy wind was swirling up here on the Black Water mountain top. \n"
+"Astonishingly you are not alone here - Whootibarfag, a very old hermit seemed to have been waiting for you."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:210
+msgid "Whootibarfag was delighted with my help in rescuing Rat King Rah's skeleton. As a thank you, he let me in on the secret of the rat escape. This increased my ability to flee."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:310
+msgid "Wart, the warden to the halls of memory told me, that the access would be closed, until the rat memorial is restored. I should seek the bones of King Rah's skeleton."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:320
+msgid "Wart told you that he needed the head, the ribs and the back bone, 4 legs and the tail."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:321
+msgid "Wart said that you just have to find the skull."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:322
+msgid "Wart said that you just have to find the back bone."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:323
+msgid "Wart said that just have to find the rib bones."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:324
+msgid "Wart said that you just have to find the tail."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:325
+msgid "Wart said that you just have to find the fourth leg."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:380
+msgid "You donated King Rah's sword to the memory hall."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:381
+msgid "You sold King Rah's sword to the memory hall."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:390
+msgid "Wart was glad to have his rat memorial restored. He granted access to the memory hall now."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:392
+msgid "Wart told you that Fraedro was captured."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:395
+msgid "Wart allowed you to go deeper into the cave and have a word with Fraedro."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:398
+msgid "You believed in Fraedro's innocence and released him."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:399
+msgid "You attacked Fraedro to avenge the theft of King Rah."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:400
+msgid "You tried Fraedro's tiny golden key in a hole of the cavewall near to his prison. Immediatly the wall gave way to another passage."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:900
+msgid "You finally found the yellow artifact: It was a big round and smelly cheese! Golden yellow and so large that it would provide almost unlimited food. Clevred was overjoyed!"
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:940
+msgid "You told Clevred you couldn't help him further with the search. He then left you to search on his own."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:942
+msgid "Although you had told Clevred you couldn't help him further with the search and he then left you, you meet him in the caves again. You have decided to start the search again."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:950
+msgid ""
+"You fought your way through the roundlings. But Clevred was seriously wounded in the fight. He was just able to give you his beloved artifact. \n"
+"With a last breath he thanked you for your company and died in your arms."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:960
+msgid "You persuaded Clevred to leave the artifact behind. Clevred obeyed disappointedly, but he left you on the spot."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_quest:999
+msgid "You fell asleep just in front of your bed. After long hours of deep and dreamless sleep you woke up - all the rats were gone! Was it only a dream?"
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton
+msgid "Skeleton brothers"
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:41
+msgid "Roskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that you would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:42
+msgid "Bloskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that you would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:51
+msgid "Bloskelt, a leader of another gang of skeletons, also claimed to be king of the caves. You delivered Roskelt's message, but earned nothing but laughter."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:52
+msgid "Roskelt, a leader of another gang of skeletons, also claimed to be king of the caves. You delivered Bloskelt's message, but earned nothing but laughter."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:61
+msgid "Roskelt asked you to kill his brother."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:62
+msgid "Bloskelt asked you to kill his brother."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:71
+msgid "You have killed Bloskelt."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:72
+msgid "You have killed Roskelt."
+msgstr ""
+
+#: questlist_ratdom.json:ratdom_skeleton:90
+msgid "For your effort, you got a pretty poor reward."
+msgstr ""
+
+#: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
+msgid "Bloskelt + Roskelt"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_4:ratdom_maze_entry_area
+msgid "Entry"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_4:ratdom_maze_instrument_maker
+msgid "Instrument maker"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_5:ratdom_maze_skeleton_dance
+msgid "Skeleton dance"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_5:ratdom_maze_museum
+msgid "Museum"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_5:ratdom_maze_labyrinth
+msgid "Labyrinth"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_6:ratdom_maze_water_area
+msgid "Waterway"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_6:ratdom_maze_pub
+msgid "Pub"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_6:ratdom_maze_library
+msgid "Library"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_6:ratdom_maze_4_wells
+msgid "4 wells"
+msgstr ""
+
+#: worldmap.xml:ratdom_level_6:ratdom_maze_roundlings_area
+msgid "Roundlings"
 msgstr ""
 
 #: worldmap.xml:world1:crossglen

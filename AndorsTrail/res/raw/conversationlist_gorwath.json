@@ -290,7 +290,7 @@
     },
     {
         "id":"gorwath_exit",
-        "message":"I will go now and prepare a present for lovely Arensia.",
+        "message":"I will go now and prepare a present for lovely Arensia. When we get married, you will of course be invited.",
         "replies":[
             {
                 "text":"OK. Bye.",
@@ -300,12 +300,16 @@
     },
     {
         "id":"gorwath_exit_1",
-        "message":"And when we get married, you will of course be invited.",
+        "message":"Before we go our separate ways, please take this ring that I found behind those haystacks over there.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"gorwath",
                 "mapName":"crossglen"
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"gorwath_dl"
             }
         ]
     },

@@ -1,0 +1,158 @@
+Items format.
+
+Items are defined in JSON format. Files containing items should be named itemlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/item.png[/img]
+
+A single file can hold any number of items , as a list. Even if only one item is defined in a file, it must be contained within a list.
+Items, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+
+[list]An [b]item[/b] [u]must[/u] have the following fields defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this item. Any other game element that reference an item do so by using the ID.
+- "[b]name[/b]" with any textual value. This is the display name of the item (in english), as shown to the player in-game. Proper spelling and capitalization are required. When more than one word is used, only the first letter of the first word is capitalized, except for proper nouns (like the Shadow). The name can contain "[b]$playername[/b]", and the game engine will replace this by the player's name in-game.
+- "[b]iconID[/b]" with a textual value indicating a sprite ID of the form <spritesheet ID>:<sprite index>. The <spritesheet ID> is the name of the image file as present in res/drawable, without the extension (for example, if the sprite is in res/drawable/items_armours.png, the spritesheet ID is "items_armours"). The sprite index is the number of sprites you have to skip to reach the desired one within the spritesheet, reading left-to-right, starting at 0 for the top-left one. One sprite is generally defined as a 32x32px square within a spritesheet.
+[/list]
+
+[list]An [b]item[/b] [u]can[/u] have the following fields defined:
+- "[b]displaytype[/b]" with one of the following values: "[b]ordinary[/b]", "[b]quest[/b]", "[b]extraordinary[/b]", "[b]legendary[/b]", "[b]rare[/b]". All but the ordinary will be displayed with a colored halo in-game, and quest items cannot be sold.
+- "[b]hasManualPrice[/b]" with the value 1 or 0. 0 being the default, this field can be omitted entirely when this is the case. When set to 1, the base price of this item has to de defined using the "[b]baseMarketCost[/b]" field.
+- "[b]baseMarketCost[/b]" with a numerical positive integer value. This is the base cost of the item, when "[b]hasManualPrice[/b]" is set to 1. By default, players will be able to buy this item for 115% of this value, and sell it for 85% of this value. If this is set to 0, this item cannot be sold.
+- "[b]category[/b]" with a textual value matching an item category's ID. The selected category will contain the information that tells whether this item can be worn (equipped, and the associated slot) or consumed (drank, eaten...). This will in turn have an effect on other fields of the item definition.
+- "[b]description[/b]" with any textual value. This is the displayed description of the item (in english), as shown to the player in-game in the item info pop-up. Proper spelling and capitalization are required. 
+- "useEffect" with an object value, as defined in the [b]timed effect[/b] definition below. This field can exist only when the selected "[b]category[/b]" is one for consumables, and the described effect will occur upon consumption of the item by the player.
+- "equipEffect" with an object value, as defined in the [b]equip effect[/b]" definition below. This field can exist only when the selected "[b]category[/b]" is one for equipment, and the described effect will by applied to player upon equipping that item.
+- "hitEffect" with an object value, as defined in the [b]hit effect[/b] definition below. This field can exist only when the selected "[b]category[/b]" is one for equipment, and the described effect will occur when the player successfully hits an enemy while this item is equipped.
+- "killEffect" with an object value, as defined in the [b]timed effect[/b] definition below. This field can exist only when the selected "[b]category[/b]" is one for equipment, and the described effect will occur when the player kills an enemy while this item is equipped.
+[/list]
+
+[list]A [b]timed effect[/b] [u]can[/u] have the following fields defined:
+- "[b]increaseCurrentHP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of HP from which a random value will be picked, and added to the current HP of the player. This cannot make the current HP exceed the max HP of the player.
+- "[b]increaseCurrentAP[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate a range of AP from which a random value will be picked, and added to the current AP of the player. This cannot make the current AP exceed the max AP of the player.
+- "[b]conditionsSource[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the player when this [b]timed effect[/b] is triggered.
+[/list]
+
+[list]A [b]hit effect[/b] has the same definition as a [b]timed effect[/b], with the addition of the following [u]optional[/u] field:
+- "[b]conditionsTarget[/b]" with a list value containing any number of objects as defined in the [b]timed actor condition[/b] definition below. All these actor conditions (with associated magnitude and duration) have a chance to be applied to the targeted enemy when this [b]hit effect[/b] is triggered.
+[/list]
+
+[list]A [b]timed actor condition[/b] [u]must[/u] have the following fields defined:
+- "[b]condition[/b]" with a textual value matching an actor condition's ID. This is the actor condition that will potentially affect the target (player or enemy).
+- "[b]chance[/b]" with a textual representation of a numerical value. This is the percentage of chance that the actor condition will be applied. "100" means that the condition will always be applied.
+[/list]
+
+[list]A [b]timed actor condition[/b] [u]can[/u] have the following fields defined:
+- "[b]duration[/b]" with a numerical value. This is the number of rounds the effect will last. The value 999 can be used to mean that the effect lasts forever, and can only be removed by [i]clearing[/i] this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
+- "[b]magnitude[/b]"  with a numerical integer value. This is a multiplier used to amplify the effect of the base actor condition. The value -99 can be used to mean that this effect will [i]clear[/i] the target from this actor condition, but this is the default value, and this field can be omitted entirely when this is the case.
+[/list]
+
+[list]An [b]equip effect[/b] [u]can[/u] have the following fields defined:
+- "[b]increaseAttackDamage[/b]" with an object value, as defined in the [b]min-max values[/b] definition below. These values indicate the amount of AD to be added the the minimum and maximum AD of the player.
+- "[b]increaseMaxHP[/b]" with a numerical integer value. This value will be added to the maximum HP of the player.
+- "[b]increaseMaxAP[/b]" with a numerical integer value. This value will be added to the maximum AP of the player.
+- "[b]increaseMoveCost[/b]" with a numerical integer value. This value will be added to the AP cost of moving (fleeing) of the player.
+- "[b]increaseUseItemCost[/b]" with a numerical integer value. This value will be added to the AP cost of using items (potions...) of the player.
+- "[b]increaseReequipCost[/b]" with a numerical integer value. This value will be added to the AP cost of changing equipment of the player.
+- "[b]increaseAttackCost[/b]" with a numerical integer value. This value will be added to the AP cost of attempting an attack of the player.
+- "[b]increaseAttackChance[/b]" with a numerical integer value. This value will be added to the AC of the player.
+- "[b]increaseCriticalSkill[/b]" with a numerical integer value. This value will be added to the CS of the player.
+- "[b]increaseBlockChance[/b]" with a numerical integer value. This value will be added to the BC of the player.
+- "[b]increaseDamageResistance[/b]" with a numerical integer value. This value will be added to the DR of the player.
+- "[b]setCriticalMultiplier[/b]" with a numerical float value. The player's CM is always the main-hand weapon's CM (except for Dual-Wield, where it is the best available CM once eventual maluses have been applied to the off-hand weapon).
+- "[b]addedConditions[/b]" with a list value containing any number of objects as defined in the [b]equipment actor condition[/b] definition below. All these actor conditions will affect the player as long as this item is equipped.
+[/list]
+
+[list]An [b]equipment actor condition[/b] [u]must[/u] have the following field defined:
+- "[b]condition[/b]" with a textual value matching an actor condition's ID. This is the actor condition that will affect the player.
+[/list]
+
+[list]An [b]equipment actor condition[/b] [u]can[/u] have the following field defined:
+- "[b]magnitude[/b]"  with a numerical integer value. This is a multiplier used to amplify the effect of the base actor condition. The value -99 can be used to mean that this effect will [i]clear[/i] the target from this actor condition. The default value is 1, and this field can be omitted entirely when this is the case.
+[/list]
+
+[list][b]Min-max values[/b] [u]must[/u] have the following fields defined:
+- "[b]min[/b]" with a numerical value. That's the lowest possible value.
+- "[b]max[/b]" with a numerical value. That's the highest possible value.
+[/list]
+
+[b]Full example using almost all fields.[/b] The "[b]useEffect[/b]" field dedicated to usable items, and missing in this example, has the same syntax as the "[b]killEffect[/b]" field dedicated to equipment, as depicted below.
+[code]{
+    "id":"item_id",
+    "iconID":"items_armours:0",
+    "name":"Item name",
+    "displaytype":"ordinary",
+    "hasManualPrice":1,
+    "baseMarketCost":2,
+    "category":"buckler",
+    "description":"This is a description.",
+    "equipEffect":{
+        "increaseAttackDamage":{
+            "min":10,
+            "max":20
+        },
+        "increaseMaxHP":30,
+        "increaseMaxAP":40,
+        "increaseMoveCost":100,
+        "increaseUseItemCost":110,
+        "increaseReequipCost":120,
+        "increaseAttackCost":130,
+        "increaseAttackChance":50,
+        "increaseCriticalSkill":70,
+        "increaseBlockChance":60,
+        "increaseDamageResistance":90,
+        "setCriticalMultiplier":80.0,
+        "addedConditions":[
+            {
+                "condition":"ac",
+                "magnitude":1
+            }
+        ]
+    },
+    "hitEffect":{
+        "increaseCurrentHP":{
+            "min":10,
+            "max":20
+        },
+        "increaseCurrentAP":{
+            "min":30,
+            "max":40
+        },
+        "conditionsSource":[
+            {
+                "condition":"ac",
+                "duration":1,
+                "chance":"50"
+            },
+            {
+                "condition":"ac",
+                "magnitude":-99,
+                "chance":"50"
+            }
+        ],
+        "conditionsTarget":[
+            {
+                "condition":"ac",
+                "magnitude":2,
+                "duration":2,
+                "chance":"100"
+            }
+        ]
+    },
+    "killEffect":{
+        "increaseCurrentHP":{
+            "min":10,
+            "max":20
+        },
+        "increaseCurrentAP":{
+            "min":30,
+            "max":40
+        },
+        "conditionsSource":[
+            {
+                "condition":"ac",
+                "magnitude":3,
+                "duration":3,
+                "chance":"100"
+            }
+        ]
+    }
+}[/code]

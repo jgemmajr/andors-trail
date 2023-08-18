@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Game nhập vai giả tưởng theo nhiệm vụ</string>
+    <string name="menu_settings">Sở thích</string>
+    <string name="menu_save">Lưu</string>
+    <string name="menu_save_failed">Không thể lưu trò chơi! Thẻ SD có được gắn và ghi được không\?</string>
+    <string name="loadsave_title_load">Tải trò chơi đã lưu</string>
+    <string name="exit_to_menu">Thoát khỏi menu</string>
+    <string name="app_name">Đường mòn của Andor</string>
+    <string name="loadsave_title_save">Lưu trò chơi</string>
+    <string name="menu_save_gamesaved">Trò chơi đã được lưu vào %1$d</string>
+    <string name="loadsave_selectslot">Chọn slot</string>
+    <string name="savegame_currenthero_displayinfo">cấp độ %1$d, %2$d exp, %3$d vàng</string>
+    <string name="dialog_loading_message">Đang tải tài nguyên…</string>
+    <string name="dialog_loading_failed_title">Tải không thành công</string>
+    <string name="dialog_loading_failed_message">Andor\'s Trail không tải được file savegame.
+\n
+\n:(
+\n
+\nTệp có thể bị hỏng hoặc không đầy đủ.</string>
+    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail không tải được file savegame. Tệp savegame này được tạo với phiên bản mới hơn phiên bản hiện đang chạy.</string>
+    <string name="dialog_loading_failed_cheat">Andor\'s Trail không tải được file savegame. Tập tin savegame này đã được tiếp tục.</string>
+    <string name="dialog_recenter">Gần đây</string>
+    <string name="dialog_close">Đóng</string>
+    <string name="dialog_more">Thêm nữa</string>
+    <string name="dialog_game_over_title">Trò chơi kết thúc</string>
+    <string name="dialog_game_over_text">Bạn trút hơi thở cuối cùng và chết.</string>
+    <string name="rip_startscreen">(RIP)</string>
+    <string name="dialog_monsterencounter_title">Bắt gặp</string>
+    <string name="dialog_monsterencounter_message">Bạn có muốn tấn công\?
+\nĐộ khó: %1$s</string>
+    <string name="dialog_monsterencounter_info">Thông tin</string>
+    <string name="dialog_monsterencounter_conditions">Điều kiện</string>
+    <string name="status_hp">Máu:</string>
+    <string name="status_ap">AP:</string>
+    <string name="heroinfo_inv">Vật phẩm</string>
+    <string name="heroinfo_skill">Kỹ năng</string>
+    <string name="heroinfo_skill_categories">Loại</string>
+    <string name="heroinfo_skill_sort">Sắp xếp</string>
+    <string name="heroinfo_levelup">Lên cấp</string>
+    <string name="heroinfo_level">Cấp độ</string>
+    <string name="heroinfo_mode">Chế độ</string>
+    <string name="heroinfo_wornequipment">Trang bị bị mòn</string>
+    <string name="heroinfo_inventory">Kho đồ</string>
+    <string name="heroinfo_inventory_categories">Danh mục</string>
+    <string name="heroinfo_inventory_sort">Sắp xếp theo</string>
+    <string name="heroinfo_gold">Vàng: %1$d</string>
+    <string name="heroinfo_healthpoints">Máu (HP):</string>
+    <string name="heroinfo_experiencepoints">Kinh nghiệm (XP):</string>
+    <string name="heroinfo_quests">Nhiệm vụ</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Tiêu chuẩn
+\n(Mạng và lưu không giới hạn)</string>
+    <string name="heroinfo_unlimited_lives">Mạng không giới hạn, lưu 1 lần</string>
+    <string name="heroinfo_limited_lives">Mạng giới hạn (còn lại %1$d/%2$d)</string>
+    <string name="heroinfo_one_life">Chết vĩnh viễn (1 mạng)</string>
+    <string name="combat_attack">Tấn công (%1$d AP)</string>
+    <string name="combat_move">Di chuyển (%1$d AP)</string>
+    <string name="combat_use">Dùng vật phẩm</string>
+    <string name="combat_endturn">Kết thúc lượt</string>
+    <string name="combat_flee">Chạy trốn</string>
+    <string name="combat_begin_flee">Giờ đây, bạn có thể chạy trốn khỏi trận chiến bằng cách nhấp vào hướng bạn muốn di chuyển.</string>
+    <string name="combat_flee_failed">Bạn đã thất bại trong việc chạy trốn!</string>
+    <string name="combat_status_ap">AP: %1$d</string>
+    <string name="combat_monsterhealth">HP:</string>
+    <string name="combat_result_monstermiss">%1$s hụt!</string>
+    <string name="combat_result_monsterhit">%1$s đánh bạn mất %2$d hp!</string>
+    <string name="combat_result_monsterhitcritical">%1$s nhận được một đòn chí mạng mất %2$d hp!</string>
+    <string name="combat_result_heromiss">Bạn tấn công hụt.</string>
+    <string name="combat_result_herohit">Bạn đánh %1$s mất %2$d hp!</string>
+    <string name="combat_result_herohitcritical">Bạn nhận được một đòn chí mạng vào %1$s mất %2$d hp!</string>
+    <string name="combat_result_herokillsmonster">%1$s chết!</string>
+    <string name="combat_not_enough_ap">Không đủ AP còn lại lượt này.</string>
+    <string name="combat_condition_player_immune">Bây giờ bạn đã được kháng lại %1$s.</string>
+    <string name="combat_hero_dies">Bạn bất tỉnh, nhưng may mắn thay bạn tỉnh dậy, choáng váng và mệt mỏi. Bạn đã mất %1$d kinh nghiệm.</string>
+    <string name="combat_miss_animation_message">HỤT</string>
+    <string name="combat_taunt_monster">Bạn chế nhạo %1$s!</string>
+    <string name="combat_condition_player_apply">Bạn bị ảnh hưởng bởi %1$s.</string>
+    <string name="combat_condition_player_clear">Bạn được xóa %1$s.</string>
+    <string name="combat_condition_monster_apply">%1$s bị ảnh hưởng bởi %2$s.</string>
+    <string name="combat_condition_monster_clear">%1$s được xóa %2$s.</string>
+    <string name="combat_monsteraction">%1$s đang tấn công.</string>
+    <string name="heroinfo_totalexperience">Tổng kinh nghiệm</string>
+    <string name="heroinfo_char">Tổng quan</string>
+    <string name="heroinfo_actionpoints">Hành động (AP):</string>
+</resources>

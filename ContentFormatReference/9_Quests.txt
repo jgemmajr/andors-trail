@@ -1,0 +1,49 @@
+Quests format.
+
+Quests are defined in JSON format. Files containing quests should be named questlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+
+[img]https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_quest.png[/img]
+
+A single file can hold any number of quests, as a list. Even if only one quest is defined in a file, it must be contained within a list.
+Quests, like all JSON-based content, is best created and edited using ATCS, but a text editor can be used for simple fixes (typos...) or by masochists.
+
+
+[list]A [b]quest[/b] [u]must[/u] have the following fields defined:
+- "[b]id[/b]" with any textual value. I recommend using only lower case letters, digits, and underscores. This will be the technical identifier (ID) for this quest. Any other game element that reference an item do so by using the ID.
+- "[b]name[/b]" with any textual value. This is the display name of the quest (in english), as shown to the player in-game. Proper spelling and capitalization are required. 
+- "[b]stages[/b]"  with a list value containing any number of objects as defined in the [b]quest stage[/b] definition below. These are different steps of the quest a player can reach, and each one represents a possible entry in the quest log of the player.
+[/list]
+
+[list]A [b]quest[/b] [u]can[/u] have the following field defined:
+- "[b]showInLog[/b]" with a numerical value of 1 or 0. 0 being the default, this field can be omitted entirely when this is the case. When this is set to 1 (the most common case), this quest is visible to the player: entries will appear in the in-game quest log, and the notification of quest progress will be shown in dialogues.
+[/list]
+
+[list]A [b]quest stage[/b] [u]must[/u] have the following fields defined:
+- "[b]progress[/b]" with a numerical integer value. This is the ID of this quest stage, as will be referenced in the rewards & requirements system of maps and dialogues. It must be unique within the quest. The fact that it is a numerical value does not mean that there must be some order. You [i]could[/i] number your quest's stages randomly. However, the best practice is to use growing numbers, and mainly multiples of 10, so that it is easier to insert quest stages later should this quest be altered for a bug fix or some design changes in the future. Using stage 20 and 25 (for example) to indicate two alternatives at the same point in a quest is a common convention too.
+- "[b]logText[/b]" with any textual value. This is the text displayed in the quest log when this stage has been reached (in english). Proper spelling and capitalization are required. Multi-line messages are possible by using the "\n" character sequence to indicate a new line.
+[/list]
+
+[list]A [b]quest stage[/b] [u]can[/u] have the following fields defined:
+- "[b]rewardExperience[/b]" with a numerical positive integer value. When the player first reaches this quest stage, he will receive this quantity of experience points.
+- "[b]finishesQuest[/b]" with the value 1 or 0. 0 being the default, this field can be omitted entirely when this is the case. When set to 1, if the player reaches this quest stage, the quest is considered completed (hidden by default in the quest log), but other stages of the same quest can still be reached afterwards (more XP rewards, extra info in the quest log...).
+[/list]
+[b]Full example using all fields.[/b]
+[code]
+{
+    "id":"quest_id",
+    "name":"Quest Name",
+    "showInLog":1,
+    "stages":[
+        {
+            "progress":10,
+            "logText":"Log text for step 10.\nCan be multi-line.",
+            "rewardExperience":100
+        },
+        {
+            "progress":20,
+            "logText":"Log text for step 20",
+            "rewardExperience":100,
+            "finishesQuest":1
+        }
+    ]
+}[/code]
