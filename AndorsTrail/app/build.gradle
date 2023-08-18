@@ -22,6 +22,13 @@ android {
         }
     }
     namespace 'com.gpl.rpg.AndorsTrail'
+    
+    sourceSets {
+        main {
+            res.srcDirs = ['build/gen-res', 'src/main/res']
+            assets.srcDirs = ['build/gen-assets', 'src/main/assets']
+        }
+    }
 }
 
 dependencies {
@@ -31,23 +38,31 @@ dependencies {
 task copyRes(type: Copy) {
     description "Copies the res folder to the modules res folder (& renames .tmx to .xml)"
     from "${rootDir}/res"
-    into "${projectDir}/src/main/res"
+    into "${projectDir}/build/gen-res"
     rename "(.*)\\.tmx", "\$1.xml"
 }
 
 task copyTranslation(type: Copy) {
     description("Copies the translation files to the modules translations folder")
     from "${rootDir}/assets/translation"
-    into "${projectDir}/src/main/assets/translation"
+    into "${projectDir}/build/gen-assets/translation"
 }
 
 task cleanup(type: Delete) {
     description("Deletes the assets/translation and the res folder from the modules folder")
-    delete "${projectDir}/src/main/res", "${projectDir}/src/main/assets/translation"
+    delete "${projectDir}/build/gen-res", "${projectDir}/build/gen-assets/translation"
 }
 
 afterEvaluate {
-    preBuild.dependsOn project.tasks.copyRes
-    preBuild.dependsOn project.tasks.copyTranslation
+    mergeDebugResources.dependsOn project.tasks.copyRes
+    extractDeepLinksDebug.dependsOn project.tasks.copyRes
+    mergeReleaseResources.dependsOn project.tasks.copyRes
+    extractDeepLinksRelease.dependsOn project.tasks.copyRes
+
+    mergeDebugAssets.dependsOn project.tasks.copyTranslation
+    mergeReleaseAssets.dependsOn project.tasks.copyTranslation
+    extractDeepLinksDebug.dependsOn project.tasks.copyTranslation
+    extractDeepLinksRelease.dependsOn project.tasks.copyTranslation
+
     clean.dependsOn project.tasks.cleanup
 }
