@@ -277,6 +277,13 @@ public final class DebugInterface {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "sullengard2", "south", 0, 0);
 			}
 		})
+				,new DebugButton("gal", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "galmore_19", "south", 0, 0);
+			}
+		})
+
 		}));
 		buttonList.addAll(tpButtons2);
 
