@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Andor\'s Trail</string>
+    <string name="app_name">Andors Trail</string>
     <string name="app_description">Aufgabenbasiertes Phantasiewelt-Rollenspiel</string>
     <string name="exit_to_menu">Zum Menü</string>
     <string name="menu_settings">Einstellungen</string>
@@ -313,7 +313,7 @@
     <string name="skill_prerequisite_other_skill">Um diesen Skill zu erlernen, wird mindestens die %1$d. Stufe des Skills %2$s benötigt.</string>
     <string name="skill_prerequisite_level">Um diesen Skill zu erlernen, wird mindestens das Erfahrungslevel %1$d benötigt.</string>
     <string name="skill_prerequisite_stat">Um diesen Skill zu erlernen, werden mindestens %1$d %2$s benötigt (Basiskampfeigenschaften).</string>
-    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern.</string>
+    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern. Fähigkeitspunkte bleiben bis zu ihrer Benutzung gespeichert.</string>
     <string name="skill_number_of_increases_several">Du kannst %1$d Fähigkeiten verbessern.</string>
     <string name="levelup_adds_new_skillpoint">In diesem Level erhältst du einen neuen Skillpunkt!</string>
     <string name="loadsave_save_to_new_slot">Neuen Speicherplatz anlegen</string>
@@ -507,7 +507,7 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="combat_condition_monster_apply">%1$s ist betroffen von %2$s.</string>
     <string name="combat_condition_monster_immune">%1$s ist jetzt immun gegen %2$s.</string>
     <string name="startscreen_newgame_start">Spiel starten</string>
-    <string name="shop_item_sort">Ordnen</string>
+    <string name="shop_item_sort">Sortieren</string>
     <string name="actorcondition_info_immunity">Immun gegen %1$s</string>
     <string name="iteminfo_effect_works_when_hit_by_attacker">Wenn vom Angreifer getroffen</string>
     <string name="iteminfo_effect_works_when_killed_by_attacker">Wenn von Angreifer getötet</string>
@@ -558,7 +558,7 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="skill_category_speciality">Spezialisierung</string>
     <string name="skill_category_proficiency">Kompetenz</string>
     <string name="skill_sort_unlocked">Freigeschaltet</string>
-    <string name="preferences_display_theme_title">Oberfläche</string>
+    <string name="preferences_display_theme_title">Design</string>
     <string name="preferences_display_theme">Oberflächendesign auswählen (Neustart notwendig)</string>
     <string name="combat_taunt_monster">Du verhöhnst %1$s!</string>
     <string name="storage_permissions_mandatory">Der Zugriff auf den Datenspeicher ist zwingend notwendig, um Spielstände zu laden und zu speichern. Andor\'s Trail wird daher geschlossen.</string>
@@ -572,7 +572,7 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="heroinfo_unlimited_lives">Unbegrenzte Leben, 1 mal speichern</string>
     <string name="heroinfo_limited_lives">Begrenzte Leben (%1$d/%2$d übrig)</string>
     <string name="heroinfo_one_life">Sofort-Tod (1 Leben)</string>
-    <string name="startscreen_game_mode">Art und Weise</string>
+    <string name="startscreen_game_mode">Schwierigkeit</string>
     <string name="startscreen_load_game">Spiel laden</string>
     <string name="startscreen_load_game_confirm">Das aktuelle Spiel ist nicht gespeichert und du wirst deinen Charakter verlieren.</string>
     <string name="startscreen_error_loading_game">Fehler beim Laden des Spiels</string>
@@ -628,7 +628,7 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="startscreen_migration_title">Datenmigration</string>
     <string name="startscreen_migration_text">Migriere Speicherstand.</string>
     <string name="monsterinfo_killcount">Frühere Tötungen</string>
-    <string name="loadsave_export_successfull">Export erfolgreich abgeschlossen.</string>
+    <string name="loadsave_export_successfull">Export erfolgreich</string>
     <string name="loadsave_import_error_unknown">Unbekannter Fehler beim Import.</string>
     <string name="loadsave_import_option_keep_existing">Vorhandenen Spielstand behalten</string>
     <string name="loadsave_import_option_keep_imported">Importierten Spielstand behalten</string>
@@ -641,12 +641,12 @@ Jeder Level des Skills erhöht das Schadenspotential von zweihändigen Waffen um
     <string name="loadsave_exporting_worldmap">Exportiere Karte</string>
     <string name="loadsave_export_unsuccessfull">Export nicht erfolgreich</string>
     <string name="loadsave_export_overwrite_confirmation_title">Vorhandene Dateien überschreiben\?</string>
-    <string name="loadsave_export_overwrite_confirmation">Das Zielverzeichnis enthält bereits Dateien mit demselben Namen wie die zu exportierenden. Bist du sicher, dass du sie überschreiben willst\?</string>
+    <string name="loadsave_export_overwrite_confirmation">Der Zielordner beinhaltet Dateien mit dem gleichen Namen wie die zu exportierenden Dateien. Bist du sicher, dass du diese Dateien überschreiben möchtest\?</string>
     <string name="loadsave_export_error_unknown">Unbekannter Fehler beim Export.</string>
     <string name="loadsave_import_save">Spielstände importieren</string>
     <string name="loadsave_import_save_info">Bitte wähle alle Spielstände aus, die du importieren willst.</string>
-    <string name="loadsave_importing_savegames">Importiere Spielstände</string>
-    <string name="loadsave_import_save_successfull">Import abgeschlossen</string>
+    <string name="loadsave_importing_savegames">Importiere Speicherstände</string>
+    <string name="loadsave_import_save_successfull">Import erfolgreich</string>
     <string name="loadsave_import_save_unsuccessfull">Import nicht erfolgreich</string>
     <string name="loadsave_import_imported_description">Importierter Spielstand: Speicherplatz: %1$s:
 \n\t%2$s</string>
