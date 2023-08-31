@@ -17,7 +17,7 @@ import com.gpl.rpg.AndorsTrail.util.Range;
 public final class MonsterSpawnArea {
 	public final CoordRect area;
 	public final Range quantity;
-	private final Range spawnChance;
+	private final Range respawnspeed;
 	public final String areaID;
 	public final String[] monsterTypeIDs;
 	public final List<Monster> monsters = new CopyOnWriteArrayList<Monster>();
@@ -30,7 +30,7 @@ public final class MonsterSpawnArea {
 	public MonsterSpawnArea(
 			CoordRect area
 			, Range quantity
-			, Range spawnChance
+			, Range respawnspeed
 			, String areaID
 			, String[] monsterTypeIDs
 			, boolean isUnique
@@ -40,7 +40,7 @@ public final class MonsterSpawnArea {
 	) {
 		this.area = area;
 		this.quantity = quantity;
-		this.spawnChance = spawnChance;
+		this.respawnspeed = respawnspeed;
 		this.areaID = areaID;
 		this.monsterTypeIDs = monsterTypeIDs;
 		this.isUnique = isUnique;
@@ -101,7 +101,7 @@ public final class MonsterSpawnArea {
 	}
 
 	public boolean rollShouldSpawn() {
-		return Constants.rollResult(spawnChance);
+		return Constants.rollResult(respawnspeed);
 	}
 
 	public void removeAllMonsters() {
