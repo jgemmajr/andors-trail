@@ -258,6 +258,7 @@ public final class ResourceLoader {
 		final Size sz6x1 = new Size(6, 1);
 		final Size sz7x1 = new Size(7, 1);
 		final Size sz8x3 = new Size(8, 3);
+		final Size sz16x8 = new Size(16, 8);
 		final Size sz20x12 = new Size(20, 12);
 		final Size mapTileSize = new Size(16, 8);
 		final Size sz8x8 = new Size(8, 8);
@@ -309,6 +310,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.items_feygard1, "items_feygard1", new Size(6, 2), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_omi2, "items_omi2", new Size(6, 5), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_omgeeky, "items_omgeeky", new Size(10, 3), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_phoenix01, "items_phoenix01", sz16x8, sz1x1, mTileSize);
 		/*INSERT_ITEMS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.monsters_armor1, "monsters_armor1", sz1x1, sz1x1, mTileSize);
@@ -368,6 +370,7 @@ public final class ResourceLoader {
         loader.prepareTileset(R.drawable.monsters_gisons, "monsters_gisons", new Size(8, 2), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_bosses_2x2, "monsters_bosses_2x2", sz1x1, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_omi2, "monsters_omi2", sz8x3, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_phoenix01, "monsters_phoenix01", sz16x8, sz1x1, mTileSize);
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);
@@ -437,6 +440,10 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_6, "map_transition_6", new Size(18, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_ratdom, "map_ratdom", new Size(18, 6), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_ground_9, "map_ground_9", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_plant_3, "map_plant_3", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_roof_4, "map_roof_4", mapTileSize, sz1x1, mTileSize);
 		/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);
