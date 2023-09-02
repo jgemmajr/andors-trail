@@ -42,6 +42,12 @@ task copyRes(type: Copy) {
     rename "(.*)\\.tmx", "\$1.xml"
 }
 
+task copyResValuesIn(type: Copy) {
+    description "Exception Indonesian language code (Old IN was renamed to now ID)"
+    from "${rootDir}/res/values-id/"
+    into "${projectDir}/build/gen-res/values-in/"
+}
+
 task copyTranslation(type: Copy) {
     description("Copies the translation files to the modules translations folder")
     from "${rootDir}/assets/translation"
@@ -54,6 +60,8 @@ task cleanup(type: Delete) {
 }
 
 afterEvaluate {
+    project.tasks.copyRes.dependsOn project.tasks.copyResValuesIn
+
     mergeDebugResources.dependsOn project.tasks.copyRes
     extractDeepLinksDebug.dependsOn project.tasks.copyRes
     mergeReleaseResources.dependsOn project.tasks.copyRes
