@@ -322,6 +322,18 @@ public final class ConversationController {
 			case factionScoreEquals:
 				result = player.getAlignment(requirement.requireID) == requirement.value;
 				break;
+			case date:
+				result = world.model.worldData.getDate(requirement.requireID) >= requirement.value;
+				break;
+			case dateEquals:
+				result = world.model.worldData.getDate(requirement.requireID) == requirement.value;
+				break;
+			case time:
+				result = world.model.worldData.getTime(requirement.requireID) >= requirement.value;
+				break;
+			case timeEquals:
+				result = world.model.worldData.getTime(requirement.requireID) == requirement.value;
+				break;
 			default:
 				result =  true;
 		}
