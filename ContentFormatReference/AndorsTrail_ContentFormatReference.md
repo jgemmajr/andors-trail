@@ -800,7 +800,7 @@ A **dialogue** ***can*** have the following fields defined:
 
 
 - A **requirement** ***must*** have the following field defined:
-  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**".
+  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
 
 A **requirement** ***can*** have the following field defined:
   - "**requireID**" with a textual value. As it depends on the "**requireType**" selected, see below for details.
@@ -817,6 +817,8 @@ A **requirement** ***can*** have the following field defined:
 - When "requireType" is "**spentGold**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of gold that the player must have spent overall.
 - When "requireType" is "**consumedBonemeals**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
 - When "requireType" is "**hasActorConditions**", the "requireID" field must have a value matching an actor condition ID. The "value" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
+- When "requireType" is "**date**" or "**dateEquals**", the "requireID" field must be one of these format values: YYYYMMDD, YYYYMM, YYYY, MMDD, MM, DD. The "value" property is a an integer in the length of the uses format.
+- When "requireType" is "**time**" or "**timeEquals**", the "requireID" field must be one of these format values: HHMMSS, HHMM, HH, MMSS, MM, SS. The "value" property is a an integer in the length of the uses format.
 
 
 - A **reward** ***must*** have the following fields defined:
@@ -839,6 +841,7 @@ When the "rewardType" is "**alignmentChange**" or "**alignmentSet**", the "rewar
 - When "rewardType" is "**spawnAll**", "**removeSpawnArea**", or "**deactivateSpawnArea**", the "mapName" field must match a map's ID, and the "rewardID" field must match a spawn area's ID within the selected map. The "value" field is unused. In the case of "**spawnAll**", when granted this reward, this spawn area will be activated (if it was inactive), and all included NPCs will be spawned immediately. In the case of "**removeSpawnArea**", when granted this reward, this spawn area will be deactivated, and all included NPCs will be removed immediately. In the case of "**deactivateSpawnArea**", when granted this reward, this spawn area will be deactivated, but all included NPCs will remain on the map until killed or removed by a dialogue reward.
 - When "rewardType" id "**activateMapObjectGroup**", or "**deactivateMapObjectGroup**", the "mapName" field must match a map's ID, and the "rewardID" field must match an object group's ID within the selected map. The "value" field is unused. In the case of "**activateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made active. In the case of "**deactivateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made inactive (they have no effect on the game anymore).  :!: Beware though, as deactivating an object group containing a replace area that has already been triggered will NOT revert the map to its previous look.
 - When "rewardType" id "**changeMapFilter**", the "mapName" field must match a map's ID, and the "rewardID" field must match a color filter's ID, as found here: [url]https://github.com/AndorsTrailRelease/ATCS/blob/master/src/com/gpl/rpg/atcontentstudio/model/maps/TMXMap.java[/url]. The "value" field is unused. When granted this reward, the selected map will have its "colorFilter" property changed to the value of the "rewardID" field. See the post about maps to know the effect of the different available color filters.
+- When "rewardType" id "**mapchange**", the "mapName" field must match a map's ID, and the "rewardID" field must match a mapchange target within the selected map. The "value" field is unused.
 
 
 **The special case of selectors**
