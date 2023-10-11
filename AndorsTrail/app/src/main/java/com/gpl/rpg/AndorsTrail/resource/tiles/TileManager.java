@@ -376,6 +376,10 @@ public final class TileManager {
 			cachedTileIDs = getTileIDsFor(adjacentMap, adjacentMapTiles, world);
 			tileIDsPerMap.put(mapName, cachedTileIDs);
 		}
+
+		if(AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+			L.log("TileIDsFor " + mapName + "\n" + cachedTileIDs);
+		}
 		dest.addAll(cachedTileIDs);
 	}
 	public void cacheAdjacentMaps(final Resources res, final WorldContext world, final PredefinedMap nextMap) {
