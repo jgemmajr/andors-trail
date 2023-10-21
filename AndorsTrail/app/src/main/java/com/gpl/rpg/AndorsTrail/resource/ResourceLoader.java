@@ -137,7 +137,8 @@ public final class ResourceLoader {
 		final ItemTypeParser itemTypeParser = new ItemTypeParser(loader, world.actorConditionsTypes, world.itemCategories, translationLoader);
 		final TypedArray itemsToLoad = r.obtainTypedArray(itemsResourceId);
 		for (int i = 0; i < itemsToLoad.length(); ++i) {
-			world.itemTypes.initialize(itemTypeParser, readStringFromRaw(r, itemsToLoad, i));
+			String s = readStringFromRaw(r, itemsToLoad, i);
+			world.itemTypes.initialize(itemTypeParser, s);
 		}
 		itemsToLoad.recycle();
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("ItemTypeParser");
