@@ -284,6 +284,20 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("apl", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "sullengard_apple_farm_east", "house", 0, 0);
+			}
+		})
+
+				,new DebugButton("wch", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "lake_shore_road_0", "west", 0, 0);
+			}
+		})
+
 		}));
 		buttonList.addAll(tpButtons2);
 
