@@ -72,6 +72,10 @@ public final class Requirement {
 			case hasActorCondition:
 			case factionScore:
 			case factionScoreEquals:
+			case date:
+			case dateEquals:
+			case time:
+			case timeEquals:
 				return requireID != null;
 			case inventoryKeep:
 			case inventoryRemove:
