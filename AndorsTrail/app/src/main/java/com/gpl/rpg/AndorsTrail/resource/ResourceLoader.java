@@ -400,6 +400,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_curtain_1, "map_curtain_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_entrance_1, "map_entrance_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_entrance_2, "map_entrance_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_entrance_3, "map_entrance_3", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_1, "map_fence_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_2, "map_fence_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_3, "map_fence_3", mapTileSize, sz1x1, mTileSize);
