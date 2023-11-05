@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2023-09-01 17:35+0000\n"
-"Last-Translator: عادل نصري <nsrya06@gmail.com>\n"
+"PO-Revision-Date: 2023-10-31 15:30+0000\n"
+"Last-Translator: Mohamed Amaadour <mostafaamaadour@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -25,7 +25,7 @@ msgstr "سم ضعيف"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
-msgstr "قوة"
+msgstr "القوة"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
@@ -49,7 +49,7 @@ msgstr "جرح ينزف"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr "kl;kl;ghdfgh"
+msgstr "غضب هائج بسيط"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
@@ -61,7 +61,7 @@ msgstr "مخمور"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "مذهول"
+msgstr "دائخ"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
@@ -69,7 +69,7 @@ msgstr "قبضة فوضوية"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr "لعنة الفوضى"
+msgstr "لعنة فوضوية"
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
@@ -81,7 +81,7 @@ msgstr "تقرح الجلد"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr "مندهش"
+msgstr "مذهول"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
@@ -536,7 +536,8 @@ msgstr "على الرحب."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "رأيت بعض الفئران في حديقتنا. هل يمكنك رجاءا قتل كل فئر تراه هناك."
+msgstr ""
+"لقد رأيت بعض الفئران في حديقتنا سابقا. هل يمكنك رجاءً قتل كل فئر تراه هناك؟"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -560,7 +561,9 @@ msgstr "حسنًا ، فهمت. يمكنني أن أرتاح هنا إذا أص�
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
-msgstr "شيء آخر: انظر إلى تلك السلة على الأرض هناك. إنها تخص أندور و ربما ترك شيئًا مفيدًا بداخلها."
+msgstr ""
+"شيء آخر: أنظر إلى تلك السلة على الأرض هناك. إنها تخص أندور وربما ترك شيئًا "
+"مفيدًا بداخلها."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -4741,11 +4744,11 @@ msgstr "مرحبا مرة أخرى، يا صديقي."
 
 #: conversationlist_umar.json:umar_return_1:1
 msgid "I have given them our promised share."
-msgstr "[OUTDATED]هل ستخبرني عن المفتاح؟"
+msgstr "لقد أعطيتهم نصيبنا الموعود."
 
 #: conversationlist_umar.json:umar_return_1:2
 msgid "What are we gonna do about Sullengard?"
-msgstr "[OUTDATED]Crackshot مات."
+msgstr "ماذا سنفعل بشأن سولينغارد؟"
 
 #: conversationlist_umar.json:umar_return_1:3
 msgid "What are your plans for the new traitors?"
@@ -4753,11 +4756,11 @@ msgstr "[OUTDATED]ماذا علي أن أفعل مرة أخرى؟"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "[OUTDATED]ما هي خططك للخونة؟"
+msgstr "أخبرني ماتبات أن ديفي ورجاله تركوا سولينغارد."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
-msgstr "[OUTDATED]هل يمكنك متابعة ما كنت تخبرني به عن الخونة؟"
+msgstr "لقد ترك ديفي ورجاله سولينغارد."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
@@ -4769,11 +4772,11 @@ msgstr "ماذا علي أن أفعل في سولينغارد مرة أخرى؟"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
-msgstr "[OUTDATED]لقد أنهيت العمل أخيرًا."
+msgstr "هل ستخبرني عن المفتاح؟"
 
 #: conversationlist_umar.json:umar_return_1:10
 msgid "Crackshot is dead."
-msgstr "[OUTDATED]ماذا علي أن أفعل مرة أخرى؟"
+msgstr "لقد مات كراكشوت."
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
@@ -4781,11 +4784,11 @@ msgstr "ماذا علي أن أفعل مجددا؟"
 
 #: conversationlist_umar.json:umar_return_1:12
 msgid "What are your plans for the traitors?"
-msgstr "[OUTDATED]مرحبا."
+msgstr "ما هي خططك للخونة؟"
 
 #: conversationlist_umar.json:umar_return_1:13
 msgid "Can you continue with what you were telling me about the traitors?"
-msgstr "[OUTDATED]علي أن أتحدث إليك عن النبيلة."
+msgstr "هل يمكنك الاستمرار فيما كنت تخبرني به عن الخونة؟"
 
 #: conversationlist_umar.json:umar_return_1:14
 msgid "We are supposed to talk about something."
@@ -4798,16 +4801,16 @@ msgstr "يجب أن نتكلم عن شيء، أليس كذلك؟"
 
 #: conversationlist_umar.json:umar_return_1:17
 msgid "I've finally finished the job."
-msgstr "[OUTDATED]أي شيء أكثر عن مهمتي الجديدة؟"
+msgstr "لقد انهيت المهمة أخيراً."
 
 #: conversationlist_umar.json:umar_return_1:18
 msgid "What am I suppossed to do again?"
-msgstr "[OUTDATED]أرسلني المشاغب. لقد أنهيت العمل."
+msgstr "ماذا يفرض بي فعله مجدداً؟"
 
 #: conversationlist_umar.json:umar_return_1:19
 #: conversationlist_umar.json:umar_return_1:20
 msgid "What am I supposed to do with the noblewoman?"
-msgstr "[OUTDATED][OUTDATED]سعيد بلقائك. إلى اللقاء."
+msgstr "ماذا يفترض بي فعله مع السيدة النبيلة؟"
 
 #: conversationlist_umar.json:umar_return_1:21
 msgid "I have to talk to you about the noblewoman."
@@ -5438,7 +5441,9 @@ msgstr "كما قلت من قبل ، عليك مساعدة بعض الأشخاص
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_1
 msgid "If you do us a favor, we might consider trusting you. There are three people I can think of that are influential here in Vilegard, that you should try to help."
-msgstr "إذا قدمت لنا معروفًا ، فقد نفكر في الوثوق بك. هناك ثلاثة أشخاص يمكنني التفكير فيهم مؤثرين هنا في فيليغارد ، و عليك أن تحاول مساعدتهم."
+msgstr ""
+"إذا قدمت لنا معروفًا، فقد نفكر في الوثوق بك. هناك ثلاثة أشخاص أعتقد أنهم "
+"مؤثرين هنا في فيليغارد، عليك أن تحاول مساعدتهم."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_2
 msgid "First, there is Kaori. She lives up in the northern part of Vilegard. Ask her if she wants help with anything."
@@ -6041,7 +6046,7 @@ msgstr "أيا كان ، ربما لن تنجو حتى من دبور الغاب�
 
 #: conversationlist_foamingflask_guards.json:ff_guard_1
 msgid "Ha ha, you tell him Garl! *burp*"
-msgstr "ها ها، أخبره غارل! *تجشؤ*"
+msgstr "هاها، أخبره أنت يا غارل! *تجشؤ*"
 
 #: conversationlist_foamingflask_guards.json:ff_guard_2
 msgid "Sing, drink, fight! All who oppose Feygard will fall!"
@@ -6638,11 +6643,11 @@ msgstr "لقد غادر فيليغارد وحده لأنه يريد أن يرى 
 
 #: conversationlist_wrye.json:wrye_resolved_2
 msgid "I don't believe it."
-msgstr ""
+msgstr "لا أصدق."
 
 #: conversationlist_wrye.json:wrye_resolved_2:0
 msgid "He had secretly longed to go to Feygard, but didn't dare tell you."
-msgstr ""
+msgstr "لقد كان يشتاق سرًا للذهاب إلى فايغارد، لكنه لم يجرؤ على إخبارك."
 
 #: conversationlist_wrye.json:wrye_resolved_3
 #: conversationlist_halvor_surprise.json:halvor_crossglen_11
@@ -6652,91 +6657,97 @@ msgstr ""
 #: conversationlist_brimhaven_2.json:kizzo_asd_50:0
 #: conversationlist_gison.json:gael_20_6
 msgid "Really?"
-msgstr ""
+msgstr "حقا؟"
 
 #: conversationlist_wrye.json:wrye_resolved_3:0
 msgid "But he never got far. He was attacked while camping one night."
-msgstr ""
+msgstr "لكنه لم يذهب بعيدا أبدا. تعرض للهجوم أثناء تخييمه ذات ليلة."
 
 #: conversationlist_wrye.json:wrye_resolved_4
 msgid "Attacked?"
-msgstr ""
+msgstr "تعرض للهجوم؟"
 
 #: conversationlist_wrye.json:wrye_resolved_4:0
 msgid "Yes, he could not stand up to the monsters, and was critically wounded."
-msgstr ""
+msgstr "نعم، لم يستطع الصمود في وجه الوحوش، و أصيب بجروح خطيرة."
 
 #: conversationlist_wrye.json:wrye_resolved_5
 msgid "My dear boy."
-msgstr ""
+msgstr "صغيري العزيز."
 
 #: conversationlist_wrye.json:wrye_resolved_5:0
 msgid "I talked to a man that found him bleeding to death."
-msgstr ""
+msgstr "لقد تحدثت مع رجل وجده ينزف حتى الموت."
 
 #: conversationlist_wrye.json:wrye_resolved_6
 msgid "He was still alive?"
-msgstr ""
+msgstr "كان ما يزال حيا؟"
 
 #: conversationlist_wrye.json:wrye_resolved_6:0
 msgid "Yes, but not for long. He did not survive the wounds. He is now buried to the northwest of Vilegard."
 msgstr ""
+"نعم، و لكن ليس لفترة طويلة. و لم ينج من الجروح. و هو الآن مدفون في الشمال "
+"الغربي من فيليغارد."
 
 #: conversationlist_wrye.json:wrye_resolved_7
 msgid "Oh my poor boy. What have I done?"
-msgstr ""
+msgstr "صغيري المسكين. ماذا فعلت؟"
 
 #: conversationlist_wrye.json:wrye_resolved_8
 msgid "I always thought he shared my view of those Feygard snobs."
-msgstr ""
+msgstr "اعتقدت دائمًا أنه يشاركني وجهة نظري حول هؤلاء المتكبرين في فايغارد."
 
 #: conversationlist_wrye.json:wrye_resolved_9
 msgid "And now he is not with us anymore."
-msgstr ""
+msgstr "والآن لم يعد معنا."
 
 #: conversationlist_wrye.json:wrye_resolved_10
 msgid "Thank you, friend, for finding out what happened to him and telling me the truth."
-msgstr ""
+msgstr "شكرًا لك يا صديقي لأنك عرفت ما حدث له و أخبرتني بالحقيقة."
 
 #: conversationlist_wrye.json:wrye_resolved_11
 msgid "Oh my poor boy."
-msgstr ""
+msgstr "صغيري المسكين."
 
 #: conversationlist_oluag.json:oluag_1_1
 msgid "Hello. I am Oluag."
-msgstr ""
+msgstr "مرحبا. أنا أولاغ."
 
 #: conversationlist_oluag.json:oluag_1_1:0
 msgid "What are you doing here around these crates?"
-msgstr ""
+msgstr "ماذا تفعل هنا حول هذه الصناديق؟"
 
 #: conversationlist_oluag.json:oluag_2
 msgid "Oh these. They are nothing. Never mind them. That grave over there is nothing to worry about either."
 msgstr ""
+"يا هؤلاء. إنهم لا شيء. لا تلقي بالا لهم. هذا القبر ليس هناك ما يدعو للقلق "
+"أيضًا."
 
 #: conversationlist_oluag.json:oluag_2:0
 msgid "What grave?"
-msgstr ""
+msgstr "أي قبر؟"
 
 #: conversationlist_oluag.json:oluag_2:1
 msgid "Nothing, really? This sounds suspicious."
-msgstr ""
+msgstr "لا شيئ حقا؟ هذا يبدو مريبا."
 
 #: conversationlist_oluag.json:oluag_boxes_1
 msgid "No no, nothing suspicious at all. It's not like they contain any contraband or anything like that, hah!"
 msgstr ""
+"لا لا، لا شيء مريب على الإطلاق. ليس الأمر كما لو أنها تحتوي على أي مادة "
+"مهربة أو أي شيء من هذا القبيل، هاه!"
 
 #: conversationlist_oluag.json:oluag_boxes_1:0
 msgid "What was that about a grave?"
-msgstr ""
+msgstr "ماذا كان ذلك بخصوص القبر؟"
 
 #: conversationlist_oluag.json:oluag_boxes_1:1
 msgid "OK then. I guess I didn't see anything."
-msgstr ""
+msgstr "حسنا إذا. أظن أنني لم أر شيئا."
 
 #: conversationlist_oluag.json:oluag_goodbye
 msgid "Right. Goodbye."
-msgstr ""
+msgstr "حسنا. وداعا."
 
 #: conversationlist_oluag.json:oluag_grave_return
 msgid "Look, I already told you the story."
@@ -6818,56 +6829,66 @@ msgstr "رينسل، هل هذا إسمه؟ من فيليغارد؟ إبن ور�
 #: conversationlist_oluag.json:oluag_grave_9
 msgid "Yeah, that might be it. Anyway, so he said something about fulfilling a dream to see the great city of Feygard."
 msgstr ""
+"نعم، قد يكون هذا هو. على أية حال، قال شيئًا عن تحقيق حلم رؤية مدينة فايغارد "
+"العظيمة."
 
 #: conversationlist_oluag.json:oluag_grave_10
 msgid "And he told me something about that he didn't dare tell anyone."
-msgstr ""
+msgstr "و أخبرني بشيء لم يجرؤ على إخبار أحد به."
 
 #: conversationlist_oluag.json:oluag_grave_10:0
 msgid "Maybe he didn't dare tell Wrye?"
-msgstr ""
+msgstr "ربما لم يجرؤ على إخبار أمه؟"
 
 #: conversationlist_oluag.json:oluag_grave_11
 msgid "Yeah sure, probably. He had set down here to camp, but got attacked by some monsters."
 msgstr ""
+"نعم بالتأكيد، على الأرجح. لقد نزل هنا للمخيم، لكنه تعرض لهجوم من قبل بعض "
+"الوحوش."
 
 #: conversationlist_oluag.json:oluag_grave_12
 msgid "Apparently he was not as strong a fighter as, for example, someone like me. So the monsters wounded him too much for him to last the night."
 msgstr ""
+"من الواضح أنه لم يكن مقاتلًا قويًا مثل شخص مثلي على سبيل المثال. لذلك جرحته "
+"الوحوش كثيرًا لدرجة أنه لم يعش لآخر الليل."
 
 #: conversationlist_oluag.json:oluag_grave_13
 msgid "Sadly, they also must have taken any loot with them, since I could not find any on him."
 msgstr ""
+"ومن المؤسف أنهم أيضًا أخذوا معهم أي غنائم، حيث لم أتمكن من العثور على أي "
+"منها معه."
 
 #: conversationlist_oluag.json:oluag_grave_14
 msgid "I heard the fighting and only managed to get to him after the monsters had fled."
-msgstr ""
+msgstr "سمعت القتال و لم أتمكن من الوصول إليه إلا بعد فرار الوحوش."
 
 #: conversationlist_oluag.json:oluag_grave_15
 msgid "So, anyway. Now he is buried over there. Rest in peace."
-msgstr ""
+msgstr "على كل حال. الآن هو مدفون هناك. فليرقد في سلام."
 
 #: conversationlist_oluag.json:oluag_grave_16
 msgid "Lousy kid. He could at least have had a few coins on him."
-msgstr ""
+msgstr "طفل سيء. كان من الممكن أن يكون لديه على الأقل بعض العملات المعدنية."
 
 #: conversationlist_oluag.json:oluag_grave_16:1
 msgid "Thank you for the story. Shadow be with you."
-msgstr ""
+msgstr "شكرا لك على القصة. ليكن الظل معك."
 
 #: conversationlist_signs_v068.json:foaming_flask_tavern_room
 msgid "You must rent the room before you may enter it."
-msgstr ""
+msgstr "يجب عليك استئجار الغرفة قبل أن تتمكن من دخولها."
 
 #: conversationlist_signs_v068.json:sign_vilegard_n
 msgid ""
 "The sign says:\n"
 "Welcome to Vilegard, the friendliest town around."
 msgstr ""
+"تقول العلامة:\n"
+"مرحبا بكم فيليغارد، المدينة الأكثر ودية في المنطقة."
 
 #: conversationlist_signs_v068.json:sign_foamingflask
 msgid "Welcome to the Foaming Flask tavern!"
-msgstr ""
+msgstr "مرحبا بك في حانة قوارير الرغوة!"
 
 #: conversationlist_signs_v068.json:sign_road1_nw
 msgid ""
@@ -6875,6 +6896,9 @@ msgid ""
 "East: Nor City\n"
 "West: Fallhaven"
 msgstr ""
+"شمالا: لونفورد\n"
+"شرقا: مدينة نور\n"
+"غربا: فالهافن"
 
 #: conversationlist_signs_v068.json:sign_road1_s
 msgid ""
@@ -6882,205 +6906,226 @@ msgid ""
 "East: Nor City\n"
 "South: Vilegard"
 msgstr ""
+"شمالا: لونفورد\n"
+"شرقا: مدينة نور\n"
+"جنوبا: فيليغارد"
 
 #: conversationlist_signs_v068.json:sign_oluag
 msgid "You see a recently dug grave."
-msgstr ""
+msgstr "ترى قبرًا محفورًا مؤخرًا."
 
 #: conversationlist_signs_v068.json:sign_road2
 msgid ""
 "East: Nor City\n"
 "West: Vilegard"
 msgstr ""
+"شرقا: مدينة نور\n"
+"غربا: فيليغارد"
 
 #: conversationlist_maelveon.json:maelveon
 msgid "[You feel a tingling sensation in your body as the frightening figure begins to speak]"
-msgstr ""
+msgstr "[تشعر بإحساس بالوخز في جسدك عندما يبدأ الشخص المخيف في الكلام]"
 
 #: conversationlist_maelveon.json:maelveon_1
 msgid "Sssshadow take you."
-msgstr ""
+msgstr "لللليأخذك الظل."
 
 #: conversationlist_maelveon.json:maelveon_2
 msgid "G ... argoyle Shadow."
-msgstr ""
+msgstr "ك ... راغل الظل."
 
 #: conversationlist_maelveon.json:maelveon_3
 msgid "A ... llow the Sssshadow in you."
-msgstr ""
+msgstr "إ ... تبع الظل بداخلك."
 
 #: conversationlist_maelveon.json:maelveon_3:0
 msgid "The Shadow, what do you mean?"
-msgstr ""
+msgstr "الظل، ماذا تقصد؟"
 
 #: conversationlist_maelveon.json:maelveon_3:1
 #: conversationlist_maelveon.json:maelveon_5:1
 msgid "Die, evil creature!"
-msgstr ""
+msgstr "مت، أيها كائن شرير!"
 
 #: conversationlist_maelveon.json:maelveon_3:2
 msgid "I will not be affected by your nonsense!"
-msgstr ""
+msgstr "لن أتأثر بتفاهاتك!"
 
 #: conversationlist_maelveon.json:maelveon_4
 msgid "[The figure lifts his hand and points at you]"
-msgstr ""
+msgstr "[الشخص يرفع يده ويشير إليك]"
 
 #: conversationlist_maelveon.json:maelveon_5
 msgid "Sssshadow be with you."
-msgstr ""
+msgstr "ليكن الظظظل معك."
 
 #: conversationlist_maelveon.json:maelveon_5:0
 msgid "Shadow, what?"
-msgstr ""
+msgstr "الظل، ماذا؟"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_start
 msgid "Oh, someone from the outside! Please, sir! You have to help us!"
-msgstr ""
+msgstr "أوه، شخص من الخارج! من فضلك يا سيدي! عليك أن تساعدنا!"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_start:1
 msgid "'Us'? I only see you here."
-msgstr ""
+msgstr "'نحن'؟ لا أرى غيرك هنا."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_2
 msgid "We urgently need help from someone outside!"
-msgstr ""
+msgstr "نحن بحاجة ماسة إلى المساعدة من شخص ما في الخارج!"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_3
 msgid "Very funny. I was sent by my settlement to get help from the outside."
-msgstr ""
+msgstr "مضحك للغاية. لقد أرسلتني مستوطنتي للحصول على المساعدة من الخارج."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_4
 msgid "The people of my settlement, the Blackwater mountain, are slowly being reduced in numbers by the monsters and the savage bandits."
 msgstr ""
+"سكان مستوطنتي، جبل بلاك ووتر، تتضاءل أعدادهم ببطء بسبب الوحوش و قطاع الطرق "
+"المتوحشين."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5
 msgid "The monsters are closing in on us, and we desperately need help by some able fighter."
 msgstr ""
+"الوحوش تقترب منا، و نحن بحاجة ماسة إلى المساعدة من قبل بعض المقاتلين "
+"الأقوياء."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5:0
 msgid "I guess I could help, I have killed a few monsters here and there."
-msgstr ""
+msgstr "أعتقد أنني أستطيع المساعدة، لقد قتلت بعض الوحوش هنا و هناك."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5:1
 msgid "A fight, great. I'm in!"
-msgstr ""
+msgstr "فتال، رائع. أنا معك!"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5:2
 msgid "Will there be a reward for this?"
-msgstr ""
+msgstr "هل هناك جائزة على ذلك؟"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5:3
 msgid "Hmm, no. I had better not get involved in this."
-msgstr ""
+msgstr "اممم، لا. لا يجب ان أتدخل في هذا."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_6
 msgid "Reward? Hmm, I was hoping you would help us for other reasons than a reward. But I guess my master will reward you sufficiently if you survive."
 msgstr ""
+"جائزة؟ حسنًا، كنت أتمنى أن تساعدنا لأسباب أخرى غير المكافأة. و لكن أعتقد أن "
+"سيدي سوف يكافئك بما فيه الكفاية إذا نجوت."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_6:0
 msgid "Alright, I'll do it."
-msgstr ""
+msgstr "حسنا، سأفعلها."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_7
 msgid "Excellent. The Blackwater mountain settlement is some distance away. Frankly, I am amazed that I made it this far alive."
 msgstr ""
+"ممتاز. تقع مستوطنة جبل بلاك ووتر على مسافة بعيدة. بصراحة، أنا مندهش لأنني "
+"تمكنت من البقاء على قيد الحياة إلى أن وصلت إلى هنا."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_8
 msgid "I must warn you though, that there are some nasty monsters on the way."
-msgstr ""
+msgstr "يجب أن أحذرك بالرغم من ذلك، أن هناك بعض الوحوش القوية في الطريق."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_9
 msgid "But I guess you seem strong enough."
-msgstr ""
+msgstr "لكن أعتقد أنك تبدو قويا بما فيه الكفاية."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_9:0
 msgid "Yeah, I can handle myself."
-msgstr ""
+msgstr "نعم، يمكنني الإهتمام بنفسي."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_9:1
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_9:0
 #: conversationlist_hadracor.json:hadracor_accept_2:1
 #: conversationlist_stoutford_combined.json:caeda_60:1
 msgid "No problem."
-msgstr ""
+msgstr "لا مشكلة."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_10
 msgid "Good. First though, we must cross this mine to the other side."
-msgstr ""
+msgstr "جيد. و مع ذلك، يجب علينا أولاً عبور هذا المنجم إلى الجانب الآخر."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_11
 msgid "The mine shaft over there [points] has collapsed, so I guess you won't make it through there."
-msgstr ""
+msgstr "لقد انهار عمود المنجم هناك، لذا أعتقد أنك لن تتمكن من المرور من هناك."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_12
 msgid "You will have to go through the abandoned mine below. Beware that the mine is pitch-black, so you will have to navigate in there without any light."
 msgstr ""
+"سيكون عليك المرور عبر المنجم المهجور أدناه. المنجم حالك الظلام، لذا سيتعين "
+"عليك التنقل هناك دون أي ضوء."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_12:0
 #: conversationlist_brimhaven2.json:brv_school_statue_52:3
 msgid "What about you?"
-msgstr ""
+msgstr "و أنت؟"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_12:1
 msgid "OK, I'll go through the pitch-black mine."
-msgstr ""
+msgstr "حسنًا، سأمر عبر المنجم الأسود."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_13
 msgid "I'll try to crawl back through the mine shaft here. That's how I got here in the first place."
 msgstr ""
+"سأحاول الزحف عائداً عبر عمود المنجم هنا. هكذا وصلت إلى هنا في المقام الأول."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_14
 msgid "Let's meet at the other side of this mine shaft."
-msgstr ""
+msgstr "لنلتقي على الجانب الآخر من هذا المنجم."
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_14:0
 msgid "OK. You crawl through the shaft, and I'll go below. See you on the other side!"
-msgstr ""
+msgstr "نعم. أنت تزحف عبر العمود، و أنا سأذهب للأسفل. اراك على الجهه الاخرى!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_1
 msgid "Hello again. You made it through alive, well done!"
-msgstr ""
+msgstr "مرحبا مجددا. لقد نجحت في ذلك على قيد الحياة، أحسنت!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_1:0
 msgid "These monsters, what are they?"
-msgstr ""
+msgstr "هذه الوحوش، ما هي؟"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_1:1
 msgid "You never told me it would be pitch-black down there. I almost got killed!"
-msgstr ""
+msgstr "لم تخبرني أبدًا أن المكان سيكون مظلما هناك. لقد كدت أن أقتل!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_1:2
 msgid "Yeah, piece of cake."
-msgstr ""
+msgstr "نعم، قطعة من الكعكة."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_2
 msgid "The gornauds? I have no idea where they come from, one day they just showed up here around the mountain."
 msgstr ""
+"الجورنود؟ ليس لدي أي فكرة من أين أتوا، في أحد الأيام ظهروا هنا حول الجبل."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_3
 msgid "Nasty beasts, they are."
-msgstr ""
+msgstr "وحوش شرسة، إنهم كذلك."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_4
 msgid "Anyway, let's get going now. We are now one step closer to the Blackwater mountain settlement."
 msgstr ""
+"على أية حال، دعونا نذهب الآن. نحن الآن على بعد خطوة واحدة من مستوطنة جبل "
+"بلاك ووتر."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_5
 msgid "We should hurry now."
-msgstr ""
+msgstr "علينا أن نسرع."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_6
 msgid "Once we exit this mine, it is very important that you go directly east from there. Do not travel to other places other than going east now!"
 msgstr ""
+"بمجرد خروجنا من هذا المنجم، من المهم جدًا أن تتجه شرقًا مباشرةً من هناك. لا "
+"تسافر إلى أماكن أخرى غير التوجه شرقاً الآن!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_6:0
 msgid "OK, I'll go east once I have exited the mine. Got it."
-msgstr ""
+msgstr "حسنًا، سأتجه شرقًا بمجرد خروجي من المنجم. فهمتها."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_6:1
 msgid "Why east? What else is there here?"
-msgstr ""
+msgstr "لماذا الشرق؟ ماذا يوجد هنا؟"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_7
 msgid ""
@@ -7088,501 +7133,547 @@ msgid ""
 "\n"
 "Remember, go east once you exit the mine."
 msgstr ""
+"سأنتظرك عند الدرجات المؤدية إلى الممر الجبلي. أراك هناك!\n"
+"\n"
+"تذكر، اتجه شرقًا بمجرد خروجك من المنجم."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_7:0
 msgid "OK, see you there!"
-msgstr ""
+msgstr "حسنا، اراك هناك!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_8
 msgid "Oh, nothing. There are dangerous places here. You should definitely not head any other direction than east."
 msgstr ""
+"لا شيء. هناك أماكن خطيرة هنا. يجب عليك بالتأكيد ألا تتجه إلى أي اتجاه آخر "
+"غير الشرق."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_8:0
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_10:0
 msgid "Sure, I'll head east."
-msgstr ""
+msgstr "بالتأكيد، سأتجه شرقًا."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_8:1
 msgid "Dangerous? Sounds like my kind of place!"
-msgstr ""
+msgstr "خطير؟ يبدو لي نوع من المكان الذي يعجبني!"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_8:2
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_10:1
 #: conversationlist_rothses.json:rothses_5:0
 msgid "Is there something you are not telling me?"
-msgstr ""
+msgstr "هل هناك شيء لم تخبرني به؟"
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_10
 msgid "It would be your loss. Don't say I didn't warn you. Safest route would be to head east."
 msgstr ""
+"أنت من سيخسر. لا تقل أنني لم أحذرك. الطريق الأكثر أمانًا هو التوجه شرقًا."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_11
 msgid "No no, just head east and I'll explain everything to you once we get to the Blackwater mountain settlement."
 msgstr ""
+"لا لا، فقط اتجه شرقًا و سأشرح لك كل شيء بمجرد وصولنا إلى مستوطنة جبل بلاك "
+"ووتر."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_11:0
 msgid "OK, I promise to head east once we exit the mine."
-msgstr ""
+msgstr "حسنًا، أعدك بالتوجه شرقًا بمجرد خروجنا من المنجم."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_11:1
 msgid "[Lie] OK, I promise to head east once we exit the mine."
-msgstr ""
+msgstr "[كذبة] حسنًا، أعدك بالتوجه شرقًا بمجرد خروجنا من المنجم."
 
 #: conversationlist_bwm_agent_2.json:bwm_agent_2_12
 msgid "Actually, I did tell you that it would be pitch-black down there. Good work navigating through there!"
 msgstr ""
+"في الواقع، لقد أخبرتك أنه سيكون الظلام حالكًا هناك. عمل جيد التنقل من هناك!"
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_1
 msgid "Hello. You made it here, good."
-msgstr ""
+msgstr "مرحبًا. لقد نجحت، جيد."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_1:0
 msgid "I talked to some people in the village Prim. They had some interesting things to say about Blackwater mountain."
 msgstr ""
+"لقد تحدثت مع بعض الناس في قرية بريم. كان لديهم بعض الأشياء المثيرة للاهتمام "
+"ليقولوها عن جبل بلاك ووتر."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_1:1
 msgid "I went east, as you said."
-msgstr ""
+msgstr "ذهبت شرقا، كما قلت لي."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_2
 msgid "Good. Now let's get up this mountain. I will meet you halfway up there."
-msgstr ""
+msgstr "جيد. الآن لنصعد هذا الجبل. سوف أقابلك في منتصف الطريق هناك."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_3
 msgid "This path leads up to the Blackwater mountain settlement. Follow this path and we will talk later."
 msgstr ""
+"يؤدي هذا المسار إلى مستوطنة جبل بلاك ووتر. اتبع هذا المسار و سوف نتحدث لاحقا."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_4
 msgid "Beware of the nasty monsters, they can really cause some harm!"
-msgstr ""
+msgstr "احذر من الوحوش الشرسة، فهي يمكن أن تسبب بعض الضرر حقًا!"
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_4:0
 msgid "OK, I will follow this path up the mountain."
-msgstr ""
+msgstr "حسنًا، سأتبع هذا الطريق إلى أعلى الجبل."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_4:1
 msgid "Great, more monsters. Just what I needed."
-msgstr ""
+msgstr "عظيم، المزيد من الوحوش. فقط ما احتاجه."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_5
 msgid "Do not listen to their lies. They poison your thoughts and would not hesitate to stab you in the back once they get the chance."
 msgstr ""
+"لا تستمع إلى أكاذيبهم. إنهم يسممون أفكارك و لن يترددوا في طعنك في الظهر "
+"بمجرد أن تتاح لهم الفرصة."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_5:0
 #: conversationlist_blackwater_harlenn.json:harlenn_15:0
 msgid "What have they done?"
-msgstr ""
+msgstr "ماذا فعلوا؟"
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_5:1
 msgid "Yes, they do seem a bit shady."
-msgstr ""
+msgstr "نعم، أنها تبدو مظللة بعض الشيء."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_6
 msgid "I will not talk of them now. Follow me up to the Blackwater mountain settlement and we will talk more there."
-msgstr ""
+msgstr "لن أتحدث عنهم الآن. اتبعني حتى مستوطنة جبل بلاكووتر و سنتحدث أكثر هناك."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_6:1
 msgid "I'm keeping my eye on you. But I'll agree to your terms for now."
-msgstr ""
+msgstr "أنا أبقي عيني عليك. لكنني سأوافق على شروطك في الوقت الحالي."
 
 #: conversationlist_bwm_agent_3.json:bwm_agent_3_7
 msgid "Indeed they do."
-msgstr ""
+msgstr "في الواقع لقد فعلوها."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_1
 msgid "Hello again. Well done defeating the gornaud beasts."
-msgstr ""
+msgstr "مرحبا مجددا. أحسنت في هزيمة وحوش الجورنود."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_1:0
 msgid "Their attacks really hurt. What are these things?"
-msgstr ""
+msgstr "هجماتهم مؤلمة حقا. ما هي هذه الأشياء؟"
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_1:1
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_7:1
 msgid "How come they do not attack you?"
-msgstr ""
+msgstr "فكيف لا يهاجمونك؟"
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_1:2
 msgid "Yeah, no problem. Just another trail of dead bodies behind me."
-msgstr ""
+msgstr "نعم، لا مشكلة. مجرد مزيد من الجثث ورائي."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_2
 msgid "Careful what you wish for, for it may come true."
-msgstr ""
+msgstr "احذر مما تتمناه، فقد يتحقق."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_3
 msgid "Me? There must be something about me that scares them. I have no idea what it would be, some scent perhaps?"
 msgstr ""
+"أنا؟ يجب أن يكون هناك شيء عني يخيفهم. ليس لدي أي فكرة عما يكون، ربما بعض "
+"الرائحة؟"
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_4
 msgid "Anyway, we should get going. I'll run ahead of you up the mountain."
-msgstr ""
+msgstr "على أية حال، ينبغي لنا أن نذهب. سأركض أمامك أعلى الجبل."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_5
 msgid "Meet me further up the mountain, and we will talk more."
-msgstr ""
+msgstr "قابلني في أعلى الجبل، و سنتحدث أكثر."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_5:0
 msgid "OK, see you there."
-msgstr ""
+msgstr "حسنا، أراك هناك."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_6
 msgid "I do not know where they come from. All I know is that they started to appear one day, blocking the path up the mountain."
 msgstr ""
+"لا أعرف من أين أتوا. كل ما أعرفه هو أنهم بدأوا في الظهور ذات يوم، و سدوا "
+"الطريق إلى أعلى الجبل."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_7
 msgid "And, their attacks are tough. Once one of them gets a hold of you, the other ones seem really eager to hit you too."
 msgstr ""
+"و هجماتهم قاسية. بمجرد أن يمسك أحدهم بك، يبدو أن الآخرين حريصون جدًا على "
+"ضربك أيضًا."
 
 #: conversationlist_bwm_agent_4.json:bwm_agent_4_7:0
 msgid "Nothing I can't handle."
-msgstr ""
+msgstr "لا شيء لا يمكنني التعامل معه."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_1
 msgid "Hello again. Well done getting through those monsters."
-msgstr ""
+msgstr "مرحبا مجددا. أحسنت في التغلب على تلك الوحوش."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_2
 msgid "We are almost there now. Just a little bit more."
-msgstr ""
+msgstr "نكاد نصل، فقط القليل بعد."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_3
 msgid "We should hurry this last bit, my settlement is close now."
-msgstr ""
+msgstr "يجب علينا الانتهاء سريعاً من هذه الأخيرة، فمستوطنتي قريبة الآن."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_4
 msgid "I hope you can manage the cold out here."
-msgstr ""
+msgstr "آمل أن تتمكن من التعامل مع البرد هنا."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_5
 msgid "Also, stay away from the wyrms. They have a really nasty bite."
-msgstr ""
+msgstr "وأيضاً إبتعد عن الويرم. لديهم لدغة سيئة حقاً."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_6
 msgid "Now hurry. We are almost there. Follow the snowy path to the north, and you should reach the settlement in no time."
 msgstr ""
+"فلنسرع الآن. نكاد نصل. اتبع الطريق الثلجي باتجاه الشمال، وستصل إلى المستوطنة "
+"في أي وقت من الأوقات."
 
 #: conversationlist_bwm_agent_5.json:bwm_agent_5_6:0
 msgid "OK, I will follow the path to the north, further up the mountain."
-msgstr ""
+msgstr "حسنا، سأتبع الطريق باتجاه الشمال، إلى أعلى الجبل."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_1
 msgid "I am glad you followed me up the mountain to help us out."
-msgstr ""
+msgstr "أنا سعيد أنك تابعتني إلى أعلى الجبل لمساعدتنا."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_1:0
 msgid "How did you get up here so fast?"
-msgstr ""
+msgstr "كيف صعدت إلى هنا بهذه السرعة؟"
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_1:1
 msgid "Those were some tough fights, but I can manage."
-msgstr ""
+msgstr "كانت تلك بعض المعارك الصعبة، لكن يمكنني التعامل معها."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_1:2
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_5:0
 msgid "Are we there yet?"
-msgstr ""
+msgstr "هل كدنا نصل؟"
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_2
 msgid "Oh yes. In fact, our Blackwater mountain settlement is just down these stairs."
-msgstr ""
+msgstr "آوه أجل. في الواقع، تقع مستوطنة جبل بلاكووتر أسفل هذه السلاسم تماماً."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_3
 msgid "Go ahead, I will meet you inside."
-msgstr ""
+msgstr "إنطلق، سأقابلك في الداخل."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_3:0
 msgid "OK, see you inside."
-msgstr ""
+msgstr "حسنا، أراك في الداخل."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_0
 msgid "We meet again. Well done fighting your way up here."
-msgstr ""
+msgstr "ها قد التقينا مجدداً، أحسنت القتال في طريقك إلى هنا."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_4
 msgid "You should go down these stairs and talk to our battle master, Harlenn. He can usually be found at the third level down."
 msgstr ""
+"عليك النزول عبر هذه السلالم والتحدث مع قائد المعركة هارلين. يمكن إيجاده عادة "
+"في المستوى السفلي الثالث."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_5
 msgid "Yes, you seem like an able fighter."
-msgstr ""
+msgstr "نعم، يبدو أنك مقاتل ماهر."
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_6
 msgid "I learned some shortcuts up and down the mountain a while back. Nothing strange about that right?"
 msgstr ""
+"لقد تعلمت بعضاً من اختصارات الجبل صعوداً ونزولاً منذ فترة. لا غرابة في ذلك "
+"صحيح؟"
 
 #: conversationlist_bwm_agent_6.json:bwm_agent_6_7
 msgid "Anyway, we are right at the settlement now. In fact, our Blackwater mountain settlement is just down these stairs."
 msgstr ""
+"على أي حال، نحن الآن في المستوطنة. في الواقع، تقع مستوطنة جبل بلاكووتر أسفل "
+"هذه السلالم تماماً."
 
 #: conversationlist_prim_arghest.json:arghest_1:2
 msgid "Did you rent the back room at the inn in Prim?"
-msgstr ""
+msgstr "هل استأجرت الغرفة الخلفية في النزل في بريم؟"
 
 #: conversationlist_prim_arghest.json:arghest_2
 msgid "This is the old Elm mine of Prim."
-msgstr ""
+msgstr "هذا هو منجم إلم القديم الخاص ببريم."
 
 #: conversationlist_prim_arghest.json:arghest_3
 msgid "We used to mine a lot here. But that was before the attacks started."
-msgstr ""
+msgstr "لقد اعتدنا على استخراج الكثير من هنا، لكن كان ذلك قبل بداية الهجمات."
 
 #: conversationlist_prim_arghest.json:arghest_4
 msgid "The attacks on Prim by the beasts, the bandits and the disappearances really reduced our numbers. Now we cannot keep up the mining activity any longer."
 msgstr ""
+"إن الهجمات التي شنتها الوحوش وقطاع الطرق وحالات الاختفاء في بريم قد قللت "
+"بالفعل من أعدادنا. والآن لا يمكننا الاستمرار في التعدين بعد الآن."
 
 #: conversationlist_prim_arghest.json:arghest_5
 msgid "I am Arghest. I guard the entrance here to make sure no one enters the old mine."
-msgstr ""
+msgstr "أنا أرجست. أحرس هذا المدخل للتأكد من عدم دخول أي أحد إلى المنجم القديم."
 
 #: conversationlist_prim_arghest.json:arghest_5:1
 #: conversationlist_prim_arghest.json:arghest_5:2
 #: conversationlist_prim_arghest.json:arghest_return_1:1
 #: conversationlist_prim_arghest.json:arghest_return_1:2
 msgid "Can I enter the mine?"
-msgstr ""
+msgstr "هل يمكنني الدخول إلى المنجم؟"
 
 #: conversationlist_prim_arghest.json:arghest_6
 msgid "No. The mine is closed."
-msgstr ""
+msgstr "لا. المنجم مغلق."
 
 #: conversationlist_prim_arghest.json:arghest_7
 msgid "I said no. Visitors are not allowed in there."
-msgstr ""
+msgstr "لقد قلت لا. غير مسموح بدخول الزوار."
 
 #: conversationlist_prim_arghest.json:arghest_7:1
 msgid "Just a quick peek?"
-msgstr ""
+msgstr "لنظرة خاطفة فقط؟"
 
 #: conversationlist_prim_arghest.json:arghest_return_1
 msgid "Welcome back. Thanks for your help earlier. I hope the room at the inn can be of use to you."
 msgstr ""
+"مرحباً بعودتك. شكراً لمساعدتك سابقاً. آمل أن تكون الغرفة في النزل مفيدةً لك."
 
 #: conversationlist_prim_arghest.json:arghest_return_2
 msgid "Welcome back. Did you bring me the 5 bottles of milk that I requested?"
-msgstr ""
+msgstr "أهلاً بعودتك. هل أحضرت لي زجاجات الحليب الخمس التي طلبتها؟"
 
 #: conversationlist_prim_arghest.json:arghest_return_2:1
 msgid "Yes, here you go, enjoy!"
-msgstr ""
+msgstr "نعم، ها هي ذي، استمتع!"
 
 #: conversationlist_prim_arghest.json:arghest_return_2:2
 msgid "Yes, but this nearly cost me a fortune!"
-msgstr ""
+msgstr "نعم، لكن كاد هذا أن يكلفني ثروةً!"
 
 #: conversationlist_prim_arghest.json:arghest_return_3
 msgid "OK then. Return to me once you have them."
-msgstr ""
+msgstr "حسنا إذن، عد إلي بمجرد حصولك عليها."
 
 #: conversationlist_prim_arghest.json:arghest_return_3:0
 #: conversationlist_rogorn.json:rogorn_story_r_10:0
 msgid "Will do. Goodbye."
-msgstr ""
+msgstr "حسنا، مع السلامة."
 
 #: conversationlist_prim_arghest.json:arghest_return_4
 msgid "Thank you my friend! Now I can restock my supply."
-msgstr ""
+msgstr "شكراً لك يا صديقي! يمكنني الآن ملء مخزوني."
 
 #: conversationlist_prim_arghest.json:arghest_return_5
 msgid "These bottles look excellent. Now I can last a while longer in here."
-msgstr ""
+msgstr "تبدو هذه الزجاجات ممتازةً. يمكنني الآن البقاء هنا لفترة أطول."
 
 #: conversationlist_prim_arghest.json:arghest_return_6
 msgid "Oh, and about the room in the inn - you are welcome to use it in any way you see fit. Quite a cozy place to rest if you ask me."
 msgstr ""
+"أوه، وفيما يتعلق بالغرفة الموجودة في النزل - فنحن نرحب باستخدامها بأي طريقة "
+"تراها مناسبة. إنه مكان مريح للغاية إذا سألتني عن رأيي."
 
 #: conversationlist_prim_arghest.json:arghest_return_6:0
 msgid "Thanks Arghest. Goodbye."
-msgstr ""
+msgstr "شكراً يا أرجست. مع السلامة."
 
 #: conversationlist_prim_arghest.json:arghest_return_6:1
 msgid "Finally, I thought I would never be able to rest here!"
-msgstr ""
+msgstr "وأخيراً، لقد اعتقدت أنني لن أتمكن من الراحة هنا أبداً!"
 
 #: conversationlist_prim_arghest.json:arghest_8
 msgid "'Inn in Prim' - you sound funny."
-msgstr ""
+msgstr "'نزل في بريم' - تبدو مضحكاً."
 
 #: conversationlist_prim_arghest.json:arghest_9
 msgid "Yes, I rent it. I stay there to rest when my shift ends."
-msgstr ""
+msgstr "نعم، أنا أستأجرها وأرتاح فيها عندما ينتهي عملي."
 
 #: conversationlist_prim_arghest.json:arghest_10
 msgid "However, now that we guards aren't as plentiful as we used to be, it has been a while since I could rest in there."
 msgstr ""
+"على أي حال، الآن بعد أصبحنا نحن الحراس أقل عدداً مما كنا عليه قبلاً، فقد مر "
+"علي وقت طويل منذ أن تمكنت من الراحة هناك."
 
 #: conversationlist_prim_arghest.json:arghest_10:0
 msgid "Mind if I use the room at the inn to rest in?"
-msgstr ""
+msgstr "هل تمانع لو استرحت في غرفة النُزُل؟"
 
 #: conversationlist_prim_arghest.json:arghest_10:1
 msgid "Are you still going to use it?"
-msgstr ""
+msgstr "هل مازلت راغباً في استعمالها؟"
 
 #: conversationlist_prim_arghest.json:arghest_11
 msgid "Well, I would like to still keep the option of using it. But I guess someone else could rest there now that I'm not actively using it."
 msgstr ""
+"في الواقع، أود الاحتفاظ بها لنفسي. لكنني أعتقد أن شخصًا آخر سيستفيد منها "
+"أكثر مني لأنني لا أستعملها بشكل نشط."
 
 #: conversationlist_prim_arghest.json:arghest_12
 msgid "Tell you what, if you bring me some more supplies to keep me occupied here, I guess you could have my permission to use it even though I have rented it."
 msgstr ""
+"دعني أقترح عليك أمراً، إذا أحضرت لي مزيداً من المستلزمات لأتمكن من البقاء "
+"هنا، أعتقد أنه يمكنك الحصول على إذني لاستعمالها حتى لو استأجرتها."
 
 #: conversationlist_prim_arghest.json:arghest_13
 msgid "I have plenty of meat here, but I ran out of milk some weeks ago. Do you think you could help me restock my milk supply?"
 msgstr ""
+"لدي الكثير من اللحوم هنا، لكن الحليب قد نفد مني منذ بضعة أسابيع. هل تعتقد "
+"أنه يمكنك مساعدني في ملء مخزون الحليب الخاص بي؟"
 
 #: conversationlist_prim_arghest.json:arghest_13:0
 msgid "Sure, no problem. I'll get you your bottles of milk. How much do you need?"
-msgstr ""
+msgstr "بالتأكيد، لا مشكلة، سأحضر لك زجاجات الحليب، كم تحتاج منها؟"
 
 #: conversationlist_prim_arghest.json:arghest_13:1
 msgid "Sure, if it leads to me being able to rest here. I'm in."
-msgstr ""
+msgstr "بالتأكيد، إذا كان ذلك سيمكنني من الراحة هنا فأنا موافق."
 
 #: conversationlist_prim_arghest.json:arghest_14
 msgid "Bring me 5 bottles of milk. That should be enough."
-msgstr ""
+msgstr "أحضر لي خمس زجاجات حليب. ينبغي أن يكون ذلك كافياً."
 
 #: conversationlist_prim_arghest.json:arghest_14:0
 msgid "I'll go buy some."
-msgstr ""
+msgstr "سأذهب لشراء البعض."
 
 #: conversationlist_prim_arghest.json:arghest_14:1
 msgid "OK. I'll be right back."
-msgstr ""
+msgstr "حسناً، سأعود حالاً."
 
 #: conversationlist_prim_outside.json:tonis_return_1
 msgid "Hello again. Have you spoken to Guthbered in the Prim main hall yet?"
-msgstr ""
+msgstr "مرحباً مجدداً. هل تحدثت مع جوثبيرد في قاعة بريم الرئيسية؟"
 
 #: conversationlist_prim_outside.json:tonis_return_1:0
 msgid "No, not yet. Where can I find him?"
-msgstr ""
+msgstr "لا، ليس بعد. أين يمكنني إيجاده؟"
 
 #: conversationlist_prim_outside.json:tonis_return_1:1
 msgid "Yes, he told me the story about Prim."
-msgstr ""
+msgstr "نعم، لقد أخبرني بقصة بريم."
 
 #: conversationlist_prim_outside.json:tonis_return_1:2
 msgid "No, and I do not intend to speak to him either. I am on an urgent mission to help the Blackwater mountain settlement."
 msgstr ""
+"لا، ولا أنوي التحدث معه، فأنا في مهمة عاجلة لمساعدة مستوطنة جبل بلاكووتر."
 
 #: conversationlist_prim_outside.json:tonis_1
 msgid "You there! Please you have to help us!"
-msgstr ""
+msgstr "ها أنت ذا! عليك مساعدتنا رجاءً!"
 
 #: conversationlist_prim_outside.json:tonis_1:1
 msgid "Is this the Blackwater mountain settlement?"
-msgstr ""
+msgstr "هل هذه هي مستوطنة جبل بلاك ووتر؟"
 
 #: conversationlist_prim_outside.json:tonis_1:2
 msgid "Sorry, I cannot be bothered right now. I was told to go east quickly."
-msgstr ""
+msgstr "عذراً، ليس لدي وقت الآن. لقد قيل لي أن أذهب شرقاً على الفور."
 
 #: conversationlist_prim_outside.json:tonis_2
 msgid "Blackwater? No no, certainly not. Just over there is the village of Prim."
-msgstr ""
+msgstr "بلاك ووتر؟ لا لا، بالتأكيد لا، لا يوجد هناك سوى قرية بريم."
 
 #: conversationlist_prim_outside.json:tonis_3
 msgid "Blackwater mountain, those vicious bastards."
-msgstr ""
+msgstr "جبل بلاك ووتر، هؤلاء الأوغاد الأشرار."
 
 #: conversationlist_prim_outside.json:tonis_4
 msgid "East? But that leads up to Blackwater mountain."
-msgstr ""
+msgstr "شرقاً؟ ولكن هذا يؤدي إلى جبل بلاك ووتر."
 
 #: conversationlist_prim_outside.json:tonis_5
 msgid "You really do not want to go up there."
-msgstr ""
+msgstr "أنصحك ألا تذهب إلى هناك."
 
 #: conversationlist_prim_outside.json:tonis_6
 msgid "We desperately need help from someone from the outside in our village of Prim."
-msgstr ""
+msgstr "نحن بحاجة ماسة إلى المساعدة في قرية بريم من شخص من الخارج."
 
 #: conversationlist_prim_outside.json:tonis_7
 msgid "You should speak to Guthbered, in the Prim main hall, just north of here."
-msgstr ""
+msgstr "عليك التحدث مع غوثبيرد، إنه في قاعة بريم الرئيسية شمالاً من هنا."
 
 #: conversationlist_prim_outside.json:tonis_7:0
 msgid "OK, I will go see him."
-msgstr ""
+msgstr "حسنا، سأذهب لرؤيته."
 
 #: conversationlist_prim_outside.json:tonis_7:1
 msgid "I was told to go directly east."
-msgstr ""
+msgstr "لقد قيل لي أن أذهب إلى الشرق مباشرة."
 
 #: conversationlist_prim_outside.json:tonis_8
 msgid "Good, thanks. We really need your help!"
-msgstr ""
+msgstr "جيد، شكراً لك. نحن بحاجة إلى مساعدتك حقاً!"
 
 #: conversationlist_prim_outside.json:tonis_return_2
 msgid "The village of Prim is just north of here. You can probably see it through the trees over there."
 msgstr ""
+"تتواجد قرية بريم شمالاً من هنا، ربما يمكنك رؤيتها من خلال الأشجار الموجودة "
+"هناك في الأعلى."
 
 #: conversationlist_prim_outside.json:tonis_return_2:0
 msgid "OK, I will go there right away."
-msgstr ""
+msgstr "حسنا، سأذهب إلى هناك فوراً."
 
 #: conversationlist_prim_outside.json:tonis_return_3
 msgid "Do not listen to their lies!"
-msgstr ""
+msgstr "لا تستمع إلى أكاذيبهم!"
 
 #: conversationlist_prim_outside.json:moyra_1
 msgid "Stay away. This is my hiding spot."
-msgstr ""
+msgstr "ابق بعيداً، هذا مخبئي."
 
 #: conversationlist_prim_outside.json:moyra_1:0
 msgid "What are you hiding from?"
-msgstr ""
+msgstr "مِمَّ تختبئ؟"
 
 #: conversationlist_prim_outside.json:moyra_1:1
 #: conversationlist_prim_outside.json:moyra_1:3
 msgid "Do you know anything about the accident with Lorn?"
-msgstr ""
+msgstr "هل تعرف أي شيء عن الحادث الذي وقع للورن؟"
 
 #: conversationlist_prim_outside.json:moyra_2
 msgid "Claws, beasts, gornauds. They cannot reach me here."
 msgstr ""
+"من ذوي المخالب، والوحوش، والغورنود. فجميعم لا يستطيعون الوصول إلي في هذا "
+"المكان."
 
 #: conversationlist_prim_outside.json:moyra_2:0
 msgid "'Gornauds', is that what those monsters outside the village are called?"
-msgstr ""
+msgstr "'الغورنود'، أهذا هو الإسم الذي يطلق على أولئك الوحوش خارج القرية؟"
 
 #: conversationlist_prim_outside.json:moyra_2:1
 msgid "Yeah sure. Stay here and hide you pathetic creature."
-msgstr ""
+msgstr "أجل بالضبط. ابق هنا واختبئ أيها المخلوق المثير للشفقة."
 
 #: conversationlist_prim_outside.json:moyra_3
 msgid "Me? I am Moyra."
-msgstr ""
+msgstr "أنا؟ أنا مويرا."
 
 #: conversationlist_prim_outside.json:moyra_3:0
 msgid "Why are you hiding?"
-msgstr ""
+msgstr "لماذا تختبئ؟"
 
 #: conversationlist_prim_outside.json:moyra_4
 msgid "You are mean! I don't want to talk to you any more."
-msgstr ""
+msgstr "أنت لئيم! لا أريد التحدث معك بعد الآن."
 
 #: conversationlist_prim_outside.json:moyra_5
 msgid "Please, not so loud! They could hear you."
-msgstr ""
+msgstr "ليس بصوت مرتفع جداً رجاءً، يمكنهم سماعك."
 
 #: conversationlist_prim_outside.json:moyra_6
 msgid "I have seen them on the path up the mountain. Sharpening their claws."
-msgstr ""
+msgstr "لقد رأيتهم على الطريق المتجه إلى أعلى الجبل، كانوا يشحذون مخالبهم."
 
 #: conversationlist_prim_outside.json:moyra_7
 msgid "I hide here now, so they cannot get to me."
-msgstr ""
+msgstr "أنا أختبئ الآن هنا، لكي لا يتمكنوا من الوصول إلي."
 
 #: conversationlist_prim_outside.json:prim_commoner1
 msgid "Hello there. Welcome to Prim. Are you here to help us?"
-msgstr ""
+msgstr "هيه أهلاً. مرحباً بك في بريم، هل أنت هنا لمساعدتنا؟"
 
 #: conversationlist_prim_outside.json:prim_commoner1:0
 msgid "Yes, I am here to help your village."
-msgstr ""
+msgstr "نعم، أنا هنا لمساعدة قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner1:1
 msgid "[Lie] Yes, I am here to help your village."
@@ -7590,41 +7681,43 @@ msgstr ""
 
 #: conversationlist_prim_outside.json:prim_commoner1:2
 msgid "Maybe, but first tell me what do you know about Lorn's crew accident?"
-msgstr ""
+msgstr "ربما، لكن أخبرني أولاً ما الذي تعرفه عن حادثة طاقم لورن؟"
 
 #: conversationlist_prim_outside.json:prim_commoner1_2
 msgid "Thank you. We really need your help."
-msgstr ""
+msgstr "شكراً لك. نحن بحاجة إلى مساعدتك حقاً."
 
 #: conversationlist_prim_outside.json:prim_commoner1_3
 msgid "You should speak to Guthbered if you haven't done so already."
-msgstr ""
+msgstr "عليك التحدث مع غوثبيرد إن لم تكن قد فعلت ذلك بالفعل."
 
 #: conversationlist_prim_outside.json:prim_commoner1_3:0
 msgid "Will do, goodbye."
-msgstr ""
+msgstr "سأفعل ذلك، وداعاً."
 
 #: conversationlist_prim_outside.json:prim_commoner1_4
 msgid "He is in the main hall right over there. The large stone house."
-msgstr ""
+msgstr "إنه في القاعة الرئيسية. ذلك المنزل الحجري الكبير هناك."
 
 #: conversationlist_prim_outside.json:prim_commoner2
 msgid "Hi, you seem to be new around here. How can I help you?"
-msgstr ""
+msgstr "أهلاً، تبدو جديداً هنا. كيف يمكنني مساعدتك؟"
 
 #: conversationlist_prim_outside.json:prim_commoner2:0
 #: conversationlist_prim_outside.json:prim_commoner2_trade1:1
 msgid "Is there some place I can rest around here?"
-msgstr ""
+msgstr "هل يوجد هنا أي مكان يمكنني أن أستريح فيه؟"
 
 #: conversationlist_prim_outside.json:prim_commoner2:1
 #: conversationlist_prim_outside.json:prim_commoner2_rest1:1
 msgid "Where can I find a trader around here?"
-msgstr ""
+msgstr "أين يمكنني العثور على تاجر في هذا المكان؟"
 
 #: conversationlist_prim_outside.json:prim_commoner2_rest1
 msgid "You should be able to find some place to rest in the inn right over there to the southeast."
 msgstr ""
+"يجب أن تكون قادراً على إيجاد مكان للراحة في النزل الموجود هناك تماماً في "
+"الجنوب الشرقي."
 
 #: conversationlist_prim_outside.json:prim_commoner2_trade1
 msgid "Our armorer is in the house in the southwest corner. I should warn you that the supply is not what it used to be though."
@@ -68871,8 +68964,8 @@ msgstr "بريم هافن"
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "سولينغارد"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
-msgstr ""
+msgstr "بستان ديبو"
