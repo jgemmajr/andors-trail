@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2023-10-31 15:30+0000\n"
+"PO-Revision-Date: 2023-11-09 13:25+0000\n"
 "Last-Translator: Mohamed Amaadour <mostafaamaadour@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ar/>\n"
@@ -53,7 +53,7 @@ msgstr "غضب هائج بسيط"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr "hello"
+msgstr "بؤس بلاك ووتر"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
@@ -93,11 +93,11 @@ msgstr "دقة مركزة"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "سم النبتة اللاحمة"
+msgstr "سم إرديغ"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr "دود الكازول"
+msgstr "ديدان كازول"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
@@ -537,7 +537,7 @@ msgstr "على الرحب."
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
 msgstr ""
-"لقد رأيت بعض الفئران في حديقتنا سابقا. هل يمكنك رجاءً قتل كل فئر تراه هناك؟"
+"لقد رأيت بعض الفئران في حديقتنا سابقاً. هل يمكنك قتل كل فئر تراه هناك رجاءً؟"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -3705,7 +3705,7 @@ msgid ""
 msgstr ""
 "20؟ دعني أفكر ... اممم ...\n"
 "\n"
-"موافق. سأعطيك 20. لكن من فضلك ، احضره ساخنا و إلا لن أدفع لك."
+"موافق. سأعطيك 20. لكن أحضره ساخناً من فضلك وإلا لن أدفع لك."
 
 #: conversationlist_fallhaven_south.json:alaun_startquest15
 msgid "That's nice of you."
@@ -5919,11 +5919,11 @@ msgstr "متوفر بـ 250 ذهب فقط. ثم يمكنك استخدامه بق
 
 #: conversationlist_foamingflask.json:torilo_rest_4:0
 msgid "250 gold? Sure, that's nothing to me. Here you go."
-msgstr "250 ذهب؟ بالتأكيد ، هذا لا شيء بالنسبة لي. تفضل."
+msgstr "250 ذهبية؟ بالتأكيد، هذا لا شيء بالنسبة لي. تفضل."
 
 #: conversationlist_foamingflask.json:torilo_rest_4:1
 msgid "250 gold is a lot, but I guess it is worth it. Here you go."
-msgstr "250 ذهب كثير ، لكن أعتقد أنها تستحق ذلك. تفضل."
+msgstr "إن 250 ذهبية لمبلغ كبير، لكن أعتقد أن الأمر يستحق ذلك. تفضل."
 
 #: conversationlist_foamingflask.json:torilo_rest_4:2
 msgid "That sounds a bit too much for me."
@@ -7722,30 +7722,35 @@ msgstr ""
 #: conversationlist_prim_outside.json:prim_commoner2_trade1
 msgid "Our armorer is in the house in the southwest corner. I should warn you that the supply is not what it used to be though."
 msgstr ""
+"يعيش صانع الدروع خاصتنا في المنزل في الجهة الجنوبية الغربية. وإني أحيطك علماً"
+" بأن ما يعرضه للبيع لم يعد كما كان سابقاً."
 
 #: conversationlist_prim_outside.json:prim_commoner3
+#, fuzzy
 msgid "Hello. Welcome to Prim."
-msgstr ""
+msgstr "أهلاً. مرحباً بك في بريم."
 
 #: conversationlist_prim_outside.json:prim_commoner3:0
 msgid "Do you know anything about Lorn's accident?"
-msgstr ""
+msgstr "هل تعرف شيئاً عن حادثة لورن؟"
 
 #: conversationlist_prim_outside.json:prim_commoner3:1
+#, fuzzy
 msgid "Thank you for the hints, bye."
-msgstr ""
+msgstr "أشكرك على التلميحات، وداعاً."
 
 #: conversationlist_prim_outside.json:prim_commoner4
 msgid "Hello. Who are you? Are you here to help us?"
-msgstr ""
+msgstr "أهلاً، من أنت؟ هل أنت هنا لمساعدتنا؟"
 
 #: conversationlist_prim_outside.json:prim_commoner4:0
+#, fuzzy
 msgid "I am looking for my brother. Would you by any chance have happened to see him around here?"
-msgstr ""
+msgstr "أنا أبحث عن أخي، هل سبق أن رأيتَه عن طريق الصدفة هنا في الجوار؟"
 
 #: conversationlist_prim_outside.json:prim_commoner4:1
 msgid "Yes, I have come to help your village."
-msgstr ""
+msgstr "نعم، لقد جِئتُ لأساعد قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner4:2
 msgid "[Lie] Yes, I have come to help your village."
@@ -7754,82 +7759,91 @@ msgstr ""
 #: conversationlist_prim_outside.json:prim_commoner4:3
 #: conversationlist_prim_tavern.json:prim_tavern_guest4_3:0
 msgid "What do you know about Lorn's accident?"
-msgstr ""
+msgstr "ماذا تعرف عن حادثة لورن؟"
 
 #: conversationlist_prim_outside.json:prim_commoner4_1
+#, fuzzy
 msgid "Your brother? Son, you should know that we do not get many visitors around here."
-msgstr ""
+msgstr "أخوك؟ يجب أن تعلم يا بني أننا لا نستقبل الكثير من الزوار هنا."
 
 #: conversationlist_prim_outside.json:prim_commoner4_2
 msgid "So, no. I cannot help you."
-msgstr ""
+msgstr "إذن، لا. لا يمكنني مساعدتك."
 
 #: conversationlist_prim_outside.json:prim_commoner4_3
+#, fuzzy
 msgid "Oh thank you. We could really use some help around here."
-msgstr ""
+msgstr "آوه شكراً لك، يمكننا الاستفادة من بعض المساعدة هنا حقاً."
 
 #: conversationlist_prim_inn.json:bwm_primsleep
 msgid "You are not allowed to enter here."
-msgstr ""
+msgstr "غير مسموح لك بالدخول إلى هنا."
 
 #: conversationlist_prim_inn.json:laecca_1
 msgid "Hello. I am Laecca, mountain guide."
-msgstr ""
+msgstr "أهلاً. أنا مرشد الجبل لايكا."
 
 #: conversationlist_prim_inn.json:laecca_1:1
 msgid "'Mountain guide', what does that mean?"
-msgstr ""
+msgstr "'مرشد الجبل'، ما الذي يعنيه ذلك؟"
 
 #: conversationlist_prim_inn.json:laecca_2
 msgid "I keep an eye on the mountain pass, to make sure no more of those beasts make their way down here."
 msgstr ""
+"أنا أراقب الممر الجبلي لأتأكد من عدم وصول المزيد من تلك الوحوش إلى هنا في "
+"الأسفل."
 
 #: conversationlist_prim_inn.json:laecca_2:0
 msgid "Then what are you doing indoors here? Shouldn't you be outside guarding then?"
-msgstr ""
+msgstr "إذن ما أنت فاعل هنا في الداخل؟ أولا يجب أن تكون في الخارج للحراسة إذن؟"
 
 #: conversationlist_prim_inn.json:laecca_2:1
 msgid "Sounds like a noble cause."
-msgstr ""
+msgstr "يبدو الأمر وكأنه قضية نبيلة."
 
 #: conversationlist_prim_inn.json:laecca_2:2
 #: conversationlist_prim_inn.json:laecca_5:2
 msgid "What beasts are you talking about?"
-msgstr ""
+msgstr "عن أي وحوش تتحدث؟"
 
 #: conversationlist_prim_inn.json:laecca_3
 msgid "Yeah, sure. It may sound that way. In reality, it's a lot of hard work."
-msgstr ""
+msgstr "أجل، بالطبع، قد يبدو الأمر كذلك. في الحقيقة، إنه لكثير من العمل الشاق."
 
 #: conversationlist_prim_inn.json:laecca_4
 msgid "Very funny. I have to rest too you know. Keeping the monsters away is hard work."
 msgstr ""
+"مضحك للغاية. لابد لي من الراحة أيضا كما تعلم. إنه لأمر شاق إبقاء الوحوش "
+"بعيداً."
 
 #: conversationlist_prim_inn.json:laecca_5
 msgid "There used to be more of us mountain guides, but not many have survived the attack of the beasts."
 msgstr ""
+"لقد كان عددنا أكبر نحن المرشدين الجبليين، لكن لم ينج الكثير منا من هجوم "
+"الوحوش."
 
 #: conversationlist_prim_inn.json:laecca_5:0
 msgid "Sounds like you aren't really cut out to do your job properly."
-msgstr ""
+msgstr "يبدو أنك لست مؤهلاً للقيامِ بعملكَ بشكلٍ صحيحٍ حقاً."
 
 #: conversationlist_prim_inn.json:laecca_5:1
 #: conversationlist_brimhaven_2.json:oromir_basement_help_20:0
 #: conversationlist_brimhaven_2.json:oromir_basement_help_20:1
 msgid "I'm sorry to hear that."
-msgstr ""
+msgstr "يؤسفني سماع ذلك."
 
 #: conversationlist_prim_inn.json:laecca_6
 msgid "Perhaps."
-msgstr ""
+msgstr "ممكن."
 
 #: conversationlist_prim_inn.json:laecca_7
+#, fuzzy
 msgid "Anyway. I have some things to tend to. Nice talking to you."
-msgstr ""
+msgstr "على أي حال، لدي بعض الأشياء لأعتني بها. سررت بالتحدث معك."
 
 #: conversationlist_prim_inn.json:laecca_8
 msgid "Thank you for your concern."
-msgstr ""
+msgstr "شكراً لاهتمامك."
 
 #: conversationlist_prim_inn.json:laecca_8:0
 #: conversationlist_prim_inn.json:laecca_12:0
@@ -7842,23 +7856,27 @@ msgstr ""
 #: conversationlist_stoutford.json:yolgen_initial_0:6
 #: conversationlist_stoutford.json:yolgen_rumblings10_5:1
 msgid "Is there anything I can do to help?"
-msgstr ""
+msgstr "هل هناك أي شيء يمكنني فعله للمساعدة؟"
 
 #: conversationlist_prim_inn.json:laecca_9
 msgid "Pfft, 'What beasts?'. The gornaud beasts of course."
-msgstr ""
+msgstr "بفف، 'أي وحوش؟'، إنهم وحوش الغورنود بالطبع."
 
 #: conversationlist_prim_inn.json:laecca_10
 msgid "Scratching their claws against the bare rock at night. *shrug*"
-msgstr ""
+msgstr "يخدشون الصخور المكشوفة بمخالبهم في الليل. *بتجاهل*"
 
 #: conversationlist_prim_inn.json:laecca_11
+#, fuzzy
 msgid "At first, I thought they were acting on pure instinct. But recently, I have started to believe they are smarter than regular beasts."
 msgstr ""
+"إعتقدت في البداية أنهم كانوا يتصرفون بغريزة خالصة، لكن بدأت أصدق مؤخراً أنهم "
+"أكثر ذكاءً من الوحوش العادية."
 
 #: conversationlist_prim_inn.json:laecca_12
+#, fuzzy
 msgid "Their attacks are getting more and more clever."
-msgstr ""
+msgstr "أصبحت هجماتهم تزداد براعةً أكثر فأكثر."
 
 #: conversationlist_prim_inn.json:laecca_13
 msgid "You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village."
@@ -8055,7 +8073,7 @@ msgstr ""
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest3
 msgid "*grumbles*"
-msgstr ""
+msgstr "*تذمر*"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest4
 msgid "Claws. Scratching."
@@ -9804,7 +9822,7 @@ msgstr ""
 
 #: conversationlist_blackwater_throdna.json:throdna_6:0
 msgid "Descendants?"
-msgstr ""
+msgstr "أحفاد؟"
 
 #: conversationlist_blackwater_throdna.json:throdna_6:1
 msgid "Let's go back to my other questions."
@@ -10029,7 +10047,7 @@ msgstr ""
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian
 msgid "Kazaul..."
-msgstr ""
+msgstr "كازول..."
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian:1
 msgid "Kazaul, destroyer of bright dreams."
@@ -10620,7 +10638,7 @@ msgstr ""
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10:0
 msgid "Baah!"
-msgstr ""
+msgstr "بااه!"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep1_n:0
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep2_n:0
@@ -10640,7 +10658,7 @@ msgstr ""
 #: conversationlist_toszylae_guard.json:toszylae_guard_8:0
 #: conversationlist_hirazinn.json:hirazinn_2:1
 msgid "[Attack]"
-msgstr ""
+msgstr "[هجوم]"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep_placed_2
 msgid "[You place one of the bells around the neck of the sheep]"
@@ -10702,7 +10720,7 @@ msgstr ""
 #: conversationlist_gison.json:gison_p2_10_7:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:0
 msgid "No."
-msgstr ""
+msgstr "لا."
 
 #: conversationlist_benbyr.json:benbyr_story_3_4
 msgid "Then I will surely disappoint you. Return to me once you are ready for my task."
@@ -10778,7 +10796,7 @@ msgstr ""
 
 #: conversationlist_benbyr.json:benbyr_accept_1
 msgid "Splendid!"
-msgstr ""
+msgstr "مذهل!"
 
 #: conversationlist_benbyr.json:benbyr_accept_2
 msgid "I happen to know that there are eight of his sheep in total, and they should all be to the northwest of here."
@@ -10826,7 +10844,7 @@ msgstr ""
 
 #: conversationlist_crossroads_1.json:fanamor_3
 msgid "*sigh*"
-msgstr ""
+msgstr "*تنهد*"
 
 #: conversationlist_crossroads_1.json:fanamor_4
 msgid "Oh, who am I kidding. OK, I was trying to get through the forest here and got ambushed by these anklebiters."
@@ -11120,7 +11138,7 @@ msgstr ""
 
 #: conversationlist_rogorn.json:rogorn_henchman_atk:0
 msgid "Fight"
-msgstr ""
+msgstr "قتال"
 
 #: conversationlist_rogorn.json:rogorn_henchman_noatk
 msgid "Good to hear that there are at least a few people left out there willing to take a stand against Feygard."
@@ -11532,7 +11550,7 @@ msgstr ""
 #: conversationlist_gandoren.json:gandoren_17
 #: conversationlist_fallhaven_potions.json:fallhaven_pot_antifoodp6
 msgid "Excellent."
-msgstr ""
+msgstr "ممتاز."
 
 #: conversationlist_gandoren.json:gandoren_18
 msgid "I cannot promise you any amount on a reward."
