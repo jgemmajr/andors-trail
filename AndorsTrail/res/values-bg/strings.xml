@@ -7,15 +7,7 @@
 \n
 \nФайлът може да е повреден или непълен.</string>
     <string name="dialog_loading_failed_incorrectversion">Cледа́та на Андор не успя да зареди файла за играта. Този файл на играта е създаден с по-нова версия от това, което се изпълнява в момента.</string>
-    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt;
-\n &lt;br /&gt;
-\n &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt;
-\n &lt;br /&gt;
-\n &lt;a href=http://andorstrail.com/wiki&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt;
-\n &lt;br /&gt;
-\n &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt;
-\n &lt;br /&gt;
-\n Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
+    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
     <string name="localize_resources_from_mo_filename">bg.mo</string>
     <string name="preferences_display_category">Покажи</string>
     <string name="questlog_queststatus_completed">Завършени</string>
@@ -117,7 +109,7 @@
     <string name="heroinfo_unlimited_lives_and_saves">Стандартно
 \n(Неограничени животи и запазвания на играта)</string>
     <string name="dialog_groundloot_message">Вие намерихте някакви предмети.</string>
-    <string name="menu_save_gamesaved">Играта беше запазена в</string>
+    <string name="menu_save_gamesaved">Играта беше запазена в слот %1$d</string>
     <string name="iteminfo_category">Категория:</string>
     <string name="shop_sellitem">Продай (%1$d злато)</string>
     <string name="monster_difficulty_veryhard">Много трудно</string>
@@ -156,7 +148,7 @@
     <string name="dialog_groundloot_title">Предмети</string>
     <string name="heroinfo_experiencepoints">Точки опит (ТО):</string>
     <string name="inventory_equip">Облечете</string>
-    <string name="dialog_loot_pickedupitem">Вие взехте предмет</string>
+    <string name="dialog_loot_pickedupitem">Вие взехте предмет.</string>
     <string name="startscreen_selectherosprite">Изберете вашият герой</string>
     <string name="startscreen_error_loading_empty_slot">Не може да се зареди игра от празен слот.</string>
     <string name="loadsave_selectslot">Изберете</string>
@@ -198,4 +190,48 @@
     <string name="status_hp">ТЗ:</string>
     <string name="combat_result_herokillsmonster">%1$s загина!</string>
     <string name="dialog_close">Затвори</string>
+    <string name="skill_title_more_criticals">Повече критични удари</string>
+    <string name="actorconditioninfo_effect_every_round">Всеки рунд</string>
+    <string name="skill_title_regeneration">Регенерация</string>
+    <string name="actorinfo_currenttraits">Бойни характеристики (текущи)</string>
+    <string name="preferences_movement_dpad_positions_upper_left">Горен ляв ъгъл</string>
+    <string name="skill_title_cleave">Разсичане</string>
+    <string name="actorinfo_basetraits">Базови бойни характеристики (не включващи тези от екипировката и уменията)</string>
+    <string name="preferences_attackspeed_normal">Нормално</string>
+    <string name="preferences_movementmethods_avoid">Избягване на препадствия</string>
+    <string name="traitsinfo_attack_chance">Шанс за атака:</string>
+    <string name="preferences_attackspeed_fast">Бързо</string>
+    <string name="preferences_movement_dpad_positions_lower_left">Долен ляв ъгъл</string>
+    <string name="traitsinfo_attack_damage">Нанасяни щети:</string>
+    <string name="actorconditioninfo_constant_effect">Постоянен ефект</string>
+    <string name="preferences_display_scaling_factor_normal">Нормален размер</string>
+    <string name="preferences_movement_dpad_positions_lower_right">Долен десен ъгъл</string>
+    <string name="skill_title_evasion">Избягване</string>
+    <string name="traitsinfo_criticalhit_multiplier">Множител на критичният удар:</string>
+    <string name="skill_title_more_exp">Бързоучещ</string>
+    <string name="preferences_display_loot_never">Не показвай</string>
+    <string name="preferences_display_scaling_factor_double">Двоен размер</string>
+    <string name="preferences_movement_dpad_positions_disabled">Изключено</string>
+    <string name="skill_title_better_criticals">По-точни критични удари</string>
+    <string name="iteminfo_effect_increase_current_hp">Възстановява %1$s ТЗ</string>
+    <string name="levelup_add_attackchance">Увеличава шанса за сполучлива атака с (+%1$d)</string>
+    <string name="preferences_attackspeed_slow">Бавно</string>
+    <string name="actorconditioninfo_effect_every_full_round">Всеки пълен рунд</string>
+    <string name="preferences_movement_dpad_positions_center_bottom">Долу в средата</string>
+    <string name="preferences_language">Език</string>
+    <string name="preferences_combat_category">Битка</string>
+    <string name="skill_title_lower_exploss">Изкуство на провала</string>
+    <string name="skill_title_weapon_dmg">Силен удар</string>
+    <string name="preferences_language_default">Системен език</string>
+    <string name="preferences_movement_dpad_positions_upper_right">Горен десен ъгъл</string>
+    <string name="bulkselection_select_all">Всичко</string>
+    <string name="traitsinfo_criticalhit_skill">умение за нанасяне на критичен удар:</string>
+    <string name="preferences_movementmethod_title">Метод на придвижване</string>
+    <string name="traitsinfo_defense_chance">Шанс за блокиране на атаката:</string>
+    <string name="skill_title_dodge">Отскачане</string>
+    <string name="preferences_movement_category">Придвижване</string>
+    <string name="bulkselection_sell_confirmation_title">Сигурен ли си?</string>
+    <string name="skill_title_eater">Трупояд</string>
+    <string name="skill_title_barter">Търговец</string>
+    <string name="skill_title_coinfinder">Ловец на съкровища</string>
 </resources>
