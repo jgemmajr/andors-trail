@@ -1067,5 +1067,24 @@
         "name":"Maddalena",
         "iconID":"monsters_ld1:151",
         "phraseID":"sullengard_town_clerk_0"
+    },
+    {
+        "id":"lava_queen_entity",
+        "name":"Queen lava entity",
+        "iconID":"monsters_tometik10:24",
+        "maxHP":490,
+        "moveCost":9,
+        "unique":1,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":35,
+            "max":45
+        },
+        "droplistID":"lava_queen_dl",
+        "attackCost":6,
+        "attackChance":170,
+        "blockChance":270,
+        "damageResistance":16
     }
 ]
