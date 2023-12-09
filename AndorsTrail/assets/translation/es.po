@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-11-05 07:46+0000\n"
-"Last-Translator: Palkia <dxavi215@gmail.com>\n"
+"PO-Revision-Date: 2023-11-24 19:38+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -54,7 +54,7 @@ msgstr "Fatiga Menor"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Debilidad de arma inferior"
+msgstr "Debilidad menor del arma"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -98,11 +98,11 @@ msgstr "Aturdido"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr "Enfoque de daño"
+msgstr "Daño focalizado"
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr "Enfoqué en la precisión"
+msgstr "Precisión enfocada"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
@@ -122,7 +122,7 @@ msgstr "Bendición de regeneración de las sombras"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Bendición de precisión de la Sombra."
+msgstr "Bendición de precisión de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -365,7 +365,7 @@ msgstr "Saciedad"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
-msgstr "Congelación menor"
+msgstr "Congelación leve"
 
 #: actorconditions_omi2.json:frozen2
 msgid "Icy wounds"
@@ -385,7 +385,7 @@ msgstr "Plaga de la Muerte"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr "Somnambulismo"
+msgstr "Sonambulismo"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -445,7 +445,7 @@ msgstr "Oh sí, había algunas cosas con las que necesito ayuda, pan y ratas. ¿
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "¿Y qué hay del pan?"
+msgstr "¿Que pasa con el pan?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
@@ -457,7 +457,7 @@ msgstr "¿Qué pasa con las ratas?"
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr "No importa, hablemos de las otras cosas."
+msgstr "No importa, hablemos de otras cosas."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
@@ -579,7 +579,7 @@ msgstr "Una cosa más. Mira esa canasta que está allí en el piso. Pertenece a 
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr "¿Mataste a esas dos ratas de nuestro jardín?"
+msgstr "¿Mataste a esas dos ratas en nuestro jardín?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
@@ -645,7 +645,9 @@ msgstr "Si eso sucede, quizás el sacerdote del pueblo pueda hacer algo para ayu
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr "Yo no puedo pagar la carne, !así que me quedo con el pan!"
+msgstr ""
+"Yo, realmente no me puedo permitir la carne, ¡así que solo me quedo con mi "
+"pan!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -663,7 +665,7 @@ msgstr "Por favor mostrame tus mercancías."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr "¿De casualidad tienes un pico?"
+msgstr "¿Por casualidad tienes un pico?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -2148,7 +2150,7 @@ msgstr "Oh bien. Ese guardia me echó de la taberna. Si lo vuelvo a ver, le most
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_4
 msgid "Drink drink drink, drink some more. Drink, drink ... Uh how did it go again?"
-msgstr "Bebe, bebe, bebe, bebe un poco más. Bebe, bebe, bebe... ¿Cómo vas ahora?"
+msgstr "Bebe, bebe, bebe un poco más. Bebe, bebe ... Uh ¿cómo te fue otra vez?"
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_5
 msgid "Were you saying something? Where was I? Yes, so we were in this dungeon."
@@ -8499,7 +8501,7 @@ msgstr "Hola de nuevo. ¿Te las arreglaste para eliminar a ese bastardo señor d
 #: conversationlist_prim_guthbered.json:guthbered_killharl_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:3
 msgid "Can you tell me again what I was supposed to do?"
-msgstr "¿Puedes decirme de nuevo qué se supone que debo hacer?"
+msgstr "¿Puedes decirme de nuevo qué se suponía que debía hacer?"
 
 #: conversationlist_prim_guthbered.json:guthbered_killharl_1:1
 msgid "Not yet. I am still working on it."
@@ -10099,7 +10101,7 @@ msgstr "Entonces parece un libro valioso. Esto suena interesante, por favor, con
 #: conversationlist_stoutford_combined.json:odirath_1_1:0
 #: conversationlist_gison.json:nimael_1:0
 msgid "What happened?"
-msgstr "¿Qué ha ocurrido?"
+msgstr "¿Qué ha paso?"
 
 #: conversationlist_erinith.json:erinith_story_4
 msgid ""
@@ -14078,7 +14080,7 @@ msgstr "No, no, no hablamos de ninguna recompensa. Pero podría haber una para t
 
 #: conversationlist_ulirfendor.json:ulirfendor_1
 msgid "No! Stay away! You shall not defeat me!"
-msgstr "¡No! ¡No te acerques! ¡No me derrotarás!"
+msgstr "¡No! ¡Aléjate! ¡No me derrotarás!"
 
 #: conversationlist_ulirfendor.json:ulirfendor_2
 msgid "Oh wait, you are not one of them. You ... you are not one of those spawns."
@@ -20624,7 +20626,7 @@ msgstr "¿Qué misión?"
 
 #: conversationlist_lodarfg.json:lodar_fg1_3:1
 msgid "What has happened?"
-msgstr "¿Qué ha ocurrido?"
+msgstr "¿Qué ha sucedido?"
 
 #: conversationlist_lodarfg.json:lodar_fg1_4
 msgid "Me and some other guards were sent here to find a madman that is wanted by the Feygard authorities."
@@ -21864,7 +21866,10 @@ msgstr "Oh, ya veo. ¿Intentas robarme a mí en su lugar? Bueno, entonces, no se
 
 #: conversationlist_highwayman1.json:highwayman1_7
 msgid "Oh no no, are you accusing me of robbing you? That's not the case at all. I'm just asking for 500 gold so that you won't be robbed of all your possessions while travelling down this road."
-msgstr "Oh no, no, ¿me estás acusando de robarte? Ese no es el caso en absoluto. Sólo pido 500 monedas de oro para que no te roben todas tus posesiones mientras viajas por este camino."
+msgstr ""
+"Oh no no, ¿me estás acusando de robarte? Esa no es la situación en absoluto. "
+"Solo estoy pidiendo 500 monedas de oro para evitar que te roben todas tus "
+"posesiones mientras viajas por este camino."
 
 #: conversationlist_highwayman1.json:highwayman1_7:0
 msgid "OK. Here is 500 gold."
@@ -23754,7 +23759,7 @@ msgstr "Te lo merecías."
 
 #: conversationlist_stoutford.json:glasforn_rumblings103_0:1
 msgid "Well done."
-msgstr "Bien hecho."
+msgstr "Magnífico."
 
 #: conversationlist_stoutford.json:glasforn_rumblings103_1
 msgid "Boohoohoo..."
@@ -31039,7 +31044,7 @@ msgstr "Este parece un pequeño dragón."
 
 #: conversationlist_stoutford_combined.json:stn_colonel_142
 msgid "Nicely done."
-msgstr "Bien hecho."
+msgstr "Bien hecho camarada."
 
 #: conversationlist_stoutford_combined.json:stn_colonel_143
 msgid "Lost against a little worm. Well, well, well."
@@ -35355,7 +35360,7 @@ msgstr "¿Interesante? ¿O tal vez extraño? ¿Qué hizo?"
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8e
 msgid "No no no, I won't tell you of course."
-msgstr "No, no, no, claro que no te diré."
+msgstr "No no no, claro que no te diré."
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8f
 msgid "But here, take this little thing that I 'borrowed' from him."
@@ -35580,7 +35585,7 @@ msgstr "Tienes razón. Mejor hoy."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_18
 msgid "Today!!?"
-msgstr "¿Hoy?!!"
+msgstr "Hoy!!?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_18:0
 msgid "Sure. When, if not now?"
@@ -43994,7 +43999,9 @@ msgstr "Ata la vid a la roca."
 msgid ""
 "Haha. This rock looks like my brother Andor. \n"
 "I think I've been on the trail too long... I'm going crazy."
-msgstr "Jaja, Esta roca se parece a mi hermano Andor. Creo que he estado mucho tiempo en el sendero...  Me estoy volviendo loco."
+msgstr ""
+"Jaja, Esta roca se parece a mi hermano Andor.\n"
+"Creo que he estado mucho tiempo en el sendero... Me estoy volviendo loco."
 
 #: conversationlist_omi2.json:bwm17_vine2_1a
 msgid "If I could find something like a rope, I could use it to lower myself into that hole."
@@ -45639,11 +45646,11 @@ msgstr "¿Y los g..guardias? "
 
 #: conversationlist_omi2.json:prim_tavern_guest4_12a:0
 msgid "They considered it an accident and left it be."
-msgstr ""
+msgstr "Lo consideraron un accidente y lo dejaron estar."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_12a:1
 msgid "The guards? Those lazy fools won't do anything."
-msgstr ""
+msgstr "¿Los guardias? Esos tontos perezosos no harán nada."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_14b
 msgid "Uuugh... I'm, I'm not. I drank too much mead. Day by day, since... since Kirg's dea...death."
@@ -54875,7 +54882,7 @@ msgstr "Ahora, descubramos dónde Gruiik guarda su suministro de huesos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_100
 msgid "I hope  you have finally found my artifact?"
-msgstr "Espero que hayas encontrado finalmente mi artefacto."
+msgstr "Espero  ¿Finalmente has encontrado mi artefacto?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_100:0
 msgid "Eh, no, not yet."
@@ -65034,8 +65041,12 @@ msgid ""
 "\n"
 "[Quest is not completable at this time.]"
 msgstr ""
-"[OUTDATED]Nocmar me dijo que era herrero. Pero Lord Geomyr ha prohibido el uso del corazón de acero, así que ya no puede forjar sus armas.\n"
-"Si puedo encontrar una piedra corazón y traerla a Nocmar, él debería ser capaz de forjar de nuevo el corazón de acero."
+"Nocmar me dice que solía ser un herrero. Pero el Señor Geomyr ha prohibido "
+"el uso del acero del corazón, así que ya no puede forjar sus armas.\n"
+"Si puedo encontrar una piedra del corazón y llevársela a Nocmar, debería "
+"poder forjar el acero del corazón nuevamente.\n"
+"\n"
+"[La misión no se puede completar en este momento.]"
 
 #: questlist.json:nocmar:200
 msgid "I have brought a heartstone to Nocmar. He should have heartsteel items available now."
@@ -68114,7 +68125,11 @@ msgid ""
 "Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet...\n"
 "\n"
 "[Quest is not completable at this time.]"
-msgstr "[OUTDATED]Burhczyd ya no estaba vestido como un caballero de Elythom. Dijo que iba a casarse con la chica más bonita del mundo, aunque ella todavía no lo sabía..."
+msgstr ""
+"Burhczyd ya no vestía como un caballero de Elythom. Dijo que se va a casar "
+"con la chica más bonita del mundo; solo que ella aún no lo sabe...\n"
+"\n"
+"[La misión no se puede completar en este momento.]"
 
 #: questlist_burhczyd.json:quest_burhczyd:120
 msgid "You've met Burhczyd 12"
@@ -69868,7 +69883,7 @@ msgstr "Brimhaven"
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
