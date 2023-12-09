@@ -12,6 +12,8 @@ import android.graphics.Bitmap;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 
+import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.LruCache;
 
 public final class TileCache {
@@ -39,7 +41,12 @@ public final class TileCache {
 		tileIDsPerLocalID.put(localID, tileID);
 	}
 	public int getTileID(String tileSetName, int localID) {
-		return tileIDsPerTilesetAndLocalID.get(tileSetName).get(localID);
+
+		SparseIntArray sparseIntArray = tileIDsPerTilesetAndLocalID.get(tileSetName);
+		if(AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES && sparseIntArray == null){
+			L.log("Could not get tile " + tileSetName + " " + localID);
+		}
+		return sparseIntArray.get(localID);
 	}
 
 	private static final class ResourceFileTile {
@@ -67,6 +74,9 @@ public final class TileCache {
 		HashMap<ResourceFileTileset, SparseArray<ResourceFileTile>> tilesToLoadPerSourceFile = new HashMap<ResourceFileTileset, SparseArray<ResourceFileTile>>();
 		for(int tileID : iconIDs) {
 			ResourceFileTile tile = resourceTiles[tileID];
+			if(tile == null && AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+				L.log("could not find resourceTiles for id: " + tileID);
+			}
 			SparseArray<ResourceFileTile> tiles = tilesToLoadPerSourceFile.get(tile.tileset);
 			if (tiles == null) {
 				tiles = new SparseArray<TileCache.ResourceFileTile>();

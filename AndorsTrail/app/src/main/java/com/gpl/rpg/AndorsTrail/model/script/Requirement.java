@@ -21,6 +21,10 @@ public final class Requirement {
 		,random
 		,factionScoreEquals
 		,wearRemove
+		,date
+		,dateEquals
+		,time
+		,timeEquals
 	}
 
 	public final RequirementType requireType;
@@ -83,6 +87,10 @@ public final class Requirement {
 			case skillLevel:
 				return requireID != null && value >= 0;
 			case spentGold:
+			case date:
+			case dateEquals:
+			case time:
+			case timeEquals:
 				return value >= 0;
 			case random:
 				return chance != null;
