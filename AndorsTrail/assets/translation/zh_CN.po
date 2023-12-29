@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-12-20 12:15+0000\n"
-"Last-Translator: aircqsj <11285819@qq.com>\n"
+"PO-Revision-Date: 2023-12-30 15:08+0000\n"
+"Last-Translator: CloneWith <clonewith@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -461,12 +461,12 @@ msgstr "哦，是的，我有一些事情需要帮忙，面包和老鼠。你想
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "关于面包？"
+msgstr "面包如何？"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr "关于老鼠？"
+msgstr "老鼠如何？"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
@@ -565,7 +565,7 @@ msgstr "不客气。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "我刚才在花园里看到一些老鼠。你能去杀掉视野范围内的老鼠吗。"
+msgstr "我刚才在花园里看到一些老鼠。你能去杀掉视野范围内的老鼠吗？"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -573,11 +573,11 @@ msgstr "我已经处理过老鼠了。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:1
 msgid "OK, I'll go check out in our garden."
-msgstr "好的，我去我们的花园看看。"
+msgstr "好的，我就去花园看看。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
-msgstr "如果你被老鼠伤害到了，回到这里并且在你的床上休息。这样你就可以恢复体力了。"
+msgstr "如果你被老鼠伤到了，就回这儿在床上休息。这样你就可以恢复体力了。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
@@ -585,7 +585,8 @@ msgstr "另外，不要忘记检查你的物品。你应该还留着我给你的
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
-msgstr "好的，我明白了。如果我受伤了可以在这里休息，并且我应该检查我的背包以寻找有用的物品。"
+msgstr "好的，我明白了。如果我受伤了就可以在这里休息，并且我应该检查我的背包以寻找有"
+"用的物品。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
@@ -629,7 +630,7 @@ msgstr "这本书是某种日记，你可以在这本书中记录下你在路上
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr "你想拥有它吗？"
+msgstr "你想要吗？"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
@@ -655,7 +656,8 @@ msgstr "另一种恢复体力的方法是吃些东西。你可以在村公所里
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
-msgstr "如果发生这种情况，也许村里的牧师可以为你做点什么。 否则，就休息到你感觉好起来。"
+msgstr "如果发生这种情况，也许村里的牧师可以为你做点什么。 "
+"否则，就休息到你感觉好点为止。"
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
@@ -669,7 +671,7 @@ msgid ""
 msgstr ""
 "欢迎来到我的店铺！\n"
 "\n"
-"请浏览我精选的商品。"
+"请看看我精选的商品。"
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
@@ -886,7 +888,8 @@ msgstr "我听说你不久前和我兄弟谈过了。"
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
-msgstr "你哥哥？你是说安道尔？我可能知道一些信息，但是这些信息需要你付出代价。从那些毒蛇身上拿个毒腺给我，也许我就会告诉你。"
+msgstr "你哥哥？你是说安道尔？我可能知道点什么，但是需要你付出代价。从那些毒蛇身上拿"
+"个毒腺给我，也许我就会告诉你。"
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
@@ -906,7 +909,7 @@ msgstr "听着，孩子，我已经告诉过你了。"
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
-msgstr "昨天我和他谈过了。他问我是否认识一个叫奥马尔的人或诸如此类的人。我不知道他在说谁。"
+msgstr "昨天我和他谈过了。他问我是否认识一个叫奥马尔或那样的人。我不知道他在说谁。"
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
@@ -922,7 +925,7 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]你好孩子。难道你不是米哈伊尔的儿子吗？你有一个哥哥。\n"
+"你好孩子。你不是米哈伊尔的儿子吗？还有一个哥哥。\n"
 "\n"
 "我是利奥尼德，克罗斯山谷村的管家。"
 
@@ -942,7 +945,7 @@ msgstr "你的哥哥？不，今天我还没见到他呢。我想我看到他昨
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr "谢谢，我会去和格鲁尔谈谈。我还想谈点其他事。"
+msgstr "谢谢，我会去和格鲁尔谈谈。我还想谈点别的事。"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
@@ -954,7 +957,8 @@ msgstr "你知道，这里是克罗斯山谷村。主要靠的是农业生产。
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
-msgstr "我们有奥迪尔和他的铁匠铺在西南部，莉塔和她丈夫的小屋在西部，这个村公所在这里，你父亲的小屋在西北部。"
+msgstr "西南边是奥迪尔和他的铁匠铺，西边是莉塔和她丈夫的小屋，这里是村公所，西北边是"
+"你父亲的小屋。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
@@ -962,11 +966,11 @@ msgstr "差不多就是这样。我们努力过着平静的生活。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr "村里最近有什么活动吗？"
+msgstr "村里最近发生了什么吗？"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr "让我们回到我们谈论的其他事情上。"
+msgstr "让我们再谈谈别的。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
@@ -974,7 +978,8 @@ msgstr "也许你可能已经注意到最近一些骚乱了。几周前，一些
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
-msgstr "吉奥米尔勋爵发表了关于非法使用骨粉作为治疗药物的声明。一些村民认为我们不应该听从吉奥米尔勋爵的话，并继续使用它。"
+msgstr "吉奥米尔勋爵发表了关于非法使用骨粉作为治疗药物的声明。一些村民认为我们不应该"
+"听从吉奥米尔勋爵的话，仍在继续使用它。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
@@ -1061,7 +1066,7 @@ msgstr "走在暗影的光辉里，我的孩子。"
 #: conversationlist_crossglen_tharal.json:tharal1:1
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1:0
 msgid "What can you tell me about bonemeal?"
-msgstr "你能告诉我关于骨粉的事吗?"
+msgstr "你能告诉我关于骨粉的事吗？"
 
 #: conversationlist_crossglen_tharal.json:tharal1:2
 #: conversationlist_fallhaven_potions.json:fallhaven_potions:1
@@ -1070,13 +1075,13 @@ msgstr "你知道有什么办法来治疗食物中毒吗？"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
-msgstr "骨粉?我们不应该谈论那个。吉奥米尔勋爵发布了一条法令。这是不允许使用的。"
+msgstr "骨粉？我们不应该谈那个。吉奥米尔勋爵发布了一条法令，不再允许使用它了。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
 #: conversationlist_prim_arghest.json:arghest_6:1
 #: conversationlist_prim_arghest.json:arghest_7:0
 msgid "Please?"
-msgstr "请？"
+msgstr "拜托了？"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1
 msgid "No, we really shouldn't talk about that."
@@ -1096,7 +1101,7 @@ msgstr "看这，我有昆虫翅膀。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:1
 msgid "OK, I'll bring them."
-msgstr "好的，我要带它们。"
+msgstr "好的，我会带来的。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal3
 msgid "Thanks kid. I knew I could count on you."
@@ -1104,15 +1109,15 @@ msgstr "谢谢你，孩子。我就知道可以信赖你。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal4
 msgid "Oh yes, bonemeal. Mixed with the right components it can be one of the most effective healing agents around."
-msgstr "哦,是的,骨粉。与合适的成分混合在一起，它可以成为最有效的治疗药物之一。"
+msgstr "哦，是的，骨粉。与合适的成分混合在一起，它可以成为最有效的治疗药物之一。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
-msgstr "我们以前广泛地使用它。但是现在那个混蛋吉奥米尔领主已经禁止了对它所有的使用。"
+msgstr "我们以前广泛地使用它，但现在那个混蛋吉奥米尔领主已经禁止其任意使用。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
 msgid "How am I supposed to heal people now? Using regular healing potions? Bah, they're so ineffective."
-msgstr "我现在该怎么治疗病人呢？使用常规的治疗药水？呸，它们根本没用。"
+msgstr "我现在该怎么治疗病人呢？用常规的治疗药水吗？呸，根本没用。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
@@ -1120,7 +1125,7 @@ msgstr "如果你有兴趣的话，我知道有个人还有骨粉。去找索罗
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
-msgstr "不,抱歉。我听说在法尔海文的药剂师可以制造一些东西来治疗它。"
+msgstr "不，抱歉。我听说法尔海文的药剂师可以做些东西治疗它。"
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
@@ -1129,11 +1134,11 @@ msgstr "你应该去看看他，问问他有没有什么可以帮你的。他可
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2:0
 #: conversationlist_fallhaven_unnmir.json:unnmir_13:0
 msgid "Thanks, I'll go see him."
-msgstr "谢谢，我要去见他。"
+msgstr "谢谢，我会去见他。"
 
 #: conversationlist_crossglen_leta.json:leta1
 msgid "Hey, this is my house, get out of here!"
-msgstr "嘿，这是我的房子，赶快离开！"
+msgstr "嘿，这是我房子，快出去！"
 
 #: conversationlist_crossglen_leta.json:leta1:0
 msgid "But I was just ..."
@@ -1152,7 +1157,7 @@ msgstr "奥马尔派我来的。"
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
-msgstr "滚，死小孩，滚出我的房子!"
+msgstr "滚，死小孩，滚出我的房子！"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1
 msgid ""
@@ -1176,15 +1181,15 @@ msgstr "是的，我找到他了。他藏在东边的树丛中。"
 #: conversationlist_crossglen_leta.json:leta_oromir1:3
 #: conversationlist_crossglen_leta.json:leta_oromir1:4
 msgid "[Lie] I have no idea."
-msgstr "[谎言] 我不知道。"
+msgstr "【撒谎】我不知道。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:5
 msgid "He's found a new hiding spot."
-msgstr "他找到了一个新的藏身之处。"
+msgstr "他找到新的藏身之处了。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:6
 msgid "He's found another new hiding spot. Give him credit, he is great at avoiding work."
-msgstr "他又找到了一个新的藏身之处，真不错，他很会逃避工作。"
+msgstr "又找到新藏身处了。真不错，他很会逃避工作啊。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:7
 msgid "He's in your basement."
@@ -1198,15 +1203,15 @@ msgid ""
 "If you see him, tell him to hurry back here and help me with the housework.\n"
 "Now get out of here!"
 msgstr ""
-"如果你见到他，叫他滚回来帮我做家务。\n"
-"现在滚出去!"
+"如果你见到他，叫他快点滚回来帮我做家务。\n"
+"现在滚出去！"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete
 msgid ""
 "Hiding is he? That's not surprising. I'll go let him know who's the boss around here.\n"
 "Thanks for letting me know though."
 msgstr ""
-"他藏起来了吗？ 这并不奇怪。我会告诉他这附近谁才是老大。\n"
+"他藏起来了吗？ 这并不奇怪。我会告诉他这边谁才是老大。\n"
 "谢谢你告诉我。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete2
@@ -1230,7 +1235,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:edrin_0_0
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr "你好."
+msgstr "你好。"
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -1239,7 +1244,7 @@ msgstr "我在这里躲避我的妻子莉塔。她总是生我的气，因为我
 #: conversationlist_crossglen_leta.json:oromir2:0
 #: conversationlist_algangror.json:algangror_remgard_5:1
 msgid "[Lie] OK."
-msgstr "（说谎）好的。"
+msgstr "【说谎】好的。"
 
 #: conversationlist_crossglen_leta.json:oromir2:1
 msgid "Your secret is safe with me."
@@ -1247,7 +1252,7 @@ msgstr "你的秘密在我这很安全。"
 
 #: conversationlist_crossglen_odair.json:odair1
 msgid "Oh, it's you. You with that brother of yours. Always causing trouble."
-msgstr "哦,是你。你和你哥哥总是一起制造麻烦。"
+msgstr "哦，是你。你和你哥哥总是一起制造麻烦。"
 
 #: conversationlist_crossglen_odair.json:odair2
 msgid "Hmm, maybe you could be of use to me. Do you think you could help me with a small task?"
@@ -1255,7 +1260,7 @@ msgstr "嗯，也许你会对我有用。你能帮我做一个小任务吗？"
 
 #: conversationlist_crossglen_odair.json:odair2:0
 msgid "Tell me more about this task."
-msgstr "告诉我更多关于这项任务的信息。"
+msgstr "关于这项任务，请再多说说。"
 
 #: conversationlist_crossglen_odair.json:odair2:1
 msgid "Sure, if there is anything I can gain from it."
@@ -1279,7 +1284,8 @@ msgstr "当然，我会帮助你的。但这只是因为我可能会从中获益
 
 #: conversationlist_crossglen_odair.json:odair5
 msgid "I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again."
-msgstr "我需要你进入那个洞穴，杀死那只大老鼠，这样也许我们就能阻止洞里老鼠的侵扰，重新开始用它来做我们以前的补给洞了。"
+msgstr "我需要你进入洞穴杀死那只大老鼠，这样说不定就能阻止洞里老鼠的侵扰，将其再当做"
+"补给洞用了。"
 
 #: conversationlist_crossglen_odair.json:odair5:0
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1:0
@@ -1311,7 +1317,7 @@ msgstr "好的。"
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
-msgstr "仔细想了想，我想我根本帮不了你。"
+msgstr "我仔细考虑过了，觉得根本帮不了你。"
 
 #: conversationlist_crossglen_odair.json:odair_cowards
 msgid "I didn't think so either. You and that brother of yours always were cowards."
@@ -1345,11 +1351,11 @@ msgstr "再见。"
 
 #: conversationlist_crossglen_odair.json:odair_continue
 msgid "Did you kill that large rat in the cave west of here?"
-msgstr "你在西边的山洞里杀了那只大老鼠吗?"
+msgstr "你杀了西边山洞里的那只大老鼠吗？"
 
 #: conversationlist_crossglen_odair.json:odair_continue:0
 msgid "Yes, I have killed the large rat."
-msgstr "是的，我杀了那只大老鼠。"
+msgstr "是的，我把那只大老鼠杀了。"
 
 #: conversationlist_crossglen_odair.json:odair_continue:1
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:0
@@ -1376,7 +1382,8 @@ msgstr "再说一次我该做些什么?"
 
 #: conversationlist_crossglen_odair.json:odair_complete
 msgid "Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help."
-msgstr "非常感谢你的帮助，孩子!也许你和你哥哥不像我想的那么懦弱。来，这些硬币是你的酬劳。"
+msgstr "非常感谢你的帮助，孩子！也许你和你哥哥不像我想的那么懦弱。来，这些硬币是你的"
+"酬劳。"
 
 #: conversationlist_crossglen_odair.json:odair_complete:0
 #: conversationlist_thievesguild_1.json:thievesguild_thief_4:0
@@ -1401,15 +1408,15 @@ msgstr "非常感谢你早些时候的帮助。现在我们可以重新使用那
 
 #: conversationlist_jan.json:jan_default
 msgid "Hello kid. Please leave me to my mourning."
-msgstr "孩子。请让我安静地哀悼。"
+msgstr "孩子。请让我独自哀悼。"
 
 #: conversationlist_jan.json:jan_default:0
 msgid "What is the problem?"
-msgstr "什么是问题？"
+msgstr "怎么了？"
 
 #: conversationlist_jan.json:jan_default:1
 msgid "Do you want to talk about it?"
-msgstr "你想谈谈吗？"
+msgstr "你想谈谈那件事吗？"
 
 #: conversationlist_jan.json:jan_default:2
 #: conversationlist_jan.json:jan_default2:1
@@ -1441,19 +1448,20 @@ msgstr "哦，那太令人伤心了。我真的不想谈这件事。"
 #: conversationlist_algangror.json:algangror_story:0
 #: conversationlist_brimhaven2.json:brv_school_seated_20:0
 msgid "Please do."
-msgstr "请吧。"
+msgstr "拜托谈谈吧。"
 
 #: conversationlist_jan.json:jan_default3
 msgid "Well, I guess it's OK to tell you. You seem to be a nice enough kid."
-msgstr "我可以告诉你。你是个不错的孩子。"
+msgstr "好吧，我应该可以告诉你。你似乎是个不错的孩子。"
 
 #: conversationlist_jan.json:jan_default4
 msgid "My friend Gandir, his friend Irogotu, and I were down here digging this hole. We had heard there was a hidden treasure down here."
-msgstr "我和我的朋友甘迪尔，他的朋友伊洛戈图一起在这里挖这个洞。我们听说这里有一个宝藏。"
+msgstr "我和我的朋友甘迪尔、他的朋友伊洛戈图一起在这里挖这个洞。我们听说这里埋藏着宝"
+"藏。"
 
 #: conversationlist_jan.json:jan_default5
 msgid "We started digging and finally broke through to the cave system below. That's when we discovered them. The critters and bugs."
-msgstr "我们一直挖掘，终于打通了下面的洞穴系统。这就是我们发现那些动物和虫子们的时候。"
+msgstr "我们一直挖掘，终于打通了下面的洞穴系统。这时我们发现了那些动物和虫子。"
 
 #: conversationlist_jan.json:jan_default6
 msgid ""
@@ -1461,7 +1469,7 @@ msgid ""
 "\n"
 "Gandir and I told Irogotu that we should stop the digging and leave while we still could."
 msgstr ""
-"哦,这些生物。该死的混蛋。他们差点杀了我。\n"
+"哦，这些生物，该死的混蛋。他们差点杀了我。\n"
 "\n"
 "甘迪尔和我劝告伊洛戈图，我们应该停止挖掘，趁我们还能离开的时候离开。"
 
@@ -1471,7 +1479,7 @@ msgstr "但伊洛戈图想继续深入地牢。他和甘迪尔发生了争执，
 
 #: conversationlist_jan.json:jan_default8
 msgid "That's when it happened. *sob* Oh what have we done?"
-msgstr "这就是那件事发生的时候，哦，我们做了什么？"
+msgstr "这就发生了那件事。*抽泣* 哦，我们都做了些什么？"
 
 #: conversationlist_jan.json:jan_default8:0
 #: conversationlist_ogam.json:ogam_2:1
@@ -1483,11 +1491,11 @@ msgstr "请继续。"
 
 #: conversationlist_jan.json:jan_default9
 msgid "Irogotu killed Gandir with his bare hands. You could see the fire in his eyes. He almost seemed to enjoy it."
-msgstr "伊洛戈图赤手空拳杀了甘迪尔。你可以看到他眼中的火焰。他似乎很享受。"
+msgstr "伊洛戈图徒手杀了甘迪尔。你可以看到他眼里有火。他似乎很享受。"
 
 #: conversationlist_jan.json:jan_default10
 msgid "I fled and haven't dared go back down there because of the critters and Irogotu himself."
-msgstr "我逃了出来，不敢再回到那里，因为那些怪物和伊洛戈图。"
+msgstr "我逃了出来，不敢再回到那里，因为有那些怪物和伊洛戈图。"
 
 #: conversationlist_jan.json:jan_default11
 msgid "Oh that damn Irogotu. If only I could get to him. I'd show him one thing and another."
@@ -1515,7 +1523,8 @@ msgstr "不，谢谢，我不想卷入这件事。这听起来很危险。"
 
 #: conversationlist_jan.json:jan_default12
 msgid "Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards."
-msgstr "真的吗?你能帮忙吗?嗯，也许你可以。不过要小心那些虫子，那些混蛋真的是很难对付。"
+msgstr "真的吗？你能帮忙吗？嗯，也许可以。不过要小心那些虫子，那些混蛋真的是很难对付"
+"。"
 
 #: conversationlist_jan.json:jan_default13
 msgid "If you really want to help, go find Irogotu down in the cave, and get me back Gandir's ring."
@@ -1534,7 +1543,7 @@ msgstr "你能再给我讲一遍这个故事吗?"
 #: conversationlist_jan.json:jan_default13:2
 #: conversationlist_prim_tavern.json:birgil_4:1
 msgid "Never mind, goodbye."
-msgstr "不要紧，再见。"
+msgstr "没关系，再见。"
 
 #: conversationlist_jan.json:jan_default14
 msgid "Return to me when you are done. Bring me Gandir's ring from Irogotu down in the cave."
@@ -1557,7 +1566,7 @@ msgstr "是的，我已经杀了伊洛戈图。"
 
 #: conversationlist_jan.json:jan_background
 msgid "Didn't you listen the first time I told you the story? Do I really have to tell you the story one more time?"
-msgstr "我第一次告诉你这个故事时你没听吗？我真的需要重复这个故事吗？"
+msgstr "我第一次告诉你这个故事时你没听吗？我真得再讲一遍吗？"
 
 #: conversationlist_jan.json:jan_background:0
 msgid "Yes, please tell me the story again."
@@ -1573,7 +1582,7 @@ msgstr "不，没关系。我现在记起来了。"
 
 #: conversationlist_jan.json:jan_complete2
 msgid "Thanks for dealing with Irogotu earlier! I am forever in debt to you."
-msgstr "谢谢你解决了伊洛戈图!我永远欠你一个人情。"
+msgstr "谢谢你解决了伊洛戈图！我永远欠你一个人情。"
 
 #: conversationlist_jan.json:jan_complete
 msgid ""
