@@ -298,6 +298,34 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("la1", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothisland1", "west", 0, 0);
+			}
+		})
+
+				,new DebugButton("la2", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island3", "cave", 0, 0);
+			}
+		})
+
+				,new DebugButton("#1", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway11_east", "west", 0, 0);
+			}
+		})
+
+				,new DebugButton("#2", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "mountainlake8", "north", 0, 0);
+			}
+		})
+
 		}));
 		buttonList.addAll(tpButtons2);
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-12-05 13:05+0000\n"
+"PO-Revision-Date: 2023-12-26 14:09+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -1075,6 +1075,7 @@ msgid "No, we really shouldn't talk about that."
 msgstr "Nie, naprawdę nie powinniśmy o tym rozmawiać."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1:0
+#: conversationlist_omi2.json:bwm_wellspring_1b:0
 msgid "Oh come on."
 msgstr "Nie bądź taki, powiedz."
 
@@ -3951,8 +3952,8 @@ msgid ""
 "West: Stoutford\n"
 "North: Fallhaven\n"
 "South: Sutdover River and Sullengard"
-msgstr "[OUTDATED]"
-"Zachód: Stoutford\n"
+msgstr ""
+"[OUTDATED]Zachód: Stoutford\n"
 "Północ: Fallhaven"
 
 #: conversationlist_signs_pre067.json:sign_wild10
@@ -29234,6 +29235,12 @@ msgstr "Czy mogłabyś mi dać swój specjał czyli miksturę zwinności?"
 msgid "Nice to see you happy again."
 msgstr "Miło widzieć Cię znów szczęśliwą."
 
+#: conversationlist_stoutford_combined.json:stoutford_widow2_10:3
+#: conversationlist_stoutford_combined.json:blornvale_shop1_8:3
+#: conversationlist_stoutford_combined.json:blornvale_shop2:3
+msgid "Do you happen to sell empty bottles?"
+msgstr ""
+
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2
 msgid "Did you kill this brute behind my house?"
 msgstr "Zabiłeś to bydlę za moim domem?"
@@ -31318,6 +31325,14 @@ msgstr "Dość gadania. Idź już!"
 #: conversationlist_stoutford_combined.json:erwyn_skel_band
 msgid "Please don't disturb. We have to practice."
 msgstr "Proszę nie przeszkadzać. Musimy ćwiczyć."
+
+#: conversationlist_stoutford_combined.json:stoutford_widow2_10_b
+msgid "No, unfortunately not. Maybe try my colleague in Fallhaven?"
+msgstr ""
+
+#: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
+msgid "Sigh - well, thanks."
+msgstr ""
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -44518,15 +44533,15 @@ msgstr "Dobrze, proszę pana. Dziękuję za radę."
 
 #: conversationlist_omi2.json:ortholion_guard_0c
 msgid "Hey kid! Can you do me a favor?"
-msgstr "Hej dzieciaku! Możesz zrobić coś dla mnie?"
+msgstr "Hej, młody! Możesz wyświadczyć mi przysługę?"
 
 #: conversationlist_omi2.json:ortholion_guard_0c:1
 msgid "No, sorry. Bye."
-msgstr "Nie, przepraszam. Do widzenia."
+msgstr "Przykro mi ale nie. Do widzenia."
 
 #: conversationlist_omi2.json:ortholion_guard_1c
 msgid "Yes, can you... Eh? Your brother? No idea. Is he from this village?"
-msgstr "Tak, czy możesz... Eh? Twój brat? Nie mam pojęcia. Czy on jest z tej wioski?"
+msgstr "Tak, czy możesz... Eh? Twój brat? Nie mam pojęcia. Czy on jest stąd?"
 
 #: conversationlist_omi2.json:ortholion_guard_1c:1
 msgid "No, he is not. But thanks anyway."
@@ -48550,6 +48565,18 @@ msgstr "To brzmi prawdziwie. Jesteś bardzo przekonującym mówcą."
 #: conversationlist_omi2.json:omi2_fix_ehrenfest_53
 msgid "You are wrong. I'm not here, just an illusion."
 msgstr "Mylisz się. Nie ma mnie tu, to tylko iluzja."
+
+#: conversationlist_omi2.json:bwm_wellspring_1a
+msgid "An empty flask would be also OK. Just an empty vial would be a little bit to small."
+msgstr ""
+
+#: conversationlist_omi2.json:bwm_wellspring_1b
+msgid "A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water."
+msgstr ""
+
+#: conversationlist_omi2.json:bwm_wellspring_1c
+msgid "And no: you can't just empty a bottle and use it."
+msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10
 msgid "Ah! You have finally returned, my new worker."
@@ -57366,9 +57393,11 @@ msgid "Hold on. Let me think...."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:captive_girl_65
-msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here tought her how to make them."
+#: conversationlist_mt_galmore.json:captive_girl_65
+msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them."
 msgstr ""
 
+#: conversationlist_mt_galmore.json:captive_girl_65:0
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 msgid "OK. Stay here. I will be back with more of them."
 msgstr ""
@@ -57636,6 +57665,26 @@ msgstr ""
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45:0
 msgid "Oh, yeah, I forgot."
+msgstr ""
+
+#: conversationlist_mt_galmore.json:fix_stn_skeletons_10
+msgid "What a beautiful view from here."
+msgstr ""
+
+#: conversationlist_mt_galmore.json:fix_stn_skeletons_10:0
+msgid "Is that a skeleton that I see behind the hill?"
+msgstr ""
+
+#: conversationlist_mt_galmore.json:fix_stn_skeletons_20
+msgid "You think how to lure the skeleton back into the castle."
+msgstr ""
+
+#: conversationlist_mt_galmore.json:fix_stn_skeletons_20:0
+msgid "I could close the castle gates again."
+msgstr ""
+
+#: conversationlist_mt_galmore.json:fix_stn_skeletons_22
+msgid "What a strange idea. But who knows, maybe it helps?"
 msgstr ""
 
 #: conversationlist_omifix2.json:capvjern_23

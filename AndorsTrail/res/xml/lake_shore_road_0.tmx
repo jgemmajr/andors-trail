@@ -213,7 +213,7 @@
  </layer>
  <layer id="6" name="Objects" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJyVVLtOw0AQPJ41TmEphdMDX4Es0RPIrwYlFISHcJwgQUVElIoisUOHBIKOWeeWW2/OBkZane1bz+1r7igyJoa1YSewU9gYdg/bahmzDZM4D1frofVvq5WfGbHlZOh95qsC+yaBi09zEGZBme8M+53IrfyN8dIox6NznSu+p8DtMWeGb/tYDwTvRPhp0Jky3wf89xhV+xPSGr5iPyznWHzD8+gX3hvs38IW4O+D4zksxz7He2Yt9/ToCv9e2zNmKkbdU+J6hb3tGTPF+mX3qR7HInbuCYPi6sLG1n8D/dmEJeGK51NwMTo1eVfN2oeHpwqsDQLVXmtAI28as2z6uTi/rq0/19GnuzrOhZhVOadT1RfdJ8njizO1NdlBLLstd08U/pZLz6ePh8/tiXrFFfX6D+7C8r3gq5ueKQmqldzn+ZgE6/3UWuWcMo8+e/DrR45PnkH3SoK9YbSu2x8fpTmu9UjMC9mFZ2YTEQ+dy9pbWi3zfOQqR8qH4r3E+6CmL6S994bTn7xb6Zk1SpB64/uGIO8n1vJf9JfW+HBexDcUft++CZU4
+   eJyVVLtOw0AQPJ41TmEphdMDX4Es0RPIT/CBQQlFeAnHCRJURESpKBI7dEgg6Jh1brn15mzESKuzfeu5fc0dRcbEsDbsBHYKG8MeYFstY7ZhEhfhaj20/m218jMjtpwMvc98VWDfJHDxaQ7CLCjznWG/E7mVvzFeG+V4dK5zxfccuD3mzPBtH+uB4J0IPw06U+b7iP+eomp/QlrDV+yH5RyLb3ge/cF7i/072AL8fXC8hOXY53jPrOWeHl3j3xt7xkzFqHtKXG+w9z1jpli/7T7V41jEzj1hUFxd2Nj6b6A/m7AkXPF8CS5Gpybvqln79PBUgbVBoNprDWjkTWOWTT8X59e19ec6+nRXx7kQsyrndKr6ovskeXxxprYmO4hlt+XuicLfcun59PHwuT1Rr7iiXv/BfVi+F3x10zMlQbWS+zwfk2C9n1qrnFPm0WcPfv3I8ckz6F5JsDeM1nX766M0x7UeiXkhu/TMbCLioXNZe0urZZ6PXOVI+VC8A7xf1fSFtPfRcPqTdys9s0YJUm983xDk/cRa1vo79/QtrdEo50V8Q+H3A+DXlbQ=
   </data>
  </layer>
  <layer id="7" name="Above_reg_tree" width="20" height="22">
@@ -236,101 +236,100 @@
    eJy1VEEKwDAM6iv2/y/0h2PXolGTVSgsdJqY4faz1hYHweWoWgFxkQaqz3dRX8cr45zPKSbcSsfR7fZGvpO9TeZwfd0E2zWbLfXncKbfDukkWVc9qmx28qZwU7OqXS67/3NeF8xT8j9De0hyoDLU2QvS/84LocpkSA==
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents_crystals">
+ <objectgroup id="11" name="Mapevents_crystals">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="15" name="c1" type="mapchange" x="544" y="448" width="32" height="32">
+  <object id="1" name="c1" type="mapchange" x="544" y="448" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_0"/>
     <property name="place" value="c2"/>
    </properties>
   </object>
-  <object id="16" name="c2" type="mapchange" x="512" y="544" width="32" height="32">
+  <object id="2" name="c2" type="mapchange" x="512" y="544" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_0"/>
     <property name="place" value="c3"/>
    </properties>
   </object>
-  <object id="17" name="c3" type="mapchange" x="448" y="480" width="32" height="32">
+  <object id="3" name="c3" type="mapchange" x="448" y="480" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_0"/>
     <property name="place" value="c1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="96" y="672" width="448" height="32">
+ <objectgroup id="12" name="Mapevents">
+  <object id="4" name="south" type="mapchange" x="96" y="672" width="448" height="32">
    <properties>
     <property name="map" value="lake_shore_road_2"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="east" type="mapchange" x="608" y="32" width="32" height="608">
+  <object id="5" name="east" type="mapchange" x="608" y="32" width="32" height="608">
    <properties>
     <property name="map" value="lake_shore_road_1"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="3" name="north" type="mapchange" x="320" y="0" width="128" height="32">
+  <object id="6" name="north" type="mapchange" x="320" y="0" width="128" height="32">
    <properties>
     <property name="map" value="wild7"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="4" name="west" type="mapchange" x="0" y="160" width="32" height="512">
+  <object id="7" name="west" type="mapchange" x="0" y="160" width="32" height="512">
    <properties>
     <property name="map" value="flagstone_filler_east_1"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="5" name="wicked_witch_reveal_girl_selector" type="script" x="32" y="32" width="512" height="640">
+  <object id="8" name="wicked_witch_reveal_girl_selector" type="script" x="32" y="32" width="512" height="640">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="Spawn">
-  <object id="6" name="wolf_spawn1" type="spawn" x="64" y="32" width="64" height="96">
+ <objectgroup id="13" name="Spawn">
+  <object id="9" name="wolf_spawn1" type="spawn" x="64" y="32" width="64" height="96">
    <properties>
     <property name="spawngroup" value="wolf"/>
    </properties>
   </object>
-  <object id="7" name="wolf_spawn2" type="spawn" x="288" y="384" width="128" height="160">
+  <object id="10" name="wolf_spawn2" type="spawn" x="288" y="384" width="128" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="wolf"/>
    </properties>
   </object>
-  <object id="8" name="forest_serpent_spawn1" type="spawn" x="96" y="352" width="64" height="256">
+  <object id="11" name="forest_serpent_spawn1" type="spawn" x="96" y="352" width="64" height="256">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forest_serpent"/>
    </properties>
   </object>
-  <object id="9" name="forest_serpent_spawn2" type="spawn" x="192" y="128" width="256" height="192">
+  <object id="12" name="forest_serpent_spawn2" type="spawn" x="192" y="128" width="256" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="forest_serpent"/>
    </properties>
   </object>
-  <object id="10" name="stn_lizard_spawn1" type="spawn" x="192" y="576" width="320" height="64">
+  <object id="13" name="stn_lizard_spawn1" type="spawn" x="192" y="576" width="320" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="stn_lizard"/>
    </properties>
   </object>
-  <object id="13" name="witch_playing_kid" type="spawn" x="480" y="480" width="96" height="64">
+  <object id="14" name="witch_playing_kid" type="spawn" x="480" y="480" width="96" height="64">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="1"/>
     <property name="spawngroup" value="witch_playing_kid"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Keys"/>
- <objectgroup id="14" name="Replace">
-  <object id="11" name="reg_trees" type="replace" x="480" y="288" width="160" height="160">
+ <objectgroup id="14" name="Keys"/>
+ <objectgroup id="15" name="Replace">
+  <object id="15" name="reg_trees" type="replace" x="480" y="288" width="160" height="160">
    <properties>
     <property name="Above" value="Above_reg_tree"/>
     <property name="Ground" value="Ground_reg"/>
@@ -340,7 +339,7 @@
     <property name="requireValue" value="72"/>
    </properties>
   </object>
-  <object id="12" name="broken_pillar" type="replace" x="480" y="192" width="32" height="64">
+  <object id="16" name="broken_pillar" type="replace" x="480" y="192" width="32" height="64">
    <properties>
     <property name="Above" value="Top"/>
     <property name="Objects" value="Objects_broken_pillar"/>
@@ -349,7 +348,7 @@
     <property name="requireValue" value="72"/>
    </properties>
   </object>
-  <object id="14" name="crystals" type="replace" x="448" y="448" width="128" height="128">
+  <object id="17" name="crystals" type="replace" x="448" y="448" width="128" height="128">
    <properties>
     <property name="Objects" value="Objects_broken_pillar"/>
     <property name="requireId" value="sutdover_hidden"/>
