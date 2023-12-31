@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-05-25 12:30+0000\n"
-"Last-Translator: aircqsj <11285819@qq.com>\n"
+"PO-Revision-Date: 2023-12-30 18:08+0000\n"
+"Last-Translator: CloneWith <clonewith@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -82,7 +82,7 @@ msgstr "混沌之握"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr "混沌咒语"
+msgstr "混沌之咒"
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
@@ -389,19 +389,19 @@ msgstr "梦游"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "费加德效忠派"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "根基"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "狂犬病"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "恶趣味"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -461,12 +461,12 @@ msgstr "哦，是的，我有一些事情需要帮忙，面包和老鼠。你想
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "关于面包？"
+msgstr "面包如何？"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr "关于老鼠？"
+msgstr "老鼠如何？"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
@@ -565,7 +565,7 @@ msgstr "不客气。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "我刚才在花园里看到一些老鼠。你能去杀掉视野范围内的老鼠吗。"
+msgstr "我刚才在花园里看到一些老鼠。你能去杀掉视野范围内的老鼠吗？"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -573,11 +573,11 @@ msgstr "我已经处理过老鼠了。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:1
 msgid "OK, I'll go check out in our garden."
-msgstr "好的，我去我们的花园看看。"
+msgstr "好的，我就去花园看看。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
-msgstr "如果你被老鼠伤害到了，回到这里并且在你的床上休息。这样你就可以恢复体力了。"
+msgstr "如果你被老鼠伤到了，就回这儿在床上休息。这样你就可以恢复体力了。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
@@ -585,7 +585,8 @@ msgstr "另外，不要忘记检查你的物品。你应该还留着我给你的
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
-msgstr "好的，我明白了。如果我受伤了可以在这里休息，并且我应该检查我的背包以寻找有用的物品。"
+msgstr "好的，我明白了。如果我受伤了就可以在这里休息，并且我应该检查我的背包以寻找有"
+"用的物品。"
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
@@ -629,7 +630,7 @@ msgstr "这本书是某种日记，你可以在这本书中记录下你在路上
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr "你想拥有它吗？"
+msgstr "你想要吗？"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
@@ -655,7 +656,8 @@ msgstr "另一种恢复体力的方法是吃些东西。你可以在村公所里
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
-msgstr "如果发生这种情况，也许村里的牧师可以为你做点什么。 否则，就休息到你感觉好起来。"
+msgstr "如果发生这种情况，也许村里的牧师可以为你做点什么。 "
+"否则，就休息到你感觉好点为止。"
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
@@ -669,7 +671,7 @@ msgid ""
 msgstr ""
 "欢迎来到我的店铺！\n"
 "\n"
-"请浏览我精选的商品。"
+"请看看我精选的商品。"
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
@@ -886,7 +888,8 @@ msgstr "我听说你不久前和我兄弟谈过了。"
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
-msgstr "你哥哥？你是说安道尔？我可能知道一些信息，但是这些信息需要你付出代价。从那些毒蛇身上拿个毒腺给我，也许我就会告诉你。"
+msgstr "你哥哥？你是说安道尔？我可能知道点什么，但是需要你付出代价。从那些毒蛇身上拿"
+"个毒腺给我，也许我就会告诉你。"
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
@@ -906,7 +909,7 @@ msgstr "听着，孩子，我已经告诉过你了。"
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
-msgstr "昨天我和他谈过了。他问我是否认识一个叫奥马尔的人或诸如此类的人。我不知道他在说谁。"
+msgstr "昨天我和他谈过了。他问我是否认识一个叫奥马尔或那样的人。我不知道他在说谁。"
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
@@ -922,7 +925,7 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]你好孩子。难道你不是米哈伊尔的儿子吗？你有一个哥哥。\n"
+"你好孩子。你不是米哈伊尔的儿子吗？还有一个哥哥。\n"
 "\n"
 "我是利奥尼德，克罗斯山谷村的管家。"
 
@@ -942,7 +945,7 @@ msgstr "你的哥哥？不，今天我还没见到他呢。我想我看到他昨
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr "谢谢，我会去和格鲁尔谈谈。我还想谈点其他事。"
+msgstr "谢谢，我会去和格鲁尔谈谈。我还想谈点别的事。"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
@@ -954,7 +957,8 @@ msgstr "你知道，这里是克罗斯山谷村。主要靠的是农业生产。
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
-msgstr "我们有奥迪尔和他的铁匠铺在西南部，莉塔和她丈夫的小屋在西部，这个村公所在这里，你父亲的小屋在西北部。"
+msgstr "西南边是奥迪尔和他的铁匠铺，西边是莉塔和她丈夫的小屋，这里是村公所，西北边是"
+"你父亲的小屋。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
@@ -962,11 +966,11 @@ msgstr "差不多就是这样。我们努力过着平静的生活。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr "村里最近有什么活动吗？"
+msgstr "村里最近发生了什么吗？"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr "让我们回到我们谈论的其他事情上。"
+msgstr "让我们再谈谈别的。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
@@ -974,7 +978,8 @@ msgstr "也许你可能已经注意到最近一些骚乱了。几周前，一些
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
-msgstr "吉奥米尔勋爵发表了关于非法使用骨粉作为治疗药物的声明。一些村民认为我们不应该听从吉奥米尔勋爵的话，并继续使用它。"
+msgstr "吉奥米尔勋爵发表了关于非法使用骨粉作为治疗药物的声明。一些村民认为我们不应该"
+"听从吉奥米尔勋爵的话，仍在继续使用它。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
@@ -1061,7 +1066,7 @@ msgstr "走在暗影的光辉里，我的孩子。"
 #: conversationlist_crossglen_tharal.json:tharal1:1
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1:0
 msgid "What can you tell me about bonemeal?"
-msgstr "你能告诉我关于骨粉的事吗?"
+msgstr "你能告诉我关于骨粉的事吗？"
 
 #: conversationlist_crossglen_tharal.json:tharal1:2
 #: conversationlist_fallhaven_potions.json:fallhaven_potions:1
@@ -1070,13 +1075,13 @@ msgstr "你知道有什么办法来治疗食物中毒吗？"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
-msgstr "骨粉?我们不应该谈论那个。吉奥米尔勋爵发布了一条法令。这是不允许使用的。"
+msgstr "骨粉？我们不应该谈那个。吉奥米尔勋爵发布了一条法令，不再允许使用它了。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
 #: conversationlist_prim_arghest.json:arghest_6:1
 #: conversationlist_prim_arghest.json:arghest_7:0
 msgid "Please?"
-msgstr "请？"
+msgstr "拜托了？"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1
 msgid "No, we really shouldn't talk about that."
@@ -1096,7 +1101,7 @@ msgstr "看这，我有昆虫翅膀。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:1
 msgid "OK, I'll bring them."
-msgstr "好的，我要带它们。"
+msgstr "好的，我会带来的。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal3
 msgid "Thanks kid. I knew I could count on you."
@@ -1104,15 +1109,15 @@ msgstr "谢谢你，孩子。我就知道可以信赖你。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal4
 msgid "Oh yes, bonemeal. Mixed with the right components it can be one of the most effective healing agents around."
-msgstr "哦,是的,骨粉。与合适的成分混合在一起，它可以成为最有效的治疗药物之一。"
+msgstr "哦，是的，骨粉。与合适的成分混合在一起，它可以成为最有效的治疗药物之一。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
-msgstr "我们以前广泛地使用它。但是现在那个混蛋吉奥米尔领主已经禁止了对它所有的使用。"
+msgstr "我们以前广泛地使用它，但现在那个混蛋吉奥米尔领主已经禁止其任意使用。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
 msgid "How am I supposed to heal people now? Using regular healing potions? Bah, they're so ineffective."
-msgstr "我现在该怎么治疗病人呢？使用常规的治疗药水？呸，它们根本没用。"
+msgstr "我现在该怎么治疗病人呢？用常规的治疗药水吗？呸，根本没用。"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
@@ -1120,7 +1125,7 @@ msgstr "如果你有兴趣的话，我知道有个人还有骨粉。去找索罗
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
-msgstr "不,抱歉。我听说在法尔海文的药剂师可以制造一些东西来治疗它。"
+msgstr "不，抱歉。我听说法尔海文的药剂师可以做些东西治疗它。"
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
@@ -1129,11 +1134,11 @@ msgstr "你应该去看看他，问问他有没有什么可以帮你的。他可
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2:0
 #: conversationlist_fallhaven_unnmir.json:unnmir_13:0
 msgid "Thanks, I'll go see him."
-msgstr "谢谢，我要去见他。"
+msgstr "谢谢，我会去见他。"
 
 #: conversationlist_crossglen_leta.json:leta1
 msgid "Hey, this is my house, get out of here!"
-msgstr "嘿，这是我的房子，赶快离开！"
+msgstr "嘿，这是我房子，快出去！"
 
 #: conversationlist_crossglen_leta.json:leta1:0
 msgid "But I was just ..."
@@ -1152,7 +1157,7 @@ msgstr "奥马尔派我来的。"
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
-msgstr "滚，死小孩，滚出我的房子!"
+msgstr "滚，死小孩，滚出我的房子！"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1
 msgid ""
@@ -1176,15 +1181,15 @@ msgstr "是的，我找到他了。他藏在东边的树丛中。"
 #: conversationlist_crossglen_leta.json:leta_oromir1:3
 #: conversationlist_crossglen_leta.json:leta_oromir1:4
 msgid "[Lie] I have no idea."
-msgstr "[谎言] 我不知道。"
+msgstr "【撒谎】我不知道。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:5
 msgid "He's found a new hiding spot."
-msgstr "他找到了一个新的藏身之处。"
+msgstr "他找到新的藏身之处了。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:6
 msgid "He's found another new hiding spot. Give him credit, he is great at avoiding work."
-msgstr "他又找到了一个新的藏身之处，真不错，他很会逃避工作。"
+msgstr "又找到新藏身处了。真不错，他很会逃避工作啊。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:7
 msgid "He's in your basement."
@@ -1198,15 +1203,15 @@ msgid ""
 "If you see him, tell him to hurry back here and help me with the housework.\n"
 "Now get out of here!"
 msgstr ""
-"如果你见到他，叫他滚回来帮我做家务。\n"
-"现在滚出去!"
+"如果你见到他，叫他快点滚回来帮我做家务。\n"
+"现在滚出去！"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete
 msgid ""
 "Hiding is he? That's not surprising. I'll go let him know who's the boss around here.\n"
 "Thanks for letting me know though."
 msgstr ""
-"他藏起来了吗？ 这并不奇怪。我会告诉他这附近谁才是老大。\n"
+"他藏起来了吗？ 这并不奇怪。我会告诉他这边谁才是老大。\n"
 "谢谢你告诉我。"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete2
@@ -1230,7 +1235,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:edrin_0_0
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr "你好."
+msgstr "你好。"
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -1239,7 +1244,7 @@ msgstr "我在这里躲避我的妻子莉塔。她总是生我的气，因为我
 #: conversationlist_crossglen_leta.json:oromir2:0
 #: conversationlist_algangror.json:algangror_remgard_5:1
 msgid "[Lie] OK."
-msgstr "（说谎）好的。"
+msgstr "【说谎】好的。"
 
 #: conversationlist_crossglen_leta.json:oromir2:1
 msgid "Your secret is safe with me."
@@ -1247,7 +1252,7 @@ msgstr "你的秘密在我这很安全。"
 
 #: conversationlist_crossglen_odair.json:odair1
 msgid "Oh, it's you. You with that brother of yours. Always causing trouble."
-msgstr "哦,是你。你和你哥哥总是一起制造麻烦。"
+msgstr "哦，是你。你和你哥哥总是一起制造麻烦。"
 
 #: conversationlist_crossglen_odair.json:odair2
 msgid "Hmm, maybe you could be of use to me. Do you think you could help me with a small task?"
@@ -1255,7 +1260,7 @@ msgstr "嗯，也许你会对我有用。你能帮我做一个小任务吗？"
 
 #: conversationlist_crossglen_odair.json:odair2:0
 msgid "Tell me more about this task."
-msgstr "告诉我更多关于这项任务的信息。"
+msgstr "关于这项任务，请再多说说。"
 
 #: conversationlist_crossglen_odair.json:odair2:1
 msgid "Sure, if there is anything I can gain from it."
@@ -1279,7 +1284,8 @@ msgstr "当然，我会帮助你的。但这只是因为我可能会从中获益
 
 #: conversationlist_crossglen_odair.json:odair5
 msgid "I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again."
-msgstr "我需要你进入那个洞穴，杀死那只大老鼠，这样也许我们就能阻止洞里老鼠的侵扰，重新开始用它来做我们以前的补给洞了。"
+msgstr "我需要你进入洞穴杀死那只大老鼠，这样说不定就能阻止洞里老鼠的侵扰，将其再当做"
+"补给洞用了。"
 
 #: conversationlist_crossglen_odair.json:odair5:0
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1:0
@@ -1311,7 +1317,7 @@ msgstr "好的。"
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
-msgstr "仔细想了想，我想我根本帮不了你。"
+msgstr "我仔细考虑过了，觉得根本帮不了你。"
 
 #: conversationlist_crossglen_odair.json:odair_cowards
 msgid "I didn't think so either. You and that brother of yours always were cowards."
@@ -1345,11 +1351,11 @@ msgstr "再见。"
 
 #: conversationlist_crossglen_odair.json:odair_continue
 msgid "Did you kill that large rat in the cave west of here?"
-msgstr "你在西边的山洞里杀了那只大老鼠吗?"
+msgstr "你杀了西边山洞里的那只大老鼠吗？"
 
 #: conversationlist_crossglen_odair.json:odair_continue:0
 msgid "Yes, I have killed the large rat."
-msgstr "是的，我杀了那只大老鼠。"
+msgstr "是的，我把那只大老鼠杀了。"
 
 #: conversationlist_crossglen_odair.json:odair_continue:1
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:0
@@ -1376,7 +1382,8 @@ msgstr "再说一次我该做些什么?"
 
 #: conversationlist_crossglen_odair.json:odair_complete
 msgid "Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help."
-msgstr "非常感谢你的帮助，孩子!也许你和你哥哥不像我想的那么懦弱。来，这些硬币是你的酬劳。"
+msgstr "非常感谢你的帮助，孩子！也许你和你哥哥不像我想的那么懦弱。来，这些硬币是你的"
+"酬劳。"
 
 #: conversationlist_crossglen_odair.json:odair_complete:0
 #: conversationlist_thievesguild_1.json:thievesguild_thief_4:0
@@ -1401,15 +1408,15 @@ msgstr "非常感谢你早些时候的帮助。现在我们可以重新使用那
 
 #: conversationlist_jan.json:jan_default
 msgid "Hello kid. Please leave me to my mourning."
-msgstr "孩子。请让我安静地哀悼。"
+msgstr "孩子。请让我独自哀悼。"
 
 #: conversationlist_jan.json:jan_default:0
 msgid "What is the problem?"
-msgstr "什么是问题？"
+msgstr "怎么了？"
 
 #: conversationlist_jan.json:jan_default:1
 msgid "Do you want to talk about it?"
-msgstr "你想谈谈吗？"
+msgstr "你想谈谈那件事吗？"
 
 #: conversationlist_jan.json:jan_default:2
 #: conversationlist_jan.json:jan_default2:1
@@ -1441,19 +1448,20 @@ msgstr "哦，那太令人伤心了。我真的不想谈这件事。"
 #: conversationlist_algangror.json:algangror_story:0
 #: conversationlist_brimhaven2.json:brv_school_seated_20:0
 msgid "Please do."
-msgstr "请吧。"
+msgstr "拜托谈谈吧。"
 
 #: conversationlist_jan.json:jan_default3
 msgid "Well, I guess it's OK to tell you. You seem to be a nice enough kid."
-msgstr "我可以告诉你。你是个不错的孩子。"
+msgstr "好吧，我应该可以告诉你。你似乎是个不错的孩子。"
 
 #: conversationlist_jan.json:jan_default4
 msgid "My friend Gandir, his friend Irogotu, and I were down here digging this hole. We had heard there was a hidden treasure down here."
-msgstr "我和我的朋友甘迪尔，他的朋友伊洛戈图一起在这里挖这个洞。我们听说这里有一个宝藏。"
+msgstr "我和我的朋友甘迪尔、他的朋友伊洛戈图一起在这里挖这个洞。我们听说这里埋藏着宝"
+"藏。"
 
 #: conversationlist_jan.json:jan_default5
 msgid "We started digging and finally broke through to the cave system below. That's when we discovered them. The critters and bugs."
-msgstr "我们一直挖掘，终于打通了下面的洞穴系统。这就是我们发现那些动物和虫子们的时候。"
+msgstr "我们一直挖掘，终于打通了下面的洞穴系统。这时我们发现了那些动物和虫子。"
 
 #: conversationlist_jan.json:jan_default6
 msgid ""
@@ -1461,7 +1469,7 @@ msgid ""
 "\n"
 "Gandir and I told Irogotu that we should stop the digging and leave while we still could."
 msgstr ""
-"哦,这些生物。该死的混蛋。他们差点杀了我。\n"
+"哦，这些生物，该死的混蛋。他们差点杀了我。\n"
 "\n"
 "甘迪尔和我劝告伊洛戈图，我们应该停止挖掘，趁我们还能离开的时候离开。"
 
@@ -1471,7 +1479,7 @@ msgstr "但伊洛戈图想继续深入地牢。他和甘迪尔发生了争执，
 
 #: conversationlist_jan.json:jan_default8
 msgid "That's when it happened. *sob* Oh what have we done?"
-msgstr "这就是那件事发生的时候，哦，我们做了什么？"
+msgstr "这就发生了那件事。*抽泣* 哦，我们都做了些什么？"
 
 #: conversationlist_jan.json:jan_default8:0
 #: conversationlist_ogam.json:ogam_2:1
@@ -1483,11 +1491,11 @@ msgstr "请继续。"
 
 #: conversationlist_jan.json:jan_default9
 msgid "Irogotu killed Gandir with his bare hands. You could see the fire in his eyes. He almost seemed to enjoy it."
-msgstr "伊洛戈图赤手空拳杀了甘迪尔。你可以看到他眼中的火焰。他似乎很享受。"
+msgstr "伊洛戈图徒手杀了甘迪尔。你可以看到他眼里有火。他似乎很享受。"
 
 #: conversationlist_jan.json:jan_default10
 msgid "I fled and haven't dared go back down there because of the critters and Irogotu himself."
-msgstr "我逃了出来，不敢再回到那里，因为那些怪物和伊洛戈图。"
+msgstr "我逃了出来，不敢再回到那里，因为有那些怪物和伊洛戈图。"
 
 #: conversationlist_jan.json:jan_default11
 msgid "Oh that damn Irogotu. If only I could get to him. I'd show him one thing and another."
@@ -1515,7 +1523,8 @@ msgstr "不，谢谢，我不想卷入这件事。这听起来很危险。"
 
 #: conversationlist_jan.json:jan_default12
 msgid "Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards."
-msgstr "真的吗?你能帮忙吗?嗯，也许你可以。不过要小心那些虫子，那些混蛋真的是很难对付。"
+msgstr "真的吗？你能帮忙吗？嗯，也许可以。不过要小心那些虫子，那些混蛋真的是很难对付"
+"。"
 
 #: conversationlist_jan.json:jan_default13
 msgid "If you really want to help, go find Irogotu down in the cave, and get me back Gandir's ring."
@@ -1534,7 +1543,7 @@ msgstr "你能再给我讲一遍这个故事吗?"
 #: conversationlist_jan.json:jan_default13:2
 #: conversationlist_prim_tavern.json:birgil_4:1
 msgid "Never mind, goodbye."
-msgstr "不要紧，再见。"
+msgstr "没关系，再见。"
 
 #: conversationlist_jan.json:jan_default14
 msgid "Return to me when you are done. Bring me Gandir's ring from Irogotu down in the cave."
@@ -1557,7 +1566,7 @@ msgstr "是的，我已经杀了伊洛戈图。"
 
 #: conversationlist_jan.json:jan_background
 msgid "Didn't you listen the first time I told you the story? Do I really have to tell you the story one more time?"
-msgstr "我第一次告诉你这个故事时你没听吗？我真的需要重复这个故事吗？"
+msgstr "我第一次告诉你这个故事时你没听吗？我真得再讲一遍吗？"
 
 #: conversationlist_jan.json:jan_background:0
 msgid "Yes, please tell me the story again."
@@ -1573,7 +1582,7 @@ msgstr "不，没关系。我现在记起来了。"
 
 #: conversationlist_jan.json:jan_complete2
 msgid "Thanks for dealing with Irogotu earlier! I am forever in debt to you."
-msgstr "谢谢你解决了伊洛戈图!我永远欠你一个人情。"
+msgstr "谢谢你解决了伊洛戈图！我永远欠你一个人情。"
 
 #: conversationlist_jan.json:jan_complete
 msgid ""
@@ -9307,31 +9316,31 @@ msgstr "哦，是你。"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10
 msgid "Hey, psst."
-msgstr ""
+msgstr "嘿,嘘."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr ""
+msgstr "如果你想说的话,则要大声疾呼."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
-msgstr ""
+msgstr "哈伦是一位明智和强有力的领导人,但不幸的是,和古斯伯德一样,也是顽固的家伙."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12
 msgid "Thank you for not inciting the argument any further. Maybe someday there will be something like peace again."
-msgstr ""
+msgstr "谢谢你不再煽动争论。也许有一天会有类似和平的东西再次出现。"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12:0
 msgid "I wish it for you. Can I go in here?"
-msgstr ""
+msgstr "我为你祝福。我能进去吗？"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "好的.我相信你不会有任何错误."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[撒谎] 当然."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -25339,7 +25348,7 @@ msgstr "哦，你这个贪婪的、肮脏的、..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_380
 msgid "And here is the rose. Don't tell anybody that you got it from me."
-msgstr "这里是玫瑰。不要告诉任何人你是从我这里得到的。"
+msgstr "玫瑰给你。不要告诉任何人是从我这里得到的。"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_380:1
 msgid "Hmm, we will see."
@@ -32028,25 +32037,25 @@ msgstr "[OUTDATED]我可以看一下公会目前的物资吗？"
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
 msgid "I have found Defy and his men."
-msgstr ""
+msgstr "我找到了德菲和他的手下。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:6
 msgid "I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?"
-msgstr ""
+msgstr "我很困惑。我把你给我的假钥匙给了德菲，但我现在该怎么办？"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:8
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:10
 msgid "[Lie] I have deposited the 10000 gold. Here is your key back, as promised."
-msgstr ""
+msgstr "[谎言]我已经存了一万块金子。这是你的钥匙，正如承诺的那样。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:9
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10:0
 msgid "I encountered Defy and his men and was forced to kill them!"
-msgstr ""
+msgstr "我遇到了德菲和他的手下，被迫杀死了他们！"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:11
 msgid "Can I take a look at the Guild's current supplies?"
-msgstr ""
+msgstr "我可以看看公会目前的补给吗？"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10
 msgid "Hello, friend! Thank you for all you've done for me."
@@ -33762,7 +33771,7 @@ msgstr "真可惜。那就为我的技能准备更多的时间吧。"
 
 #: conversationlist_omicronrg9.json:umar_guild04_1a
 msgid "[Here, the story continues]"
-msgstr ""
+msgstr "【这里，故事还在继续】"
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4c
 msgid "Wha... what are you referring to?"
@@ -44013,7 +44022,7 @@ msgstr "我有一封信给你。"
 
 #: conversationlist_gorwath.json:arensia_1:2
 msgid "Hello. I am wondering if you could help me?"
-msgstr ""
+msgstr "你好.我想知道你能不能帮我？"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -54839,7 +54848,7 @@ msgstr "我当然知道出去的路。老鼠总是知道出去的路。"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10:0
 msgid "Great. Show me the way out of this rat infested place here."
-msgstr "伟大。告诉我如何离开这里这个老鼠出没的地方。"
+msgstr "好。告诉我如何离开这个老鼠出没的地方。"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10_10
 msgid "Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit."
@@ -54859,7 +54868,7 @@ msgstr "如果你这么说的话。那么这个奇迹在哪里呢？"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_52
 msgid "It is deep in the rat cave, of course. Use your eyes."
-msgstr "当然，它是在老鼠洞的深处。用你的眼睛。"
+msgstr "当然，它在老鼠洞深处。用你的眼睛。"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_52:0
 msgid "In our supply cave? That should be easy."
@@ -56300,1467 +56309,1496 @@ msgstr "不，对不起。我不能让你们使用我的厨房。但。。。"
 
 #: conversationlist_mt_galmore.json:galmore_68_blocked_door
 msgid "You try to push the door open, but it's blocked from the inside. Best to try the other door."
-msgstr ""
+msgstr "你想把门推开,但门从里面堵了.最好试试另一扇门."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
-msgstr ""
+msgstr "有了你帮我们夺回的所有黄金，我们计划修复这座桥，这样我们就可以把啤酒运往西方"
+"。"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:0
 msgid "\"Bridge\"? What bridge? To the west?"
-msgstr ""
+msgstr "“桥梁”?什么桥梁? 西方?"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:1
 msgid "Oh, that's great news indeed! It's going to make my life easier."
-msgstr ""
+msgstr "哦，这真是个好消息！这会让我的生活更轻松."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_10
 msgid "Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now."
-msgstr ""
+msgstr "你不知道吗？这座桥横跨萨多弗河，在这里和斯托特福德之间流动。它坏了一段时间了"
+"。"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_20
 msgid "It should be ready by the time you get there."
-msgstr ""
+msgstr "你到那里的时候应该已经准备好了。"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5
 msgid "The bridge that crosses over the Sutdover River has been repaired thanks to you."
-msgstr ""
+msgstr "多亏了你，横跨萨多弗河的那座桥已经修好了。"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:0
 msgid "Yes. I am aware. In fact, I've already used it."
-msgstr ""
+msgstr "是的. 我知道.事实上,我已经使用过."
 
 #: conversationlist_mt_galmore.json:sutdover_river_bridge_broken_script
 msgid "You can't continue over the broken boards. It's time to turn around and find another way across."
-msgstr ""
+msgstr "你不能继续翻那些破木板了.是时候转身找另一条路过去了."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10
 msgid "Hey, kid! Just where do you think you're going?"
-msgstr ""
+msgstr "嘿，孩子！你以为你要去哪里？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:0
 msgid "Across the bridge, of course. After all, I can't swim."
-msgstr ""
+msgstr "当然是过桥.毕竟,我不会游泳."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:1
 msgid "Nowhere...I guess."
-msgstr ""
+msgstr "不可理喻."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_20
 msgid "The bridge is broken. You're going nowhere."
-msgstr ""
+msgstr "这座桥坏了.你哪儿也去不了."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10
 msgid "Let me guess, you're wondering if I know how to cross the river?"
-msgstr ""
+msgstr "让我猜一猜,你想知道我是否知道如何过河？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10:0
 msgid "Well, do you?"
-msgstr ""
+msgstr "你呢？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed
 msgid "Please move along. There's nothing to see here."
-msgstr ""
+msgstr "请往前走.这里没有什么可看的."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "是的,女士."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
-msgstr ""
+msgstr "嗯,事实上,我有.我在桥下面有一块木板,你可以把它铺在洞的上面."
+"但你得支付1000黄金."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20:0
 msgid "Wow! All you thieves are alike. Here, take it."
-msgstr ""
+msgstr "哇！你们这些小偷都是一样的.给,拿着."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_30
 msgid "Great! Now, let me see. Where is that board?"
-msgstr ""
+msgstr "太棒了!马上让我看看.那块木板在哪里？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_40
 msgid "Seraphina bends down to look under the bridge."
-msgstr ""
+msgstr "塞拉菲娜弯下腰去看桥下。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50
 msgid "Um, it's not here."
-msgstr ""
+msgstr "嗯,它不在这里."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50:0
 msgid "What do you mean \"it's not here\"? Where is it?"
-msgstr ""
+msgstr "你说“它不在这里”是什么意思？它在哪里？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60
 msgid "It must have drifted down river. Sorry!"
-msgstr ""
+msgstr "它一定是顺流而下了。很抱歉!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60:0
 msgid "\"Sorry\"? I want my gold back."
-msgstr ""
+msgstr "“对不起”？把我的金子还给我."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_70
 msgid "Maybe next time you come by I'll have the board?"
-msgstr ""
+msgstr "也许下次你来的时候我会弄到木板？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80
 msgid "Why are you looking at me like that?"
-msgstr ""
+msgstr "你为什么那样看着我？"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80:0
 msgid "I want my gold back. You thief!"
-msgstr ""
+msgstr "我想要回我的金子。你这个小偷！"
 
 #: conversationlist_mt_galmore.json:aidem_camp_grabby_10
 msgid "I'm just the muscle around here. Go talk to Defy."
-msgstr ""
+msgstr "我在这里只是个打手.去和德菲谈谈."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
 msgid "I'm just the...um..."
-msgstr ""
+msgstr "我只是…一个…"
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10:0
 msgid "brains?"
-msgstr ""
+msgstr "聪明的人?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_20
 msgid "Um, yes. One of those."
-msgstr ""
+msgstr "嗯,是的.其中之一."
 
 #: conversationlist_mt_galmore.json:aidem_camp_zachlanny_10
 msgid "Are you lost, kid?"
-msgstr ""
+msgstr "你迷路了吗，孩子？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_10
 msgid "Shh! What was that? Did you guys here that?"
-msgstr ""
+msgstr "嘘！那是什么？你们在这里吗？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_20
 msgid "I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew."
-msgstr ""
+msgstr "我什么也没听到.贪吃鬼,你需要放松.来,喝一杯强盗啤酒."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_15
 msgid "There it is again! Please tell me that you guys heard that?"
-msgstr ""
+msgstr "又来了！请告诉我你们听到了吗？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25
 msgid "Greedy! That's enough! Stop it. We are safe here."
-msgstr ""
+msgstr "贪吃鬼够了！住嘴,我们在这里很安全."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25:0
 msgid "Wait a minute, I recognize those guys."
-msgstr ""
+msgstr "等一下,我认出那些家伙了."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_35
 msgid "Ugh. Whatever."
-msgstr ""
+msgstr "啊.不论发生什么."
 
 #: conversationlist_mt_galmore.json:easedropping_required_key
 msgid "You should get a better understanding of who these men are before you crash the party."
-msgstr ""
+msgstr "在你闯进聚会之前你应该好好了解一下这些人."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10
 msgid "Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day."
-msgstr ""
+msgstr "看看我们这里有什么！苏伦加德的五个头号通缉犯都在同一地点.今天是我的幸运日."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10:0
 msgid "Hello boys!"
-msgstr ""
+msgstr "你好男孩!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20
 msgid "Oh, it's the child from Crossglen. Umar's little toy."
-msgstr ""
+msgstr "哦，是克罗斯山谷的孩子。奥马尔的小弟。"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20:0
 msgid "Watch it, thief!"
-msgstr ""
+msgstr "小心,小偷！"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30
 msgid "Why are you yelling from across the woods? Please walk over here and we can talk."
-msgstr ""
+msgstr "你为什么在树林对面大喊大叫？请走到这里,我们可以谈谈."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10
 msgid "Oh, how interesting your timing is."
-msgstr ""
+msgstr "哦,你来得真巧."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10:0
 msgid "Really? And why is that?"
-msgstr ""
+msgstr "真的? 为什么?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20
 msgid "Well, you see, we are in kind of a predicament."
-msgstr ""
+msgstr "如你所见,我们处于某种困境."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20:0
 msgid "Oh, you are feeling guility for what you did to the great people of Sullengard and want to turn yourselves in, but don't want to go to jail?"
-msgstr ""
+msgstr "你们为自己对苏伦加德的伟大人民所做的事感到内疚想去自首,但又不想进监狱吗?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_30
 msgid "Now that's funny. No! Now back to what I was trying to tell you..."
-msgstr ""
+msgstr "真有意思.不!现在轮到我想告诉你的事情……"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35
 msgid "We are planning a heist, but we need your \"skills\" to pull it off."
-msgstr ""
+msgstr "我们正在计划抢劫,但我们需要你的“技能”才有把握成功."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:0
 msgid "Forget it!"
-msgstr ""
+msgstr "忘了它吧!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:1
 msgid "My \"skills\" are not for hire."
-msgstr ""
+msgstr "我的“技能”是不可雇佣的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_40
 msgid "Please. Just hear me out."
-msgstr ""
+msgstr "请听我说完."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45
 msgid "We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key."
-msgstr ""
+msgstr "我们知道这个巨大的黄金和其他珍宝库,但它被保卫得很好."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:0
 msgid "OK. You had me at \"treasures\". Please go on."
-msgstr ""
+msgstr "好的.你在“宝藏”一词上打动了我.请继续."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:1
 msgid "And you want me to help you return it to its rightful owners?"
-msgstr ""
+msgstr "你想让我帮你把它还给它的合法主人吗？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50
 msgid "The problem of needing the key is where your \"skills\" come in."
-msgstr ""
+msgstr "需要钥匙的问题是你们的“技能”源自何处."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50:0
 msgid "These \"skills\" that you keep mentioning, what are they?"
-msgstr ""
+msgstr "你们不断提到的这些“技能”是什么?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_46
 msgid "[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic..."
-msgstr ""
+msgstr "(大声笑).孩子,我现在就告诉你,你就像你看起来一样有趣.现在,回到正题…"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55
 msgid "I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it."
-msgstr ""
+msgstr "我正要说到这个."
+"如果你能不再打断我,我就能更快地解释这个计划,以及你在其中扮演的重要角色."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:0
 msgid "A \"major\" role you said. So what, I get fifty percent of the loot?"
-msgstr ""
+msgstr "你说的\"主要\"角色.那又怎样,我拿一半的赃物吗?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:1
 msgid "Oh, sorry. Please continue."
-msgstr ""
+msgstr "哦,对不起.请继续."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_56
 msgid "Again with the humor. No, you will not be getting fifty percent. Anyways..."
-msgstr ""
+msgstr "又开玩笑.不,你不会得到百分之五十.不论如何…"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_60
 msgid "Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?"
-msgstr ""
+msgstr "在我说更多细节之前."
+"嘿,阿拉里克（这位迷路的旅行者的真名）,我们是否足够信任这个孩子,能告诉他细节？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10
 msgid "Well Defy, $playername did let me go after discovering my crime."
-msgstr ""
+msgstr "好吧,德菲, $playername在发现我的罪行后放走了我."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10:0
 msgid "[Keep quiet about the facts and agree, for now] That's true."
-msgstr ""
+msgstr "[对事实保持沉默,暂时同意]这是真的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70
 msgid "That's fair enough. Now let us move on to the details, shall we?"
-msgstr ""
+msgstr "这很公平.现在让我们继续讨论细节,好吗？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70:0
 msgid "Yes, please. I'm getting bored here."
-msgstr ""
+msgstr "是的,请.我在这里越来越无聊了."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75
 msgid "You see, we want to get back some of what is ours. What we helped to accumulate over the years. We want to hit them where it really hurts."
-msgstr ""
+msgstr "你看,我们想拿回一些属于我们的东西.我们这么多年来的积累.我们要打击他们的痛处."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:0
 msgid "Who's that?"
-msgstr ""
+msgstr "谁?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:1
 msgid "Feygard? Nor City?"
-msgstr ""
+msgstr "费加德?诺尔城?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:2
 msgid "The Thieves Guild?"
-msgstr ""
+msgstr "盗贼协会？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76
 msgid "Well, yes. But not right now. Those adventures are too big for us right now."
-msgstr ""
+msgstr "嗯,是的.但现在不行.现在这些冒险对我们来说太巨大了."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a
 msgid "I'm talking about the Thieves Guild."
-msgstr ""
+msgstr "我说的是盗贼公会."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a:0
 msgid "Why would you want to do that?"
-msgstr ""
+msgstr "为什么你们想要这样做?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_77
 msgid "Exactly!"
-msgstr ""
+msgstr "正是如此!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78
 msgid "Well, for starters, Umar and his sidekick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands."
-msgstr ""
+msgstr "首先,奥马尔和他的兄弟一次又一次地伤害了我们.把所有的财富都留给自己."
+"更别提我们在他们手中遭受的情感压力和虐待了."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78:0
 msgid "Um...what did they do?"
-msgstr ""
+msgstr "嗯…他们做了什么?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80
 msgid "You know what I am talking about, don't you?"
-msgstr ""
+msgstr "你知道我在说什么,对吧?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:0
 msgid "I'm not so sure that I do."
-msgstr ""
+msgstr "我不太确定我有没有."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:1
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:0
 msgid "Actually, yeah, kind of. Well, at least that thought has crossed my mind once or twice recently."
-msgstr ""
+msgstr "事实上,是的,有点.好吧,至少我最近有一两次想过这个想法."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81
 msgid "Come on, $playername. Open your eyes. Think. Your are just a tool to him. Something for him to use to accomplish whatever his agenda is that day."
-msgstr ""
+msgstr "拜托,$playername.睁开你的眼睛.思考.你对他来说只是个工具."
+"可以让他完成当天的任务."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:1
 msgid "I'm not so sure, but please, get on with your plan."
-msgstr ""
+msgstr "我不太确定,但请继续你的计划."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82
 msgid "Anyways... The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven."
-msgstr ""
+msgstr "无论如何...公会有一个金库."
+"一个宝藏和财富的储存库,隐藏在法尔海文以南的一个地方,安全可靠."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:0
 msgid "I've been all around the Fallhaven area a thousand times and I've never seen any vault."
-msgstr ""
+msgstr "我已经在法尔海文地区转了上千次了但我从来没见过什么金库."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:1
 msgid "I don't believe you. I would have stumbled across it."
-msgstr ""
+msgstr "我不相信你.我会碰巧发现它的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83
 msgid "Oh, trust me, it's there all right."
-msgstr ""
+msgstr "哦,相信我,它就在那里."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:0
 msgid "Trust you? You want me to trust you? A dishonorable thief? Where is it then?"
-msgstr ""
+msgstr "相信你吗？你想让我相信你吗？一个不光彩的小偷？那它在哪里？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:1
 msgid "Tell me. I want to know."
-msgstr ""
+msgstr "告诉我,我想知道."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84
 msgid "Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?"
-msgstr ""
+msgstr "你熟悉法尔海文西南部的那所空置的房子吗？悬崖边的那个？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:1
 msgid "[Lie] Yes, yes I am."
-msgstr ""
+msgstr "[撒谎] 是的,是的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85
 msgid "The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access."
-msgstr ""
+msgstr "它的入口在那所房子里.它是隐藏和安全的.你需要找到通往地下的通道才能进入."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:0
 msgid "That sounds easy. I'll do it."
-msgstr ""
+msgstr "这听起来很简单.我会做的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:1
 msgid "I guess I can try and get in there."
-msgstr ""
+msgstr "我想我可以试着进去."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86
 msgid "You won't be doing it."
-msgstr ""
+msgstr "你不会这么做的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86:0
 msgid "I won't be?"
-msgstr ""
+msgstr "我不会的？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87
 msgid "No. We will be doing that."
-msgstr ""
+msgstr "不.我们会这么做的."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87:0
 msgid "Then what do you need from me?"
-msgstr ""
+msgstr "那你需要我做什么？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88
 msgid "What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?"
-msgstr ""
+msgstr "我需要你做的更多的是一份内部工作."
+"我需要你从麻烦制造者那里拿到金库的钥匙,不要让他怀疑有任何诡计."
+"你觉得你能应付得了吗？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:0
 msgid "Why should I help you? What do I get out of this?"
-msgstr ""
+msgstr "我为什么要帮你？我能从中得到什么？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:1
 msgid "If I do this for you, then I expect to get paid!"
-msgstr ""
+msgstr "如果我为你做这件事,那么我希望得到报酬！"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89
 msgid "Oh, you aren't as dumb as you are funny."
-msgstr ""
+msgstr "哦,你不笨,你很有趣."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a
 msgid "How does 10 percent of the total treasure sound?"
-msgstr ""
+msgstr "百分之十的宝藏听起来怎么样？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:0
 msgid "I want 50 percent"
-msgstr ""
+msgstr "我想要50%"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:1
 msgid "How does 30 percent sound?"
-msgstr ""
+msgstr "30%听起来怎么样？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:2
 msgid "Nope. I will go no lower than 25 percent"
-msgstr ""
+msgstr "不.我不会接受25%以下的"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:3
 msgid "I'll do it for twice that amount. 20 percent."
-msgstr ""
+msgstr "我愿意付两倍的钱.20%."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_90
 msgid "Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference."
-msgstr ""
+msgstr "好的![嘘]我把它从贪吃鬼的那份里拿出来.他永远不会知道其中的区别."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95
 msgid "We will be leaving this campsite in favor of our hideout. Meet up with me there and you can give me the key then."
-msgstr ""
+msgstr "我们将离开这个营地,前往我们的藏身处.在那里和我见面,然后你可以把钥匙给我."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95:0
 msgid "Sounds good, but where is your hideout?"
-msgstr ""
+msgstr "听起来不错,但你的藏身之处在哪里？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100
 msgid "It's where the rail tracks end. West of the Sutdover River."
-msgstr ""
+msgstr "这里是铁轨的尽头.萨多弗河以西."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100:0
 msgid "The Sutdover River? Where is it?"
-msgstr ""
+msgstr "萨多弗河？它在哪里？"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_110
 msgid "The Sutdover River flows between Sullengard and Stoutford."
-msgstr ""
+msgstr "萨多弗河流经苏伦加德和斯托福德之间。"
 
 #: conversationlist_mt_galmore.json:aidem_base_locked
 msgid "As you sneak a peek inside, a terrifying voice yells out. Warning you not to step foot inside."
-msgstr ""
+msgstr "当你偷偷往里面看时,一个可怕的声音喊道.警告你不要踏入里面."
 
 #: conversationlist_mt_galmore.json:aidem_camp_lost_traveler
 msgid "Go talk to Defy. I have nothing to say to you."
-msgstr ""
+msgstr "去和德菲谈谈.我没有什么要对你说的."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10
 msgid "Great! Give it to me and when I have time, whenever that may be, I will add it to our bank."
-msgstr ""
+msgstr "太棒了!把钱给我,等我有时间,无论什么时候,我都会把它存入我们的银行."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10:0
 msgid "Well, if you are so busy, I don't mind making the deposit for the greater good."
-msgstr ""
+msgstr "好吧,如果你这么忙,为了大局着想,我不介意存这笔钱."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15
 msgid "Hmm... well I guess you could do that for me considering Umar trusts you a lot."
-msgstr ""
+msgstr "嗯…考虑到奥马尔非常信任你,我想你可以帮我做这件事."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35:0
 msgid "Great! Just tell me where to go and you can consider it done."
-msgstr ""
+msgstr "太棒了!告诉我去哪儿,你就当我搞定了."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20
 msgid "Well, it's not that easy. You need more than the location. You need this key."
-msgstr ""
+msgstr "嗯,这没那么容易.你需要的不仅仅是位置.你需要这把钥匙."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20:0
 msgid "Thanks, but where is the vault located?"
-msgstr ""
+msgstr "谢谢,但是保险库在哪里？"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25
 msgid "You can find the empty house just south of here. Enter it and you will find your way."
-msgstr ""
+msgstr "你可以在南边找到那所空房子.进入后,你会找到你的路."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25:0
 msgid "Thank you so much! I will bring the key back as quick as possible."
-msgstr ""
+msgstr "非常感谢！我会尽快把钥匙拿回来."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10
 msgid "You what? How? Where? Tell me all you know."
-msgstr ""
+msgstr "你什么?如何?在哪里?把你知道的都告诉我."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5:0
 msgid "I found them by pure luck, really."
-msgstr ""
+msgstr "我确实看到了他们."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10
 msgid "Where did you find them?"
-msgstr ""
+msgstr "你在哪里找到的？"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10:0
 msgid "Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjoying some of Sullengard's \"Bandit Brews\"."
-msgstr ""
+msgstr "迪博果园的东南部.他们只是坐在篝火旁的树林里,享受着苏伦加德的“强盗酿酒”."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_15:0
 msgid "They wanted to hire me to rob you guys. Defy wants your stash of gold and treasures."
-msgstr ""
+msgstr "他们想雇我来抢劫你们.德菲想要你藏匿的黄金和珍宝."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20
 msgid "Really? What did you say?"
-msgstr ""
+msgstr "真的吗?你说什么?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt:0
 msgid "Well, I agreed to, but only because I want to help you guys catch him."
-msgstr ""
+msgstr "我同意了,但只是因为我想帮你们抓住他."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25
 msgid "You know, $playername, for just being a young adventurer, you are learning a lot."
-msgstr ""
+msgstr "你知道，$playername,作为一个年轻的冒险家,你学到了很多东西."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25:0
 msgid "Thanks a lot. I do feel a lot smarter now than I did before joining your guild."
-msgstr ""
+msgstr "非常感谢.我确实觉得现在比加入你们公会之前聪明多了."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30
 msgid "Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault."
-msgstr ""
+msgstr "听着,孩子.让我们利用这个优势.拿着这把假钥匙,把它带给德菲,我们会在金库等他们."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30:0
 msgid "Sir, that sounds like a great plan. What do you want me to do after handing him the fake key?"
-msgstr ""
+msgstr "先生,听起来是个不错的计划.你要我把假钥匙给他后做什么?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35
 msgid "You should go with them to the vault as we may need your help there."
-msgstr ""
+msgstr "你应该和他们一起去金库,因为我们可能需要你的帮助."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
 msgid "You can find the empty house just south east of here. Enter it and you will find your way."
-msgstr ""
+msgstr "你可以在这里的东南方找到那座空房子.进入它,你会找到你的路."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
 msgid "I'll be there. Thank you."
-msgstr ""
+msgstr "我会去的.谢谢你."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10
 msgid "It's so weird working with you after all that we've gone through."
-msgstr ""
+msgstr "在我们经历了那么多之后和你一起工作感觉很不可思议."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:0
 msgid "We are not friends."
-msgstr ""
+msgstr "我们不是朋友."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:1
 msgid "I would love nothing more than to see you punished for your crimes."
-msgstr ""
+msgstr "我最希望看到你因罪行受到惩罚."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:2
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr ""
+msgstr "你还在等什么？去把假钥匙带给麻烦制造者."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "Come and get it!"
-msgstr ""
+msgstr "快来拿！"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
 msgid "Do you have the key? Hand it over."
-msgstr ""
+msgstr "你有钥匙吗？把它交出来."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:0
 msgid "Oops. I forgot to bring it with me. I'll be back soon."
-msgstr ""
+msgstr "哎呀.我忘了带了.我很快就会回来的."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:2
 msgid "Yes, but you are not having it. I will loot the vault myself and keep everything I find."
-msgstr ""
+msgstr "是的,但你没有.我会自己洗劫金库,把找到的东西都留下."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_20
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_tg_10
 msgid "Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot."
-msgstr ""
+msgstr "非常感谢.现在把扎克兰尼做的这把假钥匙拿去在麻烦制造者起疑心之前还给他."
+"然后就到金库来拿你的那份赃物."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_fake_key_10
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10
 msgid "Thank you very much!"
-msgstr ""
+msgstr "非常感谢!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house
 msgid "I'm rich. I'm finally rich!"
-msgstr ""
+msgstr "我很有钱.我终于富有了！"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house:0
 msgid "Only in gold. You have no friends."
-msgstr ""
+msgstr "只有金子.你没有朋友."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10
 msgid "Here is your reward for your role in our success."
-msgstr ""
+msgstr "这是对你在我们的胜利中发挥作用的奖励."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10:0
 msgid "It was nice doing business with you."
-msgstr ""
+msgstr "和你做生意真好."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_20
 msgid "We are leaving now. Too close to Fallhaven for my liking."
-msgstr ""
+msgstr "我们现在要走了.离Fallhaven太近了,我不喜欢."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10
 msgid "Come again?"
-msgstr ""
+msgstr "再来一次？"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:0
 msgid "I said, \"here it is\"."
-msgstr ""
+msgstr "我说:“在这儿”."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:1
 msgid "You heard me the first time. I'm keeping the key and looting the vault myself."
-msgstr ""
+msgstr "你第一次听到我说话.我自己保管钥匙,洗劫金库."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20
 msgid "I will be taking that key now!"
-msgstr ""
+msgstr "我现在就拿走那把钥匙！"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20:0
 msgid "Come and try!"
-msgstr ""
+msgstr "来试试吧！"
 
 #: conversationlist_mt_galmore.json:aidem_base_thieves_killed
 msgid "I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
-msgstr ""
+msgstr "我已经杀死了德菲,他的三个助手和阿拉里克."
+"我真的应该回到法尔海文,再和麻烦制造者谈谈."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10:0
 msgid "Your never going to believe this, but they were inside that vacant house when I walked in."
-msgstr ""
+msgstr "你永远不会相信,但当我走进来的时候,他们就在那所空置的房子里."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20
 msgid "Then what happened?"
-msgstr ""
+msgstr "所以发生了什么吗？"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20:0
 msgid "They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead."
-msgstr ""
+msgstr "他们看起来不怎么样,所以我质问他们."
+"然后我知道的下一件事是,我在激烈的战斗中被吸引了,他们已经死了."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30
 msgid "Can you prove this? Can you show me something that proves that all 4 are dead?"
-msgstr ""
+msgstr "你能证明这一点吗？你能给我看些东西证明4个人都死了吗？"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:0
 msgid "Yes. I looted their rings. [Shows them to Troublemaker]"
-msgstr ""
+msgstr "是的我洗劫了他们的戒指.[向麻烦制造者展示]"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:1
 msgid "Yes. I looted their rings, but I forgot to bring them with me. I'll come back."
-msgstr ""
+msgstr "对我抢了他们的戒指,但忘了带.我会回来的."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_40
 msgid "Well, this is great news indeed. We however would like to have them alive."
-msgstr ""
+msgstr "这确实是个好消息.然而,我们希望他们活着."
 
 #: conversationlist_mt_galmore.json:thief_rennik_10
 msgid "Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you."
-msgstr ""
+msgstr "啊,$playername终于回来了.请收下这个水晶和一些金子作为我们对您的感谢."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20
 msgid "You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us."
-msgstr ""
+msgstr "你会很高兴听到我们已经抓住了德菲和他的四个同伙在他们偷我们的东西之前."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20:0
 msgid "That's great news indeed. Where are they now?"
-msgstr ""
+msgstr "这确实是个好消息.他们现在在哪里？"
 
 #: conversationlist_mt_galmore.json:thief_rennik_30
 msgid "We are keeping them in our holding cage in Fallhaven."
-msgstr ""
+msgstr "我们把它们关在法尔海文的笼子里."
 
 #: conversationlist_mt_galmore.json:thief_rennik_30:0
 msgid "Is there anything else that I should know about?"
-msgstr ""
+msgstr "还有什么我应该知道的吗？"
 
 #: conversationlist_mt_galmore.json:thief_rennik_40
 msgid "Yes. That fifth man, the one that was not one of us..."
-msgstr ""
+msgstr "是的.第五个人,不是我们中的一员…"
 
 #: conversationlist_mt_galmore.json:thief_rennik_40:0
 msgid "You mean Alaric?"
-msgstr ""
+msgstr "你是说阿拉里克？"
 
 #: conversationlist_mt_galmore.json:thief_rennik_50
 msgid "His name is not important to me..."
-msgstr ""
+msgstr "他的名字对我来说并不重要..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55
 msgid "We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have their guy."
-msgstr ""
+msgstr "我们了解到他参与了苏伦加德的一起犯罪."
+"你最好去拜访一下苏伦加德告诉他们我们抓到了他们要找的人."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55:0
 msgid "I will. Thank you again."
-msgstr ""
+msgstr "我会的.谢谢你."
 
 #: conversationlist_mt_galmore.json:thief_rennik_generic_10
 msgid "I am here now to watch out for suspicious activity and people."
-msgstr ""
+msgstr "我现在是来监视可疑活动和人的."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt
 msgid "Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered \"the lost traveler\" again?"
-msgstr ""
+msgstr "嘿,你正是我想见的人."
+"我一直在想,在你经历了这么多冒险之后,你又遇到“迷失的旅行者”了吗?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt:0
 msgid "Actually, yes. Yes, I have."
-msgstr ""
+msgstr "实际上,是的.是的,我有."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10
 msgid "Where? Can you get him back here to be punished?"
-msgstr ""
+msgstr "在哪里?你能让他回来接受惩罚吗?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:0
 msgid "Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there."
-msgstr ""
+msgstr "事实上,他在法尔海文的监狱里.事实上是和德菲关在一起."
+"我抓住了他们,把他们关在那里."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:1
 msgid "Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no other option than to end his life."
-msgstr ""
+msgstr "事实上,我偶然遇到了他,在试图把他拖回这里后,他袭击了我,我别无选择,只能结束他的"
+"生命."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11
 msgid "Oh, thank you so much! "
-msgstr ""
+msgstr "哦,非常感谢你! "
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11:0
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12:0
 msgid "Of course. It was my pleasure."
-msgstr ""
+msgstr "当然. 我很高兴."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12
 msgid "Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this."
-msgstr ""
+msgstr "好吧,我宁愿看到他受到惩罚而不是被杀,但非常感谢你结束了这一切."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13
 msgid "Please, take this as a gift of gratitude."
-msgstr ""
+msgstr "请将此视为感谢的礼物."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14
 msgid "I don't know if you will like it, but let me tell you, nobody down here wants it."
-msgstr ""
+msgstr "我不知道你是否会喜欢它,但让我告诉你,这里没有人想要它."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14:0
 msgid "Oh, really? I will play with it. Thanks again."
-msgstr ""
+msgstr "哦,真的吗？我会研究的.再次感谢."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_5
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_6
 msgid "As you step between the trees, the crunch of the dry leaves beneath your feet startle you."
-msgstr ""
+msgstr "当你在树之间行走时,脚下干树叶的嘎吱声会吓到你."
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10
 msgid "Do you want to unlock the hatch?"
-msgstr ""
+msgstr "你们是否希望打破僵局?"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_20
 msgid "The lock creaks open, revealing a staircase."
-msgstr ""
+msgstr "锁嘎吱一声打开,露出一段楼梯."
 
 #: conversationlist_mt_galmore.json:wild6_house_prevent_bucket_walking
 msgid "Oh, gross! It's full of spiders."
-msgstr ""
+msgstr "哦,恶心!到处都是蜘蛛."
 
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10:0
 msgid "Yes, Here it is. [Handing over the fake key] "
-msgstr ""
+msgstr "是的,给你.[交出假钥匙] "
 
 #: conversationlist_mt_galmore.json:aidem_base_fight
 msgid "You will regret this, kid!"
-msgstr ""
+msgstr "你会后悔的,孩子!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81
 msgid "Do I know you?"
-msgstr ""
+msgstr "我认识你吗?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:0
 msgid "Oh, you want to play dumb? Umar will hear about this!"
-msgstr ""
+msgstr "你想装傻吗?奥马尔会听到的!"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
 msgid "I should come back with the Thieves Guild key."
-msgstr ""
+msgstr "我应该带着盗贼公会的钥匙回来."
 
 #: conversationlist_mt_galmore.json:bela_witch_10
 msgid "Did you hear about the kidnapping?"
-msgstr ""
+msgstr "你听说绑架的事了吗?"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:0
 msgid "It wasn't me!"
-msgstr ""
+msgstr "不是我！"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:1
 msgid "Someone kidnapped Ambelie?"
-msgstr ""
+msgstr "有人绑架了安贝莉？"
 
 #: conversationlist_mt_galmore.json:bela_witch_15
 msgid "[Looking extermely confused and terrified] ... Well, why would it be you?"
-msgstr ""
+msgstr "[看起来非常困惑和害怕]...为什么会是你？"
 
 #: conversationlist_mt_galmore.json:bela_witch_15:0
 msgid "Nevermind."
-msgstr ""
+msgstr "不要紧."
 
 #: conversationlist_mt_galmore.json:bela_witch_16
 msgid "[Looking extermely confused] ... Who?"
-msgstr ""
+msgstr "[忽略不计]...... 谁?"
 
 #: conversationlist_mt_galmore.json:bela_witch_16:0
 msgid "Nevermind"
-msgstr ""
+msgstr "不要紧"
 
 #: conversationlist_mt_galmore.json:bela_witch_20
 msgid "Well, while you were off hunting and killing that giant snake, I had a customer."
-msgstr ""
+msgstr "好吧,当你去猎杀那条巨蛇时,我有一个顾客."
 
 #: conversationlist_mt_galmore.json:bela_witch_25
 msgid "A customer with a very interesting report about a kidnapped girl and a witch."
-msgstr ""
+msgstr "一位顾客写了一篇关于一个被绑架的女孩和一个女巫的有趣报道."
 
 #: conversationlist_mt_galmore.json:bela_witch_25:0
 msgid "Is this customer still here?"
-msgstr ""
+msgstr "这名客户是否仍然在这里?"
 
 #: conversationlist_mt_galmore.json:bela_witch_30
 msgid "That's the thing. He is no longer here. He just left before you walked in."
-msgstr ""
+msgstr "事情就是这样.他已经不在了.他在你走进来之前就离开了."
 
 #: conversationlist_mt_galmore.json:bela_witch_31
 msgid "You should ask around town if anyone has seen or heard about it."
-msgstr ""
+msgstr "你应该问问城里是否有人见过或听说过这件事."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:0
 msgid "OK. I think I will do that. Thanks."
-msgstr ""
+msgstr "好的.我想我会那样做的.谢谢."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:1
 msgid "OK, but first please give me something to drink."
-msgstr ""
+msgstr "好的,但首先请给我点喝的."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10
 msgid "Of course, my dear."
-msgstr ""
+msgstr "当然,亲爱的."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10:0
 msgid "Did you see a witch around here or hear about a witch kidnapping a girl?"
-msgstr ""
+msgstr "你有没有在这里看到一个女巫,或者听说过一个女巫绑架一个女孩？"
 
 #: conversationlist_mt_galmore.json:no_witch_info
 msgid "No, I'm sorry, I didn't."
-msgstr ""
+msgstr "不,很抱歉,我没有."
 
 #: conversationlist_mt_galmore.json:no_witch_info:0
 msgid "Oh, thanks anyway."
-msgstr ""
+msgstr "好吧,还是谢谢你."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:0
 msgid "Can I have just one minute of your time, please?"
-msgstr ""
+msgstr "请给我一分钟的时间好吗？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:1
 msgid "Could you tell me the story about the wicked witch again?"
-msgstr ""
+msgstr "你能再给我讲一次关于邪恶女巫的故事吗？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20
 msgid "I suppose."
-msgstr ""
+msgstr "我想."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20:0
 msgid "Great! I was wondering if you know anything about a kidnapping or a witch?"
-msgstr ""
+msgstr "太棒了!我想知道你知不知道关于绑架或者女巫的事?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30
 msgid "[Taken aback by the question] What did you just ask me?"
-msgstr ""
+msgstr "(被这个问题吓了一跳)你刚才问我什么?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30:0
 msgid "I asked if you know anything about a witch and the possibility that she took a girl."
-msgstr ""
+msgstr "我问你知不知道一个女巫还有她可能带走了一个女孩."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40
 msgid "Leave me alone! I don't want to talk about her!"
-msgstr ""
+msgstr "别烦我!我不想谈她!"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:0
 msgid "Ok. I'm sorry I asked."
-msgstr ""
+msgstr "好的,很抱歉我问了."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:1
 msgid "So you know something about the kidnapping?"
-msgstr ""
+msgstr "你知道绑架事件吗？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:2
 msgid "What about the witch? Do you know something about her?"
-msgstr ""
+msgstr "那巫婆呢？你了解她吗？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_45
 msgid "Nope!"
-msgstr ""
+msgstr "不！"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50
 msgid "I may, but I don't want to tell you about her as I am terrified of her."
-msgstr ""
+msgstr "我可以,但我不想告诉你关于她的事,因为我害怕她."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50:0
 msgid "Wow! Now I have to learn what you know. Please tell me your story."
-msgstr ""
+msgstr "哇！现在我必须获悉你所知道的.请告诉我你的故事."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60
 msgid "No way! I have no way to protect myself and believe me, I will need to if I tell you anything."
-msgstr ""
+msgstr "不可能！我没有办法保护自己,相信我,如果我告诉你任何事情,我都需要保护自己."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60:0
 msgid "I will protect you. Trust me."
-msgstr ""
+msgstr "我会保护你.我相信我."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65
 msgid "[Laughing uncontrollably] ... You? You are just a child of a farmer. So you are weaker than I am."
-msgstr ""
+msgstr "[笑得无法控制]...你你只是一个农民的孩子.所以你比我弱."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:0
 msgid "You know my father?"
-msgstr ""
+msgstr "你知道我的父亲吗?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:1
 msgid "I can protect you."
-msgstr ""
+msgstr "我可以保护你."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66
 msgid "Of course I do. He lives a stones throw away from me and we are both farmers."
-msgstr ""
+msgstr "我当然知道.他住在离我一箭之遥的地方,我们都是农民."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66:0
 msgid "Oh. I didn't know. But I can protect you."
-msgstr ""
+msgstr "哦.我不知道.但我可以保护你."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70
 msgid "And how can you do that? Have you ever done anything like this before?"
-msgstr ""
+msgstr "你怎么能做到这一点？你以前做过这样的事吗？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70:0
 msgid "Well, actually, I have. In fact, I just finished protecting this entire town from a giant snake."
-msgstr ""
+msgstr "事实上,我有.事实上,我刚刚保护了整个城镇免受一条巨蛇的袭击."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_75
 msgid "That was you?"
-msgstr ""
+msgstr "是你干的？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_76
 msgid "Well, if that's the case, then I will tell you my story."
-msgstr ""
+msgstr "好吧,如果是这样的话,那么我会告诉你我的故事."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77
 msgid "My story starts a very long time ago, when I was just a kid."
-msgstr ""
+msgstr "我的故事开始于很久以前,那时我还是个孩子."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77:0
 msgid "Great, more stories with grandpa."
-msgstr ""
+msgstr "太好了,又有爷爷的故事了."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_78
 msgid "You see, one day, my best friend Addie and I were playing amongst the trees south of town when we encountered her."
-msgstr ""
+msgstr "你看,有一天,我和我最好的朋友艾迪在城南的树林里玩耍时,我们遇到了她."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79
 msgid "She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her into her house."
-msgstr ""
+msgstr "她是一个年轻美丽的女人,但是非常诱人.以至于她轻易地强迫我们跟着她进了她家."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79:0
 msgid "I see. What happened next?"
-msgstr ""
+msgstr "我明白了.接下来发生了什么?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80
 msgid "Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experience."
-msgstr ""
+msgstr "现在,我要告诉你,我决定不去想大部分细节,因为这是一次非常痛苦的经历."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80:0
 msgid "Understandable."
-msgstr ""
+msgstr "可以理解."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_81
 msgid "All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room ... I think."
-msgstr ""
+msgstr "我所记得的只是被关在一个黑暗的房间里,感觉像是几个星期没有食物,独自一人."
+"你看,女巫把艾迪关在另一个房间里...我想."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82
 msgid "Yes. You see, after I escaped, I never saw Addie again."
-msgstr ""
+msgstr "对你看,在我逃跑后,我再也没有见过艾迪."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82:0
 msgid "That's terrible."
-msgstr ""
+msgstr "太可怕了."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83
 msgid "After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until now."
-msgstr ""
+msgstr "几周后,我看到了一个逃跑的机会,我抓住了它.永远不要回头,永远不要谈论它."
+"好吧,直到现在."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83:0
 msgid "Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?"
-msgstr ""
+msgstr "谢谢你给我讲你的故事.我想一劳永逸地阻止这个巫婆.我在哪里能找到她？"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_84
 msgid "Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers."
-msgstr ""
+msgstr "非常感谢.你可以在南边找到她的房子.你不能错过它,因为它开满了美丽的花."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_script
 msgid "While raising your arm and waving your hand, you yell over the water: \"Excuse me.\""
-msgstr ""
+msgstr "你一边举起手臂挥手,一边对着水面大喊：“对不起.”"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10
 msgid "Shh. You are scaring the fish."
-msgstr ""
+msgstr "嘘.你在吓唬鱼."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:0
 msgid "Please? I need your help. I'm looking for my brother. His name is Andor. He looks like me. Have you seen him?"
-msgstr ""
+msgstr "请问?我需要你的帮助.我在找我哥哥.他的名字叫安道尔.他长得像我.你见过他吗？"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:1
 msgid "That's a really cool boat. Where can I get one?"
-msgstr ""
+msgstr "那是一艘非常酷的船.我在哪里可以买到？"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:2
 msgid "[While Pointing behind Isobel, you yell] Look at the size of that fish behind you!"
-msgstr ""
+msgstr "[你指着伊泽贝尔身后喊道]看看你身后那条鱼的大小！"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20
 msgid "Where?!"
-msgstr ""
+msgstr "什么地方?!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20:0
 msgid "[While laughing uncontrollably] \"Shh, your scaring him away.\""
-msgstr ""
+msgstr "[笑得无法控制]“嘘,你把他吓跑了.”"
 
 #: conversationlist_mt_galmore.json:captive_girl_10
 msgid "Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion."
-msgstr ""
+msgstr "对不起,年轻人！谢谢你早些时候放过我.你表现出了真正的同情心."
 
 #: conversationlist_mt_galmore.json:captive_girl_10:0
 msgid "What ... do I know you? You're just a young girl?"
-msgstr ""
+msgstr "什么我认识你吗？你只是个年轻女孩？"
 
 #: conversationlist_mt_galmore.json:captive_girl_20
 msgid "Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind."
-msgstr ""
+msgstr "是的,我被施了魔法,使我变成了女巫.她想试探你的心.我很高兴你表现得很好."
 
 #: conversationlist_mt_galmore.json:captive_girl_20:0
 msgid "Thank you, but you don't look well."
-msgstr ""
+msgstr "谢谢你,但你看起来不太好."
 
 #: conversationlist_mt_galmore.json:captive_girl_30
 msgid "I am not well. Which is why I have not run far from this awful place and this awful witch."
-msgstr ""
+msgstr "我身体不舒服.这就是为什么我没有远离这个可怕的地方和这个可怕的女巫."
 
 #: conversationlist_mt_galmore.json:captive_girl_30:0
 msgid "What's wrong? Why can't you leave?"
-msgstr ""
+msgstr "怎么了？你为什么不能离开？"
 
 #: conversationlist_mt_galmore.json:captive_girl_30:1
 msgid "What happened to you here? How did you get here?"
-msgstr ""
+msgstr "你在这里发生了什么事？你是怎么来的？"
 
 #: conversationlist_mt_galmore.json:captive_girl_31
 msgid "Thank you again, my savior! I will go now."
-msgstr ""
+msgstr "再次感谢你,我的救世主！我现在就走."
 
 #: conversationlist_mt_galmore.json:captive_girl_35
 msgid " I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year."
-msgstr ""
+msgstr " 我需要营养！你看,我被关在那所可怕房子的地下室里已经一年了."
 
 #: conversationlist_mt_galmore.json:captive_girl_35a
 msgid "I am too sick to talk about this right now."
-msgstr ""
+msgstr "我病得不能再谈这个了."
 
 #: conversationlist_mt_galmore.json:captive_girl_40
 msgid "All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it."
-msgstr ""
+msgstr "女巫给我的只是一种叫做“补血药”的东西."
+"起初,我拒绝喝它,但很快我就绝望了,我喝了它."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:0
 msgid "I've had one or two of those. They are not that bad."
-msgstr ""
+msgstr "我已经吃过一两个人了.他们并没有那么糟糕."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:1
 msgid "Are those things even good for you?"
-msgstr ""
+msgstr "这些东西对你有好处吗？"
 
 #: conversationlist_mt_galmore.json:captive_girl_45
 msgid "Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them."
-msgstr ""
+msgstr "是的,也许适度."
+"但几十个之后,它们会对你的身体产生影响,因为除了它们,我再也不能吃任何东西了."
 
 #: conversationlist_mt_galmore.json:captive_girl_50
 msgid "I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot."
-msgstr ""
+msgstr "我真的需要弄到很多“补血药”.你能帮我吗？我需要很多."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:0
 msgid "Well, I have twenty-five of those for you."
-msgstr ""
+msgstr "好吧,我有25个给你."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:1
 msgid "Well, I have twenty of those for you."
-msgstr ""
+msgstr "好吧,我有二十个给你."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:2
 msgid "Well, I have ten of those for you."
-msgstr ""
+msgstr "好吧,我有十个给你."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:3
 msgid "Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?"
-msgstr ""
+msgstr "好吧,我有五个给你,我不确定我在哪里买的.你知道我在哪里可以买到吗？"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:4
 msgid "Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?"
-msgstr ""
+msgstr "嗯,我只有一个给你,我不记得我在哪里买的.你知道我在哪里可以再买一些吗？"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:5
 msgid "I'm sorry, but I don't have any of those."
-msgstr ""
+msgstr "对不起,我没有这些."
 
 #: conversationlist_mt_galmore.json:captive_girl_55
 msgid "Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however."
-msgstr ""
+msgstr "好吧,我不太确定,因为女巫会这么做的.该死！我讨厌那种味道."
+"该死然而,我喜欢这种味道."
 
 #: conversationlist_mt_galmore.json:captive_girl_55:0
 msgid "Can you help me out a little bit? Do you know anything about them?"
-msgstr ""
+msgstr "你能帮我一下吗？你了解他们吗？"
 
 #: conversationlist_mt_galmore.json:captive_girl_60
 msgid "Hold on. Let me think...."
-msgstr ""
+msgstr "等等.让我想想...."
 
 #: conversationlist_mt_galmore.json:captive_girl_65
 msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here tought her how to make them."
-msgstr ""
+msgstr "啊,是的.我记得她说过,她在东部的一个“亡灵”朋友教她如何制作它们."
 
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 msgid "OK. Stay here. I will be back with more of them."
-msgstr ""
+msgstr "好的,呆在这里.我会和更多的人一起回来."
 
 #: conversationlist_mt_galmore.json:captive_girl_56
 msgid "Can you get me twenty-five of them?"
-msgstr ""
+msgstr "你能给我拿25个吗?"
 
 #: conversationlist_mt_galmore.json:captive_girl_56:0
 msgid "Where can I get some?"
-msgstr ""
+msgstr "我在哪里可以买到?"
 
 #: conversationlist_mt_galmore.json:captive_girl_54
 msgid "Only twenty? I was really hoping for twenty-five."
-msgstr ""
+msgstr "只有二十?我真希望二十五."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:0
 msgid "Whatever! Fine. I will go get you five more."
-msgstr ""
+msgstr "随你的便!很好.我再去给你拿五个."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:1
 msgid "I know that you \"asked\" for twenty-five, but I have twenty and they are hard to get. Please take these."
-msgstr ""
+msgstr "我知道你“要”二十五个,但我有二十个,而且很难弄到.请拿着这些."
 
 #: conversationlist_mt_galmore.json:captive_girl_70
 msgid "OK. I won't make you go back just for five more when you've already brought me twenty."
-msgstr ""
+msgstr "好的.你已经给我带了20个了,我不会再让你回去再拿5个的."
 
 #: conversationlist_mt_galmore.json:captive_girl_71
 msgid "WOW! You actually managed to find twenty-five! I am so grateful."
-msgstr ""
+msgstr "哇!你竟然找到了25个!我很感激."
 
 #: conversationlist_mt_galmore.json:captive_girl_75
 msgid "Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now."
-msgstr ""
+msgstr "在你走之前,我在逃跑的时候从女巫那里偷到了这个.我想把它给你.我得走了."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10
 msgid "Oh my, what have we here? Another brave soul seeking to challenge me?"
-msgstr ""
+msgstr "天哪,这是什么?又有一个勇敢的人来挑战我吗?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:0
 msgid "[While backing up] Me? No ma'am. I just wandered into the wrong house. Please don't hurt me."
-msgstr ""
+msgstr "(往后退)我?没有女士.我只是走错房子了.请不要伤害我."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:1
 msgid "Halt, foul witch! Your reign of darkness ends here!"
-msgstr ""
+msgstr "站住,坏巫婆！你的黑暗统治到此结束！"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20
 msgid "And with such polite manners too. Come. Come. Take a seat."
-msgstr ""
+msgstr "而且还彬彬有礼.过来.过来.请坐."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:0
 msgid "Your tricks won't work on me. Prepare to meet your end!"
-msgstr ""
+msgstr "你的把戏对我不起作用.准备好迎接你的结局！"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:1
 msgid "Witches don't bother me. I'll leave you be."
-msgstr ""
+msgstr "女巫不会打扰我.我不打扰你了."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_25
 msgid "How intriguing. Such confidence in your path. We shall see, won't we?"
-msgstr ""
+msgstr "真有趣.对你的道路充满信心.我们拭目以待,不是吗？"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_30
 msgid "Oh, the \"confident child\". Please leave me to my business."
-msgstr ""
+msgstr "哦,那个“自信的孩子”.请别管我的事."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40
 msgid "[laughs] How amusing. You're not the first to try, and you won't be the last. But do go ahead, if you must."
-msgstr ""
+msgstr "(笑)真有趣.你不是第一个尝试的人,也不会是最后一个.但如果你必须的话,请继续."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40:0
 #: conversationlist_mt_galmore.json:wicked_witch_first_45:0
 msgid "I won't hesitate! Take this!"
-msgstr ""
+msgstr "我不会犹豫的！拿着这个！"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_45
 msgid "Oh, this fight will be fun ... for me that is."
-msgstr ""
+msgstr "哦,这场战斗会很有趣...对我来说就是这样."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_killed_script
 msgid "As the \"witch\" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your choices. When all of a sudden..."
-msgstr ""
+msgstr "随着“女巫”的死亡,她开始转变成她的真实形态,露出一个年轻的女孩,你很快意识到你的"
+"选择的悲剧.突然间…"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10
 msgid "Bravo, hero! You fell right into my trap."
-msgstr ""
+msgstr "太棒了,英雄！你正好落入我的陷阱."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10:0
 msgid "What? No, it can't be!"
-msgstr ""
+msgstr "怎么啦？不,不可能!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20
 msgid "Oh, but it is. You see, that old witch you slew was nothing more than an illusion. A clever ruse to manipulate your actions."
-msgstr ""
+msgstr "哦,但确实如此.你看,你杀死的那个老巫婆不过是一种幻觉."
+"一个巧妙的诡计来操纵你的行动."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20:0
 msgid "[shocked] Then who are you?"
-msgstr ""
+msgstr "[震惊]那你是谁?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30
 msgid "I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement."
-msgstr ""
+msgstr "我才是真正的女巫,你正中了我的下怀."
+"那种傲慢的表现,那种对胜利的渴望——完全是我的消遣."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30:0
 msgid "[angry] You won't get away with this!"
-msgstr ""
+msgstr "(生气)你逃不掉的!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40
 msgid "[chuckles] You can certainly try, my dear hero. But your bravado has already cost you."
-msgstr ""
+msgstr "(笑)你当然可以试试,我亲爱的英雄.但你的虚张声势已经让你付出了代价."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40:0
 msgid "You're the one that will pay!"
-msgstr ""
+msgstr "你会付出代价的！"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_killed
 msgid "After defeating the real witch, she quickly reappears."
-msgstr ""
+msgstr "在击败真正的女巫后,她很快又出现了."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:0
 msgid "It's over, witch!"
-msgstr ""
+msgstr "结束了,巫婆！"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:1
 msgid "What did you mean when you said \"what lies ahead\"?"
-msgstr ""
+msgstr "你说“未来会怎样”是什么意思？"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10
 msgid "[weakened] Yes, yes, you've bested me. Congratulations, but have you really won?"
-msgstr ""
+msgstr "是的,是的,你打败了我.祝贺你,但你真的赢了吗？"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10:0
 msgid "[panting] Why all this deception?"
-msgstr ""
+msgstr "(喘着气)为什么要骗我?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20
 msgid "Oh, just a bit of entertainment. And for that, you get a big reward: You get to live."
-msgstr ""
+msgstr "哦,只是一点娱乐.为此,你会得到一个巨大的回报:你可以活下去."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20:0
 msgid "[disgruntled] Is this some kind of sick game to you?"
-msgstr ""
+msgstr "[不满]这对你来说是某种病态的游戏吗？"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_30
 msgid "[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?"
-msgstr ""
+msgstr "(傻笑)但是记住，英雄，生活充满了惊喜。这次你可能赢了，但谁又能说未来会怎样呢?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_40
 msgid "Leave me now, child before you end up like that young girl you killed."
-msgstr ""
+msgstr "离开我吧,孩子在你像那个被你杀死的女孩一样死去之前."
 
 #: conversationlist_mt_galmore.json:captive_girl_76
 msgid "I need to go now. Thanks a lot."
-msgstr ""
+msgstr "我现在得走了.非常感谢."
 
 #: conversationlist_mt_galmore.json:crystal_teleportation_disabled
 msgid "There is nothing to see here except for that wolf dung over there. Gross!"
-msgstr ""
+msgstr "除了那边的狼粪,这里没什么可看的.恶心!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid
 msgid "Look what I have found here - bewitched crystals! They are really fun!"
-msgstr ""
+msgstr "看我找到了什么——被施了魔法的水晶!他们真的很有趣!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid_1
 msgid "I wonder if there are more of them in the area?"
-msgstr ""
+msgstr "我想知道这个地区是否还有更多这样的人？"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1
 msgid "You're here to take our magical mushroom!"
-msgstr ""
+msgstr "你是来拿走我们的魔法蘑菇的!"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1:1
 msgid "No, I swear. Please don't hurt me."
-msgstr ""
+msgstr "不,我发誓.请不要伤害我."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1
 msgid "We are in a rush to get through here, kid. Get out of our way or die."
-msgstr ""
+msgstr "我们急于通过这里,孩子.让开,否则就死."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:0
 msgid "Where is the Shadow to help me now?"
-msgstr ""
+msgstr "现在暗影在哪里帮我?"
 
 #: conversationlist_mt_galmore.json:cat_dialog
 msgid "Meow."
-msgstr ""
+msgstr "猫叫."
 
 #: conversationlist_mt_galmore.json:blue_cat_1
 msgid "Hello, my name is \"Old Blue\"."
-msgstr ""
+msgstr "你好,我的名字叫“老蓝”."
 
 #: conversationlist_mt_galmore.json:blue_cat_1:0
 msgid "What! You can talk?"
-msgstr ""
+msgstr "什么你会说话吗？"
 
 #: conversationlist_mt_galmore.json:blue_cat_1:1
 msgid "You are an unusual color. Why are you blue?"
-msgstr ""
+msgstr "你是一个不同寻常的颜色.你为什么是蓝色的？"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk
 msgid "Talk? Well, let me ask you this: Why don't my friends up there talk?"
-msgstr ""
+msgstr "谈谈吗?好吧,让我问你:为什么我的朋友不说话?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk:0
 msgid "Well, I guess you've got me there."
-msgstr ""
+msgstr "好吧,我想你把我难住了."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue
 msgid "It was Bonicksa, that wicked witch, she did this to me."
-msgstr ""
+msgstr "是博尼克莎,那个邪恶的女巫,她把我害成这样."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2
 msgid "Well, you see those rats over there? The ones in the cage?"
-msgstr ""
+msgstr "你看到那边的老鼠了吗?笼子里的那些?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2:0
 msgid "Yeah."
-msgstr ""
+msgstr "是的."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3
 msgid "You see, those things are delicious."
-msgstr ""
+msgstr "你看,那些东西很好吃."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3:0
 msgid "Um, OK, but what does that have to do with Bonicksa?"
-msgstr ""
+msgstr "好吧,但这和博尼克莎有什么关系?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue4
 msgid "Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them."
-msgstr ""
+msgstr "哦,你不知道?那些是博尼克莎的老鼠,她不希望它们出什么事."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5
 msgid "She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me."
-msgstr ""
+msgstr "有一天她发现我杀了她最爱的人.那天我逃走了,但她却毫不留情地想要伤害我."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5:0
 msgid "What happened next?"
-msgstr ""
+msgstr "接下来发生了什么？"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6
 msgid "Well, after many months of trying, she was lucky one day and was able to capture me."
-msgstr ""
+msgstr "好吧,经过好几个月的努力,有一天她很幸运地抓住了我."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6:0
 msgid "Then?"
-msgstr ""
+msgstr "然后?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7
 msgid "She used her black magic to turn my beautiful white fur to this awful color I am now."
-msgstr ""
+msgstr "她用她的黑魔法把我美丽的白色皮毛变成了现在这个可怕的颜色."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7:0
 msgid "Oh, I am so sorry for you."
-msgstr ""
+msgstr "我真为你难过."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt
 msgid "Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?"
-msgstr ""
+msgstr "哦,是的.我是问你在得知德菲想雇你抢劫我们之后你对他们说了什么."
+"然后你就这么粗鲁地离开了.所以我再问你一遍.你说什么?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45
 msgid "Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there."
-msgstr ""
+msgstr "严重吗?天哪,现在很难得到好的帮助!我指示你和他们一起去金库因为我们可能需要你的"
+"帮助."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45:0
 msgid "Oh, yeah, I forgot."
-msgstr ""
+msgstr "哦,对了,我忘了."
 
 #: conversationlist_omifix2.json:capvjern_23
 msgid "Hey, $playername! You're back, where is the general?"
-msgstr ""
+msgstr "嘿,$playername！你回来了,将军在哪里？"
 
 #: conversationlist_omifix2.json:capvjern_24
 msgid "It sure took you a while. What happened?"
-msgstr ""
+msgstr "这确实花了你一段时间.发生了什么？"
 
 #: conversationlist_omifix2.json:capvjern_24:0
 msgid "General Ortholion was almost murdered by Ehrenfest, but I was there to save him."
-msgstr ""
+msgstr "奥瑟里昂将军差点被埃伦费斯特谋杀，但我在那里救了他。"
 
 #: conversationlist_omifix2.json:capvjern_24:1
 msgid "I killed Kamelio. Twice."
-msgstr ""
+msgstr "我杀了卡梅利奥.两次."
 
 #: conversationlist_omifix2.json:capvjern_25a
 msgid "You sure are brave enough, kid. I hope you'll be staying around for a while."
-msgstr ""
+msgstr "你真是够勇敢的,孩子.我希望你能多待一会儿."
 
 #: conversationlist_omifix2.json:capvjern_25a:1
 msgid "I don't think the job is paid well enough."
-msgstr ""
+msgstr "我认为这份工作的报酬不够高."
 
 #: conversationlist_omifix2.json:capvjern_25a:2
 msgid "Sorry, but I must do as I was told and find my brother Andor."
-msgstr ""
+msgstr "抱歉,但我必须按照命令去找我哥哥安道尔."
 
 #: conversationlist_omifix2.json:capvjern_25b
 msgid "You WHAT?!"
-msgstr ""
+msgstr "你什么？！"
 
 #: conversationlist_omifix2.json:capvjern_25b:0
 msgid "Hey, hey, calm down big man! Let me explain."
-msgstr ""
+msgstr "嘿,嘿,冷静点,大个子!让我解释一下."
 
 #: conversationlist_omifix2.json:capvjern_25b:1
 msgid "I had no other choice."
-msgstr ""
+msgstr "我没有别的选择."
 
 #: conversationlist_omifix2.json:capvjern_26a
 msgid ""
 "Ha HA! You want the kid to do your job for free? \n"
 "You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!"
 msgstr ""
+"哈哈!你想让那孩子免费帮你干活?\n"
+"你看,$playername?我们还没开始清理山口呢.我想知道为什么!"
 
 #: conversationlist_omifix2.json:capvjern_26a:0
 msgid "Do you need any help with that?"
-msgstr ""
+msgstr "你需要帮忙吗?"
 
 #: conversationlist_omifix2.json:capvjern_26b
 msgid ""
@@ -57768,122 +57806,125 @@ msgid ""
 "\n"
 "Kamelio, alive? How? Where?"
 msgstr ""
+"冷静点，杰恩。\n"
+"\n"
+"卡梅利奥,活着?如何?在哪里?"
 
 #: conversationlist_omifix2.json:capvjern_26b:0
 msgid "Deep in a cave below the Elm mine."
-msgstr ""
+msgstr "在榆树矿下面的一个山洞深处."
 
 #: conversationlist_omifix2.json:capvjern_26c
 msgid "Explain, explain it already!"
-msgstr ""
+msgstr "解释,已经解释了！"
 
 #: conversationlist_omifix2.json:capvjern_27a
 msgid "We have more important matters to attend. Now, where is the general? What about the workers of the mine?"
-msgstr ""
+msgstr "我们还有更重要的事要办.现在,将军在哪里?矿井里的工人呢?"
 
 #: conversationlist_omifix2.json:capvjern_27a:0
 msgid "Uh ... The general will certainly let you know in full detail ... Soon enough."
-msgstr ""
+msgstr "嗯,将军一定会让你知道全部细节...很快."
 
 #: conversationlist_omifix2.json:capvjern_27a:1
 msgid "No survivors, except Arghest. Many Feygard soldiers have fallen too."
-msgstr ""
+msgstr "没有幸存者,除了阿格斯特.许多费加德士兵也牺牲了."
 
 #: conversationlist_omifix2.json:capvjern_27b
 msgid "For the Shadow, tell me why you had to kill my beloved friend!! "
-msgstr ""
+msgstr "为了暗影,告诉我你为什么要杀了我亲爱的朋友!! "
 
 #: conversationlist_omifix2.json:capvjern_27b:0
 msgid "It was me or him. He was no longer your friend."
-msgstr ""
+msgstr "不是我就是他.他不再是你的朋友了."
 
 #: conversationlist_omifix2.json:capvjern_27b:1
 msgid "I am truly sorry, but he did try to kill us too."
-msgstr ""
+msgstr "我真的很抱歉,但他也想杀了我们."
 
 #: conversationlist_omifix2.json:capvjern_28a
 msgid "That's absurd! Kamelio?! Trying to kill a kid? Be reasonable, $playername. We cannot simply believe that."
-msgstr ""
+msgstr "这是荒谬的!卡梅利奥? !想杀一个孩子?合理点,$playername.我们不能简单地相信."
 
 #: conversationlist_omifix2.json:capvjern_28a:0
 msgid "Kamelio was no longer the person you knew."
-msgstr ""
+msgstr "卡梅利奥不再是你认识的那个人了."
 
 #: conversationlist_omifix2.json:capvjern_28a:1
 msgid "General Ortholion was there."
-msgstr ""
+msgstr "奥瑟里昂将军也在那里."
 
 #: conversationlist_omifix2.json:capvjern_28b:0
 msgid "General Ortholion is inside the mine dependencies. I found Kamelio, he tried to kill us but I defeated him."
-msgstr ""
+msgstr "奥瑟里昂将军在矿井附属设施内.我找到了卡梅利奥,他想杀了我们,但我打败了他."
 
 #: conversationlist_omifix2.json:capvjern_28b:1
 msgid "You better ask the general, I am tired already. He is still in the Elm mine celebrating he's still alive."
-msgstr ""
+msgstr "你最好去问将军,我已经累了.他还在榆树矿庆祝他还活着."
 
 #: conversationlist_omifix2.json:capvjern_28c
 msgid "We will wait for him here, in that case."
-msgstr ""
+msgstr "那样的话,我们就在这里等他."
 
 #: conversationlist_omifix2.json:capvjern_28d
 msgid "You or ...? That's utter nonsense!"
-msgstr ""
+msgstr "你还是…?那完全是胡说八道!"
 
 #: conversationlist_omifix2.json:capvjern_29a
 msgid "So? You want me to believe that Kamelio went crazy and tried to kill you?"
-msgstr ""
+msgstr "所以呢?你想让我相信卡梅利奥疯了,想杀了你?"
 
 #: conversationlist_omifix2.json:capvjern_29a:0
 msgid "Believe what you want. I give up."
-msgstr ""
+msgstr "随你怎么想.我放弃了."
 
 #: conversationlist_omifix2.json:capvjern_29a:1
 msgid "I am not lying!"
-msgstr ""
+msgstr "我没有说谎!"
 
 #: conversationlist_omifix2.json:capvjern_29a:2
 msgid "This is his cloak, right? [Show the Kazarite cloak]"
-msgstr ""
+msgstr "这是他的斗篷,对吧?[展示卡扎里特斗篷]"
 
 #: conversationlist_omifix2.json:capvjern_30a
 msgid "What in the world ...? It moves!"
-msgstr ""
+msgstr "这是怎么回事?它动了!"
 
 #: conversationlist_omifix2.json:capvjern_30a:0
 msgid "Yes. This strange substance was responsible of your friend's behaviour."
-msgstr ""
+msgstr "是的.这种奇怪的物质导致了你朋友的行为."
 
 #: conversationlist_omifix2.json:capvjern_30a:1
 msgid "Do you believe me now?"
-msgstr ""
+msgstr "你现在相信我了吗?"
 
 #: conversationlist_omifix2.json:capvjern_29b
 msgid "I cannot believe in your words, $playername."
-msgstr ""
+msgstr "我不能相信你的话,$playername."
 
 #: conversationlist_omifix2.json:capvjern_30b
 msgid "But the truth is that I can neither believe you killed him for the sake of it. Plus, the General is alive as you say, and it is thanks to you."
-msgstr ""
+msgstr "但事实是我既不相信你为了这个杀了他.再说,将军还活着,就像你说的,这都是你的功劳."
 
 #: conversationlist_omifix2.json:capvjern_29c
 msgid "Speak for yourself, cap! I'll head to the mine."
-msgstr ""
+msgstr "你自己说吧,帽子！我要去矿井."
 
 #: conversationlist_omifix2.json:capvjern_29c:0
 msgid "You are needed here more."
-msgstr ""
+msgstr "这里更需要你."
 
 #: conversationlist_omifix2.json:capvjern_29c:1
 msgid "The mine is no longer a safe place."
-msgstr ""
+msgstr "矿井已经不安全了."
 
 #: conversationlist_omifix2.json:capvjern_30c
 msgid "Hmpf ... You know what? Right, someone has to patrol this settlement."
-msgstr ""
+msgstr "哼……你知道吗?好吧,总得有人在这个定居点巡逻."
 
 #: conversationlist_omifix2.json:capvjern_31a
 msgid "Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside."
-msgstr ""
+msgstr "拿着这把旧钥匙.我年轻的时候在矿井里工作过.我肯定里面有个补给箱."
 
 #: conversationlist_omifix2.json:capvjern_32a
 msgid ""
@@ -57891,11 +57932,14 @@ msgid ""
 "\n"
 " *looks at the captain* I'll be going."
 msgstr ""
+"再次感谢你.\n"
+"\n"
+"*看着队长*我要走了."
 
 #: conversationlist_omifix2.json:capvjern_32a:1
 #: conversationlist_omifix2.json:capvjern_32c:1
 msgid "Good luck in your shift."
-msgstr ""
+msgstr "祝你当班好运."
 
 #: conversationlist_omifix2.json:capvjern_30d
 msgid ""
@@ -57903,34 +57947,37 @@ msgid ""
 "\n"
 "Jern, let Feygard folks take care of the mine for a while, we have a lot to do here."
 msgstr ""
+"我相信.\n"
+"\n"
+"杰恩,让费加德的人暂时照看一下矿场,我们还有很多事要做."
 
 #: conversationlist_omifix2.json:capvjern_31b
 msgid "[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?"
-msgstr ""
+msgstr "(盯着斗篷)我以前从没见过这个.我以前在那里工作的时候也没有.这到底是什么?"
 
 #: conversationlist_omifix2.json:capvjern_32b
 msgid "[looks at you]"
-msgstr ""
+msgstr "[看着你]"
 
 #: conversationlist_omifix2.json:capvjern_33
 msgid "[stares at the cloak again]"
-msgstr ""
+msgstr "[再次盯着斗篷]"
 
 #: conversationlist_omifix2.json:capvjern_34
 msgid "[stares at you again]"
-msgstr ""
+msgstr "[再次凝视你]"
 
 #: conversationlist_omifix2.json:capvjern_34:1
 msgid "You alright?"
-msgstr ""
+msgstr "你还好吗？"
 
 #: conversationlist_omifix2.json:capvjern_35
 msgid "[puts his hand over the captain's shoulder] Hey, captain, wake up."
-msgstr ""
+msgstr "[把手放在队长的肩膀上]嘿,队长,醒醒."
 
 #: conversationlist_omifix2.json:capvjern_35:0
 msgid "[Put the cloak away]"
-msgstr ""
+msgstr "[把斗篷收起来]"
 
 #: conversationlist_omifix2.json:capvjern_36
 msgid ""
@@ -57938,6 +57985,9 @@ msgid ""
 "\n"
 "It is un...unbearable."
 msgstr ""
+"…\n"
+"\n"
+"真是……难以忍受."
 
 #: conversationlist_omifix2.json:capvjern_37
 msgid ""
@@ -57945,46 +57995,49 @@ msgid ""
 "\n"
 "$playername, you must destroy the cloak!"
 msgstr ""
+"(喘着粗气)那……那种物质很危险!\n"
+"\n"
+"$playername,你必须摧毁斗篷!"
 
 #: conversationlist_omifix2.json:capvjern_37:0
 msgid "The mine is full of it! Do you believe me now?"
-msgstr ""
+msgstr "矿井里全是它!你现在相信我了吗?"
 
 #: conversationlist_omifix2.json:capvjern_38
 msgid "I do. [looks at Jern] I do believe in what the kid says."
-msgstr ""
+msgstr "我做的事.(看着杰恩)我相信那孩子说的话."
 
 #: conversationlist_omifix2.json:capvjern_39
 msgid "Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!"
-msgstr ""
+msgstr "呃……那我们去矿井吧.我们必须把卡梅利奥的尸体从那里带走好好埋葬!"
 
 #: conversationlist_omifix2.json:capvjern_39:0
 msgid "It is too dangerous, you mustn't go."
-msgstr ""
+msgstr "太危险了,你不能去."
 
 #: conversationlist_omifix2.json:capvjern_39:1
 msgid "Trained soldiers were lost down there. Let General's men handle this."
-msgstr ""
+msgstr "训练有素的士兵在那里牺牲了.让将军的人来处理."
 
 #: conversationlist_omifix2.json:capvjern_40
 msgid "So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there."
-msgstr ""
+msgstr "那你的建议是什么?呆在这里什么都不做!我不会把我朋友的尸体留在那里."
 
 #: conversationlist_omifix2.json:capvjern_40:0
 msgid "What about those who are alive here?"
-msgstr ""
+msgstr "那些还活着的人呢?"
 
 #: conversationlist_omifix2.json:capvjern_40:1
 msgid "Do not lose your life for a bunch of dead bones. You must live for your friends."
-msgstr ""
+msgstr "不要为了一堆尸骨而失去生命.你必须为朋友而活."
 
 #: conversationlist_omifix2.json:capvjern_41
 msgid "I'll wait here. Farewell, $playername."
-msgstr ""
+msgstr "我在这里等.再见了,$playername."
 
 #: conversationlist_omifix2.json:capvjern_41:2
 msgid "As useful as always, captain."
-msgstr ""
+msgstr "一如既往地有用,队长."
 
 #: conversationlist_omifix2.json:capvjern_32c
 msgid ""
@@ -57992,22 +58045,25 @@ msgid ""
 "\n"
 "[looks at the captain] I'll be going."
 msgstr ""
+"再次感谢你.\n"
+"\n"
+"(看着队长)我要走了."
 
 #: conversationlist_omifix2.json:ortholion_guard_0e
 msgid "No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?"
-msgstr ""
+msgstr "不,孩子,我现在没有东西可以交易.我厌倦了这个地方.我不喜欢高山,你知道吗?"
 
 #: conversationlist_omifix2.json:ortholion_guard_0e:0
 msgid "I have a very important message fr..."
-msgstr ""
+msgstr "我有一个非常重要的信息给……"
 
 #: conversationlist_omifix2.json:ortholion_guard_1e
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
-msgstr ""
+msgstr "我更喜欢平静的大平原,永远平静的隆福德……是的,总是安静祥和……"
 
 #: conversationlist_omifix2.json:ortholion_guard_1e:0
 msgid "But General Orth..."
-msgstr ""
+msgstr "但是诺斯将军……"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e
 msgid ""
@@ -58015,50 +58071,53 @@ msgid ""
 "\n"
 "[The soldier continues lamenting and completely ignores your presence]"
 msgstr ""
+"啊!海岸的微风,费加德港的光辉生活……\n"
+"\n"
+"[士兵继续悲叹,完全无视你的存在]"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:0
 msgid "Hey, pay attention!"
-msgstr ""
+msgstr "嘿,注意听!"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "好吧,我放弃.我们换个人试试."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
-msgstr ""
+msgstr "我讨厌这种陪同旅行.将军又不需要我们帮忙."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9
 msgid "The trip here was anything but safe. I miss my former post in Crossglen."
-msgstr ""
+msgstr "这趟旅行一点也不安全.我想念我以前在克罗斯山谷的工作."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9:0
 msgid "Oh, so you are one of those good for nothing, always drunk, soldiers?"
-msgstr ""
+msgstr "所以你就是那种一无是处,总是醉醺醺的士兵?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10
 msgid "Yes sir, I w... Hey! What did you just say?"
-msgstr ""
+msgstr "是的,先生,我……嘿!你刚才说什么?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:0
 msgid "I have important information to deliver!"
-msgstr ""
+msgstr "我有重要的信息要传达!"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:1
 msgid "I am proud of you, drunkard. Where's your boss?"
-msgstr ""
+msgstr "我为你骄傲,酒鬼.你的上司呢?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a
 msgid "Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*."
-msgstr ""
+msgstr "不管是什么事,都与我无关.去和我们的山地侦察员谈谈,她是负责的."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:0
 msgid "Blackwater brew, eh? Truly disappointing. Goodbye."
-msgstr ""
+msgstr "黑水啤酒?真正令人失望.再见."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:1
 msgid "OK sir, many thanks."
-msgstr ""
+msgstr "好的,先生,非常感谢."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b
 msgid ""
@@ -58066,14 +58125,17 @@ msgid ""
 "\n"
 "*points at the mountain scout*"
 msgstr ""
+"(困惑地看着你)嗯……*嘘*在那边.\n"
+"\n"
+"指向山地侦察兵"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:0
 msgid "Finally, bye."
-msgstr ""
+msgstr "最后,再见."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
 msgid "Thanks, and sleep it off... Sigh."
-msgstr ""
+msgstr "谢谢,睡一觉就好了……叹息."
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -58307,7 +58369,7 @@ msgstr "大火炬"
 
 #: itemcategories_mt_galmore.json:animal_usable
 msgid "Usable animal part"
-msgstr ""
+msgstr "可用的动物部位"
 
 #: itemlist_money.json:gold
 #: itemlist_stoutford_combined.json:erwyn_coin
@@ -58680,7 +58742,7 @@ msgstr "洞窟老鼠的尾巴"
 
 #: itemlist_quest.json:tail_trainingrat
 msgid "Small rat tail"
-msgstr "小老鼠的尾"
+msgstr "小老鼠的尾巴"
 
 #: itemlist_quest.json:ring_mikhail
 msgid "Mikhail's ring"
@@ -61143,7 +61205,7 @@ msgstr "大空瓶"
 
 #: itemlist_brimhaven_2.json:trapped_mouse
 msgid "Trapped mouse"
-msgstr "被困住老鼠"
+msgstr "被困的老鼠"
 
 #: itemlist_brimhaven_2.json:spear_rusty
 msgid "Rusty iron spear"
@@ -62190,207 +62252,213 @@ msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key
 msgid "Thieve's vault key"
-msgstr ""
+msgstr "小偷的保险库钥匙"
 
 #: itemlist_mt_galmore.json:thieves_vault_key:description
 msgid "A key to the Thieves Guild's vault of gold and other treasures."
-msgstr ""
+msgstr "盗贼公会的黄金和其他宝藏的钥匙."
 
 #: itemlist_mt_galmore.json:thieves_vault_key_fake
 msgid "Fake Thieve's Guild vault key"
-msgstr ""
+msgstr "伪造盗贼公会金库钥匙"
 
 #: itemlist_mt_galmore.json:aidem_fake_vault_key
 msgid "Aidem fake vault key"
-msgstr ""
+msgstr "艾迪姆假金库钥匙"
 
 #: itemlist_mt_galmore.json:aidem_fake_vault_key:description
 msgid "The fake key made by the Aidem thieves to trick Troublemaker."
-msgstr ""
+msgstr "艾迪姆窃贼用来欺骗“麻烦制造者”的假钥匙."
 
 #: itemlist_mt_galmore.json:feygard_might
 msgid "Feygard's might"
-msgstr ""
+msgstr "费加德的力量"
 
 #: itemlist_mt_galmore.json:feygard_might:description
 msgid "A Feygard general's weapon of choice."
-msgstr ""
+msgstr "费加德将军的首选武器."
 
 #: itemlist_mt_galmore.json:feygard_necklace
 msgid "Necklace of Feygard's Glory"
-msgstr ""
+msgstr "费加德荣耀项链"
 
 #: itemlist_mt_galmore.json:feygard_necklace:description
 msgid "A Feygardian soldier's medal of honor. To possess is to honor the glorious city of Feygard."
-msgstr ""
+msgstr "费加德士兵的荣誉勋章.拥有就是对费加德这座辉煌城市的尊敬."
 
 #: itemlist_mt_galmore.json:defy_ring
 msgid "Defy's ring"
-msgstr ""
+msgstr "德菲戒指"
 
 #: itemlist_mt_galmore.json:defy_ring:description
 msgid "Defy's Aidem ring."
-msgstr ""
+msgstr "德菲的艾迪姆戒指。"
 
 #: itemlist_mt_galmore.json:greedy_ring
 msgid "Greedy's ring"
-msgstr ""
+msgstr "贪婪的戒指"
 
 #: itemlist_mt_galmore.json:greedy_ring:description
 msgid "Greedy's Aidem ring"
-msgstr ""
+msgstr "贪婪的艾迪姆戒指"
 
 #: itemlist_mt_galmore.json:grabby_ring
 msgid "Grabby's ring"
-msgstr ""
+msgstr "贪婪的戒指"
 
 #: itemlist_mt_galmore.json:grabby_ring:description
 msgid "Grabby's Aidem ring"
-msgstr ""
+msgstr "贪婪的艾迪姆戒指"
 
 #: itemlist_mt_galmore.json:zachlanny_ring
 msgid "Zachlanny ring"
-msgstr ""
+msgstr "扎克兰尼戒指"
 
 #: itemlist_mt_galmore.json:zachlanny_ring:description
 msgid "Zachlanny's Aidem ring"
-msgstr ""
+msgstr "扎克兰尼的艾迪姆戒指"
 
 #: itemlist_mt_galmore.json:nixite_crystal
 msgid "Nixite crystal"
-msgstr ""
+msgstr "镍矿晶体"
 
 #: itemlist_mt_galmore.json:nixite_crystal:description
 msgid "A remarkable jewel of unparalleled rarity, exudes an enchanting iridescence reminiscent of tranquil waters under a midday sun. Its surface seems to shimmer with an inner light, casting a soothing teal glow that captivates all who behold it. Legends tell of its unique power coveted by wizards and sorcerers."
 msgstr ""
+"这是一颗罕见的非凡宝石,散发出迷人的彩虹色,让人想起正午阳光下的宁静水域."
+"它的表面似乎闪烁着内在的光芒,散发出舒缓的蓝绿色光芒,吸引了所有观看它的人."
+"传说中讲述了它被巫师和巫师垂涎的独特力量."
 
 #: itemlist_mt_galmore.json:silver_coin
 msgid "Silver coin"
-msgstr ""
+msgstr "银币"
 
 #: itemlist_mt_galmore.json:bronze_coin
 msgid "Bronze coin"
-msgstr ""
+msgstr "青铜币"
 
 #: itemlist_mt_galmore.json:witch_scepter
 msgid "Enchanted evergreen rod"
-msgstr ""
+msgstr "附魔常青杖"
 
 #: itemlist_mt_galmore.json:witch_scepter:description
 msgid "A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay."
-msgstr ""
+msgstr "一根工艺精湛的权杖,上面镶着一颗绿色的发光水晶."
+"它与大自然的本质相通,允许其持有者控制生长和衰败的力量."
 
 #: itemlist_mt_galmore.json:music_box
 msgid "Music box"
-msgstr ""
+msgstr "音乐盒"
 
 #: itemlist_mt_galmore.json:music_box:description
 msgid "This ornate wooden box is adorned with intricate carvings and when wound, produces a delicate melody only able to be enjoyed by upper class women."
-msgstr ""
+msgstr "这个华丽的木制盒子装饰着复杂的雕刻,当它被缠绕时,会产生一种只有上层女性才能欣"
+"赏的精致旋律."
 
 #: itemlist_mt_galmore.json:crystal_ball
 msgid "Crystal ball"
-msgstr ""
+msgstr "水晶球"
 
 #: itemlist_mt_galmore.json:crystal_ball:description
 msgid "A tool for scrying and divination, believed to reveal hidden knowledge."
-msgstr ""
+msgstr "占卜和占卜用的工具,被认为能揭示隐藏的知识."
 
 #: itemlist_mt_galmore.json:witch_candle
 msgid "Witch's candle"
-msgstr ""
+msgstr "女巫的蜡烛"
 
 #: itemlist_mt_galmore.json:witch_candle:description
 msgid "Used for casting spells and creating an eerie atmosphere."
-msgstr ""
+msgstr "用于施法和制造诡异气氛."
 
 #: itemlist_mt_galmore.json:major_potion_speed
 msgid "Major potion of speed"
-msgstr ""
+msgstr "专业的速度药水"
 
 #: itemlist_mt_galmore.json:cursed_fang
 msgid "Cursed rat fang"
-msgstr ""
+msgstr "被诅咒的鼠牙"
 
 #: itemlist_mt_galmore.json:cursed_fang:description
 msgid "A tooth from a rabid Nightfur rat. Cursed with rabies which has debilitating effects on the diseased."
-msgstr ""
+msgstr "一只患狂犬病的夜鼠的牙齿.被诅咒了能使病人衰弱的狂犬病."
 
 #: itemlist_mt_galmore.json:garnet_stone
 msgid "Garnet stone"
-msgstr ""
+msgstr "石榴石"
 
 #: itemlist_mt_galmore.json:garnet_stone:description
 msgid "A precious stone loved by many"
-msgstr ""
+msgstr "一块被多数人喜爱的宝石"
 
 #: itemlist_mt_galmore.json:titanforge_stompers
 msgid "Titanforge stompers"
-msgstr ""
+msgstr "泰坦锻造踩踏者"
 
 #: itemlist_mt_galmore.json:titanforge_stompers:description
 msgid "A heavy boot that boasts animposing design forged with ancient craftsmanship, enhancing the wearer's strength and resilience with each resounding step."
-msgstr ""
+msgstr "厚重的靴子,以古老的工艺锻造而成的设计,增强穿着者的力量和弹性,每一步都铿锵有力"
+"."
 
 #: itemlist_mt_galmore.json:esp_sweet_cherries
 msgid "Especially sweet cherries"
-msgstr ""
+msgstr "特别甜的浆果"
 
 #: itemlist_mt_galmore.json:cyclopean_eye_gem
 msgid "Cyclopean eye gem"
-msgstr ""
+msgstr "独眼宝石"
 
 #: itemlist_mt_galmore.json:cyclopean_eye_gem:description
 msgid "Extracted from the Cyclopea creeper species' giant eye, radiating a faint but mysterious energy."
-msgstr ""
+msgstr "从独角豆爬行植物的巨大眼睛中提取,散发出微弱但神秘的能量."
 
 #: itemlist_mt_galmore.json:cyclopea_root
 msgid "Cyclopea root"
-msgstr ""
+msgstr "鹰嘴豆根"
 
 #: itemlist_mt_galmore.json:cyclopea_root:description
 msgid "A root from the Cyclopea creeper which when consumed, has been known to provide a modest boost in strength"
-msgstr ""
+msgstr "一种来自独角豆蔓生植物的根,当食用时,已知能提供适度的力量提升"
 
 #: itemlist_mt_galmore.json:photosynthetic_leaf
 msgid "Photosynthetic leaf"
-msgstr ""
+msgstr "光合作用的叶子"
 
 #: itemlist_mt_galmore.json:photosynthetic_leaf:description
 msgid "A leaf that, when held to sunlight, provides a minor regeneration effect."
-msgstr ""
+msgstr "一种叶子,当被阳光照射时,会产生轻微的再生效果."
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime
 msgid "Hexapede crawler slime"
-msgstr ""
+msgstr "六足虫履带黏液"
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime:description
 msgid "Provides temporary immunity to Rootsnare, but at a cost."
-msgstr ""
+msgstr "提供对Rootsnare的暂时免疫,但需要付出一定代价."
 
 #: itemlist_mt_galmore.json:hexi_egg
 msgid "Hexi egg"
-msgstr ""
+msgstr "河西鸡蛋"
 
 #: itemlist_mt_galmore.json:better_worm_meat
 msgid "Healthier worm meat"
-msgstr ""
+msgstr "更健康的虫肉"
 
 #: itemlist_mt_galmore.json:better_worm_meat:description
 msgid "A heathier alternative to your average worm meat."
-msgstr ""
+msgstr "一种比普通蠕虫肉更健康的替代品."
 
 #: itemlist_mt_galmore.json:feline_fang
 msgid "Feline fang"
-msgstr ""
+msgstr "猫牙"
 
 #: itemlist_mt_galmore.json:feline_milk
 msgid "Feline milk"
-msgstr ""
+msgstr "猫奶"
 
 #: itemlist_mt_galmore.json:feline_milk:description
 msgid "A unique elixir exuding the essence of mountain flora."
-msgstr ""
+msgstr "一种独特的灵丹妙药,散发着山区植物的精华."
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
@@ -62618,7 +62686,7 @@ msgstr "地下墓穴鼠"
 
 #: monsterlist_fallhaven_animals.json:large_catacomb_rat
 msgid "Large catacomb rat"
-msgstr "大型地下墓穴老鼠"
+msgstr "地下墓穴大老鼠"
 
 #: monsterlist_fallhaven_animals.json:ghostly_visage
 msgid "Ghostly visage"
@@ -62932,7 +63000,7 @@ msgstr "扒手"
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr "捣蛋鬼"
+msgstr "麻烦制造者"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -63601,7 +63669,7 @@ msgstr "米娜拉"
 
 #: monsterlist_v0610_npcs1.json:puny_warehouserat
 msgid "Warehouse rat"
-msgstr "仓库仓鼠"
+msgstr "仓库鼠"
 
 #: monsterlist_v0610_npcs1.json:rolwynn
 msgid "Rolwynn"
@@ -66823,140 +66891,140 @@ msgstr "胡蒂博格"
 
 #: monsterlist_mt_galmore.json:laska_blizz
 msgid "Laska Blizz"
-msgstr ""
+msgstr "Laska Blizz"
 
 #: monsterlist_mt_galmore.json:thief_seraphina
 msgid "Sly Seraphina"
-msgstr ""
+msgstr "狡猾的塞拉菲娜"
 
 #: monsterlist_mt_galmore.json:aidem_camp_greedy
 #: monsterlist_mt_galmore.json:aidem_base_greedy_aggressive
 #: monsterlist_mt_galmore.json:aidem_jail_greedy
 msgid "Greedy"
-msgstr ""
+msgstr "贪婪的"
 
 #: monsterlist_mt_galmore.json:aidem_camp_grabby
 #: monsterlist_mt_galmore.json:aidem_base_grabby_aggressive
 #: monsterlist_mt_galmore.json:aidem_jail_grabby
 msgid "Grabby"
-msgstr ""
+msgstr "贪婪的"
 
 #: monsterlist_mt_galmore.json:aidem_camp_lost_traveler
 msgid "Lost Traveler"
-msgstr ""
+msgstr "迷失的旅行者"
 
 #: monsterlist_mt_galmore.json:aidem_base_alaric
 #: monsterlist_mt_galmore.json:alaric_wild6house
 #: monsterlist_mt_galmore.json:aidem_base_alaric_aggressive
 #: monsterlist_mt_galmore.json:aidem_jail_alaric
 msgid "Alaric"
-msgstr ""
+msgstr "阿拉里克"
 
 #: monsterlist_mt_galmore.json:wild6_house_thief
 msgid "Rennik"
-msgstr ""
+msgstr "雷尼克"
 
 #: monsterlist_mt_galmore.json:fish_school
 msgid "Blue fish"
-msgstr ""
+msgstr "蓝鱼"
 
 #: monsterlist_mt_galmore.json:wicked_witch_first
 #: monsterlist_mt_galmore.json:wicked_witch_second
 #: monsterlist_mt_galmore.json:wicked_witch_third
 msgid "Bonicksa"
-msgstr ""
+msgstr "博尼克莎"
 
 #: monsterlist_mt_galmore.json:sutdover_fisherman
 msgid "Isobel"
-msgstr ""
+msgstr "伊泽贝尔"
 
 #: monsterlist_mt_galmore.json:captive_girl
 msgid "Emmeline"
-msgstr ""
+msgstr "埃米琳"
 
 #: monsterlist_mt_galmore.json:preying_bird
 msgid "Preying bird"
-msgstr ""
+msgstr "捕食鸟"
 
 #: monsterlist_mt_galmore.json:nightfur_rat
 msgid "Nightfur rat"
-msgstr ""
+msgstr "夜毛鼠"
 
 #: monsterlist_mt_galmore.json:young_virid_toxin
 msgid "Young ViridToxin dartmaw"
-msgstr ""
+msgstr "年轻的达特马病毒毒素"
 
 #: monsterlist_mt_galmore.json:virid_toxin
 msgid "ViridToxin dartmaw"
-msgstr ""
+msgstr "达特马病毒毒素"
 
 #: monsterlist_mt_galmore.json:guardian_mushroom
 msgid "Mushroom guardian"
-msgstr ""
+msgstr "蘑菇卫士"
 
 #: monsterlist_mt_galmore.json:grimmthorn_marauder
 msgid "Grimmthorn marauder"
-msgstr ""
+msgstr "格里姆霍恩掠夺者"
 
 #: monsterlist_mt_galmore.json:dirty_grimmthorn_marauder
 msgid "Dirty grimmthorn marauder"
-msgstr ""
+msgstr "肮脏的格里姆霍恩掠夺者"
 
 #: monsterlist_mt_galmore.json:cyclopea_creeper
 msgid "Cyclopea creeper"
-msgstr ""
+msgstr "环纹攀缘植物"
 
 #: monsterlist_mt_galmore.json:verdant_cyclopea_creeper
 msgid "Verdant cyclopea creeper"
-msgstr ""
+msgstr "青翠的环纹攀岩植物"
 
 #: monsterlist_mt_galmore.json:spiked_cyclopea_creeper
 msgid "Spiked cyclopea creeper"
-msgstr ""
+msgstr "尖的环纹攀岩植物"
 
 #: monsterlist_mt_galmore.json:hexapede_crawler
 msgid "Hexapede crawler"
-msgstr ""
+msgstr "六足虫爬行物"
 
 #: monsterlist_mt_galmore.json:flamejaw_tunnelbeast
 msgid "Flamejaw tunnelbeast"
-msgstr ""
+msgstr "火焰颚隧道兽"
 
 #: monsterlist_mt_galmore.json:steelthorn_hexileg
 msgid "Steelthorn hexileg"
-msgstr ""
+msgstr "钢刺河西腿"
 
 #: monsterlist_mt_galmore.json:orange_cat
 msgid "Orange cat"
-msgstr ""
+msgstr "橙色的猫"
 
 #: monsterlist_mt_galmore.json:black_cat
 msgid "Black cat"
-msgstr ""
+msgstr "黑猫"
 
 #: monsterlist_mt_galmore.json:striped_cat
 msgid "Tiger cat"
-msgstr ""
+msgstr "虎猫"
 
 #: monsterlist_mt_galmore.json:gray_cat
 msgid "Gray cat"
-msgstr ""
+msgstr "灰猫"
 
 #: monsterlist_mt_galmore.json:brown_cat
 msgid "Brown cat"
-msgstr ""
+msgstr "棕猫"
 
 #: monsterlist_mt_galmore.json:blue_cat
 msgid "Old Blue"
-msgstr ""
+msgstr "老蓝"
 
 #: monsterlist_mt_galmore.json:stoneclaw_prowler
 msgid "Stoneclaw prowler"
-msgstr ""
+msgstr "石爪徘徊者"
 
 #: monsterlist_mt_galmore.json:witch_playing_kid
 msgid "Playing kid"
-msgstr ""
+msgstr "扮演孩子"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -71992,145 +72060,164 @@ msgstr "由于你的努力，你得到了一个相当糟糕的回报。"
 
 #: questlist_mt_galmore.json:wanted_men
 msgid "Wanted men"
-msgstr ""
+msgstr "通缉犯"
 
 #: questlist_mt_galmore.json:wanted_men:10
 msgid "Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices."
-msgstr ""
+msgstr "在迪博果园东南的主干道外，我偶然发现了一群长相粗糙、声音熟悉的男人。"
 
 #: questlist_mt_galmore.json:wanted_men:15
 msgid "The sketchy looking men with familiar voices turned out to be the Aidem thieves from Sullengard. They were hiding-out in the woods."
-msgstr ""
+msgstr "原来,那些声音很熟悉、相貌不佳的人是来自萨伦加德的艾登窃贼.他们躲在树林里."
 
 #: questlist_mt_galmore.json:wanted_men:20
 msgid "While speaking with Defy, I've learned the he and his men have a grudge against the Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means."
-msgstr ""
+msgstr "在与德菲交谈时,我了解到他和他的手下对盗贼公会怀恨在心,他们想要“击中他们真正的"
+"痛处”.不管那是什么意思."
 
 #: questlist_mt_galmore.json:wanted_men:25
 msgid "Defy has revealed the location of the Thieves Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven."
-msgstr ""
+msgstr "德菲透露了盗贼公会宝藏库的位置——一个可以从法尔海文南部的空房子进入的地下储藏"
+"库."
 
 #: questlist_mt_galmore.json:wanted_men:30
 msgid "Defy has asked me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy."
-msgstr ""
+msgstr "德菲让我去说服\"麻烦制造者\"把钥匙借给我一段时间,好让我把钥匙还给德菲."
 
 #: questlist_mt_galmore.json:wanted_men:35
 msgid "Defy has agreed to pay me 20 percent of the looted Thieves Guild treasure if I get the key from Troublemaker and hand it over to him."
-msgstr ""
+msgstr "德菲同意,如果我从麻烦制造者那里拿到钥匙并交给他,他会付给我被掠夺的盗贼协会宝"
+"藏的20%."
 
 #: questlist_mt_galmore.json:wanted_men:40
 msgid "Defy has instructed me to bring Troublemaker's key to him at their new hideout located west of the Sutdover River, where the rail tracks end."
-msgstr ""
+msgstr "德菲指示我把麻烦制造者的钥匙带到他们位于萨多弗河以西的新藏身处,那里是铁轨的尽"
+"头."
 
 #: questlist_mt_galmore.json:wanted_men:45
 msgid "I have talked my way into acquiring the Thieves Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it."
-msgstr ""
+msgstr "我已经谈过如何从麻烦制造者那里获得盗贼协会的金库钥匙,但我必须在用完后尽快归还"
+"给他."
 
 #: questlist_mt_galmore.json:wanted_men:50
 msgid "I told Troublemaker all that I knew about Defy, his men, and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
-msgstr ""
+msgstr "我把我所知道的关于德菲、他的手下和“迷失的旅行者”阿拉里克的一切都告诉了麻烦制"
+"造者,以及他们是如何雇佣我来帮助抢劫盗贼协会的."
 
 #: questlist_mt_galmore.json:wanted_men:55
 msgid "Troublemaker has asked me to help him trap Defy by providing Defy with a fake key. When Defy arrives at the secret vault, the Guild members will be waiting for him."
-msgstr ""
+msgstr "麻烦制造者让我帮他给德菲提供一把假钥匙来诱捕德菲."
+"当德菲到达秘密金库时,帮会成员将在那里等他."
 
 #: questlist_mt_galmore.json:wanted_men:56
 msgid ""
 "I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker.\n"
 "Defy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
 msgstr ""
+"我给了德菲麻烦制造者给我的保险库密钥的假版本.作为回报,德菲给了我一个麻烦制造"
+"者的保险库钥匙的假版本,并指示我将其退还给麻烦制造者.\n"
+"德菲然后让我回金库报到,以便收集我的那份黄金.他不知道我给他的钥匙是假的."
 
 #: questlist_mt_galmore.json:wanted_men:57
 msgid "I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves Guild has apprehended all five men and that they are now in the Guild jail."
-msgstr ""
+msgstr "我已经向空置的房子报告了情况,并在那里见到了雷尼克."
+"他告诉我,盗贼协会已经逮捕了所有五个人,他们现在在协会的监狱里."
 
 #: questlist_mt_galmore.json:wanted_men:60
 msgid "Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then I should report back to the vault in order to collect my share of the gold."
-msgstr ""
+msgstr "德菲给了我一把麻烦制造者保险箱钥匙的假版本,并指示我把它还给麻烦制造者."
+"然后我应该向金库报告,以便收集我的那部分黄金."
 
 #: questlist_mt_galmore.json:wanted_men:65
 msgid "I have given the fake Aidem key to Troublemaker as a replacement for the real vault key."
-msgstr ""
+msgstr "我已经把假的艾迪姆钥匙交给了麻烦制造者,作为真正保险库钥匙的替代品."
 
 #: questlist_mt_galmore.json:wanted_men:70
 msgid "I reported back to Defy and he rewarded me with 25000 gold."
-msgstr ""
+msgstr "我向德菲汇报,他奖励了我25000黄金."
 
 #: questlist_mt_galmore.json:wanted_men:75
 msgid "I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight ensued."
-msgstr ""
+msgstr "我告诉德菲,我把钥匙留给自己,并计划自己洗劫盗贼协会的金库.随后发生了一场打斗."
 
 #: questlist_mt_galmore.json:wanted_men:76
 msgid "I have killed Defy, his three henchmen and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
-msgstr ""
+msgstr "我已经杀死了德菲,他的三个党羽和阿拉里克."
+"我真的应该回到法尔海文,再和麻烦制造者谈谈."
 
 #: questlist_mt_galmore.json:wanted_men:77
 msgid "I've unlocked the hatch leading to the vault. It's time to head down."
-msgstr ""
+msgstr "我已经打开了通往金库的大门.是时候低头了."
 
 #: questlist_mt_galmore.json:wanted_men:80
 msgid "I informed Troublemaker that Defy and his men are now dead."
-msgstr ""
+msgstr "我通知麻烦制造者,德菲和他的人现在已经死了."
 
 #: questlist_mt_galmore.json:wicked_witch
 msgid "A Wicked witch"
-msgstr ""
+msgstr "邪恶的女巫"
 
 #: questlist_mt_galmore.json:wicked_witch:10
 msgid "Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more."
-msgstr ""
+msgstr "法尔海文酒馆的老板贝拉从一位顾客那里听说了一个女孩可能被绑架的消息."
+"如果有人知道更多,我应该问问城里的人."
 
 #: questlist_mt_galmore.json:wicked_witch:20
 msgid "The \"busy farmer\", in the southeastern part of Fallhaven knows something about the witch."
-msgstr ""
+msgstr "法尔海文东南部的“忙碌的农民”对女巫有所了解."
 
 #: questlist_mt_galmore.json:wicked_witch:30
 msgid "The \"busy farmer\" and his best friend, Addie where kept captive by the witch a very long time ago when they were just kids. He never saw Addie again."
-msgstr ""
+msgstr "这位“忙碌的农民”和他最好的朋友艾迪很久以前还是孩子的时候就被女巫囚禁了."
+"他再也没见过艾迪."
 
 #: questlist_mt_galmore.json:wicked_witch:40
 msgid "The \"busy farmer\" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers."
-msgstr ""
+msgstr "这位“忙碌的农民”告诉我,女巫的房子就在法尔海文以南.覆盖着美丽的花朵."
 
 #: questlist_mt_galmore.json:wicked_witch:50
 msgid "After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was \"confident in my path\" and that \"we shall see\". I wonder what that meant?"
 msgstr ""
+"在见到邪恶的女巫博尼克莎后,我决定让她活下来,她也这样做了,但在这之前,我得到了"
+"一个非常神秘的回应.说我“对自己的道路充满信心”,“我们拭目以待”."
+"我想知道这是什么意思？"
 
 #: questlist_mt_galmore.json:wicked_witch:55
 msgid "I have attacked Bonicksa."
-msgstr ""
+msgstr "我攻击了博尼克莎."
 
 #: questlist_mt_galmore.json:wicked_witch:60
 msgid "I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
-msgstr ""
+msgstr "我杀了我以为是博尼克莎的人,但我很快意识到我杀了一个无辜的女孩."
 
 #: questlist_mt_galmore.json:wicked_witch:65
 msgid "I \"killed\" Bonicksa again, only for her to reappear."
-msgstr ""
+msgstr "我再次“杀死”了博尼克莎,只为她再次出现."
 
 #: questlist_mt_galmore.json:wicked_witch:70
 msgid "Bonicksa lives and could not be defeated. But I learned a huge life lesson."
-msgstr ""
+msgstr "博尼克莎活着,不能被打败.但我学到了一个巨大的人生教训."
 
 #: questlist_mt_galmore.json:wicked_witch:80
 msgid "I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from Bonicksa."
-msgstr ""
+msgstr "我在“邪恶女巫”的房子后面发现了一个叫埃米琳的年轻女孩."
+"在博妮克萨的魔咒下,这个女巫真的是埃米琳."
 
 #: questlist_mt_galmore.json:wicked_witch:85
 msgid "Emmeline asked me to get her \"a lot\" of those \"Tonics of Blood\"."
-msgstr ""
+msgstr "埃米琳让我给她买“很多”那种“补血药”."
 
 #: questlist_mt_galmore.json:wicked_witch:90
 msgid "Emmeline told me to head east of the witch's house to find the undead that know about the 'Tonic of Blood'."
-msgstr ""
+msgstr "埃米琳告诉我去女巫家的东边去找那些知道“补血药”的亡灵."
 
 #: questlist_mt_galmore.json:wicked_witch:95
 msgid "I gave Emmeline 25 of the \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place."
-msgstr ""
+msgstr "我给了埃米琳25份她要求的“补血药”,然后她就可以离开那个可怕的地方了."
 
 #: questlist_mt_galmore.json:wicked_witch:96
 msgid "I gave Emmeline 20 of the 25 \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place."
-msgstr ""
+msgstr "我给了埃米琳她要的25种“补血药”中的20种,然后她就可以离开那个可怕的地方了."
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
 msgid "Bloskelt + Roskelt"
@@ -72235,4 +72322,3 @@ msgstr "苏伦加德"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "迪博果园"
-
