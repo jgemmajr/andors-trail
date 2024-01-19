@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-09-27 06:13+0000\n"
-"Last-Translator: Eduardo <edu200399lim@gmail.com>\n"
+"PO-Revision-Date: 2024-01-19 06:50+0000\n"
+"Last-Translator: Patryck Cardozo <patryckvalentim@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -380,19 +380,19 @@ msgstr "Sonambulismo"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Feygard Loyalist"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Enraizador"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Raiva"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Sabor ruim"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -2161,7 +2161,8 @@ msgstr "Ah bom. Aquele guarda me jogou para fora da taverna. Se eu vê-lo novame
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_4
 msgid "Drink drink drink, drink some more. Drink, drink ... Uh how did it go again?"
-msgstr "Beber, beber, beber, beber um pouco mais. Beber, beber... Uh, como é mesmo?"
+msgstr ""
+"Beber beber e beber, beber um pouco mais. Beber e beber... Uh, como é mesmo?"
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk_5
 msgid "Were you saying something? Where was I? Yes, so we were in this dungeon."
@@ -3952,8 +3953,9 @@ msgid ""
 "North: Fallhaven\n"
 "South: Sutdover River and Sullengard"
 msgstr ""
-"[OUTDATED]Oeste(←): Stoutford\n"
-"Norte(↑): Fallhaven"
+"Oeste: Stoutford\n"
+"Norte: Fallhaven\n"
+"Sul: Rio Sutdover e Sullengard"
 
 #: conversationlist_signs_pre067.json:sign_wild10
 msgid ""
@@ -9299,31 +9301,35 @@ msgstr "Ah, é você."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10
 msgid "Hey, psst."
-msgstr ""
+msgstr "Ei, psst."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr ""
+msgstr "Se você quiser dizer algo, fale alto."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
 msgstr ""
+"Harlenn é um líder sábio e forte, mas infelizmente tão teimoso quanto "
+"Guthbered."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12
 msgid "Thank you for not inciting the argument any further. Maybe someday there will be something like peace again."
 msgstr ""
+"Obrigado por não incitar mais a discussão. Talvez um dia haja algo como paz "
+"novamente."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12:0
 msgid "I wish it for you. Can I go in here?"
-msgstr ""
+msgstr "Desejo isso para você. Posso entrar aqui?"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "Certo. Fique à vontade, apenas evite causar problemas."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[Mentira] Claro."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -29238,7 +29244,7 @@ msgstr "É bom te ver feliz de novo."
 #: conversationlist_stoutford_combined.json:blornvale_shop1_8:3
 #: conversationlist_stoutford_combined.json:blornvale_shop2:3
 msgid "Do you happen to sell empty bottles?"
-msgstr ""
+msgstr "Você vende garrafas vazias?"
 
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2
 msgid "Did you kill this brute behind my house?"
@@ -31327,11 +31333,11 @@ msgstr "Por favor, não perturbe. Temos que praticar."
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b
 msgid "No, unfortunately not. Maybe try my colleague in Fallhaven?"
-msgstr ""
+msgstr "Não, infelizmente não. Talvez consiga com meu colega em Fallhaven?"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
 msgid "Sigh - well, thanks."
-msgstr ""
+msgstr "Ah, que pena. Bem, obrigado."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32029,30 +32035,36 @@ msgstr "Eu tenho que... (você olha para Ambelie) encontrar um lugar melhor para
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:4
 msgid "[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild."
-msgstr "[OUTDATED]Posso dar uma olhada nos suprimentos atuais da Guilda?"
+msgstr ""
+"[Mentira] Eu acabei de recuperar 10.000 de ouro da minha última missão e me "
+"disseram para entregá-lo para A Guilda."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
 msgid "I have found Defy and his men."
-msgstr ""
+msgstr "Eu encontrei o Defy e seus homens."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:6
 msgid "I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?"
 msgstr ""
+"Estou confuso. Passei a chave falsa pro Defy que você me deu, mas e agora, o "
+"que eu tenho que fazer?"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:8
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:10
 msgid "[Lie] I have deposited the 10000 gold. Here is your key back, as promised."
 msgstr ""
+"[Mentira] Depositei os 10.000 ouros. Aqui está a chave de volta, como "
+"prometido."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:9
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10:0
 msgid "I encountered Defy and his men and was forced to kill them!"
-msgstr ""
+msgstr "Encontrei Defy e sua gangue e fui forçado a matá-los!"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:11
 msgid "Can I take a look at the Guild's current supplies?"
-msgstr ""
+msgstr "Posso dar uma olhada nos suprimentos atuais da Guilda?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10
 msgid "Hello, friend! Thank you for all you've done for me."
@@ -33768,7 +33780,7 @@ msgstr "Que pena. Encontre mais tempo para as minhas habilidades então."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1a
 msgid "[Here, the story continues]"
-msgstr ""
+msgstr "[Aqui, a história continua]"
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4c
 msgid "Wha... what are you referring to?"
@@ -33940,7 +33952,9 @@ msgstr "Vou fazer isso."
 
 #: conversationlist_omicronrg9.json:umar_guild05_1a
 msgid "You are really very hardworking. I can't find new work for you fast enough. You're free for now."
-msgstr "[OUTDATED](Aqui, a história continua)"
+msgstr ""
+"Você é realmente muito trabalhador. Eu não consigo encontrar novos trabalhos "
+"rápido o suficiente para você. Você está livre por enquanto."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1
 msgid "Yes, I do have a new task for you. So, listen to me carefully."
@@ -34158,19 +34172,21 @@ msgstr "Ainda não sabemos onde eles estão."
 
 #: conversationlist_omicronrg9.json:umar_guild04_26
 msgid "Sullengard is our friend. Find a way to earn gold."
-msgstr "Sullengard é nosso amigo. Encontre uma maneira de conseguir ouro."
+msgstr "Sullengard está conosco. Encontre uma maneira de ganhar ouro."
 
 #: conversationlist_omicronrg9.json:umar_guild04_26:0
 msgid "How can we earn that large amount of gold?"
-msgstr "Como podemos ganhar essa grande quantidade de ouro?"
+msgstr "Como vamos conseguir essa quantidade absurda de ouro?"
 
 #: conversationlist_omicronrg9.json:umar_guild04_26:1
 msgid "This requires so much gold, how can we earn it?"
-msgstr "Isto requer muito ouro, como podemos consegui-lo?"
+msgstr "Isso requer muito ouro, como vamos consegui-lo?"
 
 #: conversationlist_omicronrg9.json:umar_guild04_27
 msgid "I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives."
-msgstr "Confio que você encontrará um caminho. Enquanto isso, volte para Sullengard e dê a eles a parte que lhes prometemos para que possam continuar com suas vidas."
+msgstr ""
+"Eu confio que você encontrará uma solução. Por hora, volte para Sullengard e "
+"dê a eles a parte que prometemos para que sigam com suas vidas."
 
 #: conversationlist_omicronrg9.json:umar_guild04_27:0
 msgid "What? How?"
@@ -34178,7 +34194,7 @@ msgstr "Que? Como?"
 
 #: conversationlist_omicronrg9.json:umar_guild04_27:1
 msgid "Yes. I'm on it."
-msgstr "Sim. Vou tratar disso."
+msgstr "Sim. Estou trabalhando nisso."
 
 #: conversationlist_omicronrg9.json:umar_guild04_28b
 msgid "Here's 1000 gold coins as my financial contribution."
@@ -34203,7 +34219,9 @@ msgstr "Será feito."
 
 #: conversationlist_omicronrg9.json:umar_guild04_29
 msgid "Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's."
-msgstr "Bom trabalho, criança! Eu sabia que podia contar com você. Aqui, pegue esta lâmina. Costumava ser do seu irmão."
+msgstr ""
+"Bom trabalho garoto! Eu sabia que podia contar contigo. Aqui, pegue esta "
+"lâmina. Costumava ser do seu irmão."
 
 #: conversationlist_omicronrg9.json:umar_guild04_29:0
 msgid "Thank you, sir. You can count me in as well to kill Defy."
@@ -34243,11 +34261,13 @@ msgstr "Então você conhece meu irmão também?"
 
 #: conversationlist_omicronrg9.json:guild04_defy_3
 msgid "Indeed. He always asks questions like a curious kid does. Tell me, what brings you here, $playername?"
-msgstr "Realmente. Ele sempre faz perguntas como uma criança curiosa faz. Diga-me, o que te traz aqui, $playername?"
+msgstr ""
+"De fato. Ele sempre faz perguntas como uma criança curiosa. Diga-me, o que o "
+"traz aqui, $playername?"
 
 #: conversationlist_omicronrg9.json:guild04_defy_3:0
 msgid "Umar told me that it is time to give their share to the bootleg brewers."
-msgstr "Omar me disse que é hora de dar sua parte aos cervejeiros piratas."
+msgstr "Umar me disse que é hora de dar sua parte aos piratas cervejeiros."
 
 #: conversationlist_omicronrg9.json:guild04_defy_3:1
 msgid "Umar sent me for our business."
@@ -37158,7 +37178,7 @@ msgstr "Obrigado pelo seu patrocínio. Você pode usar qualquer cama disponível
 
 #: conversationlist_brimhaven.json:brv_butcher
 msgid "... chop chop chop ..."
-msgstr "... corta corta corta..."
+msgstr "...corta corta corta..."
 
 #: conversationlist_brimhaven.json:brv_cleaning_10
 msgid "Wipe your feet!"
@@ -37389,7 +37409,7 @@ msgstr "Por isso eu gostaria que o lago seco estivesse cheio de água de novo. I
 
 #: conversationlist_brimhaven.json:churrie_20
 msgid "Indeed. I would see to it, if I had enough money."
-msgstr "De fato. Eu cuidaria disso, se tivesse dinheiro suficiente."
+msgstr "De fato. Eu faria isso, se tivesse dinheiro suficiente."
 
 #: conversationlist_brimhaven.json:churrie_20:0
 msgid "What has money to do with it? I better go."
@@ -42936,7 +42956,9 @@ msgstr "Como você pode ser tão preguiçoso?"
 
 #: conversationlist_fungi_panic.json:bogsten_200_20
 msgid "When you get to my age, maybe you'll understand that you don't need to rush through life. Now leave me to my rest."
-msgstr "Quando chegar à minha idade, talvez entenda que não precisa apressar a vida. Agora me deixe descansar um pouco."
+msgstr ""
+"Quando você chegar à minha idade, talvez entenderá que não precisa se "
+"apressar pela vida. Agora, deixe-me descansar."
 
 #: conversationlist_fungi_panic.json:gison_p1_fail
 msgid "Oh, it's you. Alaun still hasn't come by for his soup. It's a pity that you couldn't help him."
@@ -44019,7 +44041,7 @@ msgstr "Eu tenho uma carta para você."
 
 #: conversationlist_gorwath.json:arensia_1:2
 msgid "Hello. I am wondering if you could help me?"
-msgstr ""
+msgstr "Oi. Gostaria de saber se você pode me ajudar?"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -46721,7 +46743,7 @@ msgstr "Você ouve passos na montanha. Parece que um soldado de Feygard está gu
 
 #: conversationlist_omi2.json:ortholion_subdued_1
 msgid "Hmmm... Hmmm...."
-msgstr "Hummm... Hummm..."
+msgstr "Hummm... Hmmm...."
 
 #: conversationlist_omi2.json:ortholion_subdued_1:0
 msgid "Hey! I need to talk with the general, now!"
@@ -48145,7 +48167,7 @@ msgstr "Tsch, você não pode perder! Ainda estou me recuperando."
 
 #: conversationlist_omi2.json:ortholion_9
 msgid "*looks at you* Humilliating. How did I...? How did that guy...?"
-msgstr "*olha para você* Isso é humilhante. Como aquele cara..."
+msgstr "*olha para você* Humilhante. Como eu...? Como aquele cara...?"
 
 #: conversationlist_omi2.json:ortholion_9:0
 msgid "Ehrenfest?"
@@ -48188,7 +48210,10 @@ msgid ""
 "A knight's only trustworthy escorts are his sword and his horse. \n"
 "\n"
 "*gets up* I'm pretty sure you'll find the way out."
-msgstr "[REVIEW]As únicas escoltas confiáveis de um cavaleiro são sua espada e seu cavalo. Tenho certeza que você encontrará a saída."
+msgstr ""
+"As únicas escoltas confiáveis de um cavaleiro são sua espada e seu cavalo.\n"
+"\n"
+"Tenho certeza de que você encontrará a saída."
 
 #: conversationlist_omi2.json:ortholion_12:1
 msgid "Shad... Yeah, let's meet later."
@@ -48568,14 +48593,18 @@ msgstr "Você está errado. Eu não estou aqui, apenas uma ilusão."
 #: conversationlist_omi2.json:bwm_wellspring_1a
 msgid "An empty flask would be also OK. Just an empty vial would be a little bit to small."
 msgstr ""
+"Uma garrafa vazia também está bom. Só um vidrinho vazio seria um pouco "
+"pequeno demais."
 
 #: conversationlist_omi2.json:bwm_wellspring_1b
 msgid "A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water."
 msgstr ""
+"Uma garrafa grande ficaria muito pesada quando cheia de água, e garrafas de "
+"sopa não são adequadas para essa água maravilhosamente fresca."
 
 #: conversationlist_omi2.json:bwm_wellspring_1c
 msgid "And no: you can't just empty a bottle and use it."
-msgstr ""
+msgstr "E não: você não pode simplesmente esvaziar uma garrafa e usá-la."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10
 msgid "Ah! You have finally returned, my new worker."
@@ -48935,6 +48964,8 @@ msgstr "Devemos encontrá-lo ou então o que faremos?"
 #: conversationlist_sullengard.json:sullengard_matpat_5
 msgid "More importantly, how could I raise my firstborn child without the share to buy expensive foods and pay high rents here?"
 msgstr ""
+"Mais importante ainda, como eu poderia criar meu filho sem a parte para "
+"comprar alimentos caros e pagar aluguéis altos aqui?"
 
 #: conversationlist_sullengard.json:sullengard_matpat_5:0
 msgid "Calm down. I will find a way to help you."
@@ -48962,7 +48993,7 @@ msgstr "Vá falar com meu marido, estou exausta e deprimida."
 
 #: conversationlist_sullengard.json:sullengard_ollie
 msgid "Coocoo."
-msgstr "Coocoo."
+msgstr "Cuco"
 
 #: conversationlist_sullengard.json:sullengard_ollie:0
 msgid "[Tickle Ollie's tummy]"
@@ -49242,7 +49273,7 @@ msgstr "É provavelmente uma das cidades mais bonitas que visitei."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_0
 msgid "Hey there."
-msgstr "Ei"
+msgstr "Olá."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_0:0
 msgid "You look worried."
@@ -49465,7 +49496,7 @@ msgstr "É melhor eu ficar longe."
 
 #: conversationlist_sullengard.json:sullengard_snapper_1
 msgid "[Snap]."
-msgstr ""
+msgstr "[Foto]."
 
 #: conversationlist_sullengard.json:sullengard_snapper_1:0
 msgid "Ouch! Why did you bite me? Bad turtle!"
@@ -50324,7 +50355,9 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0
 msgid "Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?"
-msgstr "[Sob seus pés você percebe um buraco recém-cavado. Não parece que um animal tenha feito isso. Examinar o buraco?]"
+msgstr ""
+"[Sob seus pés você percebe um buraco recém-cavado. Não parece que um animal "
+"tenha feito isso. Deseja examinar o buraco?]"
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0:0
 msgid "Yes. Let's play in the dirt like Andor and I did when we were younger."
@@ -50360,7 +50393,7 @@ msgstr "Oh sim. Que idiota eu sou."
 
 #: conversationlist_sullengard.json:sullengard_mariora_10
 msgid "Oh, aren't you the sweetest thing in all of Dhayavar."
-msgstr "Oh, você não é a coisa mais doce de Dhayavar?"
+msgstr "Ah, você não é a coisa mais adorável de Dhayavar?"
 
 #: conversationlist_sullengard.json:sullengard_mariora_10:0
 msgid "[Now blushing, you are nervous and desperate for this feeling to go away.] Well, I try to be when in the presence of elegance."
@@ -50663,7 +50696,7 @@ msgstr ""
 #: conversationlist_sullengard.json:crossglen_valentina_andor_25:0
 #: conversationlist_sullengard.json:crossglen_valentina_andor_30:0
 msgid "Umm...no, no I don't."
-msgstr "Umm... não, não, eu não."
+msgstr "Umm... não, não tenho."
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_30
 msgid "What? Why not? Don't you remember who lives there?"
@@ -51257,7 +51290,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:farrik_beer_town
 msgid "Oh, how silly of me to leave out that detail."
-msgstr ""
+msgstr "Oh, que bobagem da minha parte deixar esse detalhe de fora."
 
 #: conversationlist_sullengard.json:farrik_beer_town:0
 msgid "Yes, it was 'silly' of you to do that."
@@ -72203,4 +72236,3 @@ msgstr "Sullengard"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
