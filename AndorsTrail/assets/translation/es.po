@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-11-24 19:38+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2024-02-10 16:02+0000\n"
+"Last-Translator: Jesus Barba <jesbm1g2@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -386,19 +386,20 @@ msgstr "Sonambulismo"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Lealista de Feygard"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Trampa de raíces"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Rabia"
 
 #: actorconditions_mt_galmore.json:bad_taste
+#, fuzzy
 msgid "Bad taste"
-msgstr ""
+msgstr "Mal gusto"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -9305,19 +9306,23 @@ msgstr "Oh, eres tu."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10
 msgid "Hey, psst."
-msgstr ""
+msgstr "Psst, hey."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr ""
+msgstr "Si quieres decir algo, habla fuerte."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
 msgstr ""
+"Harlenn es un lider sabio y fuerte, pero desafortunadamente tan terco como "
+"Guthbered."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12
 msgid "Thank you for not inciting the argument any further. Maybe someday there will be something like peace again."
 msgstr ""
+"Gracias por no incitar mas la discusion. Tal vez algun dia vuelva a haber "
+"algo parecido a la paz."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12:0
 msgid "I wish it for you. Can I go in here?"
@@ -9325,11 +9330,11 @@ msgstr ""
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "Está bien. Confío en que no hagas ninguna maldad."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[Mentira] Claro."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -25644,7 +25649,7 @@ msgstr "Así que toma esta flauta y cuida bien de ella."
 #: conversationlist_stoutford_combined.json:stoutford_widow_thorns80_2:1
 #: conversationlist_omi2.json:ortholion_12:0
 msgid "I will."
-msgstr ""
+msgstr "Lo haré."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah2_12
 #: conversationlist_guynmart_npc.json:guynmart_steward5_12
@@ -29244,7 +29249,7 @@ msgstr "Me alegro de verte feliz de nuevo."
 #: conversationlist_stoutford_combined.json:blornvale_shop1_8:3
 #: conversationlist_stoutford_combined.json:blornvale_shop2:3
 msgid "Do you happen to sell empty bottles?"
-msgstr ""
+msgstr "¿Por casualidad vendes botellas vacías?"
 
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2
 msgid "Did you kill this brute behind my house?"
@@ -31337,7 +31342,7 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
 msgid "Sigh - well, thanks."
-msgstr ""
+msgstr "Suspiro - Bueno, gracias."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32040,11 +32045,13 @@ msgstr "[OUTDATED]¿Puedo echar un vistazo a los suministros actuales del gremio
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
 msgid "I have found Defy and his men."
-msgstr ""
+msgstr "He encontrado a Defy y a sus hombres."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:6
 msgid "I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?"
 msgstr ""
+"Estoy confundido. Le di a Defy la llave falsa que me diste, pero ¿qué se "
+"supone que debo hacer ahora?"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:8
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:10
@@ -32054,11 +32061,11 @@ msgstr ""
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:9
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10:0
 msgid "I encountered Defy and his men and was forced to kill them!"
-msgstr ""
+msgstr "¡Me encontré con Defy y sus hombres y me vi obligado a matarlos!"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:11
 msgid "Can I take a look at the Guild's current supplies?"
-msgstr ""
+msgstr "¿Puedo ver los suministros actuales del gremio?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10
 msgid "Hello, friend! Thank you for all you've done for me."
@@ -33774,7 +33781,7 @@ msgstr "Que lastima. Entonces encuentra más tiempo para mis habilidades."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1a
 msgid "[Here, the story continues]"
-msgstr ""
+msgstr "[Aquí, la historia continúa]"
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4c
 msgid "Wha... what are you referring to?"
@@ -44024,8 +44031,9 @@ msgid "I have a letter for you."
 msgstr "Tengo una carta para ti."
 
 #: conversationlist_gorwath.json:arensia_1:2
+#, fuzzy
 msgid "Hello. I am wondering if you could help me?"
-msgstr ""
+msgstr "Hola. Me pregunto si podrías ayudarme."
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -45765,35 +45773,42 @@ msgid "Ag...Again?! Are you drunk or me? East of here. Underground. Deep in thos
 msgstr "¿O...Otra vez?! ¿Estás ebrio o lo estoy yo? Al este de aquí. Bajo tierra. En lo profundo en esas cavernas."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18a:0
+#, fuzzy
 msgid "Hmpf, OK. Bye."
-msgstr ""
+msgstr "Hmpf, OK. Adiós."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18a:1
 msgid "I'll bring the water, don't worry."
-msgstr ""
+msgstr "Yo traeré el agua, no te preocupes."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c
 msgid ""
 "This little bottle? This is not enough, it evaporates before it reaches the stomach.\n"
 "Bring at least 2 of these!"
 msgstr ""
+"¿Esta botellita? Esto no es suficiente, se evapora antes de llegar al "
+"estómago.\n"
+"¡Trae al menos 2 de estas!"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:0
 #: conversationlist_omi2.json:ortholion_guard9_10b:0
+#, fuzzy
 msgid "Hmpf, OK."
-msgstr ""
+msgstr "Hmpf, OK."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:1
 msgid "I'll bring more water, don't worry."
-msgstr ""
+msgstr "Traeré más agua, no te preocupes."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18d
 msgid "Oh, ow, my head!"
-msgstr ""
+msgstr "¡Oh, ouch, mi cabeza!"
 
 #: conversationlist_omi2.json:bwm_wellspring_1
 msgid "A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent."
 msgstr ""
+"Una pequeña alberca natural se ha formado aquí. El agua, que emerge de "
+"pequeñas grietas en la piedra, es fría y transparente."
 
 #: conversationlist_omi2.json:bwm_wellspring_1:0
 msgid "Fill a bottle of water."
@@ -46124,8 +46139,9 @@ msgid "I'll think about it. See you soon."
 msgstr "Lo pensaré. Hasta pronto."
 
 #: conversationlist_omi2.json:ehrenfest_38a:2
+#, fuzzy
 msgid "OK, I will help you. Let's solve this once for all."
-msgstr ""
+msgstr "OK, te ayudaré. Vamos a resolver esto de una vez por todas."
 
 #: conversationlist_omi2.json:ehrenfest_39a
 msgid ""
@@ -46484,20 +46500,23 @@ msgid "They'll be a nice warm-up."
 msgstr "Serán un buen calentamiento."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_39b:1
+#, fuzzy
 msgid "OK, let's try...Again."
-msgstr ""
+msgstr "Muy bien, intentemos...otra vez."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_39c
+#, fuzzy
 msgid "*laughs loudly*"
-msgstr ""
+msgstr "*Ríe en voz alta*"
 
 #: conversationlist_omi2.json:prim_taver_guest4_39d
+#, fuzzy
 msgid "Ha, ha! Never mind."
-msgstr ""
+msgstr "¡Ja, ja! Olvídalo."
 
 #: conversationlist_omi2.json:prim_taver_guest4_39d:0
 msgid "Do you remember anything more about Lorn's mission?"
-msgstr ""
+msgstr "¿Recuerdas algo más sobre la misión de Lorn?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_40a
 msgid ""
@@ -46529,11 +46548,15 @@ msgid "Zzz... Zzz..."
 msgstr ""
 
 #: conversationlist_omi2.json:capvjern_1
+#, fuzzy
 msgid ""
 "C'mon! Dare to raise your sword!\n"
 "\n"
 "You! You left my partners to DIE! "
 msgstr ""
+"¡Vamos! ¡Atrévete a levantar tu espada!\n"
+"\n"
+"!Tu! ¡Dejaste morir a mis compañeros! "
 
 #: conversationlist_omi2.json:capvjern_2
 msgid ""
@@ -46544,7 +46567,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:capvjern_3
 msgid "Ah! Now your incompetence is my fault? "
-msgstr ""
+msgstr "¡Ah! ¿Ahora tu incompetencia es mi culpa? "
 
 #: conversationlist_omi2.json:capvjern_4
 msgid ""
@@ -46552,10 +46575,15 @@ msgid ""
 "\n"
 "We're getting more and more surrounded by those beasts, you know? Right now there's no point to worrying about somebody who fell off the mountain!"
 msgstr ""
+"*Levanta sus manos* ¡Ya suéltalo!\n"
+"\n"
+"Nos están rodeando más y más esas bestias, ¿sabes? ¡En este momento no tiene "
+"sentido preocuparse por alguien que cayó de la montaña!"
 
 #: conversationlist_omi2.json:capvjern_5
+#, fuzzy
 msgid "Are you out of your mind? Lorn would never have died from something like that!"
-msgstr ""
+msgstr "¿Estas loco? ¡Lorn nunca habría muerto por algo así!"
 
 #: conversationlist_omi2.json:capvjern_6
 msgid "How can you be so sure? Accidents happen! He could have fallen off during an attack or a rock slide."
@@ -72075,4 +72103,3 @@ msgstr "Sullengard"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
