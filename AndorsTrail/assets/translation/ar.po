@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2023-11-10 09:10+0000\n"
-"Last-Translator: Mohamed Amaadour <mostafaamaadour@gmail.com>\n"
+"PO-Revision-Date: 2024-02-23 16:34+0000\n"
+"Last-Translator: عادل نصري <nsrya06@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -376,7 +376,7 @@ msgstr "نائم"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "موالي لفايغارد"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
@@ -384,11 +384,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "داء الكلب"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "مذاق سيء"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -7615,7 +7615,7 @@ msgstr "نعم، أنا هنا لمساعدة قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner1:1
 msgid "[Lie] Yes, I am here to help your village."
-msgstr ""
+msgstr "[كذبة] نعم، أنا هنا لمساعدة قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner1:2
 msgid "Maybe, but first tell me what do you know about Lorn's crew accident?"
@@ -7685,7 +7685,7 @@ msgstr "نعم، لقد جِئتُ لأساعد قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner4:2
 msgid "[Lie] Yes, I have come to help your village."
-msgstr ""
+msgstr "[كذبة] نعم، لقد جئت لمساعدة قريتك."
 
 #: conversationlist_prim_outside.json:prim_commoner4:3
 #: conversationlist_prim_tavern.json:prim_tavern_guest4_3:0
@@ -7799,43 +7799,49 @@ msgstr "أصبحت هجماتهم تزداد براعةً أكثر فأكثر."
 #: conversationlist_prim_inn.json:laecca_13
 msgid "You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village."
 msgstr ""
+"يجب أن تتحدث إلى جوثبيرد. هو عادة في القاعة الرئيسية. ابحث عن منزل حجري في "
+"وسط القرية."
 
 #: conversationlist_prim_inn.json:prim_cook_1
 #: conversationlist_lethenlor.json:lethenlor0
 msgid "Can I help you?"
-msgstr ""
+msgstr "هل يمكنني مساعدتك؟"
 
 #: conversationlist_prim_inn.json:prim_cook_1:0
 msgid "What food do you have available for trade?"
-msgstr ""
+msgstr "ما هي المواد الغذائية المتوفرة لديكم للتجارة؟"
 
 #: conversationlist_prim_inn.json:prim_cook_1:1
 msgid "Is the back room available for rent?"
-msgstr ""
+msgstr "هل الغرفة الخلفية متاحة للإيجار؟"
 
 #: conversationlist_prim_inn.json:prim_cook_2
 msgid "Food? No, sorry. I don't have anything to trade."
-msgstr ""
+msgstr "طعام؟ لا آسف. ليس لدي أي شيء للتداول."
 
 #: conversationlist_prim_inn.json:prim_cook_3
 msgid "Rent? Hmm. No, not at the moment."
-msgstr ""
+msgstr "إيجار؟ همم. لا ليس في الوقت الحاضر."
 
 #: conversationlist_prim_inn.json:prim_cook_5
 msgid "Now that you mention it, he hasn't been around here for quite some time. Maybe you could go talk to him and see if he still wants to rent it?"
 msgstr ""
+"الآن بعد أن ذكرت ذلك، فهو لم يتواجد هنا منذ بعض الوقت. ربما يمكنك التحدث معه "
+"ومعرفة ما إذا كان لا يزال يريد استئجارها؟"
 
 #: conversationlist_prim_inn.json:prim_cook_5:0
 msgid "OK, I will go talk to him."
-msgstr ""
+msgstr "حسنا، سأذهب و أتحدث معه."
 
 #: conversationlist_prim_inn.json:prim_cook_5:1
 msgid "Sure. Any idea where he might be?"
-msgstr ""
+msgstr "طبعا. هل لديك أي فكرة أين يمكن أن أجده؟"
 
 #: conversationlist_prim_inn.json:prim_cook_41
 msgid "It is still rented out to Arghest. He would not be very happy if I rented it out to someone else when he expects to use it."
 msgstr ""
+"مازالت مؤجرة لأرغيست. لن يكون سعيدًا جدًا إذا قمت بتأجيرها لشخص آخر عندما "
+"يريد استخدامها."
 
 #: conversationlist_prim_inn.json:prim_cook_6
 msgid "I don't know where he is now, but I do know that he used to be part of the mining effort in our mine to the southwest."
@@ -7852,126 +7858,133 @@ msgstr ""
 #: conversationlist_prim_inn.json:prim_cook_return_1
 msgid "Thank you for your help earlier. I hope the back room is comfortable enough."
 msgstr ""
+"شكرا لمساعدتكم في وقت سابق. آمل أن تكون الغرفة الخلفية مريحة بما فيه الكفاية."
 
 #: conversationlist_prim_inn.json:prim_cook_return_2
 msgid "Did you talk to Arghest?"
-msgstr ""
+msgstr "هل تحدثت مع ارغيست؟"
 
 #: conversationlist_prim_inn.json:prim_cook_return_2:1
 msgid "[Lie] Yes, he told me that I could rest in the back room if I want to."
-msgstr ""
+msgstr "[كذبة] نعم، أخبرني أنه يمكنني الراحة في الغرفة الخلفية إذا أردت ذلك."
 
 #: conversationlist_prim_inn.json:prim_cook_return_2:2
 msgid "Yes, he gave me permission to use the back room whenever I wish."
-msgstr ""
+msgstr "نعم، لقد أعطاني الإذن باستخدام الغرفة الخلفية متى شئت."
 
 #: conversationlist_prim_inn.json:prim_cook_return_3
 msgid "Return to me once you know if he is still interested in renting the back room or not."
 msgstr ""
+"ارجع إليّ بمجرد معرفة ما إذا كان لا يزال مهتمًا بتأجير الغرفة الخلفية أم لا."
 
 #: conversationlist_prim_inn.json:prim_cook_return_3:0
 msgid "Any idea where he might be?"
-msgstr ""
+msgstr "هل لديك أي فكرة عن مكان وجوده؟"
 
 #: conversationlist_prim_inn.json:prim_cook_return_4
 msgid "Did he really say that? Somehow I doubt that. It doesn't sound like him."
-msgstr ""
+msgstr "هل قال ذلك حقا؟ لا اصدقك. لا يبدو هذا كلامه."
 
 #: conversationlist_prim_inn.json:prim_cook_return_5
 msgid "You will have to do something more to convince me."
-msgstr ""
+msgstr "عليك فعل المزيد لإقناعي."
 
 #: conversationlist_prim_inn.json:prim_cook_return_6
 msgid "Really, he did? Well then, go ahead. I'm just glad the back room is being used."
-msgstr ""
+msgstr "حقا، فعل؟ حسنًا، تفضل. أنا سعيد لأن الغرفة الخلفية يتم استخدامها."
 
 #: conversationlist_prim_inn.json:prim_cook_return_7
 msgid "You are welcome to rest in the back room any time you want. Please let me know if there is anything I can do to help."
 msgstr ""
+"أنتم مدعوون للراحة في الغرفة الخلفية في أي وقت تريده. يرجى إعلامي إذا كان "
+"هناك أي شيء يمكنني القيام به للمساعدة."
 
 #: conversationlist_prim_inn.json:prim_innguest
 msgid "Lovely place this, isn't it?"
-msgstr ""
+msgstr "مكان جميل هذا، أليس كذلك؟"
 
 #: conversationlist_prim_tavern.json:birgil_1
 msgid "Welcome to my tavern. Please have a seat anywhere."
-msgstr ""
+msgstr "مرحبا بك في حانتي. يرجى الحصول على مقعد في أي مكان."
 
 #: conversationlist_prim_tavern.json:birgil_1:0
 msgid "What can I get to drink around here?"
-msgstr ""
+msgstr "ماذا يمكنني أن أشرب هنا؟"
 
 #: conversationlist_prim_tavern.json:birgil_2
 msgid "Well, unfortunately, with the mine tunnel collapsed, we cannot trade much with the outside villages."
 msgstr ""
+"حسنًا، لسوء الحظ، مع انهيار نفق المنجم، لا يمكننا التجارة كثيرًا مع القرى "
+"الخارجية."
 
 #: conversationlist_prim_tavern.json:birgil_3
 msgid "However, I do have a huge supply of mead that I stocked up on before the mine shaft collapsed."
 msgstr ""
+"ومع ذلك، لدي مخزون ضخم من الشراب الذي قمت بتخزينه قبل انهيار عمود المنجم."
 
 #: conversationlist_prim_tavern.json:birgil_3:0
 msgid "Mead? Yuck. Too sweet for my taste."
-msgstr ""
+msgstr "خمر؟ يع، مقرف جدا."
 
 #: conversationlist_prim_tavern.json:birgil_3:1
 msgid "Alright! Just my kind of taste. Let's see what you have to trade."
-msgstr ""
+msgstr "حسنا! هذا تماما ما أريده. أرني ما لديك."
 
 #: conversationlist_prim_tavern.json:birgil_3:2
 msgid "Very well, it will have to do. I guess it has some healing potential. Let's trade."
-msgstr ""
+msgstr "جيد جدا، يجب القيام به. أعتقد أن لديها بعض إمكانات الشفاء. أرني."
 
 #: conversationlist_prim_tavern.json:birgil_4
 msgid "Suit yourself. That's what I've got anyway."
-msgstr ""
+msgstr "تتناسبك. هذا ما لدي على أي حال."
 
 #: conversationlist_prim_tavern.json:birgil_4:0
 msgid "OK, let's trade anyway."
-msgstr ""
+msgstr "حسنا، أرني ايا يكن."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1
 msgid "Oh, a new one around here."
-msgstr ""
+msgstr "اوه، جديد هنا."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_1
 msgid "Welcome kid. Are you here to drench your sorrows like the rest of us?"
-msgstr ""
+msgstr "مرحبًا يا فتى. هل أنت هنا لتنسى أحزانك مثلنا؟"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_1:0
 msgid "Not really. What is there to do around here?"
-msgstr ""
+msgstr "ليس حقا. ما الذي يمكن القيام به هنا؟"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_1:1
 msgid "Yeah, give me some of what you're having."
-msgstr ""
+msgstr "نعم، أعطني بعضًا مما لديك."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_1:2
 msgid "Stop bumping into me when I'm trying to walk."
-msgstr ""
+msgstr "توقف عن الاصطدام بي عندما أحاول المشي."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_2
 msgid "My my, a feisty one. Very well, I will get out of your way."
-msgstr ""
+msgstr "اوه ، مشاكس. حسنًا، سأبتعد عن طريقك."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_3
 msgid "Drink, of course!"
-msgstr ""
+msgstr "الشرب، طبعا!"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_3:0
 msgid "I should have seen that one coming. Goodbye."
-msgstr ""
+msgstr "كان يجب أن أرى ذلك قادمًا. مع السلامة."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_4
 msgid "Hey, this one is mine. Buy your own mead from Birgil over there."
-msgstr ""
+msgstr "مهلا، هذا لي. قم بشراء شرابك الخاص من بيرغيل هناك."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest1_4:0
 msgid "Sure, whatever."
-msgstr ""
+msgstr "طبعا، أي شيء."
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest2
 msgid "*hic* Hey theeere kid. Will you buy an old-timer like me a new round of mead?"
-msgstr ""
+msgstr "*هأ* أيها الفتى. هل تشتري لعجوز مثلي بعض الشراب؟"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest2:0
 msgid "Yikes, what happened to you? Get away from me."
@@ -71293,9 +71306,8 @@ msgstr "بريم هافن"
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr "سولينغارد"
+msgstr "سولنغارد"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "بستان ديبو"
-
