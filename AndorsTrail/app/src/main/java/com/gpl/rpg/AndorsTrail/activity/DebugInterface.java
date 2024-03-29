@@ -370,8 +370,36 @@ public final class DebugInterface {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway5", "south", 0, 0);
 			}
 		})
-		
+
 				,new DebugButton("#5", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+			}
+		})
+
+				,new DebugButton("#6", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain54", "east4", 0, 0);
+			}
+		})
+
+				,new DebugButton("#7", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain30", "east", 0, 0);
+			}
+		})
+
+				,new DebugButton("#8", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+			}
+		})
+
+				,new DebugButton("#9", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
