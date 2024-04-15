@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-12-27 14:14+0000\n"
+"PO-Revision-Date: 2024-02-22 06:32+0000\n"
 "Last-Translator: ilya <keygrov@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ru/>\n"
@@ -11,9 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -293,7 +293,7 @@ msgstr "Комбо"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
-msgstr "Перенос Амбели"
+msgstr "Переноска Амбели"
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
@@ -392,7 +392,7 @@ msgstr "Верноподданный Фейгарда"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr "Силки корней"
+msgstr "Корневой ожог"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
@@ -564,7 +564,9 @@ msgstr "Всегда пожалуйста."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "Утром я заметил в нашем огороде несколько крыс. Можешь разобраться с ними? Убей всех крыс, которых увидишь."
+msgstr ""
+"Утром я заметил в нашем огороде несколько крыс.Не мог бы ты пойти и убить "
+"всех крыс, которых увидишь в саду?"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -3960,8 +3962,9 @@ msgid ""
 "North: Fallhaven\n"
 "South: Sutdover River and Sullengard"
 msgstr ""
-"[OUTDATED]Запад: Стаутфорд\n"
-"Север: Фоллхейвен"
+"Запад: Стаутфорд\n"
+"Север: Фоллхейвен\n"
+"Юг: Река Сатдовер и Зулленгард"
 
 #: conversationlist_signs_pre067.json:sign_wild10
 msgid ""
@@ -14168,7 +14171,10 @@ msgstr "Надписи на нём почти стёрлись, но мне уд
 
 #: conversationlist_ulirfendor.json:ulirfendor_7
 msgid "I am sure that this shrine is part of the cause for these ... these ... things ... that lurk in this cave. I will do anything in my power to defeat whatever mischief that comes from it."
-msgstr "Я уверен, что это алтарь частично является причиной того, что эти... эти... твари... шныряют здесь по пещере. Я сделаю всё, что в моих силах, чтобы извести всё зло, что он источает."
+msgstr ""
+"Я уверен, что это святилище - часть причины этих... э-э.. тварей... которые "
+"таятся в этой пещере. Я сделаю все, что в моих силах, чтобы победить любую "
+"напасть, которая исходит от него."
 
 #: conversationlist_ulirfendor.json:ulirfendor_7:0
 #: conversationlist_ulirfendor.json:ulirfendor_11:0
@@ -25646,7 +25652,7 @@ msgstr "Возьми флейту и позаботься о ней."
 #: conversationlist_stoutford_combined.json:stoutford_widow_thorns80_2:1
 #: conversationlist_omi2.json:ortholion_12:0
 msgid "I will."
-msgstr "[REVIEW]Это не лабиринт, я буду."
+msgstr "Так и сделаю."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah2_12
 #: conversationlist_guynmart_npc.json:guynmart_steward5_12
@@ -26308,7 +26314,7 @@ msgstr "Теперь ты получишь по заслугам!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_30:0
 msgid "No, please, please don't hurt me!"
-msgstr "Нет, пожалуйста, пожалуйста, не трогайте меня!"
+msgstr "Нет, пожалуйста, не трогайте меня!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_32
 msgid "Pathetic. So run, and never let me set eyes on you again!"
@@ -29246,7 +29252,7 @@ msgstr "Приятно видеть тебя снова счастливой."
 #: conversationlist_stoutford_combined.json:blornvale_shop1_8:3
 #: conversationlist_stoutford_combined.json:blornvale_shop2:3
 msgid "Do you happen to sell empty bottles?"
-msgstr ""
+msgstr "Вы случайно не продаете пустые бутылки?"
 
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2
 msgid "Did you kill this brute behind my house?"
@@ -31336,10 +31342,12 @@ msgstr "Пожалуйста, не мешайте. Мы должны трени�
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b
 msgid "No, unfortunately not. Maybe try my colleague in Fallhaven?"
 msgstr ""
+"Нет, к сожалению, нет. Может, попробуете обратиться к моему коллеге в "
+"Фоллхейвене?"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
 msgid "Sigh - well, thanks."
-msgstr ""
+msgstr "Что ж, спасибо."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32037,7 +32045,9 @@ msgstr "Я должен... (вы смотрите на Амбели) найти 
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:4
 msgid "[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild."
-msgstr "[OUTDATED]Могу я взглянуть на текущие запасы Гильдии?"
+msgstr ""
+"Я только что получил 10000 золотых за последнее задание, и мне сказали "
+"отдать их Гильдии."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
@@ -33948,7 +33958,9 @@ msgstr "Я так и сделаю."
 
 #: conversationlist_omicronrg9.json:umar_guild05_1a
 msgid "You are really very hardworking. I can't find new work for you fast enough. You're free for now."
-msgstr "[OUTDATED][Здесь история продолжается]"
+msgstr ""
+"Ты очень трудолюбив. У меня нет никакой подходящей работы для тебя. На "
+"сегодня ты свободен."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1
 msgid "Yes, I do have a new task for you. So, listen to me carefully."
@@ -37365,7 +37377,7 @@ msgstr "Хватит разговаривать с моей дочерью!"
 #: conversationlist_brimhaven.json:brv_villager12b:0
 #: conversationlist_brimhaven.json:brv_playing_children:0
 msgid "I am sorry."
-msgstr "Простите."
+msgstr "Мне очень жаль."
 
 #: conversationlist_brimhaven.json:brv_villager_12a
 msgid "I have to take my daughter to school. I can't let her cross this dangerous area on her own, and those people from the west side of town don't care at all."
@@ -46045,7 +46057,7 @@ msgstr "Я узнаю всю правду об этом."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_36c:1
 msgid "I'm determined to solve this."
-msgstr "[REVIEW]Я намерен решить эту проблему раз и навсегда."
+msgstr "Я намерен решить эту проблему раз и навсегда."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_36c:3
 msgid "A few gornauds weren't a problem for me. I have nothing to fear from that thin man."
@@ -46407,7 +46419,7 @@ msgstr "Сначала я должен осмотреть хижину."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_37d
 msgid "What about that shady guy you mentioned?"
-msgstr "[REVIEW]Ха! А как насчет того сомнительного парня, о котором вы упомянули?"
+msgstr "А как насчет того сомнительного парня, о котором вы упомянули?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_37d:0
 msgid "I no longer collaborate with him."
@@ -46729,7 +46741,7 @@ msgstr "Вы слышите шаги в горах. Похоже, фейгард
 
 #: conversationlist_omi2.json:ortholion_subdued_1
 msgid "Hmmm... Hmmm...."
-msgstr "Хм... Хм..."
+msgstr "Х-м-м... Х-м..."
 
 #: conversationlist_omi2.json:ortholion_subdued_1:0
 msgid "Hey! I need to talk with the general, now!"
@@ -47204,15 +47216,17 @@ msgstr "В этом проходе стоит ужасный запах. Вдо�
 
 #: conversationlist_omi2.json:elm2_passage2_1
 msgid "Fortunately, the miner's lamp shines brightly. But unfortunately, the passage is still collapsed."
-msgstr "[REVIEW]К счастью, факел все еще горит, но, к сожалению, проход все еще обрушен."
+msgstr ""
+"К счастью, факел все еще горит, но, к сожалению, проход все еще обрушен."
 
 #: conversationlist_omi2.json:elm2_passage2_2
 msgid "Another pitch black tunnel. This one has an old, consumed miner's lamp on the wall."
-msgstr "[REVIEW]Еще один туннель в кромешной тьме. На стене висит старый, потрепанный факел."
+msgstr ""
+"Еще один туннель в кромешной тьме. На стене висит старый, потрепанный факел."
 
 #: conversationlist_omi2.json:elm2_passage2_2:0
 msgid "Add fuel to the miner's lamp."
-msgstr "[REVIEW]Замените его горящим факелом."
+msgstr "Добавьте топлива в шахтерскую лампу."
 
 #: conversationlist_omi2.json:elm2_passage2_3
 msgid "A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor."
@@ -48153,7 +48167,7 @@ msgstr "Тсч, ты не можешь проиграть! Я все еще во
 
 #: conversationlist_omi2.json:ortholion_9
 msgid "*looks at you* Humilliating. How did I...? How did that guy...?"
-msgstr "[смотрит на тебя] Это унизительно. Как этот парень..."
+msgstr "*смотрит на тебя* Это унизительно. Как я...? Как этот парень...?"
 
 #: conversationlist_omi2.json:ortholion_9:0
 msgid "Ehrenfest?"
@@ -48165,7 +48179,9 @@ msgstr "Ты просто слаб."
 
 #: conversationlist_omi2.json:ortholion_10b
 msgid "I would duel you here and prove you wrong, but this is really no place to talk. These strange creatures don't cease to appear."
-msgstr "[REVIEW]Возможно... Но это не место для разговоров, здесь полно этих странных существ."
+msgstr ""
+"Я бы вызвал вас на дуэль и доказал, что вы не правы, но здесь не место для "
+"разговоров. Эти странные существа не перестают появляться."
 
 #: conversationlist_omi2.json:ortholion_10a
 msgid "Did he tell you... *looks around* Better not here."
@@ -48177,7 +48193,9 @@ msgstr "Боишься?"
 
 #: conversationlist_omi2.json:ortholion_11
 msgid "Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice."
-msgstr "[REVIEW]Это достаточно унизительно... Я выберусь из этой пещеры. Я буду у входа в шахту."
+msgstr ""
+"Да, да... Я выберусь из этой пещеры. Встретимся у входа в шахту. Там есть "
+"большая столовая. Этого будет достаточно."
 
 #: conversationlist_omi2.json:ortholion_11:0
 msgid "You are of no interest to me. Bye."
@@ -48196,7 +48214,10 @@ msgid ""
 "A knight's only trustworthy escorts are his sword and his horse. \n"
 "\n"
 "*gets up* I'm pretty sure you'll find the way out."
-msgstr "[REVIEW]Единственные надежные спутники рыцаря - его меч и конь. Я уверен, что вы найдете выход."
+msgstr ""
+"Единственные надежные спутники рыцаря - его меч и конь. \n"
+"\n"
+"*поднимается* Я уверен, что ты найдешь выход."
 
 #: conversationlist_omi2.json:ortholion_12:1
 msgid "Shad... Yeah, let's meet later."
@@ -48575,15 +48596,17 @@ msgstr "Вы ошибаетесь. Меня здесь нет, это всего
 
 #: conversationlist_omi2.json:bwm_wellspring_1a
 msgid "An empty flask would be also OK. Just an empty vial would be a little bit to small."
-msgstr ""
+msgstr "Пустая колба тоже подойдет. Просто пустой флакон будет немного маловат."
 
 #: conversationlist_omi2.json:bwm_wellspring_1b
 msgid "A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water."
 msgstr ""
+"Большая бутылка будет слишком тяжелой, если ее наполнить водой, а бутылки "
+"для супа не подходят для этой замечательной свежей воды."
 
 #: conversationlist_omi2.json:bwm_wellspring_1c
 msgid "And no: you can't just empty a bottle and use it."
-msgstr ""
+msgstr "И нет: вы не можете просто опустошить бутылку и использовать ее."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10
 msgid "Ah! You have finally returned, my new worker."
@@ -49070,7 +49093,9 @@ msgstr "Маленькие успехи предшествуют большим.
 
 #: conversationlist_sullengard.json:sullengard_mayor_5
 msgid "Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena."
-msgstr "[OUTDATED]Еще раз большое спасибо, малыш. Ты такой же, как твой брат Эндор."
+msgstr ""
+"Большое тебе спасибо, малыш. Ты такой же, как твой брат Эндор. После нашего "
+"разговора тебе следует поговорить с моей помощницей Маддаленой."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5:0
 msgid "Of course, he is my brother."
@@ -50339,7 +50364,9 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0
 msgid "Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?"
-msgstr "[Под ногами вы замечаете свежевырытую яму. Не похоже, чтобы это сделали звери. Осмотрите яму?]"
+msgstr ""
+"Под ногами вы замечаете свежевырытую яму. Не похоже, что это сделало "
+"животное. Осмотрите яму?"
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0:0
 msgid "Yes. Let's play in the dirt like Andor and I did when we were younger."
@@ -50363,11 +50390,13 @@ msgstr "Ни за что! Мне доводилось совать руки в �
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_20
 msgid "You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory."
-msgstr "[Вы успешно вытащили невероятно тяжелый мешок. Должно быть, это украденный инвентарь Заккери.]"
+msgstr ""
+"Вы успешно вытащили очень тяжелый мешок. Должно быть, это украденный "
+"инвентарь Заккерии."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_taken
 msgid "You have already examined this hole and looted all of its contents."
-msgstr "[Вы уже исследовали эту дыру и разграбили все ее содержимое.]"
+msgstr "Вы уже изучили дыру и выгребли из нее все содержимое."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_taken:0
 msgid "Oh, yeah. What a dummy I am."
@@ -50678,7 +50707,7 @@ msgstr "Разве вы не помните, кто там живет?"
 #: conversationlist_sullengard.json:crossglen_valentina_andor_25:0
 #: conversationlist_sullengard.json:crossglen_valentina_andor_30:0
 msgid "Umm...no, no I don't."
-msgstr "Эм... нет, нет, не знаю."
+msgstr "Э-м-м... нет-нет, не знаю."
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_30
 msgid "What? Why not? Don't you remember who lives there?"
@@ -55931,7 +55960,7 @@ msgstr "В благодарность за доставленное удовол
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_52:0
 msgid "Eh - nice, thank you."
-msgstr "Эх - мило, спасибо"
+msgstr "Эх - мило, спасибо."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_90
 msgid "Come again whenever you want. It is a nice diversion to talk with someone with a bit of brain at least."
@@ -55963,7 +55992,9 @@ msgstr "Я - Вутибарфаг, мудрец из Черноводной го
 
 #: conversationlist_ratdom_npc.json:whootibarfag_20:0
 msgid "Nice to meet you. I am $playername from Crossglen, if you should know the village."
-msgstr "Приятно познакомиться. Я - $playername из Кроссглена, может знаете такую деревню"
+msgstr ""
+"Приятно познакомиться. Я - $playername из Кроссглена, если вы знаете такое "
+"селение."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_22
 msgid "Sigh. Always in a hurry. Again - who are you?"
@@ -56874,941 +56905,1081 @@ msgstr "Отправляйся с ними в хранилище, посколь
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
 msgid "You can find the empty house just south east of here. Enter it and you will find your way."
-msgstr "К юго-востоку от этого места находится пустой дом. Войти туда, чт"
+msgstr ""
+"К юго-востоку от этого места находится пустой дом. Войдите в него, и вы "
+"найдете дорогу."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
 msgid "I'll be there. Thank you."
-msgstr ""
+msgstr "Хорошо, проверю. Спасибо."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10
 msgid "It's so weird working with you after all that we've gone through."
-msgstr ""
+msgstr "После всего, что мы пережили, так странно работать с тобой."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:0
 msgid "We are not friends."
-msgstr ""
+msgstr "Мы с вами не друзья."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:1
 msgid "I would love nothing more than to see you punished for your crimes."
-msgstr ""
+msgstr "Мне бы хотелось, чтобы вы понесли наказание за свои преступления."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:2
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr ""
+msgstr "Чего ты ждешь? Возьми фальшивый ключ у Бузотёра."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "Come and get it!"
-msgstr ""
+msgstr "Приходите и заберите его!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
 msgid "Do you have the key? Hand it over."
-msgstr ""
+msgstr "У вас есть ключ? Передайте его."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:0
 msgid "Oops. I forgot to bring it with me. I'll be back soon."
-msgstr ""
+msgstr "Упс. Я забыл взять его с собой. Я скоро вернусь."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:2
 msgid "Yes, but you are not having it. I will loot the vault myself and keep everything I find."
 msgstr ""
+"Да, но ты не получишь его. Я сам разграблю хранилище и оставлю себе все, что "
+"найду."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_20
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_tg_10
 msgid "Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot."
 msgstr ""
+"Большое спасибо. Теперь возьми этот фальшивый ключ, который сделал Захланни, "
+"и верни его Бузотёру, пока он ничего не заподозрил. Затем встретимся в "
+"хранилище, чтобы забрать долю награбленного."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_fake_key_10
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10
 msgid "Thank you very much!"
-msgstr ""
+msgstr "Большое спасибо!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house
 msgid "I'm rich. I'm finally rich!"
-msgstr ""
+msgstr "Я богат. Наконец-то я богат!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house:0
 msgid "Only in gold. You have no friends."
-msgstr ""
+msgstr "Только золотом. А друзей у тебя нет."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10
 msgid "Here is your reward for your role in our success."
-msgstr ""
+msgstr "Вот награда за участие в нашем успехе."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10:0
 msgid "It was nice doing business with you."
-msgstr ""
+msgstr "Было приятно иметь с вами дело."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_20
 msgid "We are leaving now. Too close to Fallhaven for my liking."
 msgstr ""
+"Нам пора уходить. Слишком близко к Фоллхейвену, чтобы мне это нравилось."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10
 msgid "Come again?"
-msgstr ""
+msgstr "Приходи еще?"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:0
 msgid "I said, \"here it is\"."
-msgstr ""
+msgstr "Я сказал: \"Вот он\"."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:1
 msgid "You heard me the first time. I'm keeping the key and looting the vault myself."
 msgstr ""
+"Вы услышали меня с первого раза. Я оставлю ключ себе и сам разграблю "
+"хранилище."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20
 msgid "I will be taking that key now!"
-msgstr ""
+msgstr "А теперь я заберу себе этот ключ!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20:0
 msgid "Come and try!"
-msgstr ""
+msgstr "Попробуйте!"
 
 #: conversationlist_mt_galmore.json:aidem_base_thieves_killed
 msgid "I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
 msgstr ""
+"Я убил Дефи, трех его помощников и Аларика. Мне нужно вернуться в Фоллхейвен "
+"и поговорить с Бузотёром еще раз."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10:0
 msgid "Your never going to believe this, but they were inside that vacant house when I walked in."
-msgstr ""
+msgstr "Ты ни за что не поверишь, но они были в том пустом доме, когда я вошел."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20
 msgid "Then what happened?"
-msgstr ""
+msgstr "Что же произошло?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20:0
 msgid "They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead."
 msgstr ""
+"Они казались нездоровыми, и я допросил их. В следующее мгновение я оказался "
+"в пылу сражения, и они погибли."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30
 msgid "Can you prove this? Can you show me something that proves that all 4 are dead?"
 msgstr ""
+"Ты можешь это доказать? Можешь ли ты показать мне что-нибудь, что "
+"доказывает, что все четверо мертвы?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:0
 msgid "Yes. I looted their rings. [Shows them to Troublemaker]"
-msgstr ""
+msgstr "Да. Я забрал их кольца. [Показывает их Бузотёру]"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:1
 msgid "Yes. I looted their rings, but I forgot to bring them with me. I'll come back."
-msgstr ""
+msgstr "Да. Я забрал их кольца, но забыл взять их с собой. Я вернусь."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_40
 msgid "Well, this is great news indeed. We however would like to have them alive."
 msgstr ""
+"Что ж, это отличная новость. Однако мы бы хотели, чтобы они были живыми."
 
 #: conversationlist_mt_galmore.json:thief_rennik_10
 msgid "Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you."
 msgstr ""
+"А, $playername наконец-то вернулся. Пожалуйста, прими этот кристалл и "
+"немного золота в качестве нашей благодарности тебе."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20
 msgid "You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us."
 msgstr ""
+"Вы будете рады услышать, что мы схватили Дефи и его четырех сообщников до "
+"того, как они смогли ограбить нас."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20:0
 msgid "That's great news indeed. Where are they now?"
-msgstr ""
+msgstr "Отличные новости. Где они сейчас?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_30
 msgid "We are keeping them in our holding cage in Fallhaven."
-msgstr ""
+msgstr "Мы держим их в нашей камере в Фоллхейвене."
 
 #: conversationlist_mt_galmore.json:thief_rennik_30:0
 msgid "Is there anything else that I should know about?"
-msgstr ""
+msgstr "Может быть, мне следует знать о чем-то еще?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_40
 msgid "Yes. That fifth man, the one that was not one of us..."
-msgstr ""
+msgstr "Да. Пятый человек, который не был одним из нас..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_40:0
 msgid "You mean Alaric?"
-msgstr ""
+msgstr "Ты имеешь в виду Аларика?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_50
 msgid "His name is not important to me..."
-msgstr ""
+msgstr "Его имя мне не важно..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55
 msgid "We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have their guy."
 msgstr ""
+"Нам стало известно, что он участвовал в преступлении в Зулленгарде. Тебе "
+"стоит посетить Зулленгард и сообщить им, что их парень у нас."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55:0
 msgid "I will. Thank you again."
-msgstr ""
+msgstr "Так и сделаю. Спасибо вам еще раз."
 
 #: conversationlist_mt_galmore.json:thief_rennik_generic_10
 msgid "I am here now to watch out for suspicious activity and people."
-msgstr ""
+msgstr "Я здесь, чтобы следить за подозрительной деятельностью и людьми."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt
 msgid "Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered \"the lost traveler\" again?"
 msgstr ""
+"Привет, именно тебя я и искал. Мне вот интересно, со всеми твоими "
+"приключениями ты снова встретил \"заблудившегося путника\"?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt:0
 msgid "Actually, yes. Yes, I have."
-msgstr ""
+msgstr "Да, вообще-то, да. Да, это так."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10
 msgid "Where? Can you get him back here to be punished?"
-msgstr ""
+msgstr "Где? Можешь привести его сюда, чтобы он понес наказание?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:0
 msgid "Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there."
 msgstr ""
+"Вообще-то, он в тюрьме Фоллхейвена. Заперт вместе с Дефи. Мне удалось "
+"захватить их и запереть там."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:1
 msgid "Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no other option than to end his life."
 msgstr ""
+"Собственно, я случайно встретился с ним, и после попытки затащить его сюда "
+"он напал на меня, и у меня не осталось другого выхода, кроме как покончить с "
+"ним."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11
 msgid "Oh, thank you so much! "
-msgstr ""
+msgstr "Большое спасибо! "
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11:0
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12:0
 msgid "Of course. It was my pleasure."
-msgstr ""
+msgstr "Конечно. Мне было очень приятно."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12
 msgid "Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this."
 msgstr ""
+"Что ж, я бы предпочел, чтобы его наказали, а не убили, но большое тебе "
+"спасибо за то, что положил всему этому конец."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13
 msgid "Please, take this as a gift of gratitude."
-msgstr ""
+msgstr "Пожалуйста, прими это в качестве подарка в знак благодарности."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14
 msgid "I don't know if you will like it, but let me tell you, nobody down here wants it."
 msgstr ""
+"Я не знаю, понравится ли это тебе, но позволь мне сказать тебе, что здесь, "
+"внизу, это никому не нужно."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14:0
 msgid "Oh, really? I will play with it. Thanks again."
-msgstr ""
+msgstr "Правда? Поиграюсь. Спасибо."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_5
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_6
 msgid "As you step between the trees, the crunch of the dry leaves beneath your feet startle you."
 msgstr ""
+"Когда вы проходите между деревьями, хруст сухих листьев под вашими ногами "
+"пугает вас."
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10
 msgid "Do you want to unlock the hatch?"
-msgstr ""
+msgstr "Вы хотите открыть люк?"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_20
 msgid "The lock creaks open, revealing a staircase."
-msgstr ""
+msgstr "Замок со скрипом открывается, открывая взору лестницу."
 
 #: conversationlist_mt_galmore.json:wild6_house_prevent_bucket_walking
 msgid "Oh, gross! It's full of spiders."
-msgstr ""
+msgstr "О, отвратительно! Там полно пауков."
 
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10:0
 msgid "Yes, Here it is. [Handing over the fake key] "
-msgstr ""
+msgstr "Да, вот он. [Протянуть поддельный ключ] "
 
 #: conversationlist_mt_galmore.json:aidem_base_fight
 msgid "You will regret this, kid!"
-msgstr ""
+msgstr "Ты пожалеешь об этом, малыш!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81
 msgid "Do I know you?"
-msgstr ""
+msgstr "Знаю ли я вас?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:0
 msgid "Oh, you want to play dumb? Umar will hear about this!"
-msgstr ""
+msgstr "О, ты хочешь прикинуться дурачком? Умар узнает об этом!"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
 msgid "I should come back with the Thieves Guild key."
-msgstr ""
+msgstr "Я должен вернуться с ключом Гильдии воров."
 
 #: conversationlist_mt_galmore.json:bela_witch_10
 msgid "Did you hear about the kidnapping?"
-msgstr ""
+msgstr "Вы слышали о похищении?"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:0
 msgid "It wasn't me!"
-msgstr ""
+msgstr "Это был не я!"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:1
 msgid "Someone kidnapped Ambelie?"
-msgstr ""
+msgstr "Кто-то похитил Амбели?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15
 msgid "[Looking extermely confused and terrified] ... Well, why would it be you?"
 msgstr ""
+"[Выглядит крайне смущенно и испуганно] ... Ну, а почему это должен быть ты?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15:0
 msgid "Nevermind."
-msgstr ""
+msgstr "Неважно."
 
 #: conversationlist_mt_galmore.json:bela_witch_16
 msgid "[Looking extermely confused] ... Who?"
-msgstr ""
+msgstr "[Выглядит крайне смущенно] ... Кто?"
 
 #: conversationlist_mt_galmore.json:bela_witch_16:0
 msgid "Nevermind"
-msgstr ""
+msgstr "Неважно"
 
 #: conversationlist_mt_galmore.json:bela_witch_20
 msgid "Well, while you were off hunting and killing that giant snake, I had a customer."
-msgstr ""
+msgstr "Ну, пока ты охотился и убивал ту гигантскую змею, у меня был гость."
 
 #: conversationlist_mt_galmore.json:bela_witch_25
 msgid "A customer with a very interesting report about a kidnapped girl and a witch."
-msgstr ""
+msgstr "Посетитель с очень интересным сообщением о похищенной девушке и ведьме."
 
 #: conversationlist_mt_galmore.json:bela_witch_25:0
 msgid "Is this customer still here?"
-msgstr ""
+msgstr "Этот гость все еще здесь?"
 
 #: conversationlist_mt_galmore.json:bela_witch_30
 msgid "That's the thing. He is no longer here. He just left before you walked in."
 msgstr ""
+"В том-то и дело. Его здесь больше нет. Он просто ушел перед твоим приходом."
 
 #: conversationlist_mt_galmore.json:bela_witch_31
 msgid "You should ask around town if anyone has seen or heard about it."
-msgstr ""
+msgstr "Пройдись по городу, может, кто-то видел или слышал о нем."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:0
 msgid "OK. I think I will do that. Thanks."
-msgstr ""
+msgstr "Хорошо. Думаю, я так и сделаю. Спасибо."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:1
 msgid "OK, but first please give me something to drink."
-msgstr ""
+msgstr "Хорошо, но сначала, пожалуйста, дай мне что-нибудь выпить."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10
 msgid "Of course, my dear."
-msgstr ""
+msgstr "Конечно, моя дорогуша."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10:0
 msgid "Did you see a witch around here or hear about a witch kidnapping a girl?"
-msgstr ""
+msgstr "Вы видели здесь ведьму или слышали о том, что ведьма похитила девушку?"
 
 #: conversationlist_mt_galmore.json:no_witch_info
 msgid "No, I'm sorry, I didn't."
-msgstr ""
+msgstr "Нет, простите, ничего такого."
 
 #: conversationlist_mt_galmore.json:no_witch_info:0
 msgid "Oh, thanks anyway."
-msgstr ""
+msgstr "О, все равно спасибо."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:0
 msgid "Can I have just one minute of your time, please?"
-msgstr ""
+msgstr "Уделите мне одну минуту вашего времени, пожалуйста?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:1
 msgid "Could you tell me the story about the wicked witch again?"
-msgstr ""
+msgstr "Не могли бы вы еще раз рассказать мне историю о злой ведьме?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20
 msgid "I suppose."
-msgstr ""
+msgstr "Наверное."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20:0
 msgid "Great! I was wondering if you know anything about a kidnapping or a witch?"
-msgstr ""
+msgstr "Отлично! Мне интересно, знаете ли вы что-нибудь о похищении или ведьме?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30
 msgid "[Taken aback by the question] What did you just ask me?"
-msgstr ""
+msgstr "[Застигнутый врасплох вопросом] О чем ты меня только что спросил?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30:0
 msgid "I asked if you know anything about a witch and the possibility that she took a girl."
 msgstr ""
+"Я спросил, знаете ли вы что-нибудь о ведьме и о вероятности того, что она "
+"похитила девочку."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40
 msgid "Leave me alone! I don't want to talk about her!"
-msgstr ""
+msgstr "Оставь меня в покое! Я не хочу говорить о ней!"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:0
 msgid "Ok. I'm sorry I asked."
-msgstr ""
+msgstr "Ладно. Извините, что спросил."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:1
 msgid "So you know something about the kidnapping?"
-msgstr ""
+msgstr "Значит, вы что-то знаете о похищении?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:2
 msgid "What about the witch? Do you know something about her?"
-msgstr ""
+msgstr "А что насчет ведьмы? Вы что-нибудь знаете о ней?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_45
 msgid "Nope!"
-msgstr ""
+msgstr "Нет!"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50
 msgid "I may, but I don't want to tell you about her as I am terrified of her."
-msgstr ""
+msgstr "Возможно, но я не хочу рассказывать вам о ней, потому что я боюсь её."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50:0
 msgid "Wow! Now I have to learn what you know. Please tell me your story."
 msgstr ""
+"Ух ты! Теперь я должен узнать то, что знаете вы. Пожалуйста, расскажите мне "
+"свою историю."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60
 msgid "No way! I have no way to protect myself and believe me, I will need to if I tell you anything."
 msgstr ""
+"Ни за что! У меня нет возможности защитить себя, и поверь мне, мне это "
+"понадобится, если я тебе что-нибудь расскажу."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60:0
 msgid "I will protect you. Trust me."
-msgstr ""
+msgstr "Я буду защищать вас. Поверь мне."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65
 msgid "[Laughing uncontrollably] ... You? You are just a child of a farmer. So you are weaker than I am."
 msgstr ""
+"[Безудержно смеется] ... Вы? Ты всего лишь дитя фермера. Значит, ты слабее "
+"меня."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:0
 msgid "You know my father?"
-msgstr ""
+msgstr "Вы знаете моего отца?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:1
 msgid "I can protect you."
-msgstr ""
+msgstr "Я могу защитить тебя."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66
 msgid "Of course I do. He lives a stones throw away from me and we are both farmers."
-msgstr ""
+msgstr "Конечно, знаю. Он живет в двух шагах от меня, и мы оба фермеры."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66:0
 msgid "Oh. I didn't know. But I can protect you."
-msgstr ""
+msgstr "О. Я не подумал. Но я могу защитить тебя."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70
 msgid "And how can you do that? Have you ever done anything like this before?"
 msgstr ""
+"И как вы можете это сделать? Вы когда-нибудь делали что-нибудь подобное "
+"раньше?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70:0
 msgid "Well, actually, I have. In fact, I just finished protecting this entire town from a giant snake."
 msgstr ""
+"Ну, вообще-то, у меня есть. На самом деле, я только что защитил весь этот "
+"город от гигантской змеи."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_75
 msgid "That was you?"
-msgstr ""
+msgstr "Это был ты?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_76
 msgid "Well, if that's the case, then I will tell you my story."
-msgstr ""
+msgstr "Что ж, если это так, то я расскажу вам свою историю."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77
 msgid "My story starts a very long time ago, when I was just a kid."
-msgstr ""
+msgstr "Моя история началась очень давно, когда я был еще совсем ребенком."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77:0
 msgid "Great, more stories with grandpa."
-msgstr ""
+msgstr "Отлично, еще больше историй с дедушкой."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_78
 msgid "You see, one day, my best friend Addie and I were playing amongst the trees south of town when we encountered her."
 msgstr ""
+"Видите ли, однажды мы с моей лучшей подругой Эдди играли среди деревьев к "
+"югу от города, когда встретили ее."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79
 msgid "She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her into her house."
 msgstr ""
+"Она была молодой красивой женщиной, но ужасающе соблазнительной. Настолько, "
+"что она легко заставила нас последовать за ней в ее дом."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79:0
 msgid "I see. What happened next?"
-msgstr ""
+msgstr "Понятно. А что было дальше?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80
 msgid "Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experience."
 msgstr ""
+"Так вот, я скажу прямо сейчас, что я предпочел умолчать о большинстве "
+"деталей, поскольку это было болезнено."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80:0
 msgid "Understandable."
-msgstr ""
+msgstr "Понятно."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_81
 msgid "All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room ... I think."
 msgstr ""
+"Все, что я помню, это то, что меня держали в темной комнате, как мне "
+"показалось, несколько недель без еды и в одиночестве. Видите ли, ведьма "
+"держала Эдди в другой комнате... Я думаю."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82
 msgid "Yes. You see, after I escaped, I never saw Addie again."
 msgstr ""
+"Да. Видите ли, после того, как я сбежал, я больше никогда не видел Эдди."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82:0
 msgid "That's terrible."
-msgstr ""
+msgstr "Это ужасно."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83
 msgid "After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until now."
 msgstr ""
+"Прошло несколько недель, и мне представился шанс сбежать, и я им "
+"воспользовался. Никогда не оглядывался назад и никогда не говорил об этом. "
+"Ну, до этого момента."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83:0
 msgid "Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?"
 msgstr ""
+"Спасибо, что рассказали мне свою историю. Я хочу остановить эту ведьму раз и "
+"навсегда. Где я могу ее найти?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_84
 msgid "Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers."
 msgstr ""
+"Спасибо! Вы можете найти ее дом к югу отсюда. Вы не сможете его не заметить, "
+"так как он покрыт прекрасными цветами."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_script
 msgid "While raising your arm and waving your hand, you yell over the water: \"Excuse me.\""
-msgstr ""
+msgstr "Поднимая руку и размахивая ею, вы кричите над водой: \"Извините меня.\""
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10
 msgid "Shh. You are scaring the fish."
-msgstr ""
+msgstr "Тсс. Ты пугаешь рыбу."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:0
 msgid "Please? I need your help. I'm looking for my brother. His name is Andor. He looks like me. Have you seen him?"
 msgstr ""
+"Пожалуйста? Мне нужна ваша помощь. Я ищу своего брата. Его зовут Эндор. Он "
+"похож на меня. Вы видели его?"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:1
 msgid "That's a really cool boat. Where can I get one?"
-msgstr ""
+msgstr "Это очень крутая лодка. Где я могу купить такую?"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:2
 msgid "[While Pointing behind Isobel, you yell] Look at the size of that fish behind you!"
 msgstr ""
+"[Указывая за спину Изобель, крича] Посмотри на размер этой рыбы позади тебя!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20
 msgid "Where?!"
-msgstr ""
+msgstr "Где?!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20:0
 msgid "[While laughing uncontrollably] \"Shh, your scaring him away.\""
-msgstr ""
+msgstr "[Безудержно смеясь] \"Т-с-с, ты его пугаешь.\""
 
 #: conversationlist_mt_galmore.json:captive_girl_10
 msgid "Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion."
 msgstr ""
+"Извините меня, юноша! Подожди! Спасибо, что пощадили меня ранее. Вы проявили "
+"истинное сострадание."
 
 #: conversationlist_mt_galmore.json:captive_girl_10:0
 msgid "What ... do I know you? You're just a young girl?"
-msgstr ""
+msgstr "Что... я тебя знаю? Ты просто молодая девушка?"
 
 #: conversationlist_mt_galmore.json:captive_girl_20
 msgid "Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind."
 msgstr ""
+"Да, на меня было наложено заклятие, которое заставило меня предстать в "
+"образе ведьмы. Она хотела проверить ваше сердце. Я рада, что у тебя доброе "
+"сердце."
 
 #: conversationlist_mt_galmore.json:captive_girl_20:0
 msgid "Thank you, but you don't look well."
-msgstr ""
+msgstr "Спасибо, но вы выглядите неважно."
 
 #: conversationlist_mt_galmore.json:captive_girl_30
 msgid "I am not well. Which is why I have not run far from this awful place and this awful witch."
 msgstr ""
+"Мне нездоровится. Поэтому я и не убежала далеко от этого ужасного места и "
+"этой ужасной ведьмы."
 
 #: conversationlist_mt_galmore.json:captive_girl_30:0
 msgid "What's wrong? Why can't you leave?"
-msgstr ""
+msgstr "Что случилось? Почему ты не можешь уйти?"
 
 #: conversationlist_mt_galmore.json:captive_girl_30:1
 msgid "What happened to you here? How did you get here?"
-msgstr ""
+msgstr "Что с тобой здесь произошло? Как ты сюда попала?"
 
 #: conversationlist_mt_galmore.json:captive_girl_31
 msgid "Thank you again, my savior! I will go now."
-msgstr ""
+msgstr "Еще раз благодарю тебя, мой спаситель! Я пойду."
 
 #: conversationlist_mt_galmore.json:captive_girl_35
 msgid " I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year."
 msgstr ""
+" Мне нужны питательные вещества! Видишь ли, меня держат в подвале этого "
+"ужасного дома уже, кажется, целый год."
 
 #: conversationlist_mt_galmore.json:captive_girl_35a
 msgid "I am too sick to talk about this right now."
-msgstr ""
+msgstr "Мне слишком плохо, чтобы обсуждать это сейчас."
 
 #: conversationlist_mt_galmore.json:captive_girl_40
 msgid "All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it."
 msgstr ""
+"Все, что дала мне ведьма, - это нечто под названием \"Тонизирующее средство "
+"для крови\". Сначала я отказывалась его пить, но вскоре отчаялась и выпила."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:0
 msgid "I've had one or two of those. They are not that bad."
-msgstr ""
+msgstr "На моей памяти были один или два таких. Они не так уж плохи."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:1
 msgid "Are those things even good for you?"
-msgstr ""
+msgstr "Полезны ли они вообще?"
 
 #: conversationlist_mt_galmore.json:captive_girl_45
 msgid "Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them."
 msgstr ""
+"Да, может быть, в меру. Но после нескольких дюжин они что-то делают с "
+"организмом, так как я не могу ничего кроме них есть."
 
 #: conversationlist_mt_galmore.json:captive_girl_50
 msgid "I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot."
 msgstr ""
+"Мне очень нужно достать много зелий \"Тонизирующее средство для крови\". "
+"Можешь мне помочь? Нужно очень много."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:0
 msgid "Well, I have twenty-five of those for you."
-msgstr ""
+msgstr "Что ж, у меня есть 25 таких штук для тебя."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:1
 msgid "Well, I have twenty of those for you."
-msgstr ""
+msgstr "Что ж, у меня есть 20 таких штук для тебя."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:2
 msgid "Well, I have ten of those for you."
-msgstr ""
+msgstr "Что ж, у меня есть 10 таких штук для тебя."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:3
 msgid "Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?"
 msgstr ""
+"Что ж, у меня есть 10 таких штук для тебя, но не знаю, откуда они у меня. Не "
+"знаешь, где я могу их достать?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:4
 msgid "Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?"
 msgstr ""
+"Ну, у меня есть только одно такое и я не помню, где я его достал. Может, ты "
+"знаешь, где я могу достать еще?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:5
 msgid "I'm sorry, but I don't have any of those."
-msgstr ""
+msgstr "Извини, у меня ничего нет."
 
 #: conversationlist_mt_galmore.json:captive_girl_55
 msgid "Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however."
 msgstr ""
+"Правда, я не уверена, что это сделает ведьма. Чёрт! Ненавижу этот запах. "
+"Боже! Но я люблю этот вкус."
 
 #: conversationlist_mt_galmore.json:captive_girl_55:0
 msgid "Can you help me out a little bit? Do you know anything about them?"
-msgstr ""
+msgstr "Можешь мне немного помочь? Может, ты что-нибудь знаешь о них?"
 
 #: conversationlist_mt_galmore.json:captive_girl_60
 msgid "Hold on. Let me think...."
-msgstr ""
+msgstr "Постой. Дай подумать...."
 
 #: conversationlist_mt_galmore.json:captive_girl_65
 #: conversationlist_mt_galmore.json:captive_girl_65
 msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them."
 msgstr ""
+"А, да. Я помню, она говорила, что ее друг-нежить, живущий к востоку отсюда, "
+"научил ее делать их."
 
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 msgid "OK. Stay here. I will be back with more of them."
-msgstr ""
+msgstr "Хорошо. Оставайся здесь. Я вернусь, когда соберу побольше."
 
 #: conversationlist_mt_galmore.json:captive_girl_56
 msgid "Can you get me twenty-five of them?"
-msgstr ""
+msgstr "Ты можешь достать мне двадцать пять штук?"
 
 #: conversationlist_mt_galmore.json:captive_girl_56:0
 msgid "Where can I get some?"
-msgstr ""
+msgstr "Где я могу их достать?"
 
 #: conversationlist_mt_galmore.json:captive_girl_54
 msgid "Only twenty? I was really hoping for twenty-five."
-msgstr ""
+msgstr "Всего двадцать? Я надеялась на двадцать пять."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:0
 msgid "Whatever! Fine. I will go get you five more."
-msgstr ""
+msgstr "Как скажешь! Хорошо. Я принесу тебе еще пять."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:1
 msgid "I know that you \"asked\" for twenty-five, but I have twenty and they are hard to get. Please take these."
 msgstr ""
+"Я знаю, что ты \"просила\" двадцать пять, но у меня есть только двадцать, и "
+"их трудно достать. Пожалуйста, возьми."
 
 #: conversationlist_mt_galmore.json:captive_girl_70
 msgid "OK. I won't make you go back just for five more when you've already brought me twenty."
 msgstr ""
+"Хорошо. Не буду заставлять тебя снова идти еще за пятью, когда ты принес мне "
+"двадцать."
 
 #: conversationlist_mt_galmore.json:captive_girl_71
 msgid "WOW! You actually managed to find twenty-five! I am so grateful."
-msgstr ""
+msgstr "Вот это да! Ты сумел найти двадцать пять! Я так благодарна."
 
 #: conversationlist_mt_galmore.json:captive_girl_75
 msgid "Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now."
 msgstr ""
+"Перед тем как ты уйдешь, мне довелось украсть это у ведьмы, когда я "
+"спасалась бегством. Я хочу, чтобы он был у тебя. Мне нужно идти."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10
 msgid "Oh my, what have we here? Another brave soul seeking to challenge me?"
 msgstr ""
+"О боже, что у нас тут? Еще одна отважная душа, желающая бросить мне вызов?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:0
 msgid "[While backing up] Me? No ma'am. I just wandered into the wrong house. Please don't hurt me."
 msgstr ""
+"[Отступая назад] Я? Нет, мэм. Я просто забрел не в тот дом. Пожалуйста, не "
+"делайте мне больно."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:1
 msgid "Halt, foul witch! Your reign of darkness ends here!"
-msgstr ""
+msgstr "Стой, грязная ведьма! Твое царство тьмы закончится здесь!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20
 msgid "And with such polite manners too. Come. Come. Take a seat."
-msgstr ""
+msgstr "И с такими вежливыми манерами. Идемте. Проходите. Присаживайтесь."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:0
 msgid "Your tricks won't work on me. Prepare to meet your end!"
-msgstr ""
+msgstr "Твои уловки на меня не подействуют. Приготовься к своему концу!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:1
 msgid "Witches don't bother me. I'll leave you be."
-msgstr ""
+msgstr "Ведьмы меня не интересуют. Я оставлю тебя в покое."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_25
 msgid "How intriguing. Such confidence in your path. We shall see, won't we?"
-msgstr ""
+msgstr "Как интригующе. Такая уверенность в своем пути. Посмотрим, не так ли?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_30
 msgid "Oh, the \"confident child\". Please leave me to my business."
-msgstr ""
+msgstr "О, \"уверенный в себе ребенок\". Пожалуйста, оставь меня в покое."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40
 msgid "[laughs] How amusing. You're not the first to try, and you won't be the last. But do go ahead, if you must."
 msgstr ""
+"[смеется] Как удивительно. Ты не первый, кто пытается, и ты не будешь "
+"последним. Но продолжай, если хочешь."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40:0
 #: conversationlist_mt_galmore.json:wicked_witch_first_45:0
 msgid "I won't hesitate! Take this!"
-msgstr ""
+msgstr "Не сомневайся! Получи!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_45
 msgid "Oh, this fight will be fun ... for me that is."
-msgstr ""
+msgstr "О, этот бой будет веселым... для меня."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_killed_script
 msgid "As the \"witch\" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your choices. When all of a sudden..."
 msgstr ""
+"Когда \"ведьма\" умерла, она начала превращаться в свою истинную форму, "
+"показывая молодую девушку, и вы быстро осознаете всю трагичность своего "
+"выбора. Как вдруг..."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10
 msgid "Bravo, hero! You fell right into my trap."
-msgstr ""
+msgstr "Браво, герой! Ты попал прямо в мою ловушку."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10:0
 msgid "What? No, it can't be!"
-msgstr ""
+msgstr "Что? Нет, этого не может быть!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20
 msgid "Oh, but it is. You see, that old witch you slew was nothing more than an illusion. A clever ruse to manipulate your actions."
 msgstr ""
+"О, да, но это так. Видишь ли, та старая ведьма, которую ты убил, была не "
+"более чем иллюзией. Ловкая уловка, чтобы манипулировать твоими действиями."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20:0
 msgid "[shocked] Then who are you?"
-msgstr ""
+msgstr "[шокирован] Тогда кто ты?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30
 msgid "I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement."
 msgstr ""
+"Я - настоящая ведьма, а ты сыграл мне на руку. Эта надменность, эта жажда "
+"победы - идеальная забава для меня."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30:0
 msgid "[angry] You won't get away with this!"
-msgstr ""
+msgstr "[сердито] Тебе это с рук не сойдет!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40
 msgid "[chuckles] You can certainly try, my dear hero. But your bravado has already cost you."
 msgstr ""
+"[смеется] Ты, конечно, можешь попытаться, мой дорогой герой. Но твоя бравада "
+"уже дорого тебе обошлась."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40:0
 msgid "You're the one that will pay!"
-msgstr ""
+msgstr "Ты заплатишь!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_killed
 msgid "After defeating the real witch, she quickly reappears."
-msgstr ""
+msgstr "После победы над настоящей ведьмой она быстро появляется вновь."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:0
 msgid "It's over, witch!"
-msgstr ""
+msgstr "Все кончено, ведьма!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:1
 msgid "What did you mean when you said \"what lies ahead\"?"
-msgstr ""
+msgstr "Что ты имеешь в виду, когда говоришь \"что ждет тебя впереди?\"?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10
 msgid "[weakened] Yes, yes, you've bested me. Congratulations, but have you really won?"
 msgstr ""
+"[ослабленно] Да, да, ты победил меня. Поздравляю, но ты действительно "
+"победил?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10:0
 msgid "[panting] Why all this deception?"
-msgstr ""
+msgstr "[тяжело дыша] К чему весь этот обман?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20
 msgid "Oh, just a bit of entertainment. And for that, you get a big reward: You get to live."
 msgstr ""
+"Всего лишь небольшое развлечение. И за это ты получаешь огромную награду: "
+"возможность жить."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20:0
 msgid "[disgruntled] Is this some kind of sick game to you?"
-msgstr ""
+msgstr "[недовольно] Для тебя это какая-то дурацкая игра?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_30
 msgid "[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?"
 msgstr ""
+"[ухмыляется] Возможно. Но помни, герой, жизнь полна сюрпризов. Возможно, на "
+"этот раз ты победил, но кто скажет, что ждет тебя впереди?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_40
 msgid "Leave me now, child before you end up like that young girl you killed."
 msgstr ""
+"Оставь меня, дитя, пока ты не кончил так же, как та девушка, которую ты убил."
 
 #: conversationlist_mt_galmore.json:captive_girl_76
 msgid "I need to go now. Thanks a lot."
-msgstr ""
+msgstr "А сейчас мне нужно идти. Большое спасибо."
 
 #: conversationlist_mt_galmore.json:crystal_teleportation_disabled
 msgid "There is nothing to see here except for that wolf dung over there. Gross!"
-msgstr ""
+msgstr "Здесь не на что смотреть, кроме вон того волчьего помета. Мерзость!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid
 msgid "Look what I have found here - bewitched crystals! They are really fun!"
 msgstr ""
+"Посмотри, что я здесь нашла - заколдованные кристаллы! Они очень забавные!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid_1
 msgid "I wonder if there are more of them in the area?"
-msgstr ""
+msgstr "Интересно, есть ли еще такие в округе?"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1
 msgid "You're here to take our magical mushroom!"
-msgstr ""
+msgstr "Вы здесь, чтобы забрать наш волшебный гриб!"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1:1
 msgid "No, I swear. Please don't hurt me."
-msgstr ""
+msgstr "Нет, клянусь. Пожалуйста, не делайте мне больно."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1
 msgid "We are in a rush to get through here, kid. Get out of our way or die."
-msgstr ""
+msgstr "Мы спешим поскорее пройти здесь, парень. Уйди с дороги или умри."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:0
 msgid "Where is the Shadow to help me now?"
-msgstr ""
+msgstr "Где Тень, чтобы помочь мне сейчас?"
 
 #: conversationlist_mt_galmore.json:cat_dialog
 msgid "Meow."
-msgstr ""
+msgstr "Мяу."
 
 #: conversationlist_mt_galmore.json:blue_cat_1
 msgid "Hello, my name is \"Old Blue\"."
-msgstr ""
+msgstr "Здравствуйте, меня зовут \"Олд Блю\"."
 
 #: conversationlist_mt_galmore.json:blue_cat_1:0
 msgid "What! You can talk?"
-msgstr ""
+msgstr "Что! Ты можешь говорить?"
 
 #: conversationlist_mt_galmore.json:blue_cat_1:1
 msgid "You are an unusual color. Why are you blue?"
-msgstr ""
+msgstr "Ты необычного цвета. Почему ты синий?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk
 msgid "Talk? Well, let me ask you this: Why don't my friends up there talk?"
 msgstr ""
+"Говорить? Позволь спросить тебя вот о чем: Почему мои друзья там наверху не "
+"разговаривают?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk:0
 msgid "Well, I guess you've got me there."
-msgstr ""
+msgstr "Ну, думаю, ты меня раскусил."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue
 msgid "It was Bonicksa, that wicked witch, she did this to me."
-msgstr ""
+msgstr "Это всё Боникса, злая ведьма, она сделала это со мной."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2
 msgid "Well, you see those rats over there? The ones in the cage?"
-msgstr ""
+msgstr "Видишь вон тех крыс? Тех, что в клетке?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2:0
 msgid "Yeah."
-msgstr ""
+msgstr "Ну."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3
 msgid "You see, those things are delicious."
-msgstr ""
+msgstr "Видишь ли, они очень вкусные."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3:0
 msgid "Um, OK, but what does that have to do with Bonicksa?"
-msgstr ""
+msgstr "Хорошо, но какое отношение это имеет к Бониксе?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue4
 msgid "Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them."
 msgstr ""
+"О, ты не знаешь? Это крысы Бониксы, и она не любит, когда с ними что-то "
+"случается."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5
 msgid "She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me."
 msgstr ""
+"Как-то раз они поймали меня за убийством ее любимца. В тот день мне удалось "
+"вырваться, но она была неутомима в своих стремлениях причинить мне боль."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5:0
 msgid "What happened next?"
-msgstr ""
+msgstr "Что произошло дальше?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6
 msgid "Well, after many months of trying, she was lucky one day and was able to capture me."
 msgstr ""
+"После долгих месяцев попыток ей однажды повезло, и она смогла поймать меня."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6:0
 msgid "Then?"
-msgstr ""
+msgstr "А что потом?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7
 msgid "She used her black magic to turn my beautiful white fur to this awful color I am now."
 msgstr ""
+"При помощи своей черной магии она превратила мой прекрасный белый мех в этот "
+"ужасный цвет."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7:0
 msgid "Oh, I am so sorry for you."
-msgstr ""
+msgstr "О, мне так жаль тебя."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt
 msgid "Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?"
 msgstr ""
+"О, да. Я хотел спросить, что ты сказал Дефи, когда узнал, что они хотят "
+"нанять тебя, чтобы ограбить нас. А потом ты так грубо ушел от разговора. "
+"Поэтому я спрошу снова. Что ты ответил?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45
 msgid "Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there."
 msgstr ""
+"Серьезно? В наше время так трудно получить хорошую помощь! Я приказал тебе "
+"пойти с ними в хранилище, так как там нам может понадобиться твоя помощь."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45:0
 msgid "Oh, yeah, I forgot."
-msgstr ""
+msgstr "Ах, да, я забыл."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10
 msgid "What a beautiful view from here."
-msgstr ""
+msgstr "Отсюда открывается прекрасный вид."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10:0
 msgid "Is that a skeleton that I see behind the hill?"
-msgstr ""
+msgstr "Это что, скелет, которого я вижу за холмом?"
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20
 msgid "You think how to lure the skeleton back into the castle."
-msgstr ""
+msgstr "Вы думаете, как заманить скелета обратно в замок."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20:0
 msgid "I could close the castle gates again."
-msgstr ""
+msgstr "Я мог бы снова закрыть ворота замка."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_22
 msgid "What a strange idea. But who knows, maybe it helps?"
-msgstr ""
+msgstr "Странная идея. Но, кто знает, может быть, поможет?"
 
 #: conversationlist_omifix2.json:capvjern_23
 msgid "Hey, $playername! You're back, where is the general?"
-msgstr ""
+msgstr "Привет, $playername! Все в порядке, а где генерал?"
 
 #: conversationlist_omifix2.json:capvjern_24
 msgid "It sure took you a while. What happened?"
-msgstr ""
+msgstr "Ты, конечно, затянул. Что случилось?"
 
 #: conversationlist_omifix2.json:capvjern_24:0
 msgid "General Ortholion was almost murdered by Ehrenfest, but I was there to save him."
-msgstr ""
+msgstr "Генерал Ортолион был почти убит Эренфестом, но я успел его спасти."
 
 #: conversationlist_omifix2.json:capvjern_24:1
 msgid "I killed Kamelio. Twice."
-msgstr ""
+msgstr "Я убил Камелио. Дважды."
 
 #: conversationlist_omifix2.json:capvjern_25a
 msgid "You sure are brave enough, kid. I hope you'll be staying around for a while."
-msgstr ""
+msgstr "Ты очень смелый, парень. Надеюсь, ты останешься здесь надолго."
 
 #: conversationlist_omifix2.json:capvjern_25a:1
 msgid "I don't think the job is paid well enough."
-msgstr ""
+msgstr "Не думаю, что работа оплачена достаточно хорошо."
 
 #: conversationlist_omifix2.json:capvjern_25a:2
 msgid "Sorry, but I must do as I was told and find my brother Andor."
 msgstr ""
+"Прости, но мне необходимо сделать то, что мне велено, и разыскать своего "
+"брата Эндора."
 
 #: conversationlist_omifix2.json:capvjern_25b
 msgid "You WHAT?!"
-msgstr ""
+msgstr "Ты ЧТО?!"
 
 #: conversationlist_omifix2.json:capvjern_25b:0
 msgid "Hey, hey, calm down big man! Let me explain."
-msgstr ""
+msgstr "Эй, эй, успокойся, здоровяк! Сейчас я объясню."
 
 #: conversationlist_omifix2.json:capvjern_25b:1
 msgid "I had no other choice."
-msgstr ""
+msgstr "У меня не было другого выбора."
 
 #: conversationlist_omifix2.json:capvjern_26a
 msgid ""
 "Ha HA! You want the kid to do your job for free? \n"
 "You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!"
 msgstr ""
+"Ха-ха-ха! Ты хочешь, чтобы ребенок делал твою работу бесплатно?\n"
+"Понимаешь, $playername? Мы даже не начали расчищать вход в гору. Интересно, "
+"почему?!"
 
 #: conversationlist_omifix2.json:capvjern_26a:0
 msgid "Do you need any help with that?"
-msgstr ""
+msgstr "Вам нужна помощь в этом?"
 
 #: conversationlist_omifix2.json:capvjern_26b
 msgid ""
@@ -57816,122 +57987,141 @@ msgid ""
 "\n"
 "Kamelio, alive? How? Where?"
 msgstr ""
+"Успокойся, Джерн.\n"
+"\n"
+"Камелио, жива? Как? Где?"
 
 #: conversationlist_omifix2.json:capvjern_26b:0
 msgid "Deep in a cave below the Elm mine."
-msgstr ""
+msgstr "Глубоко в пещере под шахтой Эльма."
 
 #: conversationlist_omifix2.json:capvjern_26c
 msgid "Explain, explain it already!"
-msgstr ""
+msgstr "Объясни, объясни уже!"
 
 #: conversationlist_omifix2.json:capvjern_27a
 msgid "We have more important matters to attend. Now, where is the general? What about the workers of the mine?"
 msgstr ""
+"У нас есть более важные дела. Итак, где генерал? А что с рабочими шахты?"
 
 #: conversationlist_omifix2.json:capvjern_27a:0
 msgid "Uh ... The general will certainly let you know in full detail ... Soon enough."
-msgstr ""
+msgstr "Ух... Генерал обязательно сообщит тебе все подробности... Скоро."
 
 #: conversationlist_omifix2.json:capvjern_27a:1
 msgid "No survivors, except Arghest. Many Feygard soldiers have fallen too."
-msgstr ""
+msgstr "Выживших нет, кроме Аргеста. Многие солдаты Фейгарда тоже пали."
 
 #: conversationlist_omifix2.json:capvjern_27b
 msgid "For the Shadow, tell me why you had to kill my beloved friend!! "
 msgstr ""
+"Ради Тени, скажи мне, зачем тебе понадобилось убивать моего любимого друга! "
 
 #: conversationlist_omifix2.json:capvjern_27b:0
 msgid "It was me or him. He was no longer your friend."
-msgstr ""
+msgstr "Или я, или он. Он больше не был твоим другом."
 
 #: conversationlist_omifix2.json:capvjern_27b:1
 msgid "I am truly sorry, but he did try to kill us too."
-msgstr ""
+msgstr "Мне очень жаль, но он пытался убить и нас."
 
 #: conversationlist_omifix2.json:capvjern_28a
 msgid "That's absurd! Kamelio?! Trying to kill a kid? Be reasonable, $playername. We cannot simply believe that."
 msgstr ""
+"Это абсурд! Камелио?! Пытается убить ребенка? Разумнее, $playername. Мы не "
+"можем в это просто поверить."
 
 #: conversationlist_omifix2.json:capvjern_28a:0
 msgid "Kamelio was no longer the person you knew."
-msgstr ""
+msgstr "Камелио больше не был тем человеком, которого ты знал."
 
 #: conversationlist_omifix2.json:capvjern_28a:1
 msgid "General Ortholion was there."
-msgstr ""
+msgstr "Там был генерал Ортолион."
 
 #: conversationlist_omifix2.json:capvjern_28b:0
 msgid "General Ortholion is inside the mine dependencies. I found Kamelio, he tried to kill us but I defeated him."
 msgstr ""
+"Генерал Ортолион находится внутри шахты. Я нашел Камелио, он пытался убить "
+"нас, но я победил его."
 
 #: conversationlist_omifix2.json:capvjern_28b:1
 msgid "You better ask the general, I am tired already. He is still in the Elm mine celebrating he's still alive."
 msgstr ""
+"Лучше спроси у генерала, мне надоело. Он все еще в шахте Эльмы, празднует, "
+"что еще жив."
 
 #: conversationlist_omifix2.json:capvjern_28c
 msgid "We will wait for him here, in that case."
-msgstr ""
+msgstr "В таком случае мы подождем его здесь."
 
 #: conversationlist_omifix2.json:capvjern_28d
 msgid "You or ...? That's utter nonsense!"
-msgstr ""
+msgstr "Ты или...? Это полная чушь!"
 
 #: conversationlist_omifix2.json:capvjern_29a
 msgid "So? You want me to believe that Kamelio went crazy and tried to kill you?"
 msgstr ""
+"И что? Ты хочешь, чтобы я поверил, что Камелио сошел с ума и пытался убить "
+"тебя?"
 
 #: conversationlist_omifix2.json:capvjern_29a:0
 msgid "Believe what you want. I give up."
-msgstr ""
+msgstr "Верь во что хочешь. Я сдаюсь."
 
 #: conversationlist_omifix2.json:capvjern_29a:1
 msgid "I am not lying!"
-msgstr ""
+msgstr "Я не вру!"
 
 #: conversationlist_omifix2.json:capvjern_29a:2
 msgid "This is his cloak, right? [Show the Kazarite cloak]"
-msgstr ""
+msgstr "Это его плащ, верно? [Показывает плащ Казарита]"
 
 #: conversationlist_omifix2.json:capvjern_30a
 msgid "What in the world ...? It moves!"
-msgstr ""
+msgstr "Что в мире...? Он двигается!"
 
 #: conversationlist_omifix2.json:capvjern_30a:0
 msgid "Yes. This strange substance was responsible of your friend's behaviour."
 msgstr ""
+"Да. Именно это странное вещество стало причиной такого поведения твоего "
+"друга."
 
 #: conversationlist_omifix2.json:capvjern_30a:1
 msgid "Do you believe me now?"
-msgstr ""
+msgstr "Ты мне веришь?"
 
 #: conversationlist_omifix2.json:capvjern_29b
 msgid "I cannot believe in your words, $playername."
-msgstr ""
+msgstr "Я не могу поверить в твои слова, $playername."
 
 #: conversationlist_omifix2.json:capvjern_30b
 msgid "But the truth is that I can neither believe you killed him for the sake of it. Plus, the General is alive as you say, and it is thanks to you."
 msgstr ""
+"Но на самом деле я не могу поверить, что ты убил его только из-за этого. К "
+"тому же генерал жив, как ты говоришь, и это благодаря тебе."
 
 #: conversationlist_omifix2.json:capvjern_29c
 msgid "Speak for yourself, cap! I'll head to the mine."
-msgstr ""
+msgstr "Говори за себя, капитан! Я отправлюсь в шахту."
 
 #: conversationlist_omifix2.json:capvjern_29c:0
 msgid "You are needed here more."
-msgstr ""
+msgstr "Ты нужен здесь больше."
 
 #: conversationlist_omifix2.json:capvjern_29c:1
 msgid "The mine is no longer a safe place."
-msgstr ""
+msgstr "Шахта перестала быть безопасным местом."
 
 #: conversationlist_omifix2.json:capvjern_30c
 msgid "Hmpf ... You know what? Right, someone has to patrol this settlement."
-msgstr ""
+msgstr "Хмпф... Знаешь что? Кто-то же должен патрулировать это поселение."
 
 #: conversationlist_omifix2.json:capvjern_31a
 msgid "Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside."
 msgstr ""
+"Бери этот старый ключ. В молодости я работал в шахтах. Уверен, что где-то "
+"внутри был сундук с припасами."
 
 #: conversationlist_omifix2.json:capvjern_32a
 msgid ""
@@ -57939,11 +58129,14 @@ msgid ""
 "\n"
 " *looks at the captain* I'll be going."
 msgstr ""
+"Еще раз спасибо. \n"
+"\n"
+" *смотрит на капитана* Я пойду."
 
 #: conversationlist_omifix2.json:capvjern_32a:1
 #: conversationlist_omifix2.json:capvjern_32c:1
 msgid "Good luck in your shift."
-msgstr ""
+msgstr "Удачной смены."
 
 #: conversationlist_omifix2.json:capvjern_30d
 msgid ""
@@ -57951,34 +58144,39 @@ msgid ""
 "\n"
 "Jern, let Feygard folks take care of the mine for a while, we have a lot to do here."
 msgstr ""
+"В это я могу поверить.\n"
+"\n"
+"Джерн, пусть фейгардцы пока займутся шахтой, у нас здесь много дел."
 
 #: conversationlist_omifix2.json:capvjern_31b
 msgid "[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?"
 msgstr ""
+"[смотрит на плащ] Я раньше такого никогда не видел. И даже когда работал "
+"там. Что это, черт возьми, такое?"
 
 #: conversationlist_omifix2.json:capvjern_32b
 msgid "[looks at you]"
-msgstr ""
+msgstr "[смотрит на тебя]"
 
 #: conversationlist_omifix2.json:capvjern_33
 msgid "[stares at the cloak again]"
-msgstr ""
+msgstr "[снова смотрит на плащ]"
 
 #: conversationlist_omifix2.json:capvjern_34
 msgid "[stares at you again]"
-msgstr ""
+msgstr "[снова смотрит на тебя]"
 
 #: conversationlist_omifix2.json:capvjern_34:1
 msgid "You alright?"
-msgstr ""
+msgstr "Все хорошо?"
 
 #: conversationlist_omifix2.json:capvjern_35
 msgid "[puts his hand over the captain's shoulder] Hey, captain, wake up."
-msgstr ""
+msgstr "[кладет руку на плечо капитана] Эй, капитан, проснись."
 
 #: conversationlist_omifix2.json:capvjern_35:0
 msgid "[Put the cloak away]"
-msgstr ""
+msgstr "[Убрать плащ]"
 
 #: conversationlist_omifix2.json:capvjern_36
 msgid ""
@@ -57986,6 +58184,9 @@ msgid ""
 "\n"
 "It is un...unbearable."
 msgstr ""
+"..\n"
+"\n"
+"Это... невыносимо."
 
 #: conversationlist_omifix2.json:capvjern_37
 msgid ""
@@ -57993,46 +58194,55 @@ msgid ""
 "\n"
 "$playername, you must destroy the cloak!"
 msgstr ""
+"[тяжело дышит] Это... это вещество опасно!\n"
+"\n"
+"$playername, ты должен уничтожить плащ!"
 
 #: conversationlist_omifix2.json:capvjern_37:0
 msgid "The mine is full of it! Do you believe me now?"
-msgstr ""
+msgstr "Шахта полна ими! Веришь ли ты мне теперь?"
 
 #: conversationlist_omifix2.json:capvjern_38
 msgid "I do. [looks at Jern] I do believe in what the kid says."
-msgstr ""
+msgstr "Верю. [смотрит на Джерна] Я верю в то, что говорит ребенок."
 
 #: conversationlist_omifix2.json:capvjern_39
 msgid "Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!"
 msgstr ""
+"Гргх... Тогда пойдемте в шахту. Мы должны забрать оттуда труп Камелио и "
+"похоронить его как следует!"
 
 #: conversationlist_omifix2.json:capvjern_39:0
 msgid "It is too dangerous, you mustn't go."
-msgstr ""
+msgstr "Слишком опасно, вам не стоит идти."
 
 #: conversationlist_omifix2.json:capvjern_39:1
 msgid "Trained soldiers were lost down there. Let General's men handle this."
-msgstr ""
+msgstr "Там погибли опытные солдаты. Пусть с этим разбираются люди генерала."
 
 #: conversationlist_omifix2.json:capvjern_40
 msgid "So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there."
 msgstr ""
+"И что же ты предлагаешь? Остаться здесь и ничего не делать!? Я НЕ оставлю "
+"там труп друга."
 
 #: conversationlist_omifix2.json:capvjern_40:0
 msgid "What about those who are alive here?"
-msgstr ""
+msgstr "А как же те, кто остался в живых?"
 
 #: conversationlist_omifix2.json:capvjern_40:1
 msgid "Do not lose your life for a bunch of dead bones. You must live for your friends."
 msgstr ""
+"Не стоит отдавать свою жизнь за кучу мертвых костей. Жизнь нужно прожить "
+"ради друзей."
 
 #: conversationlist_omifix2.json:capvjern_41
 msgid "I'll wait here. Farewell, $playername."
-msgstr ""
+msgstr "Подожду здесь. Прощай, $playername."
 
 #: conversationlist_omifix2.json:capvjern_41:2
 msgid "As useful as always, captain."
-msgstr ""
+msgstr "Как и всегда, спасибо, капитан."
 
 #: conversationlist_omifix2.json:capvjern_32c
 msgid ""
@@ -58040,22 +58250,29 @@ msgid ""
 "\n"
 "[looks at the captain] I'll be going."
 msgstr ""
+"Еще раз спасибо.\n"
+"\n"
+"[смотрит на капитана] Я пойду."
 
 #: conversationlist_omifix2.json:ortholion_guard_0e
 msgid "No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?"
 msgstr ""
+"Нет, парень, мне сейчас нечем торговать. Я устал от этого места. Горы - это "
+"не мое, понимаешь?"
 
 #: conversationlist_omifix2.json:ortholion_guard_0e:0
 msgid "I have a very important message fr..."
-msgstr ""
+msgstr "У меня очень важное сообщение для..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
 msgstr ""
+"Я предпочитаю великие равнины спокойного, всегда спокойного Лонфорда... "
+"Всегда тихо и спокойно..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e:0
 msgid "But General Orth..."
-msgstr ""
+msgstr "Но генерал Орт..."
 
 #: conversationlist_omifix2.json:ortholion_guard_2e
 msgid ""
@@ -58063,50 +58280,59 @@ msgid ""
 "\n"
 "[The soldier continues lamenting and completely ignores your presence]"
 msgstr ""
+"Ах! Мягкий бриз на побережье, яркая жизнь порта Фейгард... \n"
+"\n"
+"[Солдат продолжает причитать, полностью игнорируя ваше присутствие]"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:0
 msgid "Hey, pay attention!"
-msgstr ""
+msgstr "Эй, обратите внимание!"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "Ладно, я сдаюсь. Попробуем с кем-нибудь другим."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
 msgstr ""
+"Ненавижу эти поездки с сопровождением. Не похоже, что мы действительно нужны "
+"генералу для этого."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9
 msgid "The trip here was anything but safe. I miss my former post in Crossglen."
 msgstr ""
+"Поездка сюда не была безопасной. Я скучаю по своему бывшему посту в "
+"Кроссглене."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9:0
 msgid "Oh, so you are one of those good for nothing, always drunk, soldiers?"
-msgstr ""
+msgstr "О, так вы один из тех вечно пьяных солдат, которые ни на что не годны?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10
 msgid "Yes sir, I w... Hey! What did you just say?"
-msgstr ""
+msgstr "Да, сэр, я... Эй! Что ты только что сказал?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:0
 msgid "I have important information to deliver!"
-msgstr ""
+msgstr "Мне нужно доставить важную информацию!"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:1
 msgid "I am proud of you, drunkard. Where's your boss?"
-msgstr ""
+msgstr "Я горжусь тобой, пьяница. Где твой босс?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a
 msgid "Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*."
 msgstr ""
+"Что бы это ни было, меня это не касается. Поговорите с нашим горным "
+"разведчиком, она за все отвечает, *указывает*."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:0
 msgid "Blackwater brew, eh? Truly disappointing. Goodbye."
-msgstr ""
+msgstr "Варево \"Черноводная гора\", да? Очень разочаровывает. До свидания."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:1
 msgid "OK sir, many thanks."
-msgstr ""
+msgstr "Хорошо, сэр, большое спасибо."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b
 msgid ""
@@ -58114,14 +58340,17 @@ msgid ""
 "\n"
 "*points at the mountain scout*"
 msgstr ""
+"[смотрит на вас с недоумением] Ух-х... *указывает* Вон там.\n"
+"\n"
+"*указывает на горного разведчика*"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:0
 msgid "Finally, bye."
-msgstr ""
+msgstr "Наконец-то, пока."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
 msgid "Thanks, and sleep it off... Sigh."
-msgstr ""
+msgstr "Спасибо, засыпай... Эх."
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -58355,7 +58584,7 @@ msgstr "Большой факел"
 
 #: itemcategories_mt_galmore.json:animal_usable
 msgid "Usable animal part"
-msgstr ""
+msgstr "Полезная часть животного"
 
 #: itemlist_money.json:gold
 #: itemlist_stoutford_combined.json:erwyn_coin
@@ -61588,11 +61817,13 @@ msgstr "Кольцо с синим сапфиром и с клеймом Фей�
 
 #: itemlist_omi2.json:torch
 msgid "Miner's lamp fuel"
-msgstr "[REVIEW]Факел"
+msgstr "Горючее для шахтерской лампы"
 
 #: itemlist_omi2.json:torch:description
 msgid "Miner's lamp oil with low odor and pollutants. Useful for pitch black tunnels, caves and passages."
-msgstr "[REVIEW]Применяется в темных туннелях, пещерах и переходах."
+msgstr ""
+"Масло для шахтерских ламп с низким содержанием запаха и загрязняющих "
+"веществ. Применяется в темных туннелях, пещерах и переходах."
 
 #: itemlist_omi2.json:gland2
 msgid "Contaminated poison gland"
@@ -62021,7 +62252,7 @@ msgstr "Письмо для Килви, от мэра Эля."
 
 #: itemlist_sullengard.json:blade_protector
 msgid "Blade of the protector"
-msgstr "Клинок защитника"
+msgstr "Клинок покровителя"
 
 #: itemlist_sullengard.json:blade_protector:description
 msgid "This blade has been wielded by one that went before you."
@@ -62233,15 +62464,15 @@ msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key
 msgid "Thieve's vault key"
-msgstr ""
+msgstr "Ключ от хранилища воров"
 
 #: itemlist_mt_galmore.json:thieves_vault_key:description
 msgid "A key to the Thieves Guild's vault of gold and other treasures."
-msgstr ""
+msgstr "Ключ к хранилищу золота и других сокровищ гильдии воров."
 
 #: itemlist_mt_galmore.json:thieves_vault_key_fake
 msgid "Fake Thieve's Guild vault key"
-msgstr ""
+msgstr "Поддельный ключ от хранилища Гильдии воров"
 
 #: itemlist_mt_galmore.json:aidem_fake_vault_key
 msgid "Aidem fake vault key"
@@ -62253,23 +62484,25 @@ msgstr "Поддельный ключ, сделанный ворами Айде�
 
 #: itemlist_mt_galmore.json:feygard_might
 msgid "Feygard's might"
-msgstr ""
+msgstr "Могущество Фейгарда"
 
 #: itemlist_mt_galmore.json:feygard_might:description
 msgid "A Feygard general's weapon of choice."
-msgstr ""
+msgstr "Избранное оружие фейгардского генерала."
 
 #: itemlist_mt_galmore.json:feygard_necklace
 msgid "Necklace of Feygard's Glory"
-msgstr ""
+msgstr "Ожерелье славы Фейгарда"
 
 #: itemlist_mt_galmore.json:feygard_necklace:description
 msgid "A Feygardian soldier's medal of honor. To possess is to honor the glorious city of Feygard."
 msgstr ""
+"Почетная медаль фейгардского солдата. Обладать ею - это честь для славного "
+"города Фейгард."
 
 #: itemlist_mt_galmore.json:defy_ring
 msgid "Defy's ring"
-msgstr ""
+msgstr "Кольцо Дефи"
 
 #: itemlist_mt_galmore.json:defy_ring:description
 msgid "Defy's Aidem ring."
@@ -62285,155 +62518,179 @@ msgstr "Кольцо \"Айдем\" Жадины"
 
 #: itemlist_mt_galmore.json:grabby_ring
 msgid "Grabby's ring"
-msgstr ""
+msgstr "Кольцо Грабби"
 
 #: itemlist_mt_galmore.json:grabby_ring:description
 msgid "Grabby's Aidem ring"
-msgstr ""
+msgstr "Кольцо Эйдема Грабби"
 
 #: itemlist_mt_galmore.json:zachlanny_ring
 msgid "Zachlanny ring"
-msgstr ""
+msgstr "Кольцо Захланни"
 
 #: itemlist_mt_galmore.json:zachlanny_ring:description
 msgid "Zachlanny's Aidem ring"
-msgstr ""
+msgstr "Кольцо Эйдем от Захланни"
 
 #: itemlist_mt_galmore.json:nixite_crystal
 msgid "Nixite crystal"
-msgstr ""
+msgstr "Кристалл Никсита"
 
 #: itemlist_mt_galmore.json:nixite_crystal:description
 msgid "A remarkable jewel of unparalleled rarity, exudes an enchanting iridescence reminiscent of tranquil waters under a midday sun. Its surface seems to shimmer with an inner light, casting a soothing teal glow that captivates all who behold it. Legends tell of its unique power coveted by wizards and sorcerers."
 msgstr ""
+"Замечательный драгоценный камень беспрецедентной редкости излучает чарующую "
+"переливчатость, напоминая спокойные воды под полуденным солнцем. Его "
+"поверхность словно мерцает внутренним светом, отбрасывая успокаивающее "
+"сияние цвета моря, которое завораживает всех, кто его видит. Легенды "
+"рассказывают о его уникальной силе, желанной для магов и чародеев."
 
 #: itemlist_mt_galmore.json:silver_coin
 msgid "Silver coin"
-msgstr ""
+msgstr "Серебряная монета"
 
 #: itemlist_mt_galmore.json:bronze_coin
 msgid "Bronze coin"
-msgstr ""
+msgstr "Бронзовая монета"
 
 #: itemlist_mt_galmore.json:witch_scepter
 msgid "Enchanted evergreen rod"
-msgstr ""
+msgstr "Заколдованный вечнозеленый прут"
 
 #: itemlist_mt_galmore.json:witch_scepter:description
 msgid "A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay."
 msgstr ""
+"Искусный посох, увенчанный светящимся зеленым кристаллом. Он передает "
+"сущность природы, позволяя своему владельцу управлять силами расцвета и "
+"разложения."
 
 #: itemlist_mt_galmore.json:music_box
 msgid "Music box"
-msgstr ""
+msgstr "Музыкальная шкатулка"
 
 #: itemlist_mt_galmore.json:music_box:description
 msgid "This ornate wooden box is adorned with intricate carvings and when wound, produces a delicate melody only able to be enjoyed by upper class women."
 msgstr ""
+"Эта богато украшенная деревянная шкатулка украшена затейливой резьбой и, "
+"когда ее заводят, издает нежную мелодию, которой могут наслаждаться только "
+"женщины высшего сословия."
 
 #: itemlist_mt_galmore.json:crystal_ball
 msgid "Crystal ball"
-msgstr ""
+msgstr "Хрустальный шар"
 
 #: itemlist_mt_galmore.json:crystal_ball:description
 msgid "A tool for scrying and divination, believed to reveal hidden knowledge."
 msgstr ""
+"Инструмент для гадания и предсказаний, который, как считается, открывает "
+"скрытые тайны."
 
 #: itemlist_mt_galmore.json:witch_candle
 msgid "Witch's candle"
-msgstr ""
+msgstr "Ведьмина свеча"
 
 #: itemlist_mt_galmore.json:witch_candle:description
 msgid "Used for casting spells and creating an eerie atmosphere."
-msgstr ""
+msgstr "Используется для произнесения заклинаний и создания жуткой атмосферы."
 
 #: itemlist_mt_galmore.json:major_potion_speed
 msgid "Major potion of speed"
-msgstr ""
+msgstr "Большое зелье скорости"
 
 #: itemlist_mt_galmore.json:cursed_fang
 msgid "Cursed rat fang"
-msgstr ""
+msgstr "Проклятый крысиный клык"
 
 #: itemlist_mt_galmore.json:cursed_fang:description
 msgid "A tooth from a rabid Nightfur rat. Cursed with rabies which has debilitating effects on the diseased."
 msgstr ""
+"Клык бешеной ночной крысы. Заражен бешенством, которое оказывает ослабляющее "
+"действие на заболевшего."
 
 #: itemlist_mt_galmore.json:garnet_stone
 msgid "Garnet stone"
-msgstr ""
+msgstr "Гранатовый камень"
 
 #: itemlist_mt_galmore.json:garnet_stone:description
 msgid "A precious stone loved by many"
-msgstr ""
+msgstr "Драгоценный камень, который любят многие"
 
 #: itemlist_mt_galmore.json:titanforge_stompers
 msgid "Titanforge stompers"
-msgstr ""
+msgstr "Топтали из кузни титанов"
 
 #: itemlist_mt_galmore.json:titanforge_stompers:description
 msgid "A heavy boot that boasts animposing design forged with ancient craftsmanship, enhancing the wearer's strength and resilience with each resounding step."
 msgstr ""
+"Тяжелые ботинки с анималистическим дизайном, выкованные с использованием "
+"древних ремесел, повышают силу и стойкость владельца при каждом резком шаге."
 
 #: itemlist_mt_galmore.json:esp_sweet_cherries
 msgid "Especially sweet cherries"
-msgstr ""
+msgstr "Особо сладкие вишни"
 
 #: itemlist_mt_galmore.json:cyclopean_eye_gem
 msgid "Cyclopean eye gem"
-msgstr ""
+msgstr "Драгоценный камень из глаза Циклопеии"
 
 #: itemlist_mt_galmore.json:cyclopean_eye_gem:description
 msgid "Extracted from the Cyclopea creeper species' giant eye, radiating a faint but mysterious energy."
 msgstr ""
+"Извлекается из гигантского глаза ползучего вида Циклопея, излучающего "
+"слабую, но таинственную энергию."
 
 #: itemlist_mt_galmore.json:cyclopea_root
 msgid "Cyclopea root"
-msgstr ""
+msgstr "Корень Циклопеи"
 
 #: itemlist_mt_galmore.json:cyclopea_root:description
 msgid "A root from the Cyclopea creeper which when consumed, has been known to provide a modest boost in strength"
 msgstr ""
+"Корень Циклопеи ползучей, который при употреблении в пищу, как известно, "
+"дает скромный прирост силы"
 
 #: itemlist_mt_galmore.json:photosynthetic_leaf
 msgid "Photosynthetic leaf"
-msgstr ""
+msgstr "Фотосинтезирующий лист"
 
 #: itemlist_mt_galmore.json:photosynthetic_leaf:description
 msgid "A leaf that, when held to sunlight, provides a minor regeneration effect."
 msgstr ""
+"Лист, который при контакте с солнечным светом дает небольшой эффект "
+"регенерации."
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime
 msgid "Hexapede crawler slime"
-msgstr ""
+msgstr "Шестиногий гусеничный слизняк"
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime:description
 msgid "Provides temporary immunity to Rootsnare, but at a cost."
 msgstr ""
+"Временно дает иммунитет к Корневому ожогу, но за это придется заплатить."
 
 #: itemlist_mt_galmore.json:hexi_egg
 msgid "Hexi egg"
-msgstr ""
+msgstr "Яйцо Хекси"
 
 #: itemlist_mt_galmore.json:better_worm_meat
 msgid "Healthier worm meat"
-msgstr ""
+msgstr "Оздоровленное мясо червей"
 
 #: itemlist_mt_galmore.json:better_worm_meat:description
 msgid "A heathier alternative to your average worm meat."
-msgstr ""
+msgstr "Более здоровая альтернатива обычному червивому мясу."
 
 #: itemlist_mt_galmore.json:feline_fang
 msgid "Feline fang"
-msgstr ""
+msgstr "Кошачий клык"
 
 #: itemlist_mt_galmore.json:feline_milk
 msgid "Feline milk"
-msgstr ""
+msgstr "Кошачье молоко"
 
 #: itemlist_mt_galmore.json:feline_milk:description
 msgid "A unique elixir exuding the essence of mountain flora."
-msgstr ""
+msgstr "Уникальный эликсир, источающий аромат горной флоры."
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
@@ -66866,11 +67123,11 @@ msgstr "Вутибарфаг"
 
 #: monsterlist_mt_galmore.json:laska_blizz
 msgid "Laska Blizz"
-msgstr ""
+msgstr "Ласка Близз"
 
 #: monsterlist_mt_galmore.json:thief_seraphina
 msgid "Sly Seraphina"
-msgstr ""
+msgstr "Хитрая Серафина"
 
 #: monsterlist_mt_galmore.json:aidem_camp_greedy
 #: monsterlist_mt_galmore.json:aidem_base_greedy_aggressive
@@ -66882,124 +67139,124 @@ msgstr "Жадина"
 #: monsterlist_mt_galmore.json:aidem_base_grabby_aggressive
 #: monsterlist_mt_galmore.json:aidem_jail_grabby
 msgid "Grabby"
-msgstr ""
+msgstr "Грабби"
 
 #: monsterlist_mt_galmore.json:aidem_camp_lost_traveler
 msgid "Lost Traveler"
-msgstr ""
+msgstr "Заблудившийся путник"
 
 #: monsterlist_mt_galmore.json:aidem_base_alaric
 #: monsterlist_mt_galmore.json:alaric_wild6house
 #: monsterlist_mt_galmore.json:aidem_base_alaric_aggressive
 #: monsterlist_mt_galmore.json:aidem_jail_alaric
 msgid "Alaric"
-msgstr ""
+msgstr "Аларик"
 
 #: monsterlist_mt_galmore.json:wild6_house_thief
 msgid "Rennik"
-msgstr ""
+msgstr "Ренник"
 
 #: monsterlist_mt_galmore.json:fish_school
 msgid "Blue fish"
-msgstr ""
+msgstr "Голубая рыба"
 
 #: monsterlist_mt_galmore.json:wicked_witch_first
 #: monsterlist_mt_galmore.json:wicked_witch_second
 #: monsterlist_mt_galmore.json:wicked_witch_third
 msgid "Bonicksa"
-msgstr ""
+msgstr "Боникса"
 
 #: monsterlist_mt_galmore.json:sutdover_fisherman
 msgid "Isobel"
-msgstr ""
+msgstr "Изобель"
 
 #: monsterlist_mt_galmore.json:captive_girl
 msgid "Emmeline"
-msgstr ""
+msgstr "Эммелин"
 
 #: monsterlist_mt_galmore.json:preying_bird
 msgid "Preying bird"
-msgstr ""
+msgstr "Хищная птица"
 
 #: monsterlist_mt_galmore.json:nightfur_rat
 msgid "Nightfur rat"
-msgstr ""
+msgstr "Ночная крыса"
 
 #: monsterlist_mt_galmore.json:young_virid_toxin
 msgid "Young ViridToxin dartmaw"
-msgstr ""
+msgstr "Юный изумрудный ядовитый дротикометатель"
 
 #: monsterlist_mt_galmore.json:virid_toxin
 msgid "ViridToxin dartmaw"
-msgstr ""
+msgstr "Изумрудный ядовитый дротикометатель"
 
 #: monsterlist_mt_galmore.json:guardian_mushroom
 msgid "Mushroom guardian"
-msgstr ""
+msgstr "Грибной хранитель"
 
 #: monsterlist_mt_galmore.json:grimmthorn_marauder
 msgid "Grimmthorn marauder"
-msgstr ""
+msgstr "Гриммторнский мародер"
 
 #: monsterlist_mt_galmore.json:dirty_grimmthorn_marauder
 msgid "Dirty grimmthorn marauder"
-msgstr ""
+msgstr "Грязный гриммторнский мародер"
 
 #: monsterlist_mt_galmore.json:cyclopea_creeper
 msgid "Cyclopea creeper"
-msgstr ""
+msgstr "Циклопея ползучая"
 
 #: monsterlist_mt_galmore.json:verdant_cyclopea_creeper
 msgid "Verdant cyclopea creeper"
-msgstr ""
+msgstr "Незрелая циклопея ползучая"
 
 #: monsterlist_mt_galmore.json:spiked_cyclopea_creeper
 msgid "Spiked cyclopea creeper"
-msgstr ""
+msgstr "Шипастая циклопея ползучая"
 
 #: monsterlist_mt_galmore.json:hexapede_crawler
 msgid "Hexapede crawler"
-msgstr ""
+msgstr "Гусеница-шестиножка"
 
 #: monsterlist_mt_galmore.json:flamejaw_tunnelbeast
 msgid "Flamejaw tunnelbeast"
-msgstr ""
+msgstr "Огнечелюстный туннельный зверь"
 
 #: monsterlist_mt_galmore.json:steelthorn_hexileg
 msgid "Steelthorn hexileg"
-msgstr ""
+msgstr "Шестипалый терновник"
 
 #: monsterlist_mt_galmore.json:orange_cat
 msgid "Orange cat"
-msgstr ""
+msgstr "Оранжевый кот"
 
 #: monsterlist_mt_galmore.json:black_cat
 msgid "Black cat"
-msgstr ""
+msgstr "Черный кот"
 
 #: monsterlist_mt_galmore.json:striped_cat
 msgid "Tiger cat"
-msgstr ""
+msgstr "Тигровый кот"
 
 #: monsterlist_mt_galmore.json:gray_cat
 msgid "Gray cat"
-msgstr ""
+msgstr "Серый кот"
 
 #: monsterlist_mt_galmore.json:brown_cat
 msgid "Brown cat"
-msgstr ""
+msgstr "Бурый кот"
 
 #: monsterlist_mt_galmore.json:blue_cat
 msgid "Old Blue"
-msgstr ""
+msgstr "Олд Блю"
 
 #: monsterlist_mt_galmore.json:stoneclaw_prowler
 msgid "Stoneclaw prowler"
-msgstr ""
+msgstr "Каменнокостный бродяга"
 
 #: monsterlist_mt_galmore.json:witch_playing_kid
 msgid "Playing kid"
-msgstr ""
+msgstr "Играющий ребенок"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -71153,7 +71410,9 @@ msgstr "Уроки плавания: Сплавляясь по бурной ре
 
 #: questlist_fungi_panic.json:achievements:110
 msgid "Overcoming fears: I braved the elements and my fear of heights and walked out onto the very edge of the Sullengard ravine and looked straight down to the ravine's bottom."
-msgstr "[REVIEW]Бросив вызов стихии и своему страху высоты мне хватило сил подойти на самый край оврага Зулленгарда и посмотреть вниз."
+msgstr ""
+"Преодоление страхов: Преодолев стихию и страх высоты, я вышел на самый край "
+"оврага Зулленгарда и посмотрел прямо вниз, на дно оврага."
 
 #: questlist_fungi_panic.json:achievements:120
 msgid "Thrown out of my first tavern: I was told to leave the Sullengard tavern and at such a young age too. Am I starting down the wrong path?"
@@ -72043,145 +72302,209 @@ msgstr "За свои усилия вы получили довольно ску
 
 #: questlist_mt_galmore.json:wanted_men
 msgid "Wanted men"
-msgstr ""
+msgstr "Мужчины в розыске"
 
 #: questlist_mt_galmore.json:wanted_men:10
 msgid "Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices."
 msgstr ""
+"В стороне от главной дороги, к юго-востоку от фруктового сада Дибо, я "
+"наткнулся на группу молодых людей со знакомыми голосами."
 
 #: questlist_mt_galmore.json:wanted_men:15
 msgid "The sketchy looking men with familiar voices turned out to be the Aidem thieves from Sullengard. They were hiding-out in the woods."
 msgstr ""
+"Невзрачные люди со знакомыми голосами оказались разбойниками Эйдема из "
+"Зулленгарда. Они прятались в лесу."
 
 #: questlist_mt_galmore.json:wanted_men:20
 msgid "While speaking with Defy, I've learned the he and his men have a grudge against the Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means."
 msgstr ""
+"В разговоре с Дефи я узнал, что он и его люди затаили злобу на Гильдию воров "
+"и хотят \"ударить их по больному месту\". Что бы это ни значило."
 
 #: questlist_mt_galmore.json:wanted_men:25
 msgid "Defy has revealed the location of the Thieves Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven."
 msgstr ""
+"Дефи раскрыл местонахождение хранилища сокровищ Гильдии воров - подземного "
+"склада, доступного из заброшенного дома к югу от Фоллхейвена."
 
 #: questlist_mt_galmore.json:wanted_men:30
 msgid "Defy has asked me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy."
 msgstr ""
+"Дефи попросил меня убедить Бузотера разрешить мне взять ключ на время, чтобы "
+"я мог передать его Дефи."
 
 #: questlist_mt_galmore.json:wanted_men:35
 msgid "Defy has agreed to pay me 20 percent of the looted Thieves Guild treasure if I get the key from Troublemaker and hand it over to him."
 msgstr ""
+"Дефи согласился заплатить мне 20 процентов от награбленных сокровищ из "
+"Гильдии воров, если я получу ключ от Бузотёра и передам его ему."
 
 #: questlist_mt_galmore.json:wanted_men:40
 msgid "Defy has instructed me to bring Troublemaker's key to him at their new hideout located west of the Sutdover River, where the rail tracks end."
 msgstr ""
+"Дефи поручил мне принести ключ Бузотёра в их новое убежище, расположенное к "
+"западу от реки Сатдовер, где заканчиваются железнодорожные пути."
 
 #: questlist_mt_galmore.json:wanted_men:45
 msgid "I have talked my way into acquiring the Thieves Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it."
 msgstr ""
+"Мне удалось выторговать у Бузотёра ключ от хранилища Гильдии воров, но я "
+"должен скорее вернуть его после того, как закончу с ним."
 
 #: questlist_mt_galmore.json:wanted_men:50
 msgid "I told Troublemaker all that I knew about Defy, his men, and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
 msgstr ""
+"Я рассказал Бузотёру всё, что знал о Дефи, его людях и \"Заблудшем "
+"путешественнике\" Аларике, а также о том, как они наняли меня, чтобы помочь "
+"ограбить Гильдию воров."
 
 #: questlist_mt_galmore.json:wanted_men:55
 msgid "Troublemaker has asked me to help him trap Defy by providing Defy with a fake key. When Defy arrives at the secret vault, the Guild members will be waiting for him."
 msgstr ""
+"Бузотёр попросил меня помочь ему заманить Дефи в ловушку, снабдив Дефи "
+"поддельным ключом. Когда Дефи прибудет в секретное хранилище, его будут "
+"ждать члены Гильдии."
 
 #: questlist_mt_galmore.json:wanted_men:56
 msgid ""
 "I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker.\n"
 "Defy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
 msgstr ""
+"Я отдал Дефи фальшивую версию ключа от хранилища, который дал мне Бузотёр. В "
+"ответ Дефи дал мне поддельную версию ключа от хранилища Бузотёра и велел "
+"вернуть его Бузотёру.\n"
+"Затем Дефи велел мне явиться в хранилище, чтобы забрать свою долю золота. Он "
+"понятия не имеет, что ключ, который я ему дал — подделка."
 
 #: questlist_mt_galmore.json:wanted_men:57
 msgid "I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves Guild has apprehended all five men and that they are now in the Guild jail."
 msgstr ""
+"Я сообщил, что вернулся в пустующий дом и встретил там Ренника. Он рассказал "
+"мне, что Гильдия воров задержала всех пятерых мужчин и что сейчас они "
+"находятся в тюрьме Гильдии."
 
 #: questlist_mt_galmore.json:wanted_men:60
 msgid "Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then I should report back to the vault in order to collect my share of the gold."
 msgstr ""
+"Дефи дал мне поддельную копию ключа от хранилища Бузотёра и велел вернуть "
+"его Бузотёру. Затем я должен явиться в хранилище, чтобы забрать свою долю "
+"золота."
 
 #: questlist_mt_galmore.json:wanted_men:65
 msgid "I have given the fake Aidem key to Troublemaker as a replacement for the real vault key."
 msgstr ""
+"Я отдал фальшивый ключ Айдема Бузотёру на замену настоящему ключу от "
+"хранилища."
 
 #: questlist_mt_galmore.json:wanted_men:70
 msgid "I reported back to Defy and he rewarded me with 25000 gold."
-msgstr ""
+msgstr "Я отчитался перед Дефи, и он наградил меня 25000 золотых."
 
 #: questlist_mt_galmore.json:wanted_men:75
 msgid "I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight ensued."
 msgstr ""
+"Я сказал Дефи, что оставлю ключ себе и планирую сам разграбить хранилище "
+"Гильдии воров. Завязалась драка."
 
 #: questlist_mt_galmore.json:wanted_men:76
 msgid "I have killed Defy, his three henchmen and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
 msgstr ""
+"Я убил Дефи, трех его приспешников и Аларика. Мне следует вернуться в "
+"Фоллхейвен и снова поговорить с Бузотёром."
 
 #: questlist_mt_galmore.json:wanted_men:77
 msgid "I've unlocked the hatch leading to the vault. It's time to head down."
-msgstr ""
+msgstr "Я отпер люк, ведущий в хранилище. Пора спускаться."
 
 #: questlist_mt_galmore.json:wanted_men:80
 msgid "I informed Troublemaker that Defy and his men are now dead."
-msgstr ""
+msgstr "Я сообщил Бузотёру, что Дефи и его люди мертвы."
 
 #: questlist_mt_galmore.json:wicked_witch
 msgid "A Wicked witch"
-msgstr ""
+msgstr "Злая колдунья"
 
 #: questlist_mt_galmore.json:wicked_witch:10
 msgid "Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more."
 msgstr ""
+"Бела, хозяйка таверны в Фоллхейвене, узнала от одного из посетителей о "
+"возможном похищении девушки. Надо бы поспрашивать в городе, не знает ли кто "
+"еще."
 
 #: questlist_mt_galmore.json:wicked_witch:20
 msgid "The \"busy farmer\", in the southeastern part of Fallhaven knows something about the witch."
 msgstr ""
+"Занятой фермер из юго-восточной части Фаллхейвена что-то знает о ведьме."
 
 #: questlist_mt_galmore.json:wicked_witch:30
 msgid "The \"busy farmer\" and his best friend, Addie where kept captive by the witch a very long time ago when they were just kids. He never saw Addie again."
 msgstr ""
+"Очень давно, когда они были еще детьми, занятой фермер и его лучшая подруга "
+"Эдди попали в плен к ведьме. Больше он никогда не видел Эдди."
 
 #: questlist_mt_galmore.json:wicked_witch:40
 msgid "The \"busy farmer\" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers."
 msgstr ""
+"Занятой фермер рассказал мне, что дом ведьмы находится к югу от Фоллхейвена. "
+"Он покрыт прекрасными цветами."
 
 #: questlist_mt_galmore.json:wicked_witch:50
 msgid "After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was \"confident in my path\" and that \"we shall see\". I wonder what that meant?"
 msgstr ""
+"Встретив злую ведьму Бониксу, я решил оставить ее в живых, и та сделала то "
+"же самое, однако не сразу, оставив мне весьма загадочный ответ. Она сказала, "
+"что я \"уверен в своем пути\" и что \"мы еще посмотрим\". Интересно, что это "
+"значит?"
 
 #: questlist_mt_galmore.json:wicked_witch:55
 msgid "I have attacked Bonicksa."
-msgstr ""
+msgstr "Я напал на Бониксу."
 
 #: questlist_mt_galmore.json:wicked_witch:60
 msgid "I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
 msgstr ""
+"Убив, как мне казалось, Бониксу, я быстро понял, что убил невинную девушку."
 
 #: questlist_mt_galmore.json:wicked_witch:65
 msgid "I \"killed\" Bonicksa again, only for her to reappear."
-msgstr ""
+msgstr "Я снова \"убил\" Бониксу, но она появилась снова."
 
 #: questlist_mt_galmore.json:wicked_witch:70
 msgid "Bonicksa lives and could not be defeated. But I learned a huge life lesson."
 msgstr ""
+"Боникса продолжает жить, и ее невозможно победить. Но я получил огромный "
+"жизненный урок."
 
 #: questlist_mt_galmore.json:wicked_witch:80
 msgid "I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from Bonicksa."
 msgstr ""
+"Позади дома злой ведьмы я обнаружил девушку по имени Эммелин. На самом деле "
+"ведьмой была Эммелин, которую заколдовала Боникса."
 
 #: questlist_mt_galmore.json:wicked_witch:85
 msgid "Emmeline asked me to get her \"a lot\" of those \"Tonics of Blood\"."
 msgstr ""
+"Эммелин попросила меня принести ей \"много\" этих \"Тонизирующее средство "
+"для крови\"."
 
 #: questlist_mt_galmore.json:wicked_witch:90
 msgid "Emmeline told me to head east of the witch's house to find the undead that know about the 'Tonic of Blood'."
 msgstr ""
+"Эммелин посоветовала мне отправиться на восток от дома ведьмы, чтобы найти "
+"нежить, которая знает о \"Тонизирующее средство для крови\"."
 
 #: questlist_mt_galmore.json:wicked_witch:95
 msgid "I gave Emmeline 25 of the \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place."
 msgstr ""
+"По просьбе Эммелин я дал ей 25 \"Тонизирующее средство для крови\", после "
+"чего она смогла покинуть это ужасное место."
 
 #: questlist_mt_galmore.json:wicked_witch:96
 msgid "I gave Emmeline 20 of the 25 \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place."
 msgstr ""
+"Из 25 \"Тонизирующее средство для крови\", которые она просила, я дал "
+"Эммелин 20, после чего она смогла покинуть это ужасное место."
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
 msgid "Bloskelt + Roskelt"
@@ -72286,4 +72609,3 @@ msgstr "Зулленгард"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "Фруктовый сад Дибо"
-
