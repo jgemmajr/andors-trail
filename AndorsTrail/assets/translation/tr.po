@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-10-03 00:34+0000\n"
-"Last-Translator: Erdem Kocamış <32erdemkocamis43@gmail.com>\n"
+"PO-Revision-Date: 2024-02-19 09:10+0000\n"
+"Last-Translator: Bugra Bezgin <bugrabezgin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.4\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -392,7 +392,7 @@ msgstr "Uyurgezerlik"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Ah iyi, uyanmışsın."
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
@@ -400,11 +400,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "kuduz"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "kötü tat"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -9311,31 +9311,35 @@ msgstr "Ah, sen."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10
 msgid "Hey, psst."
-msgstr ""
+msgstr "Hey, pşt."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr ""
+msgstr "Eğer bir şey söylemek istiyorsan, yüksek sesle konuş."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
 msgstr ""
+"Harlenn bilge ve güçlü bir liderdir, ancak ne yazık ki Guthbered kadar "
+"inatçıdır."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12
 msgid "Thank you for not inciting the argument any further. Maybe someday there will be something like peace again."
 msgstr ""
+"Daha fazla tartışma çıkarmadığın için teşekkür ederim. Belki bir gün tekrar "
+"barış gibi bir şey olur."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12:0
 msgid "I wish it for you. Can I go in here?"
-msgstr ""
+msgstr "Sana bunu dilerim. Buraya girebilir miyim?"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "Tamam, sana kötülük yapmayacağıma güvenebilirsin."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[Yalan} tabi."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -17737,18 +17741,18 @@ msgstr "İdölü yatağın altına saklarsın."
 #: conversationlist_remgard_idolsigns.json:emerei_bed_1
 #: conversationlist_remgard_idolsigns.json:carthe_bed_1
 msgid "You see a bed and nightstand."
-msgstr ""
+msgstr "Bir yatak ve komodin görüyorsun."
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_2
 #: conversationlist_remgard_idolsigns.json:arnal_bed_2
 #: conversationlist_remgard_idolsigns.json:emerei_bed_2
 #: conversationlist_remgard_idolsigns.json:carthe_bed_2
 msgid "You see a bed and nightstand. The idol is still where you left it."
-msgstr ""
+msgstr "Bir yatak ve komodin görüyorsun. İdolü bıraktığın yerde hala duruyor."
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_3
 msgid "You see a bed and nightstand. This must be Larni's bed."
-msgstr ""
+msgstr "Bir yatak ve komodin görüyorsunuz. Burası Larni'nin yatağı olmalı."
 
 #: conversationlist_remgard_idolsigns.json:arnal_bed_3
 msgid "You see a bed and nightstand. This must be Arnal's bed."
@@ -17756,11 +17760,11 @@ msgstr "Bir yatak ve komidin görüyorsun. Bu Arnal'ın yatağı olmalı."
 
 #: conversationlist_remgard_idolsigns.json:emerei_bed_3
 msgid "You see a bed and nightstand. This must be Emerei's bed."
-msgstr ""
+msgstr "Bir yatak ve komodin görüyorsun. Bu, muhtemelen Emerei'nin yatağıdır."
 
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3
 msgid "You see a bed and nightstand. This must be Carthe's bed."
-msgstr ""
+msgstr "Bir yatak ve komodin görüyorsun. Bu, muhtemelen Carthe'nin yatağıdır."
 
 #: conversationlist_signs_v0611.json:remgard_tavern_room
 msgid "You are not allowed to enter this room until you have rented it."
@@ -17802,59 +17806,68 @@ msgstr "Çalılık geçmen için çok sıkı."
 
 #: conversationlist_signs_v0611.json:sign_wild16_r
 msgid "You squeeze through the narrow opening of the cave."
-msgstr ""
+msgstr "Mağaranın dar açıklığından sıkışarak geçiyorsun."
 
 #: conversationlist_signs_v0611.json:sign_wild16_1
 msgid "You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its hints of mold and old parchment, fills your nose."
 msgstr ""
+"Mağaranın dar açıklığından sıkışarak geçiyorsun. Nemli mağara içinde ağır "
+"asılı duran bayat havayla, küf ve eski kâğıdın izleri burun dolusu sizi "
+"dolduruyor."
 
 #: conversationlist_signs_v0611.json:sign_wild16_2
 msgid "This must be the cave that the map leads to. This must be Vacor's old hideout."
 msgstr ""
+"Bu, haritanın sizi yönlendirdiği mağara olmalı. Bu, Vacor'un eski saklanma "
+"yeridir."
 
 #: conversationlist_kaverin.json:kaverin_1
 msgid "From the looks of you, you don't seem to be from around here. That makes two of us then. He he."
 msgstr ""
+"Görünüşe göre, buradan olmadığınızı söyleyebilirim. O zaman ikimiz de aynı "
+"durumdayız demektir. Hehe."
 
 #: conversationlist_kaverin.json:kaverin_1:0
 msgid "I'm from the village of Crossglen, far to the west of here."
-msgstr ""
+msgstr "Ben Crossglen köyünden geliyorum, buradan batıda uzakta."
 
 #: conversationlist_kaverin.json:kaverin_2
 msgid "Crossglen! I know that place, it's not far from Fallhaven, right?"
-msgstr ""
+msgstr "Evet, Crossglen! O yeri biliyorum, Fallhaven'a pek uzak değil mi?"
 
 #: conversationlist_kaverin.json:kaverin_3
 msgid "I have an old ... shall we say ... friend ... from Fallhaven. Goes by the name of Unzel."
-msgstr ""
+msgstr "Eski bir... diyelim ki... arkadaşım var... Fallhaven'dan. Unzel adında."
 
 #: conversationlist_kaverin.json:kaverin_4
 msgid "You wouldn't by any chance have met him, would you?"
-msgstr ""
+msgstr "Onunla tanışma şansınız oldu mu?"
 
 #: conversationlist_kaverin.json:kaverin_4:0
 msgid "No, I've never met him."
-msgstr ""
+msgstr "Hayır, onunla hiç tanışmadım."
 
 #: conversationlist_kaverin.json:kaverin_4:1
 msgid "Yes, I've met that fool. He was an easy kill."
-msgstr ""
+msgstr "Evet, o aptalı tanıdım. Onu öldürmek kolay oldu."
 
 #: conversationlist_kaverin.json:kaverin_4:2
 msgid "Yes, I have met him. I still have some of his blood on my boots."
-msgstr ""
+msgstr "Evet, onunla tanıştım. Hâlâ botlarımda biraz kanı var."
 
 #: conversationlist_kaverin.json:kaverin_4:3
 msgid "Yes, I even helped him defeat a scoundrel named Vacor."
-msgstr ""
+msgstr "Evet, hatta ona Vacor adında bir haydutu yenmesinde yardım ettim."
 
 #: conversationlist_kaverin.json:kaverin_5
 msgid "I guess he keeps to himself. I sure hope he is OK. If you ever run into him, please say hi to him for me."
 msgstr ""
+"Sanırım kendi haline bırakılmayı tercih ediyor. Umarım iyidir. Eğer bir gün "
+"karşılaşırsan, lütfen ona benim adıma selam söyle."
 
 #: conversationlist_kaverin.json:kaverin_5:0
 msgid "I'm trying to find my brother Andor, have you seen him?"
-msgstr ""
+msgstr "Andor adlı kardeşimi arıyorum, onu gördün mü?"
 
 #: conversationlist_kaverin.json:kaverin_5b
 msgid "Andor? No, I'm sorry. I've never heard of him."
@@ -17863,6 +17876,8 @@ msgstr "Andor? Hayır, üzgünüm. Onu hiç duymadım."
 #: conversationlist_kaverin.json:kaverin_6
 msgid "You?! But ... but ... this is terrible! I bet you are one of the goons of that Vacor fellow."
 msgstr ""
+"Sen mi?! Ama... ama... bu korkunç! Bahse girerim ki sen, Vacorun çetesinden "
+"birisin."
 
 #: conversationlist_kaverin.json:kaverin_fight_1
 msgid "Oh yes, I can feel it. You work for Vacor! He must be stopped!"
@@ -17894,11 +17909,13 @@ msgstr "Hayır, siz insanlara yardım etmekten bıktım."
 
 #: conversationlist_kaverin.json:kaverin_decline1
 msgid "That is unfortunate, you seemed like such a bright boy too."
-msgstr ""
+msgstr "Bu talihsiz, sen öyle parlak bir çocuk gibi görünüyordun."
 
 #: conversationlist_kaverin.json:kaverin_decline2
 msgid "The friend from Fallhaven returns. Please leave me be, I have things to do."
 msgstr ""
+"Fallhaven'dan gelen arkadaş geri döndü. Lütfen beni rahat bırak, yapacak "
+"işlerim var."
 
 #: conversationlist_kaverin.json:kaverin_accept1
 msgid "Good, that's exactly what I wanted to hear."
@@ -17907,6 +17924,8 @@ msgstr "Güzel, bu tam da benim duymak istediğim şeydi."
 #: conversationlist_kaverin.json:kaverin_accept2
 msgid "Make sure this doesn't fall into the hands of Feygard, or her loyalists."
 msgstr ""
+"Bu, Feygard'ın veya onun sadık taraftarlarının eline geçmemesi için dikkatli "
+"olunması gereken bir şeydir."
 
 #: conversationlist_kaverin.json:kaverin_accept3
 msgid "[He gives you a sealed message]"
@@ -17918,173 +17937,186 @@ msgstr "Bana güvenebilirsin, Kaverin."
 
 #: conversationlist_kaverin.json:kaverin_accept4
 msgid "Good. Now go deliver that message to Unzel."
-msgstr ""
+msgstr "İyi. Şimdi gidin ve o mesajı Unzel'e iletil."
 
 #: conversationlist_kaverin.json:kaverin_return1
 msgid "It's good to see you again. Have you delivered my message to Unzel?"
-msgstr ""
+msgstr "Seni tekrar görmek güzel. Mesajımı Unzel'e ilettin mi?"
 
 #: conversationlist_kaverin.json:kaverin_return1:0
 msgid "Yes, the message is delivered."
-msgstr ""
+msgstr "Evet, mesaj iletilmiştir."
 
 #: conversationlist_kaverin.json:kaverin_return2
 msgid "Please don't take too long. Walk with the Shadow, my friend."
-msgstr ""
+msgstr "Lütfen fazla vakit geçirme. Gölgelerle yürü, dostum."
 
 #: conversationlist_kaverin.json:kaverin_done1
 msgid "Thank you, my friend. May you walk in the glow of the Shadow."
-msgstr ""
+msgstr "Teşekkür ederim dostum. Gölgenin gölgesinde yürüyebilirsiniz."
 
 #: conversationlist_kaverin.json:kaverin_done2
 msgid "Take this map as compensation for a job well done."
-msgstr ""
+msgstr "Bu haritayı iyi bir iş için tazminat olarak alın."
 
 #: conversationlist_kaverin.json:kaverin_done3
 msgid "We've discovered one of Vacor's hideouts, far to the south."
-msgstr ""
+msgstr "Vacor'un saklananlarından birini, güneye kadar keşfettik."
 
 #: conversationlist_kaverin.json:kaverin_done4
 msgid "Since you helped us stop him, it's fitting that you have this."
-msgstr ""
+msgstr "Onu durdurmamıza yardımcı olduğunuz için, buna sahip olduğunuz uygun."
 
 #: conversationlist_kaverin.json:kaverin_done5
 msgid "According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take whatever is left in there."
 msgstr ""
+"Haritaya göre, saklanma yeri Flagstone'un eski hapishanesinin kuzeybatısında "
+"olmalı. İçeride kalan her şeyi özgürce alabilirsin."
 
 #: conversationlist_kaverin.json:kaverin_done6
 msgid "Walk with the Shadow, my friend."
-msgstr ""
+msgstr "Gölge ile yürü dostum."
 
 #: conversationlist_kaverin.json:kaverin_done_ret
 msgid "Hello again. It's comforting to know that Unzel is still alive, and that you delivered my message to him."
 msgstr ""
+"Tekrar merhaba. Unzel'in hâlâ yaşıyor olması ve mesajımı ona ilettiğini "
+"bilmek içimi rahatlatıyor."
 
 #: conversationlist_vacor2.json:vacor_msg1
 msgid "What's that in your hands?! ... I recognize that seal!"
-msgstr ""
+msgstr "Ellerinde ne var?!... O mührü tanıyorum!"
 
 #: conversationlist_vacor2.json:vacor_msg1:0
 msgid "You should recognize it, I found this on one of Unzel's associates in Remgard."
 msgstr ""
+"Tanımalısın, bunu Remgard'daki Unzel'in ortaklarından birinin üzerinde "
+"buldum."
 
 #: conversationlist_vacor2.json:vacor_msg1:1
 msgid "What? ... Oh, this?"
-msgstr ""
+msgstr "Ne? ... Oh, bu?"
 
 #: conversationlist_vacor2.json:vacor_msg_a1
 msgid "Surely, he didn't just give it to you!"
-msgstr ""
+msgstr "Elbette, sadece sana vermedi!"
 
 #: conversationlist_vacor2.json:vacor_msg_a1:0
 msgid "He was asking too many questions. He needed to be silenced."
-msgstr ""
+msgstr "Çok fazla soru soruyordu. Sessiz olması gerekiyordu."
 
 #: conversationlist_vacor2.json:vacor_msg_a2
 msgid "So, you killed him? Right?!"
-msgstr ""
+msgstr "Peki onu öldürdün mi? Doğru mu!"
 
 #: conversationlist_vacor2.json:vacor_msg_a2:0
 #: conversationlist_vacor2.json:vacor_msg_b2:0
 msgid "Kaverin is dead. His blood is still on my boots."
-msgstr ""
+msgstr "Kaverin öldü. Onun kanı hala botlarım üzerinde."
 
 #: conversationlist_vacor2.json:vacor_msg_b1
 msgid "How did you get your hands on that document?!"
-msgstr ""
+msgstr "O belgeyi nasıl ele geçirdin?!"
 
 #: conversationlist_vacor2.json:vacor_msg_b1:0
 msgid "A man in Remgard, by the name of Kaverin, was asking about Unzel..."
-msgstr ""
+msgstr "Remgard'da bir adam, adı Kaverin, Unzel hakkında soru soruyordu..."
 
 #: conversationlist_vacor2.json:vacor_msg_b2
 msgid "What happened boy?!"
-msgstr ""
+msgstr "Ne oldu çocuk?!"
 
 #: conversationlist_vacor2.json:vacor_msg_3
 msgid "Good, maybe now I can work on my Rift Spell in peace..."
-msgstr ""
+msgstr "İyi, belki şimdi Huzursuzluk Büyüsü üzerinde çalışabilirim..."
 
 #: conversationlist_vacor2.json:vacor_msg_4
 msgid "I must have that document!"
-msgstr ""
+msgstr "O belgeyi almalıyım!"
 
 #: conversationlist_vacor2.json:vacor_msg_5
 msgid "I must know what they are planning!"
-msgstr ""
+msgstr "Ne planladıklarını bilmeliyim!"
 
 #: conversationlist_vacor2.json:vacor_msg_5:0
 msgid "Here, have the message."
-msgstr ""
+msgstr "İşte, mesajı al."
 
 #: conversationlist_vacor2.json:vacor_msg_5:1
 #: conversationlist_gison.json:gison_p1_40_2:1
 msgid "What's in it for me?"
-msgstr ""
+msgstr "Benim için ne var?"
 
 #: conversationlist_vacor2.json:vacor_msg_6
 msgid "I have a cache of potions hidden, far to the southwest."
-msgstr ""
+msgstr "Uzaklarda güneybatıda gizli bir şekilde sakladığım bir şişe öbeği var."
 
 #: conversationlist_vacor2.json:vacor_msg_6:0
 msgid "Excellent, I could always use more supplies."
-msgstr ""
+msgstr "Mükemmel, her zaman daha fazla malzemeye ihtiyaç duyabilirim."
 
 #: conversationlist_vacor2.json:vacor_msg_7
 msgid "Good. Now give me the message."
-msgstr ""
+msgstr "İyi. Şimdi bana mesajı ver."
 
 #: conversationlist_vacor2.json:vacor_msg_7:0
 msgid "Here is the message, Vacor."
-msgstr ""
+msgstr "İşte mesaj, Vacor."
 
 #: conversationlist_vacor2.json:vacor_msg_8
 msgid "Here, take this map as compensation for your troubles."
-msgstr ""
+msgstr "İşte, zahmetleriniz için tazminat olarak bu haritayı alın."
 
 #: conversationlist_vacor2.json:vacor_msg_9
 msgid "It will lead you far to the southwest, to one of my secret retreats ... where a cache of potions is hidden."
 msgstr ""
+"Seni güneybatıya doğru uzaklara götürecek, benim gizli sığınaklarımdan "
+"birine... orada saklanmış bir iksir öbeği bulunuyor."
 
 #: conversationlist_vacor2.json:vacor_msg_10
 msgid "[The map shows a location to the northwest of the former prison of Flagstone]"
 msgstr ""
+"[Harita, Flagstone'un eski hapishanesinin kuzeybatısında bir konumu "
+"gösteriyor]"
 
 #: conversationlist_vacor2.json:vacor_msg_11
 msgid "Now, let's see here."
-msgstr ""
+msgstr "Şimdi, bakalım buraya."
 
 #: conversationlist_vacor2.json:vacor_msg_12
 msgid "[Vacor opens the sealed message and starts reading]"
-msgstr ""
+msgstr "[Vacor mühürlü mesajı açar ve okumaya başlar.]"
 
 #: conversationlist_vacor2.json:vacor_msg_13
 msgid "Yes ... hmm ... really?! *mumbles* ...yes, indeed..."
-msgstr ""
+msgstr "Evet... hmm... gerçekten mi?! *mırıldanır* ...evet, gerçekten..."
 
 #: conversationlist_vacor2.json:vacor_msg_14
 msgid "Thanks kid, you have helped me more than you can possibly understand."
 msgstr ""
+"Teşekkürler çocuk, muhtemelen anlayabileceğinden daha fazla yardımcı oldun."
 
 #: conversationlist_vacor2.json:vacor_msg_15
 msgid "HA HA HA!!! THE POWER WILL SOON BE MINE!"
-msgstr ""
+msgstr "HA HA HA!!! GÜÇ YAKINDA BENİM OLACAK!"
 
 #: conversationlist_vacor2.json:vacor_msg_15:0
 msgid "Excellent! The Shadow must be stopped!"
-msgstr ""
+msgstr "Mükemmel! Gölge durdurulmalı!"
 
 #: conversationlist_vacor2.json:vacor_msg_15:1
 msgid "I just wanted a reward... Weirdo."
-msgstr ""
+msgstr "Sadece bir ödül istemiştim... Tuhaf."
 
 #: conversationlist_vacor2.json:vacor_msg_16
 msgid "Thanks for giving me that message, but now please leave me. I have more important things to do than to talk to you."
 msgstr ""
+"Mesajı verdiğin için teşekkür ederim, ama şimdi lütfen beni bırak. Seninle "
+"konuşmaktan daha önemli işlerim var."
 
 #: conversationlist_unzel2.json:unzel_msg1
 msgid "Kaverin, my old friend! It's good to hear that he is still alive. What is the message?"
-msgstr ""
+msgstr "Kaverin, eski dostum! Hala hayatta olduğunu duymak güzel. Mesaj nedir?"
 
 #: conversationlist_unzel2.json:unzel_msg1:0
 #: conversationlist_fungi_panic.json:zuul_khan_115_20:0
@@ -18098,18 +18130,20 @@ msgid ""
 "Hmm, yes... Let's see...\n"
 "[Unzel opens the sealed message and reads it]"
 msgstr ""
+"Hmm, evet... Bakalım...\n"
+"[Unzel mühürlenmiş mesajı açar ve okur]"
 
 #: conversationlist_unzel2.json:unzel_msg3
 msgid "Yes, this makes sense with what I have seen."
-msgstr ""
+msgstr "Evet, gördüklerimle uyumlu."
 
 #: conversationlist_unzel2.json:unzel_msg4
 msgid "Thank you for bringing it to me."
-msgstr ""
+msgstr "Bunu bana getirdiğin için teşekkür ederim."
 
 #: conversationlist_unzel2.json:unzel_msg5
 msgid "Your help could prove more valuable than you might realize."
-msgstr ""
+msgstr "Yardımın, farkında olabileceğinden daha değerli olabilir."
 
 #: conversationlist_unzel2.json:unzel_msg6
 msgid "Say hello to my old friend Kaverin the next time you see him, will you?"
@@ -62163,7 +62197,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr "Sorun çıkaran"
+msgstr "Troublemaker"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -71439,4 +71473,3 @@ msgstr "Sullengard"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "Deebo'nun Bostanı"
-

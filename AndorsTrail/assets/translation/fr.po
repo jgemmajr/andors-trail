@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-11-06 09:36+0000\n"
-"Last-Translator: Lacrom <englishmaninnewyork98@gmail.com>\n"
+"PO-Revision-Date: 2024-01-15 21:06+0000\n"
+"Last-Translator: clementfourmis <clement.fourmis@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fr/>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -380,20 +380,23 @@ msgid "Sleepwalking"
 msgstr "Somnambulisme"
 
 #: actorconditions_mt_galmore.json:loyalist
+#, fuzzy
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Fidèle de Feygard"
 
 #: actorconditions_mt_galmore.json:rootsnare
+#, fuzzy
 msgid "Rootsnare"
-msgstr ""
+msgstr "Racines Piégées"
 
 #: actorconditions_mt_galmore.json:rabies
+#, fuzzy
 msgid "Rabies"
-msgstr ""
+msgstr "Rage"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Mauvais goût"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -557,7 +560,9 @@ msgstr "De rien."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "J'ai vu quelques rats dans le jardin tout à l'heure. Pourrais-tu nous débarrasser de tous ceux que tu trouves."
+msgstr ""
+"J'ai vu quelques rats dans le jardin tout à l'heure. Pourrais-tu nous "
+"débarrasser de tous ceux que tu trouves ?"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -749,16 +754,17 @@ msgid "Thanks, bye."
 msgstr "Merci, au revoir."
 
 #: conversationlist_crossglen.json:drunk1
+#, fuzzy
 msgid ""
 "Drink drink drink, drink some more.\n"
 "Drink drink drink 'til you're on the floor.\n"
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
-"Buvons, buvons, buvons, buvons encore !\n"
-"Buvons, buvons, buvons, jusqu'à être ivres morts !\n"
+"Buvons, buvons, buvons, buvons encore !\n"
+"Buvons, buvons, buvons, jusqu'à être ivres morts !\n"
 "\n"
-"Hé gamin, tu veux te joindre à nous ?"
+"Hé gamin, tu veux te joindre à nous ?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -1692,6 +1698,7 @@ msgid "Nope. Haven't seen him."
 msgstr "Non, je ne l'ai pas vu."
 
 #: conversationlist_fallhaven.json:fallhaven_guard
+#, fuzzy
 msgid "Keep out of trouble."
 msgstr "Circulez."
 
@@ -3948,13 +3955,15 @@ msgstr ""
 "Sud : Stoutford"
 
 #: conversationlist_signs_pre067.json:sign_wild7
+#, fuzzy
 msgid ""
 "West: Stoutford\n"
 "North: Fallhaven\n"
 "South: Sutdover River and Sullengard"
 msgstr ""
-"[OUTDATED]Ouest : Stoutford\n"
-"Nord : Fallhaven"
+"Ouest : Stoutford\n"
+"Nord : Fallhaven\n"
+"Sud : La rivière Studover et Sullendard"
 
 #: conversationlist_signs_pre067.json:sign_wild10
 msgid ""
@@ -4537,7 +4546,7 @@ msgstr "[Mentir] Non. J'y suis allé, mais j'ai entendu le directeur dire que ce
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden
 msgid "State your business."
-msgstr "Circulez."
+msgstr "Occupez-vous de vos affaires."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden:0
 msgid "Who is that prisoner?"
@@ -6594,8 +6603,9 @@ msgstr "*sanglot* Ombre aide-moi."
 
 #: conversationlist_wrye.json:wrye_story_11:0
 #: conversationlist_tiqui.json:tiqui11:1
+#, fuzzy
 msgid "What can I do to help?"
-msgstr "Que puis-je faire pour aider ?"
+msgstr "Que puis-je faire pour aider ?"
 
 #: conversationlist_wrye.json:wrye_story_11:1
 msgid "That sounds awful. I am sure you are just imagining things."
@@ -7350,6 +7360,7 @@ msgid "Anyway, we are right at the settlement now. In fact, our Blackwater mount
 msgstr "Quoi qu'il en soit, nous sommes arrivés à la colonie maintenant. En fait, notre colonie du mont Encreau est juste en bas de ces escaliers."
 
 #: conversationlist_prim_arghest.json:arghest_1:2
+#, fuzzy
 msgid "Did you rent the back room at the inn in Prim?"
 msgstr "Avez-vous loué l'arrière-salle de l'auberge à Prim ?"
 
@@ -9299,32 +9310,41 @@ msgid "Oh, it is you."
 msgstr "Oh, c'est vous."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10
+#, fuzzy
 msgid "Hey, psst."
-msgstr ""
+msgstr "Hé, psst."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr ""
+msgstr "Si vous souhaitez dire quelque chose, parlez haut et fort."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
+#, fuzzy
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
 msgstr ""
+"Harlenn est un chef sage et fort, mais malheureusement aussi têtu que "
+"Gythbered."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12
+#, fuzzy
 msgid "Thank you for not inciting the argument any further. Maybe someday there will be something like peace again."
 msgstr ""
+"Merci de ne pas pousser plus loin la querelle. Peut-être qu'un jour la paix "
+"reviendra."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_12:0
 msgid "I wish it for you. Can I go in here?"
-msgstr ""
+msgstr "Je vous le souhaite. Puis-je entrer à l'intérieur ?"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
+#, fuzzy
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "Allez y. Je compte sur toi pour ne pas faire de bêtises."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
+#, fuzzy
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[Mensonge] Bien sûr."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -14128,6 +14148,7 @@ msgid "No no, we did not discuss any reward. But there might be one for you if y
 msgstr "Non, non, nous n'avons parlé d'aucune récompense. Mais il pourrait y en avoir une si tu es disposé à nous aider plus."
 
 #: conversationlist_ulirfendor.json:ulirfendor_1
+#, fuzzy
 msgid "No! Stay away! You shall not defeat me!"
 msgstr "Non ! Reculez ! Vous ne me vaincrez pas !"
 
@@ -15227,6 +15248,7 @@ msgid "Here you go, one empty vial."
 msgstr "Tenez, une fiole vide."
 
 #: conversationlist_talion_2.json:talion_cure_1
+#, fuzzy
 msgid "That's all I need to cure you. Good work."
 msgstr "C'est tout ce dont j'ai besoin pour te guérir. Bon travail."
 
@@ -29238,8 +29260,9 @@ msgstr "C'est bon de vous revoir heureuse."
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10:3
 #: conversationlist_stoutford_combined.json:blornvale_shop1_8:3
 #: conversationlist_stoutford_combined.json:blornvale_shop2:3
+#, fuzzy
 msgid "Do you happen to sell empty bottles?"
-msgstr ""
+msgstr "Vous arrive-t-il de vendre des bouteilles vides ?"
 
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2
 msgid "Did you kill this brute behind my house?"
@@ -31327,12 +31350,16 @@ msgid "Please don't disturb. We have to practice."
 msgstr "Ne nous dérange pas s'il te plait. Nous devons répéter."
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b
+#, fuzzy
 msgid "No, unfortunately not. Maybe try my colleague in Fallhaven?"
 msgstr ""
+"Non, malheureusement non. Tu peux peut-être te renseigner auprès de mes "
+"collègues de Fallhaven ?"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
+#, fuzzy
 msgid "Sigh - well, thanks."
-msgstr ""
+msgstr "Soupire - Et bien, merci."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32029,31 +32056,42 @@ msgid "I have to ...(you look at Ambelie) find a better place for her."
 msgstr "Je dois... (tu regardes Ambelie) trouver un meilleur endroit pour elle."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:4
+#, fuzzy
 msgid "[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild."
-msgstr "[OUTDATED]Puis-je jeter un oeil aux marchandises de la Guilde ?"
+msgstr ""
+"[Mentir] Je viens juste de récuperer 10000 pièces d'or de ma dernière "
+"mission et on m'a dit de les donné à la guilde."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
 msgid "I have found Defy and his men."
-msgstr ""
+msgstr "J'ai trouvé Defy et ses hommes."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:6
+#, fuzzy
 msgid "I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?"
 msgstr ""
+"Je suis confu. J'avais donné à Defy la fausse clé que vous m'aviez donné, "
+"que suis-je supposé faire maintenant ?"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:8
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:10
+#, fuzzy
 msgid "[Lie] I have deposited the 10000 gold. Here is your key back, as promised."
 msgstr ""
+"[Mentir] J'ai déposé 10000 pièces d'or. Je vous rends votre clé, comme "
+"promis."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:9
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10:0
+#, fuzzy
 msgid "I encountered Defy and his men and was forced to kill them!"
-msgstr ""
+msgstr "J'ai rencontré Defy et ses hommes, j'ai été obligé de les tuer !"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:11
+#, fuzzy
 msgid "Can I take a look at the Guild's current supplies?"
-msgstr ""
+msgstr "Puis jeter un œil aux réserves de la guilde ?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10
 msgid "Hello, friend! Thank you for all you've done for me."
@@ -33768,8 +33806,9 @@ msgid "That's a shame. Find more time for my skills then."
 msgstr "C'est dommage. Trouve plus de temps pour mes compétences alors."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1a
+#, fuzzy
 msgid "[Here, the story continues]"
-msgstr ""
+msgstr "[Et bien, l'aventure continue]"
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4c
 msgid "Wha... what are you referring to?"
@@ -33940,8 +33979,11 @@ msgid "I'll do that."
 msgstr "Je ferai ça."
 
 #: conversationlist_omicronrg9.json:umar_guild05_1a
+#, fuzzy
 msgid "You are really very hardworking. I can't find new work for you fast enough. You're free for now."
-msgstr "[OUTDATED][Ici, l'histoire continue]"
+msgstr ""
+"Tu travailles vraiment dur. Je ne trouve pas de nouveau travaillé adapté. Tu "
+"es libre maintenant."
 
 #: conversationlist_omicronrg9.json:umar_guild04_1
 msgid "Yes, I do have a new task for you. So, listen to me carefully."
@@ -44019,8 +44061,9 @@ msgid "I have a letter for you."
 msgstr "J'ai une lettre pour vous."
 
 #: conversationlist_gorwath.json:arensia_1:2
+#, fuzzy
 msgid "Hello. I am wondering if you could help me?"
-msgstr ""
+msgstr "Bonjour, je me demandais si vous pouviez m'aider ?"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -48145,8 +48188,10 @@ msgid "Tsch, you cannot lose! I'm still recovering."
 msgstr "Tzz, tu ne peux pas perdre ! Je suis encore en convalescence."
 
 #: conversationlist_omi2.json:ortholion_9
+#, fuzzy
 msgid "*looks at you* Humilliating. How did I...? How did that guy...?"
-msgstr "*vous regardant* C'est humiliant. Comment ce type..."
+msgstr ""
+"*vous regardant* C'est humiliant. Comment j'ai... ? Comment ce type... ?"
 
 #: conversationlist_omi2.json:ortholion_9:0
 msgid "Ehrenfest?"
@@ -48185,11 +48230,16 @@ msgid "Are you sure you don't need an escort?"
 msgstr "Êtes-vous sûr de ne pas avoir besoin d'une escorte ?"
 
 #: conversationlist_omi2.json:ortholion_12
+#, fuzzy
 msgid ""
 "A knight's only trustworthy escorts are his sword and his horse. \n"
 "\n"
 "*gets up* I'm pretty sure you'll find the way out."
-msgstr "[REVIEW]Les seules escortes de confiance d'un chevalier sont son épée et son cheval. Je suis sûr que vous trouverez la sortie."
+msgstr ""
+"Les seules escortes de confiance d'un chevalier sont son épée et son cheval. "
+"\n"
+"\n"
+"*Se lève* Je suis sûr que vous trouverez la sortie."
 
 #: conversationlist_omi2.json:ortholion_12:1
 msgid "Shad... Yeah, let's meet later."
@@ -48567,16 +48617,23 @@ msgid "You are wrong. I'm not here, just an illusion."
 msgstr "Vous avez tort. Je ne suis pas là, ce n'est qu'une illusion."
 
 #: conversationlist_omi2.json:bwm_wellspring_1a
+#, fuzzy
 msgid "An empty flask would be also OK. Just an empty vial would be a little bit to small."
 msgstr ""
+"Une bouteille vide ferait aussi l'affaire. Une fiole vide serait un peu trop "
+"petit."
 
 #: conversationlist_omi2.json:bwm_wellspring_1b
+#, fuzzy
 msgid "A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water."
 msgstr ""
+"Une grande bouteille serait trop lourde une fois remplit, et les bouteilles "
+"de soupe ne conviendraient pas à cette merveilleuse eau fraîche."
 
 #: conversationlist_omi2.json:bwm_wellspring_1c
+#, fuzzy
 msgid "And no: you can't just empty a bottle and use it."
-msgstr ""
+msgstr "Et non : vous ne pouvez pas vider une bouteille et l'utiliser."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10
 msgid "Ah! You have finally returned, my new worker."
@@ -50331,8 +50388,11 @@ msgstr ""
 "De plus, je peux maintenant faire du commerce avec vous si vous le souhaitez."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0
+#, fuzzy
 msgid "Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?"
-msgstr "[Sous vos pieds, vous remarquez un trou fraîchement creusé. Il ne semble pas avoir été creusé par un animal. Vous examinez le trou ?]"
+msgstr ""
+"Sous vos pieds, vous remarquez un trou fraîchement creusé. Il ne semble pas "
+"avoir été creusé par un animal. Vous examinez le trou ?"
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0:0
 msgid "Yes. Let's play in the dirt like Andor and I did when we were younger."
@@ -50355,12 +50415,16 @@ msgid "No way! I've put my hands in crates and cracks in walls before and have b
 msgstr "Pas question ! J'ai déjà mis mes mains dans des caisses et des fissures dans les murs et j'ai été blessé en le faisant."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_20
+#, fuzzy
 msgid "You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory."
-msgstr "[Vous avez réussi à retirer un sac extrêmement lourd. Ce doit être l'inventaire volé par Zaccheria.]"
+msgstr ""
+"Vous avez réussi à retirer un sac extrêmement lourd. Ce doit être "
+"l'inventaire volé par Zaccheria."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_taken
+#, fuzzy
 msgid "You have already examined this hole and looted all of its contents."
-msgstr "[Vous avez déjà examiné ce trou et pillé tout son contenu.]"
+msgstr "Vous avez déjà examiné ce trou et pillé tout son contenu."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_taken:0
 msgid "Oh, yeah. What a dummy I am."
@@ -56074,8 +56138,9 @@ msgid "Clevred tells and tells."
 msgstr "Clevred raconte et raconte."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_70
+#, fuzzy
 msgid "Hold on!"
-msgstr "Attendez!"
+msgstr "Attends !"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_71
 msgid "I'm afraid I can't help you much there. I'm more familiar with the events out here on the mountain."
@@ -56170,8 +56235,9 @@ msgid "Seize the day."
 msgstr "Profites de l'instant."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_190:0
+#, fuzzy
 msgid "Enough! What. do. you. have. for. sale?"
-msgstr "Assez!! Qu'avez. Vous. À. Vendre?"
+msgstr "Assez ! Qu'avez. Vous. À. Vendre ?"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_190:1
 msgid "I give up. Come, Clevred, let us leave."
@@ -56194,8 +56260,9 @@ msgid "Well, I see you've learned a lot by searching the rat kingdom. But you're
 msgstr "Bien, je vois que tu en as appris beaucoup en explorant le royaume des rats. Mais quelque chose t'échappe encore..."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_210:1
+#, fuzzy
 msgid "Do you mean wisdom?"
-msgstr "Insinuez-vous la sagesse?"
+msgstr "Insinuez-vous la sagesse ?"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_210:2
 msgid "Yes, I lack patience. The patience to keep listening to your babble."
@@ -56203,7 +56270,7 @@ msgstr "Oui, je manque de patience. La patience de continuer à t'écouter jaser
 
 #: conversationlist_ratdom_npc.json:whootibarfag_212
 msgid "Wisdom? No, hahaha!"
-msgstr "La sagesse ? Non, ha ha ha !"
+msgstr "La sagesse ? Non, ha ha ha !"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_214
 msgid "Leave wisdom to the wise. So to me."
@@ -56214,8 +56281,9 @@ msgid "So what am I missing?"
 msgstr "Donc qu'est-ce qui m'échappe ?"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_214:1
+#, fuzzy
 msgid "I will. What do you have for sale?"
-msgstr "Je veux bien. Qu'avez-vous à vendre?"
+msgstr "Je veux bien. Qu'avez-vous à vendre ?"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_214:2
 msgid "As you wish. I leave the wise now. Bye."
@@ -56286,8 +56354,9 @@ msgid "Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces
 msgstr "Voici 10 morceaux de viande que je préfèrerais cuits. Voici 300 pièces d'or."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:3
+#, fuzzy
 msgid "I'm hungry! Here are 20 pieces and 600 gold."
-msgstr "J'ai faim ! Voici 20 morceaux et 600 pièces."
+msgstr "J'ai faim ! Voici 20 morceaux et 600 pièces d'or."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:4
 msgid "Oh, my mistake, I forgot that I have no meat."
@@ -56306,1815 +56375,2607 @@ msgid "Just five? That's no problem. Here's all your cooked meat."
 msgstr "Seulement cinq ? Pas de souci, voila ta viande cuite."
 
 #: conversationlist_ratdom_npc.json:get_ten_cooked_meat
+#, fuzzy
 msgid "10 meat at once? That's no problem. Here's all your cooked meat."
-msgstr "10 morceaux d'un coup ? Pas de souci, voilà ta viande cuite."
+msgstr ""
+"10 morceaux en une seule fois ? Aucun soucis. Voilà toutes tes viandes "
+"cuites."
 
 #: conversationlist_ratdom_npc.json:get_twenty_cooked_meat
+#, fuzzy
 msgid "20 meat at once?! You may even love this stuff more than I do. Here's all your cooked meat."
-msgstr "20 morceaux d'un coup ?! Il se peut que tu aimes encore plus ça que moi. Voilà toute ta viande cuite."
+msgstr ""
+"20 morceaux en une seule fois ?! Tu dois aimer ce truc encore plus ça que "
+"moi. Voilà toute ta viande cuite."
 
 #: conversationlist_ratdom_npc.json:kendelow_meat
 msgid "No, sorry. I can't let you use my kitchen. But..."
-msgstr "Non désolé, je ne peux pas te laisser utiliser ma cuisine. Mais..."
+msgstr "Non, désolé. Je ne peux pas te laisser utiliser ma cuisine. Mais..."
 
 #: conversationlist_mt_galmore.json:galmore_68_blocked_door
+#, fuzzy
 msgid "You try to push the door open, but it's blocked from the inside. Best to try the other door."
 msgstr ""
+"Vous essayer d'ouvrir la porte, mais elle est bloquée depuis l'intérieur. Je "
+"gagnerais à essayer l'autre porte."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
+#, fuzzy
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
 msgstr ""
+"Avec tout l'or que vous nous avez aidez à récupérer, nous avons l'intention "
+"de réparer le pont afin de pouvoir expédier notre bière dans tout l'ouest."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:0
+#, fuzzy
 msgid "\"Bridge\"? What bridge? To the west?"
-msgstr ""
+msgstr "\"Un pont\" ? Quel pont ? Vers l'ouest ?"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:1
+#, fuzzy
 msgid "Oh, that's great news indeed! It's going to make my life easier."
 msgstr ""
+"Oh, mais c'est une merveilleuse nouvelle. Cela va rendre ma vie plus facile."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_10
+#, fuzzy
 msgid "Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now."
 msgstr ""
+"Vous n'êtes pas au courant ? Le pont au dessus de la rivière Sutdover qui "
+"relie Stoutford à ici. Il est endommagé depuis un moment maintenant."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_20
+#, fuzzy
 msgid "It should be ready by the time you get there."
-msgstr ""
+msgstr "Cela devrait être prêt lorsque vous y serez."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5
+#, fuzzy
 msgid "The bridge that crosses over the Sutdover River has been repaired thanks to you."
 msgstr ""
+"Le pont passant au dessus de la rivière Studover a été réparée grâce à vous."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:0
+#, fuzzy
 msgid "Yes. I am aware. In fact, I've already used it."
-msgstr ""
+msgstr "Oui. Je suis au courant. D'ailleurs, je l'ai déjà franchi."
 
 #: conversationlist_mt_galmore.json:sutdover_river_bridge_broken_script
+#, fuzzy
 msgid "You can't continue over the broken boards. It's time to turn around and find another way across."
 msgstr ""
+"Vous ne pouvez pas passer par un pont cassé. Il est temps de faire demi-tour "
+"et trouver un autre passage."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10
+#, fuzzy
 msgid "Hey, kid! Just where do you think you're going?"
-msgstr ""
+msgstr "Salut gamin ! Où crois tu aller ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:0
+#, fuzzy
 msgid "Across the bridge, of course. After all, I can't swim."
-msgstr ""
+msgstr "Je vais passer par le pont bien sûr. Après tout, impossible de nager."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:1
+#, fuzzy
 msgid "Nowhere...I guess."
-msgstr ""
+msgstr "Nulle part... Je suppose."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_20
+#, fuzzy
 msgid "The bridge is broken. You're going nowhere."
-msgstr ""
+msgstr "Le pont est endommagé. Tu n'iras nulle part."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10
+#, fuzzy
 msgid "Let me guess, you're wondering if I know how to cross the river?"
 msgstr ""
+"Laisse moi deviner, tu te demandes si je sais comment passer la rivière ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10:0
+#, fuzzy
 msgid "Well, do you?"
-msgstr ""
+msgstr "Et bien, le sais tu ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed
+#, fuzzy
 msgid "Please move along. There's nothing to see here."
-msgstr ""
+msgstr "S'il vous plaît circulez. Il n'y a rien à voir ici."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
+#, fuzzy
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "Bien madame."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
+#, fuzzy
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
 msgstr ""
+"Et bien, en l'occurence, je le sais. J'ai une planche juste en dessous du "
+"pont que je peux placer au dessus du trou. Mais cela va vous coûter 1000 "
+"pièces d'or."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20:0
+#, fuzzy
 msgid "Wow! All you thieves are alike. Here, take it."
 msgstr ""
+"Et bien ! Vous les voleurs vous êtes bien tous les mêmes ! Tenez, prenez."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_30
+#, fuzzy
 msgid "Great! Now, let me see. Where is that board?"
-msgstr ""
+msgstr "Bien ! Maintenant laisses moi voir. Où est cette planche ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_40
+#, fuzzy
 msgid "Seraphina bends down to look under the bridge."
-msgstr ""
+msgstr "Seraphina se penche pour regarder sous le pont."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50
+#, fuzzy
 msgid "Um, it's not here."
-msgstr ""
+msgstr "Euh, il n'est pas là."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50:0
+#, fuzzy
 msgid "What do you mean \"it's not here\"? Where is it?"
-msgstr ""
+msgstr "Qu'entendez vous par \"il n'est pas là\" ? Où est-il ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60
+#, fuzzy
 msgid "It must have drifted down river. Sorry!"
-msgstr ""
+msgstr "Il a dû dériver en aval de la rivière. Désolé !"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60:0
+#, fuzzy
 msgid "\"Sorry\"? I want my gold back."
-msgstr ""
+msgstr "\"Desolé\" ? Rendez moi mon or."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_70
+#, fuzzy
 msgid "Maybe next time you come by I'll have the board?"
-msgstr ""
+msgstr "Peut-être qu'à vôtre prochain passage j'aurais la planche ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80
 msgid "Why are you looking at me like that?"
-msgstr ""
+msgstr "Pourquoi me regardez-vous ainsi ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80:0
+#, fuzzy
 msgid "I want my gold back. You thief!"
-msgstr ""
+msgstr "Rendez-moi mon or. Voleur !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_grabby_10
+#, fuzzy
 msgid "I'm just the muscle around here. Go talk to Defy."
-msgstr ""
+msgstr "Je ne suis que le gros bras ici. Allez parlez à Defy."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
+#, fuzzy
 msgid "I'm just the...um..."
-msgstr ""
+msgstr "Je suis juste... euh..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10:0
+#, fuzzy
 msgid "brains?"
-msgstr ""
+msgstr "La cervelle ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_20
+#, fuzzy
 msgid "Um, yes. One of those."
-msgstr ""
+msgstr "Euh, oui. C'est ça."
 
 #: conversationlist_mt_galmore.json:aidem_camp_zachlanny_10
 msgid "Are you lost, kid?"
-msgstr ""
+msgstr "Es-tu perdu, gamin ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_10
+#, fuzzy
 msgid "Shh! What was that? Did you guys here that?"
-msgstr ""
+msgstr "Chut ! Qu'est ce que c'était ? Vous avez entendu ça les gars ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_20
+#, fuzzy
 msgid "I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew."
 msgstr ""
+"Je n'ai rien entendu. Tu as besoin de te détendre Greedy. Tiens, prends une "
+"bière de bandit."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_15
+#, fuzzy
 msgid "There it is again! Please tell me that you guys heard that?"
-msgstr ""
+msgstr "Cela a recommencé ! Dites moi que vous l'avez entendu cette fois ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25
+#, fuzzy
 msgid "Greedy! That's enough! Stop it. We are safe here."
-msgstr ""
+msgstr "Greedy ! Cela suffit ! Arrête. Nous sommes en sécurité ici."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25:0
+#, fuzzy
 msgid "Wait a minute, I recognize those guys."
-msgstr ""
+msgstr "Attendez une minute, je reconnais ses types."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_35
+#, fuzzy
 msgid "Ugh. Whatever."
-msgstr ""
+msgstr "Bah. Qu'importe."
 
 #: conversationlist_mt_galmore.json:easedropping_required_key
+#, fuzzy
 msgid "You should get a better understanding of who these men are before you crash the party."
 msgstr ""
+"Vous devriez vous faire une meilleure idée de qui sont ses gens avant de t’"
+"incruster à la fête."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10
+#, fuzzy
 msgid "Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day."
 msgstr ""
+"Regardez ce que nous avons la ! Les cinq hommes les plus recherché de "
+"Sullendard, tous au même endroit. Cela doit être mon jour de chance."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10:0
+#, fuzzy
 msgid "Hello boys!"
-msgstr ""
+msgstr "Salut les gars !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20
+#, fuzzy
 msgid "Oh, it's the child from Crossglen. Umar's little toy."
-msgstr ""
+msgstr "Oh, c'est le gamin de Crossglen. Le petit jouet d'Umar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20:0
+#, fuzzy
 msgid "Watch it, thief!"
-msgstr ""
+msgstr "Prends garde, voleur !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30
+#, fuzzy
 msgid "Why are you yelling from across the woods? Please walk over here and we can talk."
 msgstr ""
+"Pourquoi crier vous à travers la forêt ? S'il vous plait venez ici que nous "
+"puissions converser."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10
+#, fuzzy
 msgid "Oh, how interesting your timing is."
-msgstr ""
+msgstr "Oh, comme votre timing est intéressant."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10:0
+#, fuzzy
 msgid "Really? And why is that?"
-msgstr ""
+msgstr "Vraiment ? Comment cela se fait-il ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20
+#, fuzzy
 msgid "Well, you see, we are in kind of a predicament."
-msgstr ""
+msgstr "Et bien, voyez vous, c'est un peu embarrassant."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20:0
+#, fuzzy
 msgid "Oh, you are feeling guility for what you did to the great people of Sullengard and want to turn yourselves in, but don't want to go to jail?"
 msgstr ""
+"Oh, vous vous sentez coupable pour ce que vous avez fait au bon peuple de "
+"Sullengard et vous souhaitez vous rendre, mais sans finir en prison ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_30
+#, fuzzy
 msgid "Now that's funny. No! Now back to what I was trying to tell you..."
-msgstr ""
+msgstr "C'est amusant. Non ! Revenons-en à ce que j'essayais de te dire..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35
+#, fuzzy
 msgid "We are planning a heist, but we need your \"skills\" to pull it off."
 msgstr ""
+"Nous planifions un cambriolage, mais nous avons besoins de vos \"talents\" "
+"pour réussir."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:0
+#, fuzzy
 msgid "Forget it!"
-msgstr ""
+msgstr "Oubliez-ça !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:1
+#, fuzzy
 msgid "My \"skills\" are not for hire."
-msgstr ""
+msgstr "Mes \"talents\" ne sont pas à louer."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_40
+#, fuzzy
 msgid "Please. Just hear me out."
-msgstr ""
+msgstr "S'il-te-plait. Écoutez-moi."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45
+#, fuzzy
 msgid "We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key."
 msgstr ""
+"Nous connaissons cet immense entrepôt remplit d'or et d'autres trésors, mais "
+"il est bien sécurisé par moult serrures et verrous."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:0
+#, fuzzy
 msgid "OK. You had me at \"treasures\". Please go on."
-msgstr ""
+msgstr "Ok. Vous m'avez eu dès le mot \"trésors\". Je vous en prie, allons-y."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:1
+#, fuzzy
 msgid "And you want me to help you return it to its rightful owners?"
 msgstr ""
+"Et vous souhaitez que je vous aide à le rendre à ses propriétaires légitimes "
+"?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50
+#, fuzzy
 msgid "The problem of needing the key is where your \"skills\" come in."
 msgstr ""
+"Le problème du verrou et de la clé, c'est là qu'entre en jeu tes \"talents\"."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50:0
+#, fuzzy
 msgid "These \"skills\" that you keep mentioning, what are they?"
-msgstr ""
+msgstr "Ses \"talents\" que vous n’arrêtez pas de mentionner, quels sont-ils ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_46
+#, fuzzy
 msgid "[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic..."
 msgstr ""
+"[Rigole à gorge déployée]Gamin, tu es vraiment aussi drôle que ton look, je "
+"te le dis. Bien, revenons-en au sujet..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55
+#, fuzzy
 msgid "I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it."
 msgstr ""
+"J'y arrivais. Si tu veux bien cessez de m'interrompre, je pourrais enfin en "
+"venir au plan et à l'importance de ton rôle."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:0
+#, fuzzy
 msgid "A \"major\" role you said. So what, I get fifty percent of the loot?"
 msgstr ""
+"Un rôle \"important\" vous dites. Donc, je récupère cinquante pour cent du "
+"butin ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:1
+#, fuzzy
 msgid "Oh, sorry. Please continue."
-msgstr ""
+msgstr "Oh, excusez-moi. Continuez s-il-vous plaît."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_56
+#, fuzzy
 msgid "Again with the humor. No, you will not be getting fifty percent. Anyways..."
 msgstr ""
+"Toujours cet humour. Non, tu n'auras pas cinquante pour cent. De toute "
+"façon..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_60
+#, fuzzy
 msgid "Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?"
 msgstr ""
+"Bon, avant d'entre dans les détails. Hé Alaric [le vrai nom du voyageur "
+"perdu], est-ce qu'on fais assez confiance à ce gamin pour lui donner les "
+"détails ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10
+#, fuzzy
 msgid "Well Defy, $playername did let me go after discovering my crime."
 msgstr ""
+"Et bien Defy, $playername m'a laissé filer après avoir découvert mon crime."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10:0
+#, fuzzy
 msgid "[Keep quiet about the facts and agree, for now] That's true."
 msgstr ""
+"[Reste silencieux à propos des faits et acquiesces, pour le moment] C'est "
+"exact."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70
+#, fuzzy
 msgid "That's fair enough. Now let us move on to the details, shall we?"
-msgstr ""
+msgstr "Très bien. Venons-en aux détails, veux tu ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70:0
+#, fuzzy
 msgid "Yes, please. I'm getting bored here."
-msgstr ""
+msgstr "Oui, s-il vous plait. Je commence à me lasser."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75
+#, fuzzy
 msgid "You see, we want to get back some of what is ours. What we helped to accumulate over the years. We want to hit them where it really hurts."
 msgstr ""
+"Tu vois, nous voulons récupérer un peu de ce qui est à nous. Ce qu'on à "
+"aider à accumuler au fil des ans. On veux les taper là où ça fait vraiment "
+"mal."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:0
+#, fuzzy
 msgid "Who's that?"
-msgstr ""
+msgstr "Qui ça ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:1
+#, fuzzy
 msgid "Feygard? Nor City?"
-msgstr ""
+msgstr "Feygard ? La ville de Nor ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:2
+#, fuzzy
 msgid "The Thieves Guild?"
-msgstr ""
+msgstr "La guilde des voleurs ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76
+#, fuzzy
 msgid "Well, yes. But not right now. Those adventures are too big for us right now."
 msgstr ""
+"Et bien, oui. Mais pas maintenant. Pour le moment ses aventures sont trop "
+"grandes pour nous."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a
+#, fuzzy
 msgid "I'm talking about the Thieves Guild."
-msgstr ""
+msgstr "Je parle de la guilde des voleurs."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a:0
+#, fuzzy
 msgid "Why would you want to do that?"
-msgstr ""
+msgstr "Pourquoi voudriez vous faire ça ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_77
+#, fuzzy
 msgid "Exactly!"
-msgstr ""
+msgstr "Exactement !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78
+#, fuzzy
 msgid "Well, for starters, Umar and his sidekick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands."
 msgstr ""
+"Et bien, pour commencer, Umar et son acolyte de frangin nous ont arnaquer "
+"encore et encore. Gardant toutes les richesses pour eux. Et sans parler du "
+"stress émotionnel et des abus qu'ils nous ont fait subir."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78:0
+#, fuzzy
 msgid "Um...what did they do?"
-msgstr ""
+msgstr "Eug... Qu'est ce qu'il vous ont fait ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80
+#, fuzzy
 msgid "You know what I am talking about, don't you?"
-msgstr ""
+msgstr "Tu sais de quoi je parle, n'est-ce pas ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:0
+#, fuzzy
 msgid "I'm not so sure that I do."
-msgstr ""
+msgstr "Je n'en suis pas sûr."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:1
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:0
+#, fuzzy
 msgid "Actually, yeah, kind of. Well, at least that thought has crossed my mind once or twice recently."
 msgstr ""
+"En fait, oui, en quelque sorte. Bref, cette pensée à traversée mon esprit "
+"une ou deux fois récemment."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81
+#, fuzzy
 msgid "Come on, $playername. Open your eyes. Think. Your are just a tool to him. Something for him to use to accomplish whatever his agenda is that day."
 msgstr ""
+"Allez, $playername. Ouvre les yeux. Réfléchis. Tu es juste un pion pour lui. "
+"Quelque chose qu'il utilise pour l'aider quelque soit son intention du jour."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:1
+#, fuzzy
 msgid "I'm not so sure, but please, get on with your plan."
 msgstr ""
+"Je n'en suis pas certain, mais s'il-vous plait, continuez avec vôtre plan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82
+#, fuzzy
 msgid "Anyways... The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven."
 msgstr ""
+"Quoi qu'il en soit... La guilde à un bunker. Un entrepôt remplit de trésors "
+"et richesses, caché et sécurisé à un endroit au sud de Fallhaven."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:0
+#, fuzzy
 msgid "I've been all around the Fallhaven area a thousand times and I've never seen any vault."
 msgstr ""
+"Je déjà traversé Fallhaven en large et en travers des centaines de fois, et "
+"je n'ai jamais vu aucun bunker."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:1
+#, fuzzy
 msgid "I don't believe you. I would have stumbled across it."
-msgstr ""
+msgstr "Je te vous crois pas. Je serais tombé dessus."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83
+#, fuzzy
 msgid "Oh, trust me, it's there all right."
-msgstr ""
+msgstr "Oh, crois moi, il est bien là bas."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:0
+#, fuzzy
 msgid "Trust you? You want me to trust you? A dishonorable thief? Where is it then?"
 msgstr ""
+"Vous croire ? Vous voulez que je vous crois ? Un voleur sans honneur ? Où "
+"est ce alors ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:1
+#, fuzzy
 msgid "Tell me. I want to know."
-msgstr ""
+msgstr "Dites le moi. Je veux savoir."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84
 msgid "Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?"
 msgstr ""
+"Ça te dis quelque chose une maison vacante au sud de Fallhaven ? Celle à "
+"côté de Cliffside ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:1
+#, fuzzy
 msgid "[Lie] Yes, yes I am."
-msgstr ""
+msgstr "[Mentir]Oui, bien sûr."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85
+#, fuzzy
 msgid "The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access."
 msgstr ""
+"L'entrée se trouve à l'intérieur de la maison. C'est caché et sécurisé. Tu "
+"vas avoir besoin de trouver le passage qui donne vers le souterrain afin de "
+"pouvoir y entrer."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:0
+#, fuzzy
 msgid "That sounds easy. I'll do it."
-msgstr ""
+msgstr "Ça semble facile. Je vais le faire."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:1
+#, fuzzy
 msgid "I guess I can try and get in there."
-msgstr ""
+msgstr "Je pense que je peux essayer et y entrer."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86
+#, fuzzy
 msgid "You won't be doing it."
-msgstr ""
+msgstr "Tu le ne fera pas."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86:0
+#, fuzzy
 msgid "I won't be?"
-msgstr ""
+msgstr "Je ne le ferais pas ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87
+#, fuzzy
 msgid "No. We will be doing that."
-msgstr ""
+msgstr "Non. Nous allons faire ça."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87:0
+#, fuzzy
 msgid "Then what do you need from me?"
-msgstr ""
+msgstr "Dans ce cas de quoi avez-vous besoin de moi ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88
+#, fuzzy
 msgid "What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?"
 msgstr ""
+"Ce dont j'ai besoin de ta part c'est plutôt un travail d'infiltration. Il "
+"faut que tu récupères la clé du bunker auprès de Troublemaker sans qu'il "
+"suspecte la moindre chose. Tu penses que tu peux gérer ça ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:0
+#, fuzzy
 msgid "Why should I help you? What do I get out of this?"
-msgstr ""
+msgstr "Pourquoi devrais-je vous aider ? Qu'est-ce que je gagne dans tout ça ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:1
+#, fuzzy
 msgid "If I do this for you, then I expect to get paid!"
-msgstr ""
+msgstr "Si je fais ça pour vous, j'attends d'être rémunéré !"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89
+#, fuzzy
 msgid "Oh, you aren't as dumb as you are funny."
-msgstr ""
+msgstr "Oh, tu es aussi bête qu'amusant."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a
+#, fuzzy
 msgid "How does 10 percent of the total treasure sound?"
-msgstr ""
+msgstr "Que dirais-tu de 10 pour cent du total des trésors ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:0
+#, fuzzy
 msgid "I want 50 percent"
-msgstr ""
+msgstr "Je veux 50 pour cent"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:1
+#, fuzzy
 msgid "How does 30 percent sound?"
-msgstr ""
+msgstr "Que dirais-tu de 30 pour cent ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:2
+#, fuzzy
 msgid "Nope. I will go no lower than 25 percent"
-msgstr ""
+msgstr "Non. Je n'irais pas en dessous de 25 pour cent"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:3
+#, fuzzy
 msgid "I'll do it for twice that amount. 20 percent."
-msgstr ""
+msgstr "Je le ferais pour le double. 20 pour cent."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_90
+#, fuzzy
 msgid "Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference."
 msgstr ""
+"Très bien ! [chut] Je le prendrais sur la part de Greedy. Il ne verra jamais "
+"la différence."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95
+#, fuzzy
 msgid "We will be leaving this campsite in favor of our hideout. Meet up with me there and you can give me the key then."
 msgstr ""
+"Nous allons quitte ce camp pour notre cachette. Retrouvons-nous là bas et tu "
+"pourras me donner la clé."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95:0
+#, fuzzy
 msgid "Sounds good, but where is your hideout?"
-msgstr ""
+msgstr "Ça me va, mais où est vôtre cachette ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100
+#, fuzzy
 msgid "It's where the rail tracks end. West of the Sutdover River."
 msgstr ""
+"C'est là où les rails de chemins de fer se terminent. Au sud de la rivière "
+"Sutdover."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100:0
+#, fuzzy
 msgid "The Sutdover River? Where is it?"
-msgstr ""
+msgstr "La rivière de Sutdover ? C'est où ?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_110
+#, fuzzy
 msgid "The Sutdover River flows between Sullengard and Stoutford."
-msgstr ""
+msgstr "La rivière Studover coule entre Sullengard et Stoutford."
 
 #: conversationlist_mt_galmore.json:aidem_base_locked
+#, fuzzy
 msgid "As you sneak a peek inside, a terrifying voice yells out. Warning you not to step foot inside."
 msgstr ""
+"Au moment où tu te faufiles à l'intérieur, une vois terrifiante te hurle "
+"dessus. T'avertissant de ne pas faire un pas vers l'intérieur."
 
 #: conversationlist_mt_galmore.json:aidem_camp_lost_traveler
+#, fuzzy
 msgid "Go talk to Defy. I have nothing to say to you."
-msgstr ""
+msgstr "Va parler à Defy. Je n'ai rien à te dire."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10
+#, fuzzy
 msgid "Great! Give it to me and when I have time, whenever that may be, I will add it to our bank."
 msgstr ""
+"Parfait ! Donnes le moi et quand j'aurais le temps, qui sait quand, je "
+"l'ajouterais à notre banque."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10:0
+#, fuzzy
 msgid "Well, if you are so busy, I don't mind making the deposit for the greater good."
 msgstr ""
+"Et bien, si vous êtes si occupez, ça ne me dérange pas de faire le dépôt, "
+"pour la cause."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15
+#, fuzzy
 msgid "Hmm... well I guess you could do that for me considering Umar trusts you a lot."
 msgstr ""
+"Hmmm... Et bien je pense que tu pourrais faire ça pour moi étant donné "
+"qu'Umar a confiance en toi."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35:0
+#, fuzzy
 msgid "Great! Just tell me where to go and you can consider it done."
 msgstr ""
+"Parfait ! Dites moi juste où aller et vous pouvez considérer que c'est fait."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20
+#, fuzzy
 msgid "Well, it's not that easy. You need more than the location. You need this key."
 msgstr ""
+"Et bien, ce n'est pas si facile. Tu vas avoir besoin de plus que la "
+"localisation. Il va te falloir cette clé."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20:0
+#, fuzzy
 msgid "Thanks, but where is the vault located?"
-msgstr ""
+msgstr "Merci, mais où est situé le bunker ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25
+#, fuzzy
 msgid "You can find the empty house just south of here. Enter it and you will find your way."
 msgstr ""
+"Tu trouveras une maison vide au sud d'ici. Entre à l'intérieur et tu "
+"trouveras l'entrée."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25:0
+#, fuzzy
 msgid "Thank you so much! I will bring the key back as quick as possible."
-msgstr ""
+msgstr "Merci beaucoup ! Je ramène les clés aussi vite que possible."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10
+#, fuzzy
 msgid "You what? How? Where? Tell me all you know."
-msgstr ""
+msgstr "Tu quoi ? Comment ? Où ? Dis moi tout ce que tu sais."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5:0
+#, fuzzy
 msgid "I found them by pure luck, really."
-msgstr ""
+msgstr "Je les aient trouvées par le plus grand des hasards, vraiment."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10
+#, fuzzy
 msgid "Where did you find them?"
-msgstr ""
+msgstr "Où les as tu trouvées ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10:0
+#, fuzzy
 msgid "Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjoying some of Sullengard's \"Bandit Brews\"."
 msgstr ""
+"Au sud est du verger de Deebo. Ils étaient simplement assis dans les bois, "
+"au coin d'un feu de camp, tétant quelques \"bières des bandits\" de "
+"Sullengard."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_15:0
+#, fuzzy
 msgid "They wanted to hire me to rob you guys. Defy wants your stash of gold and treasures."
 msgstr ""
+"Ils voulaient que je vous vole les gars ! Defy veux vôtre stock d'or et vos "
+"trésors."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20
+#, fuzzy
 msgid "Really? What did you say?"
-msgstr ""
+msgstr "Vraiment ? Et qu'est ce que tu leur as répondu ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt:0
+#, fuzzy
 msgid "Well, I agreed to, but only because I want to help you guys catch him."
 msgstr ""
+"Et bien, j'ai acquiescé, mais seulement parce que je veux vous aider à "
+"l'attraper."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25
+#, fuzzy
 msgid "You know, $playername, for just being a young adventurer, you are learning a lot."
-msgstr ""
+msgstr "Tu sais, $playername, pou un jeune aventurier tu apprends vite."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25:0
+#, fuzzy
 msgid "Thanks a lot. I do feel a lot smarter now than I did before joining your guild."
 msgstr ""
+"Merci beaucoup. Je me sens beaucoup plus malin depuis qu'avant de rejoindre "
+"votre guilde."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30
+#, fuzzy
 msgid "Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault."
 msgstr ""
+"Écoutes, gamin. Utilisons la situation à notre avantage. Prends cette fausse "
+"clé, apportes là à Defy et nous l'attendrons au bunker."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30:0
+#, fuzzy
 msgid "Sir, that sounds like a great plan. What do you want me to do after handing him the fake key?"
 msgstr ""
+"Monsieur, ca ressemble à un bon plan. Que voulez-vous que je fasse après lui "
+"avoir donné la fausse clé ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35
+#, fuzzy
 msgid "You should go with them to the vault as we may need your help there."
 msgstr ""
+"Tu devrais aller avec eux au bunker, on pourrais avoir besoin de ton aide."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
+#, fuzzy
 msgid "You can find the empty house just south east of here. Enter it and you will find your way."
 msgstr ""
+"Tu trouveras la maison vite juste au sud est d'ici. Entre à l'intérieur et "
+"tu trouveras l'entée."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
+#, fuzzy
 msgid "I'll be there. Thank you."
-msgstr ""
+msgstr "Je serais là. Merci."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10
+#, fuzzy
 msgid "It's so weird working with you after all that we've gone through."
 msgstr ""
+"C'est tellement étrange de travailler avec vous après ce qu'on a traversé."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:0
+#, fuzzy
 msgid "We are not friends."
-msgstr ""
+msgstr "Nous ne sommes pas amis."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:1
+#, fuzzy
 msgid "I would love nothing more than to see you punished for your crimes."
-msgstr ""
+msgstr "Je n'apprécierais rien plus que te voir puni pour tes crimes."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:2
+#, fuzzy
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr ""
+msgstr "Qu'attends tu ? Va donner la fausse clé au Fauteur de Troubles."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
+#, fuzzy
 msgid "Come and get it!"
-msgstr ""
+msgstr "Viens la prendre !"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
+#, fuzzy
 msgid "Do you have the key? Hand it over."
-msgstr ""
+msgstr "Tu as la clé ? Passes la moi."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:0
+#, fuzzy
 msgid "Oops. I forgot to bring it with me. I'll be back soon."
-msgstr ""
+msgstr "Oups. J'ai oublié de l'amener. Je reviens vite."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:2
+#, fuzzy
 msgid "Yes, but you are not having it. I will loot the vault myself and keep everything I find."
 msgstr ""
+"Oui, mais vous ne l'aurez pas. Je vais piller le bunker moi-même et garder "
+"tout ce que je vais trouver."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_20
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_tg_10
+#, fuzzy
 msgid "Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot."
 msgstr ""
+"Merci beaucoup. Maintenant prends cette fausse clé que Zachlanny a fait et "
+"rends la à Fauteur de Troubles avant qu'il ne se doute de quoi que ce soit. "
+"Ensuite rejoins nous au bunker pour collecter ta part du butin."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_fake_key_10
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10
+#, fuzzy
 msgid "Thank you very much!"
-msgstr ""
+msgstr "Merci beaucoup !"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house
+#, fuzzy
 msgid "I'm rich. I'm finally rich!"
-msgstr ""
+msgstr "Je suis riche ! Je suis enfin riche !"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house:0
+#, fuzzy
 msgid "Only in gold. You have no friends."
-msgstr ""
+msgstr "Seulement en or. Tu n'as aucun amis."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10
+#, fuzzy
 msgid "Here is your reward for your role in our success."
-msgstr ""
+msgstr "C'est là ta récompense pour ton rôle dans notre succès."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10:0
+#, fuzzy
 msgid "It was nice doing business with you."
-msgstr ""
+msgstr "C'était un plaisir de faire affaire avec toi."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_20
+#, fuzzy
 msgid "We are leaving now. Too close to Fallhaven for my liking."
-msgstr ""
+msgstr "Nous partons maintenant. Nous sommes trop près de Fallhaven à mon goût."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10
+#, fuzzy
 msgid "Come again?"
-msgstr ""
+msgstr "Redites-moi ca ?"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:0
+#, fuzzy
 msgid "I said, \"here it is\"."
-msgstr ""
+msgstr "J'ai dis \"et voilà\"."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:1
+#, fuzzy
 msgid "You heard me the first time. I'm keeping the key and looting the vault myself."
 msgstr ""
+"Tu m'a entendu la première fois. Je garde la clé et je pille le bunker moi-"
+"même."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20
+#, fuzzy
 msgid "I will be taking that key now!"
-msgstr ""
+msgstr "Je vais prendre cette clé maintenant !"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20:0
+#, fuzzy
 msgid "Come and try!"
-msgstr ""
+msgstr "Viens et essaye !"
 
 #: conversationlist_mt_galmore.json:aidem_base_thieves_killed
+#, fuzzy
 msgid "I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
 msgstr ""
+"J'ai tué Defy, ses trop acolytes et Alaric. Je devrais vraiment rentrer à "
+"Fallhaven et parler à Fauteur de Troubles."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10:0
+#, fuzzy
 msgid "Your never going to believe this, but they were inside that vacant house when I walked in."
 msgstr ""
+"Vous n'allez jamais me croire, mais ils étaient à l'intérieur de la maison "
+"abandonnée quand je suis entré."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20
+#, fuzzy
 msgid "Then what happened?"
-msgstr ""
+msgstr "Et ensuite, que c'est-il passé ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20:0
+#, fuzzy
 msgid "They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead."
 msgstr ""
+"Ils avaient l'air de mijoter quelque chose, alors je les aient questionnés. "
+"Et aussitôt, je me retrouve au milieu de la bataille et ils sont morts."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30
+#, fuzzy
 msgid "Can you prove this? Can you show me something that proves that all 4 are dead?"
 msgstr ""
+"Tu peux prouver tes dires ? Tu peux me montrer quelque chose prouvant qu'ils "
+"sont tout les 4 morts ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:0
+#, fuzzy
 msgid "Yes. I looted their rings. [Shows them to Troublemaker]"
-msgstr ""
+msgstr "Oui, j'ai dérobé leurs bagues. [Les montrer à Fauteur de Troubles]"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:1
+#, fuzzy
 msgid "Yes. I looted their rings, but I forgot to bring them with me. I'll come back."
 msgstr ""
+"Oui, j'ai dérobé leurs bagues, mais j'ai oublié de les prendre avec moi. Je "
+"reviens."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_40
+#, fuzzy
 msgid "Well, this is great news indeed. We however would like to have them alive."
 msgstr ""
+"Et bien, c'est vraiment une bonne nouvelle. Mais si nous aurions préféré les "
+"capturer vivants."
 
 #: conversationlist_mt_galmore.json:thief_rennik_10
+#, fuzzy
 msgid "Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you."
 msgstr ""
+"Ah, $playername est finalement revenu. S'il te plait, prends ce crital et un "
+"peu d'or comme remerciements."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20
+#, fuzzy
 msgid "You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us."
 msgstr ""
+"Tu seras heureux d'apprendre que nous avons capturé Defy et ses quatre "
+"complices avant qu'ils aient pu nous voler."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20:0
+#, fuzzy
 msgid "That's great news indeed. Where are they now?"
-msgstr ""
+msgstr "Ce sont d'excellentes nouvelles. Où sont-ils maintenant ?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_30
+#, fuzzy
 msgid "We are keeping them in our holding cage in Fallhaven."
-msgstr ""
+msgstr "Nous les gardons dans notre sale de prison à Fallhaven."
 
 #: conversationlist_mt_galmore.json:thief_rennik_30:0
+#, fuzzy
 msgid "Is there anything else that I should know about?"
-msgstr ""
+msgstr "Y a-t-il autre chose que je devrais savoir ?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_40
+#, fuzzy
 msgid "Yes. That fifth man, the one that was not one of us..."
-msgstr ""
+msgstr "Oui. Ce cinquième homme, celui qui n'était pas l'un de nous..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_40:0
+#, fuzzy
 msgid "You mean Alaric?"
-msgstr ""
+msgstr "Tu veux dire Alaric ?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_50
+#, fuzzy
 msgid "His name is not important to me..."
-msgstr ""
+msgstr "Son nom n'est pas important..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55
+#, fuzzy
 msgid "We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have their guy."
 msgstr ""
+"Nous avons appris qu'il a pris part au crime de Sullengard. Tu pourrais "
+"avoir envie d'aller à Sullengard et les informer que nous avons leur gars."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55:0
+#, fuzzy
 msgid "I will. Thank you again."
-msgstr ""
+msgstr "Je le ferais. Encore merci."
 
 #: conversationlist_mt_galmore.json:thief_rennik_generic_10
+#, fuzzy
 msgid "I am here now to watch out for suspicious activity and people."
-msgstr ""
+msgstr "Je suis ici pour repérer tout activité ou personne suspicieuse."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt
+#, fuzzy
 msgid "Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered \"the lost traveler\" again?"
 msgstr ""
+"Hé, tu es la personne que je voulais voir. Je me demandais, avec tout tes "
+"aventures, si tu avais de nouveau croisé le \"voyageur perdu\" ?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt:0
+#, fuzzy
 msgid "Actually, yes. Yes, I have."
-msgstr ""
+msgstr "En effet, oui. Je l'ai croisé."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10
+#, fuzzy
 msgid "Where? Can you get him back here to be punished?"
-msgstr ""
+msgstr "Où ça ? Pourrais tu le ramener ici afin qu'il soit puni ?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:0
+#, fuzzy
 msgid "Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there."
 msgstr ""
+"En fait, il est à la prison de Fallhaven. Enfermé avec Defy. J'ai réussi à "
+"les capturer et les enfermer là bas."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:1
+#, fuzzy
 msgid "Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no other option than to end his life."
 msgstr ""
+"En fait, j'ai eu l'opportunité de lui tomber dessus et d'essayer de la "
+"trainer jusqu'ici, mais il m'a attaqué et je n'ai pas eu d'autre choix que "
+"de l'occire."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11
+#, fuzzy
 msgid "Oh, thank you so much! "
-msgstr ""
+msgstr "Oh, merci beaucoup ! "
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11:0
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12:0
+#, fuzzy
 msgid "Of course. It was my pleasure."
-msgstr ""
+msgstr "Je vous en prie."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12
+#, fuzzy
 msgid "Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this."
 msgstr ""
+"Bon, j'aurais préféré le voir puni plutôt que mort, mais merci bien d'avoir "
+"mit un terme à toute cette affaire."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13
+#, fuzzy
 msgid "Please, take this as a gift of gratitude."
-msgstr ""
+msgstr "S'il te plaît, reçois ce cadeau en gage de ma gratitude."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14
+#, fuzzy
 msgid "I don't know if you will like it, but let me tell you, nobody down here wants it."
 msgstr ""
+"Je ne sais pas si tu va aimer ça, mais laisse moi te dire, personne ici n'en "
+"veux."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14:0
+#, fuzzy
 msgid "Oh, really? I will play with it. Thanks again."
-msgstr ""
+msgstr "Ha, vraiment ? Je vais jouer avec. Encore merci."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_5
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_6
+#, fuzzy
 msgid "As you step between the trees, the crunch of the dry leaves beneath your feet startle you."
 msgstr ""
+"En même temps que tu t'avances entre les arbres, le craquement des feuilles "
+"sèches sous tes pas te font sursauter."
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10
+#, fuzzy
 msgid "Do you want to unlock the hatch?"
-msgstr ""
+msgstr "Veux tu libérer la trappe ?"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_20
+#, fuzzy
 msgid "The lock creaks open, revealing a staircase."
-msgstr ""
+msgstr "Le verrou grinçant laisse apercevoir un escalier."
 
 #: conversationlist_mt_galmore.json:wild6_house_prevent_bucket_walking
+#, fuzzy
 msgid "Oh, gross! It's full of spiders."
-msgstr ""
+msgstr "Oh berk ! C'est remplit d'araignées."
 
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10:0
+#, fuzzy
 msgid "Yes, Here it is. [Handing over the fake key] "
-msgstr ""
+msgstr "Oui, voila. [Rendant la fausse clé] "
 
 #: conversationlist_mt_galmore.json:aidem_base_fight
+#, fuzzy
 msgid "You will regret this, kid!"
-msgstr ""
+msgstr "Tu regretteras ça gamin !"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81
+#, fuzzy
 msgid "Do I know you?"
-msgstr ""
+msgstr "On se connaît ?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:0
+#, fuzzy
 msgid "Oh, you want to play dumb? Umar will hear about this!"
-msgstr ""
+msgstr "Oh, tu veux jouer à l'abruti ? Umar va en entendre parler !"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
+#, fuzzy
 msgid "I should come back with the Thieves Guild key."
-msgstr ""
+msgstr "Je devrais revenir avec la clef de la Guilde des Voleurs."
 
 #: conversationlist_mt_galmore.json:bela_witch_10
+#, fuzzy
 msgid "Did you hear about the kidnapping?"
-msgstr ""
+msgstr "Avez-vous entendu parler du kidnapping ?"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:0
+#, fuzzy
 msgid "It wasn't me!"
-msgstr ""
+msgstr "Ce n'était pas moi !"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:1
+#, fuzzy
 msgid "Someone kidnapped Ambelie?"
-msgstr ""
+msgstr "Quelqu'un a kidnappé Ambelie ?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15
+#, fuzzy
 msgid "[Looking extermely confused and terrified] ... Well, why would it be you?"
-msgstr ""
+msgstr "[Le regard nerveux et terrifié]... Et bien, pourquoi se serait toi ?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15:0
+#, fuzzy
 msgid "Nevermind."
-msgstr ""
+msgstr "Oubliez-ça."
 
 #: conversationlist_mt_galmore.json:bela_witch_16
+#, fuzzy
 msgid "[Looking extermely confused] ... Who?"
-msgstr ""
+msgstr "[Le regard particulièrement nerveux]... Qui ça ?"
 
 #: conversationlist_mt_galmore.json:bela_witch_16:0
+#, fuzzy
 msgid "Nevermind"
-msgstr ""
+msgstr "Oubli ça"
 
 #: conversationlist_mt_galmore.json:bela_witch_20
+#, fuzzy
 msgid "Well, while you were off hunting and killing that giant snake, I had a customer."
 msgstr ""
+"Et bien pendant que tu étais parti chasser et tuer ce serpent géant, j'ai eu "
+"un client."
 
 #: conversationlist_mt_galmore.json:bela_witch_25
+#, fuzzy
 msgid "A customer with a very interesting report about a kidnapped girl and a witch."
 msgstr ""
+"Un client qui m'a fait un rapport très intéressant à propos d'une fille "
+"kidnappé et d'une sorcière."
 
 #: conversationlist_mt_galmore.json:bela_witch_25:0
+#, fuzzy
 msgid "Is this customer still here?"
-msgstr ""
+msgstr "Est-ce que ce client est encore là ?"
 
 #: conversationlist_mt_galmore.json:bela_witch_30
+#, fuzzy
 msgid "That's the thing. He is no longer here. He just left before you walked in."
 msgstr ""
+"C'est le problème. Il n'est plus là. Il vient de partir, juste avant que tu "
+"n'entres."
 
 #: conversationlist_mt_galmore.json:bela_witch_31
+#, fuzzy
 msgid "You should ask around town if anyone has seen or heard about it."
 msgstr ""
+"Tu devrais demander en ville si quelqu'un l'a vu ou entendu quelque chose."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:0
+#, fuzzy
 msgid "OK. I think I will do that. Thanks."
-msgstr ""
+msgstr "Très bien. Je pense que c'est ce que je vais faire. Merci."
 
 #: conversationlist_mt_galmore.json:bela_witch_31:1
+#, fuzzy
 msgid "OK, but first please give me something to drink."
-msgstr ""
+msgstr "Très bien, mais donnes moi d'abord quelque chose à boire."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10
+#, fuzzy
 msgid "Of course, my dear."
-msgstr ""
+msgstr "Bien sûr très cher."
 
 #: conversationlist_mt_galmore.json:arensia_witch_10:0
+#, fuzzy
 msgid "Did you see a witch around here or hear about a witch kidnapping a girl?"
 msgstr ""
+"Avez-vous vu une sorcière par ici ou entendu parler d'une sorcière "
+"kidnappant une fille ?"
 
 #: conversationlist_mt_galmore.json:no_witch_info
+#, fuzzy
 msgid "No, I'm sorry, I didn't."
-msgstr ""
+msgstr "Non, désolé. Rien de tel."
 
 #: conversationlist_mt_galmore.json:no_witch_info:0
+#, fuzzy
 msgid "Oh, thanks anyway."
-msgstr ""
+msgstr "Bien, merci quand même."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:0
+#, fuzzy
 msgid "Can I have just one minute of your time, please?"
-msgstr ""
+msgstr "Puis-je avoir une minute de votre temps, s'il vous plaît ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10:1
+#, fuzzy
 msgid "Could you tell me the story about the wicked witch again?"
 msgstr ""
+"Pourriez-vous me raconter à nouveau cette histoire de sorcière malfaisante ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20
+#, fuzzy
 msgid "I suppose."
-msgstr ""
+msgstr "Je suppose."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_20:0
+#, fuzzy
 msgid "Great! I was wondering if you know anything about a kidnapping or a witch?"
 msgstr ""
+"Super ! Je me demandais si vous saviez quoi que ce soit à propos d'un "
+"enlèvement ou d'une sorcière ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30
+#, fuzzy
 msgid "[Taken aback by the question] What did you just ask me?"
 msgstr ""
+"[L'air étonné par la question] Qu'est ce que tu viens juste de me demander ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_30:0
+#, fuzzy
 msgid "I asked if you know anything about a witch and the possibility that she took a girl."
 msgstr ""
+"Je vous ai demandé si vous saviez quelque chose à propos d'une sorcière et "
+"de la possibilité qu'est ait enlevée une fille."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40
 msgid "Leave me alone! I don't want to talk about her!"
-msgstr ""
+msgstr "Laisse moi tranquille ! Je ne veux pas parler d'elle !"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:0
+#, fuzzy
 msgid "Ok. I'm sorry I asked."
-msgstr ""
+msgstr "Très bien. Excusez-moi d'avoir demandé."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:1
+#, fuzzy
 msgid "So you know something about the kidnapping?"
-msgstr ""
+msgstr "Donc vous savez quelque chose à propos de l'enlèvement ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_40:2
+#, fuzzy
 msgid "What about the witch? Do you know something about her?"
-msgstr ""
+msgstr "Et à propos de la sorcière ? Vous savez quelque chose à son propos ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_45
+#, fuzzy
 msgid "Nope!"
-msgstr ""
+msgstr "Non !"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50
+#, fuzzy
 msgid "I may, but I don't want to tell you about her as I am terrified of her."
-msgstr ""
+msgstr "Je pourrais, mais je ne vous dirais rien, elle me fait bien trop peur."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_50:0
+#, fuzzy
 msgid "Wow! Now I have to learn what you know. Please tell me your story."
 msgstr ""
+"Wow ! Il va maintenant falloir que j'en sache plus. Racontez moi votre "
+"histoire s'il vous plaît."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60
+#, fuzzy
 msgid "No way! I have no way to protect myself and believe me, I will need to if I tell you anything."
 msgstr ""
+"Jamais ! Je n'ai aucun moyen de me protéger d'elle et croyez moi, j'en "
+"serais bien obligé si je te dis quoi que ce soit."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_60:0
+#, fuzzy
 msgid "I will protect you. Trust me."
-msgstr ""
+msgstr "Je vous protègerais. Je le jure."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65
+#, fuzzy
 msgid "[Laughing uncontrollably] ... You? You are just a child of a farmer. So you are weaker than I am."
 msgstr ""
+"[Rire incontrôlé]... Toi ? Tu n'es qu'un fils de fermier. Tu es encore plus "
+"faible que moi."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:0
+#, fuzzy
 msgid "You know my father?"
-msgstr ""
+msgstr "Vous connaissez mon père ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_65:1
+#, fuzzy
 msgid "I can protect you."
-msgstr ""
+msgstr "Je peux vous protéger."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66
+#, fuzzy
 msgid "Of course I do. He lives a stones throw away from me and we are both farmers."
 msgstr ""
+"Bien sûr que je le connais. Il vit à portée de pierre de moi, nous étions "
+"tout deux paysans."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_66:0
+#, fuzzy
 msgid "Oh. I didn't know. But I can protect you."
-msgstr ""
+msgstr "Oh. Je l'ignorais. Mais je peux vous protéger."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70
+#, fuzzy
 msgid "And how can you do that? Have you ever done anything like this before?"
 msgstr ""
+"Et comment comptes tu faire ? As tu jamais fais quelque chose de ce genre ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_70:0
+#, fuzzy
 msgid "Well, actually, I have. In fact, I just finished protecting this entire town from a giant snake."
 msgstr ""
+"Et bien, en fait, oui. J'ai d'ailleurs protégé toute cette ville en tuant il "
+"y a peu un serpent géant."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_75
+#, fuzzy
 msgid "That was you?"
-msgstr ""
+msgstr "C'était toi ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_76
+#, fuzzy
 msgid "Well, if that's the case, then I will tell you my story."
-msgstr ""
+msgstr "Et bien, dans ce cas, je vais te raconter mon histoire."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77
+#, fuzzy
 msgid "My story starts a very long time ago, when I was just a kid."
-msgstr ""
+msgstr "Mon histoire débute il y a fort longtemps, tu n'étais qu'un gosse."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_77:0
+#, fuzzy
 msgid "Great, more stories with grandpa."
-msgstr ""
+msgstr "Super, encore des histoire avec papi."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_78
+#, fuzzy
 msgid "You see, one day, my best friend Addie and I were playing amongst the trees south of town when we encountered her."
 msgstr ""
+"Vois tu, un jour, mon meilleur ami Addie et moi-même nous jouions au milieu "
+"des arbres, au sud ouest de la ville, lorsque nous l'avons rencontré."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79
+#, fuzzy
 msgid "She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her into her house."
 msgstr ""
+"C'était une très belle jeune femme, terriblement séduisante. Tellement "
+"qu'elle nous a facilement entrainé à l'intérieur de sa maison."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_79:0
+#, fuzzy
 msgid "I see. What happened next?"
-msgstr ""
+msgstr "Je vois. Et que c'est-il passé ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80
+#, fuzzy
 msgid "Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experience."
 msgstr ""
+"Je dois t'avouer que c'était une expérience si douloureuse que j'ai choisis "
+"d'oublier la majorité des détails."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_80:0
+#, fuzzy
 msgid "Understandable."
-msgstr ""
+msgstr "Je comprends."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_81
+#, fuzzy
 msgid "All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room ... I think."
 msgstr ""
+"Tout ce dont je me souviens c'est avoir été retenu dans une pièce noir, dans "
+"ce qui a semblé être des semaines, sans nourriture et seul. Vois tu, la "
+"sorcière gardait Addie dans une autre pièce... Je suppose."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82
+#, fuzzy
 msgid "Yes. You see, after I escaped, I never saw Addie again."
 msgstr ""
+"Oui. Je vois, et après vous être échappé, vous n'avez jamais revu Addie."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_82:0
+#, fuzzy
 msgid "That's terrible."
-msgstr ""
+msgstr "C'est si horrible."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83
+#, fuzzy
 msgid "After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until now."
 msgstr ""
+"Après quelques semaines, j'ai vu une chance de m'échapper et je l'ai saisis. "
+"Sans jamais y repenser ni en parler. Du moins, jusqu'à aujourd'hui."
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83:0
+#, fuzzy
 msgid "Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?"
 msgstr ""
+"Merci de m'avoir raconté votre histoire. Je comptes arrêter cette sorcière "
+"une fois pour toute. Où la trouver ?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_84
+#, fuzzy
 msgid "Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers."
 msgstr ""
+"Merci ! Tu la trouveras dans sa maison, juste au sud d'ici. Tu ne peux pas "
+"la louper : elle est couverte de magnifiques fleurs."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_script
+#, fuzzy
 msgid "While raising your arm and waving your hand, you yell over the water: \"Excuse me.\""
 msgstr ""
+"Levant ton bras et agitant ta main, tu cris au serveur : \"Excusez-moi.\""
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10
+#, fuzzy
 msgid "Shh. You are scaring the fish."
-msgstr ""
+msgstr "Chut. Tu effraies le poisson."
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:0
+#, fuzzy
 msgid "Please? I need your help. I'm looking for my brother. His name is Andor. He looks like me. Have you seen him?"
 msgstr ""
+"Pardon ? J'ai besoin de votre aide. Je suis à la recherche de mon frère. Son "
+"nom est Andor. Il me ressemble. L'avez-vous vu ?"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:1
+#, fuzzy
 msgid "That's a really cool boat. Where can I get one?"
-msgstr ""
+msgstr "C'est vraiment un joli bateau. Où puis je en trouver un similaire ?"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:2
+#, fuzzy
 msgid "[While Pointing behind Isobel, you yell] Look at the size of that fish behind you!"
 msgstr ""
+"[En pointant la direction derrière Isobel, tu cries] Regardez la taille de "
+"ce poisson derrière vous !"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20
+#, fuzzy
 msgid "Where?!"
-msgstr ""
+msgstr "Où ça ?!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20:0
+#, fuzzy
 msgid "[While laughing uncontrollably] \"Shh, your scaring him away.\""
-msgstr ""
+msgstr "[Riant aux éclats] \"Chut, tu l'effraies.\""
 
 #: conversationlist_mt_galmore.json:captive_girl_10
+#, fuzzy
 msgid "Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion."
 msgstr ""
+"Excusez moi, jeune homme. Attendez ! Merci de m'avoir épargné plus tôt. Vous "
+"avez fait preuve d'une réelle compassion."
 
 #: conversationlist_mt_galmore.json:captive_girl_10:0
+#, fuzzy
 msgid "What ... do I know you? You're just a young girl?"
-msgstr ""
+msgstr "Que... Je vous connaît ? Vous êtes juste une jeune fille ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_20
+#, fuzzy
 msgid "Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind."
 msgstr ""
+"Oui, j'étais sous le charme d'un sort qui me faisait apparaître sous les "
+"traits d'une sorcière. Elle voulait tester votre bon coeur. Je suis heureuse "
+"que vous vous soyez révélée si clément."
 
 #: conversationlist_mt_galmore.json:captive_girl_20:0
+#, fuzzy
 msgid "Thank you, but you don't look well."
-msgstr ""
+msgstr "Merci, mais vous n'avez pas l'air très bien."
 
 #: conversationlist_mt_galmore.json:captive_girl_30
+#, fuzzy
 msgid "I am not well. Which is why I have not run far from this awful place and this awful witch."
 msgstr ""
+"Je ne me sens pas très bien. C'est bien pour ça que je n'ai pas fuis loin de "
+"cette horrible endroit et cette affreuse sorcière."
 
 #: conversationlist_mt_galmore.json:captive_girl_30:0
+#, fuzzy
 msgid "What's wrong? Why can't you leave?"
-msgstr ""
+msgstr "Qu'est ce qui ne va pas ? Pourquoi ne pouvez-vous pas partir ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_30:1
+#, fuzzy
 msgid "What happened to you here? How did you get here?"
-msgstr ""
+msgstr "Que vous ai-t-il arrivée là-bas ? Comment êtes vous arrivée ici ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_31
+#, fuzzy
 msgid "Thank you again, my savior! I will go now."
-msgstr ""
+msgstr "Encore merci, mon sauveur ! Je vais filer maintenant."
 
 #: conversationlist_mt_galmore.json:captive_girl_35
+#, fuzzy
 msgid " I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year."
 msgstr ""
+" J'ai besoin de nutriments ! Vois-tu, j'ai été retenu dans le sous-sol de "
+"cette horrible maison dans ce qui a semblé durer une année."
 
 #: conversationlist_mt_galmore.json:captive_girl_35a
+#, fuzzy
 msgid "I am too sick to talk about this right now."
-msgstr ""
+msgstr "Je suis trop malade pour parler de ça pour le moment."
 
 #: conversationlist_mt_galmore.json:captive_girl_40
+#, fuzzy
 msgid "All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it."
 msgstr ""
+"Tout ce que la sorcière m'a jamais donné c'était quelque chose étiqueté "
+"\"Tonic de Sang\". J'ai d'abord refusé d'en boire, mais j'ai rapidement été "
+"si désespérée que j'en ai bu."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:0
+#, fuzzy
 msgid "I've had one or two of those. They are not that bad."
 msgstr ""
+"Je me suis déjà enfilé un ou deux. Elles ne sont pas si mauvaises que ça."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:1
+#, fuzzy
 msgid "Are those things even good for you?"
-msgstr ""
+msgstr "Est-ce que ses choses sont au moins bonnes pour vous ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_45
+#, fuzzy
 msgid "Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them."
 msgstr ""
+"Oui, peut-être avec modération. Mais après une douzaine, ca transforme "
+"quelque chose dans ton corps et je ne peux plus boire autre chose."
 
 #: conversationlist_mt_galmore.json:captive_girl_50
+#, fuzzy
 msgid "I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot."
 msgstr ""
+"J'ai vraiment besoin de mettre la main sur un lot de ses potions \"Tonic de "
+"Sang\". Pourrais tu m'aider ? Il m'en faut beaucoup."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:0
+#, fuzzy
 msgid "Well, I have twenty-five of those for you."
-msgstr ""
+msgstr "Et bien, j'en ai vingt-cinq pour vous."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:1
+#, fuzzy
 msgid "Well, I have twenty of those for you."
-msgstr ""
+msgstr "Et bien, j'en ai vingt pour vous."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:2
+#, fuzzy
 msgid "Well, I have ten of those for you."
-msgstr ""
+msgstr "Et bien, j'en ai dix pour vous."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:3
+#, fuzzy
 msgid "Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?"
 msgstr ""
+"Et bien, j'en ai cinq pour vous et je ne sais plus trop où je les ai eu. "
+"Savez-vous où je peux en trouver d'autres ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:4
+#, fuzzy
 msgid "Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?"
 msgstr ""
+"Et bien, j'en ai une seule pour vous et je ne me souviens pas où je les ai "
+"eu. Savez-vous où je peux en trouver d'autres ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:5
+#, fuzzy
 msgid "I'm sorry, but I don't have any of those."
-msgstr ""
+msgstr "Je suis désolé, mais je n'en ai pas."
 
 #: conversationlist_mt_galmore.json:captive_girl_55
+#, fuzzy
 msgid "Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however."
 msgstr ""
+"Et bien, je ne sais pas trop, étant donné que la sorcière les faisait elle-"
+"même ! Bordel ! Je déteste cette odeur. Bordel ! J'adore son goût pourtant."
 
 #: conversationlist_mt_galmore.json:captive_girl_55:0
+#, fuzzy
 msgid "Can you help me out a little bit? Do you know anything about them?"
 msgstr ""
+"Pourriez-vous m'aider quelque peu ? Savez-vous quoi que ce soit à leur "
+"propos ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_60
+#, fuzzy
 msgid "Hold on. Let me think...."
-msgstr ""
+msgstr "Attends. Laisses moi réfléchir..."
 
 #: conversationlist_mt_galmore.json:captive_girl_65
 #: conversationlist_mt_galmore.json:captive_girl_65
+#, fuzzy
 msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them."
 msgstr ""
+"Ah OUI ! Je me souviens qu'elle a mentionné un ami \"mort-vivant\" à elle, à "
+"l'est d'ici lui avait appris comment les faire."
 
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 #: conversationlist_mt_galmore.json:captive_girl_65:0
+#, fuzzy
 msgid "OK. Stay here. I will be back with more of them."
-msgstr ""
+msgstr "Très bien. Restez ici. J'en ramènerais quelques-unes."
 
 #: conversationlist_mt_galmore.json:captive_girl_56
+#, fuzzy
 msgid "Can you get me twenty-five of them?"
-msgstr ""
+msgstr "Tu pourrais m'en ramener vingt-cinq ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_56:0
+#, fuzzy
 msgid "Where can I get some?"
-msgstr ""
+msgstr "Où puis-je en trouver ?"
 
 #: conversationlist_mt_galmore.json:captive_girl_54
+#, fuzzy
 msgid "Only twenty? I was really hoping for twenty-five."
-msgstr ""
+msgstr "Seulement vingt ? J’espérais vraiment en avoir vingt-cinq."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:0
+#, fuzzy
 msgid "Whatever! Fine. I will go get you five more."
-msgstr ""
+msgstr "Comme vous voulez. Très bien. Je vais en ramener cinq de plus."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:1
+#, fuzzy
 msgid "I know that you \"asked\" for twenty-five, but I have twenty and they are hard to get. Please take these."
 msgstr ""
+"Je sais que tu en as \"demandé\" vingt-cinq, mais j'en ai vingt et elles "
+"sont très dures à obtenir. Prenez-les s'il vous plaît."
 
 #: conversationlist_mt_galmore.json:captive_girl_70
+#, fuzzy
 msgid "OK. I won't make you go back just for five more when you've already brought me twenty."
 msgstr ""
+"Très bien. Je ne vais pas te renvoyer en chercher cinq de plus alors que tu "
+"m'en as déjà ramenée vingt."
 
 #: conversationlist_mt_galmore.json:captive_girl_71
+#, fuzzy
 msgid "WOW! You actually managed to find twenty-five! I am so grateful."
 msgstr ""
+"Ouah ! Tu as réussi à en trouver vingt-cinq ! Je suis si reconnaissante."
 
 #: conversationlist_mt_galmore.json:captive_girl_75
+#, fuzzy
 msgid "Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now."
 msgstr ""
+"Avant que tu partes, en m'échappant j'ai réussi à voler ceci à la sorcière. "
+"Je veux que tu le prennes. Je dois filer maintenant."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10
+#, fuzzy
 msgid "Oh my, what have we here? Another brave soul seeking to challenge me?"
 msgstr ""
+"Oh mon, qu'est ce que c'est ? Une autre brave âme cherchant à me défier ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:0
+#, fuzzy
 msgid "[While backing up] Me? No ma'am. I just wandered into the wrong house. Please don't hurt me."
 msgstr ""
+"[En reculant] Moi ? Non madame. Je suis entrée dans la mauvaise maison. "
+"Pitié ne me faites pas de mal."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:1
+#, fuzzy
 msgid "Halt, foul witch! Your reign of darkness ends here!"
-msgstr ""
+msgstr "Arrête toi, ignoble sorcière. Ton sombre règne prends fin ici !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20
+#, fuzzy
 msgid "And with such polite manners too. Come. Come. Take a seat."
 msgstr ""
+"Et avec des manières si élégantes en plus. Viens. Viens. Prends un siège."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:0
+#, fuzzy
 msgid "Your tricks won't work on me. Prepare to meet your end!"
-msgstr ""
+msgstr "Tes tours ne marcherons pas sur moi. Prépare toi à en finir !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:1
+#, fuzzy
 msgid "Witches don't bother me. I'll leave you be."
-msgstr ""
+msgstr "Les sorcières ne m'inquiète pas. Je vais vous laisser."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_25
+#, fuzzy
 msgid "How intriguing. Such confidence in your path. We shall see, won't we?"
 msgstr ""
+"Comme c'est intriguant. Une telle confiance en toi. Nous allons voir ça, "
+"n'est ce pas ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_30
+#, fuzzy
 msgid "Oh, the \"confident child\". Please leave me to my business."
-msgstr ""
+msgstr "Oh, \"l'enfant confiant\". Laisses moi à mes affaires s'il-te-plaît."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40
+#, fuzzy
 msgid "[laughs] How amusing. You're not the first to try, and you won't be the last. But do go ahead, if you must."
 msgstr ""
+"[Riant]Tellement amusant. Tu n'es pas le premier à essayer, et tu ne seras "
+"pas le dernier. Mais vas y, si c'est une obligation."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40:0
 #: conversationlist_mt_galmore.json:wicked_witch_first_45:0
 msgid "I won't hesitate! Take this!"
-msgstr ""
+msgstr "Je n'hésiterais pas ! Prends ça !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_45
+#, fuzzy
 msgid "Oh, this fight will be fun ... for me that is."
-msgstr ""
+msgstr "Oh, cette escarmouche va être amusante... pour moi s’entend."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_killed_script
+#, fuzzy
 msgid "As the \"witch\" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your choices. When all of a sudden..."
 msgstr ""
+"Alors que la \"sorcière\" se meurt, elle commence à retrouver sa vraie "
+"forme, révélant une jeune fille ; te faisant réaliser la tragédie que tu as "
+"provoqué. Quand tout à coup..."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10
+#, fuzzy
 msgid "Bravo, hero! You fell right into my trap."
-msgstr ""
+msgstr "Bravo, héro ! Tu es tombée droit dans mon piège."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10:0
+#, fuzzy
 msgid "What? No, it can't be!"
-msgstr ""
+msgstr "Quoi ? Non, c'est impossible !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20
+#, fuzzy
 msgid "Oh, but it is. You see, that old witch you slew was nothing more than an illusion. A clever ruse to manipulate your actions."
 msgstr ""
+"Oh, mais si ça l'est. Vois tu, cette vieille sorcière que tu as occis "
+"n'était rien de plus qu'une illusion. Une ruse adroite pour manipuler tes "
+"actions."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20:0
+#, fuzzy
 msgid "[shocked] Then who are you?"
-msgstr ""
+msgstr "[Choqué] Mais alors qui êtes vous ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30
+#, fuzzy
 msgid "I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement."
 msgstr ""
+"Je suis la vraie sorcière, et tu as parfaitement agis entre mes mains. Cet "
+"étalage d'arrogance, cette soif pour la victoire - m'ont parfaitement "
+"diverti."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30:0
+#, fuzzy
 msgid "[angry] You won't get away with this!"
-msgstr ""
+msgstr "[furieux] Tu n'en échapperas pas cette fois !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40
+#, fuzzy
 msgid "[chuckles] You can certainly try, my dear hero. But your bravado has already cost you."
 msgstr ""
+"[glousse] Tu peux certainement essayer, mon cher héro. Mais ta bravade t'as "
+"déjà beaucoup coûté."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40:0
+#, fuzzy
 msgid "You're the one that will pay!"
-msgstr ""
+msgstr "C'est toi qui va payer !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_killed
+#, fuzzy
 msgid "After defeating the real witch, she quickly reappears."
 msgstr ""
+"Après avoir vaincu la vraie sorcière, cette dernière réapparait aussitôt."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:0
+#, fuzzy
 msgid "It's over, witch!"
-msgstr ""
+msgstr "C'est finit, sorcière !"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:1
+#, fuzzy
 msgid "What did you mean when you said \"what lies ahead\"?"
-msgstr ""
+msgstr "Que voulais tu dire par \"ce qui se profile\" ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10
+#, fuzzy
 msgid "[weakened] Yes, yes, you've bested me. Congratulations, but have you really won?"
-msgstr ""
+msgstr "[affaiblie] Oui, oui, tu m'as battu. Bravo, mais as tu vraiment gagné ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10:0
+#, fuzzy
 msgid "[panting] Why all this deception?"
-msgstr ""
+msgstr "[haletant] Pourquoi toutes ses supercheries ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20
+#, fuzzy
 msgid "Oh, just a bit of entertainment. And for that, you get a big reward: You get to live."
 msgstr ""
+"OH, juste un peu de divertissement. Et pour ça, tu vas recevoir une grande "
+"récompense : je vais te laisser vivre."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20:0
+#, fuzzy
 msgid "[disgruntled] Is this some kind of sick game to you?"
-msgstr ""
+msgstr "[mécontent] Est-ce que c'est un jeu pour vous espèce de malade ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_30
+#, fuzzy
 msgid "[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?"
 msgstr ""
+"[narquois] Peut-être. Mais souviens toi, héro, la vie est pleine de "
+"surprises. Tu as peut-être vaincu cette fois, mais qu'en est-il de ce qui "
+"t'attends ?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_40
+#, fuzzy
 msgid "Leave me now, child before you end up like that young girl you killed."
 msgstr ""
+"Laisses moi tranquille maintenant, gamin, avant de finir comme cette jeune "
+"fille que tu as tué."
 
 #: conversationlist_mt_galmore.json:captive_girl_76
+#, fuzzy
 msgid "I need to go now. Thanks a lot."
-msgstr ""
+msgstr "Je dois filer maintenant. Merci beaucoup."
 
 #: conversationlist_mt_galmore.json:crystal_teleportation_disabled
+#, fuzzy
 msgid "There is nothing to see here except for that wolf dung over there. Gross!"
-msgstr ""
+msgstr "Il n'y a rien à voir ici à part le crottin de loup par ici. Erk !"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid
+#, fuzzy
 msgid "Look what I have found here - bewitched crystals! They are really fun!"
 msgstr ""
+"Regarde ce que j'ai trouvé ici - des cristaux enchanté ! Ils sont vraiment "
+"sympa !"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid_1
+#, fuzzy
 msgid "I wonder if there are more of them in the area?"
-msgstr ""
+msgstr "Je me demande si il y en a d'autres dans les environs ?"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1
+#, fuzzy
 msgid "You're here to take our magical mushroom!"
-msgstr ""
+msgstr "Tu es ici pour prendre notre champignon magique !"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1:1
+#, fuzzy
 msgid "No, I swear. Please don't hurt me."
-msgstr ""
+msgstr "Non, je vous le promets. Pitié ne me faites pas de mal."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1
+#, fuzzy
 msgid "We are in a rush to get through here, kid. Get out of our way or die."
 msgstr ""
+"Nous sommes en pleine ruée pour venir jusque ici, gamin. Hors de notre "
+"chemin ou péri."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:0
+#, fuzzy
 msgid "Where is the Shadow to help me now?"
-msgstr ""
+msgstr "Où est l'Ombre pour m'aider maintenant ?"
 
 #: conversationlist_mt_galmore.json:cat_dialog
+#, fuzzy
 msgid "Meow."
-msgstr ""
+msgstr "Miaou."
 
 #: conversationlist_mt_galmore.json:blue_cat_1
+#, fuzzy
 msgid "Hello, my name is \"Old Blue\"."
-msgstr ""
+msgstr "Bonjour, mon nom est \"Old Blue\"."
 
 #: conversationlist_mt_galmore.json:blue_cat_1:0
+#, fuzzy
 msgid "What! You can talk?"
-msgstr ""
+msgstr "Quoi ? Tu peux parler ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_1:1
+#, fuzzy
 msgid "You are an unusual color. Why are you blue?"
-msgstr ""
+msgstr "Tu es d'une couleur inhabituelle. Pourquoi es tu bleu ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk
+#, fuzzy
 msgid "Talk? Well, let me ask you this: Why don't my friends up there talk?"
 msgstr ""
+"Parler ? Et bien, laisses moi te poser une question : pourquoi mes amis là-"
+"haut ne parle pas ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk:0
+#, fuzzy
 msgid "Well, I guess you've got me there."
-msgstr ""
+msgstr "Et bien, je suppose que tu m'as eu là."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue
+#, fuzzy
 msgid "It was Bonicksa, that wicked witch, she did this to me."
-msgstr ""
+msgstr "C'est Bonicksa, cette satanée sorcière, qui m'a fait ça."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2
+#, fuzzy
 msgid "Well, you see those rats over there? The ones in the cage?"
-msgstr ""
+msgstr "Et bien, tu vois ses rats là bas ? Ceux qui sont en cage ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2:0
+#, fuzzy
 msgid "Yeah."
-msgstr ""
+msgstr "Oui."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3
+#, fuzzy
 msgid "You see, those things are delicious."
-msgstr ""
+msgstr "Tu vois, ses choses sont délicieuses."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3:0
+#, fuzzy
 msgid "Um, OK, but what does that have to do with Bonicksa?"
-msgstr ""
+msgstr "Euh, très bien mais qu'est ce que cela à avoir avec Bonicksa ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue4
+#, fuzzy
 msgid "Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them."
 msgstr ""
+"Oh, tu n'es pas au courant ? Ce sont les rats de Bonicksa et elle n'apprécie "
+"pas si quoi que ce soit leur arrive."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5
+#, fuzzy
 msgid "She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me."
 msgstr ""
+"Elle m'a vu tué son favoris l'autre jour. Je m'en suis tiré ce jour là, mais "
+"depuis elle ne cesse d'essayer de s'en prendre à moi."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5:0
+#, fuzzy
 msgid "What happened next?"
-msgstr ""
+msgstr "Que c'est-il passé après ça ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6
+#, fuzzy
 msgid "Well, after many months of trying, she was lucky one day and was able to capture me."
 msgstr ""
+"Et bien, après plusieurs mois de tentatives, j'ai enfin eu mon jour de "
+"chance et réussi à en capturer un."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6:0
+#, fuzzy
 msgid "Then?"
-msgstr ""
+msgstr "Et ensuite ?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7
+#, fuzzy
 msgid "She used her black magic to turn my beautiful white fur to this awful color I am now."
 msgstr ""
+"Elle a utilisé sa magie noir pour transformer ma magnifique fourrure blanche "
+"en cette horrible couleur."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7:0
+#, fuzzy
 msgid "Oh, I am so sorry for you."
-msgstr ""
+msgstr "Oh, je suis désolé pour toi."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt
+#, fuzzy
 msgid "Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?"
 msgstr ""
+"Oh, oui. Je te demandais ce que tu as répondu à Défy après avoir appris "
+"qu'il voulait t'embaucher pour nous voler. A ce moment là tu as brutalement "
+"quitté la conversation. Je te repose la question. Que lui as tu répondu ?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45
+#, fuzzy
 msgid "Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there."
 msgstr ""
+"Sérieusement ? Mec, c'est si dur de trouver de l'aide de qualité "
+"aujourd'hui. Je t'as indiqué d'aller avec eux au bunker au cas où on "
+"n'aurais besoin de ton aide."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45:0
+#, fuzzy
 msgid "Oh, yeah, I forgot."
-msgstr ""
+msgstr "Ha oui, c'est vrai, j'avais oublié."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10
+#, fuzzy
 msgid "What a beautiful view from here."
-msgstr ""
+msgstr "Quelle belle vue d'ici."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10:0
+#, fuzzy
 msgid "Is that a skeleton that I see behind the hill?"
-msgstr ""
+msgstr "Est-ce que c'est un squelette que je vois derrière la colline ?"
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20
+#, fuzzy
 msgid "You think how to lure the skeleton back into the castle."
 msgstr ""
+"Tu réfléchis à un moyen d'attirer le squelette à l'intérieur du château."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20:0
+#, fuzzy
 msgid "I could close the castle gates again."
-msgstr ""
+msgstr "Je pourrais refermer le portail du château."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_22
+#, fuzzy
 msgid "What a strange idea. But who knows, maybe it helps?"
-msgstr ""
+msgstr "Quelle étrange idée. Mais qui c'est, peut-être que ça pourrait aider ?"
 
 #: conversationlist_omifix2.json:capvjern_23
+#, fuzzy
 msgid "Hey, $playername! You're back, where is the general?"
-msgstr ""
+msgstr "Hé, $playername ! Tu es de retour, où est le général ?"
 
 #: conversationlist_omifix2.json:capvjern_24
+#, fuzzy
 msgid "It sure took you a while. What happened?"
-msgstr ""
+msgstr "Ça t'as pris un moment, c'est certain. Que c'est-il passé ?"
 
 #: conversationlist_omifix2.json:capvjern_24:0
+#, fuzzy
 msgid "General Ortholion was almost murdered by Ehrenfest, but I was there to save him."
 msgstr ""
+"Le général Ortholion a presque été assassiné à Ehrenfest, mais j'étais là "
+"pour lui sauver la vie."
 
 #: conversationlist_omifix2.json:capvjern_24:1
+#, fuzzy
 msgid "I killed Kamelio. Twice."
-msgstr ""
+msgstr "J'ai tué Kamelio. Deux fois."
 
 #: conversationlist_omifix2.json:capvjern_25a
+#, fuzzy
 msgid "You sure are brave enough, kid. I hope you'll be staying around for a while."
 msgstr ""
+"Tu es très certainement brave, gamin. J'espère que tu resteras dans le coin "
+"un moment."
 
 #: conversationlist_omifix2.json:capvjern_25a:1
+#, fuzzy
 msgid "I don't think the job is paid well enough."
-msgstr ""
+msgstr "Je ne pense pas que le travail soit assez bien payé."
 
 #: conversationlist_omifix2.json:capvjern_25a:2
+#, fuzzy
 msgid "Sorry, but I must do as I was told and find my brother Andor."
 msgstr ""
+"Désolé, mais je dois faire comme on me l'a ordonné et trouver mon frère "
+"Andor."
 
 #: conversationlist_omifix2.json:capvjern_25b
+#, fuzzy
 msgid "You WHAT?!"
-msgstr ""
+msgstr "Tu quoi ?!"
 
 #: conversationlist_omifix2.json:capvjern_25b:0
+#, fuzzy
 msgid "Hey, hey, calm down big man! Let me explain."
-msgstr ""
+msgstr "Hé, hé, calme toi caïd. Laisses moi t'expliquer."
 
 #: conversationlist_omifix2.json:capvjern_25b:1
+#, fuzzy
 msgid "I had no other choice."
-msgstr ""
+msgstr "Je n'avais pas d'autre choix."
 
 #: conversationlist_omifix2.json:capvjern_26a
+#, fuzzy
 msgid ""
 "Ha HA! You want the kid to do your job for free? \n"
 "You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!"
 msgstr ""
+"HA HA ! Tu veux que le gamin fasse ton boulot gratos ?\n"
+"Tu vois, $playername ? Nous n'avons pas commencé à nettoyer l'entrée de la "
+"montagne. Je me demande pourquoi !"
 
 #: conversationlist_omifix2.json:capvjern_26a:0
+#, fuzzy
 msgid "Do you need any help with that?"
-msgstr ""
+msgstr "Vous avez besoin d'aide pour ça ?"
 
 #: conversationlist_omifix2.json:capvjern_26b
+#, fuzzy
 msgid ""
 "Calm down, Jern. \n"
 "\n"
 "Kamelio, alive? How? Where?"
 msgstr ""
+"Du calme Jern.\n"
+"\n"
+"Kamelio, en vie ? Comment ? Où ça ?"
 
 #: conversationlist_omifix2.json:capvjern_26b:0
+#, fuzzy
 msgid "Deep in a cave below the Elm mine."
-msgstr ""
+msgstr "Au fond d'une cave, sous la mine de Elm."
 
 #: conversationlist_omifix2.json:capvjern_26c
+#, fuzzy
 msgid "Explain, explain it already!"
-msgstr ""
+msgstr "Explique, explique moi ça maintenant !"
 
 #: conversationlist_omifix2.json:capvjern_27a
+#, fuzzy
 msgid "We have more important matters to attend. Now, where is the general? What about the workers of the mine?"
 msgstr ""
+"Nous avons plus important à faire. Maintenant, où est le général ? Qu'en est-"
+"il des travailleurs de la mine ?"
 
 #: conversationlist_omifix2.json:capvjern_27a:0
+#, fuzzy
 msgid "Uh ... The general will certainly let you know in full detail ... Soon enough."
 msgstr ""
+"Euh... Le général vous fera sans doute connaître les moindres détails... "
+"D'ici peu."
 
 #: conversationlist_omifix2.json:capvjern_27a:1
+#, fuzzy
 msgid "No survivors, except Arghest. Many Feygard soldiers have fallen too."
 msgstr ""
+"Aucun survivant, en dehors d'Arghest. De nombreux soldats de Feygard sont "
+"aussi tombés au combat."
 
 #: conversationlist_omifix2.json:capvjern_27b
+#, fuzzy
 msgid "For the Shadow, tell me why you had to kill my beloved friend!! "
-msgstr ""
+msgstr "Part l'Ombre, dis moi pourquoi tu devais tué mon cher ami !! "
 
 #: conversationlist_omifix2.json:capvjern_27b:0
+#, fuzzy
 msgid "It was me or him. He was no longer your friend."
-msgstr ""
+msgstr "C'était lui ou moi. Ce n'était plus ton ami depuis longtemps."
 
 #: conversationlist_omifix2.json:capvjern_27b:1
+#, fuzzy
 msgid "I am truly sorry, but he did try to kill us too."
-msgstr ""
+msgstr "Je suis vraiment désolé, mais il a essayé de nous tuer."
 
 #: conversationlist_omifix2.json:capvjern_28a
+#, fuzzy
 msgid "That's absurd! Kamelio?! Trying to kill a kid? Be reasonable, $playername. We cannot simply believe that."
 msgstr ""
+"C'est absurde ! Kamelio ? Essayant de tuer un gosse ? Soit raisonnable, $"
+"playername. On ne peux simplement pas croire à cela."
 
 #: conversationlist_omifix2.json:capvjern_28a:0
+#, fuzzy
 msgid "Kamelio was no longer the person you knew."
-msgstr ""
+msgstr "Kamelio n'était plus la personne que tu as connu."
 
 #: conversationlist_omifix2.json:capvjern_28a:1
+#, fuzzy
 msgid "General Ortholion was there."
-msgstr ""
+msgstr "Le général Ortholion était présent."
 
 #: conversationlist_omifix2.json:capvjern_28b:0
+#, fuzzy
 msgid "General Ortholion is inside the mine dependencies. I found Kamelio, he tried to kill us but I defeated him."
 msgstr ""
+"Le général Otholion est à l'intérieur de la mine, dans les dépendances. J'ai "
+"trouvé Kamelio, il a essayé de nous tuer mais je l'ai vaincu."
 
 #: conversationlist_omifix2.json:capvjern_28b:1
+#, fuzzy
 msgid "You better ask the general, I am tired already. He is still in the Elm mine celebrating he's still alive."
 msgstr ""
+"Tu devrais questionner le général, je suis las. Il est encore à l'intérieur "
+"de la mine, célébrant d'être encore en vie."
 
 #: conversationlist_omifix2.json:capvjern_28c
+#, fuzzy
 msgid "We will wait for him here, in that case."
-msgstr ""
+msgstr "Dans ce cas, nous allons l'attendre ici."
 
 #: conversationlist_omifix2.json:capvjern_28d
+#, fuzzy
 msgid "You or ...? That's utter nonsense!"
-msgstr ""
+msgstr "Toi ou... Ce sont de parfaites inepties !"
 
 #: conversationlist_omifix2.json:capvjern_29a
+#, fuzzy
 msgid "So? You want me to believe that Kamelio went crazy and tried to kill you?"
 msgstr ""
+"Et alors ? Tu veux me faire croire que Kamelio est devenu fou et a essayé de "
+"te tuer ?"
 
 #: conversationlist_omifix2.json:capvjern_29a:0
+#, fuzzy
 msgid "Believe what you want. I give up."
-msgstr ""
+msgstr "Crois ce que tu veux. J'abandonne."
 
 #: conversationlist_omifix2.json:capvjern_29a:1
+#, fuzzy
 msgid "I am not lying!"
-msgstr ""
+msgstr "Je ne mens pas !"
 
 #: conversationlist_omifix2.json:capvjern_29a:2
+#, fuzzy
 msgid "This is his cloak, right? [Show the Kazarite cloak]"
-msgstr ""
+msgstr "C'est sa cape n'est ce pas ? [Montrant la cape de Kazarite]"
 
 #: conversationlist_omifix2.json:capvjern_30a
+#, fuzzy
 msgid "What in the world ...? It moves!"
-msgstr ""
+msgstr "Nom de dieu... ? Ça bouge !"
 
 #: conversationlist_omifix2.json:capvjern_30a:0
+#, fuzzy
 msgid "Yes. This strange substance was responsible of your friend's behaviour."
 msgstr ""
+"Oui. Cette étrange substance est responsable du comportement de ton ami."
 
 #: conversationlist_omifix2.json:capvjern_30a:1
+#, fuzzy
 msgid "Do you believe me now?"
-msgstr ""
+msgstr "Tu me crois maintenant ?"
 
 #: conversationlist_omifix2.json:capvjern_29b
+#, fuzzy
 msgid "I cannot believe in your words, $playername."
-msgstr ""
+msgstr "Je ne crois pas un mot de ce que tu dis, $playername."
 
 #: conversationlist_omifix2.json:capvjern_30b
+#, fuzzy
 msgid "But the truth is that I can neither believe you killed him for the sake of it. Plus, the General is alive as you say, and it is thanks to you."
 msgstr ""
+"Mais la vérité c'est que je ne peux pas non plus croire que tu l'ai tué bon "
+"sang. De plus, le général est vivant comme tu l'as dis, et c'est grâce à toi."
 
 #: conversationlist_omifix2.json:capvjern_29c
+#, fuzzy
 msgid "Speak for yourself, cap! I'll head to the mine."
-msgstr ""
+msgstr "Parle pour toi, capitaine ! Je me dirige vers la mine."
 
 #: conversationlist_omifix2.json:capvjern_29c:0
+#, fuzzy
 msgid "You are needed here more."
-msgstr ""
+msgstr "On a plus besoin de toi ici."
 
 #: conversationlist_omifix2.json:capvjern_29c:1
+#, fuzzy
 msgid "The mine is no longer a safe place."
-msgstr ""
+msgstr "La mine n'est à présent plus une zone sûre."
 
 #: conversationlist_omifix2.json:capvjern_30c
+#, fuzzy
 msgid "Hmpf ... You know what? Right, someone has to patrol this settlement."
 msgstr ""
+"Rreuhh... Tu sais quoi ? Très bien, quelqu'un doit patrouiller au sein de "
+"cette colonie."
 
 #: conversationlist_omifix2.json:capvjern_31a
+#, fuzzy
 msgid "Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside."
 msgstr ""
+"Prends cette vieille clé. Je travaillais aux mines quand j'étais plus jeune. "
+"Je suis certain qu'il y avait un coffre de ravitaillement quelque part à "
+"l'intérieur."
 
 #: conversationlist_omifix2.json:capvjern_32a
+#, fuzzy
 msgid ""
 "Thank you again. \n"
 "\n"
 " *looks at the captain* I'll be going."
 msgstr ""
+"Encore merci.\n"
+"\n"
+"*Regarde le capitaine. Je vais y aller."
 
 #: conversationlist_omifix2.json:capvjern_32a:1
 #: conversationlist_omifix2.json:capvjern_32c:1
+#, fuzzy
 msgid "Good luck in your shift."
-msgstr ""
+msgstr "Bonne chance pour ton service."
 
 #: conversationlist_omifix2.json:capvjern_30d
+#, fuzzy
 msgid ""
 "I can believe that.\n"
 "\n"
 "Jern, let Feygard folks take care of the mine for a while, we have a lot to do here."
 msgstr ""
+"Je n'y crois pas.\n"
+"\n"
+"Jern, laisses dont faire les gens de Feygard prendre soin de cette mine pour "
+"le moment, nous avons tant à faire ici."
 
 #: conversationlist_omifix2.json:capvjern_31b
+#, fuzzy
 msgid "[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?"
 msgstr ""
+"[regardant la cape] Je n'ai jamais vu ça avant. Même à l'époque où je "
+"travaillais ici. Pour l'amour de dieu qu'est ce que cette chose ?"
 
 #: conversationlist_omifix2.json:capvjern_32b
+#, fuzzy
 msgid "[looks at you]"
-msgstr ""
+msgstr "[te regardant]"
 
 #: conversationlist_omifix2.json:capvjern_33
+#, fuzzy
 msgid "[stares at the cloak again]"
-msgstr ""
+msgstr "[regardant à nouveau la cape]"
 
 #: conversationlist_omifix2.json:capvjern_34
+#, fuzzy
 msgid "[stares at you again]"
-msgstr ""
+msgstr "[te regardant à nouveau]"
 
 #: conversationlist_omifix2.json:capvjern_34:1
+#, fuzzy
 msgid "You alright?"
-msgstr ""
+msgstr "Tout va bien ?"
 
 #: conversationlist_omifix2.json:capvjern_35
+#, fuzzy
 msgid "[puts his hand over the captain's shoulder] Hey, captain, wake up."
 msgstr ""
+"[mettant la main sur l'épaule du capitaine] Hé, capitaine, réveillez-vous."
 
 #: conversationlist_omifix2.json:capvjern_35:0
+#, fuzzy
 msgid "[Put the cloak away]"
-msgstr ""
+msgstr "[Mettant de côté la cape]"
 
 #: conversationlist_omifix2.json:capvjern_36
+#, fuzzy
 msgid ""
 "... \n"
 "\n"
 "It is un...unbearable."
 msgstr ""
+"...\n"
+"\n"
+"C'est in... insupportable."
 
 #: conversationlist_omifix2.json:capvjern_37
+#, fuzzy
 msgid ""
 "[breathing heavily] That ... that substance is dangerous!\n"
 "\n"
 "$playername, you must destroy the cloak!"
 msgstr ""
+"[respirant bruyamment] Cette... cette substance est dangereuse !\n"
+"\n"
+"$playername, tu dois détruire cette cape !"
 
 #: conversationlist_omifix2.json:capvjern_37:0
+#, fuzzy
 msgid "The mine is full of it! Do you believe me now?"
-msgstr ""
+msgstr "La mine en est remplie ! Vous me croyez maintenant ?"
 
 #: conversationlist_omifix2.json:capvjern_38
+#, fuzzy
 msgid "I do. [looks at Jern] I do believe in what the kid says."
-msgstr ""
+msgstr "Je te crois. [regarde Jern] Je crois que ce que ce gamin raconte."
 
 #: conversationlist_omifix2.json:capvjern_39
+#, fuzzy
 msgid "Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!"
 msgstr ""
+"Grrr... Allons à la mine dans ce cas. Nous devons ramener le corps de "
+"Kamelio et lui offrir une sépulture décente !"
 
 #: conversationlist_omifix2.json:capvjern_39:0
+#, fuzzy
 msgid "It is too dangerous, you mustn't go."
-msgstr ""
+msgstr "C'est trop dangereux, tu ne devrais pas y aller."
 
 #: conversationlist_omifix2.json:capvjern_39:1
+#, fuzzy
 msgid "Trained soldiers were lost down there. Let General's men handle this."
 msgstr ""
+"Des soldats aguerris sont tombé là-bas. Laisse les hommes du général "
+"s'occuper de ça."
 
 #: conversationlist_omifix2.json:capvjern_40
+#, fuzzy
 msgid "So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there."
 msgstr ""
+"Donc tu suggères quoi ? Rester ici sans rien faire ? Je ne vais PAS "
+"abandonner les corps de mes amis là bas."
 
 #: conversationlist_omifix2.json:capvjern_40:0
+#, fuzzy
 msgid "What about those who are alive here?"
-msgstr ""
+msgstr "Quand est-il de ceux qui sont encore en vie ?"
 
 #: conversationlist_omifix2.json:capvjern_40:1
+#, fuzzy
 msgid "Do not lose your life for a bunch of dead bones. You must live for your friends."
 msgstr ""
+"Ne perds pas la vie pour quelques squelettes. Tu dois à tes amis de vivre."
 
 #: conversationlist_omifix2.json:capvjern_41
+#, fuzzy
 msgid "I'll wait here. Farewell, $playername."
-msgstr ""
+msgstr "J'attendrais ici. Adieu, $playername."
 
 #: conversationlist_omifix2.json:capvjern_41:2
+#, fuzzy
 msgid "As useful as always, captain."
-msgstr ""
+msgstr "Toujours aussi utile, capitaine."
 
 #: conversationlist_omifix2.json:capvjern_32c
+#, fuzzy
 msgid ""
 "Thank you again.\n"
 "\n"
 "[looks at the captain] I'll be going."
 msgstr ""
+"Encore merci.\n"
+"\n"
+"[regardant le capitaine] Je vais y aller."
 
 #: conversationlist_omifix2.json:ortholion_guard_0e
+#, fuzzy
 msgid "No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?"
 msgstr ""
+"Non, gamin, je n'ai rien à échanger pour le moment. J'en ai assez de cet "
+"endroit. Les montagnes c'est pas mon truc, tu sais ?"
 
 #: conversationlist_omifix2.json:ortholion_guard_0e:0
+#, fuzzy
 msgid "I have a very important message fr..."
-msgstr ""
+msgstr "J'ai un message très important fr..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e
+#, fuzzy
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
 msgstr ""
+"Je préfère les grandes plaines paisibles, toujours paisibles de Loneford... "
+"Oui, toujours calmes et silencieuses..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e:0
+#, fuzzy
 msgid "But General Orth..."
-msgstr ""
+msgstr "Mais général Orth..."
 
 #: conversationlist_omifix2.json:ortholion_guard_2e
+#, fuzzy
 msgid ""
 "Ah! The soft breeze of the coast, the vivid life of the port of Feygard ... \n"
 "\n"
 "[The soldier continues lamenting and completely ignores your presence]"
 msgstr ""
+"Ha ! La douce brise de la côte, la vie fertile dans le port de Feygard...\n"
+"\n"
+"[Le soldat continue à se lamenter et ignore complètement ta présence]"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:0
+#, fuzzy
 msgid "Hey, pay attention!"
-msgstr ""
+msgstr "Et, fais attention !"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
+#, fuzzy
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "Très bien, j'abandonne. Essayons avec quelqu'un d'autre."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
+#, fuzzy
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
 msgstr ""
+"Je déteste servir d'escorte lors de ses déplacements. Ce n'est pas comme si "
+"le général avait vraiment besoin de nous."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9
+#, fuzzy
 msgid "The trip here was anything but safe. I miss my former post in Crossglen."
 msgstr ""
+"Ce voyage était tout sauf sécurisé. Je regrette mon ancien poste à Crossglen."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9:0
+#, fuzzy
 msgid "Oh, so you are one of those good for nothing, always drunk, soldiers?"
-msgstr ""
+msgstr "Oh, tu es donc un de ses soldats, bons à rien, toujours ivres ?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10
+#, fuzzy
 msgid "Yes sir, I w... Hey! What did you just say?"
-msgstr ""
+msgstr "Oui monsieur, je s... Hé ! Qu'est ce que vous venez de dire ?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:0
+#, fuzzy
 msgid "I have important information to deliver!"
-msgstr ""
+msgstr "J'ai une information importante à transmettre !"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:1
+#, fuzzy
 msgid "I am proud of you, drunkard. Where's your boss?"
-msgstr ""
+msgstr "Je suis fier de toi, pochtron? Où est ton chef ?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a
+#, fuzzy
 msgid "Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*."
 msgstr ""
+"Qu'importe ce dont il s'agit, ça ne me regarde pas. Va parler avec notre "
+"guide de montagne, c'est elle la responsable, *hic*."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:0
+#, fuzzy
 msgid "Blackwater brew, eh? Truly disappointing. Goodbye."
-msgstr ""
+msgstr "La bière de Blackwater hein ? Vraiment décevant. Au revoir."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:1
+#, fuzzy
 msgid "OK sir, many thanks."
-msgstr ""
+msgstr "Très bien monsieur, merci bien."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b
+#, fuzzy
 msgid ""
 "[looks at you perplexed] Uhh... *hic* Over there. \n"
 "\n"
 "*points at the mountain scout*"
 msgstr ""
+"[te regarde perplexe] Euh... *hic* Par ici.\n"
+"\n"
+"*Pointe la guide de montagne*"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:0
+#, fuzzy
 msgid "Finally, bye."
-msgstr ""
+msgstr "Enfin, au revoir."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
+#, fuzzy
 msgid "Thanks, and sleep it off... Sigh."
-msgstr ""
+msgstr "Merci, et cuve bien... *Soupire*."
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -58347,8 +59208,9 @@ msgid "Big torch"
 msgstr "Grande torche"
 
 #: itemcategories_mt_galmore.json:animal_usable
+#, fuzzy
 msgid "Usable animal part"
-msgstr ""
+msgstr "Partie de l'animal utilisable"
 
 #: itemlist_money.json:gold
 #: itemlist_stoutford_combined.json:erwyn_coin
@@ -58536,12 +59398,14 @@ msgid "Ring of damage +6"
 msgstr "Anneau de dégât +6"
 
 #: itemlist_rings.json:ring_block1
+#, fuzzy
 msgid "Lesser ring of block"
-msgstr "Anneau de blocage"
+msgstr "Anneau de blocage inférieur"
 
 #: itemlist_rings.json:ring_block2
+#, fuzzy
 msgid "Polished ring of block"
-msgstr "Anneau de blocage"
+msgstr "Anneau de blocage poli"
 
 #: itemlist_rings.json:ring_atkch1
 msgid "Ring of surehit"
@@ -59259,6 +60123,7 @@ msgid "Ring of the guardian"
 msgstr "Anneau du Gardien"
 
 #: itemlist_v0610_1.json:ring_block
+#, fuzzy
 msgid "Ring of block"
 msgstr "Anneau de blocage"
 
@@ -60497,7 +61362,9 @@ msgstr "Epée des chasseurs"
 
 #: itemlist_arulir_mountain.json:hunters_sword:description
 msgid "When venery is your game, you need a superior sword."
-msgstr "Lorsque la chasse à courre est votre jeu, vous avez besoin d'une épée de qualité supérieure."
+msgstr ""
+"Lorsque la chasse à courre est votre passe-temps, vous avez besoin d'une "
+"épée de qualité supérieure."
 
 #: itemlist_arulir_mountain.json:lava_rock_hot
 msgid "Fierce Lava Rock"
@@ -60545,7 +61412,7 @@ msgstr "Haubert de géant"
 
 #: itemlist_arulir_mountain.json:gold_bar
 msgid "Gold bar"
-msgstr "Barre en or"
+msgstr "Lingot d'or"
 
 #: itemlist_arulir_mountain.json:gold_bar:description
 msgid "A small bar made of shining gold."
@@ -60553,7 +61420,7 @@ msgstr "Une petite barre faite d'or brillant."
 
 #: itemlist_arulir_mountain.json:lead_bar
 msgid "Lead bar"
-msgstr "Barre en plomb"
+msgstr "Lingot de plomb"
 
 #: itemlist_arulir_mountain.json:lead_bar:description
 msgid "A small bar made of lead."
@@ -61305,23 +62172,27 @@ msgstr "Soupe forestière de Gison et Nimael"
 
 #: itemlist_fungi_panic.json:soup_forest:description
 msgid "A delicious soup."
-msgstr ""
+msgstr "Une soupe délicieuse."
 
 #: itemlist_gison.json:gael_purse
+#, fuzzy
 msgid "Snake leather purse"
-msgstr ""
+msgstr "Bourse en peau de serpent"
 
 #: itemlist_gison.json:gison_soup
+#, fuzzy
 msgid "Gison's mushroom soup"
-msgstr ""
+msgstr "Soupe aux champignons de Gison"
 
 #: itemlist_gison.json:gison_soup:description
+#, fuzzy
 msgid "A delicious smelling soup."
-msgstr ""
+msgstr "Une délicieuse et odorante soupe."
 
 #: itemlist_gison.json:bottle_empty
+#, fuzzy
 msgid "Empty bottle"
-msgstr ""
+msgstr "Bouteille vide"
 
 #: itemlist_gison.json:lithic_scale
 msgid "Lithic scales"
@@ -61332,10 +62203,12 @@ msgid "Brittle scales from the Stoneworm."
 msgstr ""
 
 #: itemlist_gison.json:gison_cookbook
+#, fuzzy
 msgid "Fabulous cookings"
-msgstr ""
+msgstr "Les recettes fabuleuses"
 
 #: itemlist_gison.json:gison_cookbook:description
+#, fuzzy
 msgid ""
 "Fabulous recipes gathered by the Bogsten family\n"
 "\n"
@@ -61390,499 +62263,708 @@ msgid ""
 "Cook slowly, add starch at end to thicken\n"
 ""
 msgstr ""
+"Les fabuleuses recettes rassemblées par la famille Bogsten\n"
+"\n"
+"(1) Les crêpes d'Ed\n"
+"\n"
+"200 gr de farine de blé\n"
+"1 sachet de levure\n"
+"60 granmmes de sucre\n"
+"2 oeufs\n"
+"1 litre de lait\n"
+"60 grammes de beurre\n"
+"\n"
+"(2) Lasagnes à la Melanzane\n"
+"\n"
+"Sauce tomate\n"
+"Basilic, ail\n"
+"Huile extra vierge\n"
+"Mozzarella, Parmesan vieux\n"
+"Aubergines\n"
+"\n"
+"(3) Soupe aux champignons\n"
+"\n"
+"Champignons frais de Bogsten\n"
+"2 litres de bouillon de serpent\n"
+"1 litre de crème\n"
+"Des herbes pour aromatiser\n"
+"\n"
+"(4) Onde-onde\n"
+"\n"
+"120 gr de farine de riz\n"
+"120 gr de fleur de maïs\n"
+"45 gr de sucre\n"
+"90 gr d'extrait de feuille de pandan\n"
+"1 morceau de palme à sucre, coupé fin\n"
+"De la poudre de coco deshydratée\n"
+"\n"
+"(5) Ragoût de lapin\n"
+"1 lapin, coupé en morceaux\n"
+"1 pomme de terre, en cubes\n"
+"1 navet, en cubes\n"
+"2 carottes, en rondelles\n"
+"2 panais, en rondelles\n"
+"300 gr de champignons de Bogsten ou de Paris\n"
+"4 gousses de d'ail, pilé\n"
+"120 cl de vin\n"
+"de l'eau pour recouvrir\n"
+"sel\n"
+"poivre\n"
+"1 cube de bouillon de boeuf\n"
+"1/2 cuillère de romarin, haché\n"
+"1/2 cullère de thym, haché\n"
+"Cuire doucement, ajouter l'amidon à la fin pour épaissir\n"
 
 #: itemlist_gison.json:gison_cookbook_2
 msgid "Fabulous cookings (copy)"
-msgstr ""
+msgstr "Les recettes fabuleuses (copie)"
 
 #: itemlist_gison.json:gison_cookbook_2:description
+#, fuzzy
 msgid "This appears to be a perfect copy of the Fabulous cookings cookbook, only lacking the strange writings at the end."
 msgstr ""
+"Ce semble être une copie parfaite du livre de cuisine \"Les recettes "
+"fabuleuses\", il ne manque que les mystérieux écris à la fin."
 
 #: itemlist_gorwath.json:gorwath_letter
+#, fuzzy
 msgid "Gorwath's letter"
-msgstr ""
+msgstr "Lettre de Gorwath"
 
 #: itemlist_gorwath.json:gorwath_letter:description
+#, fuzzy
 msgid "(The letter is sealed so that curious people like you cannot read it)"
 msgstr ""
+"(La lettre est cachetée afin que des personnes curieuses ne puissent la lire)"
 
 #: itemlist_omi2.json:bwm17_vine
+#, fuzzy
 msgid "Rolled up vine"
-msgstr ""
+msgstr "Plante grimpante enroulée"
 
 #: itemlist_omi2.json:bwm17_vine:description
+#, fuzzy
 msgid "Several meters of vine. It can be used as a reliable rope."
 msgstr ""
+"Plusieurs mètres de plante grimpante. Ca pourrait être utilisée pour "
+"confectionner une corde fiable."
 
 #: itemlist_omi2.json:bwm_fish
+#, fuzzy
 msgid "Raw inkyfish"
-msgstr ""
+msgstr "De la sèche (poisson) crue"
 
 #: itemlist_omi2.json:bwm_fish:description
+#, fuzzy
 msgid "When threatened, these fish secrete a dense black substance that darkens the surrounding water, allowing them to escape."
 msgstr ""
+"Lorsque menacé, ses poissons diffuse une substance noire épaisse qui "
+"assombrit les eaux environnantes, leur permettant de s'échapper."
 
 #: itemlist_omi2.json:bwm72_rope
+#, fuzzy
 msgid "Blood-stained rope"
-msgstr ""
+msgstr "Corde tâchée de sang"
 
 #: itemlist_omi2.json:bwm_pick
+#, fuzzy
 msgid "Blackwater rusted pickaxe"
-msgstr ""
+msgstr "Pioche d'Encreau rouillée"
 
 #: itemlist_omi2.json:bwm_pick:description
+#, fuzzy
 msgid "An old, rusted and heavy pickaxe."
-msgstr ""
+msgstr "Une pioche vielle, lourde et rouillée."
 
 #: itemlist_omi2.json:bwm_olm_drop
 msgid "Thin amphibian skin"
-msgstr ""
+msgstr "Mince peau d'amphibien"
 
 #: itemlist_omi2.json:bwm_olm_drop2
+#, fuzzy
 msgid "Wizened amphibian boots"
-msgstr ""
+msgstr "Bottes en peau d'amphibien ratatinées"
 
 #: itemlist_omi2.json:bwm_olm_drop3
 msgid "Battered amphibian gloves"
-msgstr ""
+msgstr "Gants en peau d'amphibien usés"
 
 #: itemlist_omi2.json:bwm_water1
+#, fuzzy
 msgid "Bottle of mountain water"
-msgstr ""
+msgstr "Bouteille d'eau de la montagne"
 
 #: itemlist_omi2.json:bwm_water1:description
 #: itemlist_omi2.json:bwm_water2:description
 #: itemlist_omi2.json:bwm_water1_quest:description
 #: itemlist_omi2.json:bwm_water2_quest:description
 #: itemlist_omi2.json:bwm_water0:description
+#, fuzzy
 msgid "Picked up directly from the heart of the mountain."
-msgstr ""
+msgstr "Remplit récemment directement en plein cœur de la montagne."
 
 #: itemlist_omi2.json:bwm_water2
+#, fuzzy
 msgid "Large bottle of mountain water"
-msgstr ""
+msgstr "Grande bouteille d'eau de la montagne"
 
 #: itemlist_omi2.json:bwm_water1_quest
+#, fuzzy
 msgid "Cold bottle of mountain water"
-msgstr ""
+msgstr "Bouteille d'eau de la montagne froide"
 
 #: itemlist_omi2.json:bwm_water2_quest
+#, fuzzy
 msgid "Cold jar of mountain water"
-msgstr ""
+msgstr "Bocal d'eau fraiche de la montagne"
 
 #: itemlist_omi2.json:venomfang_dagger
+#, fuzzy
 msgid "Venomfang dirk"
-msgstr ""
+msgstr "Dague en crochet de serpent"
 
 #: itemlist_omi2.json:venomfang_dagger:description
+#, fuzzy
 msgid "Fast and accurate, just like serpent's fangs."
-msgstr ""
+msgstr "Rapide et précis, exactement comme des crochets de serpent."
 
 #: itemlist_omi2.json:bwm_olm_boots1
+#, fuzzy
 msgid "Amphibian boots"
-msgstr ""
+msgstr "Des bottes en peau d'amphibien"
 
 #: itemlist_omi2.json:bwm_olm_gloves1
+#, fuzzy
 msgid "Amphibian gloves"
-msgstr ""
+msgstr "Des gants en peau d'amphibien"
 
 #: itemlist_omi2.json:armor5
+#, fuzzy
 msgid "Iced leather armor"
-msgstr ""
+msgstr "Une armure en cuir glacée"
 
 #: itemlist_omi2.json:armor5:description
+#, fuzzy
 msgid "This armor has a permanent layer of snow and ice which somehow never melts."
 msgstr ""
+"Cette armure a une couche de neige et glace permanente, qui va savoir "
+"comment ne fond jamais."
 
 #: itemlist_omi2.json:shield8
+#, fuzzy
 msgid "Iced broken wooden buckler"
-msgstr ""
+msgstr "Bouclier en bois glacé cassé"
 
 #: itemlist_omi2.json:shield8:description
+#, fuzzy
 msgid "Quite resistant despite its apparent frailness and its state. Maybe it's worth fixing."
 msgstr ""
+"Plutôt résistant malgré son apparence dégradé et son état. Peut-être que ça "
+"vaut le coup de le réparer."
 
 #: itemlist_omi2.json:boots7
+#, fuzzy
 msgid "Iced leather boots"
-msgstr ""
+msgstr "Bottes glacées"
 
 #: itemlist_omi2.json:boots7:description
+#, fuzzy
 msgid "These leather boots bright like if they were metallic."
-msgstr ""
+msgstr "Ces bottes en cuir brillent comme si elles étaient métalliques."
 
 #: itemlist_omi2.json:gloves5
+#, fuzzy
 msgid "Iced leather gloves"
-msgstr ""
+msgstr "Gants en cuir glacés"
 
 #: itemlist_omi2.json:gloves5:description
+#, fuzzy
 msgid "You wonder how to lift any weapon while wearing them."
-msgstr ""
+msgstr "Tu te demandes comment réussir à soulever une arme en les revêtant."
 
 #: itemlist_omi2.json:feygard_necklace1
+#, fuzzy
 msgid "Broken Feygard medallion"
-msgstr ""
+msgstr "Médaillon cassé de Feygard"
 
 #: itemlist_omi2.json:ortholion_signet
+#, fuzzy
 msgid "Ortholion's signet"
-msgstr ""
+msgstr "Chevalière d'Ortholion"
 
 #: itemlist_omi2.json:ortholion_signet:description
+#, fuzzy
 msgid "A signet with a blue sapphire mark of Feygard."
-msgstr ""
+msgstr "Une chevalière ornée d'un saphir bleu de Feygard."
 
 #: itemlist_omi2.json:torch
+#, fuzzy
 msgid "Miner's lamp fuel"
-msgstr ""
+msgstr "Lampe à carburant de mineur"
 
 #: itemlist_omi2.json:torch:description
+#, fuzzy
 msgid "Miner's lamp oil with low odor and pollutants. Useful for pitch black tunnels, caves and passages."
 msgstr ""
+"Une lampe de mineur à huile peu odorante et peu polluante. Utile pour les "
+"tunnels, caves et passages dans le noir complet."
 
 #: itemlist_omi2.json:gland2
+#, fuzzy
 msgid "Contaminated poison gland"
-msgstr ""
+msgstr "Glande de poison contaminée"
 
 #: itemlist_omi2.json:gland2:description
+#, fuzzy
 msgid "Unlike normal poison glands, this one is unnaturally cold to the touch. "
 msgstr ""
+"Contrairement aux glandes de poison, celle-ci est anormalement froide au "
+"touché. "
 
 #: itemlist_omi2.json:elm2_key
+#, fuzzy
 msgid "Rusted key"
-msgstr ""
+msgstr "Clé rouillée"
 
 #: itemlist_omi2.json:elm2_key:description
+#, fuzzy
 msgid "A small, rusted key. Judging by its look, it's probably not a door key."
 msgstr ""
+"Une petite clé rouillée. A en juger visuellement, ce n'est probablement pas "
+"une clé de porte."
 
 #: itemlist_omi2.json:bwm_olm_weapon1
+#, fuzzy
 msgid "Amphibian whip"
-msgstr ""
+msgstr "Fouet en peau d'amphibien"
 
 #: itemlist_omi2.json:bwm_olm_weapon1:description
+#, fuzzy
 msgid "Made of stretched olm skin."
-msgstr ""
+msgstr "Fait en peau de salamandre étirée."
 
 #: itemlist_omi2.json:elm_gem
 msgid "Blob of kazarite"
 msgstr ""
 
 #: itemlist_omi2.json:elm_gem:description
+#, fuzzy
 msgid "The Shadow is even in the most unexpected places."
-msgstr ""
+msgstr "L'Ombre se trouve aussi dans les lieux les plus inattendus."
 
 #: itemlist_omi2.json:elm_gem_u
+#, fuzzy
 msgid "Unknown gem (extracted from the Elm mine)"
-msgstr ""
+msgstr "Pierre précieuse inconnue (extraite de la mine d'Elm)"
 
 #: itemlist_omi2.json:elm_gem_u:description
+#, fuzzy
 msgid "It is very cold and very sticky to the touch. It gives a feeling of dizziness when you stare at it."
 msgstr ""
+"C'est très froid et très collant au toucher. Le regarder provoque un effet "
+"d'étourdissement."
 
 #: itemlist_omi2.json:bwm_fish2
+#, fuzzy
 msgid "Cooked inkyfish"
-msgstr ""
+msgstr "Sèche cuisinée (poisson)"
 
 #: itemlist_omi2.json:bwm_fish2:description
+#, fuzzy
 msgid "Typical Blackwater mountain food."
-msgstr ""
+msgstr "Nourriture typique de la montagne d'Encreau."
 
 #: itemlist_omi2.json:bwm_fish3
+#, fuzzy
 msgid "Toasted inkyfish"
-msgstr ""
+msgstr "Sèche grillée (poisson)"
 
 #: itemlist_omi2.json:bwm_fish3:description
+#, fuzzy
 msgid "There are those who prefere it like this."
-msgstr ""
+msgstr "Il y en a qui la préfère ainsi."
 
 #: itemlist_omi2.json:meat3
+#, fuzzy
 msgid "Worm meat"
-msgstr ""
+msgstr "Viande de ver"
 
 #: itemlist_omi2.json:meat3:description
+#, fuzzy
 msgid "Gelatinous, stinky, but nutritious."
-msgstr ""
+msgstr "Gélatineux, puant mais nutritif."
 
 #: itemlist_omi2.json:bwm_water0
+#, fuzzy
 msgid "Small vial of mountain water"
-msgstr ""
+msgstr "Petite fiole d'eau de la montagne"
 
 #: itemlist_omi2.json:elm_mushroom1
+#, fuzzy
 msgid "Boletus spelunca"
-msgstr ""
+msgstr "Bolet spelunca"
 
 #: itemlist_omi2.json:elm_mushroom1:description
+#, fuzzy
 msgid "Rare mushroom only found in caves with high humidity and  temperature."
 msgstr ""
+"Un champignon rare trouvé seulement dans les caves à forte hygrométrie... et "
+"température."
 
 #: itemlist_omi2.json:mace2
+#, fuzzy
 msgid "Elm steel mace"
-msgstr ""
+msgstr "Massue en acier d'Elm"
 
 #: itemlist_omi2.json:mace2:description
+#, fuzzy
 msgid "Elm steel is usually too coarse to make sharp weapons with it, but blunt ones are robust and durable."
 msgstr ""
+"L'acier d'Elm est habituellement trop grossier pour faire des armes "
+"tranchantes, mais les armes contondantes sont solides et durables."
 
 #: itemlist_omi2.json:rock2
+#, fuzzy
 msgid "Large rock"
-msgstr ""
+msgstr "Grande pierre"
 
 #: itemlist_omi2.json:armor6
 msgid "Dented bronze plate"
 msgstr ""
 
 #: itemlist_omi2.json:armor6:description
+#, fuzzy
 msgid "This armor has definitely seen better days."
-msgstr ""
+msgstr "Cette armure a clairement connu des jours meilleurs."
 
 #: itemlist_omi2.json:elm4f3_key
 msgid "Cage passkey"
 msgstr ""
 
 #: itemlist_omi2.json:elm4f3_key:description
+#, fuzzy
 msgid "Heavy, ancient key with a small head, thick shaft and a wide end."
 msgstr ""
+"Ancienne et lourde clé, avec une petite tête, un manche épais et une large "
+"fin."
 
 #: itemlist_omi2.json:skull1
 #: itemlist_haunted_forest.json:human_skull
+#, fuzzy
 msgid "Human skull"
-msgstr ""
+msgstr "Crâne humain"
 
 #: itemlist_omi2.json:spear1
+#, fuzzy
 msgid "Pine spear"
-msgstr ""
+msgstr "Lance en pin"
 
 #: itemlist_omi2.json:spear1:description
+#, fuzzy
 msgid "Prim guard's most common weapon."
-msgstr ""
+msgstr "L'arme la plus commun parmi les gardes de Prim."
 
 #: itemlist_omi2.json:elm_fern
+#, fuzzy
 msgid "Cave fern"
-msgstr ""
+msgstr "Fougère de cave"
 
 #: itemlist_omi2.json:elm_fern:description
+#, fuzzy
 msgid "A fern inside a cave is something unusual, not seen every day."
 msgstr ""
+"Une fougère à l'intérieur d'une cave est quelque chose pour le inhabituel, "
+"on voit pas ça tout les jours."
 
 #: itemlist_omi2.json:yczorah
+#, fuzzy
 msgid "Yczorah tentacle"
-msgstr ""
+msgstr "Tentacule d'Yczorah"
 
 #: itemlist_omi2.json:yczorah:description
+#, fuzzy
 msgid "It spasms."
-msgstr ""
+msgstr "Ça convulse."
 
 #: itemlist_omi2.json:bone2
+#, fuzzy
 msgid "Contaminated bone"
-msgstr ""
+msgstr "Os contaminé"
 
 #: itemlist_omi2.json:yczorah2
+#, fuzzy
 msgid "Yczorah nucleus"
-msgstr ""
+msgstr "Le coeur d'Yczorah"
 
 #: itemlist_omi2.json:yczorah2:description
+#, fuzzy
 msgid "The spherical, polished stone on its tip drags your glance unavoidably towards it."
-msgstr ""
+msgstr "La pierre sphérique et polie attire irrémédiablement ton regard."
 
 #: itemlist_omi2.json:kamelio_drop1
+#, fuzzy
 msgid "Prim arming sword"
-msgstr ""
+msgstr "Épée de Prim"
 
 #: itemlist_omi2.json:kamelio_drop2
+#, fuzzy
 msgid "Fire opal necklace"
-msgstr ""
+msgstr "Collier d'opale de feu"
 
 #: itemlist_omi2.json:kamelio_drop3
+#, fuzzy
 msgid "Kazarite cloak"
-msgstr ""
+msgstr "Cape de Kazarite"
 
 #: itemlist_omi2.json:kamelio_drop3:description
+#, fuzzy
 msgid "This cloak is icy to the touch and unbearable for long periods of time."
 msgstr ""
+"Cette cape est très froide au toucher et insupportable sur de longues "
+"périodes."
 
 #: itemlist_omi2.json:ortholion_reward
+#, fuzzy
 msgid "Ortholion's talisman"
-msgstr ""
+msgstr "Talisman d'Ortholion"
 
 #: itemlist_omi2.json:ortholion_reward:description
+#, fuzzy
 msgid "You feel warm and comfortable while holding it."
-msgstr ""
+msgstr "Tu te sens à l'aise et au chaud lors tu le portes."
 
 #: itemlist_delivery.json:facutloni_docket
+#, fuzzy
 msgid "Facutloni's Docket"
-msgstr ""
+msgstr "Le bordereau de livraison de Facultoni"
 
 #: itemlist_delivery.json:facutloni_docket:description
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
 msgstr "Un document listant le contenu d'une livraison   Arcir, l'amateur de livres de Fallhaven, a commandé un \"vieux livre poussiéreux\".   Edrin le métallurgiste de Brimhaven a commandé un \"marteau à rayures\".   Odirath l'armurier de Stoutford a commandé une \"jolie figurine en porcelaine\".   Venanra, la blanchisseuse de Brimhaven, a commandé une \"vieille cape usée\"   Tjure, le marchand malchanceux, a commandé une \"mystérieuse chose verte\"    Servant le servant du château de Guynmart a commandé un \"chandelier\".   Arghes de la taverne de Remgard a commandé des \"bottes jaunes\".   Wyre la femme endeuillée de Vilegard a commandé une \"lyre\".   Mikhail de Crossglen a commandé un \"oreiller en peluche\".   Pangitain, le diseur de bonne aventure de Brimhaven, a commandé une \"boule de cristal\". "
 
 #: itemlist_sullengard.json:golden_jackal_fur
+#, fuzzy
 msgid "Golden jackal fur"
-msgstr ""
+msgstr "Fourrure de chacal doré"
 
 #: itemlist_sullengard.json:golden_jackal_fur:description
+#, fuzzy
 msgid "A beautiful gold color from a not so beautiful creature."
-msgstr ""
+msgstr "Une splendide couleur dorée d'une créature pas si ravissante."
 
 #: itemlist_sullengard.json:farmer_pitchfork
+#, fuzzy
 msgid "Farmer's pitchfork"
-msgstr ""
+msgstr "Fourche de paysan"
 
 #: itemlist_sullengard.json:farmer_pitchfork:description
+#, fuzzy
 msgid "A must have tool for every farmer."
-msgstr ""
+msgstr "Un outil indispensable à tout paysan."
 
 #: itemlist_sullengard.json:deebo_apples
+#, fuzzy
 msgid "Orchard apples"
-msgstr ""
+msgstr "Verger de pommiers"
 
 #: itemlist_sullengard.json:deebo_apples:description
+#, fuzzy
 msgid "A sweet, deliciously tasting snack for those on the move."
-msgstr ""
+msgstr "Une douce et délicieuse collation pour les personnes sur la route."
 
 #: itemlist_sullengard.json:apple_orchard_juice
+#, fuzzy
 msgid "Deebo's apple juice"
-msgstr ""
+msgstr "Jus de pomme de Deebo"
 
 #: itemlist_sullengard.json:apple_orchard_juice:description
 msgid "A desireable choice of many Sullengard residence."
 msgstr ""
 
 #: itemlist_sullengard.json:apple_orchard_cider
+#, fuzzy
 msgid "Deebo's apple cider"
-msgstr ""
+msgstr "Cidre de Deebo"
 
 #: itemlist_sullengard.json:apple_orchard_cider:description
+#, fuzzy
 msgid "A nice seasonal drink for those slightly colder nights."
-msgstr ""
+msgstr "Une sympathique boisson de saison en ses nuits plutôt fraiches."
 
 #: itemlist_sullengard.json:apple_orchard_pie
+#, fuzzy
 msgid "Deebo's apple pie"
-msgstr ""
+msgstr "Tarte à la pomme de Deebo"
 
 #: itemlist_sullengard.json:apple_orchard_pie:description
+#, fuzzy
 msgid "A slice of Deebo's famous apple pie"
-msgstr ""
+msgstr "Une part de la fameuse tarte à la pomme de Deebo"
 
 #: itemlist_sullengard.json:watermelon_slice
+#, fuzzy
 msgid "Watermelon slice"
-msgstr ""
+msgstr "Tranche de pastèque"
 
 #: itemlist_sullengard.json:watermelon_slice:description
+#, fuzzy
 msgid "Sticky, but delicious. It's like a snack and a drink in one."
 msgstr ""
+"Collant mais délicieux. C'est comme un casse-croûte et une boisson en un."
 
 #: itemlist_sullengard.json:hat_of_protector
+#, fuzzy
 msgid "Hat of the protector"
-msgstr ""
+msgstr "Chapeau du protecteur"
 
 #: itemlist_sullengard.json:sullengrad_bandit_brew
+#, fuzzy
 msgid "Bandit's Brew"
-msgstr ""
+msgstr "Bière de bandit"
 
 #: itemlist_sullengard.json:sullengrad_bandit_brew:description
+#, fuzzy
 msgid "A Thieve's guild original, produced by the Brueria family. It was named in their honor for years of reliable service to Sullengard."
 msgstr ""
+"Un produit authentique de la guilde des voleurs, produite par la famille "
+"Brueria. Elle a été nommé en leur honneur après leurs années de loyaux "
+"services à Sullengard."
 
 #: itemlist_sullengard.json:sullengrad_finest
+#, fuzzy
 msgid "Sullengard's Finest"
-msgstr ""
+msgstr "Premier choix de Sullengard"
 
 #: itemlist_sullengard.json:sullengrad_finest:description
+#, fuzzy
 msgid "A three time winner of the 'Best beer in festival' competition created by the Briwerra family. It as a full-body teast."
 msgstr ""
+"Trois fois lauréat de la \"meilleure bière de festival\", compétition crée "
+"parla famille Briwerra. Fort en bouche."
 
 #: itemlist_sullengard.json:sullengrad_southernhaze
+#, fuzzy
 msgid "Southernhaze"
-msgstr ""
+msgstr "Brouillard du sud"
 
 #: itemlist_sullengard.json:sullengrad_southernhaze:description
+#, fuzzy
 msgid "The reigning champion of the 'Best beer in festival' competition. Product of the Bruyere family"
 msgstr ""
+"Le champion en titre de la compétition \"meilleure bière de festival\". "
+"Produit par la famille Bruyere"
 
 #: itemlist_sullengard.json:sullengard_forest_ale
+#, fuzzy
 msgid "Forest Ale"
-msgstr ""
+msgstr "Bière de forêt"
 
 #: itemlist_sullengard.json:sullengard_forest_ale:description
+#, fuzzy
 msgid "A medium colored brew with all the taste and no bitter aftertaste. Brewed by the Briwerra family."
 msgstr ""
+"Une bière intermédiaire colorée pleine de goûts, et sans amertume en arrière-"
+"bouche. Brassée par la famille Briwerra."
 
 #: itemlist_sullengard.json:sullengard_dark_beer_sour
+#, fuzzy
 msgid "Dark Beer Sour"
-msgstr ""
+msgstr "Bière sombre et acide"
 
 #: itemlist_sullengard.json:sullengard_dark_beer_sour:description
+#, fuzzy
 msgid "Not for the faint of heart, but the Bruyere family takes pride in it."
-msgstr ""
+msgstr "Pas pour les peureux, mais la famille Bruyere en est fière."
 
 #: itemlist_sullengard.json:sullengard_mtn_tj
+#, fuzzy
 msgid "Mountain Top Juice"
-msgstr ""
+msgstr "Jus supérieur de la montagne"
 
 #: itemlist_sullengard.json:sullengard_mtn_tj:description
+#, fuzzy
 msgid "A ltttle and sweet brew. Similiar to mead but not as heavy. This was the first brew ever sold by the Bruyere family."
 msgstr ""
+"Une petite bière douce. Ressemblant à l'hydromel mais pas aussi épais. C'est "
+"la toute première bière vendue par la famille Bruyere."
 
 #: itemlist_sullengard.json:sullengard_spring_squeeze
+#, fuzzy
 msgid "Spring Squeeze"
-msgstr ""
+msgstr "Pression printanière"
 
 #: itemlist_sullengard.json:sullengard_spring_squeeze:description
+#, fuzzy
 msgid "A little bit of spring in every sip. Brewed by the Brewere family."
 msgstr ""
+"Un petit goût de printemps à chaque gorgée. Brassé par la famille Brewere."
 
 #: itemlist_sullengard.json:pig_bone
+#, fuzzy
 msgid "Pig's bone"
-msgstr ""
+msgstr "Os de cochon"
 
 #: itemlist_sullengard.json:pig_bone:description
+#, fuzzy
 msgid "All that remains of the poor pig."
-msgstr ""
+msgstr "Tout cela me rappelle ce pauvre cochon."
 
 #: itemlist_sullengard.json:gloriosa_mushroom
+#, fuzzy
 msgid "Gloriosa mushroom"
-msgstr ""
+msgstr "Champignon Glorosia"
 
 #: itemlist_sullengard.json:gloriosa_mushroom:description
+#, fuzzy
 msgid "A very poisonous mushroom to humans and most animals."
-msgstr ""
+msgstr "Un champignon très toxique pour les humains et la plupart des animaux."
 
 #: itemlist_sullengard.json:gloriosa_mushroom_soup
+#, fuzzy
 msgid "Gloriosa mushroom soup"
-msgstr ""
+msgstr "Soupe de champignon Glorosia"
 
 #: itemlist_sullengard.json:gloriosa_mushroom_soup:description
+#, fuzzy
 msgid "A delicious but rare soup perfected by Nimael."
-msgstr ""
+msgstr "Une délicieuse mais rare soupe confectionnée par Nimael."
 
 #: itemlist_sullengard.json:zaccheria_inventory
+#, fuzzy
 msgid "Zaccheria's shop inventory"
-msgstr ""
+msgstr "Inventaire du magasin de Zaccheria"
 
 #: itemlist_sullengard.json:zaccheria_inventory:description
+#, fuzzy
 msgid "A sack of the armory shop owner, Zaccheria's stolen inventory."
 msgstr ""
+"Un sac du propriétaire du magasin d'armurerie, sur l'inventaire volé de "
+"Zaccheria."
 
 #: itemlist_sullengard.json:war_axe_shadow
+#, fuzzy
 msgid "War Axe of the Shadow"
-msgstr ""
+msgstr "Hache de guerre de l'Ombre"
 
 #: itemlist_sullengard.json:great_axe_of_bp
+#, fuzzy
 msgid "Greataxe of broken promises"
-msgstr ""
+msgstr "Merveilleusehache de promesses brisées"
 
 #: itemlist_sullengard.json:great_axe_of_bp:description
+#, fuzzy
 msgid "It promised to save lives, but instead it takes them."
-msgstr ""
+msgstr "Ça promettait de sauver des vies, mais à la place ça les prends."
 
 #: itemlist_sullengard.json:dark_heart_sword
+#, fuzzy
 msgid "Darkheart broadsword"
-msgstr ""
+msgstr "Large épée de Darkheart"
 
 #: itemlist_sullengard.json:thunderguard_2h_sword
+#, fuzzy
 msgid "Thunderguard Copper sword"
-msgstr ""
+msgstr "Épée en cuivre de Thunderguard"
 
 #: itemlist_sullengard.json:branch_of_twilight
 msgid "Branch of twilight"
@@ -61893,8 +62975,9 @@ msgid "Soul rapier"
 msgstr ""
 
 #: itemlist_sullengard.json:thieve_clock_whispers
+#, fuzzy
 msgid "Thieves' cloak of whispers"
-msgstr ""
+msgstr "La cape de discrétion des voleurs"
 
 #: itemlist_sullengard.json:thieve_clock_whispers:description
 msgid "A thief's right of passage."
@@ -62287,8 +63370,11 @@ msgid "Cursed rat fang"
 msgstr ""
 
 #: itemlist_mt_galmore.json:cursed_fang:description
+#, fuzzy
 msgid "A tooth from a rabid Nightfur rat. Cursed with rabies which has debilitating effects on the diseased."
 msgstr ""
+"Une dent de rat enragé de Nightfur. Maudit avec la Rage, qui a un effet "
+"affaiblissant sur la maladie."
 
 #: itemlist_mt_galmore.json:garnet_stone
 msgid "Garnet stone"
@@ -62339,8 +63425,10 @@ msgid "Hexapede crawler slime"
 msgstr ""
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime:description
+#, fuzzy
 msgid "Provides temporary immunity to Rootsnare, but at a cost."
 msgstr ""
+"Provoque une immunité temporaire aux Racines Piégées, mais à un certain prix."
 
 #: itemlist_mt_galmore.json:hexi_egg
 msgid "Hexi egg"
@@ -66040,12 +67128,14 @@ msgid "Trained mountain wolf"
 msgstr ""
 
 #: monsterlist_omi2.json:slippery_venomfang
+#, fuzzy
 msgid "Slippery Venomfang"
-msgstr ""
+msgstr "Un crochet de serpent glissant"
 
 #: monsterlist_omi2.json:noxious_venomfang
+#, fuzzy
 msgid "Noxious venomfang"
-msgstr ""
+msgstr "Un crochet de serpent venimeux"
 
 #: monsterlist_omi2.json:bwm_olm1
 msgid "Dun olm"
@@ -66167,12 +67257,14 @@ msgid "Prim guard skeleton"
 msgstr ""
 
 #: monsterlist_omi2.json:elm_yczorah1
+#, fuzzy
 msgid "Yczorah marauder"
-msgstr ""
+msgstr "Maraudeur d'Yczorah"
 
 #: monsterlist_omi2.json:elm_yzczorah2
+#, fuzzy
 msgid "Yczorah"
-msgstr ""
+msgstr "Yczorah"
 
 #: monsterlist_omi2.json:kamelio
 msgid "Kamelio"
@@ -66837,8 +67929,9 @@ msgstr ""
 #: monsterlist_mt_galmore.json:wicked_witch_first
 #: monsterlist_mt_galmore.json:wicked_witch_second
 #: monsterlist_mt_galmore.json:wicked_witch_third
+#, fuzzy
 msgid "Bonicksa"
-msgstr ""
+msgstr "Bonicksa"
 
 #: monsterlist_mt_galmore.json:sutdover_fisherman
 msgid "Isobel"
@@ -66921,8 +68014,9 @@ msgid "Brown cat"
 msgstr ""
 
 #: monsterlist_mt_galmore.json:blue_cat
+#, fuzzy
 msgid "Old Blue"
-msgstr ""
+msgstr "Old Blue"
 
 #: monsterlist_mt_galmore.json:stoneclaw_prowler
 msgid "Stoneclaw prowler"
@@ -72201,4 +73295,3 @@ msgstr "Sullengard"
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr "Verger de Deebo"
-
