@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="16">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,75 +183,133 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <layer id="1" name="Ground" width="20" height="20">
+ <layer id="1" name="Ground" width="30" height="33">
   <data encoding="base64" compression="zlib">
-   eJxbx8TAsI4APgjEGzmJw4TMWg/El6loHiluI2QeqW4jZB6pbsNn3kEy3IbLPHLNQjfvAIVmgfABJHMuUWgWCF9CMucJhWaB8BMqmTOKR/FwxADSlCJy
+   eJztls0NwyAMhSNu3f/aFZIoE0BHIF2BQYoUrLqWDRgQ7aGHp0QK8Yftx89xW5bjr+m6m0szmTbytiiXnjP5wVyCOTwm5w5z+Hbff1EzfQC+Bx/O8IFNLOCdUc9O7obWkFQ/n1jA6/Xfat5c0C7EDAyvtc8arvRv7XiuxlSanmv9xeWqyXlv9JfErMnZpjy1/qIMvDa1fW5lroSl7fOI+lLuyJylXHu8PcJPNGfc/57zoMStUcscqG+5nDh/5+agzVeKD/tQboyWL3kKn3OhowclLj1TQyUvl3tuv8bjalk4ruT50n7NxXIopvQd7hmwN3PcUMHFsU4U0zEsfM/w6V3rLWs+70gByZN54O/a9U25HsVzjIDZ42moO1dnWmMqO5j7AnLjyqg=
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="20">
+ <layer id="2" name="Objects" width="30" height="33">
   <data encoding="base64" compression="zlib">
-   eJyVlLEKwjAQhs+CD5CClQ7tM/jOrs7VwVkQHXSpiOJYqi59BHPUI38vKcaDEJImX/77LylRXGzzvq8N0TojKlKiMu3nHiYSAnG0vMt3H/M4bnbunQ/7mFglwzHzngHWO5KHGlEfMl95P/5XW2ccrzWOeYj0sDNOy0vpk4j1T2uTeuwtr4FzYvxD1nFk3SXAjNGFscv8M5ZTx8SYJ44l/jbKZ/RO65b6CmeRhjVNSqKkdLzzLLyuC9QY68hR2/0VtA3cFVwvfZX57ZqFz9L5HgqbczFkog/aK/mGbHwbmIeMuZ1gvdShVWzRIjz2Wuf6zP1zxoLvWmP8t4H778Zn1T/eIfK0PpyTfPRavCvs5aAexmcyQ/aE/ND6db5ap85/jN2qf/PY2R83yaH6
+   eJydVr1uE0EQXh1Q410nF10aIloKGt4gdSpaeAUegQIegwrlEagsFJpItgORC5ACiVAQsSAR2InEAwA7uhvfd3Mze7Y/6bR3+zPf/O85V2JSlOOf4Nwsvs+LemTQ93V8zpWR9rEMOf8k1Od536SweZBvDjLniTO4fg3zk6IpL4XfXuf/KeZHvsmp+Qd1/Bv3H3Rws54h1HNj4GGbZon3uWE3ykpB8kg/L+Z828+4n+d9Zcs0szm1cwi2A/XHuND6GfjpGGQcwRnW4UccL31zD8vz4PuBb8cTMfS1LlYMrLzWkDqLdcN41C/n0ZYRvGs6o0zKxyuREyfw/UusobwjwyYrB8lXMv9e9Or3jeBUaD5IYRV/d3Fg7rion8+65d/adu72tu2fQVHmnwTX/LjqExrP6zvl+EWp437k3IjPZnzeFnWub2Uln6bPSJGDfW1ZoJy+iKM34mrlJtXRMNGnTqu1w9y5hyDb8pmUz+shtONO+fgZuD8JWW8Sdc33w6us2etIL5n3bN/7Jfox4bDiIZs1oL843gs9jRruugc1nCg9fyr40H8T8K3W11PIK5lo8zLxZZ6x6M2czzdL+pyh3T0E2Tc13brs7gsbv4bmN2Pg2/LPhexLsWeV+kVwjnOdHRTNOHb9q1n2fhd9gG3kGqMcvxf37ITmPOMBnD8zcmwdnCr58MHXvZaA97y0W9ZwLnq71qu7MIu27kf+l73mvPXP2QV533ANHINPL+B9asS2i3ML/q9SkLHVdCNMRL4v9AP5Ka4L4+7R8G+zHPHOx3xeJ46EzOjZjLtxvafsWbd+n1X+CB281Gt28rKWqLcNld5uYU/x+fPqHrift+8ExMdQ9hisu2++Xb94nnQlmXvin2ZV8D26K/7jUN9dRe7TFbmsXHkc5byrOOn++A9zST7f
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="20">
+ <layer id="10" name="Objects2" width="30" height="33" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytU7ENgDAMyxVIDP1/gBPY+AAm2OASioSlEpLWULxUpLXjuFSEw9g8a0srsrb3lcEctSalx3Jz3oYKDcDyVgN4Q0YemPwYb1/uoDY3xhfTY7402PxLmp7OFkT2wPXQKN2jd/4tz0IXPffh+d5yOXh72g++WY/wYmmma+3cmv+HluVPz4N6+q9YWWrNUwMcqx/jP5efp83MinO6htnZd5HyD0WzbSY=
+   eJztz0ENACAMxdBvABJ2w78bvOyCgo0jBkZC+gw0lW7bpDVUzmd982j52+1NGwAAAADwvwC6rQMl
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="20" visible="0">
+ <layer id="3" name="Above" width="30" height="33">
   <data encoding="base64" compression="zlib">
-   eJy1lMENACAIA5nC/VdgQ78+FA8oTfzZS2lQX2YOzynqobwuc4KlmjlSJ9uLrcpWZSlmJrkoj2S63aGZaGaFN9tThkW6qu4c9VNmVdOs33uNep74X6pcytgNSqo+
+   eJytVltuwzAMK3KIAjl7sYMMGPLTGyy/ySnWA6z+MKZpJEWhI1A0jVVRD1r2tl4ux/Nzhu8M9h7hIHbbWtt0far108gLYRN20c+x4veOv9vy8/y2/F1nPKfx3M158jOeCVaXaZvXPwzu/cr9RTg5qX7k35+Al9miNaURx19Hj8rfu1GLARXv1CLSIfLnxM5sboRj6CBrXnHE9eEzx/71XHusvD736+9vhycC5aHqF3nXResv8ztA+yhi8KE+M226QPVTvZt9duyZVgbizHL2UdXnDlSt9xQL443zbEDlOlH1LcYW9bWFPRWROdWZlHPO3JGPxRbzVYhcM47OvHX0gOqde4X6XJ0r7J1CrjWbI6iP7KyMUNpSWnbmWY7N4ez4ru5GFdicfoWfxeHsYaTtDn/33nwH86DL7d7b4/6pzreKf0/zRME9S5HvjP88J7I/5TvPz8pXh4v9r+qBe0difXc0gPYy02xGt+8RSAOv+HMxcpv76Rv2fL3T
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="west" type="mapchange" x="0" y="352" width="32" height="96">
+ <layer id="4" name="Walkable" width="30" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzNk0EOhDAMA3kF//8CP+RUCVWJPU73sJUQiDYZJ3Gf+7qeP3n29f3vYqYMtVxMqqE7t/4RDvnutFNdSqPjpVziAdcPVXOlQeVTulXeKk/iOToLmlvNYX13uV0+0ovqXHonVW8nZ1JPu3h319N6q5gTDRP+YtH+kVzEu2m9lEHuJpnZ1CeuL4RJc6XnqNcqzaoPay9hpuwujtZLuKnHHVvFEm2E19VC2c7z6dxS7r7v8nzfk/poHV3PJ6zED93+tMbEj/TfZPZub2d13GS5u0B1Jqxf6ExmSrjE95OHcNVdT1nJOuWdeKHivtnVmbk=
+  </data>
+ </layer>
+ <layer id="9" name="Walkable2" width="30" height="33" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJADAIAEGnyP4ruKFFSOECCuEOvv6ILs9t2sbzfbfeAAAA/K8AGwgD5A==
+  </data>
+ </layer>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west1" type="mapchange" x="0" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="wild8"/>
-    <property name="place" value="east"/>
+    <property name="map" value="blackwater_mountain54"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="352" y="0" width="96" height="32">
+  <object id="2" name="west2" type="mapchange" x="0" y="128" width="32" height="64">
    <properties>
-    <property name="map" value="wild6"/>
+    <property name="map" value="blackwater_mountain54"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="3" name="west3" type="mapchange" x="0" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="blackwater_mountain54"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object id="4" name="west4" type="mapchange" x="0" y="384" width="32" height="96">
+   <properties>
+    <property name="map" value="blackwater_mountain54"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object id="5" name="west5" type="mapchange" x="0" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="bwmfill2"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+  <object id="6" name="west6" type="mapchange" x="0" y="736" width="32" height="224">
+   <properties>
+    <property name="map" value="bwmfill2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="15" name="north" type="mapchange" x="192" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="roadtocarntower0"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="3" name="sign_wild7" type="sign" x="416" y="320" width="32" height="32"/>
-  <object id="7" name="east" type="mapchange" x="608" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="mywild18"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="5" name="south" type="mapchange" x="320" y="608" width="128" height="32">
-   <properties>
-    <property name="map" value="lake_shore_road_0"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="4" name="forestwolf1" type="spawn" x="224" y="64" width="352" height="224">
+ <objectgroup id="6" name="Spawn">
+  <object id="7" name="forestboar1" type="spawn" x="128" y="32" width="512" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestboar"/>
+   </properties>
+  </object>
+  <object id="8" name="foresboar2" type="spawn" x="640" y="352" width="288" height="384">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar"/>
+   </properties>
+  </object>
+  <object id="9" name="forestwasp" type="spawn" x="288" y="192" width="608" height="352">
+   <properties>
+    <property name="quantity" value="7"/>
+    <property name="spawngroup" value="forestwasp"/>
+   </properties>
+  </object>
+  <object id="10" name="forestwolf" type="spawn" x="352" y="480" width="416" height="224">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="5" name="forestbeetle" type="spawn" x="96" y="256" width="224" height="320">
+  <object id="11" name="forestboar4" type="spawn" x="576" y="768" width="160" height="288">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="forestbeetle"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar4"/>
    </properties>
   </object>
-  <object id="6" name="forestserpent1" type="spawn" x="224" y="288" width="384" height="288">
+  <object id="12" name="gornaud1" type="spawn" x="128" y="800" width="320" height="160">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="forestserpent1"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="gornaud_1"/>
+   </properties>
+  </object>
+  <object id="13" name="gornaud2" type="spawn" x="96" y="576" width="192" height="192">
+   <properties>
+    <property name="spawngroup" value="gornaud_2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace">
+  <object id="14" name="tunlon_fence:32" type="replace" x="128" y="0" width="96" height="96">
+   <properties>
+    <property name="Objects" value="Objects2"/>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="tunlon_fence"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
