@@ -1146,7 +1146,7 @@
     },
     {
         "id":"troublemaker_wm_report_40",
-        "message":"You can find the empty house just south east of here. Enter it and you will find your way.",
+        "message":"You can find the empty house just southwest of here. Enter it and you will find your way.",
         "replies":[
             {
                 "text":"I'll be there. Thank you.",
@@ -1526,11 +1526,6 @@
                 "mapName":"wild6_house"
             },
             {
-                "rewardType":"giveItem",
-                "rewardID":"thieves_vault_key_fake",
-                "value":1
-            },
-            {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"aidem_base_defy_spawn",
                 "mapName":"aidem_base_2"
@@ -1794,6 +1789,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"thieves_vault_key",
                         "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80,
                         "negate":true
                     }
                 ]
@@ -3640,6 +3641,26 @@
             {
                 "rewardType":"mapchange",
                 "rewardID":"east2",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_50",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_60",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
                 "mapName":"waytogalmore0"
             }
         ]

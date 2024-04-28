@@ -341,9 +341,9 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_men2, "monsters_men2", new Size(10, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_misc, "monsters_misc", new Size(13, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_newb_1, "monsters_newb_1", new Size(40, 34), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_newb_2, "monsters_newb_2", new Size(16, 2), sz1x2, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_newb_3, "monsters_newb_3", new Size(20, 4), sz2x2, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_newb_4, "monsters_newb_4", new Size(4, 2), sz2x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_2, "monsters_newb_2", new Size(8, 2), sz1x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_3, "monsters_newb_3", new Size(10, 2), sz2x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_4, "monsters_newb_4", new Size(4, 1), sz2x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rats, "monsters_rats", new Size(5, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_redshrike1, "monsters_redshrike1", sz7x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rltiles1, "monsters_rltiles1", new Size(20, 8), sz1x1, mTileSize);
@@ -454,12 +454,14 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_tree_1, "map_tree_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_2, "map_tree_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_3, "map_tree_3", new Size(32, 17), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_tree_4, "map_tree_4", new Size(16, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_1, "map_wall_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_2, "map_wall_2", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_3, "map_wall_3", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_4, "map_wall_4", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_1, "map_window_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_2, "map_window_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_items_japozero, "map_items_japozero", new Size(16, 37), sz1x1, mTileSize);
 		/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);

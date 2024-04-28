@@ -389,6 +389,10 @@ msgstr ""
 msgid "Bad taste"
 msgstr ""
 
+#: actorconditions_bwmfill.json:thirst
+msgid "Thirst"
+msgstr ""
+
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
 msgstr "Α ωραία, είσαι ξύπνιος."
@@ -525,6 +529,7 @@ msgstr "Ναι, ορίστε."
 #: conversationlist_fungi_panic.json:bogsten_50_10:1
 #: conversationlist_fungi_panic.json:zuul_khan_70_10:0
 #: conversationlist_fungi_panic.json:zuul_khan_115:0
+#: conversationlist_bwmfill.json:tunlon_prog_12:0
 msgid "No, not yet."
 msgstr "Όχι, όχι ακόμα."
 
@@ -3467,6 +3472,11 @@ msgstr "Γεια, είμαι ο Jakrar."
 msgid "Are you a woodcutter?"
 msgstr "Είσαι ξυλοκόπος;"
 
+#: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
+#: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
+msgid "Tunlon has sent me to ask for some wood for fences."
+msgstr ""
+
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
 msgstr "Ναι, είμαι ο ξυλοκόπος του Φολχέιβεν. Χρειάζεστε κάτι που πρέπει να γίνει στα δάση; Μάλλον το κατάλαβα."
@@ -5146,6 +5156,7 @@ msgid "Hello again. Have you found those 10 bonemeal potions I asked for?"
 msgstr "Γεια σου και πάλι. Βρήκες αυτά τα 10 φίλτρα οστεάλευρου που ζητούσα;"
 
 #: conversationlist_kaori.json:kaori_return_1:0
+#: conversationlist_bwmfill.json:tunlon_prog_21a:1
 msgid "No, I am still looking for them."
 msgstr "Όχι, τα ψάχνω ακόμα."
 
@@ -5782,6 +5793,7 @@ msgstr "Θα γίνεις κατανοητός;"
 #: conversationlist_ratdom_npc.json:ratdom_kriih_200:0
 #: conversationlist_ratdom_npc.json:ratdom_kriih_202:0
 #: conversationlist_ratdom_npc.json:whootibarfag_210:0
+#: conversationlist_bwmfill.json:tunlon_quest_3b
 msgid "What do you mean?"
 msgstr "Τι εννοείς;"
 
@@ -10286,6 +10298,15 @@ msgstr ""
 msgid "Have you seen my brother Andor around here? Looks somewhat like me."
 msgstr "Έχεις δει τον αδερφό μου Άντορ; Μοιάζει με εμένα."
 
+#: conversationlist_hadracor.json:hadracor_1:2
+#: conversationlist_hadracor.json:hadracor_complete_3:2
+msgid "Do you by any chance have some spare wood to make fences out of?"
+msgstr ""
+
+#: conversationlist_hadracor.json:hadracor_1:3
+msgid "I'm $playername, running up and down Blackwater mountain for errands."
+msgstr ""
+
 #: conversationlist_hadracor.json:hadracor_andor_1
 msgid "Looks like you eh? No, I would have remembered."
 msgstr ""
@@ -10406,6 +10427,14 @@ msgstr ""
 msgid "Yes, I killed five of them."
 msgstr ""
 
+#: conversationlist_hadracor.json:hadracor_wantsitems_1:5
+msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
+msgstr ""
+
+#: conversationlist_hadracor.json:hadracor_wantsitems_1:6
+msgid "No, I'm too busy running up and down Blackwater mountain."
+msgstr ""
+
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
 msgstr ""
@@ -10440,8 +10469,16 @@ msgstr ""
 msgid "OK, let me see what you have."
 msgstr ""
 
+#: conversationlist_hadracor.json:hadracor_complete_3:3
+msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
+msgstr ""
+
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
+msgstr ""
+
+#: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
+msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
 msgstr ""
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
@@ -10451,6 +10488,11 @@ msgstr ""
 #: conversationlist_tinlyn.json:tinlyn_complete_1:0
 #: conversationlist_tinlyn.json:tinlyn_look_1:3
 msgid "I talked to Benbyr and heard the story about you two."
+msgstr ""
+
+#: conversationlist_tinlyn.json:tinlyn_complete_1:1
+#: conversationlist_tinlyn.json:tinlyn_story_1:1
+msgid "Your brother has sent me to ask where I could get fences from. Do you maybe know?"
 msgstr ""
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
@@ -12108,6 +12150,19 @@ msgstr ""
 
 #: conversationlist_loneford_2.json:loneford_villager2
 msgid "Don't disturb me, I need to finish chopping this wood. Go bother someone else."
+msgstr ""
+
+#: conversationlist_loneford_2.json:loneford_villager2:0
+#: conversationlist_loneford_2.json:loneford_villager2:1
+msgid "Do you by any chance have some fences?"
+msgstr ""
+
+#: conversationlist_loneford_2.json:loneford_villager2:2
+msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
+msgstr ""
+
+#: conversationlist_loneford_2.json:loneford_villager2:3
+msgid "The Craftsman told me that I should get some wood from you."
 msgstr ""
 
 #: conversationlist_loneford_2.json:loneford_villager3
@@ -13838,6 +13893,7 @@ msgstr ""
 #: conversationlist_talion_2.json:talion_irdegh_1:0
 #: conversationlist_halvor_surprise.json:halvor_crossglen_7:1
 #: conversationlist_gison.json:gison_p1_20_warmup_1
+#: conversationlist_bwmfill.json:loneford_villager2_fence1
 msgid "Here you go."
 msgstr ""
 
@@ -14672,6 +14728,7 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan_70_24:0
 #: conversationlist_gison.json:gison_thief1_22:0
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_70:1
+#: conversationlist_bwmfill.json:bwm_sheep_dialogue:2
 msgid "Attack!"
 msgstr ""
 
@@ -22238,6 +22295,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_rat_conv2_552:0
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:1
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:1
+#: conversationlist_bwmfill.json:loneford_villager2_fence1a:1
 msgid "Forget it."
 msgstr ""
 
@@ -24967,6 +25025,7 @@ msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_30:0
 #: conversationlist_guynmart_npc.json:guynmart_steward_46:0
+#: conversationlist_bwmfill.json:hadracor_fence_1b
 msgid "Wait!"
 msgstr ""
 
@@ -25270,6 +25329,7 @@ msgid "Hi kid! Would you like to play a card game?"
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_player_10:0
+#: conversationlist_bwmfill.json:tunlon_trade:0
 msgid "Sure!"
 msgstr ""
 
@@ -27770,6 +27830,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_rat_conv2_40f:0
 #: conversationlist_ratdom.json:ratdom_wells_chest_52:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_220:1
+#: conversationlist_bwmfill.json:tunlon_prog_1:0
 msgid "Well ..."
 msgstr ""
 
@@ -27782,6 +27843,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_goldhunter_bed2_20:1
 #: conversationlist_ratdom.json:ratdom_wakeup_130:0
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12:0
+#: conversationlist_bwmfill.json:tunlon_prog_17a
 msgid "But ..."
 msgstr ""
 
@@ -31664,6 +31726,7 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_lamberta_sell:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54a
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13:0
+#: conversationlist_bwmfill.json:tinlyn_fence_1a:0
 msgid "Thank you!"
 msgstr ""
 
@@ -36161,6 +36224,18 @@ msgstr ""
 msgid "No, I just want to look around."
 msgstr ""
 
+#: conversationlist_brimhaven.json:brv_woodcraftsman_0:3
+msgid "Hello. The woodcutter in Loneford said that you can make me fences for a sheperd. Is that true?"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_woodcraftsman_0:4
+msgid "Here is your wood."
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_woodcraftsman_0:5
+msgid "Ah, you are back."
+msgstr ""
+
 #: conversationlist_brimhaven.json:brv_old_farmer_0
 msgid "What are you doing in my house?"
 msgstr ""
@@ -37427,6 +37502,18 @@ msgid ""
 "Keep away from illegal stuff. Now go on your way."
 msgstr ""
 
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:0
+msgid "Hey, what the ...?"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:1
+msgid "Phew, at least they didn't find my iron reserve in the bonemeal box."
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:2
+msgid "Phew, at least they had let me go."
+msgstr ""
+
 #: conversationlist_brimhaven.json:truric_1_0
 msgid "I am a weaponsmith. I have a good selection at the moment. Would you like to take a look?"
 msgstr ""
@@ -37931,6 +38018,23 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:remgard_prison_thief_200
 msgid "Bye now. I will keep an eye on you."
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur
+msgid "One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch."
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur:0
+#: monsterlist_omicronrg9.json:unknown
+msgid "???"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_10
+msgid "You'll be speechless - the guard is Burhczyd in the uniform of the Feygard Guard!"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_20
+msgid "Before you react, the guards have moved on."
 msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
@@ -40627,6 +40731,10 @@ msgstr ""
 
 #: conversationlist_achievements.json:passive_achievement_grant_1
 msgid "Reflecting on your journey, you marvel at how you were able to go from a commoner in a small village to a wealthy adventurer. You realize that you've collected 100,000 gold, and decide to record this milestone in Mikhail's book of achievements."
+msgstr ""
+
+#: conversationlist_achievements.json:passive_achievement_grant_2
+msgid "Phew, I dreamed about nightmares in a castle dungeon - although maybe it wasn't a nightmare at all! I never want to go through something like that again - neither in my dream nor in reality!"
 msgstr ""
 
 #: conversationlist_fungi_panic.json:bogsten_check_zuulkhan_10
@@ -48769,6 +48877,7 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_nanette_1:1
 #: conversationlist_ratdom.json:ratdom_rat_conv2_417:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_20:0
+#: conversationlist_bwmfill.json:tunlon_andor_5:0
 msgid "And then?"
 msgstr ""
 
@@ -56076,7 +56185,7 @@ msgid "You should go with them to the vault as we may need your help there."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
-msgid "You can find the empty house just south east of here. Enter it and you will find your way."
+msgid "You can find the empty house just southwest of here. Enter it and you will find your way."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
@@ -57324,6 +57433,604 @@ msgstr ""
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
 msgid "Thanks, and sleep it off... Sigh."
+msgstr ""
+
+#: conversationlist_bwmfill.json:sign_bwmfill3
+msgid ""
+"Here lives Tunlon of Crossglen - sheep farmer\n"
+"\n"
+"Please do not feed any animals."
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwm_sheep_dialogue
+msgid "Baa!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwm_sheep_dialogue:0
+msgid "[Pet]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwm_sheep_dialogue:1
+msgid "You look tasty - attack!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwmfill_killsheep_20
+msgid "You filthy MURDERER!!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwmfill_killsheep_22
+msgid "My poor sheep! What have you done?!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:bwmfill_killsheep_24
+msgid "Just you wait - you will pay for it!!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_1
+msgid "Hello kid! How are you?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_1:0
+msgid "Fine, thank you. Who are you?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_1:1
+msgid "Good. Do you have anything to trade?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_1:2
+msgid "Have you seen Andor, my brother? He looks a bit ..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_2
+msgid "I am Tunlon of Crossglen. I look after my flock of sheep here."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_2:0
+msgid "I am from Crossglen too!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_start_2:1
+msgid "Nice to have met you."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor
+msgid "I know Andor. Of course I do."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_2
+msgid "Always good for mischief, that boy."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_2:0
+msgid "Yes, that's him. Do you know where he is?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_3
+msgid "No. And I want to keep it that way."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_3:0
+msgid "Oh. What has he done to you?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_4
+msgid "He scared my sheep. They didn't dare to leave the stable for two weeks."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_5
+msgid "I then confronted him, even though I was a little scared myself."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_6
+msgid "And then? Nothing. With a look that made my blood run cold, he left."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_6:0
+msgid "Yes, my beloved brother. Who are you by the way?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_andor_6:1
+msgid "Then that's settled. Another question: Do you have anything to trade?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_trade
+msgid "Yes, I have a few basic supplies that I could offer. Do you want to have a look?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_1
+msgid "That is great to hear. Could you by any chance get me something from Crossglen? Unfortunately I have to stay here to watch my sheep."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_1:0
+msgid "Oh yeah, no problem!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_1:1
+msgid "Sorry, I have other things to do right now."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_2
+msgid "Thank you, kid. What I need is some wood to repair my fence."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_2:0
+msgid "Where do I get that from?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3
+msgid "Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3:0
+msgid "Maybe this explains why the forest around Crossglen is too dense to get through..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3:1
+msgid "At least not that I know."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3a
+msgid "What do you mean? The climb into the mountains is just northeast of Crossglen?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3a:0
+msgid "Maybe it used to be like that."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3a:1
+msgid "If there was a path, it has long since become overgrown."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3b:0
+msgid "I had to take a long detour past Stoutford and Prim and come from the other side."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3c
+msgid "Then it's a good thing that I haven't tried to go down to Crossglen with my sheep in recent years."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_3c:0
+msgid "In any case, there is no lumberjack in Crossglen."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4
+msgid "Well, then you would have to travel over to Fallhaven. Of course only, if that's not too much for you."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4:0
+msgid "Not for me! I know the way perfectly well."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4:1
+msgid "Hmm, now that I think about it ..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4a
+msgid "Please don't let me down. There are wolves and worse here threatening my sheep."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4a:0
+msgid "Sigh, I have too good a heart. It's okay, I'll do it."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4a:1
+msgid "No, forget it. I'm out."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_4b
+msgid "A pity. Come back if you change your mind."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_5
+msgid "Thank you so much! Here is a bit of gold so you can pay for it."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_5:0
+msgid "I will go and get it now."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_quest_5:1
+msgid "Hehe, thank you!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_noquest
+msgid "No problem, kid. Just come back here whenever you have some time."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_1
+msgid "Hello - are you back yet? I wasn't expecting you yet."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_1b
+msgid "Have you found some wood already?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_1b:0
+msgid "No, I am still searching."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_1b:1
+msgid "No, I asked Jakrar in Fallhaven, but he just sent me to other woodcutters."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2
+msgid "Have you been there yet?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2:0
+msgid "No. I will go there next."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2:1
+msgid "Yes. They created a shortcut here into the forest."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2:2
+#: conversationlist_bwmfill.json:tunlon_prog_2a:0
+msgid "Yes. However, they only have firewood available."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2a
+msgid "That's good to hear."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2b
+msgid "But firewood isn't good for fences."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2b:0
+msgid "Exactly. Where else can you get suitable wood?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2c
+msgid "Maybe it would be better to buy the finished fences straight away."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_2c:0
+msgid "Finished fences? Where do you get something like that from?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_3
+msgid "Hmm. Maybe my brother knows a place where to get fences."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_3:0
+#: conversationlist_bwmfill.json:tunlon_prog_3:1
+msgid "Your brother?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_4_1
+msgid "Tinlyn, my brother. Poor guy, lost all of his sheep. He lives north of Crossroads guardhouse."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_4_1:0
+msgid "Well ... yeah I know him."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_4_2
+msgid "Tinlyn, my brother. He lives north of Crossroads guardhouse."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_4_2:0
+msgid "Ah, I think I know him."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_4_2:1
+msgid "I don't know this Tinlyn yet, but I will find him."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_5
+msgid "Please go and ask him, if he knows anyone who could help."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_5:0
+msgid "I'm on my way!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_11
+msgid "So how is your journey going?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_11:0
+#: conversationlist_bwmfill.json:tunlon_prog_11:1
+msgid "Tinlyn said there is a woodcutter in Loneford who can help."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_11:2
+msgid "I still have to ask Tinlyn."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_11:3
+msgid "Here, I brought you fences."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_11:4
+msgid "I still have to look for the fences ..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_12
+msgid "Have you been there already?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_noprog
+msgid "Keep on going!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_15
+msgid "Let me see!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_16
+msgid "Hmm, no, these posts are too short. My sheep are probably able to jump over them."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17
+msgid "Could you go and ask him for other fences?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17:0
+msgid "Sure! No problem."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17:1
+msgid "Maybe ..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17:2
+msgid "What? All the way over again just because you didn't tell me how high your fences had to be?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17a:0
+msgid "Do you actually know how far the path is?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17a:1
+msgid "I also have something else to do. After all, I'm on Andor's trail."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17b
+msgid "Please ..."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_17b:0
+msgid "All right. I'll go again."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_18
+msgid "Thank you. I knew I could trust you."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_21
+msgid "Ah, my litle friend."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_21:0
+msgid "Yes, I am back again."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_21a
+msgid "Have you brought new fences?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_21a:0
+msgid "Here, I hope these are better."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22
+msgid "Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22:0
+msgid "No problem. See you!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22:1
+msgid "I love running around and helping. See you!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22:2
+msgid "Hmm, the lamb meat looks good. What is that exactly?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22a
+msgid "This is lamb with a special seasoning mixture which of course I won't tell you. Here you have an additional one."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tunlon_prog_22a:0
+msgid "Thank you. Bye."
+msgstr ""
+
+#: conversationlist_bwmfill.json:fallhaven_lumberjack_17
+msgid "See, I have done a lot of tree cutting lately, and I need a break. Sorry, kid."
+msgstr ""
+
+#: conversationlist_bwmfill.json:fallhaven_lumberjack_17:0
+msgid "Oh, alright. But where should I ask then?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:fallhaven_lumberjack_18
+msgid "I have heard that a forest to the north was cleared out recently. Sure enough they got some wood laying around there."
+msgstr ""
+
+#: conversationlist_bwmfill.json:fallhaven_lumberjack_18:0
+msgid "Thank you very much, I will go there now."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_1
+msgid "Oh we do have a lot of wood indeed. However, all of this is very brittle and can only be used as firewood."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_1:0
+msgid "Then, willy-nilly, I will explain to Tunlon that I was unsuccessful. He may even want his 200 gold pieces back."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_1c
+msgid "I like to sit here and look at the mountains and what's moving there. It's very relaxing after our hard work."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_1c:0
+msgid "Yes, the mountains are very beautiful - from a distance."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_2
+msgid "I saw you a few times in the forest over there coming from the mountains. Do you go there often?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_2:0
+msgid "Well, I try to avoid it. The route past Stoutford and Prim is long and arduous."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_3
+msgid "I like to believe that. Look, I told my men to cut down some trees for you. You can now take a shortcut."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_3:0
+msgid "Really? Thanks alot!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_4
+msgid "The passage is over there, a bit to the east from here."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_5
+msgid "We were happy to do this for you. Now calm down."
+msgstr ""
+
+#: conversationlist_bwmfill.json:hadracor_fence_6
+msgid "And stop kissing my feet."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tinlyn_fence_1
+msgid "Tunlon? So he's still alive after all. I haven't heard from him in years."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tinlyn_fence_1:0
+msgid "Yes. And he made me ask you if you knew where you could get fences from."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tinlyn_fence_1a
+msgid "There is a woodcutter in Loneford. He should be able to help you out. Have a great day!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:tinlyn_fence_2
+msgid "[grumbles] Maybe I do. Go over to Loneford and leave me alone."
+msgstr ""
+
+#: conversationlist_bwmfill.json:tinlyn_fence_2a
+msgid "[grumbles] So Tunlon is still alive after all. I haven't heard from him in years. This Marauder. [grumbles]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence
+msgid "Oh actually I do right here. You can have them for 100 gold pieces."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence:0
+msgid "Great, I'll take them."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence:1
+msgid "100 gold is too much."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence1:0
+msgid "Thank you! [and I won't tell you that Tunlon gave me 200 gold]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence1a
+msgid "Take it or leave it. 100 gold pieces."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence1a:0
+msgid "OK. I'll take them."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence2
+msgid "No, I don't."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence2:0
+msgid "So ... could you make any?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence3
+msgid "Kid, look. I am a woodcutter, not a craftsman. Go east to Brimhaven if you want other fences."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence3:0
+msgid "Thank you. I will go there now."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence1
+msgid "[laughing] Haha! Yes, that's my job."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a
+msgid "But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a:0
+msgid "Fine, I'm on my way."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence4
+msgid "[pointing to a pile of wood] There."
+msgstr ""
+
+#: conversationlist_bwmfill.json:loneford_villager2_fence4:0
+msgid "Thank you ... I guess."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence2
+msgid "Perfect! Thank you for helping out, kid. Just wait a few minutes."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence3
+msgid "This is some good looking wood I must say. Very easy to process."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence4
+msgid "These posts will be standing for a long time. I guarantee you that."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence4:0
+msgid "Are you done soon?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence4b
+msgid "[Sawing]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence4c
+msgid "[Hammering]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence4d
+msgid "[Swearing]"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence5
+msgid "Finished. That's 200 gold pieces. What do you say?"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence5:0
+msgid "200 ... gold pieces - well, OK."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence5:1
+msgid "That is too much!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence6
+msgid "Thank you. Bye!"
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence7
+msgid "No gold - no fences."
+msgstr ""
+
+#: conversationlist_bwmfill.json:brv_woodcraftsman_fence7:0
+msgid "Well ... OK."
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -61273,6 +61980,10 @@ msgstr ""
 msgid "Fake Thieve's Guild vault key"
 msgstr ""
 
+#: itemlist_mt_galmore.json:thieves_vault_key_fake:description
+msgid "The fake key made by the Thieves Guild to trick Aidem."
+msgstr ""
+
 #: itemlist_mt_galmore.json:aidem_fake_vault_key
 msgid "Aidem fake vault key"
 msgstr ""
@@ -61463,6 +62174,78 @@ msgstr ""
 
 #: itemlist_mt_galmore.json:feline_milk:description
 msgid "A unique elixir exuding the essence of mountain flora."
+msgstr ""
+
+#: itemlist_bwmfill.json:green_pepper
+msgid "Green Pepper"
+msgstr ""
+
+#: itemlist_bwmfill.json:yellow_pepper
+msgid "Yellow Pepper"
+msgstr ""
+
+#: itemlist_bwmfill.json:red_pepper
+msgid "Red Pepper"
+msgstr ""
+
+#: itemlist_bwmfill.json:bwm_longsword
+msgid "Blackwater iron longsword"
+msgstr ""
+
+#: itemlist_bwmfill.json:lamb_meat_raw
+msgid "Raw lamb meat"
+msgstr ""
+
+#: itemlist_bwmfill.json:lamb_meat
+msgid "Cooked lamb meat"
+msgstr ""
+
+#: itemlist_bwmfill.json:lamb_meat2
+msgid "Specially peppered lamb meat"
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_wood
+msgid "Pile of wood"
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_wood:description
+msgid "This pile of wood is quite heavy."
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_fence1
+msgid "Sturdy fence"
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_fence1:description
+msgid "This fence looks like it stood around for years."
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_fence2
+msgid "New fence"
+msgstr ""
+
+#: itemlist_bwmfill.json:tunlon_fence2:description
+msgid "This looks like some fine woodcraft."
+msgstr ""
+
+#: itemlist_bwmfill.json:stone_mace
+msgid "Gornaud's stone mace"
+msgstr ""
+
+#: itemlist_bwmfill.json:feygard_gold
+msgid "Feygard gold coins"
+msgstr ""
+
+#: itemlist_bwmfill.json:feygard_gold:description
+msgid "A gold goin with the face of Lord Geomyr on it."
+msgstr ""
+
+#: itemlist_bwmfill.json:nor_gold
+msgid "Nor gold coins"
+msgstr ""
+
+#: itemlist_bwmfill.json:nor_gold:description
+msgid "A gold goin from Nor City."
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tiny_rat
@@ -62844,6 +63627,7 @@ msgid "Rabid mountain wolf"
 msgstr ""
 
 #: monsterlist_v0611_monsters1.json:mwolf_7
+#: monsterlist_bwmfill.json:mountain_wolf_3
 msgid "Strong mountain wolf"
 msgstr ""
 
@@ -64518,10 +65302,6 @@ msgstr ""
 msgid "Feygard barricade guard"
 msgstr ""
 
-#: monsterlist_omicronrg9.json:unknown
-msgid "???"
-msgstr ""
-
 #: monsterlist_omicronrg9.json:g03_deadpatrol_1
 msgid "Dying patrol"
 msgstr ""
@@ -66029,6 +66809,23 @@ msgstr ""
 
 #: monsterlist_mt_galmore.json:witch_playing_kid
 msgid "Playing kid"
+msgstr ""
+
+#: monsterlist_bwmfill.json:bwm_sheep1
+msgid "Mountain Sheep"
+msgstr ""
+
+#: monsterlist_bwmfill.json:tunlon
+#: monsterlist_bwmfill.json:tunlon2
+msgid "Tunlon"
+msgstr ""
+
+#: monsterlist_bwmfill.json:mountain_wolf_4
+msgid "Reckless mountain wolf"
+msgstr ""
+
+#: monsterlist_bwmfill.json:gornaud_boss
+msgid "Gornaud leader"
 msgstr ""
 
 #: questlist.json:andor
@@ -70167,6 +70964,10 @@ msgstr ""
 msgid "Uniform blue lighting: I solved a difficult logic riddle."
 msgstr ""
 
+#: questlist_fungi_panic.json:achievements:130
+msgid "Nightmare Survived: I survived the most intense nightmares ever"
+msgstr ""
+
 #: questlist_gison.json:gison_soup
 msgid "Delicious soup"
 msgstr ""
@@ -71172,6 +71973,74 @@ msgstr ""
 
 #: questlist_mt_galmore.json:wicked_witch:96
 msgid "I gave Emmeline 20 of the 25 \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence
+msgid "It makes no fence"
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:10
+msgid "I found Tunlon, a sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and ask there."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:12
+msgid "Tunlon got furious when he saw that you killed his sheep."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:20
+msgid "I talked to Fallhaven's woodcutter. He told me that he had done a lot of work lately and therefore can't get any more wood for me. However, I should ask the woodcutters near Crossroads Guardhouse if they can help me."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:30
+msgid "The woodcutters told me that they have a lot of wood after clearing out the field around them, however all they have is firewood. Apparently this is not suitable for making fences. I should explain this to Tunlon."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:32
+msgid "Hadracor opened up a passage to the south, so I wouldn't have to take the long way up to Tunlon any more."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:40
+msgid "I talked to Tunlon again and he told me to talk to his brother Tinlyn if he knew any person who could help me out."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:100
+msgid "Tinlyn was glad to meet me. He said that Loneford had a woodcutter who could maybe help me out."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:110
+msgid "Tinlyn wasn't really happy to see me. However, he told me to go to Loneford."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:150
+msgid "In Loneford, I met a villager who told me he had some spare fences made. I should bring them to Tunlon."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:200
+msgid "Tunlon took a close look at the fences I brought him, but he didn't like them a lot. The fence posts were too short he said. I should go back and ask for taller ones."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:210
+msgid "The woodcutter in Loneford however said he couldn't make any fences, as he just cuts the wood. He recommended giving Brimhaven's woodcutter a visit, as he thinks that he can do some basic woodwork."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:220
+msgid "I gave the woodcutter in Brimhaven a visit and he told me to bring some wood, so the craftsman can make fences out of it. Loneford's woodcutter should have plenty, so I should go back and ask him for wood."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:230
+msgid "I got a pile of wood for the fences."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:235
+msgid "I gave the wood to the woodcraftsman in Brimhaven."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:240
+msgid "Brimhaven's wood craftsman sold me some nice looking fences."
+msgstr ""
+
+#: questlist_bwmfill.json:tunlon_fence:250
+msgid "Tunlon was happy to see the fences I brought him. These should be just fine, he said."
 msgstr ""
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
