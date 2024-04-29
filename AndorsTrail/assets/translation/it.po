@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-04-14 21:52+0000\n"
-"Last-Translator: Sarah Chiandotto <sarah.chiandotto.1986@gmail.com>\n"
+"PO-Revision-Date: 2024-04-30 12:07+0000\n"
+"Last-Translator: Luca Benassi <bennolo@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/it/>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.5.3-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -50,7 +50,7 @@ msgstr "Fatica lieve"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Debolezza dell'arma minore"
+msgstr "Debolezza minore dell'arma"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -393,15 +393,15 @@ msgstr ""
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Rabbia"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Gusto cattivo"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Sete"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -591,6 +591,8 @@ msgstr "Ok, capisco. Posso riposare qui se mi faccio male e dovrei controllare i
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"Altra cosa: guarda laggiù, quel cesto sul pavimento. Appartiene ad Andor e "
+"potrebbe aver lasciato qualcosa di utile al suo interno."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -678,7 +680,7 @@ msgstr "Per favore, mostrami i tuoi prodotti."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Per caso hai un piccone?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -2453,6 +2455,8 @@ msgstr "Ci sono delle stanze libere?"
 #: conversationlist_vilegard_tavern.json:tharwyn_2:1
 msgid "Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'."
 msgstr ""
+"Torilo ha suggerito di chiedere ad altri locandieri come te riguardo un "
+"'accordo tra gentiluomini' che potresti aver fatto con altri 'fornitori'."
 
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
@@ -3485,7 +3489,7 @@ msgstr "Sei un taglialegna?"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr ""
+msgstr "Tunlon mi ha mandato per chiedere un po' di legno per le recinzioni."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
@@ -4337,6 +4341,8 @@ msgstr "E' successo qualcosa recentemente?"
 #: conversationlist_sullengard.json:farrik_inquery:1
 msgid "I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you."
 msgstr ""
+"Ho chiesto a Dunla riguardo la distribuzione della birra e sull''accordo tra "
+"gentiluomini'. Mi ha mandato da te."
 
 #: conversationlist_farrik.json:farrik_5
 msgid "Well, there was one thing a few weeks ago. One of our guild members got arrested for trespassing."
@@ -4814,7 +4820,7 @@ msgstr "[OUTDATED]Dovremmo parlare di qualcosa."
 
 #: conversationlist_umar.json:umar_return_1:7
 msgid "What am I supposed to do in Sullengard again?"
-msgstr ""
+msgstr "Cosa dovrei fare di nuovo a Sullengard?"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
@@ -4826,7 +4832,7 @@ msgstr "[OUTDATED]Puoi ripetermi che cosa dovrei fare?"
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
-msgstr ""
+msgstr "Cosa dovrei fare di nuovo?"
 
 #: conversationlist_umar.json:umar_return_1:12
 msgid "What are your plans for the traitors?"
@@ -4843,7 +4849,7 @@ msgstr "[OUTDATED]Ho portato l'ostaggio."
 #: conversationlist_umar.json:umar_return_1:15
 #: conversationlist_umar.json:umar_return_1:16
 msgid "We were supposed to talk about something, right?"
-msgstr ""
+msgstr "Dovremmo parlare di qualcosa, giusto?"
 
 #: conversationlist_umar.json:umar_return_1:17
 msgid "I've finally finished the job."
@@ -4860,17 +4866,17 @@ msgstr "[OUTDATED][OUTDATED]Piacere di conoscerti. Ciao."
 
 #: conversationlist_umar.json:umar_return_1:21
 msgid "I have to talk to you about the noblewoman."
-msgstr ""
+msgstr "Devo parlarti a proposito della nobildonna."
 
 #: conversationlist_umar.json:umar_return_1:22
 msgid "I have brought the hostage."
-msgstr ""
+msgstr "Ho portato l'ostaggio."
 
 #: conversationlist_umar.json:umar_return_1:23
 #: conversationlist_umar.json:umar_return_1:24
 #: conversationlist_umar.json:umar_return_1:25
 msgid "Anything more about my new task?"
-msgstr ""
+msgstr "Null'altro sul mio nuovo incarico?"
 
 #: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
@@ -4879,7 +4885,7 @@ msgstr ""
 #: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
 msgid "Nice to meet you. Goodbye."
-msgstr ""
+msgstr "Piacere di vederti. Arrivederci."
 
 #: conversationlist_umar.json:umar_return_2:0
 msgid "Can you repeat what you said about Andor?"
@@ -9336,11 +9342,11 @@ msgstr ""
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr ""
+msgstr "OK. Mi fido sul fatto che non mi farai alcun dispetto."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
-msgstr ""
+msgstr "[Bugia] Ma certo."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
@@ -10376,11 +10382,13 @@ msgstr "Avete visto mio fratello Andor qui intorno? Mi assomiglia."
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr ""
+msgstr "Ma per caso, avresti qualche legno di risulta per finire le recinzioni?"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
 msgstr ""
+"Mi chiamo $playername, sto correndo su e giù per il montei Blackwater per "
+"delle commissioni."
 
 #: conversationlist_hadracor.json:hadracor_andor_1
 msgid "Looks like you eh? No, I would have remembered."
@@ -10505,10 +10513,12 @@ msgstr "Sì, ne ho uccise cinque."
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:5
 msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
 msgstr ""
+"No, ma volevo chiederti se hai qualche legno in più per sistemare le "
+"recinzioni."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:6
 msgid "No, I'm too busy running up and down Blackwater mountain."
-msgstr ""
+msgstr "No, sono troppo occupato a correre su e giù dal monte Blackwater."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
@@ -10547,6 +10557,7 @@ msgstr "Ok, fammi vedere cos'hai."
 #: conversationlist_hadracor.json:hadracor_complete_3:3
 msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
 msgstr ""
+"No grazie. Sono troppo occupato a correre su e giù per il monte Blackwater."
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
@@ -10555,6 +10566,8 @@ msgstr "Hai attaccato le mie pecore! Vattene, sporco assassino!"
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
 msgstr ""
+"Mi spiace. Tuo fratello mi ha mandato a chiederti se sai dove posso trovare "
+"dei recinti per le sue pecore."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -10569,6 +10582,8 @@ msgstr "Ho parlato con Benbyr e ho sentito la storia di voi due."
 #: conversationlist_tinlyn.json:tinlyn_story_1:1
 msgid "Your brother has sent me to ask where I could get fences from. Do you maybe know?"
 msgstr ""
+"Tuo fratello mi ha mandato a chiederti se sai dove posso trovare delle "
+"recinzioni. Hai qualche idea?"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
 msgid "Hello there. You wouldn't happen to want to help an old shepherd would you?"
@@ -12242,7 +12257,7 @@ msgstr "Non disturbarmi, ho bisogno di finire di tagliare questo legno. Vai dist
 #: conversationlist_loneford_2.json:loneford_villager2:0
 #: conversationlist_loneford_2.json:loneford_villager2:1
 msgid "Do you by any chance have some fences?"
-msgstr ""
+msgstr "Per caso sai dove posso trovare delle recinzioni?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:2
 msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
@@ -72879,4 +72894,3 @@ msgstr ""
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
 msgstr ""
-
