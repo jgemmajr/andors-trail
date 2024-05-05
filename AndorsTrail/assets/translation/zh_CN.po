@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-05-02 15:07+0000\n"
+"PO-Revision-Date: 2024-05-05 07:59+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -406,7 +406,7 @@ msgstr "恶趣味"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "干渴"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -3490,7 +3490,7 @@ msgstr "你是伐木工吗？"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr ""
+msgstr "图伦派我来要些建栅栏的木头。"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
@@ -10382,7 +10382,7 @@ msgstr "你在这里看到过我的哥哥安道尔吗？看起来有点像我。
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr ""
+msgstr "你能整出些造栅栏的额外木头吗？"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
@@ -29613,7 +29613,7 @@ msgstr "你看起来又很高兴。"
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you"
-msgstr "你真的订购了如此丑陋的瓷器形象吗？哎呀，对不起，我不是有意冒犯你的"
+msgstr "你真的订购了如此丑陋的瓷制人像吗？哎呀，对不起，我不是有意冒犯你的"
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -39364,7 +39364,7 @@ msgstr "你已经找到了第二盏吊灯!"
 
 #: conversationlist_brimhaven2.json:brv_wh_item_05_1
 msgid "You have found the second mysterious green something!"
-msgstr "你已经找到了第二个神秘的绿色东西!"
+msgstr "你已经找到了第二个神秘绿色之物!"
 
 #: conversationlist_brimhaven2.json:brv_wh_item_06_1
 msgid "You have found the second old, worn cape!"
@@ -39372,7 +39372,7 @@ msgstr "你已经找到了第二件破旧的斗篷!"
 
 #: conversationlist_brimhaven2.json:brv_wh_item_07_1
 msgid "You have found the second pretty porcelain figure!"
-msgstr "你已经找到了第二个漂亮的瓷器模型！"
+msgstr "你已经找到了第二个漂亮的瓷制人像！"
 
 #: conversationlist_brimhaven2.json:brv_wh_item_08_1
 msgid "You have found the second striped hammer!"
@@ -61594,7 +61594,7 @@ msgstr "吊灯"
 #: itemlist_brimhaven2.json:brv_wh_item_05
 #: monsterlist_brimhaven2.json:brv_wh_item_45
 msgid "Mysterious green something"
-msgstr "神秘的绿色的东西"
+msgstr "神秘绿色之物"
 
 #: itemlist_brimhaven2.json:brv_wh_item_06
 #: monsterlist_brimhaven2.json:brv_wh_item_46
@@ -61604,7 +61604,7 @@ msgstr "破旧的斗篷"
 #: itemlist_brimhaven2.json:brv_wh_item_07
 #: monsterlist_brimhaven2.json:brv_wh_item_47
 msgid "Pretty porcelain figure"
-msgstr "漂亮的瓷器图"
+msgstr "漂亮的瓷制人像"
 
 #: itemlist_brimhaven2.json:brv_wh_item_08
 #: monsterlist_brimhaven2.json:brv_wh_item_48
@@ -62513,7 +62513,16 @@ msgstr "法库托尼的记事表"
 
 #: itemlist_delivery.json:facutloni_docket:description
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
-msgstr "一份文件列出了法尔海文的图书爱好者阿西尔订购了一本“尘封的旧书”。  来自布林海文的金属匠埃德林订购了一把“纹锤”。  来自斯托福德的装甲兵奥迪拉特订购了一个“漂亮的瓷器人物”。  来自布林海文的洗衣店维南拉订购了一件“破旧的斗篷”。  倒霉的商人特诸尔订购了一个“神秘绿色之物”。  来自盖恩玛特城堡的仆人仆人订购了一盏“枝形吊灯”。  来自瑞姆加德酒馆的阿尔吉斯订购了“黄靴子”。来自维尔加德的悲伤女人维艾订购了一把“七弦琴”。  来自克罗斯山谷的米哈伊尔订购了一个“毛绒枕头”。  来自布林海文的算命先生盘尼坦订购了一个“水晶球” "
+msgstr ""
+"一份文件列出了法尔海文的图书爱好者阿西尔订购了一本“尘封的旧书”。  "
+"来自布林海文的金属匠埃德林订购了一把“纹锤”。  "
+"来自斯托福德的装甲兵奥迪拉特订购了一个“漂亮的瓷制人像”。  "
+"来自布林海文的洗衣店维南拉订购了一件“破旧的斗篷”。  "
+"倒霉的商人特诸尔订购了一个“神秘绿色之物”。  "
+"来自盖恩玛特城堡的仆人仆人订购了一盏“枝形吊灯”。  来自瑞姆加德酒馆的阿尔吉斯"
+"订购了“黄靴子”。来自维尔加德的悲伤女人维艾订购了一把“七弦琴”。  "
+"来自克罗斯山谷的米哈伊尔订购了一个“毛绒枕头”。  "
+"来自布林海文的算命先生盘尼坦订购了一个“水晶球” "
 
 #: itemlist_sullengard.json:golden_jackal_fur
 msgid "Golden jackal fur"
@@ -67825,7 +67834,7 @@ msgstr ""
 #: monsterlist_bwmfill.json:tunlon
 #: monsterlist_bwmfill.json:tunlon2
 msgid "Tunlon"
-msgstr ""
+msgstr "图伦"
 
 #: monsterlist_bwmfill.json:mountain_wolf_4
 msgid "Reckless mountain wolf"
@@ -71690,7 +71699,7 @@ msgstr "我找到了一对吊灯。"
 
 #: questlist_brimhaven2.json:brv_wh:105
 msgid "I have found a pair of mysterious green somethings."
-msgstr "我发现了一对神秘的绿色东西。"
+msgstr "我发现了一对神秘绿色之物。"
 
 #: questlist_brimhaven2.json:brv_wh:106
 msgid "I have found a pair of old, worn capes."
@@ -71698,7 +71707,7 @@ msgstr "我找到了一双破旧的披风。"
 
 #: questlist_brimhaven2.json:brv_wh:107
 msgid "I have found a pair of pretty porcelain figures."
-msgstr "我发现了一对漂亮的瓷器人物。"
+msgstr "我发现了一对漂亮的瓷制人像。"
 
 #: questlist_brimhaven2.json:brv_wh:108
 msgid "I have found a pair of striped hammers."
@@ -72377,7 +72386,7 @@ msgstr "布林海文的金属匠艾德林订购了一把'纹锤'。"
 
 #: questlist_delivery.json:brv_wh_delivery:40
 msgid "Odirath the Stoutford armorer ordered a 'Pretty Porcelain Figure'."
-msgstr "斯托福德的装甲师奥迪拉斯订购了一个'漂亮的瓷娃娃'。"
+msgstr "斯托福德的装甲师奥迪拉斯订购了一个'漂亮的瓷制人像'。"
 
 #: questlist_delivery.json:brv_wh_delivery:50
 msgid "Venanra the Brimhaven laundress ordered an 'Old, worn cape'."
