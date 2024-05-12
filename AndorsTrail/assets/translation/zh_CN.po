@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-05-11 05:00+0000\n"
+"PO-Revision-Date: 2024-05-13 10:00+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.5.5-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -35,7 +35,7 @@ msgstr "祝福"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "虚弱药剂"
+msgstr "轻微中毒"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
@@ -47,15 +47,15 @@ msgstr "暗影再生"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
-msgstr "少量速度"
+msgstr "轻微加速"
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
-msgstr "少许疲劳"
+msgstr "轻微疲劳"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "轻微武器破坏"
+msgstr "轻微武器威力减弱"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -71,7 +71,7 @@ msgstr "黑水之殇"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
-msgstr "中毒"
+msgstr "醉意"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
@@ -91,7 +91,7 @@ msgstr "虫之感染"
 
 #: actorconditions_v0611.json:blister
 msgid "Blistering skin"
-msgstr "水泡皮肤"
+msgstr "皮肤起泡"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
@@ -99,15 +99,15 @@ msgstr "被震慑"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr "精准打击"
+msgstr "集中攻击"
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr "精准聚焦"
+msgstr "集中瞄准"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "伊尔德格毒药"
+msgstr "伊尔德格之毒"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
@@ -115,7 +115,7 @@ msgstr "卡扎尔腐虫"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr "暗影强度祝福"
+msgstr "暗影力量祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
@@ -123,7 +123,7 @@ msgstr "暗影恢复祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "暗影精准祝福"
+msgstr "暗影命中祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -135,15 +135,15 @@ msgstr "内出血"
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
-msgstr "骨折"
+msgstr "折伤"
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr "脑震荡"
+msgstr "震荡"
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr "营养"
+msgstr "生命恢复"
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
@@ -155,7 +155,7 @@ msgstr "腐蚀黏液"
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
-msgstr "提升知觉"
+msgstr "知觉提升"
 
 #: actorconditions_v070.json:courage
 msgid "Courage"
@@ -163,15 +163,15 @@ msgstr "勇气"
 
 #: actorconditions_v070.json:fear
 msgid "Fear"
-msgstr "惧怕"
+msgstr "恐惧"
 
 #: actorconditions_v070.json:def
 msgid "Fortified defense"
-msgstr "强化防御"
+msgstr "防御强化"
 
 #: actorconditions_v070.json:crit_aware
 msgid "Vulnerability awareness"
-msgstr "脆弱的意识"
+msgstr "弱点感知"
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
@@ -191,7 +191,7 @@ msgstr "暗影保护"
 
 #: actorconditions_v070.json:shadow_dmg
 msgid "Shadow's strength"
-msgstr "暗影强度"
+msgstr "暗影力量"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
@@ -203,7 +203,7 @@ msgstr "燃烧"
 
 #: actorconditions_v070.json:sting_minor
 msgid "Minor sting"
-msgstr "小刺"
+msgstr "轻微蛰伤"
 
 #: actorconditions_stoutford.json:confusion
 msgid "Confusion"
@@ -215,7 +215,7 @@ msgstr "笨拙"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr "亡灵的诅咒"
+msgstr "亡灵诅咒"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
@@ -227,15 +227,15 @@ msgstr "石化"
 
 #: actorconditions_graveyard1.json:vulnerability
 msgid "Vulnerability"
-msgstr "漏洞"
+msgstr "易伤"
 
 #: actorconditions_graveyard1.json:flesh_rot
 msgid "Flesh rot"
-msgstr "腐化"
+msgstr "肉体腐化"
 
 #: actorconditions_graveyard1.json:putrefaction
 msgid "Putrefaction"
-msgstr "腐烂"
+msgstr "腐坏"
 
 #: actorconditions_guynmart.json:regenNeg
 msgid "Shadow Degeneration"
@@ -247,11 +247,11 @@ msgstr "骨折"
 
 #: actorconditions_guynmart.json:shadow_awareness
 msgid "Shadow awareness"
-msgstr "暗影意识"
+msgstr "暗影感知"
 
 #: actorconditions_trader_teksin.json:poison_irdegh_weak
 msgid "Weak irdegh poison"
-msgstr "弱的伊尔德格毒药"
+msgstr "轻微伊尔德格之毒"
 
 #: actorconditions_trader_teksin.json:light_attack
 msgid "Lightning attack"
@@ -299,7 +299,7 @@ msgstr "带着安贝莉"
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr "被诅咒"
+msgstr "压伤"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
@@ -338,11 +338,11 @@ msgstr "石化皮肤"
 
 #: actorconditions_brimhaven.json:overeating
 msgid "Overeating"
-msgstr "吃撑"
+msgstr "暴食"
 
 #: actorconditions_brimhaven.json:venom
 msgid "Venom"
-msgstr "毒液"
+msgstr "毒液中毒"
 
 #: actorconditions_fungi_panic.json:spore_poison
 msgid "Spore poisoning"
@@ -354,7 +354,7 @@ msgstr "重振旗鼓"
 
 #: actorconditions_gison.json:sated
 msgid "Sated"
-msgstr "满足"
+msgstr "餍足"
 
 #: actorconditions_omi2.json:panic
 msgid "Panic"
@@ -362,7 +362,7 @@ msgstr "惊恐"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr "满足"
+msgstr "厌腻"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
@@ -374,15 +374,15 @@ msgstr "冻伤"
 
 #: actorconditions_omi2.json:relax
 msgid "Requiescence"
-msgstr "要求"
+msgstr "再次休眠"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr "卡扎尔财产"
+msgstr "卡扎尔狂热"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr "死神瘟疫"
+msgstr "死亡折磨"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
@@ -390,11 +390,11 @@ msgstr "梦游"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr "费加德效忠派"
+msgstr "费加德效忠者"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr "根基"
+msgstr "根之罗网"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
@@ -402,7 +402,7 @@ msgstr "狂犬病"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr "恶趣味"
+msgstr "难吃"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
@@ -418,13 +418,13 @@ msgstr "我在哪儿都找不到你哥哥安道尔，他昨天离开后就没再
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr "没关系，他可能很快就会回来。"
+msgstr "别担心，他可能很快就会回来。"
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
 #: conversationlist_umar.json:umar_return_2
 msgid "Anything else I can help you with?"
-msgstr "我还有什么可以帮你的吗？"
+msgstr "我还有什么可以帮忙的吗？"
 
 #: conversationlist_mikhail.json:mikhail_default:0
 #: conversationlist_mikhail.json:mikhail_default:1
@@ -449,7 +449,7 @@ msgstr "我有一样礼物给你。"
 
 #: conversationlist_mikhail.json:mikhail_default:7
 msgid "I was searching for Andor."
-msgstr "我在找安道尔。"
+msgstr "我正在寻找安道尔。"
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
@@ -14223,7 +14223,8 @@ msgstr "如果我的理解是正确的，这个祠堂是卡扎尔的遗迹。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_6
 msgid "The writings on it have almost vanished, but I have managed to read parts of it. It speaks in an ancient Kazaul tongue, so all parts are not clear to me."
-msgstr "上面的文字几乎消失了，但我还是设法读出了其中的一部分。它用一种古老的哈萨克语说话，所以我不清楚所有的部分。"
+msgstr "上面的文字几乎消失了，但我还是设法读出了其中的一部分。它用一种古老的卡扎尔语"
+"言，所以我不清楚所有的部分。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_7
 msgid "I am sure that this shrine is part of the cause for these ... these ... things ... that lurk in this cave. I will do anything in my power to defeat whatever mischief that comes from it."
@@ -14507,16 +14508,19 @@ msgstr "你显露出的所有征兆。如果这是真的，那么你就处于极
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_12
 msgid "Long ago, I read a book on Kazaul rituals. The first part of one particular ritual I read about talks about 'the carrier', that supposedly is infected with Kazaul rotworms."
-msgstr "很久以前，我读过一本关于卡扎尔仪式的书。我读到的一个特定仪式的第一部分谈到了“携带者”，据说它感染了卡扎尔轮虫。"
+msgstr "很久以前，我读过一本关于卡扎尔仪式的书。我读到的一个特定仪式的第一部分谈到了“"
+"携带者”，据说它感染了卡扎尔腐虫。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_13
 msgid "The Kazaul rotworms need a living being to feed upon, before their eggs can hatch. Their eggs can slowly kill a person from the inside, and the worms themselves cause the carrier to become weak during the whole process."
-msgstr "卡扎尔轮虫在卵孵化之前需要一个有生命的生物来喂养。它们的卵会慢慢地从体内杀死一个人，而蠕虫本身会导致携带者在整个过程中变得虚弱。"
+msgstr "卡扎尔腐虫在卵孵化之前需要一个有生命的生物来喂养。它们的卵会慢慢地从体内杀死"
+"一个人，而蠕虫本身会导致携带者在整个过程中变得虚弱。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_14
 #: conversationlist_ulirfendor.json:ulirfendor_infected_16
 msgid "The ritual proceeds with the carrier being eaten from the inside by the rotworms and their eggs, in effect, giving birth to the creatures within. Also, the process can have ... shall we say ... unusual effects on the carrier before that."
-msgstr "仪式继续进行，载体从内部被轮虫和它们的卵吃掉，实际上，在体内生育生物。此外，该过程可能具有。。。我们应该说。。。在那之前会对载体造成了不寻常的影响。"
+msgstr "仪式继续进行，载体从内部被腐虫和它们的卵吃掉，以此诞生新腐虫。此外，在此之前"
+"该过程对载体有…可以说是…不寻常的影响。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_15
 msgid "Needless to say, you are in great danger, and you should seek help immediately."
@@ -15077,7 +15081,7 @@ msgstr "我被卡扎尔的一个巫师感染了什么。"
 
 #: conversationlist_talion_2.json:talion_infect_1:1
 msgid "A man called Ulirfendor told me he thought I might be infected with Kazaul rotworms."
-msgstr "一个叫乌利芬多的人告诉我，他认为我可能感染了卡扎尔臭虫。"
+msgstr "一个叫乌利芬多的人告诉我，他认为我可能感染了卡扎尔腐虫。"
 
 #: conversationlist_talion_2.json:talion_infect_1:2
 msgid "I was told to find you, and that you might be able to help me."
@@ -15085,7 +15089,8 @@ msgstr "有人告诉我来找你，你也许能帮助我。"
 
 #: conversationlist_talion_2.json:talion_infect_2
 msgid "Ah, my old friend Ulirfendor. It's good to hear that he is still alive. Wait! What was that? Rotworms you say, eh?"
-msgstr "啊，我的老朋友乌利芬多。很高兴听到他还活着。等等，那是什么？你说是腐烂的虫子，嗯？"
+msgstr "啊，我的老朋友乌利芬多。很高兴听到他还活着。等等，那是什么？你说那是腐虫，嗯"
+"？"
 
 #: conversationlist_talion_2.json:talion_infect_3
 msgid "Nasty things, they are. I have seen people going mad from the stomach pains, and I have seen people being eaten alive from the inside."
@@ -15101,7 +15106,7 @@ msgstr "你能来见我是件好事。我也许能帮助你。"
 
 #: conversationlist_talion_2.json:talion_infect_5
 msgid "A lich of Kazaul eh? Then I am sure that whatever ails you are those cursed rotworms."
-msgstr "卡扎尔的巫师，是吗？那么我敢肯定，不管你有什么病，都是那些被诅咒的腐烂虫。"
+msgstr "卡扎尔的巫师，是吗？那么我敢肯定，不管你有什么病，都是那些被诅咒的腐虫。"
 
 #: conversationlist_talion_2.json:talion_demon_1
 msgid "Just to be sure, you did kill whatever creature that infected you with this, right?"
@@ -15186,11 +15191,12 @@ msgstr "第二，我需要一些动物毛发来搭配。两块动物毛发肯定
 
 #: conversationlist_talion_2.json:talion_infect_15
 msgid "Third, I will need a gland of poison from a creature called the irdegh."
-msgstr "第三，我需要一个来自一个叫 \"伊尔德格 \"的生物的毒腺。"
+msgstr "第三，我需要一个怪物“伊尔德格”的毒腺。"
 
 #: conversationlist_talion_2.json:talion_infect_16
 msgid "Now, I have not seen an irdegh myself, but I hear they are particularly nasty creatures. Venomous like nothing I've heard of."
-msgstr "现在，我自己还没有见过伊尔德格，但我听说它们是特别讨厌的生物。像我听说过的任何东西一样有毒。"
+msgstr "目前我还没有见到过伊尔德格，但我听说这种生物是特别恶心，毒性是我听说过的生物"
+"里面最强的。"
 
 #: conversationlist_talion_2.json:talion_infect_16:0
 msgid "OK, one irdegh poison gland. Where can I find one?"
@@ -15323,7 +15329,8 @@ msgstr "喝下药水。"
 
 #: conversationlist_talion_2.json:talion_cure_7
 msgid "[The potion smells rancid, but you manage to drink it all down. The pain from the stomach decreases, and you feel one of the rotworms crawling up into your mouth. You quickly spit the worm out into the now empty vial.]"
-msgstr "[药水闻起来有馊味，但你要设法把它全部喝下去。胃部的疼痛减轻了，你感觉到一条腐烂的虫子爬到了你的嘴里。你很快就把虫子吐到了现在的空瓶里。］"
+msgstr "[药水闻起来有馊味，但你还是它全部喝了下去。胃部的疼痛减轻了，你感觉到一条腐虫"
+"爬到了你的嘴中。你赶快把这条蠕虫吐到了空瓶里。］"
 
 #: conversationlist_talion_2.json:talion_cured_1
 msgid "Ah, that seems to have worked. Frankly, I was a little worried that it might not have worked, but seeing you spit out that worm really confirms it. Ha ha."
@@ -18038,7 +18045,7 @@ msgstr "他问了太多的问题。他需要保持沉默。"
 
 #: conversationlist_vacor2.json:vacor_msg_a2
 msgid "So, you killed him? Right?!"
-msgstr "所以，你杀了他？对吧！"
+msgstr "所以，你杀了他？对吧？！"
 
 #: conversationlist_vacor2.json:vacor_msg_a2:0
 #: conversationlist_vacor2.json:vacor_msg_b2:0
@@ -35382,7 +35389,7 @@ msgstr "而当他们离开时，他们甚至忘了他们的钱包或珠宝。"
 
 #: conversationlist_burhczyd.json:burhczydx_8a_6:0
 msgid "You are a pickpocket?!"
-msgstr "你是个扒手？!"
+msgstr "你是个扒手？！"
 
 #: conversationlist_burhczyd.json:burhczydx_8a_7
 msgid "Hush, not so loud. No, I'm not an ordinary pickpocket. I became a master thief."
@@ -38662,7 +38669,7 @@ msgstr "然而，盗贼团伙......。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_82:0
 msgid "Thieves?!"
-msgstr "小偷？!"
+msgstr "小偷？！"
 
 #: conversationlist_brimhaven2.json:brv_school_history_84
 msgid "Yes thieves. Dishonorable men who cut cheeky children's neck for a few pennies. But ... where was I?"
@@ -46950,7 +46957,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_7a:0
 msgid "W...What?!"
-msgstr "什...什么？!"
+msgstr "什...什么？！"
 
 #: conversationlist_omi2.json:ortholion_conversation2_7a:1
 msgid "Hah. I always knew you were far too shady to be an honest man."
@@ -48149,7 +48156,7 @@ msgstr "之前和你说话的那个人。 "
 
 #: conversationlist_omi2.json:kamelio_3a:0
 msgid "Ehrenfest! What has he done to you?!"
-msgstr "埃伦费斯特！他对你做了什么？!"
+msgstr "埃伦费斯特！他对你做了什么？！"
 
 #: conversationlist_omi2.json:kamelio_3a:1
 msgid "What did Lorn tell him?"
@@ -52697,7 +52704,7 @@ msgstr "砰！一声巨响让你跳起来。"
 
 #: conversationlist_ratdom.json:ratdom_ghost_30
 msgid "Whooo is distuuurbing my reeeest?!"
-msgstr "谁在扰乱我的最爱？"
+msgstr "谁在扰乱我的最爱？！"
 
 #: conversationlist_ratdom.json:ratdom_ghost_30:0
 #: conversationlist_ratdom.json:ratdom_ghost_30:1
@@ -54831,7 +54838,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_40:0
 msgid "A lousy bone for this valuable book?!"
-msgstr "对于这本宝贵的书，一个糟糕的骨头？!"
+msgstr "你用一块糟骨头换这本宝贵的书？！"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_42
 msgid "The librarian is completely absorbed in his new book."
@@ -60240,7 +60247,7 @@ msgstr "死蜘蛛"
 
 #: itemlist_v0611_2.json:irdegh
 msgid "Irdegh poison gland"
-msgstr "伊尔德格的毒腺"
+msgstr "伊尔德格毒腺"
 
 #: itemlist_v0611_2.json:arulir_skin
 msgid "Arulir skin"
@@ -60261,7 +60268,7 @@ msgstr "恶魔之心"
 
 #: itemlist_v0611_2.json:potion_rotworm
 msgid "Kazaul rotworm"
-msgstr "卡扎尔烂虫"
+msgstr "卡扎尔腐虫"
 
 #: itemlist_v0611_3.json:lyson_marrow
 msgid "Vial of Lyson marrow extract"
@@ -63179,7 +63186,7 @@ msgstr "六足虫履带黏液"
 
 #: itemlist_mt_galmore.json:hexapede_crawler_slime:description
 msgid "Provides temporary immunity to Rootsnare, but at a cost."
-msgstr "提供对Rootsnare的暂时免疫,但需要付出一定代价."
+msgstr "提供对“根之罗网”效果的暂时免疫,但需要付出一定代价."
 
 #: itemlist_mt_galmore.json:hexi_egg
 msgid "Hexi egg"
@@ -64825,7 +64832,7 @@ msgstr "维勒"
 #: monsterlist_v0611_monsters1.json:irdegh_sp_1
 #: monsterlist_v0611_monsters1.json:irdegh_sp_2
 msgid "Irdegh spawn"
-msgstr "伊尔德格产物"
+msgstr "伊尔德格之卵"
 
 #: monsterlist_v0611_monsters1.json:irdegh_1
 msgid "Irdegh"
@@ -64833,15 +64840,15 @@ msgstr "伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:irdegh_2
 msgid "Venomous irdegh"
-msgstr "有毒的伊尔德格"
+msgstr "剧毒伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:irdegh_3
 msgid "Piercing irdegh"
-msgstr "穿孔的伊尔德格"
+msgstr "穿刺伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:irdegh_4
 msgid "Ancient piercing irdegh"
-msgstr "古代穿孔的伊尔德格"
+msgstr "古代穿刺伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:maonit_1
 msgid "Maonit troll"
@@ -68577,7 +68584,7 @@ msgstr "由于我在帮助普里姆，哈伦不愿意和我说话。"
 
 #: questlist_v069.json:prim_innquest
 msgid "Well rested"
-msgstr "休息好了"
+msgstr "好好休息"
 
 #: questlist_v069.json:prim_innquest:10
 msgid "I talked to the cook in Prim, at the base of Blackwater mountain. There is a back room available for rent, but it is currently rented out to Arghest. I should go talk to Arghest to see whether he still wants to rent the room. The cook pointed me towards the southwest of Prim."
@@ -69278,7 +69285,10 @@ msgstr "在一个洞穴深处，我遇到了卡扎尔的一个巫师。不知何
 
 #: questlist_v0611_2.json:maggots:20
 msgid "Ulirfendor tells me that he read something long ago about rotworms that feed upon living tissue. They can have what he called 'unusual' effects on whoever carries them, and their eggs can slowly kill a person from the inside. I should seek help immediately, before it is too late."
-msgstr "乌利芬多告诉我，他很久以前读到过一些关于以活体组织为食的轮虫。它们会对携带它们的人产生他所说的不寻常的影响，而且它们的卵可以慢慢地从内部杀死一个人。我应该立即寻求帮助，以免为时已晚。"
+msgstr ""
+"乌利芬多告诉我，他很久以前读到过一些关于以活体组织为食的腐虫。它们会对携带它"
+"们的人产生他所说的不寻常的影响，而且它们的卵可以慢慢地从内部杀死一个人。我应"
+"该立即寻求帮助，以免为时已晚。"
 
 #: questlist_v0611_2.json:maggots:21
 msgid "Ulirfendor says that one of the priests of the Shadow should be able help me. I should go visit Talion at the chapel in Loneford at once."
@@ -69286,7 +69296,10 @@ msgstr "乌里芬多说，影子的一个牧师应该能帮助我。我应该马
 
 #: questlist_v0611_2.json:maggots:30
 msgid "Talion in Loneford told me that in order to be cured of my affliction, I will need to bring four parts to him. The parts that I will need are five bones, two pieces of animal hair, one irdegh poison gland and one empty vial. Bones and fur can probably be found on some animal in the wilderness, and the poison gland can be found on one of the irdeghs that have been spotted to the east."
-msgstr "隆福德的塔里昂告诉我，为了治好我的病，我需要带四个零件给他。我需要的零件是五根骨头，两根动物毛发，一个伊代格毒腺和一个空瓶。骨头和毛发大概可以在荒野中的某个动物身上找到，毒腺可以在东边被发现的一个伊代格身上找到。"
+msgstr ""
+"隆福德的塔里昂告诉我，为了解决我的烦恼，我需要带四个材料给他。我需要的材料是"
+"五根骨头，两份动物毛发，一个伊尔德格毒腺和一个空瓶。骨头和毛发大概可以从野外"
+"的某些动物身上找到，毒腺可以在东边曾被目击的伊尔德格身上找到。"
 
 #: questlist_v0611_2.json:maggots:40
 msgid "I have brought the five bones to Talion."
@@ -69310,7 +69323,8 @@ msgstr "我现在已经带来了塔里昂所需要的所有碎片，以治愈我
 
 #: questlist_v0611_2.json:maggots:50
 msgid "Talion has cured me of the Kazaul rotworms. I managed to get one of the rotworms into an empty vial, and Talion told me that it would be very valuable. I cannot imagine for what."
-msgstr "塔里昂已经治好了我的卡扎尔腐尸虫。我设法将其中一条腐尸放入一个空瓶中，塔里昂告诉我，这将是非常有价值的。我无法想象为了什么。"
+msgstr "塔里昂已经治好了我的卡扎尔腐虫。我设法将其中一条腐虫放入一个空瓶中，塔里昂告"
+"诉我，它非常有价值。我无法想象可以拿来干什么。"
 
 #: questlist_v0611_2.json:maggots:51
 msgid "Because of my former affliction, Talion has agreed to help me by placing blessings of the Shadow upon me whenever I wish, for a fee."
