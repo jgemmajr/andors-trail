@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-06-15 11:11+0000\n"
-"Last-Translator: Dante Avila <buster-slash@hotmail.com>\n"
+"PO-Revision-Date: 2024-06-15 17:13+0000\n"
+"Last-Translator: Palkia <dxavi215@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -51,7 +51,7 @@ msgstr "Fatiga Menor"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Debilidad de arma mentor"
+msgstr "Debilidad de arma menor"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -119,7 +119,7 @@ msgstr "Bendición de regeneración de las sombras"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Bendición de precisión de la Sombra"
+msgstr "Precisión de la Bendición de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -462,12 +462,12 @@ msgstr "Oh sí, había algunas cosas con las que necesito ayuda, pan y ratas. ¿
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "¿Que pasa con el pan?"
+msgstr "¿Qué hay del pan?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr "¿Qué pasa con las ratas?"
+msgstr "¿Qué hay de las ratas?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
@@ -653,7 +653,10 @@ msgstr "Aquí tienes."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
-msgstr "Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara en el ayuntamiento. Pero ten cuidado: he escuchado que la carne cruda a veces puede provocar una intoxicación alimentaria."
+msgstr ""
+"Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara "
+"en el ayuntamiento. Pero ten cuidado: he escuchado que la carne cruda a "
+"veces puede provocar una intoxicación."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
@@ -661,7 +664,8 @@ msgstr "Si eso sucede, quizás el sacerdote del pueblo pueda hacer algo para ayu
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr "Yo, realmente no me puedo permitir la carne, ¡así que solo me quedo con mi pan!"
+msgstr ""
+"Yo, realmente no puedo costearme la carne, ¡así que solo me quedo con mi pan!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -1723,7 +1727,7 @@ msgstr "Nos sigue donde quiera que vayamos. Ve con la Sombra mi hijo."
 #: conversationlist_fallhaven.json:priest_shadow_2:1
 #: conversationlist_remgard_villagers1.json:atash:1
 msgid "Whatever, bye."
-msgstr "Lo que sea, adiós."
+msgstr "Lo que digas... Adios."
 
 #: conversationlist_fallhaven.json:rigmor
 msgid "Well hello there! Aren't you a cute little fellow."
@@ -4780,7 +4784,7 @@ msgstr "Vive en su cabaña, inmediatamente al sur de mi prisión. ¡No me vuelva
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_3:0
 msgid "Easy. Easy. I'm already leaving."
-msgstr "Fácil. Fácil. Ya me estoy yendo."
+msgstr "Tranquilo. Tranquilo. Ya me voy."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_3:1
 msgid "I wanted to leave your shabby prison anyway."
@@ -4804,11 +4808,11 @@ msgstr "[OUTDATED]¿Qué se supone que debo hacer?"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "Matpat me dijo que Defy y sus hombres dejaron Sullengard."
+msgstr "Matpat me dijo que Defy y sus hombres se fueron de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
-msgstr "Defy y sus hombres han dejado Sullengard."
+msgstr "Defy y sus hombres se han ido de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
@@ -4816,7 +4820,7 @@ msgstr "[OUTDATED]Se supone que debemos hablar de algo."
 
 #: conversationlist_umar.json:umar_return_1:7
 msgid "What am I supposed to do in Sullengard again?"
-msgstr "¿Qué se supone que debo hacer en Sullengard otra vez?"
+msgstr "Que se supone que haga en Sullengard de nuevo?"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
@@ -48270,7 +48274,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_53:0
 msgid "Check who is coming."
-msgstr ""
+msgstr "Mira quien viene."
 
 #: conversationlist_omi2.json:kamelio_1
 msgid "Hello, unfortunate soul. I'm Kamelio."
@@ -54507,7 +54511,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:1
 msgid "OK. Have fun."
-msgstr ""
+msgstr "Está bien. Diviértete."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_22
 msgid "Sure. Feel free."
@@ -54523,7 +54527,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:1
 msgid "[Lie] No. I haven't taken anything."
-msgstr ""
+msgstr "(Miente) No. No he tomado nada."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_52
 msgid "Well, no. This is my favorite bone, it makes a good sound. Put it back, please."
@@ -54535,17 +54539,17 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_10
 msgid "Go away!"
-msgstr ""
+msgstr "¡Vete!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:1
 msgid "Hey, you!"
-msgstr ""
+msgstr "¡Oye, tú!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:0
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10:0
 msgid "Who, me?"
-msgstr ""
+msgstr "¿Quién, yo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_30
 msgid "I know your face!"
@@ -54557,11 +54561,12 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_40:0
 msgid "Oh. It's you ..."
-msgstr ""
+msgstr "oh. Eres tu..."
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_42
 msgid "Surprised? I'm sure you didn't think we'd see each other again."
 msgstr ""
+"¿Sorprendido? Estoy seguro de que no pensabas que nos veríamos de nuevo."
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_50
 msgid "I have lost everything because of this! Above all, my honor!"
@@ -54581,12 +54586,12 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_70:0
 msgid "But you were so stupid ..."
-msgstr ""
+msgstr "Pero fuistes tan estúpido ..."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:1
 msgid "Please don't hurt me."
-msgstr ""
+msgstr "Por favor no me lastimes."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1:1
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:1
@@ -54595,7 +54600,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s
 msgid "Please don't hurt me. I am starving."
-msgstr ""
+msgstr "Por favor no me lastimes. Estoy hambriento."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:2
 msgid "Starving? I have some cheese for you here."
@@ -54631,7 +54636,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:0
 msgid "Yeah, everyone says that."
-msgstr ""
+msgstr "Sí, todos dicen eso."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:1
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:1
@@ -54640,11 +54645,11 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10
 msgid "It was not me! It was not me!"
-msgstr ""
+msgstr "¡No fui yo! ¡No fui yo!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:0
 msgid "Finally confess!"
-msgstr ""
+msgstr "¡Finalmente una confesión!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:2
 msgid "I am going to kill you for your deeds now."
@@ -54689,7 +54694,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20:0
 msgid "King Rah's sword?"
-msgstr ""
+msgstr "¿La espada del Rey Rah?"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30
 msgid "You'll find it further down in the caves. Say the words 'Veni gladio fidelis'."
@@ -54738,7 +54743,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:1
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40:0
 msgid "Enough. Enjoy yourself."
-msgstr ""
+msgstr "Suficiente. Disfrutalo."
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40
 msgid "You would like to know, he? But I won't tell you!"
@@ -54770,19 +54775,19 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206:0
 msgid "Really - why?"
-msgstr ""
+msgstr "¿En serio? ‐ Por qué?"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_210
 msgid "Killing Fraedro. I loved to see that."
-msgstr ""
+msgstr "Matar a Fraedro. Me encanto ver eso."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220
 msgid "He deserved death, yes. But not because of the stupid skeleton of Rah."
-msgstr ""
+msgstr "Mereció la muerte, sí. Pero no por el estúpido esqueleto de Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220:0
 msgid "Not? Now I'm confused."
-msgstr ""
+msgstr "¿No? Ahora estoy confundido."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_230
 msgid "Of course not. As if Fraedro could. He's far too good a rat to do such a thing."
@@ -54866,7 +54871,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_300:1
 msgid "I have to run."
-msgstr ""
+msgstr "Tengo que correr."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2
 msgid "Andor! Good that you are back at last!"
@@ -54973,60 +54978,64 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_maze_mole
 msgid "Who's there?"
-msgstr ""
+msgstr "¿Quién está allí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_01
 msgid "Good. You are awake at last."
-msgstr ""
+msgstr "Bueno, Al fin despiertas."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_01:0
 msgid "A rat? Here?"
-msgstr ""
+msgstr "¿Una rata? ¿Aquí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_02
 msgid "As you see. Did you find your brother Andor already? He hasn't been back home for a while now."
 msgstr ""
+"Como puedes ver. ¿Ya encontraste a tu hermano Andor? No ha vuelto a casa "
+"desde hace un tiempo."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_02:0
 msgid "Eh, what? No, I am still looking for Andor."
-msgstr ""
+msgstr "Eh, ¿qué? No, Todavía estoy buscando a Andor."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_03
 msgid "I should have guessed. Anyway."
-msgstr ""
+msgstr "Debería haberlo sospechado. De todos modos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_03:0
 msgid "What are you doing in my house? Where is Mikhail?"
-msgstr ""
+msgstr "¿Qué estás haciendo en mi casa? ¿Dónde está Mikhail?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_04
 msgid "We rats took over this village. I am Gruiik, their leader."
-msgstr ""
+msgstr "Nosotros, Las ratas, tomamos esta aldea. Soy Gruiik, su líder."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10
 msgid "However, there are two-legs running around in my garden again. Go and kill them."
 msgstr ""
+"Sin embargo, hay intrusos en mi jardín una vez más. Ve y enfrenta a esos "
+"enemigos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:0
 msgid "I'll have a look."
-msgstr ""
+msgstr "Echaré un vistazo."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:1
 msgid "I would never do that!"
-msgstr ""
+msgstr "¡Nunca haría eso!"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10
 msgid "And I am hungry. Go to the town hall and bring me some bread."
-msgstr ""
+msgstr "Y tengo hambre. Ve al ayuntamiento y tráeme algo de pan, por favor."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:2
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:2
 msgid "Here I have some bread for you."
-msgstr ""
+msgstr "Aquí tienes el pan."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20
 msgid "It's about time."
-msgstr ""
+msgstr "Ya es hora."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20:0
 msgid "What - no thanks? Rats."
@@ -55038,11 +55047,11 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:0
 msgid "No, not yet"
-msgstr ""
+msgstr "No, no aún"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:1
 msgid "Yes, I killed Mara and Tharal in the garden for you."
-msgstr ""
+msgstr "Sí, Mate a Mara y Tharal en el jardín por ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:2
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:3
@@ -55076,52 +55085,55 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_rat
 msgid "This is my bed - go away!"
-msgstr ""
+msgstr "¡Esta es mi cama - vete!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:0
 msgid "How do I get out of here?"
-msgstr ""
+msgstr "¿Cómo salgo de aquí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:1
 msgid "Where would I find this yellow artifact thing?"
-msgstr ""
+msgstr "¿Dónde conseguiría este objeto amarillo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:2
 #: conversationlist_ratdom_npc.json:ratdom_rat_52:1
 msgid "There is a nice new statue in the cave."
-msgstr ""
+msgstr "Hay una bonita estatua nueva en la cueva."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:3
 msgid "I tried to pass by Andor's statue, but there is not enough space."
-msgstr ""
+msgstr "Intenté pasar por la estatua de Andor, pero no hay suficiente espacio."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:4
 msgid "Look! I have a pickaxe now."
-msgstr ""
+msgstr "¡Mira! Tengo un pico ahora."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:5
 msgid "There is a little bone shaped hole in the wall behind the statue. What shall I do now?"
 msgstr ""
+"Hay un agujero en forma de hueso en la pared detrás de la estatua. ¿Qué debo "
+"hacer ahora?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:6
 msgid "I found a dark deep passage behind our supply cave."
 msgstr ""
+"Encontré un pasaje oscuro y profundo detrás de nuestra cueva de suministros."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:7
 msgid "Will I ever be able to use my bed again? Sigh."
-msgstr ""
+msgstr "¿Podré volver a usar mi cama alguna vez? Suspiro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:8
 msgid "Clevred, I give up. You must search for your powerful artifact alone."
-msgstr ""
+msgstr "Clevred, me rindo. Debes buscar tu poderoso artefacto solo."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10
 msgid "I know the way out, of course. Rats always know the way out."
-msgstr ""
+msgstr "Claro, Conozco la salida. Las ratas siempre conocen la salida."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10:0
 msgid "Great. Show me the way out of this rat infested place here."
-msgstr ""
+msgstr "Genial. Permíteme mostrarte la salida de este lugar infestado de ratas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10_10
 msgid "Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit."
@@ -71734,7 +71746,7 @@ msgstr "La maestra estaba muy satisfecha con mi desempeño en el duelo. La escue
 
 #: questlist_brimhaven2.json:brv_school2:230
 msgid "The teacher sent me away, because I killed Golin in the duel."
-msgstr "La maestra me mandó lejos, porque maté a Golin en el duelo."
+msgstr "La maestra me echo, porque maté a Golin en el duelo."
 
 #: questlist_brimhaven2.json:brv_school2:240
 msgid "Golin was horrified by my murder of the teacher and attacked me to avenge her."
@@ -73197,7 +73209,7 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_library
 msgid "Library"
-msgstr ""
+msgstr "Biblioteca"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_4_wells
 msgid "4 wells"
