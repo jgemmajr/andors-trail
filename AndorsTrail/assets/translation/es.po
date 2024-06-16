@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-03-15 12:02+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2024-06-16 08:21+0000\n"
+"Last-Translator: Palkia <dxavi215@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -51,7 +51,7 @@ msgstr "Fatiga Menor"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Debilidad menor del arma"
+msgstr "Debilidad de arma menor"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -119,7 +119,7 @@ msgstr "Bendición de regeneración de las sombras"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Bendición de precisión de la Sombra"
+msgstr "Precisión de la Bendición de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -191,7 +191,7 @@ msgstr "Fuerza de la Sombra"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
-msgstr "Prisa"
+msgstr "Aceleración"
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
@@ -402,7 +402,7 @@ msgstr "Mal gusto"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "sed"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -462,12 +462,12 @@ msgstr "Oh sí, había algunas cosas con las que necesito ayuda, pan y ratas. ¿
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr "¿Que pasa con el pan?"
+msgstr "¿Qué hay del pan?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr "¿Qué pasa con las ratas?"
+msgstr "¿Qué hay de las ratas?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
@@ -653,7 +653,10 @@ msgstr "Aquí tienes."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
-msgstr "Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara en el ayuntamiento. Pero ten cuidado: he escuchado que la carne cruda a veces puede provocar una intoxicación alimentaria."
+msgstr ""
+"Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara "
+"en el ayuntamiento. Pero ten cuidado: he escuchado que la carne cruda a "
+"veces puede provocar una intoxicación."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
@@ -661,7 +664,8 @@ msgstr "Si eso sucede, quizás el sacerdote del pueblo pueda hacer algo para ayu
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr "Yo, realmente no me puedo permitir la carne, ¡así que solo me quedo con mi pan!"
+msgstr ""
+"Yo, realmente no puedo costearme la carne, ¡así que solo me quedo con mi pan!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -1310,7 +1314,7 @@ msgstr "Necesito que entres en la cueva y mates a la rata grande. De esa manera 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95:1
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30:0
 msgid "OK."
-msgstr "OK."
+msgstr "Esta bien."
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
@@ -1723,7 +1727,7 @@ msgstr "Nos sigue donde quiera que vayamos. Ve con la Sombra mi hijo."
 #: conversationlist_fallhaven.json:priest_shadow_2:1
 #: conversationlist_remgard_villagers1.json:atash:1
 msgid "Whatever, bye."
-msgstr "Lo que sea, adiós."
+msgstr "Lo que digas... Adios."
 
 #: conversationlist_fallhaven.json:rigmor
 msgid "Well hello there! Aren't you a cute little fellow."
@@ -3486,7 +3490,7 @@ msgstr "¿Eres un leñador?"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr ""
+msgstr "Tunlon me ha enviado para pedir un poco de madera para cercas."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
@@ -4780,7 +4784,7 @@ msgstr "Vive en su cabaña, inmediatamente al sur de mi prisión. ¡No me vuelva
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_3:0
 msgid "Easy. Easy. I'm already leaving."
-msgstr "Fácil. Fácil. Ya me estoy yendo."
+msgstr "Tranquilo. Tranquilo. Ya me voy."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_3:1
 msgid "I wanted to leave your shabby prison anyway."
@@ -4804,19 +4808,21 @@ msgstr "[OUTDATED]¿Qué se supone que debo hacer?"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "Matpat me dijo que Defy y sus hombres dejaron Sullengard."
+msgstr "Matpat me dijo que Defy y sus hombres se fueron de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
-msgstr "Defy y sus hombres han dejado Sullengard."
+msgstr "Defy y sus hombres se han ido de Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
-msgstr "[OUTDATED]Se supone que debemos hablar de algo."
+msgstr ""
+"Defy me dijo que el momento de compartir se retrasará sin motivo "
+"especificado."
 
 #: conversationlist_umar.json:umar_return_1:7
 msgid "What am I supposed to do in Sullengard again?"
-msgstr "¿Qué se supone que debo hacer en Sullengard otra vez?"
+msgstr "¿Qué se supone que haga en Sullengard de nuevo?"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
@@ -10378,11 +10384,13 @@ msgstr "¿Has visto a mi hermano Andor por aquí? Se parece un poco a mí."
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr ""
+msgstr "¿Por casualidad tienes madera de sobra para hacer cercas?"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
 msgstr ""
+"Soy $playername, corriendo de arriba abajo la montaña Blackwater para hacer "
+"mandados."
 
 #: conversationlist_hadracor.json:hadracor_andor_1
 msgid "Looks like you eh? No, I would have remembered."
@@ -10507,10 +10515,14 @@ msgstr "Sí, maté a cinco de ellas."
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:5
 msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
 msgstr ""
+"No, pero quería preguntar si tienes algo de madera de sobra para hacer "
+"cercas."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:6
 msgid "No, I'm too busy running up and down Blackwater mountain."
 msgstr ""
+"No, estoy demasiado ocupado corriendo arriba y abajo de la montaña "
+"Blackwater."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
@@ -10549,6 +10561,8 @@ msgstr "Bien, dejame ver lo que tienes."
 #: conversationlist_hadracor.json:hadracor_complete_3:3
 msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
 msgstr ""
+"No, gracias. Estoy demasiado ocupado corriendo arriba y abajo de la montaña "
+"Blackwater."
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
@@ -10557,6 +10571,8 @@ msgstr "¡Atacaste a mis ovejas! ¡Aléjate de mí, asqueroso asesino!"
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
 msgstr ""
+"Lo siento. Pero tu hermano me envió para preguntar si sabías dónde podría "
+"conseguir cercas para sus ovejas."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -10571,6 +10587,8 @@ msgstr "Hablé con Benbyr y escuché la historia de ustedes dos."
 #: conversationlist_tinlyn.json:tinlyn_story_1:1
 msgid "Your brother has sent me to ask where I could get fences from. Do you maybe know?"
 msgstr ""
+"Tu hermano me ha enviado para preguntar dónde podría conseguir cercas. ¿Tal "
+"vez tú sabes?"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
 msgid "Hello there. You wouldn't happen to want to help an old shepherd would you?"
@@ -12244,15 +12262,17 @@ msgstr "No me molestes, tengo que terminar de cortar esta leña. Ve a molestar a
 #: conversationlist_loneford_2.json:loneford_villager2:0
 #: conversationlist_loneford_2.json:loneford_villager2:1
 msgid "Do you by any chance have some fences?"
-msgstr ""
+msgstr "¿Por casualidad tienes algunas cercas?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:2
 msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
 msgstr ""
+"Lamentablemente, las cercas que me diste no son lo suficientemente altas. ¿"
+"Tienes otras?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:3
 msgid "The Craftsman told me that I should get some wood from you."
-msgstr ""
+msgstr "El artesano me dijo que debería conseguir algo de madera de ti."
 
 #: conversationlist_loneford_2.json:loneford_villager3
 msgid "I fear for our survival. It seems we are getting worse every day that passes. It's a good thing Feygard helps us at least."
@@ -31396,7 +31416,7 @@ msgstr "Por favor, no molestes. Tenemos que practicar."
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b
 msgid "No, unfortunately not. Maybe try my colleague in Fallhaven?"
-msgstr "No, desafortunadamente no. ¿Quizás intentarlo con mi colega en Fallhaven?"
+msgstr "No, desafortunadamente no. ¿Quizás intenta con mi colega en Fallhaven?"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_10_b:0
 msgid "Sigh - well, thanks."
@@ -35601,7 +35621,7 @@ msgstr "Ahora la orden completa busca al ladrón. Así que pensé en disfrazarme
 
 #: conversationlist_burhczyd.json:burhczydx_10a_7:0
 msgid "As a knight!?"
-msgstr "¿Cómo un caballero?"
+msgstr "¿Cómo un caballero?!"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_7a
 msgid "Indeed. They'd never suspect this. I already talked with some knights and asked about their progress."
@@ -36615,14 +36635,16 @@ msgstr "No, solo quiero ver."
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:3
 msgid "Hello. The woodcutter in Loneford said that you can make me fences for a sheperd. Is that true?"
 msgstr ""
+"Hola. El leñador en Loneford dijo que puede hacerme cercas para un pastor. ¿"
+"Es cierto?"
 
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:4
 msgid "Here is your wood."
-msgstr ""
+msgstr "Aquí tienes la madera."
 
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:5
 msgid "Ah, you are back."
-msgstr ""
+msgstr "Ah, regresaste."
 
 #: conversationlist_brimhaven.json:brv_old_farmer_0
 msgid "What are you doing in my house?"
@@ -37949,15 +37971,17 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:0
 msgid "Hey, what the ...?"
-msgstr ""
+msgstr "Hey, Que...?"
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:1
 msgid "Phew, at least they didn't find my iron reserve in the bonemeal box."
 msgstr ""
+"Uf, al menos no encontraron mi reserva de hierro en la caja de harina de "
+"huesos."
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:2
 msgid "Phew, at least they had let me go."
-msgstr ""
+msgstr "Uf, al fin me han dejado ir."
 
 #: conversationlist_brimhaven.json:truric_1_0
 msgid "I am a weaponsmith. I have a good selection at the moment. Would you like to take a look?"
@@ -38480,6 +38504,8 @@ msgstr "Hasta luego. Te mantendré al tanto."
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur
 msgid "One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch."
 msgstr ""
+"Uno de los guardias te guiña un ojo mientras coloca las pociones de harina "
+"de hueso confiscadas de nuevo en tu bolsa."
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur:0
 #: monsterlist_omicronrg9.json:unknown
@@ -38489,10 +38515,12 @@ msgstr "¿¿??"
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_10
 msgid "You'll be speechless - the guard is Burhczyd in the uniform of the Feygard Guard!"
 msgstr ""
+"¡Te quedarás sin palabras - el guardia es Burhczyd con el uniforme de la "
+"Guardia de Feygard!"
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_20
 msgid "Before you react, the guards have moved on."
-msgstr ""
+msgstr "Antes de que reacciones, los guardias se han marchado."
 
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
 msgid "When the other students see how you killed Golin, a panic breaks out. Screaming, they all run out of the building."
@@ -41240,6 +41268,9 @@ msgstr "Reflexionando sobre tu viaje, te maravillas como fuiste capaz de ir de u
 #: conversationlist_achievements.json:passive_achievement_grant_2
 msgid "Phew, I dreamed about nightmares in a castle dungeon - although maybe it wasn't a nightmare at all! I never want to go through something like that again - neither in my dream nor in reality!"
 msgstr ""
+"¡Uf, Soñé con un calabozo de un castillo, aunque tal vez no fue una "
+"pesadilla en absoluto! ¡Nunca quiero volver a pasar por algo así, ni en mis "
+"sueños, ni en la realidad!"
 
 #: conversationlist_fungi_panic.json:bogsten_check_zuulkhan_10
 msgid "You have the impression that Zuul'khan is not dead. He just disappeared into the ground."
@@ -44575,7 +44606,7 @@ msgstr "¿Qué?! ¡No puedes…!"
 
 #: conversationlist_omi2.json:ortholion_conversation_11
 msgid "HOW DARE YOU INTERRUPT THE GENERAL?!"
-msgstr "¡CÓMO TE ATREVES A INTERRUMPIR AL GENERAL!"
+msgstr "¡CÓMO TE ATREVES A INTERRUMPIR AL GENERAL?!"
 
 #: conversationlist_omi2.json:ortholion_conversation_11a
 msgid "A palpable tension falls over the room as the guards begin to shout."
@@ -46706,15 +46737,19 @@ msgstr "Quién te dijo eso?"
 
 #: conversationlist_omi2.json:capvjern_9
 msgid "*stares at you* What the hell kid? Why're you here again?"
-msgstr ""
+msgstr "*te mira fijamente* ¿Qué demonios, chico? ¿Por qué estás aquí de nuevo?"
 
 #: conversationlist_omi2.json:capvjern_10
 msgid "Hey, show some respect. This youngster dared to go where you didn't. He told me what happened, too."
 msgstr ""
+"Oye, muestra algo de respeto. Este joven se atrevió a ir a donde tú no "
+"fuistes. También me contó lo que sucedió."
 
 #: conversationlist_omi2.json:capvjern_11
 msgid "*puts on an exhausted face* Whatever...I don't know his name. Just another one of the very few visitors we receive here. He was wearing a blue cloak, I think."
 msgstr ""
+"*Pone cara de cansancio* Sea lo que sea... No sé su nombre. Solo otro de los "
+"pocos visitantes que recibimos aquí. Creo que llevaba una capa azul."
 
 #: conversationlist_omi2.json:capvjern_11:0
 msgid "Ehrenfest!"
@@ -46722,7 +46757,7 @@ msgstr "Ehrenfest!"
 
 #: conversationlist_omi2.json:capvjern_12
 msgid "The shady guy, isn't it?"
-msgstr ""
+msgstr "El chico sombrío, verdad?"
 
 #: conversationlist_omi2.json:capvjern_12:0
 msgid "He lied to me again!"
@@ -46730,11 +46765,11 @@ msgstr "¡El me mintió otra vez!"
 
 #: conversationlist_omi2.json:capvjern_13
 msgid "This is serious. That guy might be behind the disappearances."
-msgstr ""
+msgstr "Esto es serio, ese chico puede que este detrás de las desapariciones."
 
 #: conversationlist_omi2.json:capvjern_13:0
 msgid "He has been in the mine during these last few days."
-msgstr ""
+msgstr "Él ha estado en la mina durante estos últimos días."
 
 #: conversationlist_omi2.json:capvjern_14
 msgid "We should look for him. This Ehrenfest guy needs to clear up many things. "
@@ -46800,7 +46835,7 @@ msgstr "Talvez..."
 
 #: conversationlist_omi2.json:capvjern_19
 msgid "That's right. But I feel that's what they wanted since the very beginning."
-msgstr ""
+msgstr "Así es. Pero siento que eso es lo que querían desde el principio."
 
 #: conversationlist_omi2.json:capvjern_20
 msgid "$playername, what do you think? This is probably our best bet."
@@ -46820,63 +46855,74 @@ msgstr "Está arreglado entonces. Difundiremos la palabra entre los guardias."
 
 #: conversationlist_omi2.json:capvjern_21:0
 msgid "Great. Shadow be with you."
-msgstr ""
+msgstr "Genial. Que la sombra este contigo."
 
 #: conversationlist_omi2.json:capvjern_21:1
 msgid "We'll meet soon, then."
-msgstr ""
+msgstr "Nos veremos pronto, entonces."
 
 #: conversationlist_omi2.json:capvjern_22
 msgid "$playername, you must reach Blackwater Settlement and get help from General Ortholion."
 msgstr ""
+"$playername, debes llegar al asentamiento de Blackwater y buscar ayuda del "
+"General Ortholion."
 
 #: conversationlist_omi2.json:ortholion_subdued_0
 msgid "You hear steps up in the mountain. It seems a Feygard soldier is guarding the cave entrance. General Ortholion must have already reached Blackwater Settlement."
 msgstr ""
+"Escuchas pasos en la montaña. Parece que un soldado de Feygard está "
+"guardando la entrada de la cueva. El General Ortholion debe haber llegado ya "
+"al asentamiento de Blackwater."
 
 #: conversationlist_omi2.json:ortholion_subdued_1
 msgid "Hmmm... Hmmm...."
-msgstr ""
+msgstr "Mmmm... Mmmm...."
 
 #: conversationlist_omi2.json:ortholion_subdued_1:0
 msgid "Hey! I need to talk with the general, now!"
-msgstr ""
+msgstr "¡Oye!, Necesito hablar con el general, Ahora!"
 
 #: conversationlist_omi2.json:ortholion_subdued_1:1
 msgid "Step aside, lowly minion. I have business with your boss."
-msgstr ""
+msgstr "Haste a un lado, minoría. Tengo asuntos pendientes con tu jefe."
 
 #: conversationlist_omi2.json:ortholion_subdued_2
 msgid "The scout stares at you with an immeasurable anger. Before you can react, she swings her dagger, opening a wound in your arm."
 msgstr ""
+"El explorador te mira con una ira insondable. Antes de que puedas "
+"reaccionar, ella balancea su daga, abriendo una herida en tu brazo."
 
 #: conversationlist_omi2.json:ortholion_subdued_2:0
 msgid "Argh! What the...?"
-msgstr ""
+msgstr "¡Aah! ¿Pero qué...?"
 
 #: conversationlist_omi2.json:ortholion_subdued_2:1
 msgid "How dare you! Prepare to die, Feygard scum."
-msgstr ""
+msgstr "¡Cómo te atreves! Prepárate a morir, Basura de Feygard."
 
 #: conversationlist_omi2.json:ortholion_subdued_3
 msgid "A slim girl stands in front of you. Her armor seems to be made from leather, but it seems to rigid, like frozen, just like her face. The Feygard coat of arms gleams in her suit, but it's overshadowed by her eyes, nailed in you."
 msgstr ""
+"Una chica delgada está parada frente a ti. Su armadura parece estar hecha de "
+"cuero, pero parece rígida, como congelada, al igual que su rostro. El escudo "
+"de armas de Feygard brilla en su traje, pero es opacado por sus ojos "
+"clavados en ti."
 
 #: conversationlist_omi2.json:ortholion_conversation2_1
 msgid "Ehrenfest, you have come this far just to get rid of me..."
-msgstr ""
+msgstr "Ehrenfest, has llegado hasta aquí solo para deshacerte de mí..."
 
 #: conversationlist_omi2.json:ortholion_conversation2_1:0
 msgid "Ehrenfest, here I am to help you."
-msgstr ""
+msgstr "Ehrenfest, aquí estoy para ayudarte."
 
 #: conversationlist_omi2.json:ortholion_conversation2_1:1
 msgid "Ortholion, beware! He is a dangerous liar!"
-msgstr ""
+msgstr "¡Ortholion, cuidado! ¡Es un mentiroso peligroso!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_2a
 msgid "The crimes you have commited must be punished!"
-msgstr ""
+msgstr "¡Los crímenes que has cometido deben ser sentenciados!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_3a
 msgid ""
@@ -46884,6 +46930,10 @@ msgid ""
 "\n"
 "You even dared to think you had a chance to trick a general of glorious Feygard?!"
 msgstr ""
+"Mmmm... ¿Qué crímenes, criatura diabólica?\n"
+"\n"
+"¿Aún te atreviste a pensar que tenías alguna posibilidad de engañar a un "
+"general de la gloriosa Feygard?!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_4a
 msgid ""
@@ -46891,35 +46941,41 @@ msgid ""
 "\n"
 "$playername! It's time to end with all of this!"
 msgstr ""
+"Estoy... *te mira fijamente*.\n"
+"\n"
+"¡$playername! ¡Es hora de acabar con todo esto!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_4a:0
 msgid "Right! Ortholion must pay for killing innocent people from Prim!"
-msgstr ""
+msgstr "¡Correcto! ¡Ortholion debe pagar por matar gente inocente de Prim!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_4a:1
 msgid "Gladly. Ortholion, prepare to die!"
-msgstr ""
+msgstr "Con gusto. ¡Ortholion, prepárate para morir!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_5a
 msgid "A kid? You come with a kid accusing me of something I never heard about?"
 msgstr ""
+"¿Un niño? ¿Vienes con un niño acusándome de algo que nunca he escuchado?"
 
 #: conversationlist_omi2.json:ortholion_conversation2_5a2
 msgid "General Ortholion ignores you and continues to speak to Ehrenfest."
-msgstr ""
+msgstr "El general Ortolion te ignora y continúa hablando con Ehrenfest."
 
 #: conversationlist_omi2.json:ortholion_conversation2_6a
 msgid "Ehrenfest, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you."
 msgstr ""
+"Ehrenfest, me has cabreado más de lo que estoy dispuesto a soportar. Los "
+"guardias del asentamiento de Blackwater se encargarán de ti."
 
 #: conversationlist_omi2.json:ortholion_conversation2_6a:0
 msgid "Those guards are no match for..."
-msgstr ""
+msgstr "Esos guardias no son rivales para..."
 
 #: conversationlist_omi2.json:ortholion_conversation2_6a:1
 #: conversationlist_omi2.json:ehrenfest_51:0
 msgid "Die!"
-msgstr ""
+msgstr "¡Muere!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_7a
 msgid ""
@@ -46927,18 +46983,25 @@ msgid ""
 "\n"
 "You only had to distract him and take the blame!"
 msgstr ""
+"¡Aah! Es suficiente. $playername. ¿No fuiste lo suficiente fuerte? Patético."
+"\n"
+"\n"
+"¡Solo tenías que distraerlo y echarle la culpa!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_7a:0
 msgid "W...What?!"
-msgstr ""
+msgstr "Q…Qué?!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_7a:1
 msgid "Hah. I always knew you were far too shady to be an honest man."
 msgstr ""
+"Aah. Siempre supe que eras demasiado sombrío para ser un hombre honesto."
 
 #: conversationlist_omi2.json:ortholion_conversation2_6a2
 msgid "Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow."
 msgstr ""
+"Justo antes de comenzar a lanzar un ataque, el General Ortholion se mueve y "
+"te desarma con un solo golpe."
 
 #: conversationlist_omi2.json:ortholion_conversation2_8a
 msgid ""
@@ -46948,38 +47011,49 @@ msgid ""
 "\n"
 "[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]"
 msgstr ""
+"¡Ortholion! ¿Cuánto vale tu vida? ¿Cuántas personas?\n"
+"\n"
+"Demuestra el honor de tu gloriosa tierra. ¡Enfréntame solo! Sin guardias, "
+"sin testigos.\n"
+"\n"
+"[Ehrenfest salta de manera antinaturalmente alta, pasando por encima de mí, "
+"y desaparece en un abrir y cerrar de ojos]"
 
 #: conversationlist_omi2.json:ortholion_conversation2_8a:0
 msgid "Coward...."
-msgstr ""
+msgstr "Cobarde…."
 
 #: conversationlist_omi2.json:ortholion_conversation2_8a:1
 msgid "So, it was a trick..."
-msgstr ""
+msgstr "Así que, fue un truco…"
 
 #: conversationlist_omi2.json:ortholion_conversation2_2b
 msgid "I hoped someone else would take the blame for this. But don't worry, soon we shall be unstoppable."
 msgstr ""
+"Esperaba que alguien más se hiciera cargo de esto. Pero no te preocupes, "
+"pronto seremos imparables."
 
 #: conversationlist_omi2.json:ortholion_conversation2_2b:0
 msgid "Stop!"
-msgstr ""
+msgstr "¡Detente!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_2b:1
 msgid "Do you always talk this much, liar?"
-msgstr ""
+msgstr "¿Siempre hablas mucho, Mentiroso?"
 
 #: conversationlist_omi2.json:ortholion_conversation2_3b
 msgid "*unsheathes his sword* Well, enough talk. I won't ignore your threats, evil creature."
 msgstr ""
+"*Desenvaina su espada* Bueno, basta de charla. No ignoraré tus amenazas, "
+"criatura diabólica."
 
 #: conversationlist_omi2.json:ortholion_conversation2_3b:0
 msgid "Hey, stop you two!"
-msgstr ""
+msgstr "¡Oigan!, deténganse ustedes dos!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_3b:1
 msgid "Ehrenfest, you have many things to explain!"
-msgstr ""
+msgstr "¡Ehrenfest, tienes mucho que explicar!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_4b
 msgid ""
@@ -46987,6 +47061,11 @@ msgid ""
 "\n"
 "*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!"
 msgstr ""
+"[La gente del bar comienza a mirar hacia el lugar donde Ortholion y "
+"Ehrenfest están a punto de pelear]\n"
+"\n"
+"*Mirando alrededor* No... Aún no. ¡Argh! ¡Mocoso, traidor! ¡Estás a punto de "
+"descubrir lo mal que has elegido!"
 
 #: conversationlist_omi2.json:ortholion_conversation2_5b
 msgid ""
@@ -46994,122 +47073,150 @@ msgid ""
 "\n"
 "Hmpf..."
 msgstr ""
+"El general intenta golpear a Ehrenfest, pero solo corta un pedazo de su "
+"capa. Ehrenfest ha desaparecido.\n"
+"\n"
+"Hmpf..."
 
 #: conversationlist_omi2.json:ortholion_conversation2_5b:0
 msgid "Eh... Greetings, general."
-msgstr ""
+msgstr "Eh... Saludos, general."
 
 #: conversationlist_omi2.json:ortholion_conversation2_5b:1
 msgid "I thought Feygard generals were faster swinging their blades."
 msgstr ""
+"Pensé que los generales de Feygard eran más rápidos balanceando sus espadas."
 
 #: conversationlist_omi2.json:ortholion_1
 msgid "Look, I don't have time for you, but I don't kill kids, not yet. So step aside."
 msgstr ""
+"Mira, no tengo tiempo para ti, pero no mato a niños, no aún. Así que haste a "
+"un lado."
 
 #: conversationlist_omi2.json:ortholion_1:0
 msgid "Are you threatening me?"
-msgstr ""
+msgstr "¿Estás amenazándome?"
 
 #: conversationlist_omi2.json:ortholion_1:1
 msgid "I'm here to inform you about Ehrenfest. He's probably behind some disappearances in Prim."
 msgstr ""
+"Estoy aquí para informarte sobre Ehrenfest. Probablemente este detrás de las "
+"desapariciones en Prim."
 
 #: conversationlist_omi2.json:ortholion_2b
 msgid "You mean that weakling is responsible of those missing people from Prim of whom I've been recently informed? "
 msgstr ""
+"¿Quieres decir que ese debilucho es responsable de aquellas personas "
+"desaparecidas de Prim de las que recientemente he sido informado? "
 
 #: conversationlist_omi2.json:ortholion_2b:1
 msgid "Weakling? Haven't you seen how he escaped?"
-msgstr ""
+msgstr "¿Debilucho? ¿No has visto como se escapó?"
 
 #: conversationlist_omi2.json:ortholion_3b
 msgid "Nothing impressive. Loyal followers of the Shadow have their tricks, just as I have my own."
 msgstr ""
+"No es de impresionarse. Los seguidores leales de la Sombra tienen sus "
+"trucos, al igual que yo tengo los míos."
 
 #: conversationlist_omi2.json:ortholion_3b:0
 msgid "The Shadow? Do you believe in that?"
-msgstr ""
+msgstr "¿La sombra? ¿Crees en eso?"
 
 #: conversationlist_omi2.json:ortholion_3b:1
 msgid "Hope those tricks are better than your chasing abilities."
-msgstr ""
+msgstr "Espero que esos trucos sean mejores que tus habilidades para perseguir."
 
 #: conversationlist_omi2.json:ortholion_3b2
 msgid "There's definitely something off with him. Another Shadow fanatic to get rid of, tsch."
 msgstr ""
+"Definitivamente, hay algo raro en él. Otro fanático de las sombras para "
+"deshacerse de él, tsk."
 
 #: conversationlist_omi2.json:ortholion_3b2:0
 msgid "Shadow fanatic? Do you know him?"
-msgstr ""
+msgstr "¿Adorador de la Sombra? ¿Acaso lo conoces?"
 
 #: conversationlist_omi2.json:ortholion_3b2:1
 msgid "Can I be of help?"
-msgstr ""
+msgstr "¿Puedo ser de ayuda?"
 
 #: conversationlist_omi2.json:ortholion_4b
 msgid "*laughs quietly* Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind."
 msgstr ""
+"*se ríe en voz baja* Solo mentes simples verían las cosas como blanco o "
+"negro. Ya sea que yo crea o no, la gente lo hace, y en Feygard tenemos eso "
+"en cuenta."
 
 #: conversationlist_omi2.json:ortholion_4b:0
 msgid "OK. Now that you're aware of the situation, I'd better leave."
 msgstr ""
+"De acuerdo. Ahora que estás al tanto de la situación, será mejor que me vaya."
 
 #: conversationlist_omi2.json:ortholion_4b:1
 msgid "What about \"I don't have time to...\"?"
-msgstr ""
+msgstr "¿Qué tal \"No tengo tiempo para...\"?"
 
 #: conversationlist_omi2.json:ortholion_4c
 msgid "I have no time for this absurd talk. I must be sure this guy's road ends in the Elm mine."
 msgstr ""
+"No tengo tiempo para esta charla absurda. Debo asegurarme de que el camino "
+"de este tipo termine en la mina de Olmo."
 
 #: conversationlist_omi2.json:ortholion_4c:0
 msgid "Do you need anything?"
-msgstr ""
+msgstr "¿Necesitas algo?"
 
 #: conversationlist_omi2.json:ortholion_4c:1
 msgid "Good luck then, bye."
-msgstr ""
+msgstr "Buena suerte entonces, Adiós."
 
 #: conversationlist_omi2.json:ortholion_4d
 msgid "No. But it's quite obvious by the way he accused me."
-msgstr ""
+msgstr "No. Pero es muy obvio la forma que me acuso."
 
 #: conversationlist_omi2.json:ortholion_4d:0
 msgid "And what will you do, General Slowness?"
-msgstr ""
+msgstr "¿Y tú qué harás, General Lentitud?"
 
 #: conversationlist_omi2.json:ortholion_4d:1
 msgid "Well, this is not really my problem. Bye."
-msgstr ""
+msgstr "Bueno, No es realmente mi problema. Adiós."
 
 #: conversationlist_omi2.json:ortholion_4a
 msgid "Hmm...Maybe. You came up this far after all. Go warn my soldiers. They are settled in the tunnel entrance, south of Prim."
 msgstr ""
+"Quizás. Has llegado hasta aquí después de todo. Ve a advertir a mis "
+"soldados. Están instalados en la entrada del túnel, al sur de Prim."
 
 #: conversationlist_omi2.json:ortholion_4a:0
 msgid "This is getting too complicated. I'd better leave."
-msgstr ""
+msgstr "Está siendo demasiado complicado. Será mejor que me vaya."
 
 #: conversationlist_omi2.json:ortholion_4a:1
 msgid "I bet they'll pay attention to a kid like me, right?"
-msgstr ""
+msgstr "Apuesto que pondrán atención a un niño como yo, cierto?"
 
 #: conversationlist_omi2.json:ortholion_5a
 msgid "Not so fast. Seeing that you reached this place but my scouts couldn't, I think you will be of use."
 msgstr ""
+"No tan rápido. Viendo que llegaste a este sitio pero mis exploradores no, "
+"Creo que me serás útil."
 
 #: conversationlist_omi2.json:ortholion_5a:0
 msgid "What if I don't want to help you?"
-msgstr ""
+msgstr "¿Que si no te ayudo?"
 
 #: conversationlist_omi2.json:ortholion_6a
 msgid "Then I'll officially accuse you of betrayal and attempted murder against a Feygard general. I'll bring you to Feygard and you will never see your family again."
 msgstr ""
+"Entonces Oficialmente te acusaré de traición e intento de asesinato contra "
+"un general de Feygard. Te llevarán a Feygard y nunca verás a tu familia de "
+"nuevo."
 
 #: conversationlist_omi2.json:ortholion_6a:0
 msgid "How dare you?! Prepare to die!"
-msgstr ""
+msgstr "¿Cómo te atreves? ¡Prepárate a morir!"
 
 #: conversationlist_omi2.json:ortholion_7a
 msgid ""
@@ -47117,240 +47224,290 @@ msgid ""
 "\n"
 "Look, take this signet. With this, my soldiers stationed outside the mining tunnel entrance will believe your words. Tell them I went to the Elm mine."
 msgstr ""
+"*El general te somete sin esfuerzo y comienza a reír*.\n"
+"\n"
+"Mira, toma este anillo. Con esto, mis soldados apostados afuera de la "
+"entrada del túnel minero creerán en tus palabras. Diles que fui a la mina de "
+"Elm."
 
 #: conversationlist_omi2.json:ortholion_7a:0
 msgid "Hmpf..."
-msgstr ""
+msgstr "Hmph..."
 
 #: conversationlist_omi2.json:ortholion_7a:1
 msgid "OK, OK. I will but please don't hurt me anymore."
-msgstr ""
+msgstr "Está bien, Está bien lo haré pero ya no me lastimes."
 
 #: conversationlist_omi2.json:ortholion_6b
 msgid "Take this, and show it to the soldiers stationed near the mining tunnel entrance. Tell them I went to the Elm mine."
 msgstr ""
+"Toma esto y muéstralo a los soldados apostados cerca de la entrada del túnel "
+"minero. Diles que fui a la mina Elm."
 
 #: conversationlist_omi2.json:ortholion_6b:1
 msgid "Hope they can understand. Bye."
-msgstr ""
+msgstr "Espero que puedan entender. Adiós."
 
 #: conversationlist_omi2.json:ortholion_8a
 msgid "Are you still here?! Go, go now!"
-msgstr ""
+msgstr "¿Todavía estás aquí? Vamos, vete ya!"
 
 #: conversationlist_omi2.json:ortholion_8a:0
 msgid "Eh...Right."
-msgstr ""
+msgstr "Eh... Correcto."
 
 #: conversationlist_omi2.json:ortholion_8a:1
 msgid "Someday you will regret your manners..."
-msgstr ""
+msgstr "Algún día te arrepentirás de tus modales..."
 
 #: conversationlist_omi2.json:ortholion_8a:2
 msgid "OK, OK! I'm going."
-msgstr ""
+msgstr "Está bien, Está bien! Me voy."
 
 #: conversationlist_omi2.json:fms_0
 msgid "Hey kid! Go back to your village and play inside!"
-msgstr ""
+msgstr "¡Oye Chico! ¡Regresa a tu aldea y juega adentro!"
 
 #: conversationlist_omi2.json:fms_0:0
 msgid "Play? Hah!"
-msgstr ""
+msgstr "¿Jugar? ¡Aah!"
 
 #: conversationlist_omi2.json:fms_1
 msgid "Hey! You alright?"
-msgstr ""
+msgstr "¡Oye! ¿Estás bien?"
 
 #: conversationlist_omi2.json:fms_1:0
 msgid "Yeah, bye."
-msgstr ""
+msgstr "Sí, Adiós."
 
 #: conversationlist_omi2.json:fms_1:1
 msgid "I lost 10000 gold over here."
-msgstr ""
+msgstr "Perdí 10000 de oro por aquí."
 
 #: conversationlist_omi2.json:fms_1:2
 msgid "*shows the signet* your general has gone to Elm mine. He could be in trouble."
 msgstr ""
+"* Muestra el anillo * Tu general ha ido a la mina de Elm. Podría estar en "
+"problemas."
 
 #: conversationlist_omi2.json:fms_2a
 msgid "Yeah, sure. We are here posted by command of General Orhtolion of Feygard. You have no business here."
 msgstr ""
+"Sí, claro. Estamos aquí por orden del General Orhtolion de Feygard. No "
+"tienes negocios aquí."
 
 #: conversationlist_omi2.json:fms_2a:0
 msgid "*shows the signet* Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine."
 msgstr ""
+"*Muestra el anillo* Sí, claro. ¡Ahora date prisa! Tu general te está "
+"esperando en la mina de Elm."
 
 #: conversationlist_omi2.json:fms_2a:1
 msgid "What a boring girl! Bye."
-msgstr ""
+msgstr "¡Qué chica aburrida! Adiós."
 
 #: conversationlist_omi2.json:fms_2b
 msgid "*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!"
 msgstr ""
+"*grita* Oigan, holgazanes! Muevan el culo ahora. Es una orden. Prepárense, "
+"vamos a la mina Elm, nuestro general nos necesita!"
 
 #: conversationlist_omi2.json:fms_3
 msgid "I'll lead the way. Thank you kid, now go back to the village. It's safer there."
 msgstr ""
+"Dirigiré el camino. Gracias chico, ahora regresa al pueblo. Es más seguro "
+"allí."
 
 #: conversationlist_omi2.json:fms_3:0
 msgid "I can handle myself, thanks."
-msgstr ""
+msgstr "Puedo cuidar de mí mismo, gracias."
 
 #: conversationlist_omi2.json:fms_3:1
 msgid "Be careful, I heard mountain wolves are a trouble for Feygard soldiers."
 msgstr ""
+"Ten cuidado, Escuche que los lobos de montaña fueron un dolor de cabeza para "
+"los soldados de Feygard."
 
 #: conversationlist_omi2.json:fms_3:2
 msgid "I will. Bye."
-msgstr ""
+msgstr "Lo haré. Adiós."
 
 #: conversationlist_omi2.json:arghest_alert
 msgid "Hey, do you know what's happening here? These serious-looking soldiers entered the mine without permission."
 msgstr ""
+"Oye, ¿sabes qué está pasando aquí? Estos soldados de aspecto serio entraron "
+"en la mina sin permiso."
 
 #: conversationlist_omi2.json:arghest_alert:0
 msgid "They're soldiers of Feygard. I came along with them. Don't worry."
-msgstr ""
+msgstr "Son soldados de Feygard. Vine con ellos. No te preocupes."
 
 #: conversationlist_omi2.json:arghest_alert:1
 msgid "I'll investigate. Bye."
-msgstr ""
+msgstr "Lo investigaré. Adiós."
 
 #: conversationlist_omi2.json:arghest_alert_2
 msgid "You'd better be telling me the truth. I will report it later."
-msgstr ""
+msgstr "Será mejor que estés diciendo la verdad. Lo reportaré luego."
 
 #: conversationlist_omi2.json:arghest_alert_2:0
 msgid "Have you seen a guy with a cloak around here?"
-msgstr ""
+msgstr "¿Has visto a un chico con capa por aquí?"
 
 #: conversationlist_omi2.json:arghest_alert_2:1
 msgid "Yeah, whatever. We will talk later."
-msgstr ""
+msgstr "Sí, lo que digas. Hablaremos luego."
 
 #: conversationlist_omi2.json:arghest_alert_3
 msgid "I was taking a break in the beds over there, so no idea. Sorry. No one usually comes here but you and those ... noisy soldiers."
 msgstr ""
+"Estuve tomando un descanso en las camas de por allí, así que ni idea. "
+"Usualmente, nadie viene aquí pero tú y esos ... Soldados bulliciosos."
 
 #: conversationlist_omi2.json:arghest_alert_3:0
 msgid "Maybe you should take another break now?"
-msgstr ""
+msgstr "¿Tal vez deberías tomas otro descanso ahora?"
 
 #: conversationlist_omi2.json:arghest_alert_3:1
 msgid "Can I do something for you?"
-msgstr ""
+msgstr "¿Puedes hacer algo por mí?"
 
 #: conversationlist_omi2.json:arghest_alert_4
 msgid "I'd prefer something to drink. No milk this time, better something to warm my body."
 msgstr ""
+"Preferiría algo de tomar, esta vez q no sea leche, algo para calentar el "
+"cuerpo."
 
 #: conversationlist_omi2.json:arghest_alert_4:0
 msgid "What exactly are you thinking of?"
-msgstr ""
+msgstr "¿Exactamente en qué piensas?"
 
 #: conversationlist_omi2.json:arghest_alert_5
 msgid "Once I had got a potion from some crazy old guy in a foreign wood. That would be great now. 'Lodar' he was called."
 msgstr ""
+"Una vez tuve una poción de un tipo loco de un bosque alejado. Eso sería "
+"genial. \"Lodar\" se llamaba."
 
 #: conversationlist_omi2.json:arghest_alert_5:0
 msgid "Would you like this 'Minor potion of strength'?"
-msgstr ""
+msgstr "¿Te gustaría esta 'Pequeña poción de fuerza'?"
 
 #: conversationlist_omi2.json:arghest_alert_5:1
 msgid "I have this 'Improved defense' potion. Here, take it."
-msgstr ""
+msgstr "Tengo esta poción de 'Defensa mejorada'. Aquí tienes."
 
 #: conversationlist_omi2.json:arghest_alert_5:2
 msgid "What about his famous 'Perilous concoction'?"
-msgstr ""
+msgstr "¿Qué hay de su famoso 'brebaje peligroso'?"
 
 #: conversationlist_omi2.json:arghest_alert_8
 msgid "Really? Many many thanks - you make my old heart cry!"
-msgstr ""
+msgstr "¿En serio? Muchas muchas gracias ‐ Haces que mi viejo corazón llore!"
 
 #: conversationlist_omi2.json:arghest_alert_8:0
 msgid "[muttering] I hope so. The potion was expensive enough!"
-msgstr ""
+msgstr "[murmurando] Espero que sí. ¡La poción fue lo suficientemente cara!"
 
 #: conversationlist_omi2.json:arghest_alert_9
 msgid "You may enter the mine now. But you have to find out for yourself, I won't go looking for you."
 msgstr ""
+"Puedes entrar a la mina ahora. Pero tendrás que arreglártelas solo, no iré a "
+"buscarte."
 
 #: conversationlist_omi2.json:arghest_alert_9:2
 msgid "Don't worry, I won't cause too much trouble."
-msgstr ""
+msgstr "No te preocupes, No te causaré demasiados problemas."
 
 #: conversationlist_omi2.json:elm2_passage1
 msgid "There's a horrid smell inside that passage. On top of that, it's completely dark."
 msgstr ""
+"Hay un olor horrible dentro de ese pasaje. Además, está completamente oscuro."
 
 #: conversationlist_omi2.json:elm2_passage2_1
 msgid "Fortunately, the miner's lamp shines brightly. But unfortunately, the passage is still collapsed."
 msgstr ""
+"Afortunadamente, la lámpara del minero brilla intensamente. Pero "
+"desafortunadamente, el pasaje todavía sigue colapsado."
 
 #: conversationlist_omi2.json:elm2_passage2_2
 msgid "Another pitch black tunnel. This one has an old, consumed miner's lamp on the wall."
 msgstr ""
+"Otro túnel completamente oscuro. Este tiene una antigua lámpara de minero "
+"consumida en la pared."
 
 #: conversationlist_omi2.json:elm2_passage2_2:0
 msgid "Add fuel to the miner's lamp."
-msgstr ""
+msgstr "Agrega combustible a la lámpara del minero."
 
 #: conversationlist_omi2.json:elm2_passage2_3
 msgid "A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor."
 msgstr ""
+"Un fuego débil ilumina el lugar. El túnel está derrumbado, pero hay algunos "
+"adornos y ropa en el suelo."
 
 #: conversationlist_omi2.json:elm2_passage2_3:0
 msgid "Yay, bones!"
-msgstr ""
+msgstr "¡Aah, Huesos!"
 
 #: conversationlist_omi2.json:elm2_c1
 msgid "This corpse is not old. It is probably one of the missing miners. He has a single large wound in his chest."
 msgstr ""
+"Este cadáver no es viejo. Probablemente, sea de uno de los mineros "
+"desaparecidos. Tiene una larga herida en el pecho."
 
 #: conversationlist_omi2.json:elm3_corpse_1
 msgid "You've already checked this corpse."
-msgstr ""
+msgstr "Ya has revisado este cadáver."
 
 #: conversationlist_omi2.json:elm3_corpse_2
 msgid "Yet another corpse of a miner. This one seems to have been killed during work."
 msgstr ""
+"Otro cadáver de un minero. Parece que este fue asesinado durante el trabajo."
 
 #: conversationlist_omi2.json:elm3_corpse_2:0
 msgid "Plunder the corpse."
-msgstr ""
+msgstr "Saquea el cadáver."
 
 #: conversationlist_omi2.json:elm3_corpse_2:2
 msgid "May the Shadow be with your soul."
-msgstr ""
+msgstr "Que la sombra guíe tu alma."
 
 #: conversationlist_omi2.json:elm3_corpse_3b
 msgid "After a few seconds, you feel a little dumb talking to a corpse and leave."
 msgstr ""
+"Después de unos pocos segundos, te sientes un poco tonto hablando con un "
+"cadáver y te vas."
 
 #: conversationlist_omi2.json:elm3_corpse_3a
 msgid "Everything seems too old and stinky to be worth anything much, but after half a minute of searching you see a strange pendant behind the miner's shirt."
 msgstr ""
+"Todo parece demasiado viejo y apestoso como para valer mucho, pero después "
+"de medio minuto de búsqueda, ves un extraño colgante detrás de la camisa del "
+"minero."
 
 #: conversationlist_omi2.json:elm3_corpse_3a:0
 msgid "I need to take a bath."
-msgstr ""
+msgstr "Necesito tomar una ducha."
 
 #: conversationlist_omi2.json:elm3_hole
 msgid "This hole's smell is particular. You can see a bunch of olm larvae there. Searching here isn't worth it."
 msgstr ""
+"El olor de este agujero es particular. Puedes ver un montón de larvas de olm "
+"allí. No vale la pena buscar aquí."
 
 #: conversationlist_omi2.json:venomfang_warning_1
 msgid "The passage in front of you isn't dark enough to not notice the constant dripping of the walls, which are weak and deformed. For some reason, animals don't get closer to you as you get closer to the tunnel, which is surprising and worrying at the same time."
 msgstr ""
+"El pasaje frente a ti no está lo suficientemente oscuro como para no notar "
+"el goteo constante de las paredes, que están débiles y deformadas. Por "
+"alguna razón, los animales no se acercan a ti a medida que te acercas al "
+"túnel, lo cual es sorprendente y preocupante al mismo tiempo."
 
 #: conversationlist_omi2.json:shadowfang_1
 msgid ""
 "Sssssh...\n"
 ""
-msgstr ""
+msgstr "Sssssh...\n"
 
 #: conversationlist_omi2.json:shadowfang_1:0
 msgid "What the...?"
@@ -47508,15 +47665,15 @@ msgstr "A pesar del óxido, introduce la llave en la cerradura sin mayores probl
 
 #: conversationlist_omi2.json:elm2_chest_hit
 msgid "The chest remains undamaged."
-msgstr ""
+msgstr "El cofre permanece intacto."
 
 #: conversationlist_omi2.json:elm2_chest_hit:1
 msgid "Try using Jern's key."
-msgstr ""
+msgstr "Trata de usar la llave de Jern."
 
 #: conversationlist_omi2.json:elm4_sign1
 msgid "You cannot read the sign from here."
-msgstr ""
+msgstr "No puedes leer el letrero desde aqui."
 
 #: conversationlist_omi2.json:elm4_sign2
 msgid ""
@@ -47524,103 +47681,128 @@ msgid ""
 "\n"
 "Signed by Guthbered of Prim."
 msgstr ""
+"MINEROS: Esta zona ha sido declarada inestable. No se permite la excavación "
+"más.\n"
+"\n"
+"Firmado por Guthbered de Prim."
 
 #: conversationlist_omi2.json:elm4_hole
 msgid "The floor collapses below you, and you fall onto a muddy floor."
-msgstr ""
+msgstr "El piso se derrumba bajo tus pies, y caes a un suelo fangoso."
 
 #: conversationlist_omi2.json:elm4_hole:1
 msgid "Ugh, never thought I was gonna get so dirty."
-msgstr ""
+msgstr "Ugh, Nunca pensé que iba a ensuciarme tanto."
 
 #: conversationlist_omi2.json:elm5_ore
 msgid "The scarce vegetation here, mostly moss, is strangely adhered to that orange glowing ore."
 msgstr ""
+"La escasa vegetación aquí, principalmente musgo, está extrañamente adherida "
+"a ese mineral naranja brillante."
 
 #: conversationlist_omi2.json:elm5_ore:0
 msgid "Touch the moss."
-msgstr ""
+msgstr "Toca el musgo."
 
 #: conversationlist_omi2.json:elm5_ore:1
 msgid "Take the ore."
-msgstr ""
+msgstr "Toma el mineral."
 
 #: conversationlist_omi2.json:elm5_ore_glued
 msgid "When you get your fingers closer to the moss, it somehow turns to dust. Your finger gets stuck to the seemingly solid ore, but you rapidly pull it off. It's not a serious injury, but you feel like that ore has taken away part of your life essence."
 msgstr ""
+"Cuando acercas tus dedos al musgo, de alguna manera se convierte en polvo. "
+"Tu dedo queda pegado al mineral aparentemente sólido, pero lo retiras "
+"rápidamente. No es una lesión grave, pero sientes como si ese mineral "
+"hubiera arrebatado parte de tu esencia vital."
 
 #: conversationlist_omi2.json:elm5_ore_glued:0
 msgid "Uff, I need some rest."
-msgstr ""
+msgstr "Uff, Necesito descansar."
 
 #: conversationlist_omi2.json:elm5_ore_pbroken
 msgid "You try to use a pickaxe you grabbed earlier, but it obviously breaks due to its excessive rust."
 msgstr ""
+"Intentas usar un pico que agarraste anteriormente, pero obviamente se rompe "
+"debido a su excesiva oxidación."
 
 #: conversationlist_omi2.json:elm5_ore_pbroken:0
 msgid "Try again with another pick."
-msgstr ""
+msgstr "Trata de agarrar otro pico."
 
 #: conversationlist_omi2.json:elm5_ore_fail
 msgid "You get tired after a few strikes; the ore is still there."
-msgstr ""
+msgstr "Te cansas después de unos cuantos golpes; el mineral sigue ahí."
 
 #: conversationlist_omi2.json:elm5_ore_fail:0
 msgid "Use your hand"
-msgstr ""
+msgstr "Usa tu mano"
 
 #: conversationlist_omi2.json:elm5_ore_fail:1
 #: conversationlist_sullengard.json:loneford13_pitchfork_fail:1
 msgid "Take a break."
-msgstr ""
+msgstr "Toma un descanso."
 
 #: conversationlist_omi2.json:elm5_ore_success
 msgid "After some minutes of intense mining you finally get a gem and put it in a safe pocket in your backpack."
 msgstr ""
+"Después de unos minutos de minería intensa, finalmente obtienes una gema y "
+"la guardas en un bolsillo seguro de tu mochila."
 
 #: conversationlist_omi2.json:elm5_ore_success:0
 msgid "Yay!"
-msgstr ""
+msgstr "¡Hurra!"
 
 #: conversationlist_omi2.json:elm5_ore_success:1
 msgid "Ugh...I don't feel so good."
-msgstr ""
+msgstr "Ugh... no me siento bien."
 
 #: conversationlist_omi2.json:elm5_ore_mined
 msgid "You have already mined here."
-msgstr ""
+msgstr "Ya has minado aquí."
 
 #: conversationlist_omi2.json:elm5_hole
 msgid "There was a hole in the floor just below you and the rails. You stumble upon a crossbar and land flat on your face, causing the rails to break."
 msgstr ""
+"Había un agujero en el suelo justo debajo de ti y de los rieles. Tropezaste "
+"con una barra transversal y caíste de bruces, haciendo que los rieles se "
+"rompieran."
 
 #: conversationlist_omi2.json:elm5_hole:0
 msgid "Oh, c'mon!"
-msgstr ""
+msgstr "Oh, Vamos!"
 
 #: conversationlist_omi2.json:ortholion_guard8_dead
 msgid "On the top of the stairs lies a dead soldier. He is no longer breathing."
 msgstr ""
+"En la parte superior de las escaleras yace un soldado muerto. Ya no está "
+"respirando."
 
 #: conversationlist_omi2.json:ortholion_guard8_dead:1
 msgid "Plunder."
-msgstr ""
+msgstr "Saquea."
 
 #: conversationlist_omi2.json:ortholion_guard8_plunder
 msgid "You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing."
 msgstr ""
+"Intentas quitar primero la armadura, pero pronto descubres que tanto el "
+"hombre como la armadura misma están cubiertos por ese mineral brillante. "
+"Dejas de inmediato de intentar agarrarlo. El mineral brillante está "
+"creciendo de alguna manera."
 
 #: conversationlist_omi2.json:ortholion_guard8_consumed
 msgid "Of the soldier you met inside here, only dust remains."
-msgstr ""
+msgstr "Del soldado que conociste dentro de aquí, solo queda polvo."
 
 #: conversationlist_omi2.json:ortholion_guard8_1
 msgid "Wh... *cough* ...at the heck?! *cough*, *cough*, *cough* Kid, go away. This thing... *cough*, *cough*... GO AWAY!"
 msgstr ""
+"Qu... *tose*... demonios?! *tose*, *tose*, *tose* Niño, huye. Esta cosa... "
+"*tose*, *tose* ... LARGATE!"
 
 #: conversationlist_omi2.json:ortholion_guard8_1:1
 msgid "Whatever, I'll go down anyway."
-msgstr ""
+msgstr "Lo que digas, Bajare de todas formas."
 
 #: conversationlist_omi2.json:ortholion_guard8_2
 msgid ""
@@ -47628,38 +47810,52 @@ msgid ""
 "\n"
 "...This mine is... cur... "
 msgstr ""
+"*Ignorándote* ... Niño idiota... *tose* . Es una trampa, TODO EL ASUNTO "
+"*tose* , *tose* es...\n"
+"\n"
+"... Esta mina esta... mald... "
 
 #: conversationlist_omi2.json:elm2f_crack
 msgid "There's some water dripping from the crack on the wall. Its sound is relaxing. You also hear a flow of water near you. This part of the mine hasn't been much explored."
 msgstr ""
+"Hay agua goteando desde la grieta en la pared. Su sonido es relajante. "
+"También escuchas un flujo de agua cerca de ti. Esta parte de la mina no ha "
+"sido muy explorada."
 
 #: conversationlist_omi2.json:elm2f_crack:1
 msgid "Pour some water into a small vial."
-msgstr ""
+msgstr "Vierte un poco de agua en un pequeño frasco."
 
 #: conversationlist_omi2.json:elm2f_crack_success
 msgid "You patiently wait for the vial to be filled by the few water drops on the wall."
 msgstr ""
+"Esperas pacientemente a que el frasco se llene con las pocas gotas de agua "
+"en la pared."
 
 #: conversationlist_omi2.json:elm2f_crack_success:1
 msgid "Fill another vial."
-msgstr ""
+msgstr "Llenas otro frasco."
 
 #: conversationlist_omi2.json:elm2f_crack_failure
 msgid "When the vial is half filled you realise its more mud than water. You discard the vial."
 msgstr ""
+"Cuando el frasco está medio lleno te das cuenta de que es más barro que "
+"agua. Desechas el frasco."
 
 #: conversationlist_omi2.json:elm2f_crack_failure:1
 msgid "Try with another vial."
-msgstr ""
+msgstr "Intenta con otro frasco."
 
 #: conversationlist_omi2.json:elm2f_passage
 msgid "There is a poorly walled up passage behind these planks. These boards were recently removed and put back. The General might have passed through here."
 msgstr ""
+"Hay un pasaje mal tapiado detrás de estas tablas. Estas tablas fueron "
+"retiradas recientemente y luego colocadas de nuevo. Es posible que el "
+"General haya pasado por aquí."
 
 #: conversationlist_omi2.json:elm2f_passage:0
 msgid "Put the planks to the side."
-msgstr ""
+msgstr "Pon las tablas a un lado."
 
 #: conversationlist_omi2.json:elm2f_passage_1
 msgid "Once you pull off the wooden board a cold breeze leaks out from the dark corridor. A few seconds later, you hear multiple cracks on the ceiling. More of that glowing ore is growing in front of you...And it's getting closer!"
@@ -47701,27 +47897,27 @@ msgstr "Este cofre no tiene ojo de cerradura. Puede valer la pena echar un vista
 
 #: conversationlist_omi2.json:elm2f2_chest_1:0
 msgid "Open the chest."
-msgstr ""
+msgstr "Abres el cofre."
 
 #: conversationlist_omi2.json:elm2f2_chest_1:1
 msgid "Don't."
-msgstr ""
+msgstr "No."
 
 #: conversationlist_omi2.json:elm2f2_chest_2
 msgid "You try to open the chest but the lid is stuck."
-msgstr ""
+msgstr "Tratas de abrir el cobre pero la tapa está atascada."
 
 #: conversationlist_omi2.json:elm2f2_chest_3
 msgid "The lid is still stuck."
-msgstr ""
+msgstr "La tapa sigue atascada."
 
 #: conversationlist_omi2.json:elm2f2_chest_3:0
 msgid "Try harder."
-msgstr ""
+msgstr "Intenta con más fuerza."
 
 #: conversationlist_omi2.json:elm2f2_chest_3:1
 msgid "Give up."
-msgstr ""
+msgstr "Rindete."
 
 #: conversationlist_omi2.json:elm2f2_chest_4
 msgid "You try pulling the lid again with all your strength. The chest finally tips over and all of its content gets dropped on the floor."
@@ -47812,19 +48008,19 @@ msgstr "Pero... Ugh, tienes toda la razón. ¡Los soldados de Feygard no deben a
 
 #: conversationlist_omi2.json:ortholion_guard9_8a:0
 msgid "Calm down, please."
-msgstr ""
+msgstr "Calmate, por favor."
 
 #: conversationlist_omi2.json:ortholion_guard9_8a:1
 msgid "HONOR!!"
-msgstr ""
+msgstr "¡POR EL HONOR!!"
 
 #: conversationlist_omi2.json:ortholion_guard9_8b
 msgid "Yes..."
-msgstr ""
+msgstr "Si..."
 
 #: conversationlist_omi2.json:ortholion_guard9_8c
 msgid "No, It's not your fault. You could have done nothing."
-msgstr ""
+msgstr "No, No es tu culpa. Podrías haber hecho nada."
 
 #: conversationlist_omi2.json:ortholion_guard9_9
 msgid ""
@@ -47832,14 +48028,19 @@ msgid ""
 "\n"
 "I will go all the way back and call for reinforcements. I want you to explore this cavern. If you find something too dangerous, please return to the mine, will you?"
 msgstr ""
+"Vale... Eres fuerte y valiente, ¿pero eres lo suficientemente confiable?\n"
+"\n"
+"Voy a retroceder todo el camino y pedir refuerzos. Quiero que explores esta "
+"caverna. Si encuentras algo demasiado peligroso, por favor regresa a la "
+"mina, ¿de acuerdo?"
 
 #: conversationlist_omi2.json:ortholion_guard9_9:0
 msgid "That was my plan until you distracted me."
-msgstr ""
+msgstr "Ese era mi plan hasta que me distrajiste."
 
 #: conversationlist_omi2.json:ortholion_guard9_9:2
 msgid "Hmpf, just this time."
-msgstr ""
+msgstr "Hmpf, solo esta vez."
 
 #: conversationlist_omi2.json:ortholion_guard9_10a
 msgid ""
@@ -47847,22 +48048,27 @@ msgid ""
 "\n"
 "This sign of bravery won't be forgotten."
 msgstr ""
+"¡Sabía que podía contar contigo!\n"
+"\n"
+"Este gesto de valentía no será olvidado."
 
 #: conversationlist_omi2.json:ortholion_guard9_10a:0
 msgid "See you soon, sir."
-msgstr ""
+msgstr "Te veré luego, señor."
 
 #: conversationlist_omi2.json:ortholion_guard9_10a:1
 msgid "Whatever. Step aside, I'm leading the way!"
-msgstr ""
+msgstr "Lo que digas, Haste a un lado, Estoy guiando el camino!"
 
 #: conversationlist_omi2.json:elm3f_locked
 msgid "The Feygard soldier you were trying to ignore waves his hands brusquely, as though warning you away from some imminent danger."
 msgstr ""
+"El soldado de Feygard al que intentabas ignorar agita bruscamente las manos, "
+"como si te estuviera advirtiendo de algún peligro inminente."
 
 #: conversationlist_omi2.json:ortholion_guard9_10b
 msgid "Will you help me or not?"
-msgstr ""
+msgstr "¿Me ayudarás o no?"
 
 #: conversationlist_omi2.json:ortholion_guard9_11
 msgid ""
@@ -47870,50 +48076,63 @@ msgid ""
 "\n"
 "Kids these days...Annoying."
 msgstr ""
+"Dejaré este lugar ahora mismo y volveré con más hombres de todos modos!\n"
+"\n"
+"Los niños de hoy en día... molestan."
 
 #: conversationlist_omi2.json:ortholion_guard9_11:0
 msgid "Goodbye!"
-msgstr ""
+msgstr "Adios!"
 
 #: conversationlist_omi2.json:ortholion_guard9_11:1
 msgid "Whatever, I'm leaving."
-msgstr ""
+msgstr "Como quieras, Me voy."
 
 #: conversationlist_omi2.json:elm4f6_blocked
 msgid "The path is blocked in this direction."
-msgstr ""
+msgstr "El camino está bloqueado en esta dirección."
 
 #: conversationlist_omi2.json:elm4f5_locked
 msgid "A couple of fences don't let you exit the tunnel this way. This place is clearly out of Elm mine's extension. Who else has been here?"
 msgstr ""
+"Un par de cercas no te permiten salir del túnel por este camino. Este lugar "
+"claramente está fuera de la extensión de la mina Elm. ¿Quién más ha estado "
+"aquí?"
 
 #: conversationlist_omi2.json:elm4f3_cage
 msgid "The cage is locked."
-msgstr ""
+msgstr "La jaula está cerrada."
 
 #: conversationlist_omi2.json:elm5f2_deep
 msgid "This pool is deeper than it seemed from further away. You cannot swim."
 msgstr ""
+"Esta piscina es más profunda de lo que parecía desde lejos. No puedes nadar."
 
 #: conversationlist_omi2.json:elm5f_final
 msgid "The battle has already started. Iluminated by the orangish glow of the crystals, Ortholion steps towards Ehrenfest, slowly making him retreat to the border of the hill. "
 msgstr ""
+"La batalla ya ha comenzado. Iluminado por el resplandor anaranjado de los "
+"cristales, Ortholion avanza hacia Ehrenfest, haciéndolo retroceder "
+"lentamente hacia el borde de la colina. "
 
 #: conversationlist_omi2.json:ehrenvorth_1
 msgid "This is the end, evil being! Surrender now!"
-msgstr ""
+msgstr "¡Este es el fin, ser maligno! ¡Ríndete ya!"
 
 #: conversationlist_omi2.json:ehrenvorth_2
 msgid "*puts hands on his head* Oh? "
-msgstr ""
+msgstr "*pone sus manos en su cabeza* Oh? "
 
 #: conversationlist_omi2.json:ehrenvorth_3
 msgid "Me? Are you referring to me? *starts laughing uncontrollably*"
 msgstr ""
+"¿A mí? ¿Te estás refiriendo a mí? *comienza a reírse incontrolablemente*"
 
 #: conversationlist_omi2.json:ehrenvorth_4
 msgid "Cut it out! For your crimes commited against the people and the kingdom of Feygard I sentence you..."
 msgstr ""
+"¡Basta ya! Por los crimenes cometidos contra la gente y reino de Feygard yo "
+"te sentencio a...."
 
 #: conversationlist_omi2.json:ehrenvorth_5
 msgid ""
@@ -47921,6 +48140,9 @@ msgid ""
 "\n"
 "*Orhtolion throws his sword directly to Ehrenfest's chest*"
 msgstr ""
+"A MORIR!!!\n"
+"\n"
+"*Ortholion tira su espada directamente al pecho de Ehrenfest*"
 
 #: conversationlist_omi2.json:ehrenvorth_6
 msgid ""
@@ -47928,10 +48150,18 @@ msgid ""
 "\n"
 "*Ehrenfest emits a brilliant flash of orangish light from his eyes, and the sword suddenly stops its way towards him, remaning suspended in midair*"
 msgstr ""
+"Qu..Que...\n"
+"\n"
+"*Ehrenfest emite un brillante destello de luz anaranjada desde sus ojos, y "
+"la espada de repente detiene su camino hacia él, quedando suspendida en el "
+"aire.*"
 
 #: conversationlist_omi2.json:ehrenvorth_7
 msgid "W...Woah! This is impressive. *opens his arms and looks to his hands* To think one or two weeks ago I would have died against a gornaud... This is really impres...!"
 msgstr ""
+"¡Guau! Esto es impresionante. *abre los brazos y mira sus manos* Pensar que "
+"hace una o dos semanas habría muerto contra un gornaud... ¡Esto es realmente "
+"impres...!"
 
 #: conversationlist_omi2.json:ehrenvorth_8
 msgid ""
@@ -47939,6 +48169,14 @@ msgid ""
 "\n"
 "Desperately, Ortholion tries to get his hand free, but It's Ehrenfest who stops grabbing and takes advantage of the moment to land a tremendous kick on the general's chest, unbelievably denting his armor and bouncing him against the wall. The sword falls to the ground, and Ehrenfest takes it."
 msgstr ""
+"En un abrir y cerrar de ojos, Ortholion se acerca a Ehrenfest y saca su "
+"segunda espada. Cuando el general está a punto de cortar rápidamente la "
+"cabeza de Ehrenfest, este reacciona agarrando la mano de Ortholion.\n"
+"\n"
+"Desesperadamente, Ortholion intenta liberar su mano, pero es Ehrenfest quien "
+"deja de agarrar y aprovecha el momento para propinar una tremenda patada en "
+"el pecho del general, abollando increíblemente su armadura y haciéndolo "
+"rebotar contra la pared. La espada cae al suelo, y Ehrenfest la toma."
 
 #: conversationlist_omi2.json:ehrenvorth_9
 msgid ""
@@ -47948,26 +48186,35 @@ msgid ""
 "\n"
 "*keeps staring at the sword, handling it with ease.*"
 msgstr ""
+"Interesante... Así que ustedes hipócritas usan armas que ustedes mismos "
+"prohíben. ¡Ja, ja! *tose* \n"
+"\n"
+"Uh... ¿Qué me pasa... Perdón general, pero ya no eres valioso. ¿Por qué "
+"cazar una oveja cuando puedes poseer el rebaño?\n"
+"\n"
+"*Sigue mirando la espada, manejándola con facilidad.*\""
 
 #: conversationlist_omi2.json:ortholion_unconscious
 msgid "The kick was so brutal that Ortholion fell unconscious."
-msgstr ""
+msgstr "La patada fue tan brutal que Ortholion quedó inconsciente."
 
 #: conversationlist_omi2.json:ehrenfest_49
 msgid "Hmm... $playername, I wonder how your brother Andor would react if he knew I had to kill you."
 msgstr ""
+"Mmm... $playername, Me pregunto como reaccionaria tu hermano Andor si "
+"supiera que tuve que asesinarte."
 
 #: conversationlist_omi2.json:ehrenfest_49:0
 msgid "What do you know about him?!"
-msgstr ""
+msgstr "¿Qué sabes de él?!"
 
 #: conversationlist_omi2.json:ehrenfest_49:1
 msgid "So you're the guy that Lodar told me about."
-msgstr ""
+msgstr "Así que eres el chico del que Lodar me contó."
 
 #: conversationlist_omi2.json:ehrenfest_49:2
 msgid "I won't hear your lies. I'll finish you right here."
-msgstr ""
+msgstr "No escucharé tus mentiras. Te acabaré aquí mismo."
 
 #: conversationlist_omi2.json:ehrenfest_50a
 msgid ""
@@ -47975,10 +48222,18 @@ msgid ""
 "\n"
 "You know, we're tired of you asking questions here and there, *cough* *cough*."
 msgstr ""
+"Si solamente fueras más fuerte... Talvez podría convencerte a que te unas a "
+"nosotros, *tose* pero tengo que admitir que mi plan era culparte de la "
+"muerte de Ortholion.\n"
+"\n"
+"Sabes, Estamos cansados de que hagas preguntas aquí y allá. *tose* *tose*."
 
 #: conversationlist_omi2.json:ehrenfest_50b
 msgid "Lodar, right. He sins of double morality! His poisons killed hundreds, but he prefers to hide in that dirty forest and escape any responsibility like a retired farmer."
 msgstr ""
+"Lodar, cierto. ¡Peca de doble moral! Sus venenos mataron a cientos, pero "
+"prefiere esconderse en ese bosque sucio y evadir cualquier responsabilidad "
+"como un granjero retirado."
 
 #: conversationlist_omi2.json:ehrenfest_50c
 msgid ""
@@ -47986,14 +48241,20 @@ msgid ""
 "\n"
 "My mission is done here. It was done weeks ago, but I...Someone decided I should stay and draw Feygard's attention here."
 msgstr ""
+"No, no lo harás, lo siento.\n"
+"\n"
+"Mi misión ha terminado aquí. Ya estaba completada hace semanas, pero... "
+"Alguien decidió que debía quedarme y llamar la atención de Feygard aquí."
 
 #: conversationlist_omi2.json:ehrenfest_51
 msgid "Don't look at me that way, kid...*laughs*. This is too complicated for a young mind."
 msgstr ""
+"No me mires así, chico... *se ríe*. Esto es demasiado complicado para una "
+"mente joven."
 
 #: conversationlist_omi2.json:ehrenfest_51:1
 msgid "How dare you!"
-msgstr ""
+msgstr "¡Cómo te atreves!"
 
 #: conversationlist_omi2.json:ehrenfest_52
 msgid ""
@@ -48001,6 +48262,10 @@ msgid ""
 "\n"
 "Maybe you should try that orangish substance too."
 msgstr ""
+"¡Qué irritable! Los guardias que torturé finalmente entendieron mis "
+"palabras...\n"
+"\n"
+"Quizás deberías probar esa sustancia anaranjada también."
 
 #: conversationlist_omi2.json:ehrenfest_53
 msgid ""
@@ -48008,83 +48273,94 @@ msgid ""
 "\n"
 "You soon begin to hear steps. Someone's coming - maybe the Feygard reinforcements?"
 msgstr ""
+"Ehrenfest salta del acantilado, hundiéndose en las corrientes oscuras, "
+"dejándote en medio de una palabra.\n"
+"\n"
+"Pronto comienzas a escuchar pasos. Alguien viene, ¿quizás son refuerzos de "
+"Feygard?"
 
 #: conversationlist_omi2.json:ehrenfest_53:0
 msgid "Check who is coming."
-msgstr ""
+msgstr "Mira quien viene."
 
 #: conversationlist_omi2.json:kamelio_1
 msgid "Hello, unfortunate soul. I'm Kamelio."
-msgstr ""
+msgstr "Hola, Alma desafortunada. Soy Kamelio."
 
 #: conversationlist_omi2.json:kamelio_1:0
 msgid "Kamelio? You are one of those missing people from Prim!"
-msgstr ""
+msgstr "Kamelio? ¡Eres una de aquellas personas desaparecidas de Prim!"
 
 #: conversationlist_omi2.json:kamelio_1:1
 msgid "Jern will be glad you're alright."
-msgstr ""
+msgstr "Jern estará contenta de que estés bien."
 
 #: conversationlist_omi2.json:kamelio_1:2
 msgid "I need your help! There's a man lying unconscious there."
-msgstr ""
+msgstr "¡Necesito tu ayuda! Hay un hombre inconsciente allí."
 
 #: conversationlist_omi2.json:kamelio_2c
 msgid "Ah...Yes. Don't worry, you go first. *approaches you*"
-msgstr ""
+msgstr "Ah... Sí. No te preocupes, tú primero. *se acerca a ti*"
 
 #: conversationlist_omi2.json:kamelio_2c:1
 msgid "Wh...What?"
-msgstr ""
+msgstr "Qu...Que?"
 
 #: conversationlist_omi2.json:kamelio_2c:2
 msgid "Don't beg me later."
-msgstr ""
+msgstr "No me ruegues luego."
 
 #: conversationlist_omi2.json:kamelio_2b
 msgid "Alright? My body has not seen better days. But that drunkard will never get to know it."
 msgstr ""
+"¿Estás bien? Mi cuerpo no ha pasado por mejores días. Pero ese borracho "
+"nunca lo sabrá."
 
 #: conversationlist_omi2.json:kamelio_3b
 msgid "*approaching you* He's not going to see you alive again."
-msgstr ""
+msgstr "*acercándose a ti* Él no te va a ver vivo de nuevo."
 
 #: conversationlist_omi2.json:kamelio_3b:0
 msgid "Betrayer, die!"
-msgstr ""
+msgstr "Traidor, muere!"
 
 #: conversationlist_omi2.json:kamelio_3b:2
 msgid "Wanna bet, weakling?"
-msgstr ""
+msgstr "¿Quieres apostar, debilucho?"
 
 #: conversationlist_omi2.json:kamelio_2a
 msgid "Yes. Lorn, Duala and me were caught and tortured. Lorn... He spat everything out like the coward he was."
 msgstr ""
+"Sí. Lorn, Duala y yo fuimos atrapados y torturados. Lorn... Escupió todo "
+"como el cobarde que era."
 
 #: conversationlist_omi2.json:kamelio_2a:0
 #: conversationlist_omi2.json:kamelio_3c:0
 msgid "Who tortured you?"
-msgstr ""
+msgstr "¿Quién te torturo?"
 
 #: conversationlist_omi2.json:kamelio_3a
 msgid "That guy you were talking to before. "
-msgstr ""
+msgstr "Ese chico con el que estabas hablando antes. "
 
 #: conversationlist_omi2.json:kamelio_3a:0
 msgid "Ehrenfest! What has he done to you?!"
-msgstr ""
+msgstr "¡Ehrenfest! ¿Qué te ha hecho?!"
 
 #: conversationlist_omi2.json:kamelio_3a:1
 msgid "What did Lorn tell him?"
-msgstr ""
+msgstr "¿Qué te dijo Lorn?"
 
 #: conversationlist_omi2.json:kamelio_3c
 msgid "Everything. From where the shrine was to how to enter and pass through the pitch black tunnels."
 msgstr ""
+"Todo. Desde dónde estaba el santuario hasta cómo entrar y pasar a través de "
+"los túneles completamente oscuros."
 
 #: conversationlist_omi2.json:kamelio_3c:1
 msgid "How did you escape?"
-msgstr ""
+msgstr "¿Cómo escapaste?"
 
 #: conversationlist_omi2.json:kamelio_4b
 msgid ""
@@ -48092,14 +48368,21 @@ msgid ""
 "\n"
 "All my injuries were cured, and my mind was set free. Now I know the truth, and what I must do."
 msgstr ""
+"¿Escapar? Cuando el torturador regresó, se comportó totalmente diferente. "
+"Nos liberó y nos trajo algo de comida y pociones de recuperación. ¡Desde "
+"entonces, siento que he renacido!\n"
+"\n"
+"Todas mis heridas fueron curadas, y mi mente fue liberada. Ahora sé la "
+"verdad y lo que debo hacer."
 
 #: conversationlist_omi2.json:kamelio_4b:0
 msgid "You're starting to sound very weird. I'd better leave and seek help,"
 msgstr ""
+"Estás comenzando a sonar muy raro. Será mejor que me vaya y busque ayuda,"
 
 #: conversationlist_omi2.json:kamelio_4b:1
 msgid "What must you do?"
-msgstr ""
+msgstr "¿Qué debo hacer?"
 
 #: conversationlist_omi2.json:kamelio_4a
 msgid ""
@@ -48107,58 +48390,66 @@ msgid ""
 "\n"
 "Now my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do."
 msgstr ""
+"Él solo quería saber la ubicación de un antiguo santuario. Y yo le perdono "
+"todo. Regresó, liberó a Duala y a mí, nos dio comida y un elixir maravilloso "
+"que llamó \"poción de recuperación\".\n"
+"\n"
+"Ahora mi cuerpo renace y mi mente se libera. Sé lo que está mal y lo que "
+"está bien, y sé lo que debo hacer."
 
 #: conversationlist_omi2.json:kamelio_4a:0
 msgid "Hmm, yeah sure. Goodbye."
-msgstr ""
+msgstr "Mmm, si seguro. Adiós."
 
 #: conversationlist_omi2.json:kamelio_4a:1
 msgid "What do you have to do?"
-msgstr ""
+msgstr "¿Qué tienes que hacer?"
 
 #: conversationlist_omi2.json:kamelio_5a
 msgid "Not so fast. My mind is clear, you need to die now along with that Feygard scum."
 msgstr ""
+"No tan rápido. Mi mente está clara, necesitas morir junto con esa escoria de "
+"Feygard ahora."
 
 #: conversationlist_omi2.json:kamelio_5a:0
 msgid "Oh? Let's see if you can stand a single blow!"
-msgstr ""
+msgstr "Oh? ¡Veremos si puedes asestar un solo golpe!"
 
 #: conversationlist_omi2.json:kamelio_5a:1
 msgid "This hatred against Feygard is injuring you; I'll be your cure."
-msgstr ""
+msgstr "Este odio contra Feygard esta lastimandote; Seré tu cura."
 
 #: conversationlist_omi2.json:kamelio_5a:2
 msgid "For Feygard!!"
-msgstr ""
+msgstr "¡Por Feygard!!"
 
 #: conversationlist_omi2.json:kamelio_5b
 msgid "Kill you first, then kill the guy over there. That's it."
-msgstr ""
+msgstr "Matarte primero, luego mata al chico de por allí. Eso es todo."
 
 #: conversationlist_omi2.json:kamelio_5b:0
 msgid "OK, you're completely out of your mind."
-msgstr ""
+msgstr "Está bien, Estás completamente loco."
 
 #: conversationlist_omi2.json:kamelio_5b:1
 msgid "Kill me? How dare you. Die!"
-msgstr ""
+msgstr "¿Matarme? Como te atreves. ¡Muere!"
 
 #: conversationlist_omi2.json:kamelio_5b:2
 msgid "Bad idea. For the Shadow!"
-msgstr ""
+msgstr "Mala idea. ¡Por la sombra!"
 
 #: conversationlist_omi2.json:ortholion_conscious
 msgid "Uhm... What a thwack. $playername, where's the..."
-msgstr ""
+msgstr "Ehm... Qué golpe. $playername, ¿dónde está el..."
 
 #: conversationlist_omi2.json:ortholion_conscious:0
 msgid "(Lie) I got rid of him."
-msgstr ""
+msgstr "(mentir) Me deshice de él."
 
 #: conversationlist_omi2.json:ortholion_conscious:1
 msgid "He fell off the hill."
-msgstr ""
+msgstr "Cae de la colina."
 
 #: conversationlist_omi2.json:ortholion_c2
 msgid ""
@@ -48166,13 +48457,13 @@ msgid ""
 "\n"
 "WATCH OUT!"
 msgstr ""
-"Oh. Muy bien, charlaremos más tarde. Ahora vamos a salir del...\n"
+"Oh. De acuerdo, hablaremos más tarde. Ahora estamos saliendo de... \n"
 "\n"
 "¡CUIDADO!"
 
 #: conversationlist_omi2.json:kamelio_undead
 msgid "...D...Die..."
-msgstr "...Di...Die..."
+msgstr "...M...Muere..."
 
 #: conversationlist_omi2.json:kamelio_undead:0
 msgid "Aah!"
@@ -48200,7 +48491,9 @@ msgstr "Sólo eres débil."
 
 #: conversationlist_omi2.json:ortholion_10b
 msgid "I would duel you here and prove you wrong, but this is really no place to talk. These strange creatures don't cease to appear."
-msgstr "[REVIEW]Puede que no te equivoques en absoluto... Pero este no es lugar para hablar, lleno de estas criaturas de aspecto extraño."
+msgstr ""
+"Te retaría aquí y te demostraría que estás equivocado, pero este realmente "
+"no es un lugar para hablar. Estas extrañas criaturas no dejan de aparecer."
 
 #: conversationlist_omi2.json:ortholion_10a
 msgid "Did he tell you... *looks around* Better not here."
@@ -48212,7 +48505,9 @@ msgstr "Asustado Parker?"
 
 #: conversationlist_omi2.json:ortholion_11
 msgid "Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice."
-msgstr "[REVIEW]Esto ya es bastante humillante... Saldré de esta cueva. Estaré en la entrada de la mina."
+msgstr ""
+"Sí, sí... Saldré de esta cueva. Encuéntrame en la entrada de la mina. Hay un "
+"comedor grande. Eso será suficiente."
 
 #: conversationlist_omi2.json:ortholion_11:0
 msgid "You are of no interest to me. Bye."
@@ -48220,11 +48515,11 @@ msgstr "No me interesas. Adiós."
 
 #: conversationlist_omi2.json:ortholion_11:1
 msgid "OK, sir."
-msgstr "Ok, sir."
+msgstr "Está bien, Señor."
 
 #: conversationlist_omi2.json:ortholion_11:2
 msgid "Are you sure you don't need an escort?"
-msgstr ""
+msgstr "¿Estás seguro de que no necesitas un escolta?"
 
 #: conversationlist_omi2.json:ortholion_12
 msgid ""
@@ -48232,10 +48527,14 @@ msgid ""
 "\n"
 "*gets up* I'm pretty sure you'll find the way out."
 msgstr ""
+"Los únicos acompañantes confiables de un caballero son su espada y su "
+"caballo.\n"
+"\n"
+"*se levanta* Estoy bastante seguro de que encontrarás la salida."
 
 #: conversationlist_omi2.json:ortholion_12:1
 msgid "Shad... Yeah, let's meet later."
-msgstr ""
+msgstr "Somb... Sí, nos vemos más tarde."
 
 #: conversationlist_omi2.json:ortholion_guard10_1
 msgid ""
@@ -48243,42 +48542,48 @@ msgid ""
 "\n"
 "Drink for those who've fallen!"
 msgstr ""
+"¡*hip* Bebe! *hip* \n"
+"\n"
+"¡Bebe por aquellos que han caído!"
 
 #: conversationlist_omi2.json:ortholion_guard3_5
 msgid "Ahem... the general is waiting for you in the dining room."
-msgstr ""
+msgstr "Ahem... El general te está esperando en el comedor."
 
 #: conversationlist_omi2.json:ortholion_guard3_5:0
 msgid "The general was waiting for you down in the mine."
-msgstr ""
+msgstr "El general te estaba esperando abajo en la mina."
 
 #: conversationlist_omi2.json:ortholion_guard3_5:1
 msgid "Thank you, sir."
-msgstr ""
+msgstr "Gracias, señor."
 
 #: conversationlist_omi2.json:ortholion_guard3_6a
 msgid "What do you mean kid?! We had to... guard this place right here. We were sure our mighty general Ortholion was handling the problem!"
 msgstr ""
+"¿Qué quieres decir chico?! Teníamos que... proteger este lugar justo aquí. ¡"
+"Estábamos seguros de que nuestro poderoso general Ortholion estaba manejando "
+"el problema!"
 
 #: conversationlist_omi2.json:ortholion_guard3_6a:0
 msgid "I will report your inefficiency."
-msgstr ""
+msgstr "Reportaré tu ineficiencia."
 
 #: conversationlist_omi2.json:ortholion_guard3_6a:1
 msgid "It was me who solved the problem!"
-msgstr ""
+msgstr "¡Fui yo quien resolvió el problema!"
 
 #: conversationlist_omi2.json:ortholion_guard3_7
 msgid "HAH! Out of my sight."
-msgstr ""
+msgstr "HAH! Fuera de mi vista."
 
 #: conversationlist_omi2.json:ortholion_guard3_6b
 msgid "No, I do not."
-msgstr ""
+msgstr "No, no."
 
 #: conversationlist_omi2.json:ortholion_guard3_6b:0
 msgid "So cold..."
-msgstr ""
+msgstr "Tan frio..."
 
 #: conversationlist_omi2.json:ortholion_guard3_6b:1
 msgid "Fine. Keep the good work, hah!"
@@ -48302,60 +48607,68 @@ msgstr "El hidromiel no es lo mío, adiós."
 
 #: conversationlist_omi2.json:ortholion_guard10_2:2
 msgid "Get out of my way, drunkard!"
-msgstr ""
+msgstr "Fuera de mi camino, borracho!"
 
 #: conversationlist_omi2.json:ortholion_guard10_3
 msgid "H..Halt! *hic* Kids not allowed!"
-msgstr ""
+msgstr "¡A..Alto! *hipo* No se permite la entrada a niños!"
 
 #: conversationlist_omi2.json:ortholion_guard10_3:0
 msgid "I'll go where I please in this mine! Hmpf..."
-msgstr ""
+msgstr "¡Iré a donde me dé la gana en esta mina! Fuuu..."
 
 #: conversationlist_omi2.json:ortholion_guard10_3:1
 msgid "I'm here to see your general, now go sleep it off."
-msgstr ""
+msgstr "Estoy aquí para ver a tu general, ahora ve a dormirlo."
 
 #: conversationlist_omi2.json:ortholion_guard10_4
 msgid "This guard drinks his jar of mead ceaselessly, ignoring your presence."
 msgstr ""
+"Este guardia bebe su jarra de hidromiel incesantemente, ignorando tu "
+"presencia."
 
 #: conversationlist_omi2.json:ortholion_13
 msgid "This isn't really the way I planned this. "
-msgstr ""
+msgstr "Esto no es realmente la forma en que planeé esto. "
 
 #: conversationlist_omi2.json:ortholion_14
 msgid "*looking at you* But thanks to your act of bravery, I'm alive and not injured... Not severely."
 msgstr ""
+"*Mirándote* Pero gracias a tu acto de valentía, estoy vivo y no estoy "
+"herido... No gravemente."
 
 #: conversationlist_omi2.json:ortholion_14:0
 #: conversationlist_omi2.json:ortholion_15b:1
 msgid "What will you do now?"
-msgstr ""
+msgstr "¿Qué harás ahora?"
 
 #: conversationlist_omi2.json:ortholion_14:1
 msgid "I still don't trust you."
-msgstr ""
+msgstr "Todavía no confió en ti."
 
 #: conversationlist_omi2.json:ortholion_15a
 msgid "I am sorry, but that is none of your concern. As I said you've lent me a hand when I was vulnerable. That won't be forgotten."
 msgstr ""
+"Lo siento, pero eso no es asunto tuyo. Como dije, me ayudaste cuando estaba "
+"vulnerable. Eso no será olvidado."
 
 #: conversationlist_omi2.json:ortholion_15a:0
 msgid "Finally, a reward."
-msgstr ""
+msgstr "Al fin, una recompensa."
 
 #: conversationlist_omi2.json:ortholion_15a:1
 msgid "You owe me a favor then."
-msgstr ""
+msgstr "Me debes un favor entonces."
 
 #: conversationlist_omi2.json:ortholion_15b
 msgid "And you do good. Trust should be neither easy to gain nor easy to lose."
 msgstr ""
+"Y lo haces bien. La confianza no debería ser fácil de ganar ni tampoco fácil "
+"de perder."
 
 #: conversationlist_omi2.json:ortholion_15b:0
 msgid "Yeah, yeah. Where's my reward for saving your life?"
-msgstr ""
+msgstr "Sí, sí. ¿Dónde está mi recompensa por salvar tu vida?"
 
 #: conversationlist_omi2.json:ortholion_16a
 msgid ""
@@ -48363,86 +48676,102 @@ msgid ""
 "\n"
 "The reward is I'm alive and no army will chase you."
 msgstr ""
+"¿Una recompensa? No funciona así. ¿Qué pensaría Feygard de mi asesinato? ¿A "
+"quién culparían por eso?\n"
+"\n"
+"La recompensa es que estoy vivo y no hay armada que te persiga."
 
 #: conversationlist_omi2.json:ortholion_16a:0
 msgid "*laughing* Do you think a few drunkards could beat me?"
-msgstr ""
+msgstr "*riendose* Piensas que un poco de borrachos podrían darme una paliza?"
 
 #: conversationlist_omi2.json:ortholion_16a:1
 msgid "Hmpf, OK. Goodbye..."
-msgstr ""
+msgstr "Mmm, Está bien. Adios."
 
 #: conversationlist_omi2.json:ortholion_16a:2
 msgid "But at least, you owe me a favor. Where's your honor?"
-msgstr ""
+msgstr "Pero al menos, tú me debes un favor. ¿Dónde está tu honor?"
 
 #: conversationlist_omi2.json:ortholion_17a
 msgid "Doesn't matter whether they could or not. They won't come after you, and that's what my reward is."
 msgstr ""
+"No importa si podrían o no. No vendrán tras de ti, y eso es lo que cuenta "
+"como mi recompensa."
 
 #: conversationlist_omi2.json:ortholion_17a:0
 msgid "This is absurd. Bye!"
-msgstr ""
+msgstr "Esto es absurdo. ¡Adiós!"
 
 #: conversationlist_omi2.json:ortholion_16b
 msgid "Let me settle that debt then."
-msgstr ""
+msgstr "Déjame saldar esa deuda entonces."
 
 #: conversationlist_omi2.json:ortholion_17
 msgid "Let me ask you a question. What in the world is most important to you? Pride and honor? Maybe power and riches?"
 msgstr ""
+"Permíteme hacerte una pregunta. ¿Qué es lo más importante para ti en el "
+"mundo? ¿El orgullo y el honor? ¿Quizás el poder y las riquezas?"
 
 #: conversationlist_omi2.json:ortholion_17:1
 msgid "If there's gold, I'm in!"
-msgstr ""
+msgstr "¡Si hay oro, pues le entro!"
 
 #: conversationlist_omi2.json:ortholion_17:2
 msgid "I can't conceive a life without honor."
-msgstr ""
+msgstr "No puedo concebir una vida sin honor."
 
 #: conversationlist_omi2.json:ortholion_17:3
 msgid "My faith in the Shadow."
-msgstr ""
+msgstr "Mi fe en la sombra."
 
 #: conversationlist_omi2.json:ortholion_17:4
 msgid "My father, Mikhail, and my brother Andor."
-msgstr ""
+msgstr "Mi padre, Mikhail, y mi hermano Andor."
 
 #: conversationlist_omi2.json:ortholion_18a
 msgid "I'm patient, but I won't be here forever. Other issues demand my presence."
 msgstr ""
+"Soy paciente, pero no estaré aquí para siempre. Otras cuestiones requieren "
+"mi presencia."
 
 #: conversationlist_omi2.json:ortholion_18a:0
 msgid "Cut it out and give me my reward!"
-msgstr ""
+msgstr "¡Para ya y dame mi recompensa!"
 
 #: conversationlist_omi2.json:ortholion_18b
 msgid "Well, yes. Every old and tired adventurer's dream I guess, but I somewhat expected more of you. Take this and don't bother me anymore. *shows you a medium-sized bag of gold and jewels*"
 msgstr ""
+"Bueno, sí. Supongo que es el sueño de todo aventurero viejo y cansado, pero "
+"esperaba algo más de ti. Toma esto y no me molestes más. *te muestra una "
+"bolsa de oro y joyas de tamaño mediano*"
 
 #: conversationlist_omi2.json:ortholion_18b:0
 msgid "[Take the gold]"
-msgstr ""
+msgstr "[Tomas el oro]"
 
 #: conversationlist_omi2.json:ortholion_18b:1
 msgid "Don't be so greedy. Give me more!"
-msgstr ""
+msgstr "No seas tan codicioso. ¡Dame más!"
 
 #: conversationlist_omi2.json:ortholion_19b
 msgid "I see, I see. You're a clever guy *makes signs to two soldiers*. Take this much larger bag full of jewels my men have been gathering... from the mines."
 msgstr ""
+"Ya veo, ya veo. Eres un tipo astuto *hace señas a dos soldados*. Toma esta "
+"bolsa mucho más grande llena de joyas que mis hombres han estado "
+"recolectando... de las minas."
 
 #: conversationlist_omi2.json:ortholion_19b:0
 msgid "Great! [Take the large bag]"
-msgstr ""
+msgstr "¡Genial! [Tomas la bolsa grande]"
 
 #: conversationlist_omi2.json:ortholion_19b:1
 msgid "Ehm... I'd rather take the small bag, thanks. [Take the gold]"
-msgstr ""
+msgstr "Ehh... Prefiero tomar la bolsa pequeña, gracias. [Tomas el oro]"
 
 #: conversationlist_omi2.json:ortholion_16c
 msgid "Well, well. Look who's back."
-msgstr ""
+msgstr "Vaya, vaya. Mira quién ha vuelto."
 
 #: conversationlist_omi2.json:ortholion_16c:0
 msgid "Yup, here I am again."
@@ -48458,11 +48787,11 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_19a:0
 msgid "Count on me, general!"
-msgstr ""
+msgstr "Cuente conmigo, general!"
 
 #: conversationlist_omi2.json:ortholion_19a:1
 msgid "I'll think about it. Goodbye."
-msgstr ""
+msgstr "Lo pensaré. Adiós."
 
 #: conversationlist_omi2.json:ortholion_busy
 msgid "*mumbling* That imprudent Guynm..."
@@ -48478,47 +48807,56 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_16d:0
 msgid "Gold, sweet gold."
-msgstr ""
+msgstr "Oro, dulce oro."
 
 #: conversationlist_omi2.json:ortholion_16d:1
 msgid "My pride and my honor!"
-msgstr ""
+msgstr "¡Mi orgullo y mi honor!"
 
 #: conversationlist_omi2.json:ortholion_16d:2
 msgid "The Shadow's teachings are the only thing that matters."
-msgstr ""
+msgstr "Las enseñanzas de la Sombra son lo único que importa."
 
 #: conversationlist_omi2.json:ortholion_16d:3
 msgid "My family is the most important thing to me."
-msgstr ""
+msgstr "La familia es lo más importante."
 
 #: conversationlist_omi2.json:ortholion_20a
 msgid "Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use."
 msgstr ""
+"Está bien, todo es tuyo. Tal vez de esta manera aprenderás una lección. Ven "
+"a verme en unos días, puede que seas útil."
 
 #: conversationlist_omi2.json:ortholion_20a:0
 msgid "A bag full of junk necklaces and rings?! No way, trickster!"
 msgstr ""
+"¿Una bolsa llena de collares y anillos basura? ¡De ninguna manera, bromista!"
 
 #: conversationlist_omi2.json:ortholion_20a:1
 msgid "I...will."
-msgstr ""
+msgstr "Lo...hare."
 
 #: conversationlist_omi2.json:ortholion_18c
 msgid "Good answer! That is very inline with any good Feygard soldier thoughts. Since I owe you a favor, let me repay you with this bag of gold."
 msgstr ""
+"¡Buena respuesta! Eso está muy en línea con los pensamientos de cualquier "
+"buen soldado de Feygard. Ya que te debo un favor, permíteme recompensarte "
+"con esta bolsa de oro."
 
 #: conversationlist_omi2.json:ortholion_18c:0
 msgid "[Take the gold] Finally... "
-msgstr ""
+msgstr "[Tomas el oro] al fin... "
 
 #: conversationlist_omi2.json:ortholion_18c:1
 msgid "I can't accept gold for saving someone's life..."
-msgstr ""
+msgstr "No puedo aceptar el oro solo por salvar la vida de alguien..."
 
 #: conversationlist_omi2.json:ortholion_19c
 msgid "Should I be surprised? That shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me."
 msgstr ""
+"¿Debería sorprenderme? Eso demuestra lo valioso que es actualmente tu "
+"palabra. Vuelve en unos días y quizás cambie mi opinión si estás dispuesto a "
+"ayudarme."
 
 #: conversationlist_omi2.json:ortholion_19c:0
 msgid "You liar...! Hmpf."
@@ -48526,7 +48864,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_19c:1
 msgid "I'll think about it, but you'd better pay me next time!"
-msgstr ""
+msgstr "¡Lo pensaré, pero más te vale pagarme la próxima vez!"
 
 #: conversationlist_omi2.json:ortholion_19d
 msgid ""
@@ -48537,55 +48875,65 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_19d:0
 msgid "Your debt is settled, sir."
-msgstr ""
+msgstr "Tu deuda está saldada, señor."
 
 #: conversationlist_omi2.json:ortholion_19d:1
 msgid "Thank you, I will keep it as the most valuable treasure."
-msgstr ""
+msgstr "Gracias, lo guardaré como el tesoro más valioso."
 
 #: conversationlist_omi2.json:ortholion_19d:2
 msgid "I will keep it as my most precious treasure. [Lie]"
-msgstr ""
+msgstr "Lo guardaré como mi tesoro más preciado. [Mientes]"
 
 #: conversationlist_omi2.json:ortholion_18d
 msgid "I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days."
 msgstr ""
+"Diría que es una respuesta muy ignorante, pero no te juzgaré hoy. Vuelve a "
+"casa y pasa tiempo con tu gente y tu familia; luego regresa. Te necesitaré "
+"en unos días."
 
 #: conversationlist_omi2.json:ortholion_18d:0
 msgid "So no reward...hmph, bye."
-msgstr ""
+msgstr "Así que no hay recompensa... Mmm, Adiós."
 
 #: conversationlist_omi2.json:ortholion_18d:1
 msgid "I'll remember to come back, farewell."
-msgstr ""
+msgstr "Recordaré volver, adiós."
 
 #: conversationlist_omi2.json:ortholion_18e
 msgid "Hah! You really are either so brave or so dumb confessing that in a place full of Feygard soldiers."
 msgstr ""
+"¡Ja! Realmente eres muy valiente o muy tonto al confesar eso en un lugar "
+"lleno de soldados de Feygard."
 
 #: conversationlist_omi2.json:ortholion_18e:0
 msgid "Those who don't believe will eventually be punished!"
-msgstr ""
+msgstr "¡Aquellos que no creen eventualmente serán castigados!"
 
 #: conversationlist_omi2.json:ortholion_18e:1
 msgid "You couldn't land a single hit on me!"
-msgstr ""
+msgstr "¡No pudiste asestarme ni un solo golpe!"
 
 #: conversationlist_omi2.json:ortholion_19e
 msgid "Look, this is simple. The Shadow is the past. We, Feygard, are the future. Fanaticism is never a good companion, but you are still young, you will need time to fully understand my words."
 msgstr ""
+"Mira, esto es simple. La Sombra es el pasado. Nosotros, Feygard, somos el "
+"futuro. El fanatismo nunca es un buen compañero, pero aún eres joven, "
+"necesitarás tiempo para comprender completamente mis palabras."
 
 #: conversationlist_omi2.json:ortholion_19e:0
 msgid "You forbid the use of Bonemeal!"
-msgstr ""
+msgstr "¡Prohíbes el uso de huesos molidos!"
 
 #: conversationlist_omi2.json:ortholion_19e:1
 msgid "You put unfair taxes and censor people's beliefs!"
-msgstr ""
+msgstr "¡Impones impuestos injustos y censuras las creencias de las personas!"
 
 #: conversationlist_omi2.json:ortholion_20b
 msgid "Not everything is black or white. Taxes are needed in this great kingdom in order to keep the peace and the roads safe."
 msgstr ""
+"No todo es blanco o negro. Los impuestos son necesarios en este gran reino "
+"para mantener la paz y las carreteras seguras."
 
 #: conversationlist_omi2.json:ortholion_20c
 msgid "Would you like your bones be used in some sort of ritual to make those potions? Because in winter, when big mammals, erumen lizards, and other beasts hibernate, there's only one kind of bones useful for that: ours."
@@ -48617,7 +48965,7 @@ msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10:2
 msgid "Ah! You are still insolent."
-msgstr ""
+msgstr "¡Ah! Todavía eres insolente."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_20
 msgid "I need someone to deliver all of the items that are in storage."
@@ -54208,7 +54556,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:1
 msgid "OK. Have fun."
-msgstr ""
+msgstr "Está bien. Diviértete."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_22
 msgid "Sure. Feel free."
@@ -54224,7 +54572,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:1
 msgid "[Lie] No. I haven't taken anything."
-msgstr ""
+msgstr "(Miente) No. No he tomado nada."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_52
 msgid "Well, no. This is my favorite bone, it makes a good sound. Put it back, please."
@@ -54236,17 +54584,17 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_10
 msgid "Go away!"
-msgstr ""
+msgstr "¡Vete!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:1
 msgid "Hey, you!"
-msgstr ""
+msgstr "¡Oye, tú!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_20:0
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10:0
 msgid "Who, me?"
-msgstr ""
+msgstr "¿Quién, yo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_30
 msgid "I know your face!"
@@ -54258,11 +54606,12 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_40:0
 msgid "Oh. It's you ..."
-msgstr ""
+msgstr "oh. Eres tu..."
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_42
 msgid "Surprised? I'm sure you didn't think we'd see each other again."
 msgstr ""
+"¿Sorprendido? Estoy seguro de que no pensabas que nos veríamos de nuevo."
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_50
 msgid "I have lost everything because of this! Above all, my honor!"
@@ -54282,12 +54631,12 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_70:0
 msgid "But you were so stupid ..."
-msgstr ""
+msgstr "Pero fuistes tan estúpido ..."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:1
 msgid "Please don't hurt me."
-msgstr ""
+msgstr "Por favor no me lastimes."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1:1
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:1
@@ -54296,7 +54645,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s
 msgid "Please don't hurt me. I am starving."
-msgstr ""
+msgstr "Por favor no me lastimes. Estoy hambriento."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:2
 msgid "Starving? I have some cheese for you here."
@@ -54332,7 +54681,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:0
 msgid "Yeah, everyone says that."
-msgstr ""
+msgstr "Sí, todos dicen eso."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:1
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:1
@@ -54341,11 +54690,11 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10
 msgid "It was not me! It was not me!"
-msgstr ""
+msgstr "¡No fui yo! ¡No fui yo!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:0
 msgid "Finally confess!"
-msgstr ""
+msgstr "¡Finalmente una confesión!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:2
 msgid "I am going to kill you for your deeds now."
@@ -54390,7 +54739,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20:0
 msgid "King Rah's sword?"
-msgstr ""
+msgstr "¿La espada del Rey Rah?"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30
 msgid "You'll find it further down in the caves. Say the words 'Veni gladio fidelis'."
@@ -54439,7 +54788,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:1
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40:0
 msgid "Enough. Enjoy yourself."
-msgstr ""
+msgstr "Suficiente. Disfrutalo."
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40
 msgid "You would like to know, he? But I won't tell you!"
@@ -54471,19 +54820,19 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206:0
 msgid "Really - why?"
-msgstr ""
+msgstr "¿En serio? ‐ Por qué?"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_210
 msgid "Killing Fraedro. I loved to see that."
-msgstr ""
+msgstr "Matar a Fraedro. Me encanto ver eso."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220
 msgid "He deserved death, yes. But not because of the stupid skeleton of Rah."
-msgstr ""
+msgstr "Mereció la muerte, sí. Pero no por el estúpido esqueleto de Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220:0
 msgid "Not? Now I'm confused."
-msgstr ""
+msgstr "¿No? Ahora estoy confundido."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_230
 msgid "Of course not. As if Fraedro could. He's far too good a rat to do such a thing."
@@ -54567,7 +54916,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_300:1
 msgid "I have to run."
-msgstr ""
+msgstr "Tengo que correr."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2
 msgid "Andor! Good that you are back at last!"
@@ -54674,60 +55023,64 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_maze_mole
 msgid "Who's there?"
-msgstr ""
+msgstr "¿Quién está allí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_01
 msgid "Good. You are awake at last."
-msgstr ""
+msgstr "Bueno, Al fin despiertas."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_01:0
 msgid "A rat? Here?"
-msgstr ""
+msgstr "¿Una rata? ¿Aquí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_02
 msgid "As you see. Did you find your brother Andor already? He hasn't been back home for a while now."
 msgstr ""
+"Como puedes ver. ¿Ya encontraste a tu hermano Andor? No ha vuelto a casa "
+"desde hace un tiempo."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_02:0
 msgid "Eh, what? No, I am still looking for Andor."
-msgstr ""
+msgstr "Eh, ¿qué? No, Todavía estoy buscando a Andor."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_03
 msgid "I should have guessed. Anyway."
-msgstr ""
+msgstr "Debería haberlo sospechado. De todos modos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_03:0
 msgid "What are you doing in my house? Where is Mikhail?"
-msgstr ""
+msgstr "¿Qué estás haciendo en mi casa? ¿Dónde está Mikhail?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_04
 msgid "We rats took over this village. I am Gruiik, their leader."
-msgstr ""
+msgstr "Nosotros, Las ratas, tomamos esta aldea. Soy Gruiik, su líder."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10
 msgid "However, there are two-legs running around in my garden again. Go and kill them."
 msgstr ""
+"Sin embargo, hay intrusos en mi jardín una vez más. Ve y enfrenta a esos "
+"enemigos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:0
 msgid "I'll have a look."
-msgstr ""
+msgstr "Echaré un vistazo."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:1
 msgid "I would never do that!"
-msgstr ""
+msgstr "¡Nunca haría eso!"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10
 msgid "And I am hungry. Go to the town hall and bring me some bread."
-msgstr ""
+msgstr "Y tengo hambre. Ve al ayuntamiento y tráeme algo de pan, por favor."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:2
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:2
 msgid "Here I have some bread for you."
-msgstr ""
+msgstr "Aquí tienes el pan."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20
 msgid "It's about time."
-msgstr ""
+msgstr "Ya es hora."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20:0
 msgid "What - no thanks? Rats."
@@ -54739,11 +55092,11 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:0
 msgid "No, not yet"
-msgstr ""
+msgstr "No, no aún"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:1
 msgid "Yes, I killed Mara and Tharal in the garden for you."
-msgstr ""
+msgstr "Sí, Mate a Mara y Tharal en el jardín por ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:2
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:3
@@ -54777,52 +55130,55 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_rat
 msgid "This is my bed - go away!"
-msgstr ""
+msgstr "¡Esta es mi cama - vete!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:0
 msgid "How do I get out of here?"
-msgstr ""
+msgstr "¿Cómo salgo de aquí?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:1
 msgid "Where would I find this yellow artifact thing?"
-msgstr ""
+msgstr "¿Dónde conseguiría este objeto amarillo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:2
 #: conversationlist_ratdom_npc.json:ratdom_rat_52:1
 msgid "There is a nice new statue in the cave."
-msgstr ""
+msgstr "Hay una bonita estatua nueva en la cueva."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:3
 msgid "I tried to pass by Andor's statue, but there is not enough space."
-msgstr ""
+msgstr "Intenté pasar por la estatua de Andor, pero no hay suficiente espacio."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:4
 msgid "Look! I have a pickaxe now."
-msgstr ""
+msgstr "¡Mira! Tengo un pico ahora."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:5
 msgid "There is a little bone shaped hole in the wall behind the statue. What shall I do now?"
 msgstr ""
+"Hay un agujero en forma de hueso en la pared detrás de la estatua. ¿Qué debo "
+"hacer ahora?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:6
 msgid "I found a dark deep passage behind our supply cave."
 msgstr ""
+"Encontré un pasaje oscuro y profundo detrás de nuestra cueva de suministros."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:7
 msgid "Will I ever be able to use my bed again? Sigh."
-msgstr ""
+msgstr "¿Podré volver a usar mi cama alguna vez? Suspiro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:8
 msgid "Clevred, I give up. You must search for your powerful artifact alone."
-msgstr ""
+msgstr "Clevred, me rindo. Debes buscar tu poderoso artefacto solo."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10
 msgid "I know the way out, of course. Rats always know the way out."
-msgstr ""
+msgstr "Claro, Conozco la salida. Las ratas siempre conocen la salida."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10:0
 msgid "Great. Show me the way out of this rat infested place here."
-msgstr ""
+msgstr "Genial. Permíteme mostrarte la salida de este lugar infestado de ratas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10_10
 msgid "Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit."
@@ -71435,7 +71791,7 @@ msgstr "La maestra estaba muy satisfecha con mi desempeño en el duelo. La escue
 
 #: questlist_brimhaven2.json:brv_school2:230
 msgid "The teacher sent me away, because I killed Golin in the duel."
-msgstr "La maestra me mandó lejos, porque maté a Golin en el duelo."
+msgstr "La maestra me echo, porque maté a Golin en el duelo."
 
 #: questlist_brimhaven2.json:brv_school2:240
 msgid "Golin was horrified by my murder of the teacher and attacked me to avenge her."
@@ -72636,19 +72992,19 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_skeleton:61
 msgid "Roskelt asked you to kill his brother."
-msgstr ""
+msgstr "Roskelt te pidió que mates a su hermano."
 
 #: questlist_ratdom.json:ratdom_skeleton:62
 msgid "Bloskelt asked you to kill his brother."
-msgstr ""
+msgstr "Bloskelt te pidió que mates a su hermano."
 
 #: questlist_ratdom.json:ratdom_skeleton:71
 msgid "You have killed Bloskelt."
-msgstr ""
+msgstr "Has matado a Bloskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:72
 msgid "You have killed Roskelt."
-msgstr ""
+msgstr "Has matado a Roskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:90
 msgid "For your effort, you got a pretty poor reward."
@@ -72656,7 +73012,7 @@ msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men
 msgid "Wanted men"
-msgstr ""
+msgstr "Se buscan hombres"
 
 #: questlist_mt_galmore.json:wanted_men:10
 msgid "Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices."
@@ -72898,7 +73254,7 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_library
 msgid "Library"
-msgstr ""
+msgstr "Biblioteca"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_4_wells
 msgid "4 wells"
@@ -72906,7 +73262,7 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_roundlings_area
 msgid "Roundlings"
-msgstr ""
+msgstr "Plebeyos"
 
 #: worldmap.xml:world1:crossglen
 msgid "Crossglen"
@@ -72966,5 +73322,4 @@ msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
-msgstr ""
-
+msgstr "El huerto de Deebo"
