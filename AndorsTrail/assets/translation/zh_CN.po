@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-06-29 17:12+0000\n"
+"PO-Revision-Date: 2024-07-06 13:56+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/zh_Hans/>\n"
@@ -47,15 +47,15 @@ msgstr "暗影再生"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
-msgstr "轻微加速"
+msgstr "初级加速"
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
-msgstr "轻微疲劳"
+msgstr "少许疲劳"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "轻微武器威力减弱"
+msgstr "初级武器弱化"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -75,15 +75,15 @@ msgstr "醉意"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "眩晕"
+msgstr "恍惚"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
-msgstr "混沌之握"
+msgstr "混沌束缚"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr "混乱诅咒"
+msgstr "混沌诅咒"
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
@@ -95,7 +95,7 @@ msgstr "皮肤起泡"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr "被震慑"
+msgstr "震眩"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
@@ -119,7 +119,7 @@ msgstr "暗影力量祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr "暗影恢复祝福"
+msgstr "暗影再生祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
@@ -151,7 +151,7 @@ msgstr "食物中毒"
 
 #: actorconditions_v070.json:slime
 msgid "Corrosive slime"
-msgstr "腐蚀黏液"
+msgstr "黏液腐蚀"
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
@@ -175,23 +175,23 @@ msgstr "弱点感知"
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
-msgstr "急速自愈"
+msgstr "再生"
 
 #: actorconditions_v070.json:barkskin
 msgid "Bark skin"
-msgstr "硬化皮肤"
+msgstr "皮肤硬化"
 
 #: actorconditions_v070.json:shadow_acc
 msgid "Shadow's accuracy"
-msgstr "暗影准度"
+msgstr "暗影之命中"
 
 #: actorconditions_v070.json:shadow_prot
 msgid "Shadow's protection"
-msgstr "暗影保护"
+msgstr "暗影之保护"
 
 #: actorconditions_v070.json:shadow_dmg
 msgid "Shadow's strength"
-msgstr "暗影力量"
+msgstr "暗影之力量"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
@@ -15519,19 +15519,19 @@ msgstr "是的。好吧......当然是有偿的。"
 
 #: conversationlist_talion_2.json:talion_bless_1
 msgid "I am able to bless you with either the Shadow's strength, regeneration, accuracy, or even the blessing of the Shadow guardian."
-msgstr "我可以用暗影的力量、再生、准确度，甚至暗影守护者的祝福来祝福你。"
+msgstr "我可以给你暗影力量、再生、命中祝福之一，甚至可以换成暗影守护祝福。"
 
 #: conversationlist_talion_2.json:talion_bless_1:0
 msgid "I'm interested in the blessing of Shadow strength."
-msgstr "我对暗影力量的祝福很感兴趣。"
+msgstr "我对暗影力量祝福很感兴趣。"
 
 #: conversationlist_talion_2.json:talion_bless_1:1
 msgid "I'm interested in the blessing of Shadow regeneration."
-msgstr "我对暗影恢复的祝福很感兴趣。"
+msgstr "我对暗影再生祝福很感兴趣。"
 
 #: conversationlist_talion_2.json:talion_bless_1:2
 msgid "I'm interested in the blessing of Shadow accuracy."
-msgstr "我对暗影精准的祝福很感兴趣。"
+msgstr "我对暗影命中祝福很感兴趣。"
 
 #: conversationlist_talion_2.json:talion_bless_1:3
 msgid "I'm interested in the Shadow guardian blessing."
@@ -15559,7 +15559,7 @@ msgstr "不要紧，让我们回到那些其他的祝福上。"
 
 #: conversationlist_talion_2.json:talion_bless_heal_1
 msgid "The blessing of Shadow regeneration will slowly heal you back if you get hurt. I can give you the blessing for 250 gold."
-msgstr "如果你受到伤害，暗影恢复的祝福会慢慢治愈你。你可以用250金币获得这个祝福。"
+msgstr "当你你受伤时，暗影再生祝福会慢慢治愈你。你可以花250金币获得这个祝福。"
 
 #: conversationlist_talion_2.json:talion_bless_heal_1:0
 #: conversationlist_talion_2.json:talion_bless_acc_1:0
@@ -64537,11 +64537,11 @@ msgstr "勇气药水"
 
 #: itemlist_v070.json:pot_aware
 msgid "Potion of vulnerabilities"
-msgstr "脆弱药水"
+msgstr "弱点感知药水"
 
 #: itemlist_v070.json:pot_senses
 msgid "Potion of heightened senses"
-msgstr "增强感官药水"
+msgstr "知觉提升药水"
 
 #: itemlist_v070.json:pot_bm_lodar
 msgid "Lodar's bonemeal potion"
@@ -64553,11 +64553,11 @@ msgstr "洛达尔的生命药水"
 
 #: itemlist_v070.json:pot_regen1
 msgid "Potion of minor regeneration"
-msgstr "少量再生药水"
+msgstr "小瓶再生药水"
 
 #: itemlist_v070.json:pot_barkskin
 msgid "Potion of bark skin"
-msgstr "树皮药水"
+msgstr "皮肤硬化药水"
 
 #: itemlist_v070.json:pot_haste
 msgid "Potion of haste"
@@ -65027,19 +65027,19 @@ msgstr "山羊奶酪"
 
 #: itemlist_stoutford_combined.json:pot_dazed_restore
 msgid "Restore dazed"
-msgstr "恢复眩晕"
+msgstr "恍惚治疗药水"
 
 #: itemlist_stoutford_combined.json:pot_fear_restore
 msgid "Restore fear"
-msgstr "恢复恐惧"
+msgstr "恐惧治疗药水"
 
 #: itemlist_stoutford_combined.json:pot_stunned_restore
 msgid "Restore stunned"
-msgstr "恢复昏迷"
+msgstr "震眩回复药水"
 
 #: itemlist_stoutford_combined.json:pot_feebleness_restore
 msgid "Restore weapon feebleness"
-msgstr "恢复武器无力"
+msgstr "武器弱化治疗药水"
 
 #: itemlist_stoutford_combined.json:pot_alertness
 msgid "Potion of alertness"
