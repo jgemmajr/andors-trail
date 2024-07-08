@@ -5,7 +5,7 @@
     <string name="menu_settings">Alternativ</string>
     <string name="menu_save">Spara</string>
     <string name="menu_save_gamesaved">Spelet sparades på plats %1$d</string>
-    <string name="menu_save_failed">Det misslyckades att spara spelet! Är SD-kortet monterat och skrivbart?</string>
+    <string name="menu_save_failed">Spelet misslyckades att sparas! Är SD-kortet monterat och skrivbart?</string>
     <string name="loadsave_title_save">Spara spelet</string>
     <string name="loadsave_title_load">Ladda ett sparat spel</string>
     <string name="loadsave_selectslot">Välj en plats</string>
@@ -166,11 +166,11 @@
     <string name="skill_title_cleave">Klyva</string>
     <string name="skill_title_eater">Likätare</string>
     <string name="skill_title_evasion">Smitare</string>
-    <string name="skill_title_regeneration">Förnyelse</string>
+    <string name="skill_title_regeneration">Regenerering</string>
     <string name="skill_title_resistance_mental">Starkt sinne</string>
     <string name="skill_title_resistance_physical_capacity">Uthållig kropp</string>
     <string name="skill_title_resistance_blood_disorder">Rent blod</string>
-    <string name="skill_shortdescription_coinfinder">Ökade chanser för att hitta guld</string>
+    <string name="skill_shortdescription_coinfinder">Större chanser för att hitta guld</string>
     <string name="skill_shortdescription_evasion">Ökade chanser för att flykta</string>
     <string name="skill_shortdescription_magicfinder">Ökade chanser för att hitta magiska objekt</string>
     <string name="skill_shortdescription_resistance_mental">Motståndskraft emot psykiska åkommor</string>
@@ -180,7 +180,7 @@
     <string name="skill_current_level_with_maximum">Nuvarande nivå: %1$d / %2$d</string>
     <string name="skill_prerequisite_other_skill">För att öka denna färdighet behöver du ha minst nivå %1$d i färdigheten %2$s.</string>
     <string name="skill_prerequisite_level">För att öka denna färdighet behöver du vara på minst nivå %1$d.</string>
-    <string name="skill_number_of_increases_one">Du kan välja en färdighet att förbättra.</string>
+    <string name="skill_number_of_increases_one">Du kan välja en färdighet att förbättra. Färdighetspoängs sparas tills de används.</string>
     <string name="skill_number_of_increases_several">Du kan välja %1$d färdigheter att förbättra.</string>
     <string name="levelup_adds_new_skillpoint">Denna nivå ger dig också en ny färdighetspoäng att använda!</string>
     <string name="iteminfo_displaytypes_ordinary">Vanlig</string>
@@ -275,7 +275,7 @@
     <string name="heroinfo_unlimited_lives">Obegränsade liv, 1 sparning</string>
     <string name="heroinfo_unlimited_lives_and_saves">Standard
 \n(Obegränsade liv och sparningar)</string>
-    <string name="heroinfo_experiencepoints">Erfarenhetspoäng (EP):</string>
+    <string name="heroinfo_experiencepoints">Erfarenhetspoäng (XP):</string>
     <string name="heroinfo_healthpoints">Hälsopoäng (HP):</string>
     <string name="heroinfo_inventory_sort">Sortera efter</string>
     <string name="heroinfo_inventory_categories">Kategori</string>
@@ -283,9 +283,9 @@
     <string name="heroinfo_skill_categories">Kategori</string>
     <string name="rip_startscreen">(Vila i frid)</string>
     <string name="dialog_game_over_text">Du tar ditt sista andetag och dör.</string>
-    <string name="dialog_game_over_title">Spelet är slut</string>
+    <string name="dialog_game_over_title">Spelet är över</string>
     <string name="dialog_more">Mer</string>
-    <string name="skill_longdescription_specialization_2hand">Ökar på tvåhandsvapens skadepotential med ytterligare %1$d %% av den ursprungliga skadepotentialen, utöver fördelarna som ges av färdigheten för vapenstilen. Attackchanserna för tvåhandsvapen ökar också med %2$d %% av sina ursprungliga attackchanser.</string>
+    <string name="skill_longdescription_specialization_2hand">Ökar tvåhandsvapens skadepotential med ytterligare %1$d %% av den ursprungliga skadepotentialen, utöver fördelarna som ges av färdigheten för vapenstilen. Attackchanserna för tvåhandsvapen ökar också med %2$d %% av sina ursprungliga attackchanser.</string>
     <string name="preferences_quickslots_placement_summary">Var snabbplatserna ska sitta</string>
     <string name="preferences_quickslots_placement">Snabbplatsernas placering</string>
     <string name="preferences_quickslots_placements_vertical_bottom_right">Nere till höger, längs högerkanten</string>
@@ -423,9 +423,61 @@
     <string name="actorconditioninfo_constant_effect">Konstant effekt</string>
     <string name="preferences_movement_dpad_positions_disabled">Avstängd</string>
     <string name="startscreen_error_loading_empty_slot">Kan inte ladda från ett tomt spår.</string>
-    <string name="dialog_monsterencounter_conditions">Villkor</string>
+    <string name="dialog_monsterencounter_conditions">Tillstånd</string>
     <string name="iteminfo_effect_decrease_current_hp">Tappar %1$s HP</string>
     <string name="iteminfo_effect_decrease_current_ap">Tappar %1$s AP</string>
     <string name="iteminfo_effect_works_when_hitting_target">När målet träffas</string>
     <string name="iteminfo_effect_works_on_attacker">På angripare</string>
+    <string name="loadsave_import_imported_description">Importerad sparfil: Plats: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">Importera världskarta</string>
+    <string name="loadsave_importing_worldmap">Importerar världskarta</string>
+    <string name="loadsave_import_worldmap_successfull">Världskarta är framgångsrikt importerad</string>
+    <string name="loadsave_import_option_keep_existing">Behåll existerande sparfil</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Ersätt befintliga Plats?</string>
+    <string name="loadsave_import_option_keep_imported">Behåll importerad sparfil</string>
+    <string name="skill_longdescription_barter">För varje färdighetsnivå minskar köp- och försäljningsavgiften med %1$d procentenheter.</string>
+    <string name="skill_shortdescription_lower_exploss">Minska mängden förlorad erfarenhetspoäng vid avlivning</string>
+    <string name="skill_shortdescription_regeneration">Återfå hälsopoäng varje runda</string>
+    <string name="skill_shortdescription_eater">Återfå hälsopoäng vid varje dödad motståndare</string>
+    <string name="skill_shortdescription_better_criticals">Ökad kritisk skada</string>
+    <string name="skill_shortdescription_weapon_chance">Ökade chanser för attack</string>
+    <string name="skill_shortdescription_weapon_dmg">Ökad attacksyrka</string>
+    <string name="skill_title_fortitude">Ökad Styrka</string>
+    <string name="inventory_assign">Tilldela snabbmeny</string>
+    <string name="iteminfo_effect_decrease_max_ap">Minskar maximala antalet AP med %1$d</string>
+    <string name="iteminfo_effect_increase_movecost">Straff för kostnad av förflyttning +%1$d AP</string>
+    <string name="iteminfo_effect_increase_max_hp">Ökar maximala antalet HP +%1$d</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">När dödad av angripare</string>
+    <string name="startscreen_migration_title">Datamigrering</string>
+    <string name="startscreen_migration_text">Migrerar sparfilsdata.</string>
+    <string name="startscreen_migration_failure">Misslyckades med migrering av sparfilsdata.</string>
+    <string name="preferences_display_loot_dialog_on_items">Visa dialogruta för plundring när föremål upphittas</string>
+    <string name="iteminfo_effect_works_when_killing_target">Vid varje dödad motståndare</string>
+    <string name="iteminfo_effect_works_when_equipped">Med utrustning</string>
+    <string name="iteminfo_effect_works_when_hit_by_attacker">När träffad av en angripare</string>
+    <string name="iteminfo_action_unequip">Avrusta</string>
+    <string name="iteminfo_action_unequip_ap">Avrusta (%1$d AP)</string>
+    <string name="startscreen_mode_unlimited_lives">Medium (obegränsade liv, 1 sparfil)</string>
+    <string name="levelup_add_attackchance">Ökar sannolikheten för lyckad attack (+%1$d)</string>
+    <string name="inventory_unassign">Ta bort tilldelning av snabbmeny</string>
+    <string name="skill_title_better_criticals">Bättre kritiska träffar</string>
+    <string name="dialog_loading_failed_cheat">Andors Stig kunde inte ladda sparfilen. Denna sparfil har redan fortsatts.</string>
+    <string name="skill_shortdescription_more_criticals">Ökad kritisk träfförmåga</string>
+    <string name="skill_shortdescription_speed">Ökad maximal handlingspoäng</string>
+    <string name="skill_shortdescription_cleave">Återfå handlingspoäng vid varje dödad motståndare</string>
+    <string name="skill_shortdescription_fortitude">Få ökad maximal hälsopoäng vid varje ny nivå</string>
+    <string name="skill_shortdescription_barkskin">Resistans mot skada</string>
+    <string name="skill_longdescription_weapon_chance">Ökar attackchans med %1$d procentenheter för varje färdighetsnivå.</string>
+    <string name="skill_longdescription_dodge">Ökar pareringschansen med %1$d procentenheter för varje färdighetsnivå.</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(plats %1$d)</string>
+    <string name="loadsave_import_option_add_as_new">Lägg till som ny sparfil</string>
+    <string name="loadsave_import_existing_description">Existerande sparfil: Plats: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_info">Vänliga välj världskartans zip fil.</string>
+    <string name="loadsave_import_file_exists_question">Det finns redan en sparfil i målplatsen. Vill du behålla den befintliga sparfilen, skriva över den med den importerade sparfilen eller importera sparfilen till en plats?
+\n
+\n%1$s
+\n
+\n%2$s</string>
 </resources>
