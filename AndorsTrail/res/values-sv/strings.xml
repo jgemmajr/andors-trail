@@ -285,7 +285,7 @@
     <string name="dialog_game_over_text">Du tar ditt sista andetag och dör.</string>
     <string name="dialog_game_over_title">Spelet är över</string>
     <string name="dialog_more">Mer</string>
-    <string name="skill_longdescription_specialization_2hand">Ökar tvåhandsvapens skadepotential med ytterligare %1$d %% av den ursprungliga skadepotentialen, utöver fördelarna som ges av färdigheten för vapenstilen. Attackchanserna för tvåhandsvapen ökar också med %2$d %% av sina ursprungliga attackchanser.</string>
+    <string name="skill_longdescription_specialization_2hand">Ökar tvåhandsvapens skadepotential med ytterligare %1$d %% av den ursprungliga skadepotentialen, utöver fördelarna som ges av färdigheten för vapenstilen. Anfallschanserna för tvåhandsvapen ökar också med %2$d %% av sina ursprungliga anfallschanser.</string>
     <string name="preferences_quickslots_placement_summary">Var snabbplatserna ska sitta</string>
     <string name="preferences_quickslots_placement">Snabbplatsernas placering</string>
     <string name="preferences_quickslots_placements_vertical_bottom_right">Nere till höger, längs högerkanten</string>
@@ -315,7 +315,7 @@
     <string name="storage_permissions_mandatory">Tillgång till lagring krävs för att Andors stig ska kunna hantera sparade spel och världskartan. Avslutar Andors stig.</string>
     <string name="skill_title_spore_immunity">Sporförgiftningsimmunitet</string>
     <string name="skill_shortdescription_spore_immunity">Full immunitet mot sporförgiftning</string>
-    <string name="skill_longdescription_spore_immunity">Förhindrar varaktigt att monsterattacker åsamkar statuseffekten sporförgiftning.</string>
+    <string name="skill_longdescription_spore_immunity">Förhindrar varaktigt att monsteranfall åsamkar statuseffekten sporförgiftning.</string>
     <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
     <string name="preferences_movement_dpad_transparency_40_pct">40%</string>
     <string name="preferences_movement_dpad_transparency_30_pct">30%</string>
@@ -344,7 +344,7 @@
     <string name="levelup_add_blockchance">Öka pareringschans (+%1$d)</string>
     <string name="levelup_add_attackdamage_description">Adderar %1$d till din grundattackskada.</string>
     <string name="levelup_add_attackdamage">Öka attackskada (+%1$d)</string>
-    <string name="levelup_add_attackchance_description">Adderar %1$d till din grundattackchans.</string>
+    <string name="levelup_add_attackchance_description">Adderar %1$d till din grundanfallschans.</string>
     <string name="levelup_buttontext">Uppgradera nivå</string>
     <string name="levelup_title">Uppgradera nivå</string>
     <string name="startscreen_error_loading_game">Laddningen misslyckades</string>
@@ -379,7 +379,7 @@
     <string name="iteminfo_effect_increase_current_ap">Återställer %1$s AP</string>
     <string name="iteminfo_effect_increase_current_hp">Återställer %1$s HP</string>
     <string name="actorcondition_info_removes_all">Tar bort alla %1$s</string>
-    <string name="preferences_display_loot_dialog_on_items_or_toast">Dialog för föremål, avis. i övrigt</string>
+    <string name="preferences_display_loot_dialog_on_items_or_toast">Dialog för föremål, avis. för övrigt</string>
     <string name="preferences_display_loot_dialog">Visa alltid dialogruta för byte</string>
     <string name="startscreen_attention_message_slot_gets_delete_on_load">Om du laddar det här spelet raderas spelfilen. Du behöver spara spelet igen innan du byter till ett annat spel.</string>
     <string name="preferences_ui_use_localized_resources">Använd översättningar av gränssnitt och innehåll där det är tillgängligt. (kräver omstart)</string>
@@ -418,7 +418,7 @@
     <string name="skill_title_more_criticals">Mer kritiska</string>
     <string name="startscreen_mode_1_life">Permadöd (1 liv, 1 sparning)</string>
     <string name="inventory_selectitem">Välj objekt att tilldela</string>
-    <string name="actorinfo_currentconditions">Aktiva villkor</string>
+    <string name="actorinfo_currentconditions">Aktiva tillstånd</string>
     <string name="skill_title_weapon_dmg">Hård träff</string>
     <string name="actorconditioninfo_constant_effect">Konstant effekt</string>
     <string name="preferences_movement_dpad_positions_disabled">Avstängd</string>
@@ -434,7 +434,7 @@
     <string name="loadsave_importing_worldmap">Importerar världskarta</string>
     <string name="loadsave_import_worldmap_successfull">Världskarta är framgångsrikt importerad</string>
     <string name="loadsave_import_option_keep_existing">Behåll existerande sparfil</string>
-    <string name="loadsave_import_overwrite_confirmation_title">Ersätt befintliga Plats?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Överskriv Befintlig Plats?</string>
     <string name="loadsave_import_option_keep_imported">Behåll importerad sparfil</string>
     <string name="skill_longdescription_barter">För varje färdighetsnivå minskar köp- och försäljningsavgiften med %1$d procentenheter.</string>
     <string name="skill_shortdescription_lower_exploss">Minska mängden förlorad erfarenhetspoäng vid avlivning</string>
@@ -467,18 +467,70 @@
     <string name="skill_shortdescription_speed">Ökad maximal handlingspoäng</string>
     <string name="skill_shortdescription_cleave">Återfå handlingspoäng vid varje dödad motståndare</string>
     <string name="skill_shortdescription_fortitude">Få ökad maximal hälsopoäng vid varje ny nivå</string>
-    <string name="skill_shortdescription_barkskin">Resistans mot skada</string>
-    <string name="skill_longdescription_weapon_chance">Ökar attackchans med %1$d procentenheter för varje färdighetsnivå.</string>
+    <string name="skill_shortdescription_barkskin">Skademotstånd</string>
+    <string name="skill_longdescription_weapon_chance">Ökar anfallschans med %1$d procentenheter för varje färdighetsnivå.</string>
     <string name="skill_longdescription_dodge">Ökar pareringschansen med %1$d procentenheter för varje färdighetsnivå.</string>
     <string name="loadsave_save_overwrite_confirmation_slot">(plats %1$d)</string>
     <string name="loadsave_import_option_add_as_new">Lägg till som ny sparfil</string>
     <string name="loadsave_import_existing_description">Existerande sparfil: Plats: %1$s:
 \n\t%2$s</string>
     <string name="loadsave_import_worldmap_info">Vänliga välj världskartans zip fil.</string>
-    <string name="loadsave_import_file_exists_question">Det finns redan en sparfil i målplatsen. Vill du behålla den befintliga sparfilen, skriva över den med den importerade sparfilen eller importera sparfilen till en plats?
+    <string name="loadsave_import_file_exists_question">Det finns redan en sparfil i målplatsen. Vill du behålla den befintliga sparfilen, överskriva den med den importerade sparfilen eller importera sparfilen till en egen plats?
 \n
 \n%1$s
 \n
 \n%2$s</string>
-    <string name="traitsinfo_criticalhit_multiplier">Kritisk multiplikator:</string>
+    <string name="traitsinfo_criticalhit_multiplier">Kritisk faktor:</string>
+    <string name="loadsave_import_save_error_unknown">- föråldrad -</string>
+    <string name="loadsave_import_error_unknown">Ett okänt fel inträffade vid importering.</string>
+    <string name="iteminfo_effect_decrease_damage_resistance">Sänker skademotstånd med %1$d</string>
+    <string name="loadsave_save_overwrite_confirmation_all">Är du säker på att du vill överskriva detta spel?</string>
+    <string name="preferences_display_overwrite_savegame_entries_always_confirm">Visa alltid konfirmationsdialogruta</string>
+    <string name="preferences_display_overwrite_savegame_entries_never_confirm">Visa aldrig konfirmationsdialogruta</string>
+    <string name="preferences_dialog_overwrite_savegame_title">Bekräfta överskrivning av sparfiler</string>
+    <string name="loadsave_export">Exportera Sparfiler</string>
+    <string name="loadsave_import_save">Importera Sparfiler</string>
+    <string name="loadsave_import_save_successfull">Framgångsrikt importerad</string>
+    <string name="loadsave_export_successfull">Framgångsrikt exporterad</string>
+    <string name="loadsave_export_unsuccessfull">Ej framgångsrik exportering</string>
+    <string name="loadsave_import_save_unsuccessfull">Ej framgångsrikt importerad</string>
+    <string name="skill_longdescription_regeneration">Få + %1$d hälsopoäng (HP) vid varje runda per färdighetsnivå när inga monster är direkt intill.</string>
+    <string name="skill_longdescription_fortitude">På varje efterföljande nivå kommer maximala hälsopoäng (HP) att höjas med %1$d per färdighetsnivå. Detta tillämpas inte retroaktivt, endast efterföljande nivåer kommer att påverkas.</string>
+    <string name="skill_longdescription_more_exp">Ökar mängden exp som ges genom att besegra monster med %1$d % för varje färdighetsnivå.</string>
+    <string name="skillinfo_action_levelup">Gå upp en nivå</string>
+    <string name="loadsave_save_to_new_slot">Skapa ny Sparfilsplats</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Överskriv Sparfil?</string>
+    <string name="loadsave_save_overwrite_confirmation">Denna Sparfil innehåller ett annat spelarnamn (%1$s) än ditt nuvarande spelarnamn (%2$s). Är du säker på att du vill överskriva detta spel?</string>
+    <string name="loadsave_export_info">Vänligen välj katalog att exportera alla filer till.</string>
+    <string name="loadsave_exporting_savegames">Exporterar Sparfiler</string>
+    <string name="loadsave_exporting_worldmap">Exporterar Världskarta</string>
+    <string name="loadsave_export_error_unknown">Ett okänt fel inträffade vid export.</string>
+    <string name="loadsave_import_save_info">Vänligen välj alla Sparfiler du vill importera.</string>
+    <string name="loadsave_importing_savegames">Importerar Sparfiler</string>
+    <string name="skill_longdescription_barkskin">Ökar skademotstånd med %1$d för varje färdighetsnivå.</string>
+    <string name="iteminfo_effect_increase_damage_resistance">Ökar skademotstånd med %1$d</string>
+    <string name="skill_longdescription_armor_prof_shield">Ökar skademotstånd med %1$d per färdighetsnivå medans du är utrustad med en sköld eller pareringsvapen.</string>
+    <string name="skill_longdescription_more_criticals">Ökar alla befintliga kritiska färdigheter som ges av utrustning med %1$d% för varje färdighetsnivå.</string>
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Medan du kämpar utan att ha någon rustning utrustad och utan att använda ett vapen eller sköld, få %1$d anfallschans, %2$d pareringschans, %3$d skademotstånd och öka den maximala skadan med %4$d per färdighetsnivå. Färdigheten ger också en kritisk faktor på 1 plus 0.%5$d per nivå.
+\n
+\nObjekt gjorda av tyg anses inte vara rustning.</string>
+    <string name="skill_longdescription_better_criticals">Ökar alla befintliga kritiska faktorer som ges av utrustning med %1$d % för varje färdighetsnivå.</string>
+    <string name="skill_longdescription_speed">Ökar maximal handlingspoängen (AP) med %1$d för varje färdighetsnivå.</string>
+    <string name="skill_longdescription_coinfinder">Ökar chansen att hitta guld i monsterdroppar med %1$d%, och ökar mängden guld i droppar med %2$d% för varje färdighetsnivå (upp till det maximala belopp som monstret tappar).</string>
+    <string name="skill_longdescription_eater">Ger + %1$d hälsopoäng (HP) på varje död per färdighetsnivå.</string>
+    <string name="skill_longdescription_cleave">Ger + %1$d handlingspoäng (AP) för varje död per färdighetsnivå.</string>
+    <string name="skill_longdescription_evasion">För varje erfarenhetsnivå minskar både risken för misslyckade undanflykter med %1$d% och chansen att ett intilliggande monster kommer att attackera med %2$d % %.</string>
+    <string name="skill_longdescription_lower_exploss">För varje färdighetsnivå minskar mängden förlorad erfarenhet som orsakas av avlivning med %1$d% (procentandel av befintligt förlustvärde, inte procentenheter). %2$d nivåer kommer att ta bort all förlorad erfarenhet orsakad av avlivning.</string>
+    <string name="skill_longdescription_magicfinder">Ökar chansen att hitta icke-ordinära objekt med %1$d% för varje färdighetsnivå.</string>
+    <string name="skill_longdescription_resistance_mental">Sänker chansen att drabbas av mentala åkommor med %1$d % för varje färdighetsnivå, upp till högst %2$d %. Detta inkluderar villkor som orsakas av monsteranfall som Omtöcknad eller Vapensvaghet.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Sanker chansen att drabbas av tillstånd som påverkar din fysiska kapacitet med %1$d% för varje erfarenhetsnivå, upp till högst %2$d%. Detta inkluderar tillstånd som orsakas av monsteranfall, till exempel Trötthet.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Sänker risken att drabbas av sjukdomar i blodet med %1$d% för varje färdighetsnivå, upp till högst %2$d%. Detta inkluderar tillstånd som orsakas av monsteranfall, till exempel Gift eller Blödande sår.</string>
+    <string name="skill_prerequisite_stat">För att gå upp en nivå i denna färdighet behöver du åtminstone %1$d %2$s (bas kampstatistik).</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Överskriv Befintliga Filer?</string>
+    <string name="loadsave_export_overwrite_confirmation">Den valda Mappen innehåller befintliga filer med samma namn som några filer som bör exporteras. Är du säker på att du vill Överskriva dessa filer?</string>
+    <string name="preferences_dialog_overwrite_savegame">Ger en fråga om du vill överskriva när du sparar till en sparfil som redan innehåller ett spel.</string>
+    <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Visa endast när ett annat spelarnamn överskrivs</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Import av världskartan misslyckades</string>
+    <string name="loadsave_import_worldmap_wrong_file">Är du säker på att du valt en världskarta? Välj .zip-filen vid namn \"worldmap.zip\" som exporterades till din exportdestination.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- föråldrad -</string>
 </resources>
