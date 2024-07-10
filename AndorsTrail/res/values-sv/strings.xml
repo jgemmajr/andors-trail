@@ -42,17 +42,17 @@
     <string name="combat_move">Flytta (%1$d AP)</string>
     <string name="combat_use">Använd föremål</string>
     <string name="combat_endturn">Avsluta draget</string>
-    <string name="combat_flee">Flykta</string>
-    <string name="combat_begin_flee">Nu kan du flykta från sammandrabbningen genom att klicka i riktningen du vill flytta dig.</string>
+    <string name="combat_flee">Fly</string>
+    <string name="combat_begin_flee">Nu kan du fly från sammandrabbningen genom att klicka i den riktningen du vill flytta dig.</string>
     <string name="combat_flee_failed">Flyktförsöket misslyckades!</string>
     <string name="combat_status_ap">AP: %1$d</string>
     <string name="combat_monsterhealth">HP:</string>
     <string name="combat_monsteraction">%1$s attackerar.</string>
     <string name="combat_result_monstermiss">%1$s missar!</string>
-    <string name="combat_result_monsterhit">%1$s träffar dig för %2$d HP!</string>
+    <string name="combat_result_monsterhit">%1$s skadar dig för %2$d HP!</string>
     <string name="combat_result_monsterhitcritical">%1$s träffar ett kritiskt slag för %2$d HP!</string>
     <string name="combat_result_heromiss">Din attack misslyckas.</string>
-    <string name="combat_result_herohit">Du träffar %1$s för %2$d HP!</string>
+    <string name="combat_result_herohit">Du skadar %1$s för %2$d HP!</string>
     <string name="combat_result_herohitcritical">Du träffar %1$s med ett kritiskt slag för %2$d HP!</string>
     <string name="combat_result_herokillsmonster">%1$s dör!</string>
     <string name="combat_not_enough_ap">Du har inte tillräckligt med AP kvar denna omgång.</string>
@@ -442,7 +442,7 @@
     <string name="skill_shortdescription_eater">Återfå hälsopoäng vid varje dödad motståndare</string>
     <string name="skill_shortdescription_better_criticals">Ökad kritisk skada</string>
     <string name="skill_shortdescription_weapon_chance">Ökade chanser för attack</string>
-    <string name="skill_shortdescription_weapon_dmg">Ökad attacksyrka</string>
+    <string name="skill_shortdescription_weapon_dmg">Ökad attackskada</string>
     <string name="skill_title_fortitude">Ökad Styrka</string>
     <string name="inventory_assign">Tilldela snabbmeny</string>
     <string name="iteminfo_effect_decrease_max_ap">Minskar maximala antalet AP med %1$d</string>
@@ -566,5 +566,30 @@
     <string name="skill_longdescription_crit1">För varje kritisk träff som görs finns det en %1$d% chans att träffen kommer att orsaka intern blödning på målet, vilket effektivt orsakar \"Intern blödning\" -tillståndet på målet. Intern blödning sänker allvarligt offensiva stridsförmågor, vilket sänker målets förmåga att kunna landa framgångsrika attacker.</string>
     <string name="iteminfo_effect_weapon_attack_cost">Anfallskostnad: %1$d AP</string>
     <string name="skill_longdescription_concussion">När du gör utför ett anfall på ett mål vars pareringschans (BC) är minst %1$d lägre än din anfallschans (AC), finns det en %2$d% chans att träffen kommer att orsaka en hjärnskakning på målet. En hjärnskakning kommer allvarligt att sänka målets offensiva stridsförmåga, vilket sänker dess förmåga att framgångsrikt kunna skydda sig mot följande attacker.</string>
-    <string name="inventory_equip_offhand">Utrusta (andra hand)</string>
+    <string name="inventory_equip_offhand">Utrusta (sämre hand)</string>
+    <string name="iteminfo_effect_increase_attack_damage_minmax">Ökar attackskada med %1$d-%2$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage">Sänker attackskada med %1$d</string>
+    <string name="iteminfo_effect_increase_critical_skill">Ökar kritisk träfförmåga med %1$d</string>
+    <string name="iteminfo_effect_critical_multiplier">Möjliggör kritiska träffar med en faktor av x%1$.1f</string>
+    <string name="iteminfo_effect_decrease_use_cost">Sänker AP kostnaden för användandet av föremål i strid med %1$d AP</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Ökar AP kostnaden för att utrusta dig i strid med %1$d AP</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Sänker AP kostnaden för att utrusta dig i strid med %1$d AP</string>
+    <string name="combat_log_noentries">Inga inlägg ännu.</string>
+    <string name="conversation_reward_quest_finished">[Uppdrag avklarad: \"%1$s\"]</string>
+    <string name="conversation_reward_quest_updated">[Uppdrag uppdaterad: \"%1$s\"}</string>
+    <string name="iteminfo_effect_decrease_critical_skill">Sänker kritisk träfförmåga med %1$d</string>
+    <string name="iteminfo_effect_increase_use_cost">Ökar AP kostnaden för användandet av föremål i strid med %1$d AP</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;tom&gt;</string>
+    <string name="combat_log_title">Stridslogg</string>
+    <string name="iteminfo_effect_set_damage_modifier">Skademodifikator: %1$d%%</string>
+    <string name="skill_longdescription_fightstyle_dualwield">Ger fördelar när du slåss med två vapen samtidigt, ett i din bästa hand och ett i din sämre.
+\n
+\nUtan denna färdighet kan bara %1$d %% av ett vapens egenskaper användas när du bär det i din sämre hand. Detta inkluderar anfallschans, kritisk träfförmåga, skadepotential och pareringschans. Utan denna färdighet blir anfallskostnaden (AP-kostnaden) för att utföra en attack summan av anfallskostnaderna för huvudvapnet och för vapnet som bärs i den sämre handen. Den lägre av de båda skademodifierarna kommer att användas.
+\n
+\nMed en nivå av denna färdighet kan %2$d %% av den sämre handens vapens egenskaper användas och anfallskostnaden är den av vapnens anfallskostnader som är högst plus %3$d %% av det vapnet vars anfallskostnad är lägst. Medelvärdet av de båda skademodifierarna kommer att användas.
+\n
+\nMed två nivåer av denna färdighet kan %4$d %% av den sämre handens vapens egenskaper användas och anfallskostnaden motsvarar den av de två burna vapnens anfallskostnader som är högst. Den högsta skademodifieraren kommer att användas.</string>
+    <string name="iteminfo_effect_decrease_attack_damage_minmax">Sänker attackskada med %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_block_chance">Ökar pareringschans med %1$d</string>
+    <string name="iteminfo_effect_decrease_block_chance">Sänker pareringschans med %1$d</string>
 </resources>
