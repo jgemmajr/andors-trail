@@ -313,6 +313,13 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("wx", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wexlow_village", "west", 0, 0);
+			}
+		})
+
 				,new DebugButton("fey", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -345,7 +352,7 @@ public final class DebugInterface {
 				,new DebugButton("#1", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway11_east", "west", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "swamp3", "north", 0, 0);
 			}
 		})
 
