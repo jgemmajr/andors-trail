@@ -24,11 +24,12 @@ public final class WorldMapParser {
 	}
 
 	private static void read(XmlResourceParser xrp, final MapCollection maps, final TranslationLoader translationLoader) {
+		String s = "";
 		try {
 			int eventType;
 			while ((eventType = xrp.next()) != XmlResourceParser.END_DOCUMENT) {
 				if (eventType == XmlResourceParser.START_TAG) {
-					String s = xrp.getName();
+					s = xrp.getName();
 					if (s.equals("segment")) {
 						WorldMapSegment segment = parseSegment(xrp, maps, translationLoader);
 						maps.worldMapSegments.put(segment.name, segment);
@@ -37,7 +38,7 @@ public final class WorldMapParser {
 			}
 			xrp.close();
 		} catch (Exception e) {
-			L.log("Error reading worldmap: " + e.toString());
+			L.log("Error reading worldmap: " + s + e.toString());
 		}
 	}
 
