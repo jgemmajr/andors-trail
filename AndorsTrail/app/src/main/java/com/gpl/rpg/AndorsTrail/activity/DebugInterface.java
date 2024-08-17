@@ -316,7 +316,7 @@ public final class DebugInterface {
 				,new DebugButton("wx", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wexlow_village", "west", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wexlow_village", "north", 0, 0);
 			}
 		})
 
