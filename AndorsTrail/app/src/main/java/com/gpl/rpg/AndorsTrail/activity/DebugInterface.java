@@ -153,6 +153,12 @@ public final class DebugInterface {
 				showToast(mainActivity, "DEBUG: map=" + world.model.currentMaps.map.name , Toast.LENGTH_SHORT);
 			}
 		})
+				,new DebugButton("tim", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				world.model.worldData.tickWorldTime(10);
+			}
+		})
 		}));
 
 		tpButtons.addAll(Arrays.asList(new DebugButton[] {
