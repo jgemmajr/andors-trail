@@ -387,7 +387,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_border_1, "map_border_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_1, "map_bridge_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_2, "map_bridge_2", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_brightport, "map_brightport", new Size(7, 5), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_brightport, "map_brightport", new Size(8, 5), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_broken_1, "map_broken_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_1, "map_cavewall_1", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_2, "map_cavewall_2", new Size(18, 6), sz1x1, mTileSize);
