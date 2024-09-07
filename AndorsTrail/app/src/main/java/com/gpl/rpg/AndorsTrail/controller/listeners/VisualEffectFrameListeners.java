@@ -1,6 +1,5 @@
 package com.gpl.rpg.AndorsTrail.controller.listeners;
 
-import com.gpl.rpg.AndorsTrail.controller.VisualEffectController;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.SpriteMoveAnimation;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.VisualEffectAnimation;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
@@ -9,10 +8,6 @@ import com.gpl.rpg.AndorsTrail.util.ListOfListeners;
 import java.util.List;
 
 public final class VisualEffectFrameListeners extends ListOfListeners<VisualEffectFrameListener> implements VisualEffectFrameListener {
-
-	private final Function3<VisualEffectFrameListener, VisualEffectAnimation, Integer, Integer> onNewAnimationFrame = new Function3<VisualEffectFrameListener, VisualEffectAnimation, Integer, Integer>() {
-		@Override public void call(VisualEffectFrameListener listener, VisualEffectAnimation animation, Integer tileID, Integer textYOffset) { listener.onNewAnimationFrame(animation, tileID, textYOffset); }
-	};
 
 	private final Function1<VisualEffectFrameListener, List<VisualEffectAnimation>> onNewAnimationFrames = new Function1<VisualEffectFrameListener, List<VisualEffectAnimation>>() {
 		@Override public void call(VisualEffectFrameListener listener, List<VisualEffectAnimation> effects) { listener.onNewAnimationFrames(effects); }
@@ -37,11 +32,6 @@ public final class VisualEffectFrameListeners extends ListOfListeners<VisualEffe
 	private final Function1<VisualEffectFrameListener, CoordRect> onAsyncAreaUpdate = new Function1<VisualEffectFrameListener, CoordRect>() {
 		@Override public void call(VisualEffectFrameListener listener, CoordRect area) { listener.onAsyncAreaUpdate(area); }
 	};
-	
-	@Override
-	public void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset) {
-		callAllListeners(this.onNewAnimationFrame, animation, tileID, textYOffset);
-	}
 
 	@Override
 	public void onNewAnimationFrames(List<VisualEffectAnimation> effects) {

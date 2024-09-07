@@ -19,7 +19,6 @@ import com.gpl.rpg.AndorsTrail.resource.VisualEffectCollection.VisualEffect;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
-import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 import java.util.ArrayList;
@@ -28,6 +27,7 @@ import java.util.List;
 public final class VisualEffectController {
 	private static final long EFFECT_UPDATE_INTERVAL = 25;
 	private int effectCount = 0;
+
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	private final VisualEffectCollection effectTypes;
@@ -108,8 +108,7 @@ public final class VisualEffectController {
 
 	public final class SpriteMoveAnimation implements Runnable {
 		private final Handler handler = new Handler();
-//		private static final int millisecondsPerFrame=25;
-		
+
 		private final VisualEffectCompletedCallback callback;
 		private final int callbackValue;
 
@@ -123,11 +122,6 @@ public final class VisualEffectController {
 		@Override
 		public void run() {
 			onCompleted();
-//			update();
-//			if (System.currentTimeMillis() - actor.vfxStartTime >= duration) {
-//			} else {
-//				postDelayed(this, millisecondsPerFrame);
-//			}
 		}
 		
 		public SpriteMoveAnimation(Coord origin, Coord destination, int duration, Actor actor, PredefinedMap map, VisualEffectCompletedCallback callback, int callbackValue) {
@@ -140,11 +134,6 @@ public final class VisualEffectController {
 			this.destination = destination;
 
 		}
-		
-//		private void update() {
-//			
-//			visualEffectFrameListeners.onNewSpriteMoveFrame(this);
-//		}
 
 		private void onCompleted() {
 			--effectCount;
@@ -152,7 +141,6 @@ public final class VisualEffectController {
 			if (callback != null) callback.onVisualEffectCompleted(callbackValue);
 			visualEffectFrameListeners.onSpriteMoveCompleted(this);
 		}
-
 
 		public void start() {
 			actor.hasVFXRunning = true;
@@ -164,9 +152,6 @@ public final class VisualEffectController {
 				handler.postDelayed(this, duration);
 			}
 		}
-		
-		
-		
 	}
 
 	public static final Paint textPaint = new Paint();

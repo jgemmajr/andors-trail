@@ -7,7 +7,6 @@ import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import java.util.List;
 
 public interface VisualEffectFrameListener {
-	void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset);
 	void onNewAnimationFrames(List<VisualEffectAnimation> effects);
 	void onAnimationCompleted(VisualEffectAnimation animation);
 	void onSpriteMoveStarted(SpriteMoveAnimation animation);

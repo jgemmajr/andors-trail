@@ -1,7 +1,6 @@
 package com.gpl.rpg.AndorsTrail.view;
 
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
 import java.util.List;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
@@ -10,7 +9,6 @@ import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.InputController;
-import com.gpl.rpg.AndorsTrail.controller.VisualEffectController;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.BloodSplatter;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.SpriteMoveAnimation;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.VisualEffectAnimation;
@@ -32,7 +30,6 @@ import com.gpl.rpg.AndorsTrail.resource.tiles.TileCollection;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
-import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 import android.content.Context;
@@ -80,7 +77,6 @@ public final class MainView extends SurfaceView
 	private final int[] debugColors = {Color.MAGENTA, Color.BLUE, Color.CYAN, Color.GREEN, Color.YELLOW, Color.RED, Color.WHITE};
 	private final CoordRect p1x1 = new CoordRect(new Coord(), new Size(1,1));
 	private boolean hasSurface = false;
-
 	
 	//DEBUG
 //	private Coord touchedTile = null;
@@ -231,82 +227,17 @@ public final class MainView extends SurfaceView
 			if (scrolling && why != RedrawAllDebugReason.MapScrolling) return;
 			if (!scrolling && movingSprites > 0 && why != RedrawAllDebugReason.SpriteMoved) return;
 		}
-		redrawArea_(mapViewArea, null, 0, 0);
+		redrawArea_(mapViewArea, null);
 	}
 	private void redrawTile(final Coord p, RedrawTileDebugReason why) {
 		if (scrolling) return;
 		p1x1.topLeft.set(p);
-		redrawArea_(p1x1, null, 0, 0);
+		redrawArea_(p1x1, null);
 	}
 	private void redrawArea(final CoordRect area, RedrawAreaDebugReason why) {
 		if (scrolling) return;
-		redrawArea_(area, null, 0, 0);
+		redrawArea_(area, null);
 	}
-	private void redrawArea_(CoordRect area, final VisualEffectAnimation effect, int tileID, int textYOffset) {
-		if (!hasSurface) return;
-
-		
-		if (!currentMap.intersects(area)) return;
-		if (!mapViewArea.intersects(area)) return;
-
-		if (shouldRedrawEverything()) {
-			area = mapViewArea;
-		}
-		
-		calculateRedrawRect(area);
-		redrawRect.intersect(redrawClip);
-		Canvas c = null;
-		try {
-			c = holder.lockCanvas(redrawRect);
-			// lockCanvas sometimes changes redrawRect, when the double-buffer has not been
-			// sufficiently filled beforehand. In those cases, we need to redraw the whole scene.
-			if (area != mapViewArea) {
-				if (isRedrawRectWholeScreen(redrawRect)) {
-					area = mapViewArea;
-				}
-			}
-			if (area == mapViewArea) {
-				area = adaptAreaToScrolling(area);
-			}
-			
-			synchronized (holder) { synchronized (tiles) {
-				int xScroll = 0;
-				int yScroll = 0;
-				if (scrolling && scrollVector != null) {
-					xScroll = (int) (tileSize - (tileSize * (System.currentTimeMillis() - scrollStartTime) / SCROLL_DURATION));
-					xScroll = Math.max(0, Math.min(tileSize, xScroll)) * scrollVector.x;
-					yScroll = (int) (tileSize - (tileSize * (System.currentTimeMillis() - scrollStartTime) / SCROLL_DURATION));
-					yScroll = Math.max(0, Math.min(tileSize, yScroll)) * scrollVector.y;
-				}
-				c.clipRect(redrawClip);
-				c.translate(screenOffset.x + xScroll, screenOffset.y + yScroll);
-//				c.scale(scale, scale);
-				doDrawRect(c, area);
-				if (effect != null) {
-					drawFromMapPosition(c, area, effect.position, tileID);
-					if (effect.displayText != null) {
-						drawEffectText(c, area, effect, textYOffset, effect.getTextPaint());
-					}
-				}
-
-//				c.drawRect(new Rect(
-//						(area.topLeft.x - mapViewArea.topLeft.x) * tileSize, 
-//						(area.topLeft.y - mapViewArea.topLeft.y) * tileSize, 
-//						(area.topLeft.x - mapViewArea.topLeft.x + area.size.width) * tileSize - 1, 
-//						(area.topLeft.y - mapViewArea.topLeft.y + area.size.height) * tileSize - 1),
-//						redrawHighlight);
-//				if (touchedTile != null) c.drawRect(new Rect(
-//						(touchedTile.x - mapViewArea.topLeft.x) * tileSize, 
-//						(touchedTile.y - mapViewArea.topLeft.y) * tileSize, 
-//						(touchedTile.x - mapViewArea.topLeft.x + 1) * tileSize - 1, 
-//						(touchedTile.y - mapViewArea.topLeft.y + 1) * tileSize - 1), 
-//						touchHighlight);
-			} }
-		} finally {
-			if (c != null) holder.unlockCanvasAndPost(c);
-		}
-	}
-
 	private void redrawArea_(CoordRect area, final List<VisualEffectAnimation> effects) {
 		if (!hasSurface) return;
 
@@ -323,6 +254,8 @@ public final class MainView extends SurfaceView
 		Canvas c = null;
 		try {
 			c = holder.lockCanvas(redrawRect);
+			// lockCanvas sometimes changes redrawRect, when the double-buffer has not been
+			// sufficiently filled beforehand. In those cases, we need to redraw the whole scene.
 			if (area != mapViewArea) {
 				if (isRedrawRectWholeScreen(redrawRect)) {
 					area = mapViewArea;
@@ -344,7 +277,6 @@ public final class MainView extends SurfaceView
 				c.clipRect(redrawClip);
 				c.translate(screenOffset.x + xScroll, screenOffset.y + yScroll);
 				doDrawRect(c, area);
-				// Render each effect
 				renderEffects(c, effects);
 			} }
 		} finally {
@@ -353,6 +285,7 @@ public final class MainView extends SurfaceView
 	}
 
 	private void renderEffects(Canvas canvas ,List<VisualEffectAnimation> effects) {
+		if(effects == null) return;
 		for (VisualEffectAnimation effect : effects) {
 			int tileID = effect.tileID;
 			int textYOffset = effect.textYOffset;
@@ -378,11 +311,6 @@ public final class MainView extends SurfaceView
 		return true;
 	}
 	private final Rect redrawRect = new Rect();
-	private void redrawAreaWithEffect(final VisualEffectAnimation effect, int tileID, int textYOffset) {
-		CoordRect area = effect.area;
-//		if (shouldRedrawEverythingForVisualEffect()) area = mapViewArea;
-		redrawArea_(area, effect, tileID, textYOffset);
-	}
 	private void redrawAreaWithEffect(List<VisualEffectAnimation> effects) {
 		CoordRect area = null;
 		for (int i = 0; i < effects.size(); i++) {
@@ -867,11 +795,6 @@ public final class MainView extends SurfaceView
 		if (map != currentMap) return;
 		useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
 		redrawAll(RedrawAllDebugReason.MapChanged);
-	}
-
-	@Override
-	public void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset){
-		redrawAreaWithEffect(animation, tileID, textYOffset);
 	}
 
 	@Override
