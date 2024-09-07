@@ -81,7 +81,6 @@ public final class MainView extends SurfaceView
 	private final CoordRect p1x1 = new CoordRect(new Coord(), new Size(1,1));
 	private boolean hasSurface = false;
 
-	private List<VisualEffectController.VisualEffectData> activeEffects = new ArrayList<>();
 	
 	//DEBUG
 //	private Coord touchedTile = null;
@@ -164,8 +163,8 @@ public final class MainView extends SurfaceView
 //		this.surfaceSize = new Size(w, h);
 		this.surfaceSize = new Size((int) (getWidth() / scale), (int) (getHeight() / scale));
 		this.screenSizeTileCount = new Size(
-				(int) Math.floor(getWidth() / scaledTileSize)
-				,(int) Math.floor(getHeight() / scaledTileSize)
+				 getWidth()  / scaledTileSize
+				,getHeight() / scaledTileSize
 			);
 		
 		if (sh.getSurfaceFrame().right != surfaceSize.width || sh.getSurfaceFrame().bottom != surfaceSize.height) {
@@ -308,7 +307,7 @@ public final class MainView extends SurfaceView
 		}
 	}
 
-	private void redrawArea_(CoordRect area, final List<VisualEffectAnimation> effects, List<Integer> tileIDs, List<Integer> textYOffsets) {
+	private void redrawArea_(CoordRect area, final List<VisualEffectAnimation> effects) {
 		if (!hasSurface) return;
 
 
@@ -346,28 +345,22 @@ public final class MainView extends SurfaceView
 				c.translate(screenOffset.x + xScroll, screenOffset.y + yScroll);
 				doDrawRect(c, area);
 				// Render each effect
-				renderEffects(c);
+				renderEffects(c, effects);
 			} }
 		} finally {
 			if (c != null) holder.unlockCanvasAndPost(c);
 		}
 	}
 
-	private void renderEffects(Canvas canvas) {
-		for (VisualEffectController.VisualEffectData data : activeEffects) {
-			VisualEffectAnimation effect = data.effect;
-			int tileID = data.tileID;
-			int textYOffset = data.textYOffset;
-
-			L.log("Rendering effect at position: " + effect.position + " with tileID: " + tileID + " and textYOffset: " + textYOffset);
-
+	private void renderEffects(Canvas canvas ,List<VisualEffectAnimation> effects) {
+		for (VisualEffectAnimation effect : effects) {
+			int tileID = effect.tileID;
+			int textYOffset = effect.textYOffset;
 			drawFromMapPosition(canvas, effect.area, effect.position, tileID);
 			if (effect.displayText != null) {
 				drawEffectText(canvas, effect.area, effect, textYOffset, effect.getTextPaint());
 			}
 		}
-		L.log("Total effects rendered: " + activeEffects.size());
-		activeEffects.clear();
 	}
 	
 	private boolean isRedrawRectWholeScreen(Rect redrawRect) {
@@ -390,11 +383,10 @@ public final class MainView extends SurfaceView
 //		if (shouldRedrawEverythingForVisualEffect()) area = mapViewArea;
 		redrawArea_(area, effect, tileID, textYOffset);
 	}
-	private void redrawAreaWithEffect(List<VisualEffectAnimation> effects, List<Integer> tileIDs, List<Integer> textYOffsets) {
+	private void redrawAreaWithEffect(List<VisualEffectAnimation> effects) {
 		CoordRect area = null;
 		for (int i = 0; i < effects.size(); i++) {
 			VisualEffectAnimation effect = effects.get(i);
-			activeEffects.add(new VisualEffectController.VisualEffectData(effect, tileIDs.get(i), textYOffsets.get(i)));
 			if (area == null) {
 				area = effect.area;
 			} else {
@@ -402,7 +394,7 @@ public final class MainView extends SurfaceView
 			}
 		}
 		if (area != null) {
-			redrawArea_(area, effects, tileIDs, textYOffsets);
+			redrawArea_(area, effects);
 		}
 	}
 
@@ -878,14 +870,13 @@ public final class MainView extends SurfaceView
 	}
 
 	@Override
-	public void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset) {
+	public void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset){
 		redrawAreaWithEffect(animation, tileID, textYOffset);
 	}
 
 	@Override
-	public void onNewAnimationFrames(List<VisualEffectAnimation> animations, List<Integer> tileIDs, List<Integer> textYOffsets) {
-		L.log("Rendering " + animations.size() + " effects");
-		redrawAreaWithEffect(animations, tileIDs, textYOffsets);
+	public void onNewAnimationFrames(List<VisualEffectAnimation> effects) {
+		redrawAreaWithEffect(effects);
 	}
 
 	@Override

@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.controller.listeners;
 
+import com.gpl.rpg.AndorsTrail.controller.VisualEffectController;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.SpriteMoveAnimation;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.VisualEffectAnimation;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
@@ -13,8 +14,8 @@ public final class VisualEffectFrameListeners extends ListOfListeners<VisualEffe
 		@Override public void call(VisualEffectFrameListener listener, VisualEffectAnimation animation, Integer tileID, Integer textYOffset) { listener.onNewAnimationFrame(animation, tileID, textYOffset); }
 	};
 
-	private final Function3<VisualEffectFrameListener, List<VisualEffectAnimation>, List<Integer>, List<Integer>> onNewAnimationFrames = new Function3<VisualEffectFrameListener, List<VisualEffectAnimation>, List<Integer>, List<Integer>>() {
-		@Override public void call(VisualEffectFrameListener listener, List<VisualEffectAnimation> animations, List<Integer> tileIDs, List<Integer> textYOffsets) { listener.onNewAnimationFrames(animations, tileIDs, textYOffsets); }
+	private final Function1<VisualEffectFrameListener, List<VisualEffectAnimation>> onNewAnimationFrames = new Function1<VisualEffectFrameListener, List<VisualEffectAnimation>>() {
+		@Override public void call(VisualEffectFrameListener listener, List<VisualEffectAnimation> effects) { listener.onNewAnimationFrames(effects); }
 	};
 
 	private final Function1<VisualEffectFrameListener, VisualEffectAnimation> onAnimationCompleted = new Function1<VisualEffectFrameListener, VisualEffectAnimation>() {
@@ -43,8 +44,8 @@ public final class VisualEffectFrameListeners extends ListOfListeners<VisualEffe
 	}
 
 	@Override
-	public void onNewAnimationFrames(List<VisualEffectAnimation> animations, List<Integer> tileIDs, List<Integer> textYOffsets) {
-		callAllListeners(this.onNewAnimationFrames, animations, tileIDs, textYOffsets);
+	public void onNewAnimationFrames(List<VisualEffectAnimation> effects) {
+		callAllListeners(this.onNewAnimationFrames, effects);
 	}
 
 	@Override

@@ -26,13 +26,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class VisualEffectController {
+	private static final long EFFECT_UPDATE_INTERVAL = 25;
 	private int effectCount = 0;
-	private final List<VisualEffectAnimation> activeAnimations = new ArrayList<>();
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	private final VisualEffectCollection effectTypes;
+	private final Handler animationHandler = new Handler();
+	private final List<VisualEffectAnimation> activeAnimations = new ArrayList<>();
 
 	public final VisualEffectFrameListeners visualEffectFrameListeners = new VisualEffectFrameListeners();
+	private long getEffectUpdateInterval() {
+		return EFFECT_UPDATE_INTERVAL * controllers.preferences.attackspeed_milliseconds / AndorsTrailPreferences.ATTACKSPEED_DEFAULT_MILLISECONDS;
+	}
 	
 	public VisualEffectController(ControllerContext controllers, WorldContext world) {
 		this.controllers = controllers;
@@ -43,24 +48,40 @@ public final class VisualEffectController {
 	public void startEffect(Coord position, VisualEffectCollection.VisualEffectID effectID, String displayValue, VisualEffectCompletedCallback callback, int callbackValue) {
 		++effectCount;
 		VisualEffectAnimation animation = new VisualEffectAnimation(effectTypes.getVisualEffect(effectID), position, displayValue, callback, callbackValue);
-		activeAnimations.add(animation);
 		animation.start();
 	}
 
-	public void collectAndSendAnimations(VisualEffectAnimation animation) {
-		List<Integer> tileIDs = new ArrayList<>();
-		List<Integer> yOffsets = new ArrayList<>();
-		//There are more elegant ways to fix this, but to get multiple effects to work, this is the quickest fix: increase all other effects that are being played
-		//TODO: if someone got time to make this look nice, be my guest
-		for (VisualEffectAnimation vanimation : activeAnimations) {
-			if (vanimation != animation && vanimation.currentFrame < vanimation.effect.lastFrame) vanimation.currentFrame++;
-			tileIDs.add(vanimation.effect.frameIconIDs[vanimation.currentFrame]);
-			yOffsets.add(-2 * vanimation.currentFrame);
-			L.log("VisualEffectController: collectAndSendAnimations: " + vanimation.currentFrame + " currentFrame, effectCount = " + effectCount);
+	private void startAnimation(VisualEffectAnimation animation) {
+		activeAnimations.add(animation);
+		animation.update();
+		if (activeAnimations.size() == 1) {
+			animationHandler.postDelayed(animationRunnable, 0);
 		}
-		L.log("VisualEffectController: collectAndSendAnimations: " + activeAnimations.size() + " animations to send, effectCount = " + effectCount);
-		visualEffectFrameListeners.onNewAnimationFrames(activeAnimations, tileIDs, yOffsets);
 	}
+
+	private final Runnable animationRunnable = new Runnable() {
+		@Override
+		public void run() {
+			if(!activeAnimations.isEmpty()) {
+				long updateInterval = getEffectUpdateInterval();
+				animationHandler.postDelayed(this, updateInterval);
+
+				for (int i = 0; i < activeAnimations.size(); i++) {
+					VisualEffectAnimation animation = activeAnimations.get(i);
+					animation.durationPassed += updateInterval;
+					animation.updateFrame();
+					animation.update();
+					if (animation.currentFrame >= animation.effect.lastFrame) {
+						animation.onCompleted();
+						activeAnimations.remove(i);
+						effectCount--;
+						i--;
+					}
+				}
+				visualEffectFrameListeners.onNewAnimationFrames(activeAnimations);
+			}
+		}
+	};
 
 	private VisualEffectCollection.VisualEffectID enqueuedEffectID = null;
 	private int enqueuedEffectValue = 0;
@@ -85,8 +106,8 @@ public final class VisualEffectController {
 		.start();
 	}
 
-	public final class SpriteMoveAnimation extends Handler implements Runnable {
-		
+	public final class SpriteMoveAnimation implements Runnable {
+		private final Handler handler = new Handler();
 //		private static final int millisecondsPerFrame=25;
 		
 		private final VisualEffectCompletedCallback callback;
@@ -140,7 +161,7 @@ public final class VisualEffectController {
 			visualEffectFrameListeners.onSpriteMoveStarted(this);
 			if (duration == 0 || !controllers.preferences.enableUiAnimations) onCompleted();
 			else {
-				postDelayed(this, duration);
+				handler.postDelayed(this, duration);
 			}
 		}
 		
@@ -155,58 +176,41 @@ public final class VisualEffectController {
 		textPaint.setTextAlign(Align.CENTER);
 	}
 
-	public static class VisualEffectData {
-		public final VisualEffectAnimation effect;
-		public final int tileID;
-		public final int textYOffset;
+	public final class VisualEffectAnimation  {
+		public int tileID;
+		public int textYOffset;
+		public long durationPassed = 0;
 
-		public VisualEffectData(VisualEffectAnimation effect, int tileID, int textYOffset) {
-			this.effect = effect;
-			this.tileID = tileID;
-			this.textYOffset = textYOffset;
-		}
-	}
-
-	public final class VisualEffectAnimation extends Handler implements Runnable {
-
-		@Override
-		public void run() {
-			if (currentFrame >= effect.lastFrame) {
-				onCompleted();
-			} else {
-				postDelayed(this, effect.millisecondPerFrame * controllers.preferences.attackspeed_milliseconds / AndorsTrailPreferences.ATTACKSPEED_DEFAULT_MILLISECONDS);
-				update();
+		private void updateFrame() {
+			long frameDuration = (long) effect.millisecondPerFrame * controllers.preferences.attackspeed_milliseconds / AndorsTrailPreferences.ATTACKSPEED_DEFAULT_MILLISECONDS;
+			while (durationPassed > frameDuration) {
+				currentFrame++;
+				durationPassed -= frameDuration;
 			}
 		}
-
 		private void update() {
-			++currentFrame;
-			int frame = currentFrame;
+			if (currentFrame >= effect.lastFrame) {
+				return;
+			}
 
-//			int tileID = effect.frameIconIDs[frame];
-//			int textYOffset = -2 * (frame);
+			tileID = effect.frameIconIDs[currentFrame];
+			textYOffset = -2 * (currentFrame);
 
-			if (frame >= beginFadeAtFrame && displayText != null) {
-				textPaint.setAlpha(255 * (effect.lastFrame - frame) / (effect.lastFrame - beginFadeAtFrame));
+			if (currentFrame >= beginFadeAtFrame && displayText != null) {
+				textPaint.setAlpha(255 * (effect.lastFrame - currentFrame) / (effect.lastFrame - beginFadeAtFrame));
 			}
 
 			area.topLeft.y = position.y - 1;
-
-			//Fall back to onNewAnimationFrame if the new effect handle process is no longer desired
-//			visualEffectFrameListeners.onNewAnimationFrame(this, tileID, textYOffset);
-			collectAndSendAnimations(this);
 		}
 
 		private void onCompleted() {
-			--effectCount;
-			activeAnimations.remove(this);
 			visualEffectFrameListeners.onAnimationCompleted(this);
 			if (callback != null) callback.onVisualEffectCompleted(callbackValue);
 		}
 
 		public void start() {
 			if (!controllers.preferences.enableUiAnimations) onCompleted();
-			else postDelayed(this, 0);
+			else startAnimation(this);
 		}
 
 		private int currentFrame = 0;
@@ -235,7 +239,7 @@ public final class VisualEffectController {
 			this.area = new CoordRect(new Coord(position.x - (widthNeededInTiles / 2), position.y - 1), new Size(widthNeededInTiles, 2));
 			this.beginFadeAtFrame = effect.lastFrame / 2;
 		}
-		
+
 		public Paint getTextPaint(){
 			return textPaint;
 		}

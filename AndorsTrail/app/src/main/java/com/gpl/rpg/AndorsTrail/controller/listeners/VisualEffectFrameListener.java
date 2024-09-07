@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface VisualEffectFrameListener {
 	void onNewAnimationFrame(VisualEffectAnimation animation, int tileID, int textYOffset);
-	void onNewAnimationFrames(List<VisualEffectAnimation> animations, List<Integer> tileIDs, List<Integer> textYOffsets);
+	void onNewAnimationFrames(List<VisualEffectAnimation> effects);
 	void onAnimationCompleted(VisualEffectAnimation animation);
 	void onSpriteMoveStarted(SpriteMoveAnimation animation);
 	void onNewSpriteMoveFrame(SpriteMoveAnimation animation);
