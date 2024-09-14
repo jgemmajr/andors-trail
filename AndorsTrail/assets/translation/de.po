@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-04-30 12:07+0000\n"
-"Last-Translator: Raphi <xxluckyxx1106@gmail.com>\n"
+"PO-Revision-Date: 2024-09-14 22:00+0000\n"
+"Last-Translator: Natalia N <natalian@inbox.ru>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/de/>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -281,7 +281,7 @@ msgstr "Konzentration"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr "Kombo"
+msgstr "Combo"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -400,27 +400,27 @@ msgstr "Durst"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Flinker Angriff"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Blindheit"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Lebenssauger"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Großstachel"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Spinnenbiss"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Umweltverschmutzung"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -1823,15 +1823,15 @@ msgstr "Hast du ein Buch mit dem Namen 'Calomyranische Geheimnisse'?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "Ich habe eine wertvoll aussehende Karte gefunden. Willst du mal sehen?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "Ich habe ein seltsames Buch über die Sklaverei gefunden. Interessiert?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Ich habe ein Buch über die Geschichte der Welt bekommen. Interessiert?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
@@ -1870,58 +1870,68 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"Oh, eine alte Karte der Gegend! Würde gut in meine Sammlung alter Karten "
+"passen. Ich biete dir 500 Goldstücke dafür."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Danke, ich würde es lieber behalten."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "OKAY. Hier ist die Karte von Ewmondold."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
-msgstr ""
+msgstr "Und hier sind 500 glänzende Goldstücke. Verwende sie weise."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "Danke, ich muss nun gehen."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
 msgid "Let's talk about other things."
-msgstr ""
+msgstr "Lass uns über etwas anderes reden."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
 msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
 msgstr ""
+"Lass mal sehen. Oh, zum ... Gut, das ist kein Buch für Kinder wie dich. Gib "
+"es mir, du bekommst 200 Goldstücke dafür."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
 msgid "OK. Here is the book about slavery."
-msgstr ""
+msgstr "OKAY. Hier ist das Buch über die Sklaverei."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
 msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
 msgstr ""
+"Und hier sind 200 glänzende Goldstücke. Seid froh, dass ich euch von diesem "
+"schrecklichen Werk befreie."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "Ah, ein Geschichtslehrbuch."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
 msgstr ""
+"Aber es fehlen viele Seiten. Hast du sie herausgerissen? Du solltest dich "
+"schämen!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
 msgid "No, that wasn't me!"
-msgstr ""
+msgstr "Nein, das war nicht ich!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
 msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
 msgstr ""
+"So ein schönes Buch, völlig kaputt! Du wagst es, mir das anzubieten und "
+"glaubst, ich werde es nicht bemerken?!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
@@ -1931,7 +1941,7 @@ msgstr "[Lauf]"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
 msgid "Yes, just run away, you book murderer!"
-msgstr ""
+msgstr "Ja, lauf einfach weg, du Buchmörder!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
@@ -3586,7 +3596,7 @@ msgstr "Bist du ein Holzfäller?"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr ""
+msgstr "Tunlon hat mich geschickt, um nach Holz für Zäune zu fragen."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
@@ -10486,11 +10496,13 @@ msgstr "Hast du meinen Bruder Andor hier irgendwo gesehen? Er sieht mir ein weni
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr ""
+msgstr "Haben Sie zufällig noch etwas Holz, aus dem Sie Zäune bauen können?"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
 msgstr ""
+"Ich bin $playername und renne den Blackwater Mountain auf und ab, um "
+"Besorgungen zu machen."
 
 #: conversationlist_hadracor.json:hadracor_andor_1
 msgid "Looks like you eh? No, I would have remembered."
@@ -10615,10 +10627,14 @@ msgstr "Ja, ich habe fünf von denen getötet."
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:5
 msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
 msgstr ""
+"Nein, aber ich wollte fragen, ob Sie noch etwas Holz übrig haben, um Zäune "
+"zu bauen."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:6
 msgid "No, I'm too busy running up and down Blackwater mountain."
 msgstr ""
+"Nein, ich bin zu beschäftigt damit, den Blackwater Mountain rauf und runter "
+"zu laufen."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
@@ -10657,6 +10673,8 @@ msgstr "Gut, zeig mir was du hast."
 #: conversationlist_hadracor.json:hadracor_complete_3:3
 msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
 msgstr ""
+"Nein, danke. Ich bin zu beschäftigt damit, den Blackwater Mountain rauf und "
+"runter zu rennen."
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
@@ -10665,6 +10683,8 @@ msgstr "Du bist über meine Schafe hergefallen. Verschwinde, du dreckiger Mörde
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
 msgstr ""
+"Es tut mir leid. Aber dein Bruder hat mich geschickt, um dich zu fragen, ob "
+"du wüsstest, wo ich Zäune für seine Schafe herbekomme."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -10679,6 +10699,8 @@ msgstr "Ich sprach mit Benbyr und hörte die Geschichte von euch beiden."
 #: conversationlist_tinlyn.json:tinlyn_story_1:1
 msgid "Your brother has sent me to ask where I could get fences from. Do you maybe know?"
 msgstr ""
+"Dein Bruder hat mich geschickt, um zu fragen, wo ich die Zäune herbekommen "
+"könnte. Wissen Sie es vielleicht?"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
 msgid "Hello there. You wouldn't happen to want to help an old shepherd would you?"
@@ -12353,15 +12375,17 @@ msgstr "Störe mich nicht, ich muss dieses Holz hier fertig hacken. Geh jemand a
 #: conversationlist_loneford_2.json:loneford_villager2:0
 #: conversationlist_loneford_2.json:loneford_villager2:1
 msgid "Do you by any chance have some fences?"
-msgstr ""
+msgstr "Haben Sie zufällig Zäune?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:2
 msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
 msgstr ""
+"Leider sind die Zäune, die du mir gegeben hast, nicht hoch genug. Haben Sie "
+"noch andere?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:3
 msgid "The Craftsman told me that I should get some wood from you."
-msgstr ""
+msgstr "Der Handwerker hat mir gesagt, ich solle Holz von Euch holen."
 
 #: conversationlist_loneford_2.json:loneford_villager3
 msgid "I fear for our survival. It seems we are getting worse every day that passes. It's a good thing Feygard helps us at least."
@@ -15571,43 +15595,51 @@ msgstr "[OUTDATED]Hau ab, Kleiner. Du solltest nicht hier draußen sein."
 
 #: conversationlist_gylew.json:gylew:0
 msgid "I'm not a kid anymore. Let's talk about the Korhald coins."
-msgstr ""
+msgstr "Ich bin kein Kind mehr. Lassen Sie uns über die Korhald-Münze sprechen"
 
 #: conversationlist_gylew.json:gylew:1
 msgid "Hey old man."
-msgstr ""
+msgstr "Hallo alter Mann."
 
 #: conversationlist_gylew.json:gylew:2
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:1
 msgid "Hey. I found the Korhald tomb and it had two items that I think might interest you."
 msgstr ""
+"Hallöchen. Ich habe das Korhald-Grab gefunden und es enthielt zwei "
+"Gegenstände, von denen ich denke, dass sie Euch interessieren könnten."
 
 #: conversationlist_gylew.json:gylew:3
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:2
 msgid "Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?"
 msgstr ""
+"Im Inneren des Grabes von Korhald fand ich eine verschlossene Truhe. Wissen "
+"Sie, wo ich den Schlüssel finden kann?"
 
 #: conversationlist_gylew.json:gylew:4
 msgid "About that \"Coin of Prestige\"..."
-msgstr ""
+msgstr "Über diese \"Münze des Prestiges\"..."
 
 #: conversationlist_gylew.json:gylew:5
 msgid "Hey. I need to go now and find this map."
-msgstr ""
+msgstr "Hallöchen. Ich muss jetzt losgehen und diese Karte finden."
 
 #: conversationlist_gylew.json:gylew:6
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
 msgid "We have no more business to discuss. I'll see you later."
-msgstr ""
+msgstr "Wir haben nichts mehr zu besprechen. Wir sehen uns später."
 
 #: conversationlist_gylew.json:gylew:7
 msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
 msgstr ""
+"Ich war froh, dir und deinem Vater den Traum zu erfüllen, aber ich muss "
+"jetzt gehen."
 
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
 msgid "[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Lüge] Ich habe diese Bronze- und Silbermünzen, die ich in einem Glücksspiel "
+"\"erworben\" habe. Ich würde gerne wissen, ob Sie daran interessiert sind."
 
 #: conversationlist_gylew.json:gylew_henchman
 msgid "Hey, I'm trying to admire the view here. Get out of my way."
@@ -22052,6 +22084,8 @@ msgstr "Du bist ganz bleich und verschwitzt, was ist mit dir los?"
 #: conversationlist_woodcabin.json:smuggler5_1:1
 msgid "I just met a talking pig right over there. [You point in the direction of west]"
 msgstr ""
+"Ich habe gerade ein sprechendes Schwein genau dort drüben getroffen. [Du "
+"zeigst in Richtung Westen]"
 
 #: conversationlist_woodcabin.json:smuggler5_2
 msgid "Um. Just one more. Please, just one more."
@@ -36797,14 +36831,16 @@ msgstr "Nein, ich schaue mich nur um."
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:3
 msgid "Hello. The woodcutter in Loneford said that you can make me fences for a sheperd. Is that true?"
 msgstr ""
+"Hallo. Der Holzfäller in Loneford hat gesagt, Ihr könnt mir Zäune für einen "
+"Schäfer machen. Ist das wahr?"
 
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:4
 msgid "Here is your wood."
-msgstr ""
+msgstr "Hier ist Ihr Holz."
 
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:5
 msgid "Ah, you are back."
-msgstr ""
+msgstr "Ah, Sie sind wieder da."
 
 #: conversationlist_brimhaven.json:brv_old_farmer_0
 msgid "What are you doing in my house?"
@@ -38131,15 +38167,17 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:0
 msgid "Hey, what the ...?"
-msgstr ""
+msgstr "Hey, was zum ...?"
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:1
 msgid "Phew, at least they didn't find my iron reserve in the bonemeal box."
 msgstr ""
+"Puh, wenigstens haben sie meine Eisenreserve nicht in der Knochenmehldose "
+"gefunden."
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed:2
 msgid "Phew, at least they had let me go."
-msgstr ""
+msgstr "Puh, wenigstens hatten sie mich gehen lassen."
 
 #: conversationlist_brimhaven.json:truric_1_0
 msgid "I am a weaponsmith. I have a good selection at the moment. Would you like to take a look?"
@@ -38662,6 +38700,8 @@ msgstr "Bis dann. Ich werde dich im Auge behalten."
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur
 msgid "One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch."
 msgstr ""
+"Einer der Wachmänner zwinkert dir zu, während er die konfiszierten "
+"Knochenmehltränke wieder in deinen Beutel steckt."
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur:0
 #: monsterlist_omicronrg9.json:unknown
@@ -38671,10 +38711,12 @@ msgstr "???"
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_10
 msgid "You'll be speechless - the guard is Burhczyd in the uniform of the Feygard Guard!"
 msgstr ""
+"Du wirst sprachlos sein - die Wache ist Burhczyd in der Uniform der Feygard-"
+"Wache!"
 
 #: conversationlist_brimhaven.json:brv_patrol_bonemeals_removed_bur_20
 msgid "Before you react, the guards have moved on."
-msgstr ""
+msgstr "Bevor du reagierst, sind die Wachen weitergezogen."
 
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
 msgid "When the other students see how you killed Golin, a panic breaks out. Screaming, they all run out of the building."
@@ -41206,7 +41248,7 @@ msgstr "Die Niederlage des untoten Meisters scheint den Bann aufgehoben zu haben
 
 #: conversationlist_brimhaven_2.json:release_mouse1a
 msgid "You look after as it disappears quickly."
-msgstr "Du schaust ihm hinterher, während er schnell verschwindet."
+msgstr "Du schaust ihr hinterher, während sie schnell verschwindet."
 
 #: conversationlist_brimhaven_2b.json:hettar_1
 msgid "Norry!  Nooorryyyy!"
@@ -41426,6 +41468,9 @@ msgstr "Wenn du über deine Reise nachdenkst, wunderst du dich, wie du es gescha
 #: conversationlist_achievements.json:passive_achievement_grant_2
 msgid "Phew, I dreamed about nightmares in a castle dungeon - although maybe it wasn't a nightmare at all! I never want to go through something like that again - neither in my dream nor in reality!"
 msgstr ""
+"Puh, ich habe von Albträumen in einem Burgverlies geträumt - obwohl es "
+"vielleicht gar kein Albtraum war! So etwas möchte ich nie wieder durchmachen "
+"- weder in meinem Traum noch in der Realität!"
 
 #: conversationlist_fungi_panic.json:bogsten_check_zuulkhan_10
 msgid "You have the impression that Zuul'khan is not dead. He just disappeared into the ground."
@@ -58457,1421 +58502,1715 @@ msgid ""
 "\n"
 "Please do not feed any animals."
 msgstr ""
+"Hier wohnt Tunlon aus Crossglen - Schafzüchter\n"
+"\n"
+"Bitte füttern Sie keine Tiere."
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue
 msgid "Baa!"
-msgstr ""
+msgstr "Baa!"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:0
 msgid "[Pet]"
-msgstr ""
+msgstr "[Haustier]"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:1
 msgid "You look tasty - attack!"
-msgstr ""
+msgstr "Du siehst lecker aus - greife an!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_20
 msgid "You filthy MURDERER!!"
-msgstr ""
+msgstr "Du dreckiger MÖRDER!!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_22
 msgid "My poor sheep! What have you done?!"
-msgstr ""
+msgstr "Meine armen Schafe! Was hast du getan?!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_24
 msgid "Just you wait - you will pay for it!!"
-msgstr ""
+msgstr "Warten Sie einfach - Sie werden dafür bezahlen!!"
 
 #: conversationlist_bwmfill.json:tunlon_start_1
 msgid "Hello kid! How are you?"
-msgstr ""
+msgstr "Hallo Kind! Wie geht es dir?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:0
 msgid "Fine, thank you. Who are you?"
-msgstr ""
+msgstr "Danke, es geht mir gut. Wer bist du?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:1
 msgid "Good. Do you have anything to trade?"
-msgstr ""
+msgstr "Gut. Haben Sie etwas zu verkaufen?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:2
 msgid "Have you seen Andor, my brother? He looks a bit ..."
-msgstr ""
+msgstr "Hast du Andor gesehen, meinen Bruder? Er sieht ein bisschen ..."
 
 #: conversationlist_bwmfill.json:tunlon_start_2
 msgid "I am Tunlon of Crossglen. I look after my flock of sheep here."
 msgstr ""
+"Ich bin Tunlon von Crossglen. Ich kümmere mich hier um meine Schafherde."
 
 #: conversationlist_bwmfill.json:tunlon_start_2:0
 msgid "I am from Crossglen too!"
-msgstr ""
+msgstr "Ich komme auch aus Crossglen!"
 
 #: conversationlist_bwmfill.json:tunlon_start_2:1
 msgid "Nice to have met you."
-msgstr ""
+msgstr "Schön, dich kennengelernt zu haben."
 
 #: conversationlist_bwmfill.json:tunlon_andor
 msgid "I know Andor. Of course I do."
-msgstr ""
+msgstr "Ich kenne Andor. Natürlich tue ich das."
 
 #: conversationlist_bwmfill.json:tunlon_andor_2
 msgid "Always good for mischief, that boy."
-msgstr ""
+msgstr "Immer für Unfug gut, dieser Junge."
 
 #: conversationlist_bwmfill.json:tunlon_andor_2:0
 msgid "Yes, that's him. Do you know where he is?"
-msgstr ""
+msgstr "Ja, das ist er. Weißt du, wo er ist?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_3
 msgid "No. And I want to keep it that way."
-msgstr ""
+msgstr "Nein. Und das soll auch so bleiben."
 
 #: conversationlist_bwmfill.json:tunlon_andor_3:0
 msgid "Oh. What has he done to you?"
-msgstr ""
+msgstr "Oh. Was hat er dir angetan?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_4
 msgid "He scared my sheep. They didn't dare to leave the stable for two weeks."
 msgstr ""
+"Er hat meine Schafe erschreckt. Zwei Wochen lang trauten sie sich nicht, den "
+"Stall zu verlassen."
 
 #: conversationlist_bwmfill.json:tunlon_andor_5
 msgid "I then confronted him, even though I was a little scared myself."
 msgstr ""
+"Dann stellte ich ihn zur Rede, auch wenn ich selbst ein wenig Angst hatte."
 
 #: conversationlist_bwmfill.json:tunlon_andor_6
 msgid "And then? Nothing. With a look that made my blood run cold, he left."
 msgstr ""
+"Und dann? Nichts. Mit einem Blick, der mir das Blut in den Adern gefrieren "
+"ließ, ging er."
 
 #: conversationlist_bwmfill.json:tunlon_andor_6:0
 msgid "Yes, my beloved brother. Who are you by the way?"
-msgstr ""
+msgstr "Ja, mein geliebter Bruder. Wer bist du übrigens?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_6:1
 msgid "Then that's settled. Another question: Do you have anything to trade?"
-msgstr ""
+msgstr "Dann ist das erledigt. Eine andere Frage: Haben Sie etwas zu handeln?"
 
 #: conversationlist_bwmfill.json:tunlon_trade
 msgid "Yes, I have a few basic supplies that I could offer. Do you want to have a look?"
 msgstr ""
+"Ja, ich habe ein paar Grundausstattungen, die ich anbieten könnte. Möchten "
+"Sie einen Blick darauf werfen?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_1
 msgid "That is great to hear. Could you by any chance get me something from Crossglen? Unfortunately I have to stay here to watch my sheep."
 msgstr ""
+"Das ist toll zu hören. Könntet Ihr mir zufällig etwas von Crossglen "
+"besorgen? Leider muss ich hier bleiben, um meine Schafe zu bewachen."
 
 #: conversationlist_bwmfill.json:tunlon_quest_1:0
 msgid "Oh yeah, no problem!"
-msgstr ""
+msgstr "Oh ja, kein Problem!"
 
 #: conversationlist_bwmfill.json:tunlon_quest_1:1
 msgid "Sorry, I have other things to do right now."
-msgstr ""
+msgstr "Tut mir leid, aber ich habe gerade andere Dinge zu tun."
 
 #: conversationlist_bwmfill.json:tunlon_quest_2
 msgid "Thank you, kid. What I need is some wood to repair my fence."
 msgstr ""
+"Danke, Junge. Was ich brauche, ist etwas Holz, um meinen Zaun zu reparieren."
 
 #: conversationlist_bwmfill.json:tunlon_quest_2:0
 msgid "Where do I get that from?"
-msgstr ""
+msgstr "Woher bekomme ich das?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_3
 msgid "Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time"
 msgstr ""
+"Oh, gibt es in Crossglen keinen Holzfäller mehr? Ich war schon lange nicht "
+"mehr dort unten"
 
 #: conversationlist_bwmfill.json:tunlon_quest_3:0
 msgid "Maybe this explains why the forest around Crossglen is too dense to get through..."
 msgstr ""
+"Vielleicht erklärt das, warum der Wald um Crossglen zu dicht ist, um "
+"durchzukommen..."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3:1
 msgid "At least not that I know."
-msgstr ""
+msgstr "Zumindest nicht, dass ich es wüsste."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a
 msgid "What do you mean? The climb into the mountains is just northeast of Crossglen?"
 msgstr ""
+"Was meinst du? Der Aufstieg in die Berge liegt nordöstlich von Crossglen?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a:0
 msgid "Maybe it used to be like that."
-msgstr ""
+msgstr "Vielleicht war das früher so."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a:1
 msgid "If there was a path, it has long since become overgrown."
-msgstr ""
+msgstr "Wenn es einen Weg gab, dann ist er längst überwuchert."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3b:0
 msgid "I had to take a long detour past Stoutford and Prim and come from the other side."
 msgstr ""
+"Ich musste einen langen Umweg nehmen, an Stoutford und Prim vorbei und kam "
+"von der anderen Seite."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3c
 msgid "Then it's a good thing that I haven't tried to go down to Crossglen with my sheep in recent years."
 msgstr ""
+"Dann ist es gut, dass ich in den letzten Jahren nicht versucht habe, mit "
+"meinen Schafen nach Crossglen hinunterzufahren."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3c:0
 msgid "In any case, there is no lumberjack in Crossglen."
-msgstr ""
+msgstr "Auf jeden Fall gibt es in Crossglen keinen Holzfäller."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4
 msgid "Well, then you would have to travel over to Fallhaven. Of course only, if that's not too much for you."
 msgstr ""
+"Naja, dann müsstest du nach Fallhaven reisen. Natürlich nur, wenn dir das "
+"nicht zu viel ist."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4:0
 msgid "Not for me! I know the way perfectly well."
-msgstr ""
+msgstr "Nicht für mich! Ich kenne den Weg ganz genau."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4:1
 msgid "Hmm, now that I think about it ..."
-msgstr ""
+msgstr "Hmm, jetzt, wo ich darüber nachdenke ..."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a
 msgid "Please don't let me down. There are wolves and worse here threatening my sheep."
 msgstr ""
+"Bitte lassen Sie mich nicht im Stich. Es gibt Wölfe und Schlimmeres hier, "
+"die meine Schafe bedrohen."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:0
 msgid "Sigh, I have too good a heart. It's okay, I'll do it."
-msgstr ""
+msgstr "Seufz, ich habe ein zu gutes Herz. Es ist okay, ich werde es tun."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:1
 msgid "No, forget it. I'm out."
-msgstr ""
+msgstr "Nein, vergiss es. Ich bin raus."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4b
 msgid "A pity. Come back if you change your mind."
-msgstr ""
+msgstr "Schade. Komm zurück, wenn du deine Meinung änderst."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5
 msgid "Thank you so much! Here is a bit of gold so you can pay for it."
 msgstr ""
+"Vielen Dank! Hier ist ein bisschen Gold, damit Sie dafür bezahlen können."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5:0
 msgid "I will go and get it now."
-msgstr ""
+msgstr "Ich werde es mir jetzt holen."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5:1
 msgid "Hehe, thank you!"
-msgstr ""
+msgstr "Hehe, danke!"
 
 #: conversationlist_bwmfill.json:tunlon_noquest
 msgid "No problem, kid. Just come back here whenever you have some time."
 msgstr ""
+"Kein Problem, Kind. Kommen Sie einfach hierher zurück, wann immer Sie etwas "
+"Zeit haben."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1
 msgid "Hello - are you back yet? I wasn't expecting you yet."
-msgstr ""
+msgstr "Hallo - bist du schon wieder da? Ich habe dich noch nicht erwartet."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b
 msgid "Have you found some wood already?"
-msgstr ""
+msgstr "Haben Sie schon Holz gefunden?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b:0
 msgid "No, I am still searching."
-msgstr ""
+msgstr "Nein, ich bin immer noch auf der Suche."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b:1
 msgid "No, I asked Jakrar in Fallhaven, but he just sent me to other woodcutters."
 msgstr ""
+"Nein, fragte ich Jakrar in Fallhaven, aber er schickte mich einfach zu "
+"anderen Holzfällern."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2
 msgid "Have you been there yet?"
-msgstr ""
+msgstr "Waren Sie schon dort?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:0
 msgid "No. I will go there next."
-msgstr ""
+msgstr "Nein. Ich werde als nächstes dorthin gehen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:1
 msgid "Yes. They created a shortcut here into the forest."
-msgstr ""
+msgstr "Ja. Sie haben hier eine Abkürzung in den Wald geschaffen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:2
 #: conversationlist_bwmfill.json:tunlon_prog_2a:0
 msgid "Yes. However, they only have firewood available."
-msgstr ""
+msgstr "Ja. Allerdings steht ihnen nur Brennholz zur Verfügung."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2a
 msgid "That's good to hear."
-msgstr ""
+msgstr "Das ist gut zu hören."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2b
 msgid "But firewood isn't good for fences."
-msgstr ""
+msgstr "Aber Brennholz ist nicht gut für Zäune."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2b:0
 msgid "Exactly. Where else can you get suitable wood?"
-msgstr ""
+msgstr "Genau. Wo kann man sonst noch passendes Holz bekommen?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_2c
 msgid "Maybe it would be better to buy the finished fences straight away."
-msgstr ""
+msgstr "Vielleicht wäre es besser, die fertigen Zäune gleich zu kaufen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2c:0
 msgid "Finished fences? Where do you get something like that from?"
-msgstr ""
+msgstr "Fertige Zäune? Woher bekommt man so etwas?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_3
 msgid "Hmm. Maybe my brother knows a place where to get fences."
 msgstr ""
+"Hmm. Vielleicht kennt mein Bruder einen Ort, wo man Zäune bekommen kann."
 
 #: conversationlist_bwmfill.json:tunlon_prog_3:0
 #: conversationlist_bwmfill.json:tunlon_prog_3:1
 msgid "Your brother?"
-msgstr ""
+msgstr "Dein Bruder?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_1
 msgid "Tinlyn, my brother. Poor guy, lost all of his sheep. He lives north of Crossroads guardhouse."
 msgstr ""
+"Tinlyn, mein Bruder. Der arme Kerl, hat alle seine Schafe verloren. Er wohnt "
+"nördlich des Wachhauses von Crossroads."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_1:0
 msgid "Well ... yeah I know him."
-msgstr ""
+msgstr "Brunnen... Ja, ich kenne ihn."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2
 msgid "Tinlyn, my brother. He lives north of Crossroads guardhouse."
-msgstr ""
+msgstr "Tinlyn, mein Bruder. Er wohnt nördlich des Wachhauses von Crossroads."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2:0
 msgid "Ah, I think I know him."
-msgstr ""
+msgstr "Ah, ich glaube, ich kenne ihn."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2:1
 msgid "I don't know this Tinlyn yet, but I will find him."
-msgstr ""
+msgstr "Ich kenne diesen Tinlyn noch nicht, aber ich werde ihn finden."
 
 #: conversationlist_bwmfill.json:tunlon_prog_5
 msgid "Please go and ask him, if he knows anyone who could help."
 msgstr ""
+"Bitte gehen Sie und fragen Sie ihn, ob er jemanden kennt, der ihm helfen "
+"könnte."
 
 #: conversationlist_bwmfill.json:tunlon_prog_5:0
 msgid "I'm on my way!"
-msgstr ""
+msgstr "Ich bin auf dem Weg!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_11
 msgid "So how is your journey going?"
-msgstr ""
+msgstr "Wie verläuft Ihre Reise?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:0
 #: conversationlist_bwmfill.json:tunlon_prog_11:1
 msgid "Tinlyn said there is a woodcutter in Loneford who can help."
-msgstr ""
+msgstr "Tinlyn sagte, es gebe einen Holzfäller in Loneford, der helfen könne."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:2
 msgid "I still have to ask Tinlyn."
-msgstr ""
+msgstr "Ich muss Tinlyn immer noch fragen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:3
 msgid "Here, I brought you fences."
-msgstr ""
+msgstr "Hierher habe ich euch Zäune mitgebracht."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:4
 msgid "I still have to look for the fences ..."
-msgstr ""
+msgstr "Ich muss noch nach den Zäunen suchen ..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_12
 msgid "Have you been there already?"
-msgstr ""
+msgstr "Waren Sie schon dort?"
 
 #: conversationlist_bwmfill.json:tunlon_noprog
 msgid "Keep on going!"
-msgstr ""
+msgstr "Machen Sie weiter!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_15
 msgid "Let me see!"
-msgstr ""
+msgstr "Mal sehen!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_16
 msgid "Hmm, no, these posts are too short. My sheep are probably able to jump over them."
 msgstr ""
+"Hmm, nein, diese Beiträge sind zu kurz. Meine Schafe sind wahrscheinlich in "
+"der Lage, über sie zu springen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17
 msgid "Could you go and ask him for other fences?"
-msgstr ""
+msgstr "Könntest du ihn nach anderen Zäunen fragen?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:0
 msgid "Sure! No problem."
-msgstr ""
+msgstr "Sicher! Kein Problem."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:1
 msgid "Maybe ..."
-msgstr ""
+msgstr "Vielleicht..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:2
 msgid "What? All the way over again just because you didn't tell me how high your fences had to be?"
 msgstr ""
+"Was? Den ganzen Weg immer wieder, nur weil du mir nicht gesagt hast, wie "
+"hoch deine Zäune sein müssen?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17a:0
 msgid "Do you actually know how far the path is?"
-msgstr ""
+msgstr "Weißt du eigentlich, wie weit der Weg ist?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17a:1
 msgid "I also have something else to do. After all, I'm on Andor's trail."
 msgstr ""
+"Ich habe auch noch etwas anderes zu tun. Schließlich bin ich Andor auf der "
+"Spur."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17b
 msgid "Please ..."
-msgstr ""
+msgstr "Bitte..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17b:0
 msgid "All right. I'll go again."
-msgstr ""
+msgstr "Alles klar. Ich werde wieder hingehen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_18
 msgid "Thank you. I knew I could trust you."
-msgstr ""
+msgstr "Vielen Dank. Ich wusste, dass ich dir vertrauen konnte."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21
 msgid "Ah, my litle friend."
-msgstr ""
+msgstr "Ah, mein kleiner Freund."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21:0
 msgid "Yes, I am back again."
-msgstr ""
+msgstr "Ja, ich bin wieder da."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21a
 msgid "Have you brought new fences?"
-msgstr ""
+msgstr "Haben Sie neue Zäune mitgebracht?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_21a:0
 msgid "Here, I hope these are better."
-msgstr ""
+msgstr "Hier hoffe ich, dass diese besser sind."
 
 #: conversationlist_bwmfill.json:tunlon_prog_22
 msgid "Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward."
 msgstr ""
+"Ja, diese Beiträge sehen wirklich gut aus! Danke, Junge. Nehmen Sie dies "
+"hier als kleine Belohnung."
 
 #: conversationlist_bwmfill.json:tunlon_prog_22:0
 msgid "No problem. See you!"
-msgstr ""
+msgstr "Kein Problem. Bis bald!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_22:1
 msgid "I love running around and helping. See you!"
-msgstr ""
+msgstr "Ich liebe es, herumzulaufen und zu helfen. Bis bald!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_22:2
 msgid "Hmm, the lamb meat looks good. What is that exactly?"
-msgstr ""
+msgstr "Hmm, das Lammfleisch sieht gut aus. Was ist das genau?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_22a
 msgid "This is lamb with a special seasoning mixture which of course I won't tell you. Here you have an additional one."
 msgstr ""
+"Das ist Lammfleisch mit einer speziellen Würzmischung, die ich euch "
+"natürlich nicht verraten werde. Hier haben Sie einen zusätzlichen."
 
 #: conversationlist_bwmfill.json:tunlon_prog_22a:0
 msgid "Thank you. Bye."
-msgstr ""
+msgstr "Vielen Dank. Auf Wiedersehen."
 
 #: conversationlist_bwmfill.json:fallhaven_lumberjack_17
 msgid "See, I have done a lot of tree cutting lately, and I need a break. Sorry, kid."
 msgstr ""
+"Sehen Sie, ich habe in letzter Zeit viel Bäume gefällt und brauche eine "
+"Pause. Tut mir leid, Junge."
 
 #: conversationlist_bwmfill.json:fallhaven_lumberjack_17:0
 msgid "Oh, alright. But where should I ask then?"
-msgstr ""
+msgstr "Oh, in Ordnung. Aber wo soll ich dann fragen?"
 
 #: conversationlist_bwmfill.json:fallhaven_lumberjack_18
 msgid "I have heard that a forest to the north was cleared out recently. Sure enough they got some wood laying around there."
 msgstr ""
+"Ich habe gehört, dass vor kurzem ein Wald im Norden gerodet wurde. Und "
+"tatsächlich, sie haben dort etwas Holz herumliegen."
 
 #: conversationlist_bwmfill.json:fallhaven_lumberjack_18:0
 msgid "Thank you very much, I will go there now."
-msgstr ""
+msgstr "Vielen Dank, ich werde jetzt dorthin gehen."
 
 #: conversationlist_bwmfill.json:hadracor_fence_1
 msgid "Oh we do have a lot of wood indeed. However, all of this is very brittle and can only be used as firewood."
 msgstr ""
+"Oh, wir haben in der Tat eine Menge Holz. Das alles ist jedoch sehr spröde "
+"und kann nur als Brennholz verwendet werden."
 
 #: conversationlist_bwmfill.json:hadracor_fence_1:0
 msgid "Then, willy-nilly, I will explain to Tunlon that I was unsuccessful. He may even want his 200 gold pieces back."
 msgstr ""
+"Dann werde ich Tunlon wohl oder übel erklären, dass ich keinen Erfolg hatte. "
+"Vielleicht will er sogar seine 200 Goldstücke zurückhaben."
 
 #: conversationlist_bwmfill.json:hadracor_fence_1c
 msgid "I like to sit here and look at the mountains and what's moving there. It's very relaxing after our hard work."
 msgstr ""
+"Ich sitze gerne hier und schaue mir die Berge an und was sich dort bewegt. "
+"Es ist sehr entspannend nach unserer harten Arbeit."
 
 #: conversationlist_bwmfill.json:hadracor_fence_1c:0
 msgid "Yes, the mountains are very beautiful - from a distance."
-msgstr ""
+msgstr "Ja, die Berge sind sehr schön - aus der Ferne."
 
 #: conversationlist_bwmfill.json:hadracor_fence_2
 msgid "I saw you a few times in the forest over there coming from the mountains. Do you go there often?"
 msgstr ""
+"Ich habe dich ein paar Mal im Wald dort drüben gesehen, von den Bergen "
+"kommend. Gehen Sie oft dorthin?"
 
 #: conversationlist_bwmfill.json:hadracor_fence_2:0
 msgid "Well, I try to avoid it. The route past Stoutford and Prim is long and arduous."
 msgstr ""
+"Nun, ich versuche, es zu vermeiden. Der Weg vorbei an Stoutford und Prim ist "
+"lang und beschwerlich."
 
 #: conversationlist_bwmfill.json:hadracor_fence_3
 msgid "I like to believe that. Look, I told my men to cut down some trees for you. You can now take a shortcut."
 msgstr ""
+"Das glaube ich gerne. Seht, ich habe meinen Leuten befohlen, ein paar Bäume "
+"für euch zu fällen. Sie können jetzt eine Verknüpfung nehmen."
 
 #: conversationlist_bwmfill.json:hadracor_fence_3:0
 msgid "Really? Thanks alot!"
-msgstr ""
+msgstr "Wirklich? Vielen Dank!"
 
 #: conversationlist_bwmfill.json:hadracor_fence_4
 msgid "The passage is over there, a bit to the east from here."
-msgstr ""
+msgstr "Der Gang ist dort drüben, ein Stück östlich von hier."
 
 #: conversationlist_bwmfill.json:hadracor_fence_5
 msgid "We were happy to do this for you. Now calm down."
-msgstr ""
+msgstr "Das haben wir gerne für Sie getan. Jetzt beruhige dich."
 
 #: conversationlist_bwmfill.json:hadracor_fence_6
 msgid "And stop kissing my feet."
-msgstr ""
+msgstr "Und hör auf, meine Füße zu küssen."
 
 #: conversationlist_bwmfill.json:tinlyn_fence_1
 msgid "Tunlon? So he's still alive after all. I haven't heard from him in years."
 msgstr ""
+"Tunlon? Er ist also doch noch am Leben. Ich habe seit Jahren nichts mehr von "
+"ihm gehört."
 
 #: conversationlist_bwmfill.json:tinlyn_fence_1:0
 msgid "Yes. And he made me ask you if you knew where you could get fences from."
 msgstr ""
+"Ja. Und er ließ mich dich fragen, ob du wüsstest, woher du Zäune bekommen "
+"kannst."
 
 #: conversationlist_bwmfill.json:tinlyn_fence_1a
 msgid "There is a woodcutter in Loneford. He should be able to help you out. Have a great day!"
 msgstr ""
+"In Loneford gibt es einen Holzfäller. Er sollte in der Lage sein, dir zu "
+"helfen. Hab einen schönen Tag!"
 
 #: conversationlist_bwmfill.json:tinlyn_fence_2
 msgid "[grumbles] Maybe I do. Go over to Loneford and leave me alone."
 msgstr ""
+"[grummelt] Vielleicht tue ich das. Geh hinüber nach Loneford und laß mich in "
+"Ruhe."
 
 #: conversationlist_bwmfill.json:tinlyn_fence_2a
 msgid "[grumbles] So Tunlon is still alive after all. I haven't heard from him in years. This Marauder. [grumbles]"
 msgstr ""
+"[grummelt] Tunlon ist also doch noch am Leben. Ich habe seit Jahren nichts "
+"mehr von ihm gehört. Dieser Marodeure. [grummelt]"
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence
 msgid "Oh actually I do right here. You can have them for 100 gold pieces."
 msgstr ""
+"Oh, eigentlich tue ich das genau hier. Du kannst sie für 100 Goldstücke "
+"haben."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence:0
 msgid "Great, I'll take them."
-msgstr ""
+msgstr "Toll, ich nehme sie."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence:1
 msgid "100 gold is too much."
-msgstr ""
+msgstr "100 Gold sind zu viel."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence1:0
 msgid "Thank you! [and I won't tell you that Tunlon gave me 200 gold]"
 msgstr ""
+"Vielen Dank! [und ich werde dir nicht sagen, dass Tunlon mir 200 Gold "
+"gegeben hat]"
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence1a
 msgid "Take it or leave it. 100 gold pieces."
-msgstr ""
+msgstr "Nehmen Sie es oder lassen Sie es bleiben. 100 Goldstücke."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence1a:0
 msgid "OK. I'll take them."
-msgstr ""
+msgstr "OKAY. Ich werde sie nehmen."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence2
 msgid "No, I don't."
-msgstr ""
+msgstr "Dem stimme ich nicht zu."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence2:0
 msgid "So ... could you make any?"
-msgstr ""
+msgstr "Also... Könntest du welche machen?"
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence3
 msgid "Kid, look. I am a woodcutter, not a craftsman. Go east to Brimhaven if you want other fences."
 msgstr ""
+"Junge, schau mal. Ich bin Holzfäller, kein Handwerker. Gehen Sie nach Osten "
+"nach Brimhaven, wenn Sie andere Zäune wollen."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence3:0
 msgid "Thank you. I will go there now."
-msgstr ""
+msgstr "Vielen Dank. Ich werde jetzt dorthin gehen."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence1
 msgid "[laughing] Haha! Yes, that's my job."
-msgstr ""
+msgstr "[lacht] Haha! Ja, das ist mein Job."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a
 msgid "But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood."
 msgstr ""
+"Aber ich fürchte, ich habe im Moment nicht genug Holz. Bitte gehen Sie "
+"zurück zu Lonefords Holzfäller. Wir haben einen Deal, dass er mir Holz "
+"liefert."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a:0
 msgid "Fine, I'm on my way."
-msgstr ""
+msgstr "Gut, ich bin auf dem Weg."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence4
 msgid "[pointing to a pile of wood] There."
-msgstr ""
+msgstr "[zeigt auf einen Holzstapel] Dort."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence4:0
 msgid "Thank you ... I guess."
-msgstr ""
+msgstr "Vielen Dank... Ich vermute."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence2
 msgid "Perfect! Thank you for helping out, kid. Just wait a few minutes."
 msgstr ""
+"Perfekt! Danke, dass du mir geholfen hast, Junge. Warten Sie einfach ein "
+"paar Minuten."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence3
 msgid "This is some good looking wood I must say. Very easy to process."
 msgstr ""
+"Das ist ein gut aussehendes Holz, muss ich sagen. Sehr einfach zu "
+"verarbeiten."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence4
 msgid "These posts will be standing for a long time. I guarantee you that."
 msgstr ""
+"Diese Pfosten werden noch lange Bestand haben. Das garantiere ich Ihnen."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence4:0
 msgid "Are you done soon?"
-msgstr ""
+msgstr "Sind Sie bald fertig?"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence4b
 msgid "[Sawing]"
-msgstr ""
+msgstr "[Sägen]"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence4c
 msgid "[Hammering]"
-msgstr ""
+msgstr "[Hämmern]"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence4d
 msgid "[Swearing]"
-msgstr ""
+msgstr "[Fluchen]"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence5
 msgid "Finished. That's 200 gold pieces. What do you say?"
-msgstr ""
+msgstr "Fertig. Das sind 200 Goldstücke. Was sagst du?"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence5:0
 msgid "200 ... gold pieces - well, OK."
-msgstr ""
+msgstr "200 ... Goldstücke - naja, OK."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence5:1
 msgid "That is too much!"
-msgstr ""
+msgstr "Das ist zu viel!"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence6
 msgid "Thank you. Bye!"
-msgstr ""
+msgstr "Vielen Dank. Auf Wiedersehen!"
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence7
 msgid "No gold - no fences."
-msgstr ""
+msgstr "Kein Gold - keine Zäune."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence7:0
 msgid "Well ... OK."
-msgstr ""
+msgstr "Gut... OK."
 
 #: conversationlist_laeroth.json:bridge_key
 msgid "The bridge is no longer passable."
-msgstr ""
+msgstr "Die Brücke ist nicht mehr befahrbar."
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1
 msgid "You found a corpse with a loot bag."
-msgstr ""
+msgstr "Du hast eine Leiche mit einem Beutesack gefunden."
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1:0
 msgid "[Plunder the loot]"
-msgstr ""
+msgstr "[Plündert die Beute]"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1:1
 msgid "[Leave the loot alone]"
-msgstr ""
+msgstr "[Lass die Beute in Ruhe]"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_2
 msgid "You have 'acquired' some gold and other valuable gems!"
-msgstr ""
+msgstr "Du hast etwas Gold und andere wertvolle Edelsteine \"erworben\"!"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_3
 msgid "You've been here before and have already plundered the man's valuables."
 msgstr ""
+"Du warst schon einmal hier und hast bereits die Wertsachen des Mannes "
+"geplündert."
 
 #: conversationlist_laeroth.json:gylew2
 msgid "Great! Let me see."
-msgstr ""
+msgstr "Großartig! Mal sehen."
 
 #: conversationlist_laeroth.json:gylew3
 msgid "I am a rare coin collector. Have you ever noticed how some of your gold is more unique or older looking than others?"
 msgstr ""
+"Ich bin ein Sammler seltener Münzen. Ist Ihnen jemals aufgefallen, dass "
+"einige Ihrer Goldstücke einzigartiger oder älter aussehen als andere?"
 
 #: conversationlist_laeroth.json:gylew3:0
 msgid "Yes, I have."
-msgstr ""
+msgstr "Ja, das habe ich."
 
 #: conversationlist_laeroth.json:gylew3:1
 msgid "[Lie] Yes, yes I have."
-msgstr ""
+msgstr "[Lüge] Ja, ja, das habe ich."
 
 #: conversationlist_laeroth.json:gylew3:2
 msgid "Honestly, I just use it to buy bonemeal."
-msgstr ""
+msgstr "Ehrlich gesagt, benutze ich es nur, um Knochenmehl zu kaufen."
 
 #: conversationlist_laeroth.json:gylew3:3
 msgid "No and I don't care."
-msgstr ""
+msgstr "Nein und es ist mir egal."
 
 #: conversationlist_laeroth.json:gylew4
 msgid "Great. Please let me see...agh, interesting."
-msgstr ""
+msgstr "Großartig. Bitte lass mich sehen... Agh, interessant."
 
 #: conversationlist_laeroth.json:gylew4:0
 msgid "What? What do you see?"
-msgstr ""
+msgstr "Was? Was siehst du?"
 
 #: conversationlist_laeroth.json:gylew5
 msgid "This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves."
 msgstr ""
+"Dieser hier wurde während des Aufstiegs von Elythara geschnitten und ist "
+"ziemlich selten und wertvoll. Aber diese andere hier ist eine "
+"gebräuchlichere Münze, da sie während der Herrschaft von Geomyr geprägt "
+"wurde. Während dieses hier aus einem weit entfernten Land stammt und Teil "
+"einer größeren Sammlung ist, die vor langer Zeit von früheren Piraten und "
+"Dieben zerschlagen wurde."
 
 #: conversationlist_laeroth.json:gylew5:0
 msgid "Oh, I see."
-msgstr ""
+msgstr "Oh ich verstehe."
 
 #: conversationlist_laeroth.json:gylew5:1
 msgid "[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?"
 msgstr ""
+"[Während du auf ein paar der Münzen in Gylews Hand zeigst, fragst du:] Was "
+"ist mit denen?"
 
 #: conversationlist_laeroth.json:gylew5:2
 msgid "Yes, I know this already."
-msgstr ""
+msgstr "Ja, das weiß ich bereits."
 
 #: conversationlist_laeroth.json:gylew5:3
 msgid "I am so not interested."
-msgstr ""
+msgstr "Ich bin so nicht interessiert."
 
 #: conversationlist_laeroth.json:gylew6
 msgid "Where did you get these coins?! [Gylew shows you a set of identical coins]"
 msgstr ""
+"Wo hast du diese Münzen her?! [Gylew zeigt dir einen Satz identischer Münzen]"
 
 #: conversationlist_laeroth.json:gylew6:0
 msgid "None of your business. Now get to the point."
-msgstr ""
+msgstr "Geht Sie nichts an. Kommen wir nun zum Punkt."
 
 #: conversationlist_laeroth.json:gylew6:1
 msgid "It was a gift from a friend. Can we get right to what you want?"
 msgstr ""
+"Es war ein Geschenk von einem Freund. Können wir gleich zu dem kommen, was "
+"Sie wollen?"
 
 #: conversationlist_laeroth.json:gylew6:2
 msgid "With all of my coins, do you actually think I can remember?"
 msgstr ""
+"Glaubst du eigentlich, dass ich mich bei all meinen Münzen erinnern kann?"
 
 #: conversationlist_laeroth.json:gylew6:3
 msgid "It was a reward for helping a mermaid."
-msgstr ""
+msgstr "Es war eine Belohnung dafür, dass du einer Meerjungfrau geholfen hast."
 
 #: conversationlist_laeroth.json:gylew7
 msgid "OK, I will get back to my ask of you now."
-msgstr ""
+msgstr "OK, ich komme jetzt zurück zu meiner Bitte an Sie."
 
 #: conversationlist_laeroth.json:gylew7:0
 msgid "Um, is this going to take long? I have to find my brother."
-msgstr ""
+msgstr "Ähm, wird das lange dauern? Ich muss meinen Bruder finden."
 
 #: conversationlist_laeroth.json:gylew7:1
 msgid "Interesting, it really is, but I'm leaving."
-msgstr ""
+msgstr "Interessant, das ist es wirklich, aber ich gehe."
 
 #: conversationlist_laeroth.json:gylew7:2
 msgid "Interesting. Please enlighten me some more."
-msgstr ""
+msgstr "Interessant. Bitte klären Sie mich etwas mehr auf."
 
 #: conversationlist_laeroth.json:gylew7a
 msgid "What?! Seriously?"
-msgstr ""
+msgstr "Was?! Ernst?"
 
 #: conversationlist_laeroth.json:gylew7a_1
 msgid "I must have one."
-msgstr ""
+msgstr "Ich muss einen haben."
 
 #: conversationlist_laeroth.json:gylew7a_1:0
 #: conversationlist_laeroth.json:gylew8a_2:0
 msgid "OK. What do you have of value?"
-msgstr ""
+msgstr "OKAY. Was haben Sie an Wert?"
 
 #: conversationlist_laeroth.json:gylew7a_1:1
 #: conversationlist_laeroth.json:gylew8a_2:1
 msgid "Here, take it."
-msgstr ""
+msgstr "Hier, nimm es."
 
 #: conversationlist_laeroth.json:gylew7a_1:2
 msgid "Nope, they are mine."
-msgstr ""
+msgstr "Nein, sie sind meine."
 
 #: conversationlist_laeroth.json:gylew7a_2
 msgid "Here is 500 gold."
-msgstr ""
+msgstr "Hier sind 500 Gold."
 
 #: conversationlist_laeroth.json:gylew7a_2:0
 #: conversationlist_laeroth.json:gylew7a_2:1
 msgid "Now that's funny. A coin collector traded me his gold coins for my coins."
 msgstr ""
+"Das ist lustig. Ein Münzsammler hat mir seine Goldmünzen gegen meine Münzen "
+"eingetauscht."
 
 #: conversationlist_laeroth.json:gylew7a_3
 msgid "That was foolish of you. This is very valuable and you just gave it to me."
 msgstr ""
+"Das war töricht von Ihnen. Das ist sehr wertvoll und du hast es mir gerade "
+"gegeben."
 
 #: conversationlist_laeroth.json:gylew7a_3:1
 msgid "Well, I just gave it to you because I was hoping for something special in return."
 msgstr ""
+"Nun, ich habe es dir nur gegeben, weil ich mir im Gegenzug etwas Besonderes "
+"erhofft habe."
 
 #: conversationlist_laeroth.json:gylew8
 msgid "Where did you get these coins?! [Gylew shows you a collection of identical coins]"
 msgstr ""
+"Wo hast du diese Münzen her?! [Gylew zeigt dir eine Sammlung identischer "
+"Münzen]"
 
 #: conversationlist_laeroth.json:gylew8:0
 msgid "I took them off of a dead guy."
-msgstr ""
+msgstr "Ich habe sie von einem toten Kerl genommen."
 
 #: conversationlist_laeroth.json:gylew8:1
 msgid "I got them from a friend"
-msgstr ""
+msgstr "Ich habe sie von einem Freund bekommen"
 
 #: conversationlist_laeroth.json:gylew8:2
 msgid "That's none of your business."
-msgstr ""
+msgstr "Das ist nicht deine Sache."
 
 #: conversationlist_laeroth.json:gylew8:3
 msgid "I don't know. After all, I have looted many a gold coin in my travels."
 msgstr ""
+"Ich weiß es nicht. Schließlich habe ich auf meinen Reisen schon so manche "
+"Goldmünze geplündert."
 
 #: conversationlist_laeroth.json:gylew9
 msgid "You see, I was raised in Feygard by my father who was commissioned to create gold coins. All he ever talked about was coins and we shared this common love."
 msgstr ""
+"Ich bin in Feygard von meinem Vater aufgewachsen, der den Auftrag hatte, "
+"Goldmünzen herzustellen. Alles, worüber er jemals sprach, waren Münzen und "
+"wir teilten diese gemeinsame Liebe."
 
 #: conversationlist_laeroth.json:gylew10
 msgid "He once told me this story when I was very young about this magnificent coin collection called the 'Korhald coins'. So from a very young age I was fascinated."
 msgstr ""
+"Er erzählte mir einmal diese Geschichte, als ich noch sehr jung war, von "
+"dieser großartigen Münzsammlung, die \"Korhald-Münzen\" genannt wurde. So "
+"war ich schon in jungen Jahren fasziniert."
 
 #: conversationlist_laeroth.json:gylew10:0
 msgid "You mentioned 'Korhald coins'. Who or what is 'Korhald'?"
-msgstr ""
+msgstr "Sie haben \"Korhald-Münzen\" erwähnt. Wer oder was ist \"Korhald\"?"
 
 #: conversationlist_laeroth.json:gylew10_1
 msgid "You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story..."
 msgstr ""
+"Du hast noch nie von Korhald gehört? Er war der Gründer von Remgard. Wie "
+"auch immer, zurück zu meiner Geschichte..."
 
 #: conversationlist_laeroth.json:gylew10_2
 msgid "My father never mentioned the exact location to me, but from my efforts, I've ascertained a location near Remgard."
 msgstr ""
+"Mein Vater hat mir gegenüber nie den genauen Ort erwähnt, aber durch meine "
+"Bemühungen habe ich einen Ort in der Nähe von Remgard ermittelt."
 
 #: conversationlist_laeroth.json:gylew10_2:0
 msgid "Remgard? Where's that?"
-msgstr ""
+msgstr "Remgard? Wo ist das?"
 
 #: conversationlist_laeroth.json:gylew10_2:1
 msgid "Great, I see where this is going. I need to go back to Remgard."
-msgstr ""
+msgstr "Toll, ich sehe, wohin das führt. Ich muss zurück nach Remgard."
 
 #: conversationlist_laeroth.json:gylew10_2_1
 msgid "It is far east of here near a place called Laeroth Manor."
 msgstr ""
+"Es liegt weit östlich von hier in der Nähe eines Ortes namens Laeroth Manor."
 
 #: conversationlist_laeroth.json:gylew12
 msgid "We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?"
 msgstr ""
+"Wir haben es nicht geschafft, es zu bergen, da die Monster zu stark sind. "
+"Hier kommst du ins Spiel. Was sagst du? Helfen Sie mir?"
 
 #: conversationlist_laeroth.json:gylew12:0
 msgid "Yes, of course, you need my help."
-msgstr ""
+msgstr "Ja, natürlich, du brauchst meine Hilfe."
 
 #: conversationlist_laeroth.json:gylew12:1
 msgid "Pathetic creatures you two are. Needing the help of a child. I will do it."
 msgstr ""
+"Erbärmliche Geschöpfe seid ihr beide. Er braucht die Hilfe eines Kindes. Ich "
+"werde es tun."
 
 #: conversationlist_laeroth.json:gylew12:2
 msgid "Depends. What is the reward?"
-msgstr ""
+msgstr "Hängt. Was ist die Belohnung?"
 
 #: conversationlist_laeroth.json:gylew11
 msgid "Yes, a place called Laeroth Manor."
-msgstr ""
+msgstr "Ja, ein Ort namens Laeroth Manor."
 
 #: conversationlist_laeroth.json:gylew13
 msgid "Then please head to the east and return to me when you find the Korhald coins."
 msgstr ""
+"Dann begebt euch bitte nach Osten und kehrt zu mir zurück, wenn Ihr die "
+"Korhald-Münzen gefunden habt."
 
 #: conversationlist_laeroth.json:gylew14
 msgid "We will discuss this after you have completed the job. But remember, I am from Feygard and can reward you handsomly."
 msgstr ""
+"Wir besprechen dies, nachdem Sie den Auftrag abgeschlossen haben. Aber denkt "
+"daran, ich bin aus Feygard und kann Euch gut belohnen."
 
 #: conversationlist_laeroth.json:gylew14:1
 msgid "OK, but I have high expectations. Please be prepared to pay up."
-msgstr ""
+msgstr "OK, aber ich habe hohe Erwartungen. Bitte seien Sie bereit zu zahlen."
 
 #: conversationlist_laeroth.json:gylew_old_man_10a
 msgid "Show me your gold."
-msgstr ""
+msgstr "Zeig mir dein Gold."
 
 #: conversationlist_laeroth.json:gylew_old_man_10a:0
 msgid "No way. I'm out of here."
-msgstr ""
+msgstr "Auf keinen Fall. Ich bin hier raus."
 
 #: conversationlist_laeroth.json:gylew_old_man_10a:1
 msgid "Um...sure, I guess"
-msgstr ""
+msgstr "Ähm... Sicher, denke ich"
 
 #: conversationlist_laeroth.json:gylew8a_1
 msgid "What?! You went digging through his corpse?"
-msgstr ""
+msgstr "Was?! Du hast dich durch seine Leiche gewühlt?"
 
 #: conversationlist_laeroth.json:gylew8a_1:0
 msgid "Don't judge me. I was desperate at the time."
-msgstr ""
+msgstr "Verurteile mich nicht. Ich war damals verzweifelt."
 
 #: conversationlist_laeroth.json:gylew8a_2
 msgid "I must have them. All 10 of them!"
-msgstr ""
+msgstr "Ich muss sie haben. Alle 10!"
 
 #: conversationlist_laeroth.json:gylew8a_2:2
 msgid "Nope. You can not have them."
-msgstr ""
+msgstr "Nein. Du kannst sie nicht haben."
 
 #: conversationlist_laeroth.json:gylew8a_3
 msgid "Here is 550 gold"
-msgstr ""
+msgstr "Hier sind 550 Goldmünzen"
 
 #: conversationlist_laeroth.json:gylew8a_3:0
 msgid "Wow! I get 550 gold for the 10 I gave you?"
 msgstr ""
+"Beeindruckend! Ich bekomme 550 Gold für die 10, die ich dir gegeben habe?"
 
 #: conversationlist_laeroth.json:gylew8a_4
 msgid "Much appreciated. Thank you."
-msgstr ""
+msgstr "Sehr geschätzt. Vielen Dank."
 
 #: conversationlist_laeroth.json:gylew_old_man_10b
 msgid "What are you waiting for? Go find those Korhald coins!"
-msgstr ""
+msgstr "Worauf wartest du? Holt euch die Korhald-Münzen!"
 
 #: conversationlist_laeroth.json:laerothbasement2_korhald_sign_30
 msgid "As you approach the crates, you notice an almost illegible sign hanging on the wall. Upon further examination, you can make out the word 'Korhald'."
 msgstr ""
+"Als man sich den Kisten nähert, bemerkt man ein fast unleserliches Schild, "
+"das an der Wand hängt. Bei näherer Betrachtung kann man das Wort \"Korhald\" "
+"erkennen."
 
 #: conversationlist_laeroth.json:laerothbasement2_chest_examine_40
 msgid "As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Yet something compels you to look further."
 msgstr ""
+"Wenn man sich diesen Kisten nähert, entwickelt man schnell eine "
+"Wertschätzung für ihr Alter. Du bemerkst auch die Unmengen an fiesen "
+"Spinnweben, die sie umgeben. Doch irgendetwas zwingt dich, weiter zu schauen."
 
 #: conversationlist_laeroth.json:laerothbasement2_chest_examine_40:0
 msgid "I better not. There could be danger lurking inside."
-msgstr ""
+msgstr "Ich sollte es besser nicht tun. Im Inneren könnte Gefahr lauern."
 
 #: conversationlist_laeroth.json:laerothbasement2_chest_examine_40:1
 msgid "[Examine the crate.]"
-msgstr ""
+msgstr "[Untersuche die Kiste.]"
 
 #: conversationlist_laeroth.json:laerothbasement2_chest_examine_2
 msgid "The cobwebs must have been holding this extremely old container together."
 msgstr ""
+"Die Spinnweben müssen diesen extrem alten Behälter zusammengehalten haben."
 
 #: conversationlist_laeroth.json:laerothbasement2_chest_examine_50
 msgid "You pull out a small, richly covered box."
-msgstr ""
+msgstr "Du ziehst eine kleine, reich gedeckte Schachtel heraus."
 
 #: conversationlist_laeroth.json:laerothbasement1_chest_examine
 msgid "Examine the chest?"
-msgstr ""
+msgstr "Die Truhe untersuchen?"
 
 #: conversationlist_laeroth.json:laerothbasement1_chest_examine:0
 msgid "Go for it! This could be the 'Korhald coins'."
-msgstr ""
+msgstr "Nur zu! Dabei könnte es sich um die \"Korhald-Münzen\" handeln."
 
 #: conversationlist_laeroth.json:laerothbasement1_chest_examine:1
 msgid "No! This may be a trap."
-msgstr ""
+msgstr "Nein! Dies könnte eine Falle sein."
 
 #: conversationlist_laeroth.json:laerothbasement1_chest_examine_locked:0
 msgid "I should look somewhere else."
-msgstr ""
+msgstr "Ich sollte mich woanders umsehen."
 
 #: conversationlist_laeroth.json:forenza_island_initial_phrase
 msgid "What do you think you are doing here?"
-msgstr ""
+msgstr "Was glaubst du, was du hier tust?"
 
 #: conversationlist_laeroth.json:forenza_island_initial_phrase:0
 msgid "Returning to Gylew what is rightfully his."
-msgstr ""
+msgstr "Gylew zurückgeben, was ihm rechtmäßig gehört."
 
 #: conversationlist_laeroth.json:forenza_island_initial_phrase:1
 msgid "I am working a job for a man name Gylew."
-msgstr ""
+msgstr "Ich arbeite für einen Mann namens Gylew."
 
 #: conversationlist_laeroth.json:forenza_island_initial_phrase:2
 msgid "Um...I am returning something to a man name Gylew."
-msgstr ""
+msgstr "Ähm... Ich gebe etwas an einen Mann namens Gylew zurück."
 
 #: conversationlist_laeroth.json:forenza_island_10
 msgid "I don't think you want to do that."
-msgstr ""
+msgstr "Ich glaube nicht, dass du das tun willst."
 
 #: conversationlist_laeroth.json:forenza_island_10:0
 msgid "And why is that?"
-msgstr ""
+msgstr "Und warum ist das so?"
 
 #: conversationlist_laeroth.json:forenza_island_20
 msgid "Well, for starters, that chest that you are carrying belongs to me."
-msgstr ""
+msgstr "Nun, für den Anfang gehört die Truhe, die du trägst, mir."
 
 #: conversationlist_laeroth.json:forenza_island_20:0
 msgid "How do you figure?"
-msgstr ""
+msgstr "Wie kommst du darauf?"
 
 #: conversationlist_laeroth.json:forenza_island_30
 msgid "Because I said it does! Now give me that chest before you get hurt."
 msgstr ""
+"Weil ich gesagt habe, dass es so ist! Jetzt gib mir diese Truhe, bevor du "
+"verletzt wirst."
 
 #: conversationlist_laeroth.json:forenza_island_30:0
 msgid "Don't make me laugh. You hurt me? Do you know who I am? Explain yourself now."
 msgstr ""
+"Bring mich nicht zum Lachen. Du hast mir wehgetan? Weißt du, wer ich bin? "
+"Erklären Sie sich jetzt."
 
 #: conversationlist_laeroth.json:forenza_island_30:1
 msgid "Explain yourself now or Gylew gets his treasure."
-msgstr ""
+msgstr "Erkläre dich jetzt oder Gylew bekommt seinen Schatz."
 
 #: conversationlist_laeroth.json:forenza_island_40
 msgid "The story starts many many years ago."
-msgstr ""
+msgstr "Die Geschichte beginnt vor vielen, vielen Jahren."
 
 #: conversationlist_laeroth.json:forenza_island_40:0
 msgid "[You rudely interrupt] Oh great, please spare me the grandpa story."
 msgstr ""
+"[Du unterbrichst unhöflich] Oh toll, bitte erspare mir die Opa-Geschichte."
 
 #: conversationlist_laeroth.json:forenza_island_50
 msgid "Anyways...it was back when we were kids. You see, Gylew and I are half-brothers."
 msgstr ""
+"jedenfalls... Das war damals, als wir noch Kinder waren. Siehst du, Gylew "
+"und ich sind Halbbrüder."
 
 #: conversationlist_laeroth.json:forenza_island_60
 msgid "We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife."
 msgstr ""
+"Wir haben den gleichen Vater. Nachdem Gylews Mutter an der Großen Pest "
+"gestorben war, reiste der Vater auf der Suche nach einer neuen Frau nach "
+"Brightport."
 
 #: conversationlist_laeroth.json:forenza_island_70
 msgid "To \"spare you of the grandpa story\" as you called it, I will skip details."
 msgstr ""
+"Um dir \"die Opa-Geschichte zu ersparen\", wie du es genannt hast, "
+"überspringe ich Details."
 
 #: conversationlist_laeroth.json:forenza_island_70:0
 msgid "Thank you very much."
-msgstr ""
+msgstr "Vielen Dank."
 
 #: conversationlist_laeroth.json:forenza_island_80
 msgid "Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great."
 msgstr ""
+"Schließlich heirateten sie und ich wurde bald geboren. Gylew und ich waren "
+"im gleichen Alter und verstanden uns oft super."
 
 #: conversationlist_laeroth.json:forenza_island_90
 msgid "But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time."
 msgstr ""
+"Aber Vater war immer für Gylew. Sie unternahmen oft lange Reisen auf der "
+"Suche nach exotischen und einzigartigen Münzen. Ich wurde die meiste Zeit "
+"von diesen Abenteuern ausgeschlossen."
 
 #: conversationlist_laeroth.json:forenza_island_100
 msgid "I was only allowed to go after mother instisted to father that I go too."
 msgstr ""
+"Ich durfte nur gehen, nachdem Mutter Vater darauf bestanden hatte, dass ich "
+"auch mitgehe."
 
 #: conversationlist_laeroth.json:forenza_island_100:0
 #: conversationlist_laeroth.json:forenza_island_130:0
 msgid "What happened to skipping the details?"
-msgstr ""
+msgstr "Was ist mit dem Überspringen der Details passiert?"
 
 #: conversationlist_laeroth.json:forenza_island_110
 msgid "OK...Gylew and father discovered this story of looted gold coins that were rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it."
 msgstr ""
+"OKAY... Gylew und sein Vater entdeckten diese Geschichte von geplünderten "
+"Goldmünzen, die Gerüchten zufolge hier im Laeroth-Anwesen versteckt waren. "
+"Aber keiner von beiden war stark genug, um es zu wagen, es zurückzuholen."
 
 #: conversationlist_laeroth.json:forenza_island_120
 msgid "For many years afterwards, this is all the family ever talked about. During this time, my father and I grew apart and eventually, my mother and I left him and returned to her hometown of Brightport."
 msgstr ""
+"Viele Jahre danach war das alles, worüber die Familie jemals gesprochen hat. "
+"Während dieser Zeit trennten sich mein Vater und ich und schließlich "
+"verließen meine Mutter und ich ihn und kehrten in ihre Heimatstadt "
+"Brightport zurück."
 
 #: conversationlist_laeroth.json:forenza_island_130
 msgid "I was able to make it back to him shortly before his death in an attempt to repair our broken relationship."
 msgstr ""
+"Ich konnte es kurz vor seinem Tod zu ihm zurückbringen, um unsere "
+"zerbrochene Beziehung zu reparieren."
 
 #: conversationlist_laeroth.json:forenza_island_130:1
 msgid "Please, continue."
-msgstr ""
+msgstr "Bitte, fahren Sie fort."
 
 #: conversationlist_laeroth.json:forenza_island_140
 msgid "Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew."
 msgstr ""
+"Aus Wut auf ihn gelang es mir, diesen Schlüssel [Forenza zeigt euch, was Ihr "
+"für den Schlüssel zur Truhe vermutet] aus seinem Anwesen zu stehlen, bevor "
+"er Gylew übergeben wurde."
 
 #: conversationlist_laeroth.json:forenza_island_150
 msgid "A few years later I learned what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key."
 msgstr ""
+"Ein paar Jahre später erfuhr ich, was dieser Schlüssel öffnete, und deshalb "
+"bin ich hier. Zu meiner Enttäuschung merkte ich schnell, dass mir der zweite "
+"Schlüssel fehlte."
 
 #: conversationlist_laeroth.json:forenza_island_150:0
 msgid "Where do you think the other key is?"
-msgstr ""
+msgstr "Wo liegt Ihrer Meinung nach der andere Schlüssel?"
 
 #: conversationlist_laeroth.json:forenza_island_150:1
 msgid "[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the other key is."
 msgstr ""
+"[Sarkasmus] Ich mag die 'Geschichten mit Opa Stunde'. Aber im Ernst, "
+"überspringen Sie die Details und sagen Sie mir, wo der andere Schlüssel ist."
 
 #: conversationlist_laeroth.json:forenza_island_160
 msgid "Isn't it obvious? Gylew must have it."
-msgstr ""
+msgstr "Ist das nicht offensichtlich? Gylew muss es haben."
 
 #: conversationlist_laeroth.json:forenza_island_160:0
 msgid "You have been wronged by your family and deserve this treasure. I can get Gylew's key for you."
 msgstr ""
+"Du hast von deiner Familie Unrecht getan bekommen und verdienst diesen "
+"Schatz. Ich kann Gylews Schlüssel für Euch besorgen."
 
 #: conversationlist_laeroth.json:forenza_island_160:1
 msgid "Gylew is the rightful owner of his father's estate and that key belongs to the estate."
 msgstr ""
+"Gylew ist der rechtmäßige Besitzer des Nachlasses seines Vaters, und dieser "
+"Schlüssel gehört dem Nachlass."
 
 #: conversationlist_laeroth.json:forenza_island_170
 msgid "You will do this for me?"
-msgstr ""
+msgstr "Wirst du das für mich tun?"
 
 #: conversationlist_laeroth.json:forenza_island_170:1
 msgid "On second thought..."
-msgstr ""
+msgstr "Er ist ein zweiter Straffer ..."
 
 #: conversationlist_laeroth.json:forenza_island_170_attack
 msgid "What are you going to do about it?"
-msgstr ""
+msgstr "Was wirst du machen?"
 
 #: conversationlist_laeroth.json:forenza_island_170_attack:0
 msgid "Kill you and take that key!"
-msgstr ""
+msgstr "Töte und nimm Tat Kay!"
 
 #: conversationlist_laeroth.json:forenza_island_180
 msgid "Great. Go to Gylew and get his key. Then bring it and the chest to me. I will meet you outside of Brimhaven."
 msgstr ""
+"Großartig. Geht zu Gylew und holt seinen Schlüssel. Dann bring sie und die "
+"Truhe zu mir. Ich treffe dich außerhalb von Brimhaven."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase
 msgid "Hey, kid, nice to see you again."
-msgstr ""
+msgstr "Hey, Kind, schön, dich wieder zu sehen."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:0
 msgid "It's nice to see you too.  Can we talk about the Korhald coins?"
 msgstr ""
+"Es ist auch schön, Sie zu sehen. Können wir über die Korhald-Münzen sprechen?"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:3
 msgid "I tried to get Gylew's key, but..."
-msgstr ""
+msgstr "Ich habe versucht, Gylews Schlüssel zu bekommen, aber..."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:4
 msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
 msgstr ""
+"Ich bin seit unserer letzten Begegnung nicht mehr zu Gylew zurückgekehrt. "
+"Warum verschwende ich Zeit damit, mit Ihnen zu sprechen, wenn die Arbeit "
+"noch nicht erledigt ist?"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
 msgid "Hey. I need to go now and follow this map."
-msgstr ""
+msgstr "Hallöchen. Ich muss jetzt losgehen und dieser Karte folgen."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:7
 msgid "I hope that having these coins will enable you to make peace with your father. Take care."
 msgstr ""
+"Ich hoffe, dass Sie mit diesen Münzen Frieden mit Ihrem Vater schließen "
+"können. Pass auf dich auf."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_10
 msgid "With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest."
 msgstr ""
+"Mit einem immer größer werdenden Lächeln auf seinem Gesicht steckt Forenza "
+"den ersten Schlüssel und dann den zweiten ein. Dann fährt er fort, die Truhe "
+"langsam zu öffnen."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_15
 msgid "Well, go get it and bring me back both the key and the chest."
 msgstr ""
+"Nun, hol es dir und bring mir sowohl den Schlüssel als auch die Truhe zurück."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_15:0
 msgid "Yes sir!"
-msgstr ""
+msgstr "Ja, mein Herr!"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_10
 msgid "He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something..."
 msgstr ""
+"Dann beginnt er, fieberlos die Münzen zu sichten und jede einzelne in seine "
+"Tasche zu stecken. Als er zu seiner Überraschung kommt, findet er etwas..."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_20
 #: conversationlist_laeroth.json:korhald_chest_examine_20_gylew
 msgid "Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]"
 msgstr ""
+"Schauen Sie sich an, was ich am Boden der Brust gefunden habe. Ein Anhänger "
+"und eine Karte. [Zeigt Ihnen den Gegenstand]"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_20:0
 #: conversationlist_laeroth.json:korhald_chest_examine_20_gylew:0
 msgid "A map? Really? Where does it point to?"
-msgstr ""
+msgstr "Eine Karte? Wirklich? Wohin deutet es?"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_30
 msgid "Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exist in Dhayavar."
 msgstr ""
+"Nun, das ist wirklich schwer zu sagen. Siehst du [er zeigt dir die Karte], "
+"sie ist wirklich alt und viele der Sehenswürdigkeiten in Dhayavar existieren "
+"nicht mehr."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_30:0
 msgid "Yeah, I can see what you mean."
-msgstr ""
+msgstr "Ja, ich verstehe, was du meinst."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_40
 msgid "But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to."
 msgstr ""
+"Aber nicht alle Hoffnung ist verloren. Sehen Sie, diese Karte zeigt den "
+"großen Fluss, der genau dort drüben [zeigt nach Nordosten] hinter diesen "
+"Bäumen liegt. Jeder, der der Karte in Richtung Osten folgt, sollte kein "
+"Problem haben, dorthin zu gelangen, wo diese Karte hinführt."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_50
 msgid "Here, take the map and the pendant. If you need me, I'll be here for a little bit longer."
 msgstr ""
+"Nehmen Sie hier die Karte und den Anhänger. Wenn du mich brauchst, bin ich "
+"noch ein bisschen länger hier."
 
 #: conversationlist_laeroth.json:gylew_attack:0
 msgid "You are not rightful."
-msgstr ""
+msgstr "Du hast kein Recht."
 
 #: conversationlist_laeroth.json:gylew_korhald_10
 msgid "Did you find them?"
-msgstr ""
+msgstr "Haben Sie sie gefunden?"
 
 #: conversationlist_laeroth.json:gylew_korhald_10:1
 msgid "Yes and I already gave it to you."
-msgstr ""
+msgstr "Ja und ich habe es dir schon gegeben."
 
 #: conversationlist_laeroth.json:gylew_korhald_10:2
 msgid "Yes, I found the Korhald coins, but you are not getting them...[Attack]"
 msgstr ""
+"Ja, ich habe die Korhald-Münzen gefunden, aber Ihr bekommt sie nicht... "
+"[Angriff]"
 
 #: conversationlist_laeroth.json:gylew_korhald_10:3
 msgid "Yes, but I don't have them on me. I will go get them."
-msgstr ""
+msgstr "Ja, aber ich habe sie nicht bei mir. Ich werde sie holen."
 
 #: conversationlist_laeroth.json:gylew_korhald_20
 msgid "Great! Let me have it."
-msgstr ""
+msgstr "Großartig! Lass es mich haben."
 
 #: conversationlist_laeroth.json:gylew_korhald_30
 msgid ""
 "[Gylew examines the chest]\n"
 "What?! There are two locks! How can this be? Do you know anything about a second key?"
 msgstr ""
+"[Gylew untersucht die Brust]\n"
+"Was?! Es gibt zwei Schlösser! Wie kann das sein? Wissen Sie etwas über einen "
+"zweiten Schlüssel?"
 
 #: conversationlist_laeroth.json:gylew_korhald_30:0
 #: conversationlist_laeroth.json:gylew_korhald_27:0
 msgid "Yes. In fact, I met a 'friend' of yours who told me all about it."
 msgstr ""
+"Ja. Tatsächlich habe ich einen \"Freund\" von dir getroffen, der mir alles "
+"darüber erzählt hat."
 
 #: conversationlist_laeroth.json:gylew_korhald_40
 msgid "And whom may that be?"
-msgstr ""
+msgstr "Und wer mag das sein?"
 
 #: conversationlist_laeroth.json:gylew_korhald_40:0
 msgid "Your half-brother, Forenza. What a story he had to tell."
-msgstr ""
+msgstr "Dein Halbbruder, Forenza. Was für eine Geschichte er zu erzählen hatte."
 
 #: conversationlist_laeroth.json:gylew_korhald_50
 msgid "But I see that you did not listen to those 'stories' as you would not be here if you had. What did he tell you about the second key?"
 msgstr ""
+"Aber ich sehe, dass ihr diesen 'Geschichten' nicht zugehört habt, denn wenn "
+"ihr es getan hättet, wärt ihr nicht hier. Was hat er dir über den zweiten "
+"Schlüssel erzählt?"
 
 #: conversationlist_laeroth.json:gylew_korhald_50:0
 msgid "Well, for starters, he told me that he had it and he would not give it to me without a fight. Which of course, we did fight to the death for."
 msgstr ""
+"Nun, zunächst einmal sagte er mir, dass er es hätte und er es mir nicht "
+"kampflos geben würde. Wofür wir natürlich bis zum Tod gekämpft haben."
 
 #: conversationlist_laeroth.json:gylew_korhald_60
 msgid "You killed my brother?"
-msgstr ""
+msgstr "Du hast meinen Bruder getötet?"
 
 #: conversationlist_laeroth.json:gylew_korhald_60:0
 msgid "YES, and I loved doing so. Pathetic creature he was."
 msgstr ""
+"JA, und ich habe es geliebt, das zu tun. Er war ein erbärmliches Geschöpf."
 
 #: conversationlist_laeroth.json:gylew_korhald_60:1
 msgid "I was forced to. He gave me no choice."
-msgstr ""
+msgstr "Ich war gezwungen dazu. Er ließ mir keine Wahl."
 
 #: conversationlist_laeroth.json:gylew_korhald_60:2
 msgid "[Lie] No, but I beat him up good and took his key."
 msgstr ""
+"Lüge] Nein, aber ich habe ihn tüchtig verprügelt und ihm den Schlüssel "
+"genommen."
 
 #: conversationlist_laeroth.json:gylew_korhald_70
 msgid "I guess I should be saddened, but I am not. Can I have my brother's key now? I've waited a long time for these coins."
 msgstr ""
+"Ich denke, ich sollte traurig sein, aber das bin ich nicht. Kann ich jetzt "
+"den Schlüssel meines Bruders haben? Ich habe lange auf diese Münzen gewartet."
 
 #: conversationlist_laeroth.json:gylew_korhald_80
 msgid "Thank you! It is so nice to finally be this close to my life's dream."
 msgstr ""
+"Vielen Dank! Es ist so schön, endlich so nah an meinem Lebenstraum zu sein."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_10_gylew
 msgid "He opens the chest and begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something..."
 msgstr ""
+"Er öffnet die Truhe und beginnt, fieberlos die Münzen zu sichten und jede "
+"einzelne in seine Tasche zu stecken. Als er zu seiner Überraschung kommt, "
+"findet er etwas..."
 
 #: conversationlist_laeroth.json:gylew_old_man
 msgid "Oh, you think you are a funny kid? I see."
-msgstr ""
+msgstr "Oh, du glaubst, du bist ein lustiges Kind? Ich verstehe."
 
 #: conversationlist_laeroth.json:gylew_old_man:0
 msgid "Let's talk about the Korhald coins."
-msgstr ""
+msgstr "Kommen wir zu den Korhald-Münzen."
 
 #: conversationlist_laeroth.json:gylew_old_man:1
 msgid "Yeah, actually, I do think so."
-msgstr ""
+msgstr "Ja, tatsächlich, ich denke schon."
 
 #: conversationlist_laeroth.json:gylew_old_man:2
 msgid "Umm..."
-msgstr ""
+msgstr "Umm..."
 
 #: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_f
 msgid "Forenza would love to hear that..."
-msgstr ""
+msgstr "Forenza würde das gerne hören..."
 
 #: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_g
 msgid "Gylew would be very interested to hear that..."
-msgstr ""
+msgstr "Gylew wäre sehr daran interessiert, das zu hören..."
 
 #: conversationlist_laeroth.json:mysterious_map_stop_and_review_south
 #: conversationlist_laeroth.json:mysterious_map_stop_and_review
 msgid "Let's stop for a second and look at the 'Mysterious Korhald map'."
 msgstr ""
+"Halten wir für eine Sekunde inne und schauen uns die Karte \"Mysteriöse "
+"Korhald\" an."
 
 #: conversationlist_laeroth.json:mysterious_map_waterway7_0
 msgid "According to the map, I should continue heading east."
-msgstr ""
+msgstr "Laut Karte sollte ich weiter Richtung Osten fahren."
 
 #: conversationlist_laeroth.json:mysterious_map_missing
 msgid "I don't have the map. I should go back and get it so that I don't get lost."
 msgstr ""
+"Ich habe die Karte nicht. Ich sollte zurückgehen und es holen, damit ich "
+"mich nicht verirre."
 
 #: conversationlist_laeroth.json:mysterious_map_waterway9_0
 msgid "According to the map, I should continue heading south."
-msgstr ""
+msgstr "Laut Karte sollte ich weiter Richtung Süden fahren."
 
 #: conversationlist_laeroth.json:korhald_cave_hidden_war_book
 msgid "At a quick glance, you notice a couple of books on the strategy of war."
 msgstr ""
+"Auf den ersten Blick fallen einem ein paar Bücher über die Strategie des "
+"Krieges auf."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_0
 #: conversationlist_laeroth.json:forenza_korhald_cop_0
 msgid "Oh, really?! Let me see them and we can talk more."
-msgstr ""
+msgstr "Oh wirklich?! Lassen Sie mich sie sehen, und wir können mehr reden."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_0:0
 msgid "[You show Gylew the Coin of Prestige and the Shield of the brave]"
-msgstr ""
+msgstr "[Du zeigst Gylew die Münze des Ansehens und den Schild der Tapferen]"
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_10
 #: conversationlist_laeroth.json:forenza_korhald_cop_10
 msgid "Hmm...these are indeed interesting. Very interesting in fact."
-msgstr ""
+msgstr "Hmm... Diese sind in der Tat interessant. Sehr interessant sogar."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_10:0
 msgid "[While trying to hold back the giant smile that you can feel growing upon your face, you ask 'why is that?']"
 msgstr ""
+"[Während du versuchst, das riesige Lächeln zurückzuhalten, das du auf deinem "
+"Gesicht spüren kannst, fragst du: \"Warum ist das so?\"]"
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_20
 msgid "Well, for starters, this shield has the Korhald family crest engraved on its front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it."
 msgstr ""
+"Nun, zunächst einmal hat dieser Schild das Wappen der Korhald-Familie auf "
+"der Vorderseite eingraviert und gehörte eindeutig Korhald selbst, aber ich "
+"habe keine Verwendung für so einen Gegenstand. Hier, nimm es."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_30
 msgid "But this coin you have here is a completely different story. I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it."
 msgstr ""
+"Aber diese Münze, die Sie hier haben, ist eine ganz andere Geschichte. Ich "
+"weiß nichts darüber. Was mich noch mehr dazu bringt, es zu wollen. Kann ich "
+"es haben? Ich werde dich dafür reichlich belohnen."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_30:0
 #: conversationlist_laeroth.json:forenza_korhald_cop_30:0
 #: conversationlist_laeroth.json:gylew_korhald_cop_30a:0
 msgid "Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?"
 msgstr ""
+"Belohnung?! Ich liebe es immer, wie das klingt. Worüber reden wir hier? "
+"10000 Gold? 20000 Gold?"
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_30:1
 #: conversationlist_laeroth.json:forenza_korhald_cop_30:1
 #: conversationlist_laeroth.json:gylew_korhald_cop_30a:1
 msgid "Here, take it. I have enough coins."
-msgstr ""
+msgstr "Hier, nimm es. Ich habe genug Münzen."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_40
 msgid ""
 "[While laughing]\n"
 "Now, now, don't get greedy on me. How about 7000 gold and I will tell people we are friends?"
 msgstr ""
+"[Während er lacht]\n"
+"Jetzt, jetzt, werde nicht gierig auf mich. Wie wäre es mit 7000 Gold und ich "
+"werde den Leuten erzählen, dass wir Freunde sind?"
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_40:0
 #: conversationlist_laeroth.json:forenza_korhald_cop_40:0
 msgid "Sounds like a great deal. I'll take it."
-msgstr ""
+msgstr "Klingt nach einem tollen Angebot. Ich nehme es."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_40:1
 #: conversationlist_laeroth.json:forenza_korhald_cop_40:1
 msgid "Let me think about it. I will be back shortly."
-msgstr ""
+msgstr "Lassen Sie mich darüber nachdenken. Ich melde mich gleich wieder."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_50
 #: conversationlist_laeroth.json:forenza_korhald_cop_50
 msgid "Excellent. Come see me if you ever find any more interesting coins."
 msgstr ""
+"Ausgezeichnet. Kommen Sie zu mir, wenn Sie jemals wieder interessante Münzen "
+"finden."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_45
 msgid "OK, but don't keep an old man waiting too long. I want that coin."
 msgstr ""
+"OK, aber lassen Sie einen alten Mann nicht zu lange warten. Ich will diese "
+"Münze."
 
 #: conversationlist_laeroth.json:gylew_korhald_cop_35
 msgid "Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you make that shield a little bit better."
 msgstr ""
+"Oh, du bist so nett. Ich sag dir was. Sobald Ihr Euren Weg nach Feygard "
+"gefunden habt, sucht meine Familie auf. Sie werden dir helfen, diesen Schild "
+"ein bisschen besser zu machen."
 
 #: conversationlist_laeroth.json:laeroth_tower_north
 msgid "Looking to the north, you see more of the manor, the lake, and cliffs beyond that."
 msgstr ""
+"Wenn du nach Norden schaust, siehst du mehr vom Herrenhaus, dem See und den "
+"Klippen dahinter."
 
 #: conversationlist_laeroth.json:laeroth_tower_east
 msgid "You gaze to the east, but there is not much to see. The lake, the shore, but you think you recognize some of the cliffs you had to scale to get here."
 msgstr ""
+"Man blickt nach Osten, aber es gibt nicht viel zu sehen. Der See, das Ufer, "
+"aber man glaubt einige der Klippen zu erkennen, die man erklimmen musste, um "
+"hierher zu kommen."
 
 #: conversationlist_laeroth.json:laeroth_tower_south
 msgid "Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time the that tower and this one sent signals to each other."
 msgstr ""
+"Wenn du nach Süden schaust, siehst du das Seeufer, an dem du entlang "
+"gelaufen bist. In der Ferne befindet sich auch ein Turm. Du fragst dich, ob "
+"sich der jene und dieser Turm einst gegenseitig Signale gesendet haben."
 
 #: conversationlist_laeroth.json:laeroth_tower_west
 msgid "To the west, you see a town on an island. It looks prosperous. In the far distance, somewhat to the north, it looks like there is another island, but you can't make out any details."
 msgstr ""
+"Im Westen siehst du eine Stadt auf einer Insel. Es sieht wohlhabend aus. In "
+"der Ferne, etwas im Norden, sieht es so aus, als gäbe es eine weitere Insel, "
+"aber man kann keine Details erkennen."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5
 msgid "Do you have Gylew's key?"
-msgstr ""
+msgstr "Hast du Gylews Schlüssel?"
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:0
 msgid "Yes, and I also have the chest. Here, take them. [You give both items to Forenza]"
 msgstr ""
+"Ja, und ich habe auch die Truhe. Hier, nimm sie. [Du gibst beide Gegenstände "
+"an Forenza]"
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:1
 msgid "Yes, but I don't have the chest."
-msgstr ""
+msgstr "Ja, aber ich habe die Truhe nicht."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:2
 msgid "What are you talking about? I already gave it to you along with the chest I found on the island."
 msgstr ""
+"Worüber sprichst du? Ich habe sie Euch bereits gegeben, zusammen mit der "
+"Truhe, die ich auf der Insel gefunden habe."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_0:0
 msgid "[You show Forenza the Coin of Prestige and the Shield of the brave]"
-msgstr ""
+msgstr "[Du zeigst Forenza die Münze des Ansehens und den Schild der Tapferen]"
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_10:0
 msgid "[While trying to hold back the giant smile that you can feel growing upon your face, you ask]'why is that'?"
 msgstr ""
+"[Während du versuchst, das riesige Lächeln zurückzuhalten, das du auf deinem "
+"Gesicht wachsen fühlen kannst, fragst du]: \"Warum ist das so?\""
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_20
 msgid "Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures."
 msgstr ""
+"Nun, aus offensichtlichen Gründen. Ist Ihnen nicht aufgefallen, dass auf dem "
+"Schild das Wappen der Familie Korhald auf der Vorderseite eingraviert ist? "
+"Diese gehörte eindeutig Korhald selbst. Ihr solltet diesen Gegenstand "
+"behalten, da ich Euch bei Euren Abenteuern helfen könnte."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_30
 msgid "But this coin you have here really gives my pause, as I never believed the stories about its existence were true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course."
 msgstr ""
+"Aber diese Münze, die Sie hier haben, gibt mir wirklich zu denken, da ich "
+"nie geglaubt habe, dass die Geschichten über ihre Existenz wahr sind.  Ich "
+"weiß nicht viel darüber, aber ich weiß, dass es einen großen Wert hat. Kann "
+"ich es haben? Ich werde dich natürlich dafür belohnen."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_40
 msgid ""
 "[While laughing]\n"
 "Now, now, who do you think I am, Gylew? I don't have that kind of gold. How about 7000 gold?"
 msgstr ""
+"[Während er lacht]\n"
+"Nun, nun, wer glaubst du, wer ich bin, Gylew? Ich habe diese Art von Gold "
+"nicht. Wie wäre es mit 7000 Gold?"
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_35
 msgid "Oh, how very generous of you to just hand it over for free. I'll tell you what once you find your way to Brightport, seek out my family. They will help you reward you for all of your generosity and hard work."
 msgstr ""
+"Oh, wie großzügig von Ihnen, es einfach kostenlos zu übergeben. Ich sage "
+"dir, wenn du erst einmal den Weg nach Brightport gefunden hast, suche meine "
+"Familie auf. Sie werden Ihnen helfen, Sie für all Ihre Großzügigkeit und "
+"harte Arbeit zu belohnen."
 
 #: conversationlist_laeroth.json:moriath_0
 msgid "Hello. It's so very long since I have seen another person. Who are you, and why are you here?"
 msgstr ""
+"Hallo. Es ist so lange her, dass ich einen anderen Menschen gesehen habe. "
+"Wer bist du und warum bist du hier?"
 
 #: conversationlist_laeroth.json:moriath_0:0
 msgid "I'm $playername. I'm looking for my brother, Andor. Have you seen him?"
 msgstr ""
+"Ich bin $playername. Ich bin auf der Suche nach meinem Bruder Andor. Hast du "
+"ihn gesehen?"
 
 #: conversationlist_laeroth.json:moriath_1
 msgid "No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
 msgstr ""
+"Nein. Ich habe dir gerade gesagt, dass du die erste Person bist, die ich "
+"seit sehr langer Zeit hier gesehen habe. Der Weg zum alten Herrenhaus ist "
+"schwierig und gefährlich, und hier gibt es nichts. Warum sollte also jemand "
+"hierher kommen?"
 
 #: conversationlist_laeroth.json:moriath_1:0
 msgid "So why are you here?"
-msgstr ""
+msgstr "Warum sind Sie hier?"
 
 #: conversationlist_laeroth.json:moriath_1:2
 msgid "I guess I'll be going then."
-msgstr ""
+msgstr "Ich denke, ich werde dann gehen."
 
 #: conversationlist_laeroth.json:moriath_caretaker_1
 msgid "I am Moriath, the caretaker for this manor."
-msgstr ""
+msgstr "Ich bin Moriat, der Hausmeister dieses Herrenhauses."
 
 #: conversationlist_laeroth.json:moriath_caretaker_1:1
 #: conversationlist_laeroth.json:moriath_history_1:1
 msgid "Can you tell me more about this place?"
-msgstr ""
+msgstr "Können Sie mir mehr über diesen Ort erzählen?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_1:2
 msgid "If there is nobody else here, why do you stay?"
-msgstr ""
+msgstr "Wenn sonst niemand hier ist, warum bleibst du?"
 
 #: conversationlist_laeroth.json:moriath_history_1
 msgid "This is Laeroth manor. Or what is left of it, anyway."
 msgstr ""
+"Das ist das Herrenhaus von Laeroth. Oder zumindest das, was davon übrig "
+"geblieben ist."
 
 #: conversationlist_laeroth.json:moriath_history_2
 msgid "Laeroth manor? Yes, of course."
-msgstr ""
+msgstr "Laeroth-Anwesen? Ja natürlich."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2
 msgid ""
@@ -59879,108 +60218,158 @@ msgid ""
 "\n"
 "I cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin."
 msgstr ""
+"Ich bin durch einen Eid verpflichtet, mich um das Herrenhaus zu kümmern. Es "
+"ist aber kein Eid, den ich jemals geleistet habe. \n"
+"\n"
+"Ich kann mich natürlich nicht um alles kümmern. Ich kümmere mich um das "
+"Haupthaus, die Brücken und kümmere mich so gut es geht um die Gräber. Alles "
+"andere ist nach und nach in Trümmer gefallen."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2:0
 msgid "How can you be bound by an oath you never gave?"
-msgstr ""
+msgstr "Wie kannst du an einen Eid gebunden sein, den du nie geleistet hast?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3
 msgid "It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor."
 msgstr ""
+"Es ist eine Frage der Ehre. Der Gutsherr hat meinen Ururgroßvater vor vielen "
+"Jahren vor dem sicheren Tod gerettet. Im Gegenzug schwor mein Ururgroßvater, "
+"dass seine Familie sich immer um das Gut kümmern würde."
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:0
 msgid "He should not have made a vow that bound his family for generations!"
 msgstr ""
+"Er hätte kein Gelübde ablegen sollen, das seine Familie über Generationen "
+"hinweg verband!"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:1
 msgid "Well, that's too bad for you. I need to get going. I have to find my brother."
 msgstr ""
+"Nun, das ist schade für dich. Ich muss los. Ich muss meinen Bruder finden."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4
 msgid "I do not disagree, but he did."
-msgstr ""
+msgstr "Ich widerspreche nicht, aber er hat es getan."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:0
 msgid "Is there something I can do to help?"
-msgstr ""
+msgstr "Gibt es etwas, was ich tun kann, um zu helfen?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:1
 msgid "Too bad. Look on the bright side though. You have an entire manor to yourself. Bye."
 msgstr ""
+"Was für ein Pech. Schauen Sie aber auf die positive Seite. Du hast ein "
+"ganzes Herrenhaus für dich allein. Auf Wiedersehen."
 
 #: conversationlist_laeroth.json:moriath_history_3
 msgid "Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection."
 msgstr ""
+"Vor vielen Jahren wurde diese Insel von den Gemeinschaften, die am Seeufer "
+"lebten, als Zufluchtsort in Zeiten der Gefahr genutzt. Hier gab es kaum mehr "
+"als eine kleine Festung, aber da es sich um eine Insel handelte, reichte das "
+"zum Schutz aus."
 
 #: conversationlist_laeroth.json:moriath_history_4
 msgid "Then a man by the name of Laeroth, along with a group of followers, declared himself the Lord of Laeroth, and took the fortifications and the island as his own."
 msgstr ""
+"Da erklärte sich ein Mann namens Laeroth mit einer Gruppe von Anhängern zum "
+"Herrn von Laeroth und nahm die Befestigungen und die Insel für sich in "
+"Anspruch."
 
 #: conversationlist_laeroth.json:moriath_history_5
 msgid ""
 "For many years his family continued to provide refuge to those that lived on the shore, and they even built a watchtower on the mountain to the south, as a lookout for approaching enemies.\n"
 "In return, the manor was provided with supplies."
 msgstr ""
+"Viele Jahre lang bot seine Familie denen, die an der Küste lebten, Zuflucht "
+"und errichtete sogar einen Wachturm auf dem Berg im Süden, um vor "
+"herannahenden Feinden Ausschau zu halten.\n"
+"Im Gegenzug wurde das Gutshof mit Vorräten versorgt."
 
 #: conversationlist_laeroth.json:moriath_history_5:0
 msgid "Interesting. Please continue."
-msgstr ""
+msgstr "Interessant. Bitte fahren Sie fort."
 
 #: conversationlist_laeroth.json:moriath_history_5:1
 msgid "Maybe I shouldn't have asked. This is getting boring. I need to leave, and look for my brother."
 msgstr ""
+"Vielleicht hätte ich nicht fragen sollen. Das wird langsam langweilig. Ich "
+"muss gehen und nach meinem Bruder suchen."
 
 #: conversationlist_laeroth.json:moriath_history_6
 msgid "The fall of the manor began when the shore folk, led by a man called Korhald, built a bridge to an island, and founded the city of Remgard."
 msgstr ""
+"Der Niedergang des Herrenhauses begann, als das Küstenvolk unter der Führung "
+"eines Mannes namens Korhald eine Brücke zu einer Insel baute und die Stadt "
+"Remgard gründete."
 
 #: conversationlist_laeroth.json:moriath_history_7
 msgid "Anyway, Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming."
 msgstr ""
+"Wie auch immer, Remgard war weit entfernt von allen Feinden und leicht zu "
+"verteidigen, so dass die Inseln im See nicht mehr wichtig waren und der "
+"Nachschub ausblieb."
 
 #: conversationlist_laeroth.json:moriath_history_8
 msgid "With no place to grow food on the islands most of the staff left. The last lord that resided here had only one son, and when the lord died his son abandoned the manor and left to look for other opportunities."
 msgstr ""
+"Da es auf den Inseln keinen Platz zum Anbau von Lebensmitteln gab, verließen "
+"die meisten Mitarbeiter die Insel. Der letzte Herr, der hier residierte, "
+"hatte nur einen Sohn, und als der Herr starb, verließ sein Sohn das "
+"Herrenhaus und suchte nach anderen Möglichkeiten."
 
 #: conversationlist_laeroth.json:moriath_history_8:0
 msgid "So if the son has left, why do you stay here?"
-msgstr ""
+msgstr "Wenn also der Sohn gegangen ist, warum bleibst du hier?"
 
 #: conversationlist_laeroth.json:moriath_history_8:1
 msgid "Thanks for the history lesson. I need to leave, and look for my brother."
 msgstr ""
+"Danke für die Geschichtsstunde. Ich muss gehen und nach meinem Bruder suchen."
 
 #: conversationlist_laeroth.json:moriath_caretaker_5
 msgid "The only thing that would help is for me to be released from the oath."
-msgstr ""
+msgstr "Das Einzige, was helfen würde, wäre, wenn ich vom Eid entbunden würde."
 
 #: conversationlist_laeroth.json:moriath_caretaker_5:0
 msgid "Who can do that?"
-msgstr ""
+msgstr "Wer kann das tun?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_6
 msgid "The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that."
 msgstr ""
+"Der jetzige Lord, natürlich. Aber er ist gegangen. Ich weiß nicht, wo er "
+"sich befindet, und ob er noch lebt. Wenn ich wüsste, dass er tot ist, würde "
+"ich den Eid als nichtig betrachten, aber das weiß ich nicht."
 
 #: conversationlist_laeroth.json:moriath_caretaker_6:0
 msgid "There is nobody else?"
-msgstr ""
+msgstr "Gibt es sonst niemanden?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_7
 msgid "Any of the past lords Laeroth could release me from the oath. But, like my great-great grandfather, they are long dead. Their graves are in the tomb on the far island. So unless you can talk to the dead, they will be of no help."
 msgstr ""
+"Jeder der früheren Lords, Laeroth, könnte mich vom Eid befreien. Aber wie "
+"mein Ururgroßvater sind sie schon lange tot. Ihre Gräber befinden sich in "
+"der Gruft auf der fernen Insel. Wenn du also nicht mit den Toten reden "
+"kannst, werden sie keine Hilfe sein."
 
 #: conversationlist_laeroth.json:moriath_caretaker_7:0
 msgid "How can I talk to the dead?"
-msgstr ""
+msgstr "Wie kann ich mit den Toten sprechen?"
 
 #: conversationlist_laeroth.json:book_not_found_1
 msgid "You look through the shelves, but there does not seem to be anything that would help you here."
 msgstr ""
+"Du schaust durch die Regale, aber es scheint nichts zu geben, was dir hier "
+"helfen würde."
 
 #: conversationlist_laeroth.json:book_found_1
 msgid "You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek."
 msgstr ""
+"Du schaust durch die Regale, und ein Buch sticht ins Auge. \"Eine Abhandlung "
+"über Geister und andere Untote\". Vielleicht enthält dies die Informationen, "
+"die Sie suchen."
 
 #: conversationlist_laeroth.json:book_found_2
 msgid ""
@@ -59988,10 +60377,17 @@ msgid ""
 "\n"
 "There is a chapter on spirits of the dead, with a section on raising them! This looks like what you need! "
 msgstr ""
+"Du schaust dir die Inhaltsseite an. Es gibt Kapitel über Zombies, Flechten, "
+"... Moment, was ist das?\n"
+"\n"
+"Es gibt ein Kapitel über die Geister der Toten, mit einem Abschnitt über "
+"ihre Auferweckung! Das sieht nach dem aus, was Sie brauchen! "
 
 #: conversationlist_laeroth.json:book_found_3
 msgid "You flip to the section on raising spirits, and start reading."
 msgstr ""
+"Du blätterst zum Abschnitt über die Stimmungsaufhellung und beginnst zu "
+"lesen."
 
 #: conversationlist_laeroth.json:book_found_4
 msgid ""
@@ -59999,18 +60395,34 @@ msgid ""
 "\n"
 "Always remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\""
 msgstr ""
+"\"Zunächst muss betont werden, dass es gefährlich ist, die Geister der Toten "
+"zu erwecken. Sie mögen es nicht, gestört zu werden. \n"
+"\n"
+"Denken Sie immer an den Sprechgesang \"estray inyay eacepay\". Dieser Chant "
+"wird nur funktionieren, wenn du derjenige bist, der den Geist erhoben hat, "
+"aber dann ist er sehr effektiv. Wenn es nicht besonders wütend ist, wird es "
+"auf der anderen Seite zur Ruhe kommen.\""
 
 #: conversationlist_laeroth.json:book_found_5
 msgid "\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\""
 msgstr ""
+"\"Der natürliche Zustand des Geistes ist ein Zustand der Ruhe, daher ist es "
+"viel schwieriger, einen Geist zu erwecken, als ihn auf der anderen Seite zur "
+"Ruhe zurückzuschicken.\""
 
 #: conversationlist_laeroth.json:book_found_6
 msgid "\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Priests of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\""
 msgstr ""
+"\"Die Auferweckung der Geister der Toten sollte am besten Priestern "
+"überlassen werden, die darin geschult wurden, sie sowohl aufzuerwecken als "
+"auch zurückzuschicken. Priester des Schattens können dies mit Leichtigkeit "
+"tun, aber sie sind zur Verschwiegenheit über ihre Methoden verpflichtet.\""
 
 #: conversationlist_laeroth.json:book_found_7
 msgid "\"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.\""
 msgstr ""
+"\"Es ist bekannt, dass sie den Schatten anrufen, um dies zu tun, aber zum "
+"Zeitpunkt des Schreibens sind keine weiteren Informationen verfügbar.\""
 
 #: conversationlist_laeroth.json:book_found_8
 msgid ""
@@ -60018,6 +60430,12 @@ msgid ""
 "\n"
 "It must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\""
 msgstr ""
+"\"Es gibt jedoch einen anderen Weg. Dazu braucht es einen seltenen und "
+"wertvollen Kristall, einen Ögythkristall und einen persönlichen Gegenstand, "
+"der dem Verstorbenen gehörte. \n"
+"\n"
+"Man muss sagen, dass die Verwendung eines Ögythkristalls auf diese Weise "
+"seine Kraft dauerhaft verringert, so dass die Kosten erheblich sind.\""
 
 #: conversationlist_laeroth.json:Book_found_9
 msgid ""
@@ -60025,144 +60443,199 @@ msgid ""
 "\n"
 "Then utter the chant \"iseray iritspay\".\" "
 msgstr ""
+"\"Der Ögythkristall und der persönliche Gegenstand müssen auf das Grab oder "
+"die Grube des Verstorbenen gelegt werden.\n"
+"\n"
+"Dann spreche den Gesang \"iseray iritspay\".\" "
 
 #: conversationlist_laeroth.json:book_found_10
 msgid "It looks like I have the information I need, although it sounds dangerous."
 msgstr ""
+"Es sieht so aus, als hätte ich die Informationen, die ich brauche, obwohl es "
+"gefährlich klingt."
 
 #: conversationlist_laeroth.json:moriath_caretaker_8
 msgid "I have no idea. I am a caretaker, not a priest. The manor has an extensive library. Maybe you should look there."
 msgstr ""
+"Keine Ahnung. Ich bin ein Hausmeister, kein Priester. Das Herrenhaus verfügt "
+"über eine umfangreiche Bibliothek. Vielleicht solltest du dort nachschauen."
 
 #: conversationlist_laeroth.json:moriath_caretaker_8:0
 msgid "I'll take a look."
-msgstr ""
+msgstr "Ich schaue mal rein."
 
 #: conversationlist_laeroth.json:moriath_caretaker_8:1
 msgid "That sounds like a lot of work, and I need to go and find my brother."
 msgstr ""
+"Das hört sich nach viel Arbeit an, und ich muss losgehen und meinen Bruder "
+"finden."
 
 #: conversationlist_laeroth.json:moriath_1_0:0
 msgid "Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well."
 msgstr ""
+"Endlich Erfolg. Ich musste die Stimmung vieler Familienmitglieder heben, "
+"aber Jerelin sagte, er würde dich vom Eid befreien. Es gibt jedoch eine "
+"Bedingung. Du musst sein Grab von dem seiner Frau wegbringen. Sie scheinen "
+"sich nicht sehr gut zu verstehen."
 
 #: conversationlist_laeroth.json:moriath_1_0:1
 msgid "Audela told me to talk again to her husband Jerelin. I think I don't need another of Jerelin's items again. His seal should still be enough."
 msgstr ""
+"Audela sagte mir, ich solle noch einmal mit ihrem Mann Jerelin sprechen. Ich "
+"glaube, ich brauche nicht noch einmal einen von Jerelins Artikeln. Sein "
+"Siegel sollte immer noch ausreichen."
 
 #: conversationlist_laeroth.json:moriath_1_0:2
 msgid "Cuned now sent me to his mother Audela. Where are Audela's item?"
 msgstr ""
+"Cuned schickte mich nun zu seiner Mutter Audela. Wo ist eine Sache von "
+"Audela ?"
 
 #: conversationlist_laeroth.json:moriath_1_0:3
 msgid "Jerelin was not helpful. In fact, he just ignored me."
-msgstr ""
+msgstr "Jerelin war nicht hilfreich. Tatsächlich ignorierte er mich einfach."
 
 #: conversationlist_laeroth.json:moriath_1_0:4
 msgid "Cuned has sent me to talk to his father Jerelin. Now I need a personal item of him"
 msgstr ""
+"Cuned hat mich geschickt, um mit seinem Vater Jerelin zu sprechen. Jetzt "
+"brauche ich einen persönlichen Gegenstand von ihm"
 
 #: conversationlist_laeroth.json:moriath_1_0:5
 msgid "I spoke to the spirit of Eyvipa. Even now he was extremely displeased at being passed over in favor of Cuned in the line of succession. Do you know where I might find a personal item of him?"
 msgstr ""
+"Ich sprach mit dem Geist von Eyvipa. Auch jetzt noch war er äußerst "
+"verärgert darüber, daß er in der Thronfolge zugunsten von Cuned übergangen "
+"worden war. Weißt du, wo ich einen persönlichen Gegenstand von ihm finden "
+"könnte?"
 
 #: conversationlist_laeroth.json:moriath_1_0:6
 msgid "I spoke to the spirit of Verigil, but he told me he cannot help. I must speak to his uncle, Eyvipa. So I need a personal item of his. Do you know where I might find one?"
 msgstr ""
+"Ich sprach mit dem Geist von Verigil, aber er sagte mir, er könne nicht "
+"helfen. Ich muss mit seinem Onkel Eyvipa sprechen. Also brauche ich einen "
+"persönlichen Gegenstand von ihm. Weißt du, wo ich einen finden könnte?"
 
 #: conversationlist_laeroth.json:moriath_1_0:7
 msgid "I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased."
 msgstr ""
+"Ich habe herausgefunden, wie ich einen Geist erwecken und mit ihm sprechen "
+"kann. Ich benötige jedoch einen persönlichen Gegenstand des Verstorbenen."
 
 #: conversationlist_laeroth.json:moriath_1_0:8
 msgid "Can you tell me about this place?"
-msgstr ""
+msgstr "Können Sie mir etwas über diesen Ort erzählen?"
 
 #: conversationlist_laeroth.json:moriath_1_0:9
 msgid "Can you tell me again why you are still here?"
-msgstr ""
+msgstr "Können Sie mir noch einmal sagen, warum Sie immer noch hier sind?"
 
 #: conversationlist_laeroth.json:moriath_1_0:10
 msgid "I have to leave to look for my brother."
-msgstr ""
+msgstr "Ich muss gehen, um meinen Bruder zu suchen."
 
 #: conversationlist_laeroth.json:moriath_1_1
 msgid "Well, the previous lord was Verigil. His son, Adakin, did not take any of his fathers possesions when he left. You might find something in the master bedroom."
 msgstr ""
+"Nun, der vorherige Lord war Verigil. Sein Sohn Adakin nahm bei seiner "
+"Abreise nichts von den Besitztümern seines Vaters mit. Vielleicht finden Sie "
+"etwas im Hauptschlafzimmer."
 
 #: conversationlist_laeroth.json:moriath_2_1
 msgid "There are items from all the generations scattered around. They were fond of putting their intials on them. A mixture of vanity and possessiveness I think. So see if you can find something with \"E\" marked on it."
 msgstr ""
+"Es gibt Gegenstände aus allen Generationen, die überall verstreut sind. Sie "
+"liebten es, ihre Initialen auf sie zu setzen. Eine Mischung aus Eitelkeit "
+"und Besitzgier, denke ich. Schauen Sie also, ob Sie etwas finden können, auf "
+"dem \"E\" markiert ist."
 
 #: conversationlist_laeroth.json:moriath_2_1:0
 #: conversationlist_laeroth.json:moriath_3_1:0
 msgid "Thanks. Will do!"
-msgstr ""
+msgstr "Danke. Wird schon gemacht!"
 
 #: conversationlist_laeroth.json:moriath_3_1
 msgid "Cuned has put a \"C\" as intials on his personal items. Please look for it yourself."
 msgstr ""
+"Cuned hat ein \"C\" als Anfangszeichen auf seine persönlichen Gegenstände "
+"gesetzt. Bitte suchen Sie selbst danach."
 
 #: conversationlist_laeroth.json:moriath_4_1
 msgid "Jerelin has put a \"J\" as intials on his personal items. Please look for it yourself."
 msgstr ""
+"Jerelin hat ein \"J\" als Anfangszeichen auf seine persönlichen Gegenstände "
+"gesetzt. Bitte suchen Sie selbst danach."
 
 #: conversationlist_laeroth.json:moriath_5_1
 msgid "Maybe it helps if you talk to Cuned again?"
-msgstr ""
+msgstr "Vielleicht hilft es, wenn du mal wieder mit Cuned sprichst?"
 
 #: conversationlist_laeroth.json:moriath_5_1:0
 msgid "Hmm, I could try that."
-msgstr ""
+msgstr "Hmm, das könnte ich versuchen."
 
 #: conversationlist_laeroth.json:moriath_6_1
 msgid "Audela has always an \"A\" as intials on her personal items. They should be easy to find."
 msgstr ""
+"Audela hat immer ein \"A\" als Anfangszeichen auf ihren persönlichen "
+"Gegenständen. Sie sollten leicht zu finden sein."
 
 #: conversationlist_laeroth.json:moriath_7_1
 msgid "Yes, probably you are right."
-msgstr ""
+msgstr "Ja, wahrscheinlich haben Sie Recht."
 
 #: conversationlist_laeroth.json:moriath_9_1
 msgid "Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again."
 msgstr ""
+"Vielen Dank. Das werde ich tun, wenn es mich vom Eid entbindet. Ich werde es "
+"sofort tun. Auf Wiedersehen und nochmals vielen Dank.."
 
 #: conversationlist_laeroth.json:nightstand_search_1
 msgid "You found a ring with \"V\" engraved on it. This should work."
 msgstr ""
+"Sie haben einen Ring mit der Gravur \"V\" gefunden. Das sollte funktionieren."
 
 #: conversationlist_laeroth.json:nightstand_search_2
 msgid "I have found a smalled jeweled key that looks like it will fit Adakin's diary."
 msgstr ""
+"Ich habe einen kleinen juwelenbesetzten Schlüssel gefunden, der aussieht, "
+"als würde er in Adakins Tagebuch passen."
 
 #: conversationlist_laeroth.json:verigil_script_0
 #: conversationlist_laeroth.json:verigil_script_1
 msgid "Here lies Verigil, Ninth Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Verigil, der neunte Herr von Laeroth."
 
 #: conversationlist_laeroth.json:verigil_script_1:0
 msgid "Place Verigil's ring on the tomb."
-msgstr ""
+msgstr "Lege Verigils Ring auf das Grab."
 
 #: conversationlist_laeroth.json:verigil_script_2a
 msgid "You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst einen Oegyth-Kristall und Verigils Siegelring auf das Grab und "
+"singst \"iseray iritspay\""
 
 #: conversationlist_laeroth.json:verigil_0
 msgid "Who dares to disturb my rest?"
-msgstr ""
+msgstr "Wer wagt es, meine Ruhe zu stören?"
 
 #: conversationlist_laeroth.json:verigil_0:0
 msgid "I am $playername. Sorry to disturb you, but I need some help."
 msgstr ""
+"Ich bin $playername. Es tut mir leid, dass ich Sie störe, aber ich brauche "
+"Hilfe."
 
 #: conversationlist_laeroth.json:verigil_1
 msgid "With what?"
-msgstr ""
+msgstr "Womit?"
 
 #: conversationlist_laeroth.json:verigil_1:0
 msgid "Your son has left Laeroth, and his whereabouts are unknown. However, the caretaker remains, bound by an oath to look after the manor. I ask that you release him from the oath."
 msgstr ""
+"Euer Sohn hat Laeroth verlassen, und sein Aufenthaltsort ist unbekannt. Der "
+"Hausmeister bleibt jedoch und ist durch einen Eid verpflichtet, sich um das "
+"Herrenhaus zu kümmern. Ich bitte dich, ihn vom Eid zu befreien."
 
 #: conversationlist_laeroth.json:verigil_2
 msgid ""
@@ -60170,138 +60643,179 @@ msgid ""
 "\n"
 "[You take the oegyth crystal, but decide to leave the ring.]"
 msgstr ""
+"Ich kann nicht. Es ist nicht mein Zweig der Familie, der ihn gebunden hat. "
+"Ihr müsst mit meinem Onkel Eyvipa sprechen. Jetzt lass mich mich ausruhen.\n"
+"\n"
+"[Du nimmst den Ögythkristall, entscheidest dich aber, den Ring zu verlassen.]"
 
 #: conversationlist_laeroth.json:chest_search_1
 msgid "This chest looks like it is used to store important items."
 msgstr ""
+"Diese Truhe sieht aus, als würde sie zur Aufbewahrung wichtiger Gegenstände "
+"verwendet."
 
 #: conversationlist_laeroth.json:chest_search_1:0
 msgid "Take a look in the chest."
-msgstr ""
+msgstr "Werfen Sie einen Blick in die Brust."
 
 #: conversationlist_laeroth.json:chest_search_2
 msgid "You rummage around in the contents. Then a high quality candlestick catches your eye. It has \"E\" engraved on it! This should work!"
 msgstr ""
+"Du wühlst im Inhalt herum. Dann sticht ein hochwertiger Kerzenständer ins "
+"Auge. Er hat die Gravur \"E\"! Das sollte funktionieren!"
 
 #: conversationlist_laeroth.json:eyvipa_script_0
 #: conversationlist_laeroth.json:eyvipa_script_1
 msgid "Here lies Eyvipa, eldest son of Jerelin."
-msgstr ""
+msgstr "Hier ruht Eyvipa, der älteste Sohn des Jerelin."
 
 #: conversationlist_laeroth.json:eyvipa_script_1:0
 msgid "Place candlestick on the tomb."
-msgstr ""
+msgstr "Lege einen Kerzenständer auf das Grab."
 
 #: conversationlist_laeroth.json:eyvipa_script_1:1
 msgid "Call for Eyvipa."
-msgstr ""
+msgstr "Rufen Sie nach Eyvipa."
 
 #: conversationlist_laeroth.json:eyvipa_script_2a
 msgid "You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den leicht verkleinerten Ögythkristall und Eyvipas Kerzenständer "
+"auf das Grab und singst \"iseray iritspay\""
 
 #: conversationlist_laeroth.json:eyvipa_0
 msgid "I hope you disturbed my rest for a good reason!"
-msgstr ""
+msgstr "Ich hoffe, du hast meine Ruhe aus gutem Grund gestört!"
 
 #: conversationlist_laeroth.json:eyvipa_0:0
 #: conversationlist_laeroth.json:cuned_2a:0
 #: conversationlist_laeroth.json:audela_0:0
 msgid "I am $playername. Apologies for distubing you, but I need some help."
 msgstr ""
+"Ich bin $playername. Entschuldigung, dass ich dich distubiert habe, aber ich "
+"brauche etwas Hilfe."
 
 #: conversationlist_laeroth.json:eyvipa_1
 msgid "What help do you need?"
-msgstr ""
+msgstr "Welche Hilfe benötigen Sie?"
 
 #: conversationlist_laeroth.json:eyvipa_1:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath."
 msgstr ""
+"Eure Familie hat Laeroth verlassen, und es ist jetzt verlassen. Aber der "
+"Hausmeister ist immer noch da. Er ist an einen Eid gebunden, den sein "
+"Ururgroßvater geleistet hat. Da hier niemand mehr lebt als er, bitte ich "
+"dich, ihn vom Eid zu entbinden."
 
 #: conversationlist_laeroth.json:eyvipa_2
 msgid "Why ask me? I was not the last lord. Or in fact lord at all."
-msgstr ""
+msgstr "Warum mich fragen? Ich war nicht der letzte Lord. Oder überhaupt Lord."
 
 #: conversationlist_laeroth.json:eyvipa_2:0
 msgid "I talked to the last lord that is buried here, Verigil. He said he cannot release him because the oath was not made by his branch of the family."
 msgstr ""
+"Ich sprach mit dem letzten Herrn, der hier begraben ist, Verigil. Er sagte, "
+"er könne ihn nicht freilassen, weil der Eid nicht von seinem Zweig der "
+"Familie geleistet worden sei."
 
 #: conversationlist_laeroth.json:eyvipa_3
 msgid "Ah. The son of the usurper. I will not help you, or the caretaker, or anyone else. I should have been Lord. My father passed me over for the usurper, Cuned, my younger brother. Ask him for help. But before you go, since you disturbed me, you owe me your life force! "
 msgstr ""
+"Ah. Der Sohn des Usurpators. Ich werde dir nicht helfen, oder dem "
+"Hausmeister oder sonst jemandem. Ich hätte der Herr sein sollen. Mein Vater "
+"hat mich für den Usurpator Cuned, meinen jüngeren Bruder, übergangen. Bitten "
+"Sie ihn um Hilfe. Aber bevor du gehst, da du mich gestört hast, schuldest du "
+"mir deine Lebenskraft! "
 
 #: conversationlist_laeroth.json:eyvipa_3:0
 msgid "[You feel your life being drained from you]."
-msgstr ""
+msgstr "[Du fühlst, wie dir dein Leben entzogen wird]."
 
 #: conversationlist_laeroth.json:eyvipa_4a
 msgid "I feel stronger already! Soon I will rise again, and then I will be Lord. A terrible lord, for those that wronged me!"
 msgstr ""
+"Ich fühle mich schon stärker! Bald werde ich wieder auferstehen, und dann "
+"werde ich Herr sein. Ein schrecklicher Herr, für die, die mir Unrecht getan "
+"haben!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:0
 msgid "I'm leaving!"
-msgstr ""
+msgstr "Ich gehe!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:1
 msgid "Estay imgrey earcepay!"
-msgstr ""
+msgstr "Estay imgrey earcepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:2
 msgid "Estray inyay eacepay!"
-msgstr ""
+msgstr "Estray inyay eacepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:3
 msgid "Esay intray eaceplay!"
-msgstr ""
+msgstr "Esay intray eaceplay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:4
 msgid "Espray inpray eatnpay!"
-msgstr ""
+msgstr "Espray inpray eatnpay!"
 
 #: conversationlist_laeroth.json:eyvipa_4b
 msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
 msgstr ""
+"Der Geist von Eyvipa verschwindet. Du fühlst eine große Erleichterung, dass "
+"der Gesang funktioniert hat. Du nimmst dir den Ögythkristall zurück, obwohl "
+"er etwas von seinem Glanz zu verlieren scheint."
 
 #: conversationlist_laeroth.json:cupboard_search_1
 msgid "Maybe there is something in these cupboards that would be useful."
-msgstr ""
+msgstr "Vielleicht gibt es in diesen Schränken etwas, das nützlich wäre."
 
 #: conversationlist_laeroth.json:cupboard_search_1:0
 msgid "Too much clutter in here. Not worth the effort."
-msgstr ""
+msgstr "Zu viel Unordnung hier drin. Die Mühe lohnt sich nicht."
 
 #: conversationlist_laeroth.json:cupboard_search_1:1
 msgid "You rummage around in the clutter in the cupboards."
-msgstr ""
+msgstr "Du wühlst in dem Durcheinander in den Schränken."
 
 #: conversationlist_laeroth.json:cupboard_search_2
 msgid "You find a book, that says \"My Diary\" on the cover, with an ornate \"C\" embossed in the cover. This must surely have belonged to Cuned! You take the book."
 msgstr ""
+"Du findest ein Buch mit der Aufschrift \"My Diary\" auf dem Cover, mit einem "
+"kunstvollen \"C\" auf dem Cover. Das muss doch Cuned gehört haben! Du nimmst "
+"das Buch."
 
 #: conversationlist_laeroth.json:cuned_script_0
 #: conversationlist_laeroth.json:cuned_script_1
 msgid "Here lies Cuned, Eighth Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Cuned, der achte Herr von Laeroth."
 
 #: conversationlist_laeroth.json:cuned_script_1:0
 msgid "Place diary on the tomb."
-msgstr ""
+msgstr "Lege ein Tagebuch auf das Grab."
 
 #: conversationlist_laeroth.json:cuned_script_1:1
 msgid "Call for Cuned."
-msgstr ""
+msgstr "Ruf nach Cuned."
 
 #: conversationlist_laeroth.json:cuned_script_2a
 msgid "You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den verminderten Ögyth-Kristall und Cuneds Tagebuch auf das Grab "
+"und singst \"iseray iritspay\""
 
 #: conversationlist_laeroth.json:cuned_2a
 msgid "What do you want? I was at peace until you brought me back!"
-msgstr ""
+msgstr "Was willst du? Ich war in Frieden, bis du mich zurückgebracht hast!"
 
 #: conversationlist_laeroth.json:cuned_3:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath. Verigil said he cannot, because it is not his branch of the family. Eyvipa refused, because he was not made Lord."
 msgstr ""
+"Eure Familie hat Laeroth verlassen, und es ist jetzt verlassen. Aber der "
+"Hausmeister ist immer noch da. Er ist an einen Eid gebunden, den sein "
+"Ururgroßvater geleistet hat. Da hier niemand mehr lebt als er, bitte ich "
+"dich, ihn vom Eid zu entbinden. Verigil sagte, er könne nicht, weil es nicht "
+"sein Zweig der Familie sei. Eyvipa weigerte sich, weil er nicht zum Herrn "
+"gemacht worden war."
 
 #: conversationlist_laeroth.json:cuned_4
 msgid ""
@@ -60309,18 +60823,28 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It's gleam is fading.]"
 msgstr ""
+"Eyvipa wurde nicht zum Herrn gemacht, weil er faul und verantwortungslos "
+"war. Wenn er wollte, könnte er den Hausmeister freilassen, aber er ist "
+"offensichtlich immer noch verantwortungslos. Ich fürchte, Verigil hat recht. "
+"Ich kann ihn auch nicht freilassen. Ihr müsst mit meinem Vater Jerelin "
+"sprechen. Auf Wiedersehen. \n"
+"\n"
+"[Du nimmst den Ögythkristall. Sein Glanz verblasst.]"
 
 #: conversationlist_laeroth.json:cuned_script_b_2a
 msgid "You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den stark verkleinerten Ögythkristall auf das Grab und singst "
+"\"iseray iritspay\""
 
 #: conversationlist_laeroth.json:cuned_b_2a
 msgid "You again! I told you to talk to Jerelin."
-msgstr ""
+msgstr "Du wieder! Ich habe Euch gesagt, Ihr sollt mit Jerelin sprechen."
 
 #: conversationlist_laeroth.json:cuned_b_2a:0
 msgid "Sorry. Jerelin refused to talk to me or help me."
 msgstr ""
+"Tut mir Leid. Jerelin weigerte sich, mit mir zu reden oder mir zu helfen."
 
 #: conversationlist_laeroth.json:cuned_b_3
 msgid ""
@@ -60328,43 +60852,55 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It looks even duller.]"
 msgstr ""
+"Er war immer stur. Du solltest mit meiner Mutter Audela sprechen. Er hörte "
+"den meisten Menschen nicht zu, aber er hörte ihr zu. Auf Wiedersehen. \n"
+"\n"
+"[Du nimmst den Ögythkristall. Es sieht sogar noch dumpfer aus.]"
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1
 msgid "This chest looks pretty old. Is it worth taking a look?"
 msgstr ""
+"Diese Truhe sieht ziemlich alt aus. Lohnt es sich, einen Blick darauf zu "
+"werfen?"
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1:0
 msgid "The chest will probably crumble if you touch it."
-msgstr ""
+msgstr "Die Truhe wird wahrscheinlich zerbröckeln, wenn du sie berührst."
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1:1
 msgid "You rummage around in the clutter in the chest."
-msgstr ""
+msgstr "Du wühlst in dem Durcheinander in der Truhe herum."
 
 #: conversationlist_laeroth.json:jerelin_chest_search_2
 msgid "You find a ring that apparently served as a seal for Jerelin, as it had a large \"J\" on it. You take the seal."
 msgstr ""
+"Du findest einen Ring, der anscheinend als Siegel für Jerelin diente, da er "
+"ein großes \"J\" darauf hatte. Du nimmst das Siegel."
 
 #: conversationlist_laeroth.json:jerelin_script_0
 #: conversationlist_laeroth.json:jerelin_script_1
 msgid "Here lies Jerelin, Seventh Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Jerelin, der siebte Herr von Laeroth."
 
 #: conversationlist_laeroth.json:jerelin_script_1:0
 msgid "Place seal on the tomb."
-msgstr ""
+msgstr "Setze das Siegel auf das Grab."
 
 #: conversationlist_laeroth.json:jerelin_script_1:1
 msgid "Call for Jerelin."
-msgstr ""
+msgstr "Rufen Sie nach Jerelin."
 
 #: conversationlist_laeroth.json:jerelin_script_2a
 msgid "You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den stark verminderten Ögythkristall und das Siegel des Jerelin auf "
+"das Grab und singst \"iseray iritspay\""
 
 #: conversationlist_laeroth.json:jerelin_0
 msgid "I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
 msgstr ""
+"Ich mag es nicht, gestört zu werden. Ich mochte es nicht, als ich noch "
+"lebte, und jetzt mag ich es noch mehr!"
 
 #: conversationlist_laeroth.json:jerelin_1
 msgid ""
@@ -60372,67 +60908,103 @@ msgid ""
 "\n"
 "[You take the rather dull looking oegyth crystal.]"
 msgstr ""
+"Hmpff. Geh weg! \n"
+"\n"
+"[Du nimmst den etwas stumpf aussehenden Ögythkristall.]"
 
 #: conversationlist_laeroth.json:jerelin_script_b_2a
 msgid "You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den fast erschöpften Ögythkristall auf das Grab und singst \"iseray "
+"iritspay\""
 
 #: conversationlist_laeroth.json:jerelin_b_2a
 msgid "Again? I told you I don't like being disturbed!"
 msgstr ""
+"Wieder? Ich habe dir doch gesagt, dass ich es nicht mag, gestört zu werden!"
 
 #: conversationlist_laeroth.json:jerelin_b_2a:0
 msgid "I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't."
 msgstr ""
+"Ich habe mit Audela gesprochen. Sie sagte, sie solle dir sagen, dass sie "
+"darauf besteht, dass du das tust. Sie hat sogar gedroht, dass du in dein "
+"Grab greifen sollst, wenn du es nicht tust."
 
 #: conversationlist_laeroth.json:jerelin_b_3
 msgid "It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a condition. He needs to do one more thing, which is to move my grave away from my wife's grave so that I can rest in peace. Now leave!"
 msgstr ""
+"Es scheint, als könne ich meiner nörgelnden Frau nicht entkommen, selbst im "
+"Tod! OK, ich entbinde den Hausmeister vom Eid. Aber es gibt eine Bedingung. "
+"Er muss noch eine Sache tun, nämlich mein Grab vom Grab meiner Frau "
+"wegzubewegen, damit ich in Frieden ruhen kann. Jetzt geh!"
 
 #: conversationlist_laeroth.json:jerelin_script_b_0
 msgid ""
 "Here lies Jerelin, Seventh Lord of Laeroth.\n"
 "In peace at last."
 msgstr ""
+"Hier ruht Jerelin, der siebte Herr von Laeroth.\n"
+"Endlich in Frieden."
 
 #: conversationlist_laeroth.json:dresser_1
 msgid "You rummage around in the dresser. You have found a fancy looking key!"
 msgstr ""
+"Du wühlst in der Kommode herum. Sie haben einen schick aussehenden Schlüssel "
+"gefunden!"
 
 #: conversationlist_laeroth.json:jewelry_box_1
 msgid "This looks interesting. Could be a jewelry box. I has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
 msgstr ""
+"Das sieht interessant aus. Könnte eine Schmuckschatulle sein. Ich habe \"A\" "
+"darauf geschrieben. Er ist jedoch verschlossen und zu schwer, um ihn ins "
+"Grab zu bringen."
 
 #: conversationlist_laeroth.json:jewelry_box_2
 msgid "The key fits the box! You turn it, and the lid springs open. It appears to be mainly full of trinkets and keepsakes. You rummage around inside, and find a necklace with \"With love to Audela\" written on the back. This should work!"
 msgstr ""
+"Der Schlüssel passt in die Box! Du drehst ihn und der Deckel springt auf. Es "
+"scheint hauptsächlich mit Schmuck und Andenken gefüllt zu sein. Du wühlst im "
+"Inneren herum und findest eine Halskette mit der Aufschrift \"With love to "
+"Audela\" auf der Rückseite. Das sollte funktionieren!"
 
 #: conversationlist_laeroth.json:audela_script_0
 #: conversationlist_laeroth.json:audela_script_1
 msgid "Here lies Audela, wife of Jerelin."
-msgstr ""
+msgstr "Hier ruht Audela, die Frau von Jerelin."
 
 #: conversationlist_laeroth.json:audela_script_1:0
 msgid "Place Audela's necklace on the tomb."
-msgstr ""
+msgstr "Lege Audelas Halskette auf das Grab."
 
 #: conversationlist_laeroth.json:audela_script_2a
 msgid "You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Du legst den stark verkleinerten Ögythkristall und Audelas Halskette auf das "
+"Grab und singst \"iseray iritspay\""
 
 #: conversationlist_laeroth.json:audela_0
 msgid "Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
 msgstr ""
+"Warum hast du mich gerufen?  Ich war endlich zur Ruhe gekommen, nachdem ich "
+"jahrelang meinem Mann Anweisungen gegeben hatte, was er jeden Tag zu tun "
+"hatte."
 
 #: conversationlist_laeroth.json:audela_1
 #: conversationlist_laeroth.json:lae_prison_01a:0
 #: conversationlist_laeroth.json:lae_prison_02:0
 msgid "What sort of help?"
-msgstr ""
+msgstr "Welche Art von Hilfe?"
 
 #: conversationlist_laeroth.json:audela_1:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I asked Jerelin to release him from the oath. Verigil and Cuned cannot, because it is not their branch of the family. Eyvipa refused, because he was not made Lord. Jerelin just ignored me. Cuned suggested I talk to you about that."
 msgstr ""
+"Eure Familie hat Laeroth verlassen, und es ist jetzt verlassen. Aber der "
+"Hausmeister ist immer noch da. Er ist an einen Eid gebunden, den sein "
+"Ururgroßvater geleistet hat. Da niemand außer ihm mehr hier lebte, bat ich "
+"Jerelin ihn vom Eid zu entbinden. Verigil und Cuned können das nicht, weil "
+"es nicht ihr Zweig der Familie ist. Eyvipa weigerte sich, weil er nicht zum "
+"Herrn gemacht worden war. Jerelin ignorierte mich einfach. Cuned schlug vor, "
+"dass ich mit dir darüber spreche."
 
 #: conversationlist_laeroth.json:audela_2
 msgid ""
@@ -60440,138 +61012,169 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. There is almost no gleam left in it.]"
 msgstr ""
+"So typisch für meinen Mann! Er fand immer Ausreden, um etwas anderes zu tun "
+"als das, was ich von ihm verlangte. Entweder das, oder er hat sich einfach "
+"irgendwo im Herrenhaus versteckt, so dass ich ihn nicht einmal finden "
+"konnte. Gab immer die Ausrede, dass er \"etwas Wichtiges\" tat. Was ist "
+"wichtiger, als das zu tun, was deine Frau dir sagt? Das muss getan werden, "
+"und du sagst ihm, dass ich ihm sage, dass er es tun soll. Wenn er es nicht "
+"tut, wird er meine Gegenwart in seinem Grab spüren! \n"
+"\n"
+"[Du nimmst den Ögythkristall. Es ist fast kein Glanz mehr darin.]"
 
 #: conversationlist_laeroth.json:caretaker_grave_1
 msgid "Here lies Gormelyn, caretaker of Laeroth."
-msgstr ""
+msgstr "Hier liegt Gormelyn, die Hüterin von Laeroth."
 
 #: conversationlist_laeroth.json:caretaker_grave_2
 msgid "Here lies Leofric, caretaker of Laeroth, son of Gormelyn."
-msgstr ""
+msgstr "Hier ruht Leofric, der Verwalter von Laeroth, dem Sohn von Gormelyn."
 
 #: conversationlist_laeroth.json:caretaker_grave_3
 msgid "Here lies Gauron, caretaker of Laeroth, son of Leofric."
-msgstr ""
+msgstr "Hier ruht Gauron, der Verwalter von Laeroth, dem Sohn von Leofric."
 
 #: conversationlist_laeroth.json:caretaker_grave_4
 msgid "Here lies Farpith, caretaker of Laeroth, son of Gauron."
-msgstr ""
+msgstr "Hier ruht Farpith, der Verwalter von Laeroth, dem Sohn Gaurons."
 
 #: conversationlist_laeroth.json:lewan_script_0
 msgid "Here lies Lewan, Fourth Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Lewan, der vierte Herr von Laeroth."
 
 #: conversationlist_laeroth.json:thond_script_0
 msgid "Here lies Thond, Fifth Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Thond, der fünfte Herr von Laeroth."
 
 #: conversationlist_laeroth.json:beconnon_script_0
 msgid "Here lies Beconnon, Sixth Lord of Laeroth."
-msgstr ""
+msgstr "Hier ruht Beconnon, der sechste Herr von Laeroth."
 
 #: conversationlist_laeroth.json:laearothtomb0_1
 msgid "Here lies Breen, a loyal servant."
-msgstr ""
+msgstr "Hier liegt Breen, ein treuer Diener."
 
 #: conversationlist_laeroth.json:laerothtomb0_2
 msgid "Interred here is Snuffy. A loyal dog."
-msgstr ""
+msgstr "Hier ist Snuffy begraben. Ein treuer Hund."
 
 #: conversationlist_laeroth.json:laerothtomb0_3
 msgid "There is no epitaph on this grave. Strange."
-msgstr ""
+msgstr "Auf diesem Grab gibt es kein Epitaph. Seltsam."
 
 #: conversationlist_laeroth.json:laerothtomb0_4
 msgid "Here lies Athonnaith."
-msgstr ""
+msgstr "Hier liegt Athonnaith."
 
 #: conversationlist_laeroth.json:Jenoel_grave
 msgid "Here lies Jenoel, a great friend of the Laeroth family."
-msgstr ""
+msgstr "Hier liegt Jenoel, ein guter Freund der Familie Laeroth."
 
 #: conversationlist_laeroth.json:eraep_0
 msgid "Hello. Can I help you?"
-msgstr ""
+msgstr "Hallo. Kann ich dir helfen?"
 
 #: conversationlist_laeroth.json:eraep_0:0
 msgid "I am looking for my brother, Andor. He looks a bit like me. Have you seen him?"
 msgstr ""
+"Ich bin auf der Suche nach meinem Bruder Andor. Er sieht ein bisschen aus "
+"wie ich. Hast du ihn gesehen?"
 
 #: conversationlist_laeroth.json:eraep_1
 msgid "There was someone that came here recently that looked somewhat like you, but I didn't speak to him. Sorry, that's all the information I can give you."
 msgstr ""
+"Es gab jemanden, der kürzlich hierher kam und der ein bisschen wie du "
+"aussah, aber ich habe nicht mit ihm gesprochen. Entschuldigung, das sind "
+"alle Informationen, die ich Ihnen geben kann."
 
 #: conversationlist_laeroth.json:eraep_1:0
 msgid "OK. Thanks. Bye."
-msgstr ""
+msgstr "OK. Danke. Auf Wiedersehen."
 
 #: conversationlist_laeroth.json:eraep_1:1
 msgid "Thanks. What do you do around here?"
-msgstr ""
+msgstr "Danke. Was machst du hier?"
 
 #: conversationlist_laeroth.json:eraep_2
 msgid "I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous."
 msgstr ""
+"Ich bin wegen der Einsamkeit hierher gekommen. Ich möchte Dramatiker werden. "
+"Also schreibe ich mein erstes Theaterstück. Ich hoffe, dass ich eines Tages "
+"berühmt sein werde."
 
 #: conversationlist_laeroth.json:eraep_2:0
 msgid "Best of luck. Sounds like a boring thing to do to me."
-msgstr ""
+msgstr "Viel Glück. Klingt für mich nach einer langweiligen Sache."
 
 #: conversationlist_laeroth.json:eraep_2:1
 msgid "What is the play about?"
-msgstr ""
+msgstr "Worum geht es in dem Stück?"
 
 #: conversationlist_laeroth.json:eraep_3
 msgid "It is set in a very small village. So I called it \"Hamlet\". An old Dhayavarian word for a very small village.  "
 msgstr ""
+"Es befindet sich in einem sehr kleinen Dorf. Also nannte ich es \"Hamlet\". "
+"Ein altes dhayavarisches Wort für ein sehr kleines Dorf.  "
 
 #: conversationlist_laeroth.json:eraep_3:0
 msgid "Life in a small village? I come from one. It must be a very boring play."
 msgstr ""
+"Leben in einem kleinen Dorf? Ich komme aus einem. Es muss ein sehr "
+"langweiliges Stück sein."
 
 #: conversationlist_laeroth.json:eraep_4
 msgid "Not at all. It involves murder, revenge for the murder, but the murderer knows the avenger is coming, so plots to kill him. There's ghosts too."
 msgstr ""
+"Überhaupt nicht. Es geht um Mord, Rache für den Mord, aber der Mörder weiß, "
+"dass der Rächer kommt, also plant er, ihn zu töten. Es gibt auch Geister."
 
 #: conversationlist_laeroth.json:eraep_4:0
 msgid "OK. Sounds more exciting than I thought. If you finish it and I happen to be close to a showing, perhaps I will watch."
 msgstr ""
+"Klingt spannender als ich dachte. Wenn du es fertig hast und ich zufällig "
+"kurz vor einer Vorführung stehe, werde ich vielleicht zuschauen."
 
 #: conversationlist_laeroth.json:eraep_4:1
 msgid "Sounds exciting! But if you really want to get the audience's attention you need to add some s..."
 msgstr ""
+"Klingt spannend! Aber wenn Sie wirklich die Aufmerksamkeit des Publikums "
+"erregen wollen, müssen Sie einige ..."
 
 #: conversationlist_laeroth.json:eraep_5
 msgid "Enough! It is my play. I do not need your advice!"
-msgstr ""
+msgstr "Genug! Es ist mein Stück. Ich brauche Ihren Rat nicht!"
 
 #: conversationlist_laeroth.json:eraep_5:0
 msgid "OK. I was only going to make a suggestion. Bye."
-msgstr ""
+msgstr "OKAY. Ich wollte nur einen Vorschlag machen. Auf Wiedersehen."
 
 #: conversationlist_laeroth.json:laeroth_exit_1a
 msgid "As you are about to leave Laeroth Manor, you think of the last lord. Where did he go?"
 msgstr ""
+"Als Ihr Laeroth Manor verlassen wollt, denkt Ihr an den letzten Lord. Wo ist "
+"er hin?"
 
 #: conversationlist_laeroth.json:laeroth_exit_1a:0
 msgid "Perhaps I should try to find out more."
-msgstr ""
+msgstr "Vielleicht sollte ich versuchen, mehr herauszufinden."
 
 #: conversationlist_laeroth.json:laeroth_exit_1a:1
 msgid "Maybe there are clues somewhere in the manor."
-msgstr ""
+msgstr "Vielleicht gibt es irgendwo im Herrenhaus Hinweise."
 
 #: conversationlist_laeroth.json:laeroth_exit_1a:2
 msgid "I am just wasting time here. Time to leave."
-msgstr ""
+msgstr "Ich verschwende hier nur Zeit. Zeit zu gehen."
 
 #: conversationlist_laeroth.json:laeroth_exit_1b
 msgid "It doesn't matter where the last lord went."
-msgstr ""
+msgstr "Es spielt keine Rolle, wohin der letzte Lord gegangen ist."
 
 #: conversationlist_laeroth.json:laeroth_exit_1c
 msgid "I will look around. The main quarters are probably a good place to start."
 msgstr ""
+"Ich werde mich umsehen. Die Hauptquartiere sind wahrscheinlich ein guter "
+"Ausgangspunkt."
 
 #: conversationlist_laeroth.json:caretaker_chest_1
 msgid ""
@@ -60583,14 +61186,34 @@ msgid ""
 "I wish you the best,\n"
 "Adakin.\""
 msgstr ""
+"Hier befindet sich eine Truhe, in der sich das befindet, was der Hausmeister "
+"zurückgelassen hat. Vielleicht hat es hier etwas mit dem letzten Herrn zu "
+"tun. \n"
+"\n"
+"Es gibt einen Brief, in dem es heißt\n"
+"»Lieber Moriath. \n"
+"Vielen Dank für Ihren Einsatz im Laufe der Jahre. Leider habe ich "
+"beschlossen, dass es für mich an der Zeit ist, das Herrenhaus zu verlassen. "
+"Ich muss meine Zukunft finden, und ich glaube nicht, dass sie hier ist. Ich "
+"will in den Süden gehen und sehen, was mir das Schicksal bringt. Ich weiß, "
+"dass der Weg hart sein wird, aber ich wurde gut in Waffenfertigkeiten "
+"ausgebildet. Ich kann nicht alles mitnehmen, also habe ich Dinge, die mir "
+"wichtig sind, einschließlich meines Tagebuchs, in eine Truhe im Erdgeschoss "
+"gelegt. Ich werde zurückkommen, wenn ich kann. \n"
+"Ich wünsche Ihnen das Beste,\n"
+"Adakin.\""
 
 #: conversationlist_laeroth.json:adakin_chest_1
 msgid "There is a chest here with \"Adakin\" written on the top. It is locked though. I need the key."
 msgstr ""
+"Hier befindet sich eine Truhe mit der Aufschrift \"Adakin\". Es ist jedoch "
+"verschlossen. Ich brauche den Schlüssel."
 
 #: conversationlist_laeroth.json:adakin_key_search_1
 msgid "This small chest looks like it might contain something useful. Yes! A key that looks about the right size for Adakin's chest!"
 msgstr ""
+"Diese kleine Truhe sieht aus, als könnte sie etwas Nützliches enthalten. Ja! "
+"Ein Schlüssel, der ungefähr die richtige Größe für Adakins Brust hat!"
 
 #: conversationlist_laeroth.json:adakin_chest_2
 msgid ""
@@ -60598,22 +61221,34 @@ msgid ""
 "\n"
 "There's some other nice looking stuff in here too."
 msgstr ""
+"Der Schlüssel funktioniert, und die Truhe ist offen! Hier ist sein Tagebuch. "
+"Es hat aber ein eigenes Schloss, also brauche ich jetzt einen Schlüssel "
+"dafür!\n"
+"\n"
+"Es gibt auch ein paar andere gut aussehende Sachen hier."
 
 #: conversationlist_laeroth.json:adakin_chest_2:0
 msgid "Maybe I should loot the chest. After all, Adakin is not here anymore."
 msgstr ""
+"Vielleicht sollte ich die Truhe plündern. Schließlich ist Adakin nicht mehr "
+"hier."
 
 #: conversationlist_laeroth.json:adakin_chest_2:1
 msgid "It's tempting to loot the chest, but Adakin said he may return for his things. I should leave them."
 msgstr ""
+"Es ist verlockend, die Truhe zu plündern, aber Adakin hat gesagt, dass er "
+"vielleicht zurückkehren wird, um seine Sachen zu holen. Ich sollte sie "
+"verlassen."
 
 #: conversationlist_laeroth.json:adakin_chest_3a
 msgid "There are some nice items here. Let's see: I'll take 3 of these health potions, the sword and this ring."
 msgstr ""
+"Hier gibt es einige schöne Artikel. Mal sehen: Ich nehme 3 dieser "
+"Heiltränke, das Schwert und diesen Ring."
 
 #: conversationlist_laeroth.json:last_lord_final_0a
 msgid "You open the diary and go to the last pages."
-msgstr ""
+msgstr "Du öffnest das Tagebuch und gehst zu den letzten Seiten."
 
 #: conversationlist_laeroth.json:last_lord_final_0b
 msgid ""
@@ -60622,26 +61257,37 @@ msgid ""
 "\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way.\n"
 "Farewell Laeroth.\""
 msgstr ""
+"Er lautet: \n"
+"\n"
+"\"Ich muss gehen und meine Bestimmung finden. Es ist nicht hier auf dem "
+"Herrenhaus, also muss ich losziehen und herausfinden, was vor mir liegt. Ich "
+"fahre nach Süden zur sagenumwobenen Duleian-Straße. Was dann? Ich werde eine "
+"Entscheidung treffen, wenn ich dort bin. Nordwestlich bis Feygard oder "
+"südöstlich bis Nor City? Vielleicht werde ich beide besuchen und erst dann "
+"eine endgültige Entscheidung treffen. Ich hoffe, das Schicksal zeigt mir den "
+"richtigen Weg.\n"
+"Leb wohl, Laeroth.\""
 
 #: conversationlist_laeroth.json:last_lord_final_0b:0
 msgid "I will leave the diary here in the manor."
-msgstr ""
+msgstr "Ich werde das Tagebuch hier im Herrenhaus lassen."
 
 #: conversationlist_laeroth.json:last_lord_final_0c
 msgid "Now I should dedicate myself again to finding Andor, my brother."
 msgstr ""
+"Jetzt sollte ich mich wieder der Suche nach Andor, meinem Bruder, widmen."
 
 #: conversationlist_laeroth.json:brute_fisherman
 msgid "Hush."
-msgstr ""
+msgstr "Sei still."
 
 #: conversationlist_laeroth.json:brute_fisherman:0
 msgid "[low voice] Oh hi, caught anything already?"
-msgstr ""
+msgstr "[leise Stimme] Oh hallo, schon etwas gefangen?"
 
 #: conversationlist_laeroth.json:brute_fisherman:1
 msgid "You don't seem to be used to people coming over here."
-msgstr ""
+msgstr "Du scheinst es nicht gewohnt zu sein, dass Leute hierher kommen?"
 
 #: conversationlist_laeroth.json:brute_fisherman:2
 msgid "About the few people who come this way ..."
@@ -60649,50 +61295,59 @@ msgstr ""
 
 #: conversationlist_laeroth.json:brute_fisherman:3
 msgid "About the monsters along the way here ..."
-msgstr ""
+msgstr "Über die Monster auf dem Weg hierher ..."
 
 #: conversationlist_laeroth.json:brute_fisherman:4
 msgid "I saw something extremely strange."
-msgstr ""
+msgstr "Ich sah etwas äußerst Seltsames."
 
 #: conversationlist_laeroth.json:brute_fisherman:5
 #: conversationlist_laeroth.json:brute_fisherman:6
 msgid "Hi again. Any news?"
-msgstr ""
+msgstr "Hallo nochmal. Gibt es Neuigkeiten?"
 
 #: conversationlist_laeroth.json:brute_fisherman:7
 msgid "Hi Bidro."
-msgstr ""
+msgstr "Hallo Bidro."
 
 #: conversationlist_laeroth.json:brute_fisherman_2
 msgid "Sigh. OK, let's talk. The fish have already fled anyway."
-msgstr ""
+msgstr "Seufzen. OK, lass uns reden. Die Fische sind sowieso schon geflüchtet."
 
 #: conversationlist_laeroth.json:brute_fisherman_4
 msgid "Well yes, you're right. There was a time when this path was almost crowded."
 msgstr ""
+"Nun ja, Sie haben Recht. Es gab eine Zeit, da war dieser Weg fast überfüllt."
 
 #: conversationlist_laeroth.json:brute_fisherman_5
 msgid "It's hard to imagine now. I'm not used to people coming here anymore."
 msgstr ""
+"Das ist heute schwer vorstellbar. Ich bin es nicht mehr gewohnt, dass Leute "
+"hierher kommen."
 
 #: conversationlist_laeroth.json:brute_fisherman_6
 msgid "But I want to introduce myself first. My name is Bidro, I live in Remgard."
 msgstr ""
+"Aber ich möchte mich erst einmal vorstellen. Mein Name ist Bidro, ich wohne "
+"in Remgard."
 
 #: conversationlist_laeroth.json:brute_fisherman_6:0
 msgid ""
 "Nice to meet you. I am $playername.\n"
 "Ehm, may I ask you a question?"
 msgstr ""
+"Es freut mich dich kennenzulernen. Ich bin $playername.\n"
+"Ehm, darf ich dir eine Frage stellen?"
 
 #: conversationlist_laeroth.json:brute_fisherman_7
 msgid "Sure, just ask."
-msgstr ""
+msgstr "Klar, fragen Sie einfach."
 
 #: conversationlist_laeroth.json:brute_fisherman_7:0
 msgid "From a distance I would have thought you were a woman. Why are you wearing women's clothes?"
 msgstr ""
+"Aus der Ferne hätte ich gedacht, du wärst eine Frau. Warum trägst du "
+"Damenkleidung?"
 
 #: conversationlist_laeroth.json:brute_fisherman_7b
 msgid "Because I can. Period, no discussion."
@@ -78161,4 +78816,3 @@ msgstr "Deebos Plantage"
 #: worldmap.xml:world1:laeroth_area
 msgid "Lake Laeroth"
 msgstr ""
-
