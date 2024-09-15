@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2023-08-16 01:59+0000\n"
-"Last-Translator: Jiri Zizkin Zizka <web@zizkin.com>\n"
+"PO-Revision-Date: 2024-09-15 00:10+0000\n"
+"Last-Translator: Nut Andor <nut.andor@posteo.de>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:25+0000\n"
 
 #: [none]
@@ -24610,8 +24610,11 @@ msgid "Where is the Wood settlement?"
 msgstr "Kde se nachází osada v lese?"
 
 #: conversationlist_graveyard1.json:cithurn_62
+#, fuzzy
 msgid "Well $playername, you are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like your small village. My name is Cithurn."
-msgstr "Nuže, jsi mladý a omluvil ses, tak snad budu trochu shovívavý. Jen si pamatuj, že ne všude to chodí jako ve tvé malé vesnici. Jmenuji se Cithurn."
+msgstr ""
+"Nuže, jsi mladý a omluvil ses, tak snad budu trochu shovívavý. Jen si "
+"pamatuj, že ne všude to chodí jako ve tvé malé vesnici. Jmenuji se Cithurn."
 
 #: conversationlist_graveyard1.json:graveyard_corpse2
 msgid "You have small brain but small brain better than no brain. ARGH!!!"
@@ -25891,7 +25894,7 @@ msgstr "[REVIEW]Tohle není labyrint."
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_12
 #: conversationlist_sullengard.json:sullengard_valeria_15
 msgid "Hello $playername."
-msgstr "Ahoj $jméno hráče."
+msgstr "Ahoj $playername."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah2_14
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_14
@@ -26011,7 +26014,9 @@ msgstr "Ahoj, jsem $playername. Jsem rád, že nejsi ve skutečnosti duch."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob_50
 msgid "Hi $playername! We could play together in the tower. It is so boring here as the only kid."
-msgstr "Ahoj $jméno hráče! Mohli bychom si spolu pohrát ve věži. Být tu jediné dítě je nuda."
+msgstr ""
+"Ahoj $playername! Mohli bychom si spolu pohrát ve věži. Být tu jediné dítě "
+"je nuda."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob_50:0
 msgid "Hmm. Maybe later. I have to go now."
@@ -27561,7 +27566,7 @@ msgid ""
 "* Dedicated to $playername * \n"
 " Our help in times of great need"
 msgstr ""
-"* $jméno hráče *\n"
+"* $playername *\n"
 " Náš zachránce v těžkých chvílích"
 
 #: conversationlist_guynmart2.json:guynmart_sign_fog_10a
@@ -50869,7 +50874,9 @@ msgstr "A kde je Andor?!"
 
 #: conversationlist_sullengard.json:parents_argue_70
 msgid "With you off visiting your sister, I had to do all the work around here and watch the house against thieves. So I sent $playername to find Andor."
-msgstr "Když jsi byla na návštěvě u sestry, musel jsem se postarat o všechnu práci a hlídat dům před zloději. Tak jsem poslal $playernamr, aby našel Andora."
+msgstr ""
+"Když jsi byla na návštěvě u sestry, musel jsem se postarat o všechnu práci a "
+"hlídat dům před zloději. Tak jsem poslal $playername, aby našel Andora."
 
 #: conversationlist_sullengard.json:parents_argue_70:0
 msgid "[You decide to chime in] And buy bread. And clear the rats out of the yard ..."
@@ -78057,4 +78064,3 @@ msgstr ""
 #: worldmap.xml:world1:laeroth_area
 msgid "Lake Laeroth"
 msgstr ""
-
