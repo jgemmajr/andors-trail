@@ -232,9 +232,10 @@ public final class ActorStatsController {
 	public void removeAllTemporaryConditions(final Actor actor) {
 		for(int i = actor.conditions.size() - 1; i >= 0; --i) {
 			ActorCondition c = actor.conditions.get(i);
-			if (!c.isTemporaryEffect()) continue;
-			actor.conditions.remove(i);
-			actorConditionListeners.onActorConditionRemoved(actor, c);
+			if (c.isTemporaryEffect() || c.isDurationForeverUntilSleep()) {
+				actor.conditions.remove(i);
+				actorConditionListeners.onActorConditionRemoved(actor, c);
+			}
 		}
 	}
 
