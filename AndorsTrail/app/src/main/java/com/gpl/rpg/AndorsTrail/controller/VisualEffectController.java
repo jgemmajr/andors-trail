@@ -19,11 +19,15 @@ import com.gpl.rpg.AndorsTrail.resource.VisualEffectCollection.VisualEffect;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
+import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.Size;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class VisualEffectController {
 	private int effectCount = 0;
-
+	private final List<VisualEffectAnimation> activeAnimations = new ArrayList<>();
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	private final VisualEffectCollection effectTypes;
@@ -38,8 +42,24 @@ public final class VisualEffectController {
 
 	public void startEffect(Coord position, VisualEffectCollection.VisualEffectID effectID, String displayValue, VisualEffectCompletedCallback callback, int callbackValue) {
 		++effectCount;
-		(new VisualEffectAnimation(effectTypes.getVisualEffect(effectID), position, displayValue, callback, callbackValue))
-		.start();
+		VisualEffectAnimation animation = new VisualEffectAnimation(effectTypes.getVisualEffect(effectID), position, displayValue, callback, callbackValue);
+		activeAnimations.add(animation);
+		animation.start();
+	}
+
+	public void collectAndSendAnimations(VisualEffectAnimation animation) {
+		List<Integer> tileIDs = new ArrayList<>();
+		List<Integer> yOffsets = new ArrayList<>();
+		//There are more elegant ways to fix this, but to get multiple effects to work, this is the quickest fix: increase all other effects that are being played
+		//TODO: if someone got time to make this look nice, be my guest
+		for (VisualEffectAnimation vanimation : activeAnimations) {
+			if (vanimation != animation && vanimation.currentFrame < vanimation.effect.lastFrame) vanimation.currentFrame++;
+			tileIDs.add(vanimation.effect.frameIconIDs[vanimation.currentFrame]);
+			yOffsets.add(-2 * vanimation.currentFrame);
+			L.log("VisualEffectController: collectAndSendAnimations: " + vanimation.currentFrame + " currentFrame, effectCount = " + effectCount);
+		}
+		L.log("VisualEffectController: collectAndSendAnimations: " + activeAnimations.size() + " animations to send, effectCount = " + effectCount);
+		visualEffectFrameListeners.onNewAnimationFrames(activeAnimations, tileIDs, yOffsets);
 	}
 
 	private VisualEffectCollection.VisualEffectID enqueuedEffectID = null;
@@ -111,7 +131,7 @@ public final class VisualEffectController {
 			if (callback != null) callback.onVisualEffectCompleted(callbackValue);
 			visualEffectFrameListeners.onSpriteMoveCompleted(this);
 		}
-		
+
 
 		public void start() {
 			actor.hasVFXRunning = true;
@@ -134,7 +154,19 @@ public final class VisualEffectController {
 		textPaint.setAlpha(255);
 		textPaint.setTextAlign(Align.CENTER);
 	}
-	
+
+	public static class VisualEffectData {
+		public final VisualEffectAnimation effect;
+		public final int tileID;
+		public final int textYOffset;
+
+		public VisualEffectData(VisualEffectAnimation effect, int tileID, int textYOffset) {
+			this.effect = effect;
+			this.tileID = tileID;
+			this.textYOffset = textYOffset;
+		}
+	}
+
 	public final class VisualEffectAnimation extends Handler implements Runnable {
 
 		@Override
@@ -151,17 +183,23 @@ public final class VisualEffectController {
 			++currentFrame;
 			int frame = currentFrame;
 
-			int tileID = effect.frameIconIDs[frame];
-			int textYOffset = -2 * (frame);
+//			int tileID = effect.frameIconIDs[frame];
+//			int textYOffset = -2 * (frame);
+
 			if (frame >= beginFadeAtFrame && displayText != null) {
 				textPaint.setAlpha(255 * (effect.lastFrame - frame) / (effect.lastFrame - beginFadeAtFrame));
 			}
+
 			area.topLeft.y = position.y - 1;
-			visualEffectFrameListeners.onNewAnimationFrame(this, tileID, textYOffset);
+
+			//Fall back to onNewAnimationFrame if the new effect handle process is no longer desired
+//			visualEffectFrameListeners.onNewAnimationFrame(this, tileID, textYOffset);
+			collectAndSendAnimations(this);
 		}
 
 		private void onCompleted() {
 			--effectCount;
+			activeAnimations.remove(this);
 			visualEffectFrameListeners.onAnimationCompleted(this);
 			if (callback != null) callback.onVisualEffectCompleted(callbackValue);
 		}
