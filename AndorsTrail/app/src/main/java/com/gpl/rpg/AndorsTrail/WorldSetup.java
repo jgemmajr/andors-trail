@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail;
 
+import java.io.IOException;
 import java.lang.ref.WeakReference;
 
 import android.content.Context;
@@ -152,6 +153,13 @@ public final class WorldSetup {
 	private void createNewWorld() {
 		Context ctx = androidContext.get();
 		world.model = new ModelContainer(newHeroStartLives, newHeroUnlimitedSaves);
+
+		try {
+			WorldMapController.initializeWorldMap(ctx, world);
+		} catch (IOException e) {
+			L.log("Error initializing worldmap: " + e.toString());
+		}
+
 		world.model.player.initializeNewPlayer(world.dropLists, newHeroName, newHeroIcon);
 
 		controllers.actorStatsController.recalculatePlayerStats(world.model.player);

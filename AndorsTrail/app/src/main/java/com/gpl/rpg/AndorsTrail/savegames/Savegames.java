@@ -104,7 +104,7 @@ public final class Savegames {
 			}
 
 			FileInputStream fos = getInputFile(androidContext, slot);
-			LoadSavegameResult result = loadWorld(androidContext.getResources(), world, controllers, fos, fh);
+			LoadSavegameResult result = loadWorld(androidContext.getResources(), world, controllers, androidContext, fos, fh);
 			fos.close();
 			if (result == LoadSavegameResult.success && slot != SLOT_QUICKSAVE && !world.model.statistics.hasUnlimitedSaves()) {
                 // save to the quicksave slot before deleting the file
@@ -223,7 +223,7 @@ public final class Savegames {
 		dest.close();
 	}
 
-    public static LoadSavegameResult loadWorld(Resources res, WorldContext world, ControllerContext controllers, InputStream inState, FileHeader fh) throws IOException {
+    public static LoadSavegameResult loadWorld(Resources res, WorldContext world, ControllerContext controllers, Context androidContext, InputStream inState, FileHeader fh) throws IOException {
         DataInputStream src = new DataInputStream(inState);
         final FileHeader header = new FileHeader(src, fh.skipIcon);
         if (header.fileversion > AndorsTrailApplication.CURRENT_VERSION)
@@ -231,6 +231,7 @@ public final class Savegames {
 
 		world.maps.readFromParcel(src, world, controllers, header.fileversion);
 		world.model = new ModelContainer(src, world, controllers, header.fileversion);
+		WorldMapController.populateWorldMap(androidContext, world, controllers.getResources());
 		src.close();
 		
 		if (header.fileversion < 45) {
