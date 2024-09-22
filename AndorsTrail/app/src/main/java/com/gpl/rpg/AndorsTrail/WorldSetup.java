@@ -9,9 +9,11 @@ import android.os.AsyncTask;
 
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.controller.WorldMapController;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.resource.ResourceLoader;
 import com.gpl.rpg.AndorsTrail.savegames.Savegames;
+import com.gpl.rpg.AndorsTrail.util.L;
 
 public final class WorldSetup {
 
@@ -156,6 +158,7 @@ public final class WorldSetup {
 
 		try {
 			WorldMapController.initializeWorldMap(ctx, world);
+			WorldMapController.initializeWorldMap(world);
 		} catch (IOException e) {
 			L.log("Error initializing worldmap: " + e.toString());
 		}
