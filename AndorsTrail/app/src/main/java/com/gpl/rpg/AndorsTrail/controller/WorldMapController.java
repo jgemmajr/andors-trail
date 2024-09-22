@@ -316,14 +316,6 @@ public final class WorldMapController {
 		return true;
 	}
 
-	public static void initializeWorldMap(Context context, WorldContext world) throws IOException {
-		ensureWorldmapDirectoryExists(context);
-		File dir = getWorldmapDirectory(context);
-
-		File idFile = new File(dir, world.model.player.id);
-		if (!idFile.exists()) idFile.createNewFile();
-	}
-
 	public static void populateWorldMap(Context context, WorldContext world, Resources res) throws IOException {
 		ensureWorldmapDirectoryExists(context);
 		File dir = getWorldmapDirectory(context);
