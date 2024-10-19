@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="22" height="30" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,83 +184,82 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="22" height="30">
+ <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVlUEOwyAMBBG3/v8RpccoJ9InkH6hb0lRZcmyFrexTaUe9pLEE7OsYbmktATqmlMqOZbZVSdxW373HM0lL37N7R7djf9FXNrP20sPIxftW2Fca6+SS8+8HkhuDfCgMzZRS9mzekCMHdRXhwekJ6hvDg/+VTPOnQJy5lXNc7iU0xk+eLi01g1kXbsv+Dkhz4rKeDvIunZfSCavbYyH5pX60nqVTNKIp3H5Oq3zjLht4JumFfiIvvu0TslcGTsyv7xfC/ebGT0zxzLPo1rt3RmupgNb2dyS
+   eJzllrEOgjAQhpsuxlmn8s7o5IauOLrq4AtgXJxx8R1chQjhInd/W6SVxOHbrv3SHv2PXCu1rzjM45LrN//mje2mXtTns5GR1jwXHchbsyHQuquRkbyzZYfN+0lblyZKrRjWiexNQY3N2959Vq3dMuyANwM1rt6Q39WUvKeI3vqMRcMlsrdsCOGUvLa7vRkeH2+h+9ju9mF4fLyl7mNbw2UIyo+x4DIE5ceUkOZAaKQ5ENs7Zi6idxbSi94ZlxtD+y3lict5v+m3lCeu5x1679I/CZcryHn0nIPSPwmXK+icsecgnYX3H3jH2J/mIQX1V1rjCtr7BUKairY=
   </data>
  </layer>
- <layer name="Objects" width="22" height="30">
+ <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9Vm1KA0EMDXuAggW3eEjxBOIpXE/QXkRZdxE8gGL/WdT+8YcW+6PgBCcaX5PsLIIPSrvz8TZ5eZMpEdHygL7Rq9+CnTHWqbGlMf+fkFheIY7bo9/PmFsXPOPesZhXfixtes95mr9QayINdwVxMV+j+FALBudXkpdVbw9tsLbPeSJwbGGsEQx5y/IrzknOXl6RJugRhqVtBIsDEWnAKKmb1AK9V3JW9RrmeTDi0TEMaeDVZVUTPdX7cXDMQxogNMcmcX7U/lqr9ugPax696nmoLTxbDM2JujOGtEXtSvzl7bf2luQxpj9Kb2qg56FPBZy/aN84e62+ItA9aUwvw7XHlT+HiOJBnBpenw/0bo0FaDgz+Lg+N1N7v1Vz2S91xb4u5/Y5fd4nRJcON+Ok2o9Tg+Pi9zDnOp/Zl8yNOko8nOeZkad4Wed6nTk3h0SPKdbO6Qs9nAP0tNzRnOvV9KvH3Geuu/S9VbwSRxv0FLyjxdNvk5/+tTU0iBDdvw2cHwvohb/+l/sE8xmHMw==
+   eJy9lr9PVEEQx9dLEC0M7w645BUX/R9MTPQ/gE6ttMQ/wcaexlBCyFlYaaGNhTEhHlKTPAQLCrznLxIKyZ3YelqQOMPtZIfJzL59aPgkk717b2e/O7s789a5MYPcuSHYZ7Af+fgZ/i/y8I7aEuyT7xNjq6n7lMJ34DWpL1H6+dAz+R7ZburaG16TfL7630S3oY+ZtcJ8SLvIQzxWnNRuM80jsJ/KOqH2R2MsOZ8d1m+qpfsg2jr0UN/QkYymbUsBY6eYCiVm4rgZ1h6ZnLGtTJw7ElsbDtc+vjhur3dOtzHI54RETaLv47kyWc/vrD5n4Wbm3K3Mfo/5IfMX+VCxV3tt59bAyrb+fg405yO6VAss1htjO9GqmAud00cTzt0DzfuGbi8PtaAOm0aMnHXo8+ZysHfMB/OnJ+rVFyOmfYj5gZ//YYIu1yTjxHIXuZMFI92R143Vjy0R73tlrtq5IhayYA+9buHHsOpHFZSP1rnab+jPOTc6oSbcTagfHDxXuGcDH8fubD1/qyZ8Z2NyrkLuXvPfN9yzPthbw/qRXCVeizP5C/r/UXwyXyfl/naV9R0lnOEUDpimtr9SW+pSveJWtR4cWTes/C3+IV4tz4YVdbIu2j3FyjN5N5No+82R5/b3dNy6UL+fTKTFgdpY7y/4/0us5stze2kmbi9gnJeJusht0KpxlTl9xwAe+7qy6DVpT75VDLrK5mh9E5dZn/96x6hxN3o1Vd1nGfZ7JfEuaiFz2srnp2w+z0DzeUS3ZcWZEP9qwvflvKD69BdR98ut
   </data>
  </layer>
- <layer name="Above" width="22" height="30">
+ <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1VjEOgzAMzBdgqMT/n9DOLOnM0O70BfkDRCrSNbLTnOPchoUv54ttCMEfn4l7f13sZ/XkjuTLPDvpg4eOy/v3jc9Ngl6MZc6XgbeG7FH8cv6rmfUkGrRqvYu+1jyw3FuabFoxX9PQw1uDdx+0wHM2GfTM8Ui01OHlmbQbmPPYbwJz9k7uPLxPaV+mImbtdW1XYAz9kjy6YqnYP5rP9zmEx/z7bNWJ+uLJ86xwSXpG7YjW2ktIfcTOR+88Ye+hns35P0aCdQa1vNLPXNsBVvlGoQ==
+   eJxjYECAm5II9m0g+5UkROwWEv0KSc05JDY1AMj8O0B8F4hfItkFs3snGfbBzCQE3gDVvKWSf2DuhfmFXgAWZsT65ZQgphgXE4ItyYQpTwy4SYafpciwKwlNz0sy7C1GM8MfjzsCsMjB4ppSEE+i/1+i5cVRMLTBZSx5ERncISBPLUBOGQsDzgTS8BU8fjhJgb3BWOzFJoYNkFNWYQM+SPYlCxBWT05ZBQKNaGbHkFlGD3egKTxwdmOrE+iRf19KUi89k2P3YAf4yh9ywCUaxSmsHE0E0nlUyt/E+B25zKyjY7kSw0+5GZxClJsBAwIklB0ge6lpN7HgJo3SHgA44DpI
   </data>
  </layer>
- <layer name="Walkable" width="22" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9lMENQCEIQ53C/Vdww3/4F0O0tAiQcFF4FA2MkWtr/p5tES4Tf+O+9mC5lhd9J6R3d5Sv3LFcRa9lVnH3c48V4Vbp9TQq3KhVcZV6XebNBKtLiavoN4vL/LtSA80l0ov2hLdDurmnvG4uymPfgN0zLJdheXVQnzbuZpEd+9KL+pfKXLBc5FXcDx9voCM=
+   eJzFlkEOwjAMBKPeuHLgaXyBr8ExV14HCFmyjL1ZpzG1tIKqicfbJG77pbX+VjY6MU/GIK1mjtj3javLqzNi6/uIK0IerMfov41rwD+dv/K4Nnd2jaJxHheNzbJRHuEK214za8X4tdcRz+NGfMTVv9av3lsiqWHmbKPwnrOnKm7klTlbUU5mnyGfM72MrWvErGDfms8YcbPniZl7NHd2LsvNBupB2bn/ilHPrWZ7faOSq73ZHlXVJ6yO5LLv/j0cm8++B7z11mxURyV3r18JxH0muKifeDki7mP7zbMy9J7ynu/q/c1w2RzRfeb8Ir+zir4VP3oBztoqPA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="0" y="928" width="288" height="32">
+  <object name="kentsholloshouse1entry" type="mapchange" x="480" y="512" width="32" height="32">
    <properties>
-    <property name="map" value="waterway6"/>
-    <property name="place" value="south"/>
+    <property name="map" value="kentshollowhouse1"/>
+    <property name="place" value="kentshollowhouse1exit"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="32" width="32" height="896">
+  <object name="kentshollowexit" type="mapchange" x="0" y="512" width="32" height="64">
    <properties>
-    <property name="map" value="waterway5"/>
-    <property name="place" value="east"/>
+    <property name="map" value="waterway15"/>
+    <property name="place" value="kentshollowentry"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="0" y="0" width="640" height="32">
+  <object name="kentshollowhouse2entry" type="mapchange" x="352" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="waterway14"/>
-    <property name="place" value="south"/>
+    <property name="map" value="kentshollowhouse2"/>
+    <property name="place" value="kentshollowhouse2exit"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="544" y="800" width="32" height="32">
+  <object name="kentshollowhouse3entry" type="mapchange" x="672" y="800" width="32" height="32">
    <properties>
-    <property name="map" value="waterwaycave"/>
-    <property name="place" value="north"/>
+    <property name="map" value="kentshollowhouse3"/>
+    <property name="place" value="kentshollowhouse3exit"/>
    </properties>
   </object>
-  <object name="kentshollowentry" type="mapchange" x="672" y="384" width="32" height="64">
+  <object name="kentshollowhouse4entry" type="mapchange" x="768" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="kentshollow"/>
-    <property name="place" value="kentshollowexit"/>
+    <property name="map" value="kentshollowhouse4"/>
+    <property name="place" value="kentshollowhouse4exit"/>
+   </properties>
+  </object>
+  <object name="kentwoodentry1" type="mapchange" x="512" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="kentforest1_1"/>
+    <property name="place" value="kentwoodexit1"/>
+   </properties>
+  </object>
+  <object name="kenthollowexit2" type="mapchange" x="896" y="768" width="32" height="128">
+   <properties>
+    <property name="map" value="kentforestsmall"/>
+    <property name="place" value="kentforestsmall"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="burrower_1" type="spawn" x="64" y="64" width="320" height="832">
+  <object name="Object" type="spawn" x="192" y="576" width="384" height="288">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="burrower_1"/>
+    <property name="spawngroup" value="kentman1"/>
    </properties>
   </object>
-  <object name="burrower_1_1" type="spawn" x="384" y="64" width="256" height="608">
+  <object name="Object" type="spawn" x="288" y="896" width="32" height="32">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="burrower_1"/>
-   </properties>
-  </object>
-  <object name="frog_3" type="spawn" x="64" y="64" width="576" height="576">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="frog_3"/>
-   </properties>
-  </object>
-  <object name="burrower_2" type="spawn" x="384" y="672" width="256" height="224">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="burrower_2"/>
+    <property name="spawngroup" value="kentchild1"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>

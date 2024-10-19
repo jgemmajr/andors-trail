@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="16" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,118 +183,64 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="1" name="Ground" width="16" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1VUFuwkAMjBYunGgu/UGRyL2R6Bv7BL7QcGjvKU+gfIFbyBNoGqtr4Ti2dzdND6OwseXxeMehcllWzYxPAzE5U3Ds8WWg9nmHQF4qzuT3RcDJxw5KfCreV2FcPG9M7tzgvHs3Dyo/T4lzz/TO7euL0k/1z7wWpvCm7FUML3pcAs1P2ata6YH7StsPLT8EriW1jpZ/XWTZdwCvHpbeFF7wZ9vXe1jGg3Jzr8fwvpEzaOYADum95dcj46bewFhNzlJ9DbQW/z85M17qDYydyBnqhebdeF5tZzhnCO3izmvpRN6b4T+I8/pabpfIuzZmwnvqjBnmyyGvpqNhfUi+4z3lijcpWuOOGz9fzO0CtbRdkNB53o/VGA3Tkisz1upafoVawLvtfbnp8eSfhRvPmOpCbdq9x876Gfbh8Y7SyVronTSkj5RvAZ0J53xxQy03gVebccqsUS9y4h1DHJ5rr496wdotrCv5BrhKz7Fzv+eNG+dtyX1rHqT1aF0JO6YNuQs35ESvhXj/Aq2Xkvh7Ss3C0B/qhXqGx/Au6FPTEnpPgVw/lrZpDg==
+   eJzbzMnAsHkUj+JRPIpHIAYAckPrAQ==
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Objects" width="16" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBi+gJ1poF1AO7AGj98WsTIwPMYjv0WQcvtnA82fSyB8vZkQakk1Gx9YD5TPAfpxMSvxeqgB1g3i9PRGaKBdQH+AL40jg71MxGNyQDERYX9LjIHhBwGMyx3XyMivsPxwQgy7vD8ZfkXO76C8TSjPKbFg4ngm7OKEwCcS0jdyeD3Cow+f3EAC9LL9MVK6gMnBxGDxC/ILtnBFD9/VQD37sKR7kLnHsaQVXGn1J5JaPmHs/pDBIY4OvmExW4mA3j9Exp0iEWGCDHCpVcahXh2LO7Glq8tIYopI9sPMfohFDzZz8PkDW5ghy2Ozg1igCUwfWkwQ+o04sDwTR/ULzB/Y3BaAo5zAl15h4a0K1KvGBKFB4BXUXmxhI8gO0btREOKuBCxlDXI84sv/m8UQ2AzJ/blY/KLITlwZRgwwZULYaQW1C+SXWib8dhDKL4TC2pIJYjcorLdwYuoHuQE9z+HLW/CwxuOuI4IQu2B2axGoT0RwyFtCwwqZJgRA9sLstiKg/jC0rLsuiMgH2MBBaL2DSw0ucX6kMLrJjGDfYqYvfgPEAGMChu8=
+   eJydU1sSgCAI9Az96W+Pz+rq1QnMI3ih8oNpZShIZhwmgd0NJHrnzvu0WDTUrV393QfnMtRF4B9YzMLfqp1MqkfNyMH5kq+9pm/p6nvyvEdfGNr98dJbDX8Mz78kBSNBP3h8Cv/4JcsC7pv2rzwLBsVnYQZYz99lydf4NQ3S/kj5/L2gl/JxBmg4t9a5cE3lUO8su/tHg7Y/Vpxi252z+8dT3QXdB1LH
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Above" width="16" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBg+4LIYceoOQ9VxMaGKczJhqmXHIoYOLpForxSamZJE2EEJOEyk+4aSvfjiejj6d6jZiy0vUcud2MwRh9rHT2d7qaX+MZ4ygBJ75zLhLu9AAFs8kQvQ3YmrvAMBUss8UvI7teIbZCe+sh1dDmYvpfYTW5+AwBomwvY6C6Py/dHC3ofMNEDI3mA0e+Oh9vBB6Rg89qLHN3I6BYWPsTDp4SxHRl2OLZ2C7AVh5PzETcBsE2H88sQAmL3I+UmaCvmXULvpkhht6hhi0jkp9lLTjbSyF1tYc6GlbWxAhoR6DVuZjmyuLFQeW7lMDMBl72Bpx+4Rp669t5mpa95gBgCf6zkW
+   eJytU9sRwCAIcw33n8CyYNsP7ygHJGDz4ykQwsMxapD5va/nfk3fhqBju0DxOofNJ0B3pG+/M/oRRyfW8xGnrohDVD+inrD5T7VnfgxHZkfxKD/iWORc7b7oM5uPhZ7b6b/ZHFWeigZm97u1/NGDFzeldUG4
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="16" height="20">
   <data encoding="base64" compression="zlib">
-   eJztU0EKwDAI6yv2/y/0h7tKaTVJ62RsggyqJhpdv1rrv7/SPUPzVIuwbfyJ2Wexqn1U8Fbe39d4kf8CzUdmUXizbsbrN5PX487SfcRCeU/cLsu7szdVN/td5SD9ebXeDaH9nfIId+wreme0R3jV3aJzK7w7e2C02q1HNbGx2V5UXObm7JuqLXMrq7iCNdOKwUY0ZYzlRTgiHaO6Sr8BlhHz5Q==
+   eJzbKMbAsBGIyQEbxRCYVD3Y9FNiFjnqidGPy73omBT3EaOXGmYQMh+bGcSEEa74IySHz35ixInVj8/t5OonFAeE7CDWfkLhQUz6I8Y+SvIuLv3EmEWL/ENO+QXTBwCeH17X
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="928" y="128" width="32" height="32">
+  <object id="1" name="kentpollutionentry1" type="mapchange" x="64" y="608" width="384" height="32">
    <properties>
-    <property name="map" value="remgard_church_basement"/>
-    <property name="place" value="west"/>
+    <property name="map" value="kentforestpolluted1"/>
+    <property name="place" value="kentforestpolledexit2"/>
    </properties>
   </object>
-  <object id="2" name="down" type="mapchange" x="32" y="768" width="32" height="32">
+  <object id="2" name="kentpollutionexit1" type="mapchange" x="64" y="0" width="416" height="32">
    <properties>
-    <property name="map" value="island_underground2"/>
-    <property name="place" value="up"/>
+    <property name="map" value="kentpollution2"/>
+    <property name="place" value="kentpollutionentry1"/>
    </properties>
   </object>
-  <object id="3" name="island_underground2_set1" type="script" x="32" y="800" width="64" height="64"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="4" name="crossroads_rat_spawn" type="spawn" x="832" y="96" width="64" height="96">
+  <object id="3" name="sludgewolf1" type="spawn" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sludgewolf1"/>
+   </properties>
+  </object>
+  <object id="4" name="kentdog1" type="spawn" x="64" y="64" width="192" height="192">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="kentdog"/>
+   </properties>
+  </object>
+  <object id="5" name="kentdog2" type="spawn" x="288" y="128" width="192" height="320">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="crossroads_rat"/>
+    <property name="spawngroup" value="kentdog"/>
    </properties>
   </object>
-  <object id="5" name="young_church_rat_spawn1" type="spawn" x="96" y="128" width="576" height="32">
+  <object id="6" name="sludgewolf2" type="spawn" x="224" y="64" width="256" height="64">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="young_church_rat"/>
-   </properties>
-  </object>
-  <object id="6" name="brown_church_rat_spawn_1" type="spawn" x="416" y="512" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brown_church_rat"/>
-   </properties>
-  </object>
-  <object id="7" name="brown_church_rat_spawn_2" type="spawn" x="32" y="256" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brown_church_rat"/>
-   </properties>
-  </object>
-  <object id="8" name="young_church_rat_spanw_2" type="spawn" x="128" y="352" width="160" height="224">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="young_church_rat"/>
-   </properties>
-  </object>
-  <object id="9" name="brown_church_rat_spawn_3" type="spawn" x="544" y="448" width="352" height="320">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="brown_church_rat"/>
-   </properties>
-  </object>
-  <object id="10" name="brown_church_rat_spawn_4" type="spawn" x="192" y="672" width="128" height="32">
-   <properties>
-    <property name="spawngroup" value="brown_church_rat"/>
-   </properties>
-  </object>
-  <object id="11" name="young_church_dweller_spawn_1" type="spawn" x="480" y="352" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="young_church_dweller"/>
-   </properties>
-  </object>
-  <object id="12" name="young_church_dweller_spawn_2" type="spawn" x="672" y="352" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="young_church_dweller"/>
-   </properties>
-  </object>
-  <object id="13" name="church_dweller_spawn_1" type="spawn" x="160" y="768" width="160" height="32">
-   <properties>
-    <property name="spawngroup" value="church_dweller"/>
-   </properties>
-  </object>
-  <object id="14" name="church_dweller_spawn_2" type="spawn" x="800" y="576" width="32" height="128">
-   <properties>
-    <property name="spawngroup" value="church_dweller"/>
-   </properties>
-  </object>
-  <object id="15" name="church_dweller_spawn_2" type="spawn" x="544" y="736" width="192" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="church_dweller"/>
-   </properties>
-  </object>
-  <object id="16" name="adult_church_dweller_spawn_1" type="spawn" x="128" y="864" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="adult_church_dweller"/>
-   </properties>
-  </object>
-  <object id="17" name="adult_church_dweller_spawn_2" type="spawn" x="320" y="864" width="512" height="64">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="adult_church_dweller"/>
+    <property name="spawngroup" value="sludgewolf2"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace"/>
 </map>
