@@ -203,7 +203,7 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 **"replace" and "key" areas need the properties of a requirement.**
 
 - A requirement is defined by the following properties:
-  - "**requireType**" with one of the following textual values: "questProgress", "questLatestProgress", "inventoryRemove", "inventoryKeep", "wear", "skillLevel", "killedMonster", "timerElapsed", "usedItem", "spentGold", "consumedBonemeals", "hasActorCondition".
+  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**factionScore**, "**factionScoreEquals**", "**random**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
   - "**requireID**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
   - "**requireValue**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
   - "**requireNegation**" with the value true or false. false being the default, this property can be omitted completely in this case. When the value is true, the required is fulfilled only when it shouldn't be.
@@ -222,7 +222,7 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 
   - When "requireType" is "**timerElapsed**", the "requireID" property must be a textual value matching the ID of a timer started by a dialogue. The "requireValue" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
 
-  - When "requireType" is "**factionScore**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+  - When "requireType" is "**factionScore**" or "**factionScoreEquals**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum or exact score the player must have for this faction to fulfill this requirement.
 
   - When "requireType" is "**spentGold**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of gold that the player must have spent overall.
 
@@ -804,7 +804,7 @@ A **dialogue** ***can*** have the following fields defined:
 
 
 - A **requirement** ***must*** have the following field defined:
-  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**random**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
+  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**factionScore**, "**factionScoreEquals**", "**random**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
 
 - A **requirement** ***can*** have the following field defined:
     - "**requireID**" with a textual value. As it depends on the "**requireType**" selected, see below for details.
@@ -817,7 +817,7 @@ A **dialogue** ***can*** have the following fields defined:
   - When "requireType" is "**skillLevel**", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "value" field must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
   - When "requireType" is "**killedMonster**", the "requireID" field must have a value matching a NPC ID, and the "value" field must be a numerical value that indicate the number of the given NPC that the player must have killed.
   - When "requireType" is "**timerElapsed**", the "requireID" field must be a textual value matching the ID of a timer started by a dialogue. The "value" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
-  - When "requireType" is "**factionScore**", the "requireID" field must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "value" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+  - When "requireType" is "**factionScore**" or "**factionScoreEquals**", the "requireID" field must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "value" must be a numerical value (positive or negative) indicating the minimum or exact score the player must have for this faction to fulfill this requirement.
   - When "requireType" is "**spentGold**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of gold that the player must have spent overall.
   - When "requireType" is "**consumedBonemeals**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
   - When "requireType" is "**hasActorConditions**", the "requireID" field must have a value matching an actor condition ID. The "value" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
