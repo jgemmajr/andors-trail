@@ -925,5 +925,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"ratdom_skeleton_bone",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"50",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
