@@ -71,7 +71,7 @@ public final class VisualEffectController {
 					animation.durationPassed += updateInterval;
 					animation.updateFrame();
 					animation.update();
-					if (animation.currentFrame >= animation.effect.lastFrame) {
+					if (controllers.preferences.attackspeed_milliseconds <= 0  ||  animation.currentFrame >= animation.effect.lastFrame) {
 						animation.onCompleted();
 						activeAnimations.remove(i);
 						effectCount--;
@@ -168,7 +168,7 @@ public final class VisualEffectController {
 
 		private void updateFrame() {
 			long frameDuration = (long) effect.millisecondPerFrame * controllers.preferences.attackspeed_milliseconds / AndorsTrailPreferences.ATTACKSPEED_DEFAULT_MILLISECONDS;
-			while (durationPassed > frameDuration) {
+			while (frameDuration > 0 && durationPassed > frameDuration) {
 				currentFrame++;
 				durationPassed -= frameDuration;
 			}
