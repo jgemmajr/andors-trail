@@ -256,9 +256,11 @@ public final class ResourceLoader {
 		final Size sz2x2 = new Size(2, 2);
 		final Size sz2x3 = new Size(2, 3);
 		final Size sz3x1 = new Size(3, 1);
+		final Size sz4x1 = new Size(4, 1);
 		final Size sz5x1 = new Size(5, 1);
 		final Size sz6x1 = new Size(6, 1);
 		final Size sz7x1 = new Size(7, 1);
+		final Size sz7x4 = new Size(7, 4);
 		final Size sz8x3 = new Size(8, 3);
 		final Size sz16x8 = new Size(16, 8);
 		final Size sz20x12 = new Size(20, 12);
@@ -321,7 +323,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_cyclops, "monsters_cyclops", sz1x1, sz2x3, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_demon1, "monsters_demon1", sz1x1, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_demon2, "monsters_demon2", sz1x1, sz2x2, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_dogs, "monsters_dogs", sz7x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_dogs, "monsters_dogs", sz7x4, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_eye1, "monsters_eye1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_eye2, "monsters_eye2", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_eye3, "monsters_eye3", sz1x1, sz1x1, mTileSize);
@@ -383,10 +385,11 @@ public final class ResourceLoader {
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", new Size(16, 9), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_border_1, "map_border_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_1, "map_bridge_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_2, "map_bridge_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_brightport, "map_brightport", new Size(16, 7), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_broken_1, "map_broken_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_1, "map_cavewall_1", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_2, "map_cavewall_2", new Size(18, 6), sz1x1, mTileSize);
