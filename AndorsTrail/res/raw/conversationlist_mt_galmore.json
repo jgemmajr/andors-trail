@@ -263,6 +263,30 @@
         "switchToNPC":"thief_seraphina",
         "replies":[
             {
+                "text":"I've been wondering, do you have anything to sell?",
+                "nextPhraseID":"thief_seraphina_helmet_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Yes, ma'am.",
                 "nextPhraseID":"X"
             }
@@ -2657,7 +2681,7 @@
     },
     {
         "id":"captive_girl_55",
-        "message":"Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.",
+        "message":"Well, I am not exactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.",
         "replies":[
             {
                 "text":"Can you help me out a little bit? Do you know anything about them?",
