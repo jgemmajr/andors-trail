@@ -331,10 +331,11 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_ghost1, "monsters_ghost1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_hydra1, "monsters_hydra1", sz1x1, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_insects, "monsters_insects", sz6x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_johny, "monsters_johny", sz20x12, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_karvis1, "monsters_karvis1", sz2x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_karvis2, "monsters_karvis2", new Size(9, 1), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_ld1, "monsters_ld1", new Size(20, 12), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_ld2, "monsters_ld2", new Size(20, 12), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_ld1, "monsters_ld1", sz20x12, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_ld2, "monsters_ld2", sz20x12, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_liches, "monsters_liches", new Size(4, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_mage, "monsters_mage", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_mage2, "monsters_mage2", sz1x1, sz1x1, mTileSize);
@@ -375,7 +376,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_omi1_b, "monsters_omi1_b", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_unknown, "monsters_unknown", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_arulirs, "monsters_arulirs", new Size(8, 2), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_fatboy73, "monsters_fatboy73", new Size(20, 12), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_fatboy73, "monsters_fatboy73", sz20x12, sz1x1, mTileSize);
         loader.prepareTileset(R.drawable.monsters_giantbasilisk, "monsters_giantbasilisk", sz1x1, sz2x2, mTileSize);
         loader.prepareTileset(R.drawable.monsters_gisons, "monsters_gisons", new Size(8, 2), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_bosses_2x2, "monsters_bosses_2x2", sz1x1, sz2x2, mTileSize);
