@@ -61,7 +61,7 @@ public final class VisualEffectController {
 		public void run() {
 			if(!activeAnimations.isEmpty()) {
 				long updateInterval = getEffectUpdateInterval();
-				animationHandler.postDelayed(this, updateInterval);
+				if(updateInterval > 0) animationHandler.postDelayed(this, updateInterval);
 
 				for (int i = 0; i < activeAnimations.size(); i++) {
 					VisualEffectAnimation animation = activeAnimations.get(i);
@@ -155,6 +155,7 @@ public final class VisualEffectController {
 		textPaint.setTextAlign(Align.CENTER);
 	}
 
+	/// only for combat effects, movement & blood splatters etc. are handled elsewhere.
 	public final class VisualEffectAnimation  {
 		public int tileID;
 		public int textYOffset;
@@ -188,8 +189,10 @@ public final class VisualEffectController {
 		}
 
 		public void start() {
-			if (!controllers.preferences.enableUiAnimations) onCompleted();
-			else startAnimation(this);
+            if (!controllers.preferences.enableUiAnimations
+					|| effect.duration == 0
+					|| controllers.preferences.attackspeed_milliseconds <= 0) onCompleted();
+            else startAnimation(this);
 		}
 
 		private int currentFrame = 0;
@@ -289,10 +292,10 @@ public final class VisualEffectController {
 			return -1;
 		}
 	}
-	
+
 	public void asyncUpdateArea(CoordRect area) {
 		visualEffectFrameListeners.onAsyncAreaUpdate(area);
 	}
 
-	
+
 }
