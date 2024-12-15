@@ -26,8 +26,6 @@ import java.util.List;
 
 public final class VisualEffectController {
 	private static final long EFFECT_UPDATE_INTERVAL = 25;
-	private int effectCount = 0;
-
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	private final VisualEffectCollection effectTypes;
@@ -46,7 +44,6 @@ public final class VisualEffectController {
 	}
 
 	public void startEffect(Coord position, VisualEffectCollection.VisualEffectID effectID, String displayValue, VisualEffectCompletedCallback callback, int callbackValue) {
-		++effectCount;
 		VisualEffectAnimation animation = new VisualEffectAnimation(effectTypes.getVisualEffect(effectID), position, displayValue, callback, callbackValue);
 		animation.start();
 	}
@@ -64,7 +61,7 @@ public final class VisualEffectController {
 		public void run() {
 			if(!activeAnimations.isEmpty()) {
 				long updateInterval = getEffectUpdateInterval();
-				animationHandler.postDelayed(this, updateInterval);
+				if(updateInterval > 0) animationHandler.postDelayed(this, updateInterval);
 
 				for (int i = 0; i < activeAnimations.size(); i++) {
 					VisualEffectAnimation animation = activeAnimations.get(i);
@@ -74,7 +71,6 @@ public final class VisualEffectController {
 					if (controllers.preferences.attackspeed_milliseconds <= 0  ||  animation.currentFrame >= animation.effect.lastFrame) {
 						animation.onCompleted();
 						activeAnimations.remove(i);
-						effectCount--;
 						i--;
 					}
 				}
@@ -101,7 +97,6 @@ public final class VisualEffectController {
 	}
 	
 	public void startActorMoveEffect(Actor actor, PredefinedMap map, Coord origin, Coord destination, int duration, VisualEffectCompletedCallback callback, int callbackValue) {
-		++effectCount;
 		(new SpriteMoveAnimation(origin, destination, duration, actor, map, callback, callbackValue))
 		.start();
 	}
@@ -136,7 +131,6 @@ public final class VisualEffectController {
 		}
 
 		private void onCompleted() {
-			--effectCount;
 			actor.hasVFXRunning = false;
 			if (callback != null) callback.onVisualEffectCompleted(callbackValue);
 			visualEffectFrameListeners.onSpriteMoveCompleted(this);
@@ -161,6 +155,7 @@ public final class VisualEffectController {
 		textPaint.setTextAlign(Align.CENTER);
 	}
 
+	/// only for combat effects, movement & blood splatters etc. are handled elsewhere.
 	public final class VisualEffectAnimation  {
 		public int tileID;
 		public int textYOffset;
@@ -194,8 +189,10 @@ public final class VisualEffectController {
 		}
 
 		public void start() {
-			if (!controllers.preferences.enableUiAnimations) onCompleted();
-			else startAnimation(this);
+            if (!controllers.preferences.enableUiAnimations
+					|| effect.duration == 0
+					|| controllers.preferences.attackspeed_milliseconds <= 0) onCompleted();
+            else startAnimation(this);
 		}
 
 		private int currentFrame = 0;
@@ -235,7 +232,7 @@ public final class VisualEffectController {
 	}
 
 	public boolean isRunningVisualEffect() {
-		return effectCount > 0;
+		return !activeAnimations.isEmpty();
 	}
 
 
@@ -295,10 +292,10 @@ public final class VisualEffectController {
 			return -1;
 		}
 	}
-	
+
 	public void asyncUpdateArea(CoordRect area) {
 		visualEffectFrameListeners.onAsyncAreaUpdate(area);
 	}
 
-	
+
 }
