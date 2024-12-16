@@ -1196,6 +1196,17 @@
         "id":"aidem_base_defy_selector",
         "replies":[
             {
+                "text":"Come and get it!",
+                "nextPhraseID":"aidem_base_fight",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":75
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"aidem_base_defy_help_10",
                 "requires":[
@@ -1232,17 +1243,6 @@
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":60
-                    }
-                ]
-            },
-            {
-                "text":"Come and get it!",
-                "nextPhraseID":"aidem_base_fight",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"wanted_men",
-                        "value":75
                     }
                 ]
             }
@@ -3274,6 +3274,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3289,6 +3294,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3304,6 +3314,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3586,6 +3601,66 @@
                 "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"Keys_fix_stn_skeletons",
                 "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h4",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h9",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     }
