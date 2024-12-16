@@ -802,6 +802,7 @@ msgid "No thanks."
 msgstr ""
 
 #: conversationlist_crossglen.json:drunk1:1
+#: conversationlist_crossglen.json:drunk1a:0
 #: conversationlist_rothses.json:rothses_c2:2
 #: conversationlist_omi2.json:ortholion_guard9_10b:1
 msgid "Maybe some other time."
@@ -881,6 +882,30 @@ msgstr ""
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1a
+msgid "Heeeey - come on. Don't be such a spoilsport."
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1a:1
+msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1b
+msgid "Ohh ... [glug glug]"
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1c
+msgid "What an interesting ... [glug]"
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1d
+msgid "... taste [falls over]"
+msgstr ""
+
+#: conversationlist_crossglen.json:drunk1d:0
+msgid "Yes, really. A unique taste. And final - bye."
 msgstr ""
 
 #: conversationlist_crossglen_gruil.json:gruil1
@@ -4506,6 +4531,10 @@ msgstr ""
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_4:0
 msgid "Do you mean like stealing?"
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:thievesguild_pickpocket_4:1
+msgid "Isn't that stealing?"
 msgstr ""
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_5
@@ -18054,13 +18083,15 @@ msgstr ""
 msgid ""
 "South: Brimhaven\n"
 "West: Loneford\n"
-"East: Brightport, Lake Laeroth"
+"East: Lake Laeroth\n"
+"Southeast: Brightport"
 msgstr ""
 
 #: conversationlist_signs_v0611.json:sign_waterway9
 msgid ""
 "West: Loneford\n"
-"East: Brightport, Lake Laeroth"
+"East: Lake Laeroth\n"
+"South: Brightport"
 msgstr ""
 
 #: conversationlist_signs_v0611.json:sign_waterway11
@@ -29734,7 +29765,7 @@ msgid "You look happy again."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
-msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you"
+msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:odirath_1
@@ -46712,7 +46743,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_4a
 msgid ""
-"I'm... *stares at you* \n"
+"I'm... [stares at you] \n"
 "\n"
 "$playername! It's time to end with all of this!"
 msgstr ""
@@ -46771,7 +46802,7 @@ msgid ""
 "\n"
 "Prove the honor of your glorious land. Come face me alone! No guards, no witnesses.\n"
 "\n"
-"[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]"
+"[Ehrenfest leaps unnaturally high, passing above you, and disappears in the blink of an eye]"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_8a:0
@@ -46795,7 +46826,7 @@ msgid "Do you always talk this much, liar?"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_3b
-msgid "*unsheathes his sword* Well, enough talk. I won't ignore your threats, evil creature."
+msgid "[unsheathes his sword] Well, enough talk. I won't ignore your threats, evil creature."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_3b:0
@@ -46810,7 +46841,7 @@ msgstr ""
 msgid ""
 "[People from the tavern start looking at the place where Ortholion and Ehrenfest are about to have a fight]\n"
 "\n"
-"*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!"
+"[looks around] No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_conversation2_5b
@@ -46873,7 +46904,7 @@ msgid "Can I be of help?"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_4b
-msgid "*laughs quietly* Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind."
+msgid "[Laughs quietly] Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_4b:0
@@ -46938,7 +46969,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_7a
 msgid ""
-"*The general effortlessly subdues you, and begins to laugh* \n"
+"[The general effortlessly subdues you, and begins to laugh] \n"
 "\n"
 "Look, take this signet. With this, my soldiers stationed outside the mining tunnel entrance will believe your words. Tell them I went to the Elm mine."
 msgstr ""
@@ -46996,7 +47027,7 @@ msgid "I lost 10000 gold over here."
 msgstr ""
 
 #: conversationlist_omi2.json:fms_1:2
-msgid "*shows the signet* your general has gone to Elm mine. He could be in trouble."
+msgid "[Shows the signet] Your general has gone to Elm mine. He could be in trouble."
 msgstr ""
 
 #: conversationlist_omi2.json:fms_2a
@@ -47004,7 +47035,7 @@ msgid "Yeah, sure. We are here posted by command of General Orhtolion of Feygard
 msgstr ""
 
 #: conversationlist_omi2.json:fms_2a:0
-msgid "*shows the signet* Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine."
+msgid "[shows the signet] Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine."
 msgstr ""
 
 #: conversationlist_omi2.json:fms_2a:1
@@ -47012,7 +47043,7 @@ msgid "What a boring girl! Bye."
 msgstr ""
 
 #: conversationlist_omi2.json:fms_2b
-msgid "*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!"
+msgid "[shouts] Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!"
 msgstr ""
 
 #: conversationlist_omi2.json:fms_3
@@ -47780,9 +47811,9 @@ msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_50a
 msgid ""
-"If only you were stronger...Maybe I could convince you to join us, *cough* but I have to admit my plan was blaming you for Ortholion's death.\n"
+"If only you were stronger...Maybe I could convince you to join us, [cough] but I have to admit my plan was blaming you for Ortholion's death.\n"
 "\n"
-"You know, we're tired of you asking questions here and there, *cough* *cough*."
+"You know, we're tired of you asking questions here and there, [cough] [cough]."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_50b
@@ -47797,7 +47828,7 @@ msgid ""
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_51
-msgid "Don't look at me that way, kid...*laughs*. This is too complicated for a young mind."
+msgid "Don't look at me that way, kid...[laughs]. This is too complicated for a young mind."
 msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_51:1
@@ -48046,7 +48077,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_1
 msgid ""
-"*hic* Drink! *hic* \n"
+"[hic] Drink! [hic] \n"
 "\n"
 "Drink for those who've fallen!"
 msgstr ""
@@ -48096,11 +48127,11 @@ msgid "Suit yourself... But no one else went in there in weeks."
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_2
-msgid "No! *looks at you* This is my beeeeeer, kid! *hic*"
+msgid "No! [looks at you] This is my beeeeeer, kid! [hic]"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_2:0
-msgid "Uh... How he did get drunk that fast?"
+msgid "Uh... How did you get drunk that fast?"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_2:1
@@ -48112,7 +48143,7 @@ msgid "Get out of my way, drunkard!"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_3
-msgid "H..Halt! *hic* Kids not allowed!"
+msgid "H..Halt! [hic] Kids not allowed!"
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_3:0
@@ -56650,12 +56681,12 @@ msgstr ""
 msgid "I would love nothing more than to see you punished for your crimes."
 msgstr ""
 
-#: conversationlist_mt_galmore.json:aidem_base_defy_selector:2
-msgid "What are you waiting for? Go take the fake key to Troublemaker."
+#: conversationlist_mt_galmore.json:aidem_base_defy_selector:0
+msgid "Come and get it!"
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
-msgid "Come and get it!"
+msgid "What are you waiting for? Go take the fake key to Troublemaker."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
@@ -61576,7 +61607,7 @@ msgid "What kind of help?"
 msgstr ""
 
 #: conversationlist_laeroth.json:forenza_island_injured_need_help
-msgid "Nervermind that now. I am injured and I need your help!"
+msgid "Nerver mind that now. I am injured and I need your help!"
 msgstr ""
 
 #: conversationlist_laeroth.json:forenza_island_injured_explained
@@ -63527,7 +63558,7 @@ msgid "Bone?! You mock Gamjee?! Me had enough! Die you will."
 msgstr ""
 
 #: conversationlist_feygard_1.json:wexlow_well_map_change
-msgid "Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding for what feels like every part of your body."
+msgid "Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding from what feels like every part of your body."
 msgstr ""
 
 #: conversationlist_feygard_1.json:village_odilia_start:0
@@ -68589,7 +68620,7 @@ msgid "Venomfang dirk"
 msgstr ""
 
 #: itemlist_omi2.json:venomfang_dagger:description
-msgid "Fast and accurate, just like serpent's fangs."
+msgid "Fast and accurate, delivering a venomous bite to those that dare to confront it."
 msgstr ""
 
 #: itemlist_omi2.json:bwm_olm_boots1
@@ -70067,28 +70098,34 @@ msgid "Tiny rat"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:cave_rat
+#: monsterlist_crossglen_animals.json:cave_rat
 #: monsterlist_v069_monsters.json:puny_caverat
 #: monsterlist_ratdom.json:ratdom_maze_rat2
 msgid "Cave rat"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tough_cave_rat
+#: monsterlist_crossglen_animals.json:tough_cave_rat
 #: monsterlist_ratdom.json:tough_cave_rat3
 msgid "Tough cave rat"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:strong_cave_rat
+#: monsterlist_crossglen_animals.json:strong_cave_rat
 msgid "Strong cave rat"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:black_ant
 #: monsterlist_crossglen_animals.json:black_ant
 msgid "Black ant"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:small_wasp
+#: monsterlist_crossglen_animals.json:small_wasp
 msgid "Small wasp"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:beetle
 #: monsterlist_crossglen_animals.json:beetle
 #: monsterlist_guynmart.json:guynmart_fighter1
 #: monsterlist_guynmart.json:guynmart_fighter2
@@ -70096,83 +70133,107 @@ msgid "Beetle"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:forest_wasp
+#: monsterlist_crossglen_animals.json:forest_wasp
 msgid "Forest wasp"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:forest_ant
 #: monsterlist_crossglen_animals.json:forest_ant
 msgid "Forest ant"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:yellow_forest_ant
+#: monsterlist_crossglen_animals.json:yellow_forest_ant
 msgid "Yellow forest ant"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:small_rabid_dog
 #: monsterlist_crossglen_animals.json:small_rabid_dog
 msgid "Small rabid dog"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:forest_snake
+#: monsterlist_crossglen_animals.json:forest_snake
 msgid "Forest snake"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:young_cave_snake
 #: monsterlist_crossglen_animals.json:young_cave_snake
 msgid "Young cave snake"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:cave_snake
+#: monsterlist_crossglen_animals.json:cave_snake
 msgid "Cave snake"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:venomous_cave_snake
 #: monsterlist_crossglen_animals.json:venomous_cave_snake
 msgid "Venomous cave snake"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tough_cave_snake
+#: monsterlist_crossglen_animals.json:tough_cave_snake
 msgid "Tough cave snake"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:basilisk
 #: monsterlist_crossglen_animals.json:basilisk
 msgid "Basilisk"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:snake_servant
+#: monsterlist_crossglen_animals.json:snake_servant
 msgid "Snake servant"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:snake_master
 #: monsterlist_crossglen_animals.json:snake_master
 msgid "Snake master"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:rabid_boar
+#: monsterlist_crossglen_animals.json:rabid_boar
 msgid "Rabid boar"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:rabid_fox
 #: monsterlist_crossglen_animals.json:rabid_fox
 msgid "Rabid fox"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:yellow_cave_ant
+#: monsterlist_crossglen_animals.json:yellow_cave_ant
 msgid "Yellow cave ant"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:young_teeth_critter
 #: monsterlist_crossglen_animals.json:young_teeth_critter
 msgid "Young teeth critter"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:teeth_critter
+#: monsterlist_crossglen_animals.json:teeth_critter
 msgid "Teeth critter"
 msgstr ""
 
+#: monsterlist_crossglen_animals.json:young_minotaur
 #: monsterlist_crossglen_animals.json:young_minotaur
 msgid "Young minotaur"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:strong_minotaur
+#: monsterlist_crossglen_animals.json:strong_minotaur
 msgid "Strong minotaur"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:irogotu
+#: monsterlist_crossglen_animals.json:irogotu
 msgid "Irogotu"
+msgstr ""
+
+#: monsterlist_crossglen_animals.json:reindeer
+msgid "Reindeer"
 msgstr ""
 
 #: monsterlist_crossglen_npcs.json:mikhail
