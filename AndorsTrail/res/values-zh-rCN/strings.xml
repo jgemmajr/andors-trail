@@ -147,9 +147,7 @@
     <string name="questlog_includecompleted_includecompleted">所有任务</string>
     <string name="questlog_includecompleted_prompt">选择要显示的任务</string>
     <string name="dialog_permission_information_title">加载和保存游戏</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nAndor\'s Trail将会向你申请储存设备的访问权限用于储存和加载游戏存档，不会用作他途。"</string>
+    <string name="dialog_newversion_permission_information">\n\nAndor\'s Trail将会向你申请储存设备的访问权限用于储存和加载游戏存档，不会用作他途。</string>
     <string name="about_button2">制作组</string>
     <string name="traitsinfo_defense_chance">格挡率：</string>
     <string name="dialog_rest_message">你已经休息，并恢复了生命值。</string>
@@ -324,7 +322,7 @@
     <string name="questlog_queststatus_inprogress">进行中</string>
     <string name="questlog_includecompleted_onlycompleted">已完成的任务</string>
     <string name="questlog_includecompleted_hidecompleted">进行中的任务</string>
-    <string name="about_contents1">欢迎来到 Andor\'s Trail，一个安卓平台上的开源地牢型RPG。 &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;你可以到我们的游戏论坛 andorstrail.com，提出问题和游玩的意见。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;&lt;a href=http://andorstrail.com/wiki&gt;我们也有 wiki，提供你有关 Andor\'s Trail 的世界、任务、地图...等资讯。 &lt;/a&gt;&lt;br /&gt;&lt;br /&gt; &lt;a href=https://github.com/Zukero/andors-trail/&gt;若你是开发者，可在 github.com 上查看项目的源代码。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;欢迎你到论坛上和其他玩家共同讨论。 &lt;br /&gt;</string>
+    <string name="about_contents1">欢迎游玩 Andor\'s Trail，这是一款基于安卓系统的开源肉鸽RPG。 &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;我们的游戏论坛的网址是 andorstrail.com，在此可以提出属于你的问题和游玩意见。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;&lt;a href=https://andorstrail.gitbook.io/docs&gt;我们也有自己的wiki，可以查看到有关 Andor\'s Trail 的各种游戏资讯。 &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;若你想要基于本游戏开发的话，可以在github.com上获取到源代码&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;欢迎大家到论坛上各抒己见，互相交流。 &lt;br /&gt;</string>
     <string name="skill_longdescription_fightstyle_dualwield">当两个武器同时装备，一个在主手，另一个副手时，获得额外增益。
 \n
 \n如果没有这个技能，当武器装备在副手时，只有%1$d%%的数据可以使用。数据包括命中率、暴击等级、伤害和格挡率。没有这个技能，攻击时AP消耗就是主手武器和副手武器的AP消耗之和。伤害则是两者的较低值。
@@ -332,7 +330,7 @@
 \n技能等级1时，可使用%2$d%%副手武器的数据，攻击时AP消耗是装备的两个武器中的较高值加上%3$d%%的较低值。伤害是两者的平均值。
 \n
 \n技能等级2时，可使用%4$d%%副手武器的数据，攻击时AP消耗等于两个武器中的最高值。伤害是两者的较高值。</string>
-    <string name="skill_longdescription_armor_prof_heavy">每个技能等级，增加重甲的格挡率%1$d%%，减少重甲的移动消耗%2$d%%，减少重甲的攻击速度惩罚%3$d%%。重甲包括重质金属甲、链甲和板甲。</string>
+    <string name="skill_longdescription_armor_prof_heavy">每一技能等级可以增加重甲%1$d%%的格挡率，减轻重甲%2$d%%的移动AP消耗增加的惩罚，减轻重甲%3$d%%的攻击速度下降的惩罚，以及减轻重甲%4$d %%它们所致的使用物品AP消耗增加的惩罚。重甲包括重质金属甲、链甲及板甲。</string>
     <string name="preferences_display_theme_charcoal">黑曜石</string>
     <string name="preferences_display_theme_green">孔雀石</string>
     <string name="preferences_display_theme_blue">钴蓝色</string>
@@ -396,7 +394,7 @@
     <string name="skill_longdescription_fightstyle_2hand">当使用双手武器时，比如双手剑、巨斧或巨锤时，获得额外增益。
 \n
 \n每个技能等级增加双手武器的原始伤害%1$d%%。</string>
-    <string name="skill_longdescription_armor_prof_light">每个技能等级，增加轻甲的格挡率%1$d%%。轻甲包括皮革甲、 轻质金属甲和兽皮甲。</string>
+    <string name="skill_longdescription_armor_prof_light">每一技能等级可以增加轻甲%1$d%%的格挡率。轻甲包括皮革甲、 轻质金属甲和兽皮甲。</string>
     <string name="skill_longdescription_armor_prof_unarmored">在没有装备护甲的情况下战斗时，每个技能等级增加格挡率%1$d。布制衣甲不被认为是护甲。</string>
     <string name="skill_longdescription_armor_prof_shield">装备盾牌时，每个技能等级增加伤害减免%1$d。</string>
     <string name="skill_longdescription_weapon_prof_unarmed">当没有装备武器和盾牌时，每个技能等级提升%1$d命中率，%2$d伤害和%3$d格挡率。</string>
@@ -508,9 +506,9 @@
     <string name="skill_longdescription_resistance_physical_capacity">每一技能等级降低受物理负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如疲劳等。</string>
     <string name="skill_longdescription_resistance_mental">每一技能等级降低受精神负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如恍惚、武器弱化等。</string>
     <string name="skill_longdescription_magicfinder">每一技能等级增加发现非普通物品的概率%1$d%%。</string>
-    <string name="skill_longdescription_lower_exploss">每个技能等级，减少%1$d%%由死亡造成的经验损失。%2$d级将消除因死亡造成的所有经验损失。</string>
+    <string name="skill_longdescription_lower_exploss">每一技能等级可以减少%1$d%%由死亡造成的经验损失。技能升至%2$d级后会彻底不产生因死亡造成的经验损失。</string>
     <string name="skill_longdescription_regeneration">每一技能等级，当没有直接接触怪物时，每回合增加HP%1$d点。</string>
-    <string name="skill_longdescription_evasion">每一技能等级，减少逃跑失败的概率%1$d%%，减少相邻怪物的攻击概率%2$d%%。</string>
+    <string name="skill_longdescription_evasion">每一技能等级可以减少逃跑失败%1$d%%的概率，减少相邻怪物%2$d%%的攻击概率。</string>
     <string name="skill_longdescription_fortitude">每一次人物等级提升，最大HP按技能等级增加%1$d。技能等级提升之前的HP不会变化，只有后续升级时才会增加。</string>
     <string name="skill_longdescription_eater">每一技能等级增加%1$d击杀后获得的HP点。</string>
     <string name="skill_longdescription_cleave">每一技能等级增加%1$d击杀后获得的AP点。</string>
@@ -521,7 +519,7 @@
     <string name="skill_longdescription_more_criticals">每一技能等级增加 %1$d%%装备赋予的暴击率。</string>
     <string name="skill_longdescription_barkskin">每一技能等级增加%1$d伤害抗性。</string>
     <string name="skill_longdescription_dodge">每一技能等级增加%1$d格挡率。</string>
-    <string name="skill_longdescription_barter">每一技能等级提升，买入所需和卖出所获的金币分别按%1$d百分比递减和递增。</string>
+    <string name="skill_longdescription_barter">每一技能等级可以使得买入所需和卖出所获的金币分别按%1$d百分比递减和递增。</string>
     <string name="skill_longdescription_weapon_dmg">每一技能等级增加%1$d最大伤害。</string>
     <string name="skill_longdescription_weapon_chance">每一技能等级增加%1$d命中率。</string>
     <string name="skill_shortdescription_resistance_blood_disorder">抵抗血液类负面状态</string>
@@ -550,7 +548,54 @@
     <string name="skill_title_magicfinder">魔器寻索</string>
     <string name="skill_title_lower_exploss">卷土重来</string>
     <string name="skill_title_evasion">脚底抹油</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;游戏设置&lt;/b&gt;可通过按下设备的菜单按钮找到。&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;界面图标&lt;/h1&gt; &lt;div&gt;&lt;b&gt;宝箱&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;快捷栏 【长按快捷栏槽可分配快捷栏内容】&lt;/p&gt; &lt;div&gt;&lt;b&gt;英雄&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;菜单 【总览，任务，技能，背包 *】&lt;/p&gt; &lt;p&gt;* （在背包界面，点击物品可以看到信息，长按有更多选项）&lt;/p&gt; &lt;div&gt;&lt;b&gt;敌人&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;信息 【仅在战斗中出现】&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗&lt;/h1&gt; &lt;p&gt;战斗时进行操作会消耗 AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;攻击&lt;/b&gt; - 【3AP】 *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* （装备或使用消耗品会影响AP上限或消耗的AP）&lt;/p&gt; &lt;div&gt;&lt;b&gt;使用物品&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗高级操作&lt;/h1&gt; &lt;div&gt;在战斗中，长按英雄附近的方格...&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（选中的方块会高亮，攻击按钮字样会变成移动）&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;【逃跑模式激活- 长按敌人重新进入战斗模式】&lt;/p&gt; &lt;div&gt;&lt;b&gt;改变目标&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（红色高亮表示你选中的敌人）&lt;/p&gt; &lt;p&gt;【目标已改变】&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>游戏设置</b>可通过按下设备上的菜单按钮找到。</div>
+
+<p>________________</p>
+<h1>界面图标</h1>
+
+<div><b>宝箱</b><img alt="chest" src="chest.png" /></div>
+<p>快捷栏 [长按快捷栏槽可分配快捷栏物品]</p>
+
+<div><b>英雄</b><img alt="hero" src="char_hero.png" /></div>
+<p>菜单 [总览，任务，技能，&amp; 背包 *]</p>
+<p>* (在背包界面，点击物品可以看到其对应信息&amp; 长按会显示更多操作选项)</p>
+
+<div><b>敌人</b><img alt="monster" src="monster.png" /></div>
+<p>对应信息 [在战斗中显示]</p>
+
+
+
+<p>________________</p>
+<h1>战斗</h1>
+
+<p>战斗时进行操作会消耗AP(行动点)...</p>
+
+<div><b>攻击</b> - [3AP] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (装备的选择&amp;或者物品的使用可能会改变AP上限&amp;以及操作所需的AP)</p>
+
+<div><b>使用物品</b> - [5AP]</div>
+<div><b>逃跑</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>战斗中的进阶操作</h1>
+
+<div>在战斗中，长按英雄附近的地块...</div>
+
+<div><b>逃跑</b></div>
+<p>(选中的地块会高亮，同时攻击按钮的字样会变成移动)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[这样逃跑模式就激活了- 而此时可以通过长按敌人来切换回战斗模式]</p>
+
+<div><b>更改目标</b></div>
+<p>(红色高亮表示你目前正选中的是此敌人，同时其是可以通过长按更改的)</p>
+<p>[目标已更改]</p>
+
+]]></string>
     <string name="heroinfo_gamestats_bonemeals">使用骨粉药剂</string>
     <string name="heroinfo_gamestats_spent_gold">商店消费金币</string>
     <string name="heroinfo_gamestats_deaths">死亡次数</string>
