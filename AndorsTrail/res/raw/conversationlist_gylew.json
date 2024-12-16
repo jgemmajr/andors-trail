@@ -11,12 +11,38 @@
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105,
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Hey old man.",
-                "nextPhraseID":"gylew_old_man"
+                "nextPhraseID":"gylew_old_man",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",

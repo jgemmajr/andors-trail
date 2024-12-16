@@ -136,7 +136,14 @@
             },
             {
                 "text":"The catacombs were interesting.",
-                "nextPhraseID":"athamyr_complete_12"
+                "nextPhraseID":"athamyr_complete_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bucus",
+                        "value":100
+                    }
+                ]
             }
         ]
     },
