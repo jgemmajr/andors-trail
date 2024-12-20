@@ -183,27 +183,18 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Base" width="20" height="29">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwgwOyDAwbOREYxAfhwQieUNldo+aNmjeQ5m3mHDWPHLCRE5UeBUMDAADfOxIz
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBgFo2BwgxVMDAwbOREYxAfhwQjOUNldo+aNmjeQ5m3mHDWPHLCRE5UeBUMDAAD+6w/P</data>
  </layer>
  <layer id="2" name="Ground" width="20" height="29">
-  <data encoding="base64" compression="zlib">
-   eJztlM0NwjAMRn3tAoRLJmACRmADpqxUMQCBEaAbQDoHfEqtRpbT0LRC4ifSk+PEfql6cFMRNX++loslcjZEued8rF/W35+c+wjaaA+OIz64rqJe+jrFt1kT7c0AcgCXn+jjfyLBuS/w3UR+WoXo7ft87cK+7gN8vOb6DlVwIGrkfFpPqS/Vk0Pzlbok8C3lyvnqgu9O+XgOaXc8j6b4XMKHd1xE3bMzoX5rhrOYV33O5md0jPbOHN+v8QBultix
-  </data>
+  <data encoding="base64" compression="zlib">eJztlM0NwjAMRq3cugBhByZgBDZgsq5AxK3iBr1whnQm+JRajSynoWmFxE+kJ8eJ/VL14KYiav58LWdD5EyIcs/5WL+svz859hG00R4cRnxwXUS99HWKb7Mm2tsB5AAuP9HH/0SCc1/gu4n8ugrRm/f52oV93Qf4eM31nargQNTI+bSeUl+qJ4fmK3VJ4FvKlfPVBd+d8vEc0u54Hk3xuYQP77iIumdnQ/3WDmcxr/qcyc/oGO2dOb5f4wEumayq</data>
  </layer>
  <layer id="3" name="Objects" width="20" height="29">
-  <data encoding="base64" compression="zlib">
-   eJyNVTtLA0EQ3tsqPkBySk4Tg3YKprCLiJ2VmEpbGwtfiJVgI/4ktVPwH6T0QdIEQYugJpY+UAt33B3uu7k9kw+G2d3Z/eab2Uv2LlR/eJ5Q6sVY3WN3obWuGb/C+nzR+ikTmw5jDvIdGuft/NHlkLgqKHXRw+g86kM85ZPzy0Kcqy1iKrT7kYfr8SK0fL3wX30S/fDdhLZvPsg8xMc96EJduG9u/H/7jmyvhgLLNxwkc3xFyf2IhkfnT2S9j4+4KsBBOh88vaP1Aa1UTds51UV8dcfHd1gRepqgZ1/HfaAxad0w/rps10pO16Tzt+Uk175Och7rOMbjRJ8Nz6KxSpC+J5rzmQGtvGiKXiJf1h7sHenlOOfnONWOfMjDd8hrmzpdL2FQzJFvOaMm4m6AJtRb1HGMciHfuuA7gLskT1rfy9ZQO2NC8GFequPE2KHLwf8TLec/y3bcAs5mPn0fnPNDfDcSI6PpNaoB+RqCC3PTuG3WO6JGWh8z3G/ujNQndSFnG2Izpg+z2v5WcY/v+/Npk3xVw7Wg02eQryV6TrWdAsen6AP7px76qB+orxol5wTKc+bsHPIw31KQrpOxEsWxMc+9Ilbd/18tyN7DfAxfTtxLfDvG72bYnrHSeH+25/ieRU75zvLbTuj1zvH7Jvch51bO2nYuHVvzvG/94iiXPp+lj8Bv/73zrPkXM0G7IQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJydlc1KAzEQx7M5tSrIrqXbWkFvCq3grSJ68iR60ifw4EfxKHjxOdQ3UdQXaC8epHhqa/EgttQXUA9mTMLOzk52F/8wZLrJ/GYmIU03EH8aVYUYK+sw1g20TZT/ib6vzetxUc0tBRGDjm8mB9VDWYjbDIP4ti/Ei69j2n4U/+HHeXflKNc7mROBXm9rAtl+WAWal6W0/qjy8J4Va0xrN6J5gGf3YIL6wuvqlXT7DvVeTXuaN+PFc3yF8fVZ+gn1yPGA1cjBABVl5ENfwOsYnj3DNNaZ5P1749dMXQtmfERraAzoUvK+VV1xNpQ1vOQcjikysZyyeFS03v/yDg2H9rhKfmPeds6esLbIfmLeQcZZgAZSG6eqdPc7JXW+cxLbM/doKLXfI3fQxXvN6H12jv+OeVUZZ+Hc4D8xOeB7SbH7kq+P1oWZmLes/BWp7ype4+qX1kZ5TeWvM7kxz8Zh1hWKGZJ9oGfhqg/2A69thslYyHNt7AblsbxNz51zJ4zmSo5ztdo1/397KffN8qy4nHgt8E7UeOqwlrJaJZ+1DG9EcuL3EWTfdhD3zuE31L5vdB1mHhW0HReSc/vM+5ZXF4VkPBXm2boHZrQ1/wLAOZWO</data>
  </layer>
  <layer id="4" name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJy7JcnAcBOIbyHRlABk/bcpNAsEkN10B0jfpaL7BhLg8gvMfdSICxB4BTXjpSSCTQ1wWAzBvozExuZudDFk9djMQ2a/JOBmkFmHSTCPGLMoNQ/mv8NUMu/wqHl0Ne8SieZhU4/NDhZhwubhspvYNIysFp8/yDGPUjXoanGFBwgQigNS7cZnFznmoQNqldcwQGx5jc3e94KU2YvPL+T4E9kv5IYRrL5ErzdfE1HfoAOY/B0s+gDJrGyU
+   eJy7JcnAcBOIbyHRlABK9aMDZDfdAdJ3B5n7yAW4/AJzHzXiAgReQc14KYlgUwMcFkOwLyOxsbkbXQxZPTbzkNkvCbgZZNZhEswjxixKzYP57zCVzDs8ah5dzbtEonnY1GOzg0WYsHm47CY2DSOrxecPcsyjVA26WlzhAQKE4oBUu/HZRY556IBa5TUMEFteY7P3vSBu9YTq0JcE2gHk+BPZL+SGEczd6O5/TUR9gw5g8new6AMAojFtiw==
   </data>
  </layer>
  <layer id="5" name="Top" width="20" height="29">
@@ -211,9 +202,9 @@
    eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
   </data>
  </layer>
- <layer id="6" name="Walkable" width="20" height="29" visible="0">
+ <layer id="6" name="Walkable" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJztk8ENgDAMA5mi+6/AhrxAFcrFDim8sMSvviau2cd2aR/vfB2d/i4r4mRM967ufqt4tIub33zOmS/KcfYSj/rh9sjxVXnZbJ35vjpX+Q9/nu4A9TXr291DUjzyKFbEy2ZQirLJdujy6Kx6s+jtKjm6fSEfyc2G7lF8xXuqVXMQk/LusqsM6tQBsZPeUw==
+   eJzVk8sNwDAIQztF9l8hG/ZWRQh/KMkhSL3hhyHuHM9Xc5z5OtXVR87qiflz5+7y1+WhXZxdY5/jL7vjqkU8lA83R46uymPeOv5u7av817fzsgygvLK8RQ0qxUMaxcp4zIOq7DZshy4P9ao3y96uckc3L0iHyr0NmqP4ive3qj6ceSyfu/xWGShTL8RV3Yw=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -228,12 +219,12 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="3" name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="288" width="32" height="32">
+  <object id="3" name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="320" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="4" name="sullengard_ravine_ledge" type="script" x="32" y="352" width="32" height="32">
+  <object id="4" name="sullengard_ravine_ledge" type="script" x="32" y="384" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -283,7 +274,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="13" name="sull_ravine_grazia" type="spawn" x="320" y="160" width="32" height="32">
    <properties>
     <property name="spawngroup" value="sull_ravine_grazia"/>

@@ -313,12 +313,12 @@
     <string name="skill_prerequisite_other_skill">Pour améliorer cette compétence, tu dois atteindre au moins le niveau %1$d de la compétence %2$s.</string>
     <string name="skill_prerequisite_level">Pour améliorer cette compétence, tu dois atteindre au moins le niveau %1$d.</string>
     <string name="skill_prerequisite_stat">Pour améliorer cette compétence, tu dois avoir au moins %1$d à la statistique de base \"%2$s\".</string>
-    <string name="skill_number_of_increases_one">Tu peux sélectionner une compétence à améliorer.</string>
+    <string name="skill_number_of_increases_one">Vous pouvez choisir une compétence à améliorer. Les points de compétence sont conservés jusqu\'à ce qu\'ils soient utilisés.</string>
     <string name="skill_number_of_increases_several">Tu peux sélectionner %1$d compétences à améliorer.</string>
     <string name="levelup_adds_new_skillpoint">Ce niveau te donne également un nouveau point de compétence à utiliser !</string>
     <string name="loadsave_save_to_new_slot">Créer un nouvel emplacement de sauvegarde</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Écraser la sauvegarde ?</string>
-    <string name="loadsave_save_overwrite_confirmation">Cette sauvegarde contient un nom de personnage différent (%1$s) de ton nom actuel (%2$s). Es-tu sûr de vouloir écraser cette sauvegarde \?</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Écraser la sauvegarde \?</string>
+    <string name="loadsave_save_overwrite_confirmation">Cette sauvegarde contient un nom de joueur (%1$s) différent de votre nom de joueur actuel (%2$s). Êtes-vous sûr de vouloir écraser cette sauvegarde \?</string>
     <string name="iteminfo_displaytypes_ordinary">Ordinaire</string>
     <string name="iteminfo_displaytypes_quest">Objet de quête</string>
     <string name="iteminfo_displaytypes_legendary">Légendaire</string>
@@ -627,6 +627,42 @@
     <string name="preferences_movement_dpad_transparency_title">Transparence du D-pad</string>
     <string name="startscreen_migration_text">Migration des données de sauvegarde.</string>
     <string name="startscreen_migration_title">Migration de Données</string>
-    <string name="startscreen_migration_failure">La migration des données de sauvegarde a échouée.</string>
+    <string name="startscreen_migration_failure">La migration des données de sauvegarde a échoué.</string>
     <string name="monsterinfo_killcount">Éliminations précédentes</string>
+    <string name="loadsave_export">Exporter les parties sauvegardées</string>
+    <string name="loadsave_exporting_savegames">Exportation des sauvegardes</string>
+    <string name="loadsave_export_info">Veuillez sélectionner le répertoire dans lequel exporter tous les fichiers.</string>
+    <string name="loadsave_exporting_worldmap">Exportation de la carte du monde</string>
+    <string name="loadsave_export_successfull">Exportation réussie</string>
+    <string name="loadsave_import_save_successfull">Importation réussie</string>
+    <string name="loadsave_import_save_unsuccessfull">L\'importation a échoué</string>
+    <string name="loadsave_import_file_exists_question">Il existe déjà une sauvegarde dans l\'emplacement cible. Voulez-vous conserver la sauvegarde existante, l\'écraser avec la sauvegarde à importer ou importer la sauvegarde dans un autre emplacement \?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_save_error_unknown">- obsolète -</string>
+    <string name="loadsave_import_error_unknown">Une erreur inconnue s\'est produite lors de l\'importation.</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Écraser l\'emplacement existant \?</string>
+    <string name="loadsave_import_option_keep_existing">Conserver la sauvegarde existante</string>
+    <string name="loadsave_import_option_keep_imported">Conserver la sauvegarde importée</string>
+    <string name="loadsave_import_option_add_as_new">Ajouter comme nouvelle sauvegarde</string>
+    <string name="loadsave_import_existing_description">Sauvegarde existante : Emplacement : %1$s :
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Sauvegarde importée : Emplacement : %1$s :
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap">Importer la carte du monde</string>
+    <string name="loadsave_import_worldmap_info">Veuillez sélectionner le fichier zip de la carte du monde.</string>
+    <string name="loadsave_importing_worldmap">Importation de la carte du monde</string>
+    <string name="loadsave_import_worldmap_successfull">Importation de la carte du monde réussie</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">L\'importation de la carte du monde a échoué</string>
+    <string name="loadsave_import_worldmap_wrong_file">Êtes-vous sûr d\'avoir sélectionné une carte du monde \? Veuillez sélectionner le fichier zip nommé \'worldmap.zip\' qui a été exporté dans votre emplacement d\'exportation.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsolète -</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Écraser les fichiers existants \?</string>
+    <string name="loadsave_import_save">Importer des parties sauvegardées</string>
+    <string name="loadsave_import_save_info">Veuillez sélectionner toutes les sauvegardes que vous souhaitez importer.</string>
+    <string name="loadsave_importing_savegames">Importation des sauvegardes</string>
+    <string name="loadsave_export_error_unknown">Une erreur inconnue s\'est produite lors de l\'exportation.</string>
+    <string name="loadsave_export_unsuccessfull">L\'exportation a échoué</string>
+    <string name="loadsave_export_overwrite_confirmation">Le dossier de destination contient des fichiers portant le même nom que certains fichiers à exporter. Êtes-vous sûr de vouloir écraser ces fichiers \?</string>
 </resources>

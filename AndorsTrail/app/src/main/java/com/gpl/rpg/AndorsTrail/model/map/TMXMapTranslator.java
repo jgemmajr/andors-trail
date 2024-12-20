@@ -115,7 +115,7 @@ public final class TMXMapTranslator {
 						boolean isActiveForNewGame = true;
 						boolean ignoreAreas = false;
 						int maxQuantity = 1;
-						int spawnChance = 10;
+						int respawnspeed = 10;
 						String spawnGroup = object.name;
 						for (TMXProperty p : object.properties) {
 							if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
@@ -126,8 +126,8 @@ public final class TMXMapTranslator {
 							}
 							if (p.name.equalsIgnoreCase("quantity")) {
 								maxQuantity = Integer.parseInt(p.value);
-							} else if (p.name.equalsIgnoreCase("spawnchance")) {
-								spawnChance = Integer.parseInt(p.value);
+							} else if (p.name.equalsIgnoreCase("respawnspeed")) {
+								respawnspeed = Integer.parseInt(p.value);
 							} else if (p.name.equalsIgnoreCase("active")) {
 								isActiveForNewGame = Boolean.parseBoolean(p.value);
 							} else if (p.name.equalsIgnoreCase("ignoreAreas")) {
@@ -155,7 +155,7 @@ public final class TMXMapTranslator {
 						MonsterSpawnArea area = new MonsterSpawnArea(
 								position
 								,new Range(maxQuantity, 0)
-								,new Range(1000, spawnChance)
+								,new Range(1000, respawnspeed)
 								,object.name
 								,monsterTypeIDs
 								,isUnique
@@ -405,6 +405,11 @@ public final class TMXMapTranslator {
 				int tileID = tileCache.getTileID(tile.tilesetName, tile.localId);
 				result.tiles[dx][dy] = tileID;
 				usedTileIDs.add(tileID);
+				if(AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA){
+					if(tileID == 0){
+						L.log("Tileid 0 in "+ tile.tilesetName);
+					}
+				}
 			}
 		}
 		return result;

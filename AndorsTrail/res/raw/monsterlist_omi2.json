@@ -760,7 +760,7 @@
         },
         "deathEffect":{
             "increaseCurrentHP":{
-                "min":15,
+                "min":-15,
                 "max":0
             }
         }
@@ -845,6 +845,14 @@
                 "max":5
             },
             "conditionsSource":[
+                {
+                    "condition":"flesh_rot",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ],
+            "conditionsTarget":[
                 {
                     "condition":"flesh_rot",
                     "magnitude":4,
@@ -986,7 +994,7 @@
         "id":"elm_miner4a",
         "name":"Prim guard skeleton",
         "iconID":"monsters_omi2:19",
-        "maxHP":104,
+        "maxHP":364,
         "moveCost":4,
         "unique":1,
         "monsterClass":"undead",
@@ -1052,7 +1060,7 @@
         "hitEffect":{
             "increaseCurrentHP":{
                 "min":0,
-                "max":0
+                "max":5
             },
             "conditionsSource":[
                 {

@@ -250,7 +250,8 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		if (!loot.hasItemsOrGold()) {
 			world.model.currentMaps.map.removeGroundLoot(loot);
 		} else if (world.model.uiSelections.isInCombat) {
-			killedMonsterBags.add(loot);
+			if(!killedMonsterBags.contains(loot))
+				killedMonsterBags.add(loot);
 		}
 
 		combatActionListeners.onPlayerKilledMonster(killedMonster);
@@ -579,6 +580,13 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	private static final int n = 50;
 	private static final int F = 40;
 	private static final float two_divided_by_PI = (float) (2f / Math.PI);
+	/**
+	 * @implNote
+	 * formula: 50 * (1 + (2 / pi) * atan((attackChance - blockChance - n) / F))
+	 * <br/>
+	 * n = {@value n}; F = {@value F}
+	 * @return [0..100] . 100 == always hit.
+	 */
 	private static int getAttackHitChance(final Actor attacker, final Actor target) {
 		final int c = attacker.getAttackChance() - target.getBlockChance();
 		// (2/pi)*atan(..) will vary from -1 to +1 .

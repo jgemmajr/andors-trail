@@ -3,9 +3,9 @@
     <string name="app_name">Andor’s Trail</string>
     <string name="exit_to_menu">Keluar ke menu</string>
     <string name="menu_settings">Preferensi</string>
-    <string name="menu_save">Simpan</string>
+    <string name="menu_save">Menyimpan</string>
     <string name="menu_save_gamesaved">Permainan telah disimpan pada slot %1$d</string>
-    <string name="menu_save_failed">Gagal menyimpan permainan! Apakah kartu SD terpasang dan dapat ditulis?</string>
+    <string name="menu_save_failed">Gagal menyimpan permainan! Apakah kartu SD sudah terpasang dan dapat ditulis\?</string>
     <string name="loadsave_title_save">Simpan permainan</string>
     <string name="loadsave_title_load">Muat permainan yang tersimpan</string>
     <string name="loadsave_selectslot">Pilih slot</string>
@@ -289,12 +289,12 @@
     <string name="skill_prerequisite_other_skill">Untuk menaikkan level keahlian ini, kamu setidaknya membutuhkan level %1$d untuk keahlian %2$s.</string>
     <string name="skill_prerequisite_level">Untuk menaikkan level keahlian ini, kamu membutuhkan setidaknya %1$d level Pengalaman.</string>
     <string name="skill_prerequisite_stat">Untuk menaikkan level ini, kamu setidaknya membutuhkan %1$d %2$s (statistik dasar).</string>
-    <string name="skill_number_of_increases_one">Kamu dapat memilih satu keahlian untuk ditingkatkan.</string>
+    <string name="skill_number_of_increases_one">Anda dapat memilih satu keterampilan untuk ditingkatkan. Poin keterampilan disimpan sampai digunakan.</string>
     <string name="skill_number_of_increases_several">Kamu dapat memilih %1$d keahlian untuk ditingkatkan.</string>
     <string name="levelup_adds_new_skillpoint">Level ini juga memberikan kamu poin keahlian baru untuk digunakan!</string>
-    <string name="loadsave_save_to_new_slot">Buat slot penyimpanan baru</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Timpa simpanan permainan?</string>
-    <string name="loadsave_save_overwrite_confirmation">Terdapat nama pemain yang berbeda (%1$s) dari nama pemainmu saat ini (%2$s) pada simpanan permainan ini. Kamu yakin untuk menimpa simpanan permainan ini?</string>
+    <string name="loadsave_save_to_new_slot">Buat slot Penyimpanan baru</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Timpa penyimpanan\?</string>
+    <string name="loadsave_save_overwrite_confirmation">Penyimpanan permainan ini berisi nama pemain yang berbeda (%1$s) dengan nama pemain Anda saat ini (%2$s). Apakah Anda yakin ingin menimpa penyimpanan permainan ini\?</string>
     <string name="iteminfo_displaytypes_ordinary">Biasa</string>
     <string name="iteminfo_displaytypes_quest">Barang misi</string>
     <string name="iteminfo_displaytypes_legendary">Legendaris</string>
@@ -592,7 +592,7 @@
     <string name="skill_title_spore_immunity">Kekebalan racun spora</string>
     <string name="storage_permissions_mandatory">Akses ke penyimpanan diperlukan bagi Andor\'s Trail untuk menangani game dan peta dunia yang disimpan. Menutup Andor\'s Trail.</string>
     <string name="change_theme_requires_restart">Mengubah tema UI membutuhkan restart. Andor\'s Trail telah ditutup.</string>
-    <string name="preferences_display_theme_charcoal">Obsidian</string>
+    <string name="preferences_display_theme_charcoal">Biru gelap</string>
     <string name="preferences_display_theme_green">Perunggu</string>
     <string name="preferences_display_theme_blue">Kobalt</string>
     <string name="preferences_display_theme">Pilih tema UI. (game perlu di restart)</string>
@@ -608,4 +608,41 @@
     <string name="startscreen_migration_title">Migrasi Data</string>
     <string name="startscreen_migration_text">Migrasi data savegame.</string>
     <string name="startscreen_migration_failure">Gagal memigrasikan data savegame.</string>
+    <string name="loadsave_export_unsuccessfull">Ekspor gagal</string>
+    <string name="loadsave_export_overwrite_confirmation">Folder target berisi file dengan nama yang sama dari beberapa File yang harus diekspor. Anda yakin ingin menimpa file-file itu\?</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Timpa File yang Ada\?</string>
+    <string name="loadsave_export">Ekspor Penyimpanan</string>
+    <string name="loadsave_export_info">Pilih direktori untuk mengekspor semua file.</string>
+    <string name="loadsave_exporting_savegames">Mengekspor Penyimpanan</string>
+    <string name="loadsave_exporting_worldmap">Mengekspor Peta Dunia</string>
+    <string name="loadsave_export_successfull">Ekspor berhasil</string>
+    <string name="loadsave_export_error_unknown">Terjadi kesalahan yang tidak diketahui saat mengekspor.</string>
+    <string name="loadsave_import_save_error_unknown">- usang -</string>
+    <string name="loadsave_import_error_unknown">Terjadi kesalahan yang tidak diketahui saat mengimpor.</string>
+    <string name="loadsave_import_existing_description">Simpanan yang sudah ada: Slot: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Penyimpanan yang diimpor: Slot: %1$s:
+\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- usang -</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Menimpa Slot yang Sudah Ada\?</string>
+    <string name="loadsave_import_file_exists_question">Sudah ada simpanan game di slot target. Apakah Anda ingin menyimpan penyimpanan yang sudah ada, menimpanya dengan penyimpanan yang diimpor, atau mengimpor penyimpanan ke slot\?
+\n
+\n%1$s
+\n
+\n%2$s</string>
+    <string name="loadsave_import_option_keep_existing">Simpan simpanan yang ada</string>
+    <string name="loadsave_import_option_keep_imported">Simpan simpanan yang diimpor</string>
+    <string name="loadsave_import_option_add_as_new">Tambahkan sebagai Simpanan yang baru</string>
+    <string name="monsterinfo_killcount">Pembunuhan sebelumnya</string>
+    <string name="loadsave_import_worldmap_wrong_file">Apakah Anda yakin Anda memilih peta dunia\? Silakan pilih file zip bernama \'worldmap.zip\' yang diekspor ke lokasi ekspor Anda.</string>
+    <string name="loadsave_import_worldmap_info">Silakan pilih file zip Worldmap.</string>
+    <string name="loadsave_importing_savegames">Mengimpor penyimpanan permainan</string>
+    <string name="loadsave_import_save_successfull">Impor berhasil</string>
+    <string name="loadsave_import_save_unsuccessfull">Impor gagal</string>
+    <string name="loadsave_importing_worldmap">Mengimpor peta dunia</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Impor Worldmap gagal</string>
+    <string name="loadsave_import_worldmap">Impor peta dunia</string>
+    <string name="loadsave_import_worldmap_successfull">Impor Peta Dunia berhasil</string>
+    <string name="loadsave_import_save">Impor penyimpanan permainan</string>
+    <string name="loadsave_import_save_info">Pilih semua penyimpanan permainan yang ingin Anda impor.</string>
 </resources>

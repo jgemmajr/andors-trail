@@ -22,6 +22,7 @@ import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
+import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestLogEntry;
@@ -124,6 +125,9 @@ public final class ConversationController {
 			case changeMapFilter:
 				changeMapFilter(res, effect.mapName, effect.effectID);
 				break;
+			case mapchange:
+				mapchange(effect.mapName, effect.effectID);
+				break;
 		}
 	}
 
@@ -170,6 +174,13 @@ public final class ConversationController {
 			controllers.monsterSpawnController.deactivateSpawnArea(area, removeAllMonsters);
 			if (removeAllMonsters) controllers.effectController.asyncUpdateArea(area.area);
 		}
+	}
+
+	private void mapchange(String mapName, String place) {
+		PredefinedMap map = findMapForScriptEffect(mapName);
+//		controllers.mapController.activateMapObjectGroup(map, mapObjectGroupID);
+//		controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, effect.mapName, effect.effectID, 0, 0); //cbcbcb check
+		controllers.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, mapName, place, 0, 0);
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {
@@ -310,6 +321,18 @@ public final class ConversationController {
 				break;
 			case factionScoreEquals:
 				result = player.getAlignment(requirement.requireID) == requirement.value;
+				break;
+			case date:
+				result = world.model.worldData.getDate(requirement.requireID) >= requirement.value;
+				break;
+			case dateEquals:
+				result = world.model.worldData.getDate(requirement.requireID) == requirement.value;
+				break;
+			case time:
+				result = world.model.worldData.getTime(requirement.requireID) >= requirement.value;
+				break;
+			case timeEquals:
+				result = world.model.worldData.getTime(requirement.requireID) == requirement.value;
 				break;
 			default:
 				result =  true;
